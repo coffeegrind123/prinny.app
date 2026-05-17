@@ -1,0 +1,168 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+    <meta name="color-scheme" content="dark light" />
+    <meta name="theme-color" content="#0b0b10" />
+
+    <title>Prinny Client — Matrix chat that actually feels native</title>
+    <meta
+      name="description"
+      content="A Matrix client packaged with Tauri v2. Native desktop notifications, Discord-style embeds, configurable keybinds, and full Android support."
+    />
+
+    <link rel="icon" href="/assets/favicon.ico" sizes="any" />
+    <link rel="icon" href="/assets/icon-256.png" type="image/png" />
+    <link rel="apple-touch-icon" href="/assets/icon-256.png" />
+
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content="Prinny Client" />
+    <meta
+      property="og:description"
+      content="A Matrix client packaged with Tauri v2. Native desktop notifications, Discord-style embeds, configurable keybinds, and full Android support."
+    />
+    <meta property="og:url" content="https://prinny.app" />
+    <meta property="og:image" content="https://prinny.app/assets/icon-256.png" />
+    <meta name="twitter:card" content="summary" />
+
+    <style>
+      :root {
+        color-scheme: dark;
+        --bg: #0b0b10;
+        --surface: #14141c;
+        --text: #e8e8ef;
+        --muted: #9b9bb0;
+        --accent: #f5b342;
+        --border: rgba(255, 255, 255, 0.08);
+        font-family:
+          ui-sans-serif, system-ui, -apple-system, "Segoe UI", Roboto, Helvetica,
+          Arial, sans-serif;
+      }
+
+      * {
+        box-sizing: border-box;
+      }
+
+      html,
+      body {
+        margin: 0;
+        padding: 0;
+        background: var(--bg);
+        color: var(--text);
+      }
+
+      body {
+        min-height: 100dvh;
+        display: grid;
+        place-items: center;
+        padding: 6rem 1.5rem;
+      }
+
+      main {
+        max-width: 640px;
+        width: 100%;
+        text-align: center;
+      }
+
+      img.logo {
+        width: 128px;
+        height: 128px;
+        image-rendering: -webkit-optimize-contrast;
+      }
+
+      h1 {
+        font-size: clamp(2.25rem, 5vw, 3.5rem);
+        font-weight: 700;
+        letter-spacing: -0.02em;
+        margin: 1.5rem 0 0.75rem;
+      }
+
+      p.tagline {
+        color: var(--muted);
+        font-size: 1.1rem;
+        line-height: 1.5;
+        margin: 0 auto 2.5rem;
+        max-width: 32rem;
+      }
+
+      .links {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 0.75rem;
+      }
+
+      a.btn {
+        display: inline-flex;
+        align-items: center;
+        gap: 0.5rem;
+        padding: 0.75rem 1.25rem;
+        border-radius: 0.75rem;
+        font-weight: 500;
+        text-decoration: none;
+        background: var(--surface);
+        color: var(--text);
+        border: 1px solid var(--border);
+        transition:
+          transform 0.12s ease,
+          border-color 0.12s ease,
+          background 0.12s ease;
+      }
+
+      a.btn:hover {
+        transform: translateY(-1px);
+        border-color: var(--accent);
+      }
+
+      a.btn.primary {
+        background: var(--accent);
+        color: #1a1304;
+        border-color: var(--accent);
+      }
+
+      footer {
+        margin-top: 4rem;
+        color: var(--muted);
+        font-size: 0.875rem;
+      }
+
+      footer a {
+        color: var(--muted);
+      }
+    </style>
+  </head>
+  <body>
+    <main>
+      <img
+        class="logo"
+        src="/assets/prinny-logo.png"
+        alt="Prinny panic face logo"
+        width="128"
+        height="128"
+      />
+      <h1>Prinny Client</h1>
+      <p class="tagline">
+        A Matrix chat client that actually feels native. Cinny, packaged with
+        Tauri v2 — shipping on Windows, macOS, Linux, and Android.
+      </p>
+
+      <div class="links">
+        <a
+          class="btn primary"
+          href="https://github.com/coffeegrind123/prinny-client/releases/latest"
+          >Download</a
+        >
+        <a class="btn" href="https://github.com/coffeegrind123/prinny-client"
+          >GitHub</a
+        >
+      </div>
+
+      <footer>
+        Hard fork of
+        <a href="https://github.com/cinnyapp/cinny-desktop">cinny-desktop</a>.
+        AGPL-3.0-only.
+      </footer>
+    </main>
+  </body>
+</html>
