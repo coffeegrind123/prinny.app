@@ -1,6 +1,6 @@
 {
  "version": 1,
- "generated_at": "2026-08-11T02:55:17.936Z",
+ "generated_at": "2026-08-11T03:00:24.382Z",
  "refresh_interval_hours": 24,
  "counts": {
   "total": 1149,
@@ -69,22 +69,6 @@
    },
    "sources": [
     "asra"
-   ]
-  },
-  {
-   "name": "3dns.eu",
-   "client_domain": "messenger.3dns.eu",
-   "software": "Synapse",
-   "version": "1.158.0rc1",
-   "last_check": "2026-08-05T00:01:28.000Z",
-   "registration": {
-    "open": true
-   },
-   "sources": [
-    "asra"
-   ],
-   "aliases": [
-    "matrix.3dns.eu"
    ]
   },
   {
@@ -6426,6 +6410,22 @@
    ]
   },
   {
+   "name": "matrix.3dns.eu",
+   "client_domain": "messenger.3dns.eu",
+   "software": "Synapse",
+   "version": "1.158.0rc1",
+   "last_check": "2026-08-04T05:15:21.000Z",
+   "registration": {
+    "open": true
+   },
+   "sources": [
+    "asra"
+   ],
+   "aliases": [
+    "3dns.eu"
+   ]
+  },
+  {
    "name": "matrix.3mdeb.com",
    "client_domain": "matrix.3mdeb.com",
    "software": "Synapse",
@@ -8958,6 +8958,22 @@
    ]
   },
   {
+   "name": "matrix.myserver.cz",
+   "client_domain": "matrix.myserver.cz",
+   "software": "Synapse",
+   "version": "1.151.0",
+   "last_check": "2026-08-08T05:27:01.000Z",
+   "registration": {
+    "open": true
+   },
+   "sources": [
+    "asra"
+   ],
+   "aliases": [
+    "myserver.cz"
+   ]
+  },
+  {
    "name": "matrix.nachtalb.io",
    "client_domain": "matrix.nachtalb.io",
    "registration": {
@@ -10548,6 +10564,22 @@
    ]
   },
   {
+   "name": "matrix.wolke7.freeit247.eu",
+   "client_domain": "matrix.wolke7.freeit247.eu",
+   "software": "Synapse",
+   "version": "1.157.2",
+   "last_check": "2026-08-05T09:25:10.000Z",
+   "registration": {
+    "open": true
+   },
+   "sources": [
+    "asra"
+   ],
+   "aliases": [
+    "wolke7.freeit247.eu"
+   ]
+  },
+  {
    "name": "matrix.wrservices.link",
    "client_domain": "matrix.wrservices.link",
    "software": "Synapse",
@@ -10621,22 +10653,6 @@
    },
    "sources": [
     "asra"
-   ]
-  },
-  {
-   "name": "matrixchat.org",
-   "client_domain": "matrixchat.org",
-   "software": "Synapse",
-   "version": "1.157.2",
-   "last_check": "2026-08-05T01:09:31.000Z",
-   "registration": {
-    "open": true
-   },
-   "sources": [
-    "asra"
-   ],
-   "aliases": [
-    "obco.pro"
    ]
   },
   {
@@ -11147,22 +11163,6 @@
    },
    "sources": [
     "asra"
-   ]
-  },
-  {
-   "name": "myserver.cz",
-   "client_domain": "matrix.myserver.cz",
-   "software": "Synapse",
-   "version": "1.151.0",
-   "last_check": "2026-08-05T10:13:42.000Z",
-   "registration": {
-    "open": true
-   },
-   "sources": [
-    "asra"
-   ],
-   "aliases": [
-    "matrix.myserver.cz"
    ]
   },
   {
@@ -11692,6 +11692,22 @@
    ],
    "aliases": [
     "matrix.nzcow.com"
+   ]
+  },
+  {
+   "name": "obco.pro",
+   "client_domain": "matrixchat.org",
+   "software": "Synapse",
+   "version": "1.157.2",
+   "last_check": "2026-08-05T08:00:20.000Z",
+   "registration": {
+    "open": true
+   },
+   "sources": [
+    "asra"
+   ],
+   "aliases": [
+    "matrixchat.org"
    ]
   },
   {
@@ -12515,7 +12531,7 @@
   {
    "name": "quarteredcircle.net",
    "client_domain": "quarteredcircle.net",
-   "last_check": "2026-08-05T16:57:02.000Z",
+   "last_check": "2026-08-03T09:43:27.000Z",
    "registration": {
     "open": true
    },
@@ -15335,22 +15351,6 @@
    },
    "sources": [
     "asra"
-   ]
-  },
-  {
-   "name": "wolke7.freeit247.eu",
-   "client_domain": "matrix.wolke7.freeit247.eu",
-   "software": "Synapse",
-   "version": "1.157.2",
-   "last_check": "2026-08-05T01:01:01.000Z",
-   "registration": {
-    "open": true
-   },
-   "sources": [
-    "asra"
-   ],
-   "aliases": [
-    "matrix.wolke7.freeit247.eu"
    ]
   },
   {
