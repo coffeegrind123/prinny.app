@@ -1,4 +1,4 @@
-const __vite__mapDeps=(i,m=__vite__mapDeps,d=(m.f||(m.f=["assets/rust-crypto-DKxvWI_j.js","assets/core-Bqke1oZi.js","assets/dist-js-5RQa4Wd1.js","assets/event-Bb9UDleE.js","assets/dist-js-STOM9HGP.js","assets/dist-js-DaDRQA4y.js","assets/dist-js-D9r_zCwM.js","assets/ReactPrism-D1_4d2Jt.js","assets/ReactPrism-CLcyLdmD.css","assets/pdf-BlHzx89d.js","assets/preload-helper-kNmmqUCw.js","assets/tray-CD_jAbOW.js","assets/menu-DhTbl68r.js","assets/app-B2ptF9jU.js"])))=>i.map(i=>d[i]);
+const __vite__mapDeps=(i,m=__vite__mapDeps,d=(m.f||(m.f=["assets/rust-crypto-D_g8wJxb.js","assets/core-Bqke1oZi.js","assets/dist-js-5RQa4Wd1.js","assets/event-Bb9UDleE.js","assets/dist-js-STOM9HGP.js","assets/dist-js-DaDRQA4y.js","assets/dist-js-D9r_zCwM.js","assets/ReactPrism-DO28sJaV.js","assets/ReactPrism-CLcyLdmD.css","assets/pdf-BwKTe2yn.js","assets/preload-helper-kNmmqUCw.js","assets/tray-BjM3Tqbm.js","assets/menu-mYq868l8.js","assets/app-CSc7Qub6.js"])))=>i.map(i=>d[i]);
 import { d as e, f as t, m as n, n as r, o as i, p as a, r as o, u as s } from "./core-Bqke1oZi.js";
 import { t as c } from "./preload-helper-kNmmqUCw.js";
 import { a as l, n as u, o as d, r as f, t as p } from "./event-Bb9UDleE.js";
@@ -50293,7 +50293,7 @@ Date.now: "${Date.now()}`);
                 var i = t.getDeviceId();
                 if (i === null) throw Error(`Cannot enable encryption on MatrixClient with unknown deviceId: ensure deviceId is passed in createClient().`);
                 t.logger.debug(`Downloading Rust crypto library`);
-                var a = yield (yield c(()=>import(`./rust-crypto-DKxvWI_j.js`).then(async (m)=>{
+                var a = yield (yield c(()=>import(`./rust-crypto-D_g8wJxb.js`).then(async (m)=>{
                         await m.__tla;
                         return m;
                     }), __vite__mapDeps([0,1]))).initRustCrypto({
@@ -96574,7 +96574,7 @@ https://www.w3ctech.com/topic/2226`));
     }
     let pSe, mSe, fQ, pQ, mQ, hQ, gQ, _Q, vQ, yQ, bQ;
     fSe = 4096;
-    pSe = (0, S.lazy)(()=>c(()=>import(`./ReactPrism-D1_4d2Jt.js`).then(async (m)=>{
+    pSe = (0, S.lazy)(()=>c(()=>import(`./ReactPrism-DO28sJaV.js`).then(async (m)=>{
                 await m.__tla;
                 return m;
             }), __vite__mapDeps([7,1,8])));
@@ -101991,7 +101991,7 @@ https://www.w3ctech.com/topic/2226`));
                         await m.__tla;
                         return m;
                     }), []),
-                c(()=>import(`./tauri-hls-loader-CfdD_alM.js`).then(async (m)=>{
+                c(()=>import(`./tauri-hls-loader-CwGGh-hn.js`).then(async (m)=>{
                         await m.__tla;
                         return m;
                     }), [])
@@ -102915,7 +102915,7 @@ https://www.w3ctech.com/topic/2226`));
             ]
         }));
     var vEe = `ty6xms0 _1mqalmd1 _1mqalmd0`, yEe = `ty6xms1 _1mqalmd1 _1mqalmd0`, H1 = ()=>Er(`/app/`), bEe = ()=>V((0, S.useCallback)(async ()=>{
-            let e = await c(()=>import(`./pdf-BlHzx89d.js`).then(async (m)=>{
+            let e = await c(()=>import(`./pdf-BwKTe2yn.js`).then(async (m)=>{
                     await m.__tla;
                     return m;
                 }), __vite__mapDeps([9,10]));
@@ -103222,7 +103222,7 @@ https://www.w3ctech.com/topic/2226`));
                 })
             ]
         });
-    }), wEe = `_1v145rl0 _1mqalmd1 _1mqalmd0`, TEe = `_1v145rl1 _1mqalmd1 _1mqalmd0`, EEe = `_1v145rl2 _1mqalmd1 _1mqalmd0`, DEe = `_1v145rl3 _1mqalmd1 _1mqalmd0`, OEe = `_1v145rl4`, kEe = (0, S.lazy)(()=>c(()=>import(`./ReactPrism-D1_4d2Jt.js`).then(async (m)=>{
+    }), wEe = `_1v145rl0 _1mqalmd1 _1mqalmd0`, TEe = `_1v145rl1 _1mqalmd1 _1mqalmd0`, EEe = `_1v145rl2 _1mqalmd1 _1mqalmd0`, DEe = `_1v145rl3 _1mqalmd1 _1mqalmd0`, OEe = `_1v145rl4`, kEe = (0, S.lazy)(()=>c(()=>import(`./ReactPrism-DO28sJaV.js`).then(async (m)=>{
                 await m.__tla;
                 return m;
             }), __vite__mapDeps([7,1,8]))), U1 = (0, S.forwardRef)(({ text: e, langName: t, size: n, className: r, ...i }, a)=>(0, j.jsx)(z, {
@@ -152286,7 +152286,7 @@ In order to be iterable, non-array objects must have a [Symbol.iterator]() metho
         (0, S.useEffect)(()=>{
             !zq() || n.current || (n.current = !0, (async ()=>{
                 let { TrayIcon: e } = await c(async ()=>{
-                    let { TrayIcon: e } = await import(`./tray-CD_jAbOW.js`).then(async (m)=>{
+                    let { TrayIcon: e } = await import(`./tray-BjM3Tqbm.js`).then(async (m)=>{
                         await m.__tla;
                         return m;
                     });
@@ -152294,7 +152294,7 @@ In order to be iterable, non-array objects must have a [Symbol.iterator]() metho
                         TrayIcon: e
                     };
                 }, __vite__mapDeps([11,1])), { Menu: n } = await c(async ()=>{
-                    let { Menu: e } = await import(`./menu-DhTbl68r.js`).then(async (m)=>{
+                    let { Menu: e } = await import(`./menu-mYq868l8.js`).then(async (m)=>{
                         await m.__tla;
                         return m;
                     });
@@ -152302,7 +152302,7 @@ In order to be iterable, non-array objects must have a [Symbol.iterator]() metho
                         Menu: e
                     };
                 }, __vite__mapDeps([12,1])), { defaultWindowIcon: r } = await c(async ()=>{
-                    let { defaultWindowIcon: e } = await import(`./app-B2ptF9jU.js`).then(async (m)=>{
+                    let { defaultWindowIcon: e } = await import(`./app-CSc7Qub6.js`).then(async (m)=>{
                         await m.__tla;
                         return m;
                     });
@@ -153206,7 +153206,7 @@ In order to be iterable, non-array objects must have a [Symbol.iterator]() metho
         });
     }
     function P2e() {
-        let e = (0, S.useRef)(null), t = (0, S.useRef)(void 0), n = (0, S.useRef)(new Map), r = J(), i = BY(), [a] = Y(X, `showNotifications`), [o] = Y(X, `isNotificationSounds`), [s] = Y(X, `notificationContentMode`), c = Zs(), l = PAe(), u = VJ(), d = (0, S.useCallback)(({ senderName: e, roomAvatar: n, notificationBody: a, roomId: o, eventId: l })=>{
+        let e = (0, S.useRef)(null), t = (0, S.useRef)(void 0), n = (0, S.useRef)(new Map), r = J(), i = BY(), [a] = Y(X, `showNotifications`), [o] = Y(X, `isNotificationSounds`), [s] = Y(X, `notificationContentMode`), c = Zs(), { navigateRoom: l } = C$(), u = PAe(), d = VJ(), f = (0, S.useCallback)(({ senderName: e, roomAvatar: n, notificationBody: a, roomId: o, eventId: l })=>{
             let u = r.getAccessToken(), d = i && u ? `Bearer ${u}` : void 0;
             if (zq() && Uq(e, {
                 icon: n,
@@ -153232,7 +153232,7 @@ In order to be iterable, non-array objects must have a [Symbol.iterator]() metho
             c,
             r,
             i
-        ]), f = (0, S.useCallback)(()=>{
+        ]), p = (0, S.useCallback)(()=>{
             e.current?.play();
         }, []);
         return (0, S.useEffect)(()=>{
@@ -153242,26 +153242,26 @@ In order to be iterable, non-array objects must have a [Symbol.iterator]() metho
                 if (!o || !s || o === r.getUserId()) return;
                 let c = iK(t), l = n.current.get(t.roomId);
                 if (n.current.set(t.roomId, c), c.total === 0 || l && vJ(_J(l), _J(c))) return;
-                let u = t.getMember(o)?.getMxcAvatarUrl() ?? t.getAvatarFallbackMember()?.getMxcAvatarUrl() ?? t.getMxcAvatarUrl(), f = uK(t, o) ?? bK(o) ?? o, p = e.content ?? e.getContent(), m = p?.msgtype, h = typeof p?.body == `string` ? p.body : ``;
+                let u = t.getMember(o)?.getMxcAvatarUrl() ?? t.getAvatarFallbackMember()?.getMxcAvatarUrl() ?? t.getMxcAvatarUrl(), d = uK(t, o) ?? bK(o) ?? o, p = e.content ?? e.getContent(), m = p?.msgtype, h = typeof p?.body == `string` ? p.body : ``;
                 !h && p?.[`m.new_content`]?.body && (h = p[`m.new_content`].body);
                 let g;
-                g = !h && !m ? `New message` : m === `m.image` ? h ? `📷 ${h}` : `Sent an image` : m === `m.video` ? h ? `🎬 ${h}` : `Sent a video` : m === `m.audio` ? h ? `🎵 ${h}` : `Sent an audio clip` : m === `m.file` ? h ? `📎 ${h}` : `Sent a file` : h || `New message`, d({
-                    senderName: f,
+                g = !h && !m ? `New message` : m === `m.image` ? h ? `📷 ${h}` : `Sent an image` : m === `m.video` ? h ? `🎬 ${h}` : `Sent a video` : m === `m.audio` ? h ? `🎵 ${h}` : `Sent an audio clip` : m === `m.file` ? h ? `📎 ${h}` : `Sent a file` : h || `New message`, f({
+                    senderName: d,
                     roomAvatar: u ? MK(r, u, i, 96, 96, `crop`) ?? void 0 : void 0,
                     notificationBody: g,
                     roomId: t.roomId,
                     eventId: s
                 }), zq() && L9().requestUserAttention(I9.Informational).catch(()=>{});
             }, t = (t, n, i, a, s)=>{
-                if (r.getSyncState() === `SYNCING` && !(document.hasFocus() && (u === n?.roomId || l)) && !(!n || !s.liveEvent || n.isSpaceRoom() || !rK(t) || nK(r, n.roomId) === yW.Mute) && t.getSender() !== r.getUserId()) {
+                if (r.getSyncState() === `SYNCING` && !(document.hasFocus() && (d === n?.roomId || u)) && !(!n || !s.liveEvent || n.isSpaceRoom() || !rK(t) || nK(r, n.roomId) === yW.Mute) && t.getSender() !== r.getUserId()) {
                     if (t.isEncrypted?.()) {
                         let r = ()=>{
-                            t.off?.(SU.Decrypted, r), e(t, n), o && f();
+                            t.off?.(SU.Decrypted, r), e(t, n), o && p();
                         };
                         t.on?.(SU.Decrypted, r);
                         return;
                     }
-                    e(t, n), o && f();
+                    e(t, n), o && p();
                 }
             };
             return r.on(hB.Timeline, t), ()=>{
@@ -153270,33 +153270,33 @@ In order to be iterable, non-array objects must have a [Symbol.iterator]() metho
         }, [
             r,
             o,
-            l,
+            u,
             a,
+            p,
             f,
             d,
-            u,
             i
         ]), (0, S.useEffect)(()=>{
             qge();
         }, []), (0, S.useEffect)(()=>{
             let e;
             return c_e(({ roomId: e, eventId: t })=>{
-                e && c($K(e, t)), L9().setFocus().catch(()=>{}), L9().show().catch(()=>{}), L9().unminimize().catch(()=>{});
+                e && l(e, t), L9().setFocus().catch(()=>{}), L9().show().catch(()=>{}), L9().unminimize().catch(()=>{});
             }).then((t)=>{
                 e = t;
             }), ()=>{
                 e?.();
             };
         }, [
-            c
+            l
         ]), (0, S.useEffect)(()=>{
             let e = (e)=>{
                 let t = e.detail;
-                t?.roomId && c($K(t.roomId, t.eventId));
+                t?.roomId && l(t.roomId, t.eventId);
             };
             return window.addEventListener(`cinny:notification-click`, e), ()=>window.removeEventListener(`cinny:notification-click`, e);
         }, [
-            c
+            l
         ]), (0, j.jsx)(`audio`, {
             ref: e,
             style: {
