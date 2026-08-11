@@ -1,6 +1,6 @@
 {
  "version": 1,
- "generated_at": "2026-08-11T02:07:20.700Z",
+ "generated_at": "2026-08-11T02:55:17.936Z",
  "refresh_interval_hours": 24,
  "counts": {
   "total": 1149,
@@ -29,7 +29,8 @@
    "stale": true,
    "count": 35,
    "error": "fetch failed",
-   "cached_at": "2026-08-11T00:41:06.160Z"
+   "cached_at": "2026-08-11T00:41:06.160Z",
+   "cache_age_days": 0
   }
  ],
  "servers": [
@@ -68,6 +69,22 @@
    },
    "sources": [
     "asra"
+   ]
+  },
+  {
+   "name": "3dns.eu",
+   "client_domain": "messenger.3dns.eu",
+   "software": "Synapse",
+   "version": "1.158.0rc1",
+   "last_check": "2026-08-05T00:01:28.000Z",
+   "registration": {
+    "open": true
+   },
+   "sources": [
+    "asra"
+   ],
+   "aliases": [
+    "matrix.3dns.eu"
    ]
   },
   {
@@ -2721,7 +2738,7 @@
    "client_domain": "matrix.dewrito.net",
    "software": "Synapse",
    "version": "1.157.2",
-   "last_check": "2026-08-02T19:38:48.000Z",
+   "last_check": "2026-08-05T07:36:13.000Z",
    "registration": {
     "open": true,
     "vanilla": true,
@@ -5414,7 +5431,7 @@
   {
    "name": "juke.fr",
    "client_domain": "juke.fr",
-   "last_check": "2026-08-01T12:10:23.000Z",
+   "last_check": "2026-08-11T02:12:05.000Z",
    "registration": {
     "open": true
    },
@@ -6406,22 +6423,6 @@
    },
    "sources": [
     "asra"
-   ]
-  },
-  {
-   "name": "matrix.3dns.eu",
-   "client_domain": "messenger.3dns.eu",
-   "software": "Synapse",
-   "version": "1.158.0rc1",
-   "last_check": "2026-08-04T05:15:21.000Z",
-   "registration": {
-    "open": true
-   },
-   "sources": [
-    "asra"
-   ],
-   "aliases": [
-    "3dns.eu"
    ]
   },
   {
@@ -10150,22 +10151,6 @@
    ]
   },
   {
-   "name": "matrix.tomkoreny.com",
-   "client_domain": "matrix.tomkoreny.com",
-   "software": "Tuwunel",
-   "version": "1.8.3",
-   "last_check": "2026-08-08T15:07:45.000Z",
-   "registration": {
-    "open": true
-   },
-   "sources": [
-    "asra"
-   ],
-   "aliases": [
-    "tomkoreny.com"
-   ]
-  },
-  {
    "name": "matrix.torbox.app",
    "client_domain": "matrix.torbox.app",
    "software": "Synapse",
@@ -10636,6 +10621,22 @@
    },
    "sources": [
     "asra"
+   ]
+  },
+  {
+   "name": "matrixchat.org",
+   "client_domain": "matrixchat.org",
+   "software": "Synapse",
+   "version": "1.157.2",
+   "last_check": "2026-08-05T01:09:31.000Z",
+   "registration": {
+    "open": true
+   },
+   "sources": [
+    "asra"
+   ],
+   "aliases": [
+    "obco.pro"
    ]
   },
   {
@@ -11694,22 +11695,6 @@
    ]
   },
   {
-   "name": "obco.pro",
-   "client_domain": "matrixchat.org",
-   "software": "Synapse",
-   "version": "1.157.2",
-   "last_check": "2026-08-05T08:00:20.000Z",
-   "registration": {
-    "open": true
-   },
-   "sources": [
-    "asra"
-   ],
-   "aliases": [
-    "matrixchat.org"
-   ]
-  },
-  {
    "name": "oblak.be",
    "client_domain": "matrix.oblak.be",
    "software": "Synapse",
@@ -12482,7 +12467,7 @@
   {
    "name": "qauoc.mooo.com",
    "client_domain": "qauoc.mooo.com",
-   "last_check": "2026-08-01T12:39:31.000Z",
+   "last_check": "2026-08-11T02:40:08.000Z",
    "registration": {
     "open": true
    },
@@ -12530,7 +12515,7 @@
   {
    "name": "quarteredcircle.net",
    "client_domain": "quarteredcircle.net",
-   "last_check": "2026-08-03T09:43:27.000Z",
+   "last_check": "2026-08-05T16:57:02.000Z",
    "registration": {
     "open": true
    },
@@ -14613,6 +14598,22 @@
    },
    "sources": [
     "asra"
+   ]
+  },
+  {
+   "name": "tomkoreny.com",
+   "client_domain": "matrix.tomkoreny.com",
+   "software": "Tuwunel",
+   "version": "1.8.2",
+   "last_check": "2026-08-05T07:47:37.000Z",
+   "registration": {
+    "open": true
+   },
+   "sources": [
+    "asra"
+   ],
+   "aliases": [
+    "matrix.tomkoreny.com"
    ]
   },
   {

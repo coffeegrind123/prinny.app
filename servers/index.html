@@ -297,6 +297,47 @@
         border-color: var(--accent);
       }
 
+      .sources {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 0.75rem;
+        margin-bottom: 1.5rem;
+      }
+
+      .source {
+        flex: 1 1 14rem;
+        background: var(--surface);
+        border: 1px solid var(--border);
+        border-radius: 0.6rem;
+        padding: 0.75rem 0.9rem;
+      }
+
+      .source a {
+        font-weight: 600;
+        text-decoration: none;
+      }
+
+      .source .n {
+        color: var(--text);
+        font-size: 1.35rem;
+        font-weight: 700;
+        line-height: 1.1;
+      }
+
+      .source .s {
+        font-size: 0.78rem;
+        color: var(--muted);
+        margin-top: 0.15rem;
+      }
+
+      .source .ok {
+        color: var(--good);
+      }
+
+      .source .stale {
+        color: var(--bad);
+      }
+
       .notice {
         background: var(--surface);
         border: 1px solid var(--border);
@@ -363,6 +404,7 @@
       </p>
       <p class="meta" id="meta">Loading…</p>
 
+      <div id="sources"></div>
       <div id="notices"></div>
 
       <div class="controls">
@@ -508,6 +550,7 @@
         var el = {
           meta: document.getElementById('meta'),
           notices: document.getElementById('notices'),
+          sources: document.getElementById('sources'),
           q: document.getElementById('q'),
           software: document.getElementById('software'),
           rows: document.getElementById('rows'),
@@ -737,13 +780,43 @@
             ' with open registration · ' + data.counts.merged_from_multiple_sources +
             ' confirmed across more than one list · generated ' + gentxt;
 
+          // Only worth mentioning once the cached copy is actually old. These
+          // upstreams are occasionally slow or briefly down; falling back to a
+          // same-day cache is the system working, not a problem to report.
           (data.sources || []).forEach(function (s) {
-            if (s.stale) {
+            if (s.stale && (s.cache_age_days || 0) > 3) {
               notice(
-                'Heads up: ' + s.id + ' could not be reached on the last refresh, so its ' +
-                  'contribution is served from cache and may be out of date.'
+                s.id + ' has been unreachable for ' + s.cache_age_days +
+                  ' days, so its contribution may be out of date.'
               );
             }
+          });
+
+          // Provenance panel. Every row also carries per-source badges; this
+          // says what the three upstreams are and how healthy each one was on
+          // the last refresh.
+          var BLURB = {
+            asra: 'Federation crawl of servers with open registration',
+            joinmatrix: 'Hand-curated, with operator detail',
+            privacydev: 'Privacy posture: Tor, Cloudflare, captcha, email'
+          };
+          (data.sources || []).forEach(function (src) {
+            var card = text('div', 'source');
+            var link = text('a', null, src.id);
+            if (safeUrl(src.url)) {
+              link.href = src.url;
+              link.rel = 'noopener noreferrer';
+              link.target = '_blank';
+            }
+            card.appendChild(link);
+            card.appendChild(text('div', 'n', (src.count || 0).toLocaleString()));
+            card.appendChild(text('div', 's', BLURB[src.id] || ''));
+            var state = text('div', 's ' + (src.stale ? 'stale' : 'ok'),
+              src.stale
+                ? 'cached' + (src.cache_age_days ? ' \u00b7 ' + src.cache_age_days + 'd old' : ' \u00b7 today')
+                : 'fetched live');
+            card.appendChild(state);
+            el.sources.appendChild(card);
           });
 
           // Software dropdown, most common first.

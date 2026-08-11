@@ -67,7 +67,12 @@ const SOURCES = {
 const USER_AGENT =
   'prinny.app-server-list/1.0 (+https://github.com/coffeegrind123/prinny.app; daily merge of public Matrix server lists)';
 
-const FETCH_TIMEOUT_MS = 30_000;
+// Generous on purpose. privacydev.net is simply slow to serve this file at
+// times (and occasionally down), and 30s was cutting it off mid-download —
+// which then showed up to users as a "could not be reached" banner even though
+// nothing was actually wrong beyond it taking its time. CI has the minutes to
+// spare; a slow success beats a fast fallback to cache.
+const FETCH_TIMEOUT_MS = 120_000;
 const WELLKNOWN_TIMEOUT_MS = 8_000;
 const WELLKNOWN_CONCURRENCY = 8;
 
@@ -76,8 +81,8 @@ const WELLKNOWN_CONCURRENCY = 8;
 // on curl for minutes at a time, having served the file happily moments
 // before). A transient connect failure is therefore expected, not exceptional
 // — retry with backoff before falling back to cache.
-const FETCH_RETRIES = 4;
-const FETCH_BACKOFF_MS = 5_000;
+const FETCH_RETRIES = 5;
+const FETCH_BACKOFF_MS = 15_000;
 
 // ---------------------------------------------------------------------------
 // small helpers
@@ -790,6 +795,16 @@ async function main() {
       count: s.count,
       ...(s.error ? { error: s.error } : {}),
       ...(s.fetched_at ? { cached_at: s.fetched_at } : {}),
+      // Age of the cached copy, so consumers can tell a one-off blip from a
+      // source that has genuinely gone away. An upstream being briefly slow is
+      // routine; warning users about it every time is just noise.
+      ...(s.stale && s.fetched_at
+        ? {
+            cache_age_days: Math.floor(
+              (Date.now() - new Date(s.fetched_at).getTime()) / 86_400_000,
+            ),
+          }
+        : {}),
     })),
     servers,
   };
