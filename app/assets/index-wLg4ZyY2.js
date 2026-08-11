@@ -1,4 +1,4 @@
-const __vite__mapDeps=(i,m=__vite__mapDeps,d=(m.f||(m.f=["assets/rust-crypto-B3ShgR-q.js","assets/core-Bqke1oZi.js","assets/dist-js-5RQa4Wd1.js","assets/event-Bb9UDleE.js","assets/dist-js-STOM9HGP.js","assets/dist-js-DaDRQA4y.js","assets/dist-js-D9r_zCwM.js","assets/ReactPrism-Di8VtloF.js","assets/ReactPrism-CLcyLdmD.css","assets/pdf-Ctdvyxqd.js","assets/preload-helper-kNmmqUCw.js","assets/tray-BFYNMLZq.js","assets/menu-HJ45M35E.js","assets/app-BibNI0Wr.js"])))=>i.map(i=>d[i]);
+const __vite__mapDeps=(i,m=__vite__mapDeps,d=(m.f||(m.f=["assets/rust-crypto-CNd5FC3z.js","assets/core-Bqke1oZi.js","assets/dist-js-5RQa4Wd1.js","assets/event-Bb9UDleE.js","assets/dist-js-STOM9HGP.js","assets/dist-js-DaDRQA4y.js","assets/dist-js-D9r_zCwM.js","assets/ReactPrism-C6G6nXqh.js","assets/ReactPrism-CLcyLdmD.css","assets/pdf-fryuYrWc.js","assets/preload-helper-kNmmqUCw.js","assets/tray-DkrZ-jm6.js","assets/menu-C8KVXi3T.js","assets/app-1ap1u2sA.js"])))=>i.map(i=>d[i]);
 import { d as e, f as t, m as n, n as r, o as i, p as a, r as o, u as s } from "./core-Bqke1oZi.js";
 import { t as c } from "./preload-helper-kNmmqUCw.js";
 import { a as l, n as u, o as d, r as f, t as p } from "./event-Bb9UDleE.js";
@@ -50292,7 +50292,7 @@ Date.now: "${Date.now()}`);
                 var i = t.getDeviceId();
                 if (i === null) throw Error(`Cannot enable encryption on MatrixClient with unknown deviceId: ensure deviceId is passed in createClient().`);
                 t.logger.debug(`Downloading Rust crypto library`);
-                var a = yield (yield c(()=>import(`./rust-crypto-B3ShgR-q.js`).then(async (m)=>{
+                var a = yield (yield c(()=>import(`./rust-crypto-CNd5FC3z.js`).then(async (m)=>{
                         await m.__tla;
                         return m;
                     }), __vite__mapDeps([0,1]))).initRustCrypto({
@@ -96573,7 +96573,7 @@ https://www.w3ctech.com/topic/2226`));
     }
     let dSe, fSe, pQ, mQ, hQ, gQ, _Q, vQ, yQ, bQ, xQ;
     uSe = 4096;
-    dSe = (0, A.lazy)(()=>c(()=>import(`./ReactPrism-Di8VtloF.js`).then(async (m)=>{
+    dSe = (0, A.lazy)(()=>c(()=>import(`./ReactPrism-C6G6nXqh.js`).then(async (m)=>{
                 await m.__tla;
                 return m;
             }), __vite__mapDeps([7,1,8])));
@@ -99339,17 +99339,17 @@ https://www.w3ctech.com/topic/2226`));
             space: `400`
         },
         compoundVariants: []
-    }), DCe = `_161nxveo _1mqalmd1 _1mqalmd0 _161nxve0`, OCe = `_161nxvep`, kCe = `_161nxveq`, ACe = `_161nxver`, jCe = `_161nxves`, MCe = `_161nxvet`, NCe = `_161nxveu`, PCe = `_161nxvev`, FCe = `_161nxvew`, ICe = Jq({
-        defaultClassName: `_161nxvex`,
+    }), DCe = `_161nxveo _1mqalmd1 _1mqalmd0 _161nxve0`, OCe = `_161nxvep`, kCe = `_161nxveq`, ACe = `_161nxver`, jCe = `_161nxves`, MCe = `_161nxvet`, NCe = `_161nxveu`, PCe = `_161nxvew`, FCe = `_161nxvex`, ICe = Jq({
+        defaultClassName: `_161nxvey`,
         variantClassNames: {
             preWrap: {
-                true: `_161nxvey`
-            },
-            jumboEmoji: {
                 true: `_161nxvez`
             },
-            emote: {
+            jumboEmoji: {
                 true: `_161nxve10`
+            },
+            emote: {
+                true: `_161nxve11`
             }
         },
         defaultVariants: {},
@@ -101129,7 +101129,8 @@ https://www.w3ctech.com/topic/2226`));
         return s = e || _1(r) ? o : v1(r) ? `Yesterday ${o}` : `${b1(r, n)} ${o}`, (0, j.jsx)(B, {
             as: `time`,
             style: {
-                flexShrink: 0
+                flexShrink: 0,
+                userSelect: `none`
             },
             size: `T200`,
             priority: `300`,
@@ -101990,7 +101991,7 @@ https://www.w3ctech.com/topic/2226`));
                         await m.__tla;
                         return m;
                     }), []),
-                c(()=>import(`./tauri-hls-loader-kWftv_G-.js`).then(async (m)=>{
+                c(()=>import(`./tauri-hls-loader-C62MSQ-N.js`).then(async (m)=>{
                         await m.__tla;
                         return m;
                     }), [])
@@ -102914,7 +102915,7 @@ https://www.w3ctech.com/topic/2226`));
             ]
         }));
     var gEe = `ty6xms0 _1mqalmd1 _1mqalmd0`, _Ee = `ty6xms1 _1mqalmd1 _1mqalmd0`, U1 = ()=>Dr(`/app/`), vEe = ()=>ad((0, A.useCallback)(async ()=>{
-            let e = await c(()=>import(`./pdf-Ctdvyxqd.js`).then(async (m)=>{
+            let e = await c(()=>import(`./pdf-fryuYrWc.js`).then(async (m)=>{
                     await m.__tla;
                     return m;
                 }), __vite__mapDeps([9,10]));
@@ -103221,7 +103222,7 @@ https://www.w3ctech.com/topic/2226`));
                 })
             ]
         });
-    }), SEe = `_1v145rl0 _1mqalmd1 _1mqalmd0`, CEe = `_1v145rl1 _1mqalmd1 _1mqalmd0`, wEe = `_1v145rl2 _1mqalmd1 _1mqalmd0`, TEe = `_1v145rl3 _1mqalmd1 _1mqalmd0`, EEe = `_1v145rl4`, DEe = (0, A.lazy)(()=>c(()=>import(`./ReactPrism-Di8VtloF.js`).then(async (m)=>{
+    }), SEe = `_1v145rl0 _1mqalmd1 _1mqalmd0`, CEe = `_1v145rl1 _1mqalmd1 _1mqalmd0`, wEe = `_1v145rl2 _1mqalmd1 _1mqalmd0`, TEe = `_1v145rl3 _1mqalmd1 _1mqalmd0`, EEe = `_1v145rl4`, DEe = (0, A.lazy)(()=>c(()=>import(`./ReactPrism-C6G6nXqh.js`).then(async (m)=>{
                 await m.__tla;
                 return m;
             }), __vite__mapDeps([7,1,8]))), W1 = (0, A.forwardRef)(({ text: e, langName: t, size: n, className: r, ...i }, a)=>(0, j.jsx)(B, {
@@ -126245,6 +126246,9 @@ ${r.current.stack}
                 }),
                 f === EJ.Modern && oe && (0, j.jsx)(P, {
                     shrink: `No`,
+                    style: {
+                        userSelect: `none`
+                    },
                     children: (0, j.jsxs)(B, {
                         as: `span`,
                         size: `T200`,
@@ -152285,7 +152289,7 @@ In order to be iterable, non-array objects must have a [Symbol.iterator]() metho
         (0, A.useEffect)(()=>{
             !Bq() || n.current || (n.current = !0, (async ()=>{
                 let { TrayIcon: e } = await c(async ()=>{
-                    let { TrayIcon: e } = await import(`./tray-BFYNMLZq.js`).then(async (m)=>{
+                    let { TrayIcon: e } = await import(`./tray-DkrZ-jm6.js`).then(async (m)=>{
                         await m.__tla;
                         return m;
                     });
@@ -152293,7 +152297,7 @@ In order to be iterable, non-array objects must have a [Symbol.iterator]() metho
                         TrayIcon: e
                     };
                 }, __vite__mapDeps([11,1])), { Menu: n } = await c(async ()=>{
-                    let { Menu: e } = await import(`./menu-HJ45M35E.js`).then(async (m)=>{
+                    let { Menu: e } = await import(`./menu-C8KVXi3T.js`).then(async (m)=>{
                         await m.__tla;
                         return m;
                     });
@@ -152301,7 +152305,7 @@ In order to be iterable, non-array objects must have a [Symbol.iterator]() metho
                         Menu: e
                     };
                 }, __vite__mapDeps([12,1])), { defaultWindowIcon: r } = await c(async ()=>{
-                    let { defaultWindowIcon: e } = await import(`./app-BibNI0Wr.js`).then(async (m)=>{
+                    let { defaultWindowIcon: e } = await import(`./app-1ap1u2sA.js`).then(async (m)=>{
                         await m.__tla;
                         return m;
                     });
