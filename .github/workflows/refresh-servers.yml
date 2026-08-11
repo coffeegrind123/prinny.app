@@ -1,0 +1,59 @@
+name: Refresh public server list
+
+# Rebuilds https://prinny.app/api/servers.json from the three upstream lists.
+#
+# This has to run in CI rather than in the client because none of the three
+# upstreams send an Access-Control-Allow-Origin header, so a browser cannot
+# fetch them directly. GitHub Pages does send `*`, which is what makes the
+# generated file usable from the web build, the Tauri desktop build and Android
+# alike.
+
+on:
+  schedule:
+    # 04:17 UTC daily. Off the hour on purpose — every upstream gets hammered
+    # by everyone else's on-the-hour crons.
+    - cron: '17 4 * * *'
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - 'scripts/build-servers.mjs'
+      - '.github/workflows/refresh-servers.yml'
+
+concurrency:
+  group: refresh-servers
+  cancel-in-progress: false
+
+permissions:
+  contents: write
+
+jobs:
+  refresh:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+
+      # No dependencies — the script uses only the Node standard library.
+      - name: Build merged server list
+        run: node scripts/build-servers.mjs
+
+      - name: Validate output before publishing
+        run: node scripts/validate-servers.mjs
+
+      - name: Commit if changed
+        run: |
+          set -euo pipefail
+          git config user.name  'github-actions[bot]'
+          git config user.email 'github-actions[bot]@users.noreply.github.com'
+          git add api/servers.json .server-cache
+          if git diff --cached --quiet; then
+            echo "No changes."
+            exit 0
+          fi
+          COUNT=$(node -p "require('./api/servers.json').counts.total")
+          git commit -m "Refresh server list — ${COUNT} servers [skip ci]"
+          git push

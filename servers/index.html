@@ -1,0 +1,823 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+    <meta name="color-scheme" content="dark" />
+    <meta name="theme-color" content="#0b0b10" />
+
+    <title>Public Matrix servers — Prinny Client</title>
+    <meta
+      name="description"
+      content="A combined, deduplicated list of public Matrix homeservers with open registration, merged daily from asra.gr, joinmatrix.org and privacydev.net."
+    />
+
+    <link rel="icon" href="/assets/favicon.ico" sizes="any" />
+    <link rel="icon" href="/assets/icon-256.png" type="image/png" />
+    <link rel="apple-touch-icon" href="/assets/icon-256.png" />
+
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content="Public Matrix servers" />
+    <meta
+      property="og:description"
+      content="A combined, deduplicated list of public Matrix homeservers with open registration, refreshed daily."
+    />
+    <meta property="og:url" content="https://prinny.app/servers/" />
+    <meta property="og:image" content="https://prinny.app/assets/icon-256.png" />
+    <meta name="twitter:card" content="summary" />
+
+    <style>
+      :root {
+        color-scheme: dark;
+        --bg: #0b0b10;
+        --surface: #14141c;
+        --surface-2: #1c1c26;
+        --text: #e8e8ef;
+        --muted: #9b9bb0;
+        --accent: #f5b342;
+        --good: #6ee7a8;
+        --bad: #f8867f;
+        --border: rgba(255, 255, 255, 0.08);
+        font-family:
+          ui-sans-serif, system-ui, -apple-system, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+      }
+
+      * {
+        box-sizing: border-box;
+      }
+
+      html,
+      body {
+        margin: 0;
+        padding: 0;
+        background: var(--bg);
+        color: var(--text);
+      }
+
+      body {
+        padding: 3rem 1.5rem 6rem;
+      }
+
+      main {
+        max-width: 1100px;
+        margin: 0 auto;
+      }
+
+      a {
+        color: var(--accent);
+      }
+
+      .back {
+        display: inline-flex;
+        align-items: center;
+        gap: 0.4rem;
+        color: var(--muted);
+        text-decoration: none;
+        font-size: 0.9rem;
+      }
+
+      .back:hover {
+        color: var(--text);
+      }
+
+      h1 {
+        font-size: clamp(1.75rem, 4vw, 2.5rem);
+        letter-spacing: -0.02em;
+        margin: 1.25rem 0 0.5rem;
+      }
+
+      p.lede {
+        color: var(--muted);
+        line-height: 1.6;
+        margin: 0 0 0.5rem;
+        max-width: 60rem;
+      }
+
+      .meta {
+        color: var(--muted);
+        font-size: 0.85rem;
+        margin: 0 0 2rem;
+      }
+
+      /* ---- controls ---- */
+
+      .controls {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 0.75rem;
+        align-items: center;
+        margin-bottom: 1rem;
+      }
+
+      input[type='search'],
+      select {
+        background: var(--surface);
+        color: var(--text);
+        border: 1px solid var(--border);
+        border-radius: 0.6rem;
+        padding: 0.6rem 0.8rem;
+        font: inherit;
+        font-size: 0.95rem;
+      }
+
+      input[type='search'] {
+        flex: 1 1 18rem;
+        min-width: 12rem;
+      }
+
+      input[type='search']:focus,
+      select:focus {
+        outline: 2px solid var(--accent);
+        outline-offset: 1px;
+      }
+
+      .toggles {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 0.5rem;
+        margin-bottom: 1.25rem;
+      }
+
+      .toggle {
+        display: inline-flex;
+        align-items: center;
+        gap: 0.4rem;
+        background: var(--surface);
+        border: 1px solid var(--border);
+        border-radius: 999px;
+        padding: 0.4rem 0.8rem;
+        font-size: 0.85rem;
+        color: var(--muted);
+        cursor: pointer;
+        user-select: none;
+      }
+
+      .toggle:hover {
+        border-color: var(--accent);
+      }
+
+      .toggle input {
+        accent-color: var(--accent);
+        margin: 0;
+      }
+
+      .toggle:has(input:checked) {
+        color: var(--text);
+        border-color: var(--accent);
+      }
+
+      .count {
+        color: var(--muted);
+        font-size: 0.875rem;
+        margin-bottom: 0.75rem;
+      }
+
+      /* ---- table ---- */
+
+      .table-wrap {
+        overflow-x: auto;
+        border: 1px solid var(--border);
+        border-radius: 0.75rem;
+        background: var(--surface);
+      }
+
+      table {
+        border-collapse: collapse;
+        width: 100%;
+        font-size: 0.9rem;
+      }
+
+      thead th {
+        position: sticky;
+        top: 0;
+        background: var(--surface-2);
+        text-align: left;
+        font-weight: 600;
+        white-space: nowrap;
+        padding: 0.7rem 0.8rem;
+        border-bottom: 1px solid var(--border);
+        cursor: pointer;
+        user-select: none;
+      }
+
+      thead th:hover {
+        color: var(--accent);
+      }
+
+      thead th[aria-sort='ascending']::after {
+        content: ' ▲';
+        font-size: 0.7em;
+      }
+
+      thead th[aria-sort='descending']::after {
+        content: ' ▼';
+        font-size: 0.7em;
+      }
+
+      tbody td {
+        padding: 0.6rem 0.8rem;
+        border-bottom: 1px solid var(--border);
+        vertical-align: top;
+      }
+
+      tbody tr:hover {
+        background: rgba(255, 255, 255, 0.03);
+      }
+
+      .name {
+        font-weight: 600;
+        word-break: break-all;
+      }
+
+      .desc {
+        color: var(--muted);
+        font-size: 0.82rem;
+        margin-top: 0.2rem;
+        max-width: 32rem;
+      }
+
+      .sub {
+        color: var(--muted);
+        font-size: 0.8rem;
+        word-break: break-all;
+      }
+
+      .badges {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 0.3rem;
+        margin-top: 0.35rem;
+      }
+
+      .badge {
+        font-size: 0.68rem;
+        text-transform: uppercase;
+        letter-spacing: 0.03em;
+        padding: 0.15rem 0.4rem;
+        border-radius: 0.35rem;
+        border: 1px solid var(--border);
+        color: var(--muted);
+        white-space: nowrap;
+      }
+
+      .badge.good {
+        color: var(--good);
+        border-color: rgba(110, 231, 168, 0.35);
+      }
+
+      .badge.bad {
+        color: var(--bad);
+        border-color: rgba(248, 134, 127, 0.35);
+      }
+
+      .nowrap {
+        white-space: nowrap;
+      }
+
+      .empty,
+      .status {
+        padding: 3rem 1rem;
+        text-align: center;
+        color: var(--muted);
+      }
+
+      .more {
+        display: block;
+        margin: 1.25rem auto 0;
+        background: var(--surface);
+        color: var(--text);
+        border: 1px solid var(--border);
+        border-radius: 0.75rem;
+        padding: 0.7rem 1.4rem;
+        font: inherit;
+        cursor: pointer;
+      }
+
+      .more:hover {
+        border-color: var(--accent);
+      }
+
+      .notice {
+        background: var(--surface);
+        border: 1px solid var(--border);
+        border-left: 3px solid var(--accent);
+        border-radius: 0.5rem;
+        padding: 0.75rem 1rem;
+        color: var(--muted);
+        font-size: 0.875rem;
+        margin-bottom: 1.25rem;
+      }
+
+      /* ---- faq ---- */
+
+      section.faq {
+        margin-top: 3.5rem;
+      }
+
+      section.faq h2 {
+        font-size: 1.25rem;
+        margin-bottom: 1rem;
+      }
+
+      details {
+        background: var(--surface);
+        border: 1px solid var(--border);
+        border-radius: 0.6rem;
+        padding: 0.75rem 1rem;
+        margin-bottom: 0.6rem;
+      }
+
+      summary {
+        cursor: pointer;
+        font-weight: 500;
+      }
+
+      details p {
+        color: var(--muted);
+        line-height: 1.6;
+        margin: 0.6rem 0 0;
+      }
+
+      footer {
+        margin-top: 3rem;
+        color: var(--muted);
+        font-size: 0.85rem;
+        line-height: 1.6;
+      }
+
+      @media (max-width: 640px) {
+        .desc {
+          display: none;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <main>
+      <a class="back" href="/">← Prinny Client</a>
+      <h1>Public Matrix servers</h1>
+      <p class="lede">
+        Every Matrix homeserver with open registration that we can find, merged and deduplicated
+        from three independent lists and refreshed daily. This is not a recommendation — it is
+        just the data. Pick carefully.
+      </p>
+      <p class="meta" id="meta">Loading…</p>
+
+      <div id="notices"></div>
+
+      <div class="controls">
+        <input
+          type="search"
+          id="q"
+          placeholder="Filter by name, software, ISP, country, description…"
+          autocomplete="off"
+          spellcheck="false"
+        />
+        <select id="software">
+          <option value="">Any software</option>
+        </select>
+      </div>
+
+      <div class="toggles">
+        <label class="toggle"
+          ><input type="checkbox" id="f-open" checked /> Open registration</label
+        >
+        <label class="toggle"><input type="checkbox" id="f-nocaptcha" /> No captcha</label>
+        <label class="toggle"><input type="checkbox" id="f-noemail" /> No email required</label>
+        <label class="toggle"><input type="checkbox" id="f-tor" /> Tor friendly</label>
+        <label class="toggle"><input type="checkbox" id="f-nocf" /> No Cloudflare</label>
+        <label class="toggle"><input type="checkbox" id="f-detail" /> Has details</label>
+      </div>
+
+      <p class="count" id="count"></p>
+
+      <div class="table-wrap">
+        <table>
+          <thead>
+            <tr>
+              <th data-sort="name" aria-sort="ascending">Name</th>
+              <th data-sort="client_domain">Server</th>
+              <th data-sort="software">Software</th>
+              <th data-sort="version">Version</th>
+              <th data-sort="last_check">Last check</th>
+            </tr>
+          </thead>
+          <tbody id="rows">
+            <tr>
+              <td colspan="5" class="status">Loading server list…</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+
+      <button class="more" id="more" hidden>Show more</button>
+
+      <section class="faq">
+        <h2>Questions</h2>
+
+        <details>
+          <summary>I don't know which server to choose</summary>
+          <p>
+            Synapse with a high version number is the boring, safe answer — it is the reference
+            implementation and a recent version means someone is actually maintaining it. Beyond
+            that, prefer a server whose operator publishes rules and a privacy policy, and whose
+            jurisdiction you are comfortable with. Filter for "Has details" to see only servers we
+            hold that information for.
+          </p>
+        </details>
+
+        <details>
+          <summary>What is the difference between Name and Server?</summary>
+          <p>
+            <strong>Name</strong> is the domain part of your Matrix ID — the bit after the colon in
+            <code>@you:example.org</code>. <strong>Server</strong> is the host it actually
+            delegates to via <code>/.well-known/matrix/client</code>. When they differ, some
+            clients need you to enter the server explicitly. Prinny handles the delegation for you.
+          </p>
+        </details>
+
+        <details>
+          <summary>Where does this data come from?</summary>
+          <p>
+            Three independent lists, merged daily:
+            <a href="https://wiki.asra.gr/en:public_servers">asra.gr</a> (a broad autogenerated
+            crawl of servers federating with asra.gr that have registration open),
+            <a href="https://joinmatrix.org/servers/">joinmatrix.org</a> (a small hand-curated list
+            with detailed operator information), and
+            <a href="https://www.privacydev.net/">privacydev.net</a> (privacy posture — Tor,
+            Cloudflare, captcha, email). The merged output is served as JSON at
+            <a href="/api/servers.json">/api/servers.json</a>.
+          </p>
+        </details>
+
+        <details>
+          <summary>How are duplicates removed?</summary>
+          <p>
+            The lists key on different things: asra.gr and joinmatrix.org use the Matrix ID domain
+            (<code>tchncs.de</code>), while privacydev.net lists the client host
+            (<code>matrix.tchncs.de</code>). Records are merged when they share any known domain,
+            and for the remainder we resolve
+            <code>/.well-known/matrix/client</code> and only link them when the delegation points
+            back at exactly that host. Nothing is merged on a name-similarity guess — stripping a
+            leading <code>matrix.</code> would be wrong, since
+            <code>tetaneutral.net</code> delegates to itself rather than to
+            <code>matrix.tetaneutral.net</code>.
+          </p>
+        </details>
+
+        <details>
+          <summary>I'm unhappy with my server</summary>
+          <p>
+            You can move an existing account to a different homeserver with the
+            <a href="https://ems.element.io/tools/matrix-migration">Element migration tool</a>.
+            Note that this does not move your message history.
+          </p>
+        </details>
+
+        <details>
+          <summary>Please remove my server / this data is wrong</summary>
+          <p>
+            We only mirror the three upstream lists — corrections have to go to whichever of them
+            carries your server (its badges are shown in the Name column). Once the upstream drops
+            or fixes an entry, the change lands here within 24 hours. If something is wrong with
+            the merge itself, please
+            <a href="https://github.com/coffeegrind123/prinny.app/issues">open an issue</a>.
+          </p>
+        </details>
+      </section>
+
+      <footer>
+        Merged daily from asra.gr, joinmatrix.org and privacydev.net. No endorsement is implied by
+        inclusion, and no guarantee is made that the list is complete or correct. Raw data:
+        <a href="/api/servers.json">/api/servers.json</a>.
+      </footer>
+    </main>
+
+    <script>
+      (function () {
+        'use strict';
+
+        // Everything rendered here comes from three third-party lists. It is
+        // written to the DOM with textContent (never innerHTML), and the only
+        // values that become an href are re-validated as http(s) below — the
+        // generator already does this, but a rendering layer that trusts its
+        // input is exactly how a bad row in an upstream CSV turns into a
+        // javascript: link.
+        var PAGE_SIZE = 100;
+
+        var el = {
+          meta: document.getElementById('meta'),
+          notices: document.getElementById('notices'),
+          q: document.getElementById('q'),
+          software: document.getElementById('software'),
+          rows: document.getElementById('rows'),
+          count: document.getElementById('count'),
+          more: document.getElementById('more'),
+          open: document.getElementById('f-open'),
+          nocaptcha: document.getElementById('f-nocaptcha'),
+          noemail: document.getElementById('f-noemail'),
+          tor: document.getElementById('f-tor'),
+          nocf: document.getElementById('f-nocf'),
+          detail: document.getElementById('f-detail'),
+        };
+
+        var all = [];
+        var view = [];
+        var shown = 0;
+        var sortKey = 'name';
+        var sortDir = 1;
+
+        function safeUrl(u) {
+          if (typeof u !== 'string' || !u) return '';
+          try {
+            var p = new URL(u);
+            return p.protocol === 'https:' || p.protocol === 'http:' ? p.href : '';
+          } catch (e) {
+            return '';
+          }
+        }
+
+        function text(tag, cls, value) {
+          var n = document.createElement(tag);
+          if (cls) n.className = cls;
+          if (value != null && value !== '') n.textContent = value;
+          return n;
+        }
+
+        function badge(label, kind) {
+          var b = text('span', 'badge' + (kind ? ' ' + kind : ''), label);
+          return b;
+        }
+
+        function fmtDate(iso) {
+          if (!iso) return '';
+          var d = new Date(iso);
+          if (isNaN(d.getTime())) return '';
+          var days = Math.floor((Date.now() - d.getTime()) / 86400000);
+          if (days <= 0) return 'today';
+          if (days === 1) return 'yesterday';
+          if (days < 30) return days + ' days ago';
+          return d.toISOString().slice(0, 10);
+        }
+
+        function haystack(s) {
+          if (s._h) return s._h;
+          var info = s.info || {};
+          s._h = [
+            s.name,
+            s.client_domain,
+            s.software,
+            info.description,
+            info.isp,
+            info.jurisdiction,
+            (info.languages || []).join(' '),
+            (info.features || []).join(' '),
+          ]
+            .filter(Boolean)
+            .join(' ')
+            .toLowerCase();
+          return s._h;
+        }
+
+        // An absent key means "unknown", never "false" — the generator prunes
+        // nulls but preserves real `false` values. Filters must therefore only
+        // exclude on an explicit answer.
+        function isFalse(v) {
+          return v === false;
+        }
+        function isTrue(v) {
+          return v === true;
+        }
+
+        function passes(s) {
+          var reg = s.registration || {};
+          var priv = s.privacy || {};
+          if (el.open.checked && !reg.open) return false;
+          if (el.nocaptcha.checked && !isFalse(reg.captcha)) return false;
+          if (el.noemail.checked && !isFalse(reg.email_required)) return false;
+          if (el.tor.checked && !isTrue(priv.tor_friendly)) return false;
+          if (el.nocf.checked && !isFalse(priv.cloudflare)) return false;
+          if (el.detail.checked && s.sources.indexOf('joinmatrix') === -1) return false;
+
+          var sw = el.software.value;
+          if (sw && (s.software || '') !== sw) return false;
+
+          var q = el.q.value.trim().toLowerCase();
+          if (q) {
+            var terms = q.split(/\s+/);
+            var hay = haystack(s);
+            for (var i = 0; i < terms.length; i++) {
+              if (hay.indexOf(terms[i]) === -1) return false;
+            }
+          }
+          return true;
+        }
+
+        function compare(a, b) {
+          var x = a[sortKey] || '';
+          var y = b[sortKey] || '';
+          // Version strings sort naturally, not lexically: 1.9.0 < 1.10.0.
+          if (sortKey === 'version') {
+            var pa = String(x).split('.').map(Number);
+            var pb = String(y).split('.').map(Number);
+            for (var i = 0; i < Math.max(pa.length, pb.length); i++) {
+              var da = isNaN(pa[i]) ? -1 : pa[i];
+              var db = isNaN(pb[i]) ? -1 : pb[i];
+              if (da !== db) return (da - db) * sortDir;
+            }
+            return 0;
+          }
+          // Blanks always sort last, whichever direction is active.
+          if (x === '' && y !== '') return 1;
+          if (y === '' && x !== '') return -1;
+          return String(x).localeCompare(String(y)) * sortDir;
+        }
+
+        function buildRow(s) {
+          var reg = s.registration || {};
+          var priv = s.privacy || {};
+          var info = s.info || {};
+          var tr = document.createElement('tr');
+
+          // --- name cell
+          var tdName = document.createElement('td');
+          var home = safeUrl(info.homepage);
+          var nameNode;
+          if (home) {
+            nameNode = text('a', 'name', s.name);
+            nameNode.href = home;
+            nameNode.rel = 'noopener noreferrer nofollow';
+            nameNode.target = '_blank';
+          } else {
+            nameNode = text('div', 'name', s.name);
+          }
+          tdName.appendChild(nameNode);
+
+          if (info.description) tdName.appendChild(text('div', 'desc', info.description));
+
+          var badges = text('div', 'badges');
+          if (reg.open === false) badges.appendChild(badge('invite only', 'bad'));
+          if (isFalse(reg.captcha)) badges.appendChild(badge('no captcha', 'good'));
+          else if (isTrue(reg.captcha)) badges.appendChild(badge('captcha', 'bad'));
+          if (isFalse(reg.email_required)) badges.appendChild(badge('no email', 'good'));
+          else if (isTrue(reg.email_required)) badges.appendChild(badge('email', 'bad'));
+          if (isTrue(priv.tor_friendly)) badges.appendChild(badge('tor', 'good'));
+          if (isTrue(priv.cloudflare)) badges.appendChild(badge('cloudflare', 'bad'));
+          if (info.jurisdiction) badges.appendChild(badge(info.jurisdiction));
+          if (info.isp) badges.appendChild(badge(info.isp));
+          (s.sources || []).forEach(function (src) {
+            badges.appendChild(badge(src));
+          });
+          if (badges.childNodes.length) tdName.appendChild(badges);
+
+          var regLink = safeUrl(reg.link);
+          if (regLink) {
+            var a = text('div');
+            var link = text('a', null, 'Register' + (reg.method ? ' · ' + reg.method : ''));
+            link.href = regLink;
+            link.rel = 'noopener noreferrer nofollow';
+            link.target = '_blank';
+            link.style.fontSize = '0.82rem';
+            a.appendChild(link);
+            tdName.appendChild(a);
+          }
+          tr.appendChild(tdName);
+
+          // --- remaining cells
+          tr.appendChild(text('td', 'sub', s.client_domain || ''));
+          tr.appendChild(text('td', 'nowrap', s.software || '—'));
+          tr.appendChild(text('td', 'nowrap', s.version || '—'));
+          tr.appendChild(text('td', 'nowrap sub', fmtDate(s.last_check)));
+          return tr;
+        }
+
+        function renderPage(reset) {
+          if (reset) {
+            el.rows.textContent = '';
+            shown = 0;
+          }
+          if (view.length === 0) {
+            var tr = document.createElement('tr');
+            var td = text('td', 'empty', 'No servers match those filters.');
+            td.colSpan = 5;
+            tr.appendChild(td);
+            el.rows.appendChild(tr);
+            el.more.hidden = true;
+            return;
+          }
+          var frag = document.createDocumentFragment();
+          var end = Math.min(shown + PAGE_SIZE, view.length);
+          for (var i = shown; i < end; i++) frag.appendChild(buildRow(view[i]));
+          el.rows.appendChild(frag);
+          shown = end;
+          el.more.hidden = shown >= view.length;
+          el.more.textContent =
+            'Show more (' + (view.length - shown) + ' remaining)';
+        }
+
+        function apply() {
+          view = all.filter(passes).sort(compare);
+          el.count.textContent =
+            view.length + ' of ' + all.length + ' servers' +
+            (view.length ? ' · sorted by ' + sortKey.replace('_', ' ') : '');
+          renderPage(true);
+        }
+
+        function notice(msg) {
+          el.notices.appendChild(text('div', 'notice', msg));
+        }
+
+        function init(data) {
+          all = Array.isArray(data.servers) ? data.servers : [];
+
+          var gen = new Date(data.generated_at);
+          var gentxt = isNaN(gen.getTime()) ? 'unknown' : gen.toISOString().replace('T', ' ').slice(0, 16) + ' UTC';
+          el.meta.textContent =
+            data.counts.total + ' servers · ' + data.counts.open_registration +
+            ' with open registration · ' + data.counts.merged_from_multiple_sources +
+            ' confirmed across more than one list · generated ' + gentxt;
+
+          (data.sources || []).forEach(function (s) {
+            if (s.stale) {
+              notice(
+                'Heads up: ' + s.id + ' could not be reached on the last refresh, so its ' +
+                  'contribution is served from cache and may be out of date.'
+              );
+            }
+          });
+
+          // Software dropdown, most common first.
+          var counts = {};
+          all.forEach(function (s) {
+            if (s.software) counts[s.software] = (counts[s.software] || 0) + 1;
+          });
+          Object.keys(counts)
+            .sort(function (a, b) {
+              return counts[b] - counts[a];
+            })
+            .forEach(function (name) {
+              var o = document.createElement('option');
+              o.value = name;
+              o.textContent = name + ' (' + counts[name] + ')';
+              el.software.appendChild(o);
+            });
+
+          apply();
+        }
+
+        function debounce(fn, ms) {
+          var t;
+          return function () {
+            clearTimeout(t);
+            t = setTimeout(fn, ms);
+          };
+        }
+
+        el.q.addEventListener('input', debounce(apply, 150));
+        el.software.addEventListener('change', apply);
+        [el.open, el.nocaptcha, el.noemail, el.tor, el.nocf, el.detail].forEach(function (c) {
+          c.addEventListener('change', apply);
+        });
+        el.more.addEventListener('click', function () {
+          renderPage(false);
+        });
+
+        document.querySelectorAll('th[data-sort]').forEach(function (th) {
+          th.addEventListener('click', function () {
+            var key = th.getAttribute('data-sort');
+            if (key === sortKey) sortDir = -sortDir;
+            else {
+              sortKey = key;
+              sortDir = 1;
+            }
+            document.querySelectorAll('th[data-sort]').forEach(function (o) {
+              o.removeAttribute('aria-sort');
+            });
+            th.setAttribute('aria-sort', sortDir === 1 ? 'ascending' : 'descending');
+            apply();
+          });
+        });
+
+        fetch('/api/servers.json', { credentials: 'omit' })
+          .then(function (r) {
+            if (!r.ok) throw new Error('HTTP ' + r.status);
+            return r.json();
+          })
+          .then(init)
+          .catch(function (err) {
+            el.meta.textContent = '';
+            el.rows.textContent = '';
+            var tr = document.createElement('tr');
+            var td = text(
+              'td',
+              'empty',
+              'Could not load the server list (' + err.message + '). Try reloading.'
+            );
+            td.colSpan = 5;
+            tr.appendChild(td);
+            el.rows.appendChild(tr);
+          });
+      })();
+    </script>
+  </body>
+</html>
