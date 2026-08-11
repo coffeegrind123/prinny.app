@@ -1,4 +1,4 @@
-const __vite__mapDeps=(i,m=__vite__mapDeps,d=(m.f||(m.f=["assets/rust-crypto-DkPuVmj7.js","assets/core-Bqke1oZi.js","assets/dist-js-5RQa4Wd1.js","assets/event-Bb9UDleE.js","assets/dist-js-STOM9HGP.js","assets/dist-js-DaDRQA4y.js","assets/dist-js-D9r_zCwM.js","assets/ReactPrism-Ci25Do79.js","assets/ReactPrism-CLcyLdmD.css","assets/pdf-CiiGNnxo.js","assets/preload-helper-kNmmqUCw.js","assets/tray-CSYORQtW.js","assets/menu-CMeF3_N0.js","assets/app-B34eIe3q.js"])))=>i.map(i=>d[i]);
+const __vite__mapDeps=(i,m=__vite__mapDeps,d=(m.f||(m.f=["assets/rust-crypto-B6JPFzOv.js","assets/core-Bqke1oZi.js","assets/dist-js-5RQa4Wd1.js","assets/event-Bb9UDleE.js","assets/dist-js-STOM9HGP.js","assets/dist-js-DaDRQA4y.js","assets/dist-js-D9r_zCwM.js","assets/ReactPrism-B9VPjPVz.js","assets/ReactPrism-CLcyLdmD.css","assets/pdf-DGeqe_zF.js","assets/preload-helper-kNmmqUCw.js","assets/tray-Cv7CmGbm.js","assets/menu-CI6KsQ-G.js","assets/app-Pgl6xWIb.js"])))=>i.map(i=>d[i]);
 import { d as e, f as t, m as n, n as r, o as i, p as a, r as o, u as s } from "./core-Bqke1oZi.js";
 import { t as c } from "./preload-helper-kNmmqUCw.js";
 import { a as l, n as u, o as d, r as f, t as p } from "./event-Bb9UDleE.js";
@@ -20414,7 +20414,7 @@ Please change the parent <Route path="${e}"> to <Route path="${e === `/` ? `*` :
             })
         }) : e;
     }
-    var bd = `_15upz2y0`, Bee = `_15upz2y1`, Vee = `_15upz2y2 _1mqalmd1 _1mqalmd0`, xd = `_15upz2y3`, Sd = `_15upz2y4`, Cd = `_15upz2y5`, wd = `4.11.126`;
+    var bd = `_15upz2y0`, Bee = `_15upz2y1`, Vee = `_15upz2y2 _1mqalmd1 _1mqalmd0`, xd = `_15upz2y3`, Sd = `_15upz2y4`, Cd = `_15upz2y5`, wd = `4.11.127`;
     function Hee() {
         return (0, j.jsxs)(P, {
             className: Cd,
@@ -50292,7 +50292,7 @@ Date.now: "${Date.now()}`);
                 var i = t.getDeviceId();
                 if (i === null) throw Error(`Cannot enable encryption on MatrixClient with unknown deviceId: ensure deviceId is passed in createClient().`);
                 t.logger.debug(`Downloading Rust crypto library`);
-                var a = yield (yield c(()=>import(`./rust-crypto-DkPuVmj7.js`).then(async (m)=>{
+                var a = yield (yield c(()=>import(`./rust-crypto-B6JPFzOv.js`).then(async (m)=>{
                         await m.__tla;
                         return m;
                     }), __vite__mapDeps([0,1]))).initRustCrypto({
@@ -96573,7 +96573,7 @@ https://www.w3ctech.com/topic/2226`));
     }
     let fSe, pSe, fQ, pQ, mQ, hQ, gQ, _Q, vQ, yQ, bQ;
     dSe = 4096;
-    fSe = (0, A.lazy)(()=>c(()=>import(`./ReactPrism-Ci25Do79.js`).then(async (m)=>{
+    fSe = (0, A.lazy)(()=>c(()=>import(`./ReactPrism-B9VPjPVz.js`).then(async (m)=>{
                 await m.__tla;
                 return m;
             }), __vite__mapDeps([7,1,8])));
@@ -101613,32 +101613,32 @@ https://www.w3ctech.com/topic/2226`));
             }
         };
     }, I1 = Qt(({ className: e, alt: t, src: n, requestClose: r, externalUrl: i, ...a }, o)=>{
-        let { zoom: s, zoomIn: c, zoomOut: l, setZoom: u } = BTe(.2), { pan: d, cursor: f, onMouseDown: p } = HTe(s !== 1), m = _p() === gp.Mobile, h = A.useRef(null), g = async ()=>{
+        let { zoom: s, zoomIn: c, zoomOut: l, setZoom: u } = BTe(.2), { pan: d, onMouseDown: f } = HTe(s !== 1), p = _p() === gp.Mobile, m = A.useRef(null), h = async ()=>{
             let e = await NK(n);
             o1.default.saveAs(e, t);
-        }, _ = m ? void 0 : ()=>u(s === 1 ? 2 : 1), v = (e)=>{
+        }, g = p ? void 0 : ()=>u(s === 1 ? 2 : 1), _ = (e)=>{
             if (e.touches.length !== 2) return;
             let [t, n] = [
                 e.touches[0],
                 e.touches[1]
             ], r = n.clientX - t.clientX, i = n.clientY - t.clientY;
-            h.current = {
+            m.current = {
                 baseDist: Math.hypot(r, i),
                 baseZoom: s
             };
-        }, y = (e)=>{
-            if (!h.current || e.touches.length !== 2) return;
+        }, v = (e)=>{
+            if (!m.current || e.touches.length !== 2) return;
             e.preventDefault();
             let [t, n] = [
                 e.touches[0],
                 e.touches[1]
-            ], r = n.clientX - t.clientX, i = n.clientY - t.clientY, a = Math.hypot(r, i) / h.current.baseDist, o = h.current.baseZoom * a;
+            ], r = n.clientX - t.clientX, i = n.clientY - t.clientY, a = Math.hypot(r, i) / m.current.baseDist, o = m.current.baseZoom * a;
             u(Math.max(.1, Math.min(5, o)));
-        }, b = (e)=>{
-            e.touches.length < 2 && (h.current = null);
-        }, x = ()=>{
+        }, y = (e)=>{
+            e.touches.length < 2 && (m.current = null);
+        }, b = ()=>{
             window.open(rf(i) ?? n, `_blank`, `noopener,noreferrer`);
-        }, S = s === 1 ? `zoom-in` : `zoom-out`, C = m ? {
+        }, x = s === 1 ? `zoom-in` : `zoom-out`, S = p ? {
             position: `fixed`,
             bottom: `calc(${N.space.S200} + env(safe-area-inset-bottom))`,
             left: `calc(${N.space.S200} + env(safe-area-inset-left))`,
@@ -101649,7 +101649,7 @@ https://www.w3ctech.com/topic/2226`));
             top: `calc(${N.space.S200} + env(safe-area-inset-top))`,
             left: `calc(${N.space.S200} + env(safe-area-inset-left))`,
             zIndex: 2
-        }, w = m ? {
+        }, C = p ? {
             position: `fixed`,
             top: `calc(${N.space.S200} + env(safe-area-inset-top))`,
             left: `calc(${N.space.S200} + env(safe-area-inset-left))`,
@@ -101667,13 +101667,13 @@ https://www.w3ctech.com/topic/2226`));
             ref: o,
             children: [
                 (0, j.jsx)(P, {
-                    style: C,
+                    style: S,
                     children: (0, j.jsxs)(P, {
                         className: RTe,
                         alignItems: `Center`,
                         gap: `100`,
-                        justifyContent: m ? `SpaceBetween` : void 0,
-                        style: m ? {
+                        justifyContent: p ? `SpaceBetween` : void 0,
+                        style: p ? {
                             width: `100%`
                         } : {
                             maxWidth: `min(60vw, 600px)`
@@ -101700,7 +101700,7 @@ https://www.w3ctech.com/topic/2226`));
                             (0, j.jsx)(z, {
                                 size: `300`,
                                 radii: `300`,
-                                onClick: x,
+                                onClick: b,
                                 "aria-label": `Open in browser`,
                                 children: (0, j.jsx)(I, {
                                     size: `50`,
@@ -101711,13 +101711,13 @@ https://www.w3ctech.com/topic/2226`));
                     })
                 }),
                 (0, j.jsx)(P, {
-                    style: w,
+                    style: C,
                     children: (0, j.jsxs)(P, {
                         className: RTe,
                         alignItems: `Center`,
                         gap: `100`,
-                        justifyContent: m ? `SpaceBetween` : void 0,
-                        style: m ? {
+                        justifyContent: p ? `SpaceBetween` : void 0,
+                        style: p ? {
                             width: `100%`
                         } : void 0,
                         children: [
@@ -101736,7 +101736,7 @@ https://www.w3ctech.com/topic/2226`));
                             (0, j.jsx)(R, {
                                 variant: `SurfaceVariant`,
                                 radii: `Pill`,
-                                onClick: _,
+                                onClick: g,
                                 children: (0, j.jsxs)(B, {
                                     size: `B300`,
                                     children: [
@@ -101759,7 +101759,7 @@ https://www.w3ctech.com/topic/2226`));
                             }),
                             (0, j.jsx)(R, {
                                 variant: `Primary`,
-                                onClick: g,
+                                onClick: h,
                                 radii: `300`,
                                 before: (0, j.jsx)(I, {
                                     size: `50`,
@@ -101776,18 +101776,18 @@ https://www.w3ctech.com/topic/2226`));
                 (0, j.jsx)(`img`, {
                     className: zTe,
                     style: {
-                        cursor: S,
+                        cursor: x,
                         transform: `scale(${s}) translate(${d.translateX}px, ${d.translateY}px)`,
-                        touchAction: m ? `none` : void 0
+                        touchAction: p ? `none` : void 0
                     },
                     src: n,
                     alt: t,
-                    onClick: _,
-                    onMouseDown: p,
-                    onTouchStart: m ? v : void 0,
-                    onTouchMove: m ? y : void 0,
-                    onTouchEnd: m ? b : void 0,
-                    onTouchCancel: m ? b : void 0
+                    onClick: g,
+                    onMouseDown: f,
+                    onTouchStart: p ? _ : void 0,
+                    onTouchMove: p ? v : void 0,
+                    onTouchEnd: p ? y : void 0,
+                    onTouchCancel: p ? y : void 0
                 })
             ]
         });
@@ -102000,7 +102000,7 @@ https://www.w3ctech.com/topic/2226`));
                         await m.__tla;
                         return m;
                     }), []),
-                c(()=>import(`./tauri-hls-loader-DDIfamjI.js`).then(async (m)=>{
+                c(()=>import(`./tauri-hls-loader-VS7aBJ0N.js`).then(async (m)=>{
                         await m.__tla;
                         return m;
                     }), [])
@@ -102127,65 +102127,65 @@ https://www.w3ctech.com/topic/2226`));
         }) : null;
     }
     var pEe = Qt(({ url: e, ts: t, renderViewer: n, ...r }, i)=>{
-        let a = J(), o = BY(), [s] = Y(X, `useVxTwitter`), [c] = Y(X, `useSoundcloak`), [l] = Y(X, `useBlueskyEmbeds`), [u] = Y(X, `usePiped`), [d] = Y(X, `clientPreviewFallback`), f = rf(e), p = sEe(e, c), m = s ? ZTe(e) : null, h = l ? QTe(e) : null, g = l && !h ? tEe(e) : null, [_, v] = (0, A.useState)(null), [y, b] = (0, A.useState)(!1), [x, S] = (0, A.useState)(!1);
+        let a = J(), o = BY(), [s] = Y(X, `useVxTwitter`), [c] = Y(X, `useSoundcloak`), [l] = Y(X, `useBlueskyEmbeds`), [u] = Y(X, `usePiped`), [d] = Y(X, `clientPreviewFallback`), f = rf(e), p = sEe(e, c), m = s ? ZTe(e) : null, h = l ? QTe(e) : null, g = l && !h ? tEe(e) : null, [_, v] = (0, A.useState)(null), [y, b] = (0, A.useState)(!1), [, x] = (0, A.useState)(!1);
         (0, A.useEffect)(()=>{
-            m && (b(!0), S(!1), fetch(`https://api.vxtwitter.com/Twitter/status/${m}`).then((e)=>e.json()).then((e)=>{
+            m && (b(!0), x(!1), fetch(`https://api.vxtwitter.com/Twitter/status/${m}`).then((e)=>e.json()).then((e)=>{
                 v(e), b(!1);
             }).catch(()=>{
-                S(!0), b(!1);
+                x(!0), b(!1);
             }));
         }, [
             m
         ]);
-        let [C, w] = (0, A.useState)(null), [T, E] = (0, A.useState)(!1), [D, O] = (0, A.useState)(!1);
+        let [S, C] = (0, A.useState)(null), [w, T] = (0, A.useState)(!1), [, E] = (0, A.useState)(!1);
         (0, A.useEffect)(()=>{
-            h && (E(!0), O(!1), eEe(h.actor, h.rkey).then((e)=>{
-                w(e), E(!1);
+            h && (T(!0), E(!1), eEe(h.actor, h.rkey).then((e)=>{
+                C(e), T(!1);
             }).catch(()=>{
-                O(!0), E(!1);
+                E(!0), T(!1);
             }));
         }, [
             h?.actor,
             h?.rkey
         ]);
-        let [k, ee] = (0, A.useState)(null), [te, ne] = (0, A.useState)(!1), [re, ie] = (0, A.useState)(!1);
+        let [D, O] = (0, A.useState)(null), [k, ee] = (0, A.useState)(!1), [te, ne] = (0, A.useState)(!1);
         (0, A.useEffect)(()=>{
-            g && (ne(!0), ie(!1), nEe(g).then((e)=>{
-                ee(e), ne(!1);
+            g && (ee(!0), ne(!1), nEe(g).then((e)=>{
+                O(e), ee(!1);
             }).catch(()=>{
-                ie(!0), ne(!1);
+                ne(!0), ee(!1);
             }));
         }, [
             g
         ]);
-        let [ae, oe] = (0, A.useState)(), [se, ce] = (0, A.useState)(!1), [le, ue] = (0, A.useState)(!1), de = UTe(e), fe = de ? WTe(e) : null, pe = lEe(p, c), me = pe || B1(e), [he, ge] = ad((0, A.useCallback)(()=>a.getUrlPreview(p, t), [
+        let [re, ie] = (0, A.useState)(), [ae, oe] = (0, A.useState)(!1), [se, ce] = (0, A.useState)(!1), le = UTe(e), ue = le ? WTe(e) : null, de = lEe(p, c), fe = de || B1(e), [pe, me] = ad((0, A.useCallback)(()=>a.getUrlPreview(p, t), [
             p,
             t,
             a
         ]));
         (0, A.useEffect)(()=>{
-            me || ge();
+            fe || me();
         }, [
-            ge,
-            me
+            me,
+            fe
         ]);
-        let [_e, ve] = (0, A.useState)(null), [ye, be] = (0, A.useState)(!1);
+        let [he, ge] = (0, A.useState)(null), [_e, ve] = (0, A.useState)(!1);
         if ((0, A.useEffect)(()=>{
-            d && he.status === V.Error && (ye || m || h || g || de || me || (be(!0), XTe(p).then((e)=>{
-                e && ve(e);
+            d && pe.status === V.Error && (_e || m || h || g || le || fe || (ve(!0), XTe(p).then((e)=>{
+                e && ge(e);
             })));
         }, [
             d,
-            he.status,
-            ye,
+            pe.status,
+            _e,
             m,
             h?.actor,
             h?.rkey,
             g,
-            de,
-            me,
+            le,
+            fe,
             p
-        ]), m && le) return null;
+        ]), m && se) return null;
         if (m && _) {
             let t = _.media_extended ?? [];
             return (0, j.jsx)(N1, {
@@ -102204,7 +102204,7 @@ https://www.w3ctech.com/topic/2226`));
                             radii: `300`,
                             variant: `SurfaceVariant`,
                             onClick: (e)=>{
-                                e.stopPropagation(), ue(!0);
+                                e.stopPropagation(), ce(!0);
                             },
                             "aria-label": `Dismiss embed`,
                             style: {
@@ -102244,7 +102244,7 @@ https://www.w3ctech.com/topic/2226`));
                                                     src: t.url,
                                                     alt: t.altText || _.text || ``,
                                                     title: t.altText || _.text,
-                                                    onView: ()=>oe(t.url)
+                                                    onView: ()=>ie(t.url)
                                                 })
                                             }, n);
                                         })
@@ -102287,29 +102287,29 @@ https://www.w3ctech.com/topic/2226`));
                                 })
                             ]
                         }),
-                        ae && n && (0, j.jsx)(F1, {
-                            src: ae,
+                        re && n && (0, j.jsx)(F1, {
+                            src: re,
                             alt: _.text || `Image`,
-                            viewer: !!ae,
-                            requestClose: ()=>oe(void 0),
+                            viewer: !!re,
+                            requestClose: ()=>ie(void 0),
                             renderViewer: n,
                             externalUrl: e
                         }),
-                        ae && !n && (0, j.jsx)(Fn, {
+                        re && !n && (0, j.jsx)(Fn, {
                             open: !0,
                             backdrop: (0, j.jsx)(In, {}),
                             children: (0, j.jsx)(Ln, {
                                 children: (0, j.jsx)(cp.FocusTrap, {
                                     focusTrapOptions: {
                                         initialFocus: !1,
-                                        onDeactivate: ()=>oe(void 0),
+                                        onDeactivate: ()=>ie(void 0),
                                         clickOutsideDeactivates: !0,
                                         escapeDeactivates: pp
                                     },
                                     children: (0, j.jsx)(I1, {
-                                        src: ae,
+                                        src: re,
                                         alt: _.text || `Image`,
-                                        requestClose: ()=>oe(void 0),
+                                        requestClose: ()=>ie(void 0),
                                         externalUrl: e
                                     })
                                 })
@@ -102335,9 +102335,9 @@ https://www.w3ctech.com/topic/2226`));
                 })
             })
         });
-        if (h && le) return null;
-        if (h && C) {
-            let t = C?.thread?.post, a = t?.author, o = t?.record ?? {}, s = t?.embed ?? {}, c = Array.isArray(s.images) ? s.images : [], l = Array.isArray(s.media?.images) ? s.media.images : [], u = c.length ? c : l, d = s.$type === `app.bsky.embed.video#view` || s.media?.$type === `app.bsky.embed.video#view` ? s.$type === `app.bsky.embed.video#view` ? s : s.media : null, p = s.$type === `app.bsky.embed.external#view` ? s.external : s.media?.$type === `app.bsky.embed.external#view` ? s.media.external : null, m = a?.displayName || a?.handle || `Bluesky`, h = a?.handle ? `@${a.handle}` : ``;
+        if (h && se) return null;
+        if (h && S) {
+            let t = S?.thread?.post, a = t?.author, o = t?.record ?? {}, s = t?.embed ?? {}, c = Array.isArray(s.images) ? s.images : [], l = Array.isArray(s.media?.images) ? s.media.images : [], u = c.length ? c : l, d = s.$type === `app.bsky.embed.video#view` || s.media?.$type === `app.bsky.embed.video#view` ? s.$type === `app.bsky.embed.video#view` ? s : s.media : null, p = s.$type === `app.bsky.embed.external#view` ? s.external : s.media?.$type === `app.bsky.embed.external#view` ? s.media.external : null, m = a?.displayName || a?.handle || `Bluesky`, h = a?.handle ? `@${a.handle}` : ``;
             return (0, j.jsx)(N1, {
                 ...r,
                 ref: i,
@@ -102354,7 +102354,7 @@ https://www.w3ctech.com/topic/2226`));
                             radii: `300`,
                             variant: `SurfaceVariant`,
                             onClick: (e)=>{
-                                e.stopPropagation(), ue(!0);
+                                e.stopPropagation(), ce(!0);
                             },
                             "aria-label": `Dismiss embed`,
                             style: {
@@ -102390,7 +102390,7 @@ https://www.w3ctech.com/topic/2226`));
                                         src: e.fullsize || e.thumb,
                                         alt: e.alt || ``,
                                         title: e.alt,
-                                        onView: ()=>oe(e.fullsize || e.thumb)
+                                        onView: ()=>ie(e.fullsize || e.thumb)
                                     })
                                 }, t);
                             })
@@ -102412,7 +102412,7 @@ https://www.w3ctech.com/topic/2226`));
                                 p.thumb && (0, j.jsx)(V1, {
                                     src: p.thumb,
                                     alt: p.title || ``,
-                                    onView: ()=>oe(p.thumb)
+                                    onView: ()=>ie(p.thumb)
                                 }),
                                 p.title && (nf(p.uri) ? (0, j.jsx)(B, {
                                     size: `T300`,
@@ -102466,29 +102466,29 @@ https://www.w3ctech.com/topic/2226`));
                                 })
                             ]
                         }),
-                        ae && n && (0, j.jsx)(F1, {
-                            src: ae,
+                        re && n && (0, j.jsx)(F1, {
+                            src: re,
                             alt: o.text || `Image`,
-                            viewer: !!ae,
-                            requestClose: ()=>oe(void 0),
+                            viewer: !!re,
+                            requestClose: ()=>ie(void 0),
                             renderViewer: n,
                             externalUrl: e
                         }),
-                        ae && !n && (0, j.jsx)(Fn, {
+                        re && !n && (0, j.jsx)(Fn, {
                             open: !0,
                             backdrop: (0, j.jsx)(In, {}),
                             children: (0, j.jsx)(Ln, {
                                 children: (0, j.jsx)(cp.FocusTrap, {
                                     focusTrapOptions: {
                                         initialFocus: !1,
-                                        onDeactivate: ()=>oe(void 0),
+                                        onDeactivate: ()=>ie(void 0),
                                         clickOutsideDeactivates: !0,
                                         escapeDeactivates: pp
                                     },
                                     children: (0, j.jsx)(I1, {
-                                        src: ae,
+                                        src: re,
                                         alt: o.text || `Image`,
-                                        requestClose: ()=>oe(void 0),
+                                        requestClose: ()=>ie(void 0),
                                         externalUrl: e
                                     })
                                 })
@@ -102498,9 +102498,9 @@ https://www.w3ctech.com/topic/2226`));
                 })
             });
         }
-        if (g && le) return null;
-        if (g && k && !re) {
-            let e = k, t = typeof e.handle == `string` ? e.handle.slice(0, 253) : g, n = typeof e.displayName == `string` && e.displayName.trim() ? e.displayName.slice(0, 120) : t, a = typeof e.description == `string` ? e.description.slice(0, 500) : ``, o = rf(e.avatar), s = (e)=>typeof e == `number` && Number.isFinite(e) && e >= 0 ? e : 0;
+        if (g && se) return null;
+        if (g && D && !te) {
+            let e = D, t = typeof e.handle == `string` ? e.handle.slice(0, 253) : g, n = typeof e.displayName == `string` && e.displayName.trim() ? e.displayName.slice(0, 120) : t, a = typeof e.description == `string` ? e.description.slice(0, 500) : ``, o = rf(e.avatar), s = (e)=>typeof e == `number` && Number.isFinite(e) && e >= 0 ? e : 0;
             return (0, j.jsx)(N1, {
                 ...r,
                 ref: i,
@@ -102611,7 +102611,7 @@ https://www.w3ctech.com/topic/2226`));
                 })
             });
         }
-        if (g && te || h && T) return (0, j.jsx)(N1, {
+        if (g && k || h && w) return (0, j.jsx)(N1, {
             ...r,
             ref: i,
             children: (0, j.jsx)(P, {
@@ -102627,8 +102627,8 @@ https://www.w3ctech.com/topic/2226`));
                 })
             })
         });
-        if (me) {
-            let t = pe ? p : e;
+        if (fe) {
+            let t = de ? p : e;
             return (0, j.jsxs)(P, {
                 direction: `Column`,
                 style: {
@@ -102659,9 +102659,9 @@ https://www.w3ctech.com/topic/2226`));
                 ]
             });
         }
-        let xe = he.status === V.Success ? he.data : _e, Se = d && he.status === V.Error && !_e && !ye, Ce = nf(e) && (z1(e) || B1(e));
-        if (!xe && he.status !== V.Loading && !Se && !Ce || le) return null;
-        let we = (t)=>{
+        let ye = pe.status === V.Success ? pe.data : he, be = d && pe.status === V.Error && !he && !_e, xe = nf(e) && (z1(e) || B1(e));
+        if (!ye && pe.status !== V.Loading && !be && !xe || se) return null;
+        let Se = (t)=>{
             let r = t[`og:image`] || ``, i = nf(r), s = i ? r : MK(a, r, o, 256, 256, `scale`, !1), c = i ? r : MK(a, r, o, 512, 512, `scale`, !1), l = z1(e) && nf(e) ? e : ``, d = B1(e) && nf(e) ? e : ``, p = t[`og:title`], m = t[`og:description`], h = t[`og:site_name`], g = z1(e) || t[`og:type`]?.startsWith(`video`), _ = B1(e) || t[`og:type`]?.startsWith(`music`), v = Number(t[`og:image:width`]) || 0, y = Number(t[`og:image:height`]) || 0, b = v > 0 && y > 0 && v <= 96 && y <= 96, x = t[`og:video`] || t[`og:video:url`], S = uEe(x) ? x : void 0, C = !S && nf(x) && !/video\.twimg\.com/.test(x) ? x : void 0, w = !!(S || C), T = Number(t[`og:video:width`]) || void 0, E = Number(t[`og:video:height`]) || void 0, D = T && E ? `${T} / ${E}` : void 0;
             return (0, j.jsxs)(P, {
                 grow: `Yes`,
@@ -102676,7 +102676,7 @@ https://www.w3ctech.com/topic/2226`));
                         radii: `300`,
                         variant: `SurfaceVariant`,
                         onClick: (e)=>{
-                            e.stopPropagation(), ue(!0);
+                            e.stopPropagation(), ce(!0);
                         },
                         "aria-label": `Dismiss embed`,
                         style: {
@@ -102690,7 +102690,7 @@ https://www.w3ctech.com/topic/2226`));
                             src: L.Cross
                         })
                     }),
-                    de && fe && (0, j.jsx)(P, {
+                    le && ue && (0, j.jsx)(P, {
                         style: {
                             position: `relative`,
                             paddingBottom: `56.25%`,
@@ -102707,14 +102707,14 @@ https://www.w3ctech.com/topic/2226`));
                                 height: `100%`,
                                 border: `none`
                             },
-                            src: u ? `${aEe}${fe}` : `${oEe}${fe}`,
+                            src: u ? `${aEe}${ue}` : `${oEe}${ue}`,
                             title: p || `YouTube video`,
                             sandbox: `allow-scripts allow-same-origin allow-presentation`,
                             allow: `autoplay; encrypted-media; picture-in-picture; fullscreen`,
                             allowFullScreen: !0
                         })
                     }),
-                    !de && S && (0, j.jsx)(`iframe`, {
+                    !le && S && (0, j.jsx)(`iframe`, {
                         style: {
                             border: 0,
                             width: `100%`,
@@ -102727,7 +102727,7 @@ https://www.w3ctech.com/topic/2226`));
                         seamless: !0,
                         allowFullScreen: !0
                     }),
-                    !de && C && (0, j.jsx)(`video`, {
+                    !le && C && (0, j.jsx)(`video`, {
                         className: `_1pb2z305 _1mqalmd1 _1mqalmd0`,
                         src: C,
                         controls: !0,
@@ -102744,7 +102744,7 @@ https://www.w3ctech.com/topic/2226`));
                             children: p || `Video`
                         })
                     }),
-                    !de && !w && g && (l || c) && (0, j.jsx)(`video`, {
+                    !le && !w && g && (l || c) && (0, j.jsx)(`video`, {
                         className: `_1pb2z305 _1mqalmd1 _1mqalmd0`,
                         src: l || c || void 0,
                         poster: l && c ? c : void 0,
@@ -102774,13 +102774,13 @@ https://www.w3ctech.com/topic/2226`));
                             children: p || `Audio`
                         })
                     }),
-                    !de && !w && !g && !_ && s && !b && (0, j.jsx)(jTe, {
+                    !le && !w && !g && !_ && s && !b && (0, j.jsx)(jTe, {
                         src: s,
                         alt: p || ``,
                         title: p,
                         tabIndex: 0,
-                        onKeyDown: (e)=>fp(()=>oe(c ?? void 0))(e),
-                        onClick: ()=>oe(c ?? void 0)
+                        onKeyDown: (e)=>fp(()=>ie(c ?? void 0))(e),
+                        onClick: ()=>ie(c ?? void 0)
                     }),
                     (0, j.jsxs)(P1, {
                         children: [
@@ -102807,11 +102807,11 @@ https://www.w3ctech.com/topic/2226`));
                                 target: `_blank`,
                                 rel: `noreferrer`,
                                 size: `T300`,
-                                truncate: !se,
+                                truncate: !ae,
                                 children: p
                             }),
                             m && (()=>{
-                                let e = m.trim().split(/\s+/), t = e.length > 100, n = t && !se ? `${e.slice(0, 100).join(` `)}…` : m;
+                                let e = m.trim().split(/\s+/), t = e.length > 100, n = t && !ae ? `${e.slice(0, 100).join(` `)}…` : m;
                                 return (0, j.jsxs)(j.Fragment, {
                                     children: [
                                         (0, j.jsx)(B, {
@@ -102827,10 +102827,10 @@ https://www.w3ctech.com/topic/2226`));
                                             fill: `Soft`,
                                             size: `300`,
                                             radii: `300`,
-                                            onClick: ()=>ce(!se),
+                                            onClick: ()=>oe(!ae),
                                             children: (0, j.jsx)(B, {
                                                 size: `B300`,
-                                                children: se ? `Show less` : `Show all`
+                                                children: ae ? `Show less` : `Show all`
                                             })
                                         })
                                     ]
@@ -102838,29 +102838,29 @@ https://www.w3ctech.com/topic/2226`));
                             })()
                         ]
                     }),
-                    ae && n && (0, j.jsx)(F1, {
-                        src: ae,
+                    re && n && (0, j.jsx)(F1, {
+                        src: re,
                         alt: p || `Image`,
-                        viewer: !!ae,
-                        requestClose: ()=>oe(void 0),
+                        viewer: !!re,
+                        requestClose: ()=>ie(void 0),
                         renderViewer: n,
                         externalUrl: e
                     }),
-                    ae && !n && (0, j.jsx)(Fn, {
+                    re && !n && (0, j.jsx)(Fn, {
                         open: !0,
                         backdrop: (0, j.jsx)(In, {}),
                         children: (0, j.jsx)(Ln, {
                             children: (0, j.jsx)(cp.FocusTrap, {
                                 focusTrapOptions: {
                                     initialFocus: !1,
-                                    onDeactivate: ()=>oe(void 0),
+                                    onDeactivate: ()=>ie(void 0),
                                     clickOutsideDeactivates: !0,
                                     escapeDeactivates: pp
                                 },
                                 children: (0, j.jsx)(I1, {
-                                    src: ae,
+                                    src: re,
                                     alt: p || `Image`,
-                                    requestClose: ()=>oe(void 0),
+                                    requestClose: ()=>ie(void 0),
                                     externalUrl: e
                                 })
                             })
@@ -102872,7 +102872,7 @@ https://www.w3ctech.com/topic/2226`));
         return (0, j.jsx)(N1, {
             ...r,
             ref: i,
-            children: xe || Ce ? we(xe ?? {}) : (0, j.jsx)(P, {
+            children: ye || xe ? Se(ye ?? {}) : (0, j.jsx)(P, {
                 grow: `Yes`,
                 alignItems: `Center`,
                 justifyContent: `Center`,
@@ -103048,7 +103048,7 @@ https://www.w3ctech.com/topic/2226`));
             ]
         }));
     var vEe = `ty6xms0 _1mqalmd1 _1mqalmd0`, yEe = `ty6xms1 _1mqalmd1 _1mqalmd0`, U1 = ()=>Dr(`/app/`), bEe = ()=>ad((0, A.useCallback)(async ()=>{
-            let e = await c(()=>import(`./pdf-CiiGNnxo.js`).then(async (m)=>{
+            let e = await c(()=>import(`./pdf-DGeqe_zF.js`).then(async (m)=>{
                     await m.__tla;
                     return m;
                 }), __vite__mapDeps([9,10]));
@@ -103355,7 +103355,7 @@ https://www.w3ctech.com/topic/2226`));
                 })
             ]
         });
-    }), wEe = `_1v145rl0 _1mqalmd1 _1mqalmd0`, TEe = `_1v145rl1 _1mqalmd1 _1mqalmd0`, EEe = `_1v145rl2 _1mqalmd1 _1mqalmd0`, DEe = `_1v145rl3 _1mqalmd1 _1mqalmd0`, OEe = `_1v145rl4`, kEe = (0, A.lazy)(()=>c(()=>import(`./ReactPrism-Ci25Do79.js`).then(async (m)=>{
+    }), wEe = `_1v145rl0 _1mqalmd1 _1mqalmd0`, TEe = `_1v145rl1 _1mqalmd1 _1mqalmd0`, EEe = `_1v145rl2 _1mqalmd1 _1mqalmd0`, DEe = `_1v145rl3 _1mqalmd1 _1mqalmd0`, OEe = `_1v145rl4`, kEe = (0, A.lazy)(()=>c(()=>import(`./ReactPrism-B9VPjPVz.js`).then(async (m)=>{
                 await m.__tla;
                 return m;
             }), __vite__mapDeps([7,1,8]))), W1 = (0, A.forwardRef)(({ text: e, langName: t, size: n, className: r, ...i }, a)=>(0, j.jsx)(B, {
@@ -125990,7 +125990,7 @@ ${r.current.stack}
                 })
             ]
         });
-    }), hUe = Qt(({ room: e, mEvent: t, onClose: n, ...r }, i)=>(J(), (0, j.jsx)(Dn, {
+    }), hUe = Qt(({ room: e, mEvent: t, onClose: n, ...r }, i)=>(0, j.jsx)(Dn, {
             size: `300`,
             after: (0, j.jsx)(I, {
                 size: `100`,
@@ -126010,7 +126010,7 @@ ${r.current.stack}
                 truncate: !0,
                 children: `Copy Link`
             })
-        }))), gUe = Qt(({ room: e, mEvent: t, onClose: n, ...r }, i)=>{
+        })), gUe = Qt(({ room: e, mEvent: t, onClose: n, ...r }, i)=>{
         let a = J(), o = B5(e), s = o.includes(t.getId() ?? ``);
         return (0, j.jsx)(Dn, {
             size: `300`,
@@ -136677,65 +136677,6 @@ ${r.current.stack}
             ]
         });
     });
-    (0, A.forwardRef)(({ requestClose: e, onVoiceCall: t, onVideoCall: n }, r)=>(0, j.jsx)(On, {
-            ref: r,
-            style: {
-                padding: N.space.S200,
-                minWidth: Tt(150)
-            },
-            children: (0, j.jsxs)(P, {
-                direction: `Column`,
-                gap: `200`,
-                children: [
-                    (0, j.jsx)(B, {
-                        size: `L400`,
-                        children: `Start Call`
-                    }),
-                    (0, j.jsxs)(P, {
-                        direction: `Column`,
-                        gap: `200`,
-                        children: [
-                            (0, j.jsx)(F, {
-                                size: `300`,
-                                variant: `Success`,
-                                fill: `Soft`,
-                                outlined: !0,
-                                radii: `300`,
-                                before: (0, j.jsx)(I, {
-                                    size: `100`,
-                                    src: L.Phone,
-                                    filled: !0
-                                }),
-                                onClick: ()=>{
-                                    t(), e();
-                                },
-                                children: (0, j.jsx)(B, {
-                                    size: `B300`,
-                                    children: `Voice`
-                                })
-                            }),
-                            (0, j.jsx)(F, {
-                                size: `300`,
-                                variant: `Success`,
-                                radii: `300`,
-                                before: (0, j.jsx)(I, {
-                                    size: `100`,
-                                    src: L.VideoCamera,
-                                    filled: !0
-                                }),
-                                onClick: ()=>{
-                                    n(), e();
-                                },
-                                children: (0, j.jsx)(B, {
-                                    size: `B300`,
-                                    children: `Video`
-                                })
-                            })
-                        ]
-                    })
-                ]
-            })
-        }));
     function Jqe({ livekitSupported: e, hasCallPermission: t }) {
         let n = b2(), r = S2(), i = KQ(), a = qQ(r), o = i && i.roomId === n.roomId, s = i && !o, c = !!(s || o || !e || !t), l = s ? `Already in another call — End the current call to join!` : e ? t ? null : `You do not have permission to start a call in this room.` : `Your homeserver does not advertise a LiveKit/MatrixRTC focus, so calls cannot be started.`, u = ()=>{
             c || a(n, {
@@ -152427,7 +152368,7 @@ In order to be iterable, non-array objects must have a [Symbol.iterator]() metho
         (0, A.useEffect)(()=>{
             !zq() || n.current || (n.current = !0, (async ()=>{
                 let { TrayIcon: e } = await c(async ()=>{
-                    let { TrayIcon: e } = await import(`./tray-CSYORQtW.js`).then(async (m)=>{
+                    let { TrayIcon: e } = await import(`./tray-Cv7CmGbm.js`).then(async (m)=>{
                         await m.__tla;
                         return m;
                     });
@@ -152435,7 +152376,7 @@ In order to be iterable, non-array objects must have a [Symbol.iterator]() metho
                         TrayIcon: e
                     };
                 }, __vite__mapDeps([11,1])), { Menu: n } = await c(async ()=>{
-                    let { Menu: e } = await import(`./menu-CMeF3_N0.js`).then(async (m)=>{
+                    let { Menu: e } = await import(`./menu-CI6KsQ-G.js`).then(async (m)=>{
                         await m.__tla;
                         return m;
                     });
@@ -152443,7 +152384,7 @@ In order to be iterable, non-array objects must have a [Symbol.iterator]() metho
                         Menu: e
                     };
                 }, __vite__mapDeps([12,1])), { defaultWindowIcon: r } = await c(async ()=>{
-                    let { defaultWindowIcon: e } = await import(`./app-B34eIe3q.js`).then(async (m)=>{
+                    let { defaultWindowIcon: e } = await import(`./app-Pgl6xWIb.js`).then(async (m)=>{
                         await m.__tla;
                         return m;
                     });
@@ -153447,7 +153388,8 @@ In order to be iterable, non-array objects must have a [Symbol.iterator]() metho
             m,
             p,
             f,
-            i
+            i,
+            u
         ]), (0, A.useEffect)(()=>{
             Kge();
         }, []), (0, A.useEffect)(()=>{
