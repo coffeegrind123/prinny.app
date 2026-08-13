@@ -5,7 +5,7 @@ Landing page, hosted web app, and the public Matrix server directory API.
 | Path | What |
 |---|---|
 | `/` | Landing page |
-| `/app/` | The Prinny web client, deployed by CI from `coffeegrind123/cinny` |
+| `/app/` | The Prinny web client, deployed by CI from `coffeegrind123/prinny` |
 | `/servers/` | Human-readable server browser (reads the API below) |
 | `/api/servers.json` | Combined public Matrix homeserver directory, refreshed daily |
 
@@ -147,7 +147,7 @@ same data.
 ## Deploying the web app
 
 `/app/` is written by the **Publish webapp** workflow in
-`coffeegrind123/cinny`, which builds a second time with `PRINNY_BASE=/app/`
+`coffeegrind123/prinny`, which builds a second time with `PRINNY_BASE=/app/`
 (Vite bakes the public base path into every asset URL, so the root-based build
 self-hosters get would 404 under a subdirectory) and pushes the result here.
 
