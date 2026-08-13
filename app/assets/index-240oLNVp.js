@@ -1,8 +1,8 @@
-const __vite__mapDeps=(i,m=__vite__mapDeps,d=(m.f||(m.f=["assets/rust-crypto-B_scgn82.js","assets/core-Bqke1oZi.js","assets/dist-js-5RQa4Wd1.js","assets/event-Bb9UDleE.js","assets/dist-js-STOM9HGP.js","assets/dist-js-DaDRQA4y.js","assets/dist-js-D9r_zCwM.js","assets/katex-DPICzPDf.css","assets/ReactPrism-B_rWd2M8.js","assets/ReactPrism-CLcyLdmD.css","assets/pdf-CWctd5e6.js","assets/preload-helper-kNmmqUCw.js","assets/maplibre-gl-DSnsEFKn.css","assets/tray-CjqVUGPY.js","assets/menu-Ckf4xwar.js","assets/app-4-QJJXPk.js","assets/dist-js-DSD7yfJV.js"])))=>i.map(i=>d[i]);
+const __vite__mapDeps=(i,m=__vite__mapDeps,d=(m.f||(m.f=["assets/rust-crypto-CSkX_1j1.js","assets/core-Bqke1oZi.js","assets/dist-js-5RQa4Wd1.js","assets/event-Bb9UDleE.js","assets/dist-js-STOM9HGP.js","assets/dist-js-DaDRQA4y.js","assets/dist-js-D9r_zCwM.js","assets/katex-DPICzPDf.css","assets/ReactPrism-CgffV3ll.js","assets/ReactPrism-CLcyLdmD.css","assets/pdf-ClS_RbuS.js","assets/preload-helper-kNmmqUCw.js","assets/maplibre-gl-DSnsEFKn.css","assets/tray-DNzhZjFw.js","assets/menu-9CWVQfJR.js","assets/app-yLLu-pUV.js","assets/dist-js-DSD7yfJV.js"])))=>i.map(i=>d[i]);
 import { d as e, f as t, m as n, n as r, o as i, p as a, r as o, u as s } from "./core-Bqke1oZi.js";
 import { t as c } from "./preload-helper-kNmmqUCw.js";
 import { a as l, n as u, o as d, r as f, t as p } from "./event-Bb9UDleE.js";
-let wie, Mce, _z, Bce, zce, CV, eB, oR, UR, $z, Jie, lR, Zz, _V, yV, SV, tV, DL, Oz, Lce, Uce, vR, K, G, ZL, tR, YL, Jce, P9, _, Ice, xCe, _de, FL, mU, Xce, dle, j9, vt, vV, Fce, dG, WH, F9, H, qQe, KH, iR, N9, kp, SDe, o7e, U, jU, Rce, Hce, Wce, Vce, Ez;
+let wie, Mce, _z, Bce, zce, CV, eB, oR, UR, $z, Jie, lR, Zz, _V, yV, SV, tV, DL, Oz, Lce, Uce, vR, K, G, ZL, tR, YL, Jce, P9, _, Ice, xCe, _de, FL, mU, Xce, dle, j9, vt, vV, Fce, dG, WH, F9, H, KQe, KH, iR, N9, kp, SDe, a7e, U, jU, Rce, Hce, Wce, Vce, Ez;
 let __tla = (async ()=>{
     (function() {
         let e = document.createElement(`link`).relList;
@@ -20417,7 +20417,7 @@ Please change the parent <Route path="${e}"> to <Route path="${e === `/` ? `*` :
             })
         }) : e;
     }
-    var zee = `_15upz2y0`, Bee = `_15upz2y1`, Sd = `_15upz2y2 _1mqalmd1 _1mqalmd0`, Cd = `_15upz2y3`, wd = `_15upz2y4`, Td = `_15upz2y5`, Ed = `4.11.147`;
+    var zee = `_15upz2y0`, Bee = `_15upz2y1`, Sd = `_15upz2y2 _1mqalmd1 _1mqalmd0`, Cd = `_15upz2y3`, wd = `_15upz2y4`, Td = `_15upz2y5`, Ed = `4.11.149`;
     function Vee() {
         return (0, j.jsxs)(P, {
             className: Td,
@@ -50260,7 +50260,7 @@ Date.now: "${Date.now()}`);
                 var i = t.getDeviceId();
                 if (i === null) throw Error(`Cannot enable encryption on MatrixClient with unknown deviceId: ensure deviceId is passed in createClient().`);
                 t.logger.debug(`Downloading Rust crypto library`);
-                var a = yield (yield c(()=>import(`./rust-crypto-B_scgn82.js`).then(async (m)=>{
+                var a = yield (yield c(()=>import(`./rust-crypto-CSkX_1j1.js`).then(async (m)=>{
                         await m.__tla;
                         return m;
                     }), __vite__mapDeps([0,1]))).initRustCrypto({
@@ -99711,7 +99711,7 @@ https://www.w3ctech.com/topic/2226`));
             return;
         }
     };
-    TCe = (0, A.lazy)(()=>c(()=>import(`./ReactPrism-B_rWd2M8.js`).then(async (m)=>{
+    TCe = (0, A.lazy)(()=>c(()=>import(`./ReactPrism-CgffV3ll.js`).then(async (m)=>{
                 await m.__tla;
                 return m;
             }), __vite__mapDeps([8,1,9])));
@@ -105563,7 +105563,7 @@ https://www.w3ctech.com/topic/2226`));
                         await m.__tla;
                         return m;
                     }), []),
-                c(()=>import(`./tauri-hls-loader-Cxj7qdg1.js`).then(async (m)=>{
+                c(()=>import(`./tauri-hls-loader-D9VCTTzK.js`).then(async (m)=>{
                         await m.__tla;
                         return m;
                     }), [])
@@ -106643,7 +106643,7 @@ https://www.w3ctech.com/topic/2226`));
         });
     }
     var fOe = `ty6xms0 _1mqalmd1 _1mqalmd0`, pOe = `ty6xms1 _1mqalmd1 _1mqalmd0`, $0 = ()=>kr(`/app/`), mOe = ()=>V((0, A.useCallback)(async ()=>{
-            let e = await c(()=>import(`./pdf-CWctd5e6.js`).then(async (m)=>{
+            let e = await c(()=>import(`./pdf-ClS_RbuS.js`).then(async (m)=>{
                     await m.__tla;
                     return m;
                 }), __vite__mapDeps([10,11]));
@@ -106950,7 +106950,7 @@ https://www.w3ctech.com/topic/2226`));
                 })
             ]
         });
-    }), vOe = `_1v145rl0 _1mqalmd1 _1mqalmd0`, yOe = `_1v145rl1 _1mqalmd1 _1mqalmd0`, bOe = `_1v145rl2 _1mqalmd1 _1mqalmd0`, xOe = `_1v145rl3 _1mqalmd1 _1mqalmd0`, SOe = `_1v145rl4`, COe = (0, A.lazy)(()=>c(()=>import(`./ReactPrism-B_rWd2M8.js`).then(async (m)=>{
+    }), vOe = `_1v145rl0 _1mqalmd1 _1mqalmd0`, yOe = `_1v145rl1 _1mqalmd1 _1mqalmd0`, bOe = `_1v145rl2 _1mqalmd1 _1mqalmd0`, xOe = `_1v145rl3 _1mqalmd1 _1mqalmd0`, SOe = `_1v145rl4`, COe = (0, A.lazy)(()=>c(()=>import(`./ReactPrism-CgffV3ll.js`).then(async (m)=>{
                 await m.__tla;
                 return m;
             }), __vite__mapDeps([8,1,9]))), e2 = (0, A.forwardRef)(({ text: e, langName: t, size: n, className: r, ...i }, a)=>(0, j.jsx)(z, {
@@ -125237,16 +125237,16 @@ ${r.current.stack}
         }), !0;
         let o = WHe(), s = Object.keys(o);
         return !!(!W8(e, B8.CodeBlock) && s.find((n)=>up(n, t) ? (t.preventDefault(), tHe(e, o[n]), !0) : !1));
-    }, qHe = [
-        {
-            type: B8.Paragraph,
-            children: [
-                {
-                    text: ``
-                }
-            ]
-        }
-    ], JHe = (e)=>{
+    }, qHe = ()=>[
+            {
+                type: B8.Paragraph,
+                children: [
+                    {
+                        text: ``
+                    }
+                ]
+            }
+        ], JHe = (e)=>{
         let { isInline: t } = e;
         return e.isInline = (e)=>[
                 B8.Mention,
@@ -125265,16 +125265,16 @@ ${r.current.stack}
         let [e] = (0, A.useState)(()=>JHe(YHe($Ve(CHe(eRe())))));
         return e;
     }, XHe = (0, A.forwardRef)(({ editableName: e, top: t, bottom: n, before: r, after: i, maxHeight: a = `50vh`, editor: o, placeholder: s, onKeyDown: c, onKeyUp: l, onChange: u, onPaste: d, onDrop: f }, p)=>{
-        let m = (0, A.useCallback)((e)=>(0, j.jsx)(AHe, {
+        let [m] = (0, A.useState)(qHe), h = (0, A.useCallback)((e)=>(0, j.jsx)(AHe, {
                 ...e
-            }), []), h = (0, A.useCallback)((e)=>(0, j.jsx)(jHe, {
+            }), []), g = (0, A.useCallback)((e)=>(0, j.jsx)(jHe, {
                 ...e
-            }), []), g = (0, A.useCallback)((e)=>{
+            }), []), _ = (0, A.useCallback)((e)=>{
             c?.(e), KHe(o, e) && e.preventDefault();
         }, [
             o,
             c
-        ]), _ = (0, A.useCallback)(({ attributes: e, children: t })=>(0, j.jsx)(`span`, {
+        ]), v = (0, A.useCallback)(({ attributes: e, children: t })=>(0, j.jsx)(`span`, {
                 ...e,
                 className: FHe,
                 children: (0, j.jsx)(z, {
@@ -125289,7 +125289,7 @@ ${r.current.stack}
             ref: p,
             children: (0, j.jsxs)(QVe, {
                 editor: o,
-                initialValue: qHe,
+                initialValue: m,
                 onChange: u,
                 children: [
                     t,
@@ -125316,10 +125316,10 @@ ${r.current.stack}
                                     "data-editable-name": e,
                                     className: PHe,
                                     placeholder: s,
-                                    renderPlaceholder: _,
-                                    renderElement: m,
-                                    renderLeaf: h,
-                                    onKeyDown: g,
+                                    renderPlaceholder: v,
+                                    renderElement: h,
+                                    renderLeaf: g,
+                                    onKeyDown: _,
                                     onKeyUp: l,
                                     onPaste: d,
                                     onDrop: f
@@ -125344,62 +125344,56 @@ ${r.current.stack}
             let [, n, r] = e, i = n.length;
             return `<h${i} data-md="${n}">${t ? t(r) : r}</h${i}>`;
         }
-    }, $He = /^(`{3,})(?!`)(\S*)\n((?:.*\n)+?)\1 *(?!.)\n?/m, eUe = {
+    }, $He = /^(`{3,})(?!`)([\s\S]*?)\1`* *(?!.)\n?/m, eUe = /^([^\s`]*)\n/, tUe = {
         match: (e)=>e.match($He),
         html: (e)=>{
-            let [, t, n, r] = e, i = n ? n.substring(n.lastIndexOf(`.`) + 1) : null, a = n === i ? null : n;
-            return `<pre data-md="${t}"><code${i ? ` class="language-${i}"` : ``}${a ? ` data-label="${a}"` : ``}>${r}</code></pre>`;
+            let [, t, n] = e, r = n.match(eUe), i = r?.[1] || null, a = r ? n.slice(r[0].length) : n, o = i ? i.substring(i.lastIndexOf(`.`) + 1) : null, s = i === o ? null : i;
+            return `<pre data-md="${t}"><code${o ? ` class="language-${o}"` : ``}${s ? ` data-label="${s}"` : ``}>${a}</code></pre>`;
         }
-    }, tUe = /^(`{3,})(?!`)(.*?)\1(?!`) *$\n?/m, nUe = {
-        match: (e)=>e.match(tUe),
-        html: (e)=>{
-            let [, t, n] = e;
-            return `<pre data-md="${t}"><code>${n}</code></pre>`;
-        }
-    }, rUe = `>`, iUe = /^> */, aUe = /\n$/, oUe = /(^>.*\n?)+/m, sUe = {
-        match: (e)=>e.match(oUe),
+    }, nUe = `>`, rUe = /^> */, iUe = /\n$/, aUe = /(^>.*\n?)+/m, oUe = {
+        match: (e)=>e.match(aUe),
         html: (e, t)=>{
             let [n] = e;
-            return `<blockquote data-md="${rUe}">${n.replace(aUe, ``).split(`
+            return `<blockquote data-md="${nUe}">${n.replace(iUe, ``).split(`
 `).map((e)=>{
-                let n = e.replace(iUe, ``);
+                let n = e.replace(rUe, ``);
                 return t ? `${t(n)}<br/>` : `${n}<br/>`;
             }).join(``)}</blockquote>`;
         }
-    }, cUe = `-`, lUe = `*`, uUe = /^( *)([-*+]|[\da-zA-Z]\.) +(.+)$/;
-    function dUe(e) {
+    }, sUe = `-`, cUe = `*`, lUe = /^( *)([-*+]|[\da-zA-Z]\.) +(.+)$/;
+    function uUe(e) {
         return e === `-` || e === `*` || e === `+` ? `ul` : `ol`;
     }
-    function fUe(e) {
+    function dUe(e) {
         let t = e.match(/^(\d)\./), n = e.match(/^([aAiI])\./);
         return {
             start: t?.[1],
             type: n?.[1]
         };
     }
-    function pUe(e) {
+    function fUe(e) {
         return e.replace(/\n$/, ``).split(`
 `).map((e)=>{
-            let t = e.match(uUe);
+            let t = e.match(lUe);
             if (!t) return null;
             let [, n, r, i] = t;
             return {
                 indent: n.length,
                 marker: r,
                 content: i,
-                listType: dUe(r)
+                listType: uUe(r)
             };
         }).filter(Boolean);
     }
     function l5(e) {
-        if (e.listType === `ul`) return `<ul data-md="${lUe}">`;
-        let { type: t, start: n } = fUe(e.marker);
-        return `<ol ${`data-md="${t || n || cUe}"`}${n ? ` start="${n}"` : ``}${t ? ` type="${t}"` : ``}>`;
+        if (e.listType === `ul`) return `<ul data-md="${cUe}">`;
+        let { type: t, start: n } = dUe(e.marker);
+        return `<ol ${`data-md="${t || n || sUe}"`}${n ? ` start="${n}"` : ``}${t ? ` type="${t}"` : ``}>`;
     }
     function u5(e) {
         return e === `ul` ? `</ul>` : `</ol>`;
     }
-    function mUe(e, t) {
+    function pUe(e, t) {
         let n = ``, r = [];
         return e.forEach((i, a)=>{
             let o = e[a - 1], s = e[a + 1], c = t ? t(i.content) : i.content;
@@ -125413,76 +125407,76 @@ ${r.current.stack}
             if (n += `<li><p>${c}</p>`, !s) for(n += `</li>`; r.length;)n += u5(r.pop());
         }), n;
     }
-    var hUe = /^(?: *(?:[-*+]|[\da-zA-Z]\.) +.+\n?)+/m, gUe = {
-        match: (e)=>e.match(hUe),
+    var mUe = /^(?: *(?:[-*+]|[\da-zA-Z]\.) +.+\n?)+/m, hUe = {
+        match: (e)=>e.match(mUe),
         html: (e, t)=>{
             let [n] = e;
-            return mUe(pUe(n), t);
+            return pUe(fUe(n), t);
         }
-    }, _Ue = /^\\*(#{1,6} +|```|>|(-|[\da-zA-Z]\.) +|\* +)/, vUe = /^\\(\\*(#{1,6} +|```|>|(-|[\da-zA-Z]\.) +|\* +))/, d5 = `(.+?)`, f5 = `(?<!(https?|ftp|mailto|magnet):\\/\\/\\S*)`, p5 = `(?<!\\\\)`, yUe = `**`, bUe = `${p5}\\*{2}`, xUe = RegExp(`${f5}${bUe}${d5}${bUe}(?!\\*)`), SUe = {
-        match: (e)=>e.match(xUe),
+    }, gUe = /^\\*(#{1,6} +|```|>|(-|[\da-zA-Z]\.) +|\* +)/, _Ue = /^\\(\\*(#{1,6} +|```|>|(-|[\da-zA-Z]\.) +|\* +))/, d5 = `(.+?)`, f5 = `(?<!(https?|ftp|mailto|magnet):\\/\\/\\S*)`, p5 = `(?<!\\\\)`, vUe = `**`, yUe = `${p5}\\*{2}`, bUe = RegExp(`${f5}${yUe}${d5}${yUe}(?!\\*)`), xUe = {
+        match: (e)=>e.match(bUe),
         html: (e, t)=>{
             let [, , n] = t;
-            return `<strong data-md="${yUe}">${e(n)}</strong>`;
+            return `<strong data-md="${vUe}">${e(n)}</strong>`;
         }
-    }, CUe = `*`, wUe = `${p5}\\*`, TUe = RegExp(`${f5}${wUe}${d5}${wUe}(?!\\*)`), EUe = {
-        match: (e)=>e.match(TUe),
+    }, SUe = `*`, CUe = `${p5}\\*`, wUe = RegExp(`${f5}${CUe}${d5}${CUe}(?!\\*)`), TUe = {
+        match: (e)=>e.match(wUe),
         html: (e, t)=>{
             let [, , n] = t;
-            return `<i data-md="${CUe}">${e(n)}</i>`;
+            return `<i data-md="${SUe}">${e(n)}</i>`;
         }
-    }, DUe = `_`, OUe = `${p5}_`, kUe = RegExp(`${f5}${OUe}${d5}${OUe}(?!_)`), AUe = {
-        match: (e)=>e.match(kUe),
+    }, EUe = `_`, DUe = `${p5}_`, OUe = RegExp(`${f5}${DUe}${d5}${DUe}(?!_)`), kUe = {
+        match: (e)=>e.match(OUe),
         html: (e, t)=>{
             let [, , n] = t;
-            return `<i data-md="${DUe}">${e(n)}</i>`;
+            return `<i data-md="${EUe}">${e(n)}</i>`;
         }
-    }, jUe = `__`, MUe = `${p5}_{2}`, NUe = RegExp(`${f5}${MUe}${d5}${MUe}(?!_)`), PUe = {
-        match: (e)=>e.match(NUe),
+    }, AUe = `__`, jUe = `${p5}_{2}`, MUe = RegExp(`${f5}${jUe}${d5}${jUe}(?!_)`), NUe = {
+        match: (e)=>e.match(MUe),
         html: (e, t)=>{
             let [, , n] = t;
-            return `<u data-md="${jUe}">${e(n)}</u>`;
+            return `<u data-md="${AUe}">${e(n)}</u>`;
         }
-    }, FUe = `~~`, IUe = `${p5}~{2}`, LUe = RegExp(`${f5}${IUe}${d5}${IUe}(?!~)`), RUe = {
-        match: (e)=>e.match(LUe),
+    }, PUe = `~~`, FUe = `${p5}~{2}`, IUe = RegExp(`${f5}${FUe}${d5}${FUe}(?!~)`), LUe = {
+        match: (e)=>e.match(IUe),
         html: (e, t)=>{
             let [, , n] = t;
-            return `<s data-md="${FUe}">${e(n)}</s>`;
+            return `<s data-md="${PUe}">${e(n)}</s>`;
         }
-    }, zUe = RegExp(`${f5}${`${p5}(\`{1,2})(?!\`)`}(.+?)\\2(?!\`)`), BUe = {
-        match: (e)=>e.match(zUe),
+    }, RUe = RegExp(`${f5}${`${p5}(\`{1,2})(?!\`)`}(.+?)\\2(?!\`)`), zUe = {
+        match: (e)=>e.match(RUe),
         html: (e, t)=>{
             let [, , n, r] = t;
             return `<code data-md="${n}">${r}</code>`;
         }
-    }, VUe = `||`, HUe = `${p5}\\|{2}`, UUe = RegExp(`${f5}${HUe}${d5}${HUe}(?!\\|)`), WUe = {
-        match: (e)=>e.match(UUe),
+    }, BUe = `||`, VUe = `${p5}\\|{2}`, HUe = RegExp(`${f5}${VUe}${d5}${VUe}(?!\\|)`), UUe = {
+        match: (e)=>e.match(HUe),
         html: (e, t)=>{
             let [, , n] = t;
-            return `<span data-md="${VUe}" data-mx-spoiler>${e(n)}</span>`;
+            return `<span data-md="${BUe}" data-mx-spoiler>${e(n)}</span>`;
         }
-    }, GUe = RegExp(`${`\\[${d5}\\]`}\\((https?:\\/\\/.+?)\\)`), KUe = {
-        match: (e)=>e.match(GUe),
+    }, WUe = RegExp(`${`\\[${d5}\\]`}\\((https?:\\/\\/.+?)\\)`), GUe = {
+        match: (e)=>e.match(WUe),
         html: (e, t)=>{
             let [, n, r] = t;
             return `<a data-md href="${r}">${e(n)}</a>`;
         }
-    }, qUe = "[*_~`|]", JUe = `${f5}${qUe}`, YUe = RegExp(`${f5}${`\\\\(${qUe})`}`), XUe = {
-        match: (e)=>e.match(YUe),
+    }, KUe = "[*_~`|]", qUe = `${f5}${KUe}`, JUe = RegExp(`${f5}${`\\\\(${KUe})`}`), YUe = {
+        match: (e)=>e.match(JUe),
         html: (e, t)=>{
             let [, , n] = t;
             return n;
         }
-    }, ZUe = (e, t)=>e.slice(0, t.index), QUe = (e, t)=>e.slice((t.index ?? 0) + t[0].length), m5 = (e, t, n, r)=>[
-            ...r(ZUe(e, t)),
+    }, XUe = (e, t)=>e.slice(0, t.index), ZUe = (e, t)=>e.slice((t.index ?? 0) + t[0].length), m5 = (e, t, n, r)=>[
+            ...r(XUe(e, t)),
             n,
-            ...r(QUe(e, t))
-        ], $Ue = (e, t, n)=>{
+            ...r(ZUe(e, t))
+        ], QUe = (e, t, n)=>{
         let r = t.match(e);
         if (r) return m5(e, r, t.html(n, r), (e)=>[
                 n(e)
             ]).join(``);
-    }, eWe = (e, t, n)=>{
+    }, $Ue = (e, t, n)=>{
         let r = t.map((t)=>t.match(e)), i, a;
         for(let e = 0; e < r.length; e += 1){
             let n = r[e];
@@ -125494,18 +125488,18 @@ ${r.current.stack}
                     n(e)
                 ]).join(``);
         }
-    }, tWe = (e)=>$Ue(e, XUe, (e)=>e === `` ? e : tWe(e)) ?? e, nWe = (e)=>i$(e, RegExp(`(${JUe})`, `g`), (e)=>{
+    }, eWe = (e)=>QUe(e, YUe, (e)=>e === `` ? e : eWe(e)) ?? e, tWe = (e)=>i$(e, RegExp(`(${qUe})`, `g`), (e)=>{
             let [, t] = e;
             return `\\${t}`;
-        }, (e)=>e).join(``), rWe = (e, t)=>{
-        let n = e.match(vUe);
+        }, (e)=>e).join(``), nWe = (e, t)=>{
+        let n = e.match(_Ue);
         if (!n) return t(e);
         let [, r] = n;
         return m5(e, n, r, (e)=>[
                 t(e)
             ]).join(``);
-    }, iWe = (e, t)=>{
-        let n = e.match(_Ue);
+    }, rWe = (e, t)=>{
+        let n = e.match(gUe);
         if (!n) return t(e);
         let [, r] = n;
         return m5(e, n, `\\${r}`, (e)=>[
@@ -125519,32 +125513,32 @@ ${r.current.stack}
     }, g5 = (e, t)=>{
         if (e === ``) return e;
         let n;
-        return n ||= h5(e, eUe, g5, t), n ||= h5(e, nUe, g5, t), n ||= h5(e, sUe, g5, t), n ||= h5(e, gUe, g5, t), n ||= h5(e, QHe, g5, t), n ||= e.split(`
+        return n ||= h5(e, tUe, g5, t), n ||= h5(e, oUe, g5, t), n ||= h5(e, hUe, g5, t), n ||= h5(e, QHe, g5, t), n ||= e.split(`
 `).map((e)=>{
-            let n = e.match(vUe);
+            let n = e.match(_Ue);
             if (!n) return t?.(e) ?? e;
             let [, r] = n;
             return m5(e, n, r, (e)=>[
                     t?.(e) ?? e
                 ]).join(``);
         }).join(`<br/>`), n ?? e;
-    }, aWe = [
-        SUe,
-        EUe,
-        PUe,
-        AUe,
-        RUe,
-        WUe,
-        KUe,
-        XUe
+    }, iWe = [
+        xUe,
+        TUe,
+        NUe,
+        kUe,
+        LUe,
+        UUe,
+        GUe,
+        YUe
     ], _5 = (e)=>{
         if (e === ``) return e;
         let t;
-        return t ||= $Ue(e, BUe, _5), t ||= eWe(e, aWe, _5), t ?? e;
-    }, oWe = (e, t)=>{
+        return t ||= QUe(e, zUe, _5), t ||= $Ue(e, iWe, _5), t ?? e;
+    }, aWe = (e, t)=>{
         let n = _G(e.text);
         return t.allowTextFormatting && (e.bold && (n = `<strong>${n}</strong>`), e.italic && (n = `<i>${n}</i>`), e.underline && (n = `<u>${n}</u>`), e.strikeThrough && (n = `<s>${n}</s>`), e.code && (n = `<code>${n}</code>`), e.spoiler && (n = `<span data-mx-spoiler>${n}</span>`)), t.allowInlineMarkdown && n === _G(e.text) && (n = _5(n)), n;
-    }, sWe = (e, t)=>{
+    }, oWe = (e, t)=>{
         switch(e.type){
             case B8.Paragraph:
                 return `${t}<br/>`;
@@ -125580,7 +125574,7 @@ ${r.current.stack}
             default:
                 return t;
         }
-    }, cWe = /<([\w-]+)(?: [^>]*)?(?:(?:\/>)|(?:>.*?<\/\1>))/g, lWe = (e)=>i$(e, cWe, (e)=>e[0], (e)=>_5(e)).join(``), v5 = (e, t)=>{
+    }, sWe = /<([\w-]+)(?: [^>]*)?(?:(?:\/>)|(?:>.*?<\/\1>))/g, cWe = (e)=>i$(e, sWe, (e)=>e[0], (e)=>_5(e)).join(``), v5 = (e, t)=>{
         let n = ``, r = (e, r, i)=>{
             if (t.allowBlockMarkdown && `type` in e && e.type === B8.Paragraph) {
                 let a = v5(e, {
@@ -125589,16 +125583,16 @@ ${r.current.stack}
                     allowBlockMarkdown: !1
                 }).replace(/<br\/>$/, `
 `).replace(/^(\\*)&gt;/, `$1>`);
-                return n += a, r === i.length - 1 ? g5(n, lWe) : ``;
+                return n += a, r === i.length - 1 ? g5(n, cWe) : ``;
             }
-            let a = g5(n, lWe);
+            let a = g5(n, cWe);
             return n = ``, `type` in e && e.type === B8.CodeLine ? `${a}${v5(e, {})}` : `${a}${v5(e, {
                 ...t,
                 allowBlockMarkdown: !1
             })}`;
         };
-        return Array.isArray(e) ? e.map(r).join(``) : t6.isText(e) ? oWe(e, t) : sWe(e, e.children.map(r).join(``));
-    }, uWe = (e, t)=>{
+        return Array.isArray(e) ? e.map(r).join(``) : t6.isText(e) ? aWe(e, t) : oWe(e, e.children.map(r).join(``));
+    }, lWe = (e, t)=>{
         switch(e.type){
             case B8.Paragraph:
                 return `${t}\n`;
@@ -125629,8 +125623,8 @@ ${r.current.stack}
             default:
                 return t;
         }
-    }, y5 = (e, t)=>Array.isArray(e) ? e.map((e)=>y5(e, t)).join(``) : t6.isText(e) ? t ? rWe(e.text, tWe) : e.text : uWe(e, e.children.map((e)=>y5(e, t)).join(``)), b5 = (e, t)=>e.replace(/<br\/>/g, `
-`) === _G(t), dWe = (e)=>e.replace(/<br\/>$/g, ``).trim(), fWe = (e, t)=>{
+    }, y5 = (e, t)=>Array.isArray(e) ? e.map((e)=>y5(e, t)).join(``) : t6.isText(e) ? t ? nWe(e.text, eWe) : e.text : lWe(e, e.children.map((e)=>y5(e, t)).join(``)), b5 = (e, t)=>e.replace(/<br\/>/g, `
+`) === _G(t), uWe = (e)=>e.replace(/<br\/>$/g, ``).trim(), dWe = (e, t)=>{
         let n = RegExp(`^(\\s+)?(\\/${mK(e)})([^\\S\n]+)?`), r = t.match(n);
         return r ? t.slice(r[0].length) : t;
     }, x5 = (e, t, n)=>{
@@ -125970,14 +125964,14 @@ ${r.current.stack}
             category: `Call`,
             defaultKeys: `mod+shift+h`
         }
-    ], pWe = new Map;
-    for (let e of w5)pWe.set(e.id, e);
+    ], fWe = new Map;
+    for (let e of w5)fWe.set(e.id, e);
     function T5(e) {
-        return pWe.get(e);
+        return fWe.get(e);
     }
-    var mWe = {};
-    for (let e of w5)mWe[e.id] = e.defaultKeys;
-    var hWe = pi(!1), gWe = {
+    var pWe = {};
+    for (let e of w5)pWe[e.id] = e.defaultKeys;
+    var mWe = pi(!1), hWe = {
         mod: xY() ? S5.Command : `Ctrl`,
         ctrl: `Ctrl`,
         shift: S5.Shift,
@@ -125999,10 +125993,10 @@ ${r.current.stack}
         "/": `/`
     };
     function E5(e) {
-        return e.split(`+`).map((e)=>e.trim()).map((e)=>gWe[e.toLowerCase()] ?? e.toUpperCase()).join(``);
+        return e.split(`+`).map((e)=>e.trim()).map((e)=>hWe[e.toLowerCase()] ?? e.toUpperCase()).join(``);
     }
-    function _We(e) {
-        return e.split(`+`).map((e)=>e.trim()).map((e)=>gWe[e.toLowerCase()] ?? e.toUpperCase());
+    function gWe(e) {
+        return e.split(`+`).map((e)=>e.trim()).map((e)=>hWe[e.toLowerCase()] ?? e.toUpperCase());
     }
     function D5(e, t) {
         try {
@@ -126086,7 +126080,7 @@ ${r.current.stack}
                 })
         });
     }
-    function vWe() {
+    function _We() {
         let e = N8(), t = nHe(e), [n, r] = (0, A.useState)(), i = W8(e, B8.Heading), a = (t)=>{
             r(void 0), G8(e, B8.Heading, {
                 level: t
@@ -126195,7 +126189,7 @@ ${r.current.stack}
             })
         });
     }
-    function yWe({ tooltip: e }) {
+    function vWe({ tooltip: e }) {
         let t = N8(), n = ()=>{
             H8(t) ? U8(t) : W8(t, B8.Paragraph) || G8(t, B8.Paragraph), Q8(t);
         };
@@ -126215,7 +126209,7 @@ ${r.current.stack}
                 })
         });
     }
-    function bWe() {
+    function yWe() {
         let e = N8(), [t] = Y(X, `keybinds`), n = W8(e, B8.CodeBlock);
         function r(e, n) {
             return E5(t[e] ?? T5(e)?.defaultKeys ?? n);
@@ -126332,7 +126326,7 @@ ${r.current.stack}
                                         shortCode: r(`format-unordered-list`, `mod+8`)
                                     })
                                 }),
-                                (0, j.jsx)(vWe, {})
+                                (0, j.jsx)(_We, {})
                             ]
                         }),
                         i && (0, j.jsxs)(j.Fragment, {
@@ -126347,7 +126341,7 @@ ${r.current.stack}
                                 (0, j.jsx)(P, {
                                     shrink: `No`,
                                     gap: `100`,
-                                    children: (0, j.jsx)(yWe, {
+                                    children: (0, j.jsx)(vWe, {
                                         tooltip: (0, j.jsx)(O5, {
                                             text: `Exit Formatting`,
                                             shortCode: `Esc, ${r(`format-clear`, `mod+e`)}`
@@ -126391,17 +126385,17 @@ ${r.current.stack}
             })
         });
     }
-    var xWe = `animateMotion.animateTransform.clipPath.feBlend.feColorMatrix.feComponentTransfer.feComposite.feConvolveMatrix.feDiffuseLighting.feDisplacementMap.feDropShadow.feFlood.feFuncA.feFuncB.feFuncG.feFuncR.feGaussianBlur.feImage.feMerge.feMergeNode.feMorphology.feOffset.fePointLight.feSpecularLighting.feSpotLight.feTile.feTurbulence.foreignObject.linearGradient.radialGradient.textPath`.split(`.`).reduce(function(e, t) {
+    var bWe = `animateMotion.animateTransform.clipPath.feBlend.feColorMatrix.feComponentTransfer.feComposite.feConvolveMatrix.feDiffuseLighting.feDisplacementMap.feDropShadow.feFlood.feFuncA.feFuncB.feFuncG.feFuncR.feGaussianBlur.feImage.feMerge.feMergeNode.feMorphology.feOffset.fePointLight.feSpecularLighting.feSpotLight.feTile.feTurbulence.foreignObject.linearGradient.radialGradient.textPath`.split(`.`).reduce(function(e, t) {
         return e[t.toLowerCase()] = t, e;
     }, {}), j5;
     (function(e) {
         e.Root = `root`, e.Text = `text`, e.Directive = `directive`, e.Comment = `comment`, e.Script = `script`, e.Style = `style`, e.Tag = `tag`, e.CDATA = `cdata`, e.Doctype = `doctype`;
     })(j5 ||= {});
-    function SWe(e) {
+    function xWe(e) {
         return e.type === j5.Tag || e.type === j5.Script || e.type === j5.Style;
     }
     j5.Root, j5.Text, j5.Directive, j5.Comment, j5.Script, j5.Style, j5.Tag, j5.CDATA, j5.Doctype;
-    var CWe = class {
+    var SWe = class {
         parent = null;
         prev = null;
         next = null;
@@ -126426,9 +126420,9 @@ ${r.current.stack}
             this.next = e;
         }
         cloneNode(e = !1) {
-            return IWe(this, e);
+            return FWe(this, e);
         }
-    }, M5 = class extends CWe {
+    }, M5 = class extends SWe {
         data;
         constructor(e){
             super(), this.data = e;
@@ -126439,17 +126433,17 @@ ${r.current.stack}
         set nodeValue(e) {
             this.data = e;
         }
-    }, wWe = class extends M5 {
+    }, CWe = class extends M5 {
         type = j5.Text;
         get nodeType() {
             return 3;
         }
-    }, TWe = class extends M5 {
+    }, wWe = class extends M5 {
         type = j5.Comment;
         get nodeType() {
             return 8;
         }
-    }, EWe = class extends M5 {
+    }, TWe = class extends M5 {
         type = j5.Directive;
         name;
         constructor(e, t){
@@ -126461,7 +126455,7 @@ ${r.current.stack}
         "x-name";
         "x-publicId";
         "x-systemId";
-    }, N5 = class extends CWe {
+    }, N5 = class extends SWe {
         children;
         constructor(e){
             super(), this.children = e;
@@ -126478,17 +126472,17 @@ ${r.current.stack}
         set childNodes(e) {
             this.children = e;
         }
-    }, DWe = class extends N5 {
+    }, EWe = class extends N5 {
         type = j5.CDATA;
         get nodeType() {
             return 4;
         }
-    }, OWe = class extends N5 {
+    }, DWe = class extends N5 {
         type = j5.Root;
         get nodeType() {
             return 9;
         }
-    }, kWe = class extends N5 {
+    }, OWe = class extends N5 {
         name;
         attribs;
         type;
@@ -126516,30 +126510,30 @@ ${r.current.stack}
         "x-attribsNamespace";
         "x-attribsPrefix";
     };
-    function AWe(e) {
-        return SWe(e);
+    function kWe(e) {
+        return xWe(e);
     }
-    function jWe(e) {
+    function AWe(e) {
         return e.type === j5.CDATA;
     }
-    function MWe(e) {
+    function jWe(e) {
         return e.type === j5.Text;
     }
-    function NWe(e) {
+    function MWe(e) {
         return e.type === j5.Comment;
     }
-    function PWe(e) {
+    function NWe(e) {
         return e.type === j5.Directive;
     }
-    function FWe(e) {
+    function PWe(e) {
         return e.type === j5.Root;
     }
-    function IWe(e, t = !1) {
+    function FWe(e, t = !1) {
         let n;
-        if (MWe(e)) n = new wWe(e.data);
-        else if (NWe(e)) n = new TWe(e.data);
-        else if (AWe(e)) {
-            let r = t ? P5(e.children) : [], i = new kWe(e.name, {
+        if (jWe(e)) n = new CWe(e.data);
+        else if (MWe(e)) n = new wWe(e.data);
+        else if (kWe(e)) {
+            let r = t ? P5(e.children) : [], i = new OWe(e.name, {
                 ...e.attribs
             }, r);
             for (let e of r)e.parent = i;
@@ -126548,38 +126542,38 @@ ${r.current.stack}
             }), e[`x-attribsPrefix`] && (i[`x-attribsPrefix`] = {
                 ...e[`x-attribsPrefix`]
             }), n = i;
-        } else if (jWe(e)) {
-            let r = t ? P5(e.children) : [], i = new DWe(r);
+        } else if (AWe(e)) {
+            let r = t ? P5(e.children) : [], i = new EWe(r);
             for (let e of r)e.parent = i;
             n = i;
-        } else if (FWe(e)) {
-            let r = t ? P5(e.children) : [], i = new OWe(r);
+        } else if (PWe(e)) {
+            let r = t ? P5(e.children) : [], i = new DWe(r);
             for (let e of r)e.parent = i;
             e[`x-mode`] && (i[`x-mode`] = e[`x-mode`]), n = i;
-        } else if (PWe(e)) {
-            let t = new EWe(e.name, e.data);
+        } else if (NWe(e)) {
+            let t = new TWe(e.name, e.data);
             e[`x-name`] != null && (t[`x-name`] = e[`x-name`], t[`x-publicId`] = e[`x-publicId`], t[`x-systemId`] = e[`x-systemId`]), n = t;
         } else throw Error(`Not implemented yet: ${e.type}`);
         return n.startIndex = e.startIndex, n.endIndex = e.endIndex, e.sourceCodeLocation != null && (n.sourceCodeLocation = e.sourceCodeLocation), n;
     }
     function P5(e) {
-        let t = e.map((e)=>IWe(e, !0));
+        let t = e.map((e)=>FWe(e, !0));
         for(let e = 1; e < t.length; e++)t[e].prev = t[e - 1], t[e - 1].next = t[e];
         return t;
     }
-    var LWe = `\r`, RWe = new RegExp(LWe, `g`), zWe = `__HTML_DOM_PARSER_CARRIAGE_RETURN_PLACEHOLDER_${Date.now().toString()}__`, BWe = new RegExp(zWe, `g`);
-    function VWe(e) {
-        return xWe[e];
+    var IWe = `\r`, LWe = new RegExp(IWe, `g`), RWe = `__HTML_DOM_PARSER_CARRIAGE_RETURN_PLACEHOLDER_${Date.now().toString()}__`, zWe = new RegExp(RWe, `g`);
+    function BWe(e) {
+        return bWe[e];
     }
-    function HWe(e) {
+    function VWe(e) {
         for(var t = {}, n = 0, r = e.length; n < r; n++){
             var i = e[n];
             t[i.name] = i.value;
         }
         return t;
     }
-    function UWe(e) {
-        return e = e.toLowerCase(), VWe(e) || e;
+    function HWe(e) {
+        return e = e.toLowerCase(), BWe(e) || e;
     }
     function F5(e, t) {
         var n = `<` + t, r = e.toLowerCase().indexOf(n);
@@ -126588,26 +126582,26 @@ ${r.current.stack}
         return i === `>` || i === ` ` || i === `	` || i === `
 ` || i === `\r` || i === `/`;
     }
+    function UWe(e) {
+        return e.replace(LWe, RWe);
+    }
     function WWe(e) {
-        return e.replace(RWe, zWe);
+        return e.replace(zWe, IWe);
     }
-    function GWe(e) {
-        return e.replace(BWe, LWe);
-    }
-    function KWe(e, t, n) {
+    function GWe(e, t, n) {
         t === void 0 && (t = null);
         for(var r = [], i, a = 0, o = e.length; a < o; a++){
             var s = e[a];
             switch(s.nodeType){
                 case 1:
-                    var c = UWe(s.nodeName);
-                    i = new kWe(c, HWe(s.attributes)), i.children = KWe(c === `template` ? s.content.childNodes : s.childNodes, i);
+                    var c = HWe(s.nodeName);
+                    i = new OWe(c, VWe(s.attributes)), i.children = GWe(c === `template` ? s.content.childNodes : s.childNodes, i);
                     break;
                 case 3:
-                    i = new wWe(GWe(s.nodeValue ?? ``));
+                    i = new CWe(WWe(s.nodeValue ?? ``));
                     break;
                 case 8:
-                    i = new TWe(s.nodeValue ?? ``);
+                    i = new wWe(s.nodeValue ?? ``);
                     break;
                 default:
                     continue;
@@ -126615,9 +126609,9 @@ ${r.current.stack}
             var l = r[a - 1] ?? null;
             l && (l.next = i), i.parent = t, i.prev = l, i.next = null, r.push(i);
         }
-        return n && (i = new EWe(n.substring(0, n.indexOf(` `)).toLowerCase(), n), i.next = r[0] ?? null, i.parent = t, r.unshift(i), r[1] && (r[1].prev = r[0])), r;
+        return n && (i = new TWe(n.substring(0, n.indexOf(` `)).toLowerCase(), n), i.next = r[0] ?? null, i.parent = t, r.unshift(i), r[1] && (r[1].prev = r[0])), r;
     }
-    var qWe = `html`, I5 = `head`, L5 = `body`, JWe = /<([a-zA-Z]+[0-9]?)/;
+    var KWe = `html`, I5 = `head`, L5 = `body`, qWe = /<([a-zA-Z]+[0-9]?)/;
     function R5(e, t) {
         return t ? t.createHTML(e) : e;
     }
@@ -126625,11 +126619,11 @@ ${r.current.stack}
         throw Error("This browser does not support `document.implementation.createHTMLDocument`");
     }, B5 = function(e, t, n) {
         throw Error("This browser does not support `DOMParser.prototype.parseFromString`");
-    }, YWe = typeof window == `object` && window.DOMParser;
-    if (typeof YWe == `function`) {
-        var XWe = new YWe, ZWe = `text/html`;
+    }, JWe = typeof window == `object` && window.DOMParser;
+    if (typeof JWe == `function`) {
+        var YWe = new JWe, XWe = `text/html`;
         B5 = function(e, t, n) {
-            return t && (e = `<${t}>${e}</${t}>`), XWe.parseFromString(e, ZWe);
+            return t && (e = `<${t}>${e}</${t}>`), YWe.parseFromString(e, XWe);
         }, z5 = B5;
     }
     if (typeof document == `object` && document.implementation) {
@@ -126646,15 +126640,15 @@ ${r.current.stack}
     H5 && H5.content && (U5 = function(e, t) {
         return H5.innerHTML = R5(e, t), H5.content.childNodes;
     });
-    var QWe = function() {
+    var ZWe = function() {
         return document.createDocumentFragment().childNodes;
     };
-    function $We(e, t) {
+    function QWe(e, t) {
         var n, r;
-        e = WWe(e);
-        var i = (JWe.exec(e)?.[1])?.toLowerCase();
+        e = UWe(e);
+        var i = (qWe.exec(e)?.[1])?.toLowerCase();
         switch(i){
-            case qWe:
+            case KWe:
                 var a = B5(e);
                 if (!F5(e, I5)) {
                     var o = a.querySelector(I5);
@@ -126664,32 +126658,32 @@ ${r.current.stack}
                     var o = a.querySelector(L5);
                     (r = o?.parentNode) == null || r.removeChild(o);
                 }
-                return a.querySelectorAll(qWe);
+                return a.querySelectorAll(KWe);
             case I5:
             case L5:
                 var s = z5(e, void 0, t).querySelectorAll(i);
-                return F5(e, L5) && F5(e, I5) ? s[0].parentNode?.childNodes ?? QWe() : s;
+                return F5(e, L5) && F5(e, I5) ? s[0].parentNode?.childNodes ?? ZWe() : s;
             default:
                 if (U5) return U5(e, t);
                 var o = z5(e, L5, t).querySelector(L5);
-                return o?.childNodes ?? QWe();
+                return o?.childNodes ?? ZWe();
         }
     }
-    var eGe = /<(![a-zA-Z\s]+)>/;
-    function tGe(e, t) {
+    var $We = /<(![a-zA-Z\s]+)>/;
+    function eGe(e, t) {
         if (typeof e != `string`) throw TypeError(`First argument must be a string`);
         if (!e) return [];
-        var n = eGe.exec(e), r = n ? n[1] : void 0;
-        return KWe($We(e, t?.trustedTypePolicy), null, r);
+        var n = $We.exec(e), r = n ? n[1] : void 0;
+        return GWe(QWe(e, t?.trustedTypePolicy), null, r);
     }
-    var W5 = (e)=>WQ(e) ? e.data : UQ(e) ? e.children.map((e)=>W5(e)).join(``) : ``, nGe = (e)=>{
+    var W5 = (e)=>WQ(e) ? e.data : UQ(e) ? e.children.map((e)=>W5(e)).join(``) : ``, tGe = (e)=>{
         if (e.name === `b` || e.name === `strong`) return z8.Bold;
         if (e.name === `i` || e.name === `em`) return z8.Italic;
         if (e.name === `u`) return z8.Underline;
         if (e.name === `s` || e.name === `del`) return z8.StrikeThrough;
         if (e.name === `code`) return e.parent && `name` in e.parent && e.parent.name === `pre` ? void 0 : z8.Code;
         if (e.name === `span` && e.attribs[`data-mx-spoiler`] !== void 0) return z8.Spoiler;
-    }, rGe = (e, t, n)=>{
+    }, nGe = (e, t, n)=>{
         let r = t.children.flatMap(n), i = t.attribs[`data-md`];
         return i === void 0 ? (r.forEach((t)=>{
             t6.isText(t) && (t[e] = !0);
@@ -126698,7 +126692,7 @@ ${r.current.stack}
         }), r.push({
             text: i
         }), r);
-    }, iGe = (e)=>{
+    }, rGe = (e)=>{
         if (e.name === `img` && e.attribs[`data-mx-emoticon`] !== void 0) {
             let { src: t, alt: n } = e.attribs;
             return t ? Y8(t, n || `Unknown Emoji`) : void 0;
@@ -126722,13 +126716,13 @@ ${r.current.stack}
             }
         ];
         if (UQ(e)) {
-            let n = nGe(e);
-            if (n) return rGe(n, e, (e)=>n === z8.Code ? [
+            let n = tGe(e);
+            if (n) return nGe(n, e, (e)=>n === z8.Code ? [
                     {
                         text: W5(e)
                     }
                 ] : G5(e, t));
-            let r = iGe(e);
+            let r = rGe(e);
             if (r) return [
                 r
             ];
@@ -126752,7 +126746,7 @@ ${r.current.stack}
                 text: ``
             }
         ];
-    }, aGe = (e, t)=>{
+    }, iGe = (e, t)=>{
         let n = [], r = [], i = ()=>{
             r.length !== 0 && (n.push(r), r = []);
         };
@@ -126795,7 +126789,7 @@ ${r.current.stack}
                     ...e
                 ]
             }));
-    }, oGe = (e)=>{
+    }, aGe = (e)=>{
         let t = W5(e).trim().split(`
 `), n = e.attribs[`data-md`];
         if (n !== void 0) {
@@ -126840,7 +126834,7 @@ ${r.current.stack}
                     }))
             }
         ];
-    }, sGe = (e, t, n = 0)=>{
+    }, oGe = (e, t, n = 0)=>{
         let r = UQ(e) && e.name === `ul` ? `*` : `-`, i = e.attribs[`data-md`] ?? r, [a] = i.match(/^\*|-$/) ?? [], [o] = i.match(/^[\da-zA-Z]/) ?? [], s = o ? parseInt(o, 10) : void 0, c = [], l = s === void 0 || Number.isNaN(s) ? o ?? 1 : s, u = (e)=>{
             c.push({
                 type: B8.Paragraph,
@@ -126863,13 +126857,13 @@ ${r.current.stack}
             }
             if (UQ(e)) {
                 if (e.name === `ul` || e.name === `ol`) {
-                    c.push(...sGe(e, t, n + 1));
+                    c.push(...oGe(e, t, n + 1));
                     return;
                 }
                 if (e.name === `li`) {
                     e.children.forEach((e)=>{
                         if (UQ(e) && (e.name === `ul` || e.name === `ol`)) {
-                            c.push(...sGe(e, t, n + 1));
+                            c.push(...oGe(e, t, n + 1));
                             return;
                         }
                         u(G5(e, t));
@@ -126879,7 +126873,7 @@ ${r.current.stack}
             }
             u(G5(e, t));
         }), c;
-    }, cGe = (e, t)=>{
+    }, sGe = (e, t)=>{
         let n = [], r = [], i = ()=>{
             r.length !== 0 && (n.push(r), r = []);
         };
@@ -126904,9 +126898,9 @@ ${r.current.stack}
                 r.push(...G5(e, t));
             }
         }), i(), n;
-    }, lGe = (e, t)=>{
-        if (e.attribs[`data-md`] !== void 0) return sGe(e, t);
-        let n = cGe(e.childNodes, t);
+    }, cGe = (e, t)=>{
+        if (e.attribs[`data-md`] !== void 0) return oGe(e, t);
+        let n = sGe(e.childNodes, t);
         return e.name === `ol` ? [
             {
                 type: B8.OrderedList,
@@ -126924,7 +126918,7 @@ ${r.current.stack}
                     }))
             }
         ];
-    }, uGe = (e, t)=>{
+    }, lGe = (e, t)=>{
         let n = G5(e, t), [, r] = e.name.match(/^h([123456])$/) ?? [
             `h3`,
             `3`
@@ -126942,7 +126936,7 @@ ${r.current.stack}
                 ...n
             ]
         };
-    }, dGe = (e, t, n)=>{
+    }, uGe = (e, t, n)=>{
         let r = [], i = [], a = ()=>{
             i.length !== 0 && (r.push({
                 type: B8.Paragraph,
@@ -126977,38 +126971,38 @@ ${r.current.stack}
                     return;
                 }
                 if (e.name === `blockquote`) {
-                    a(), r.push(...aGe(e, t));
+                    a(), r.push(...iGe(e, t));
                     return;
                 }
                 if (e.name === `pre`) {
-                    a(), r.push(...oGe(e));
+                    a(), r.push(...aGe(e));
                     return;
                 }
                 if (e.name === `ol` || e.name === `ul`) {
-                    a(), r.push(...lGe(e, t));
+                    a(), r.push(...cGe(e, t));
                     return;
                 }
                 if (e.name.match(/^h[123456]$/)) {
-                    a(), r.push(uGe(e, t));
+                    a(), r.push(lGe(e, t));
                     return;
                 }
                 i.push(...G5(e, t));
             }
         }), a(), r;
-    }, fGe = (e, t)=>{
-        let n = Yme(e), r = (e)=>t ? nWe(e) : e;
-        return dGe(tGe(n), r, (e)=>t ? iWe(e, r) : e);
-    }, pGe = (e, t)=>e.split(`
+    }, dGe = (e, t)=>{
+        let n = Yme(e), r = (e)=>t ? tWe(e) : e;
+        return uGe(eGe(n), r, (e)=>t ? rWe(e, r) : e);
+    }, fGe = (e, t)=>e.split(`
 `).map((e)=>({
                 type: B8.Paragraph,
                 children: [
                     {
-                        text: t ? iWe(e, nWe) : e
+                        text: t ? rWe(e, tWe) : e
                     }
                 ]
-            })), mGe = pi(void 0);
-    function hGe() {
-        let e = ki(mGe), t = (0, A.useCallback)((t)=>{
+            })), pGe = pi(void 0);
+    function mGe() {
+        let e = ki(pGe), t = (0, A.useCallback)((t)=>{
             e(t.timeStamp);
         }, [
             e
@@ -127021,15 +127015,15 @@ ${r.current.stack}
                 });
             }));
     }
-    function gGe({ compositionEndThreshold: e = 500 } = {}) {
-        let t = Oi(mGe);
+    function hGe({ compositionEndThreshold: e = 500 } = {}) {
+        let t = Oi(pGe);
         return (0, A.useCallback)((n)=>n.nativeEvent.isComposing || n.keyCode === 229 && t !== void 0 && n.timeStamp - t < e, [
             e,
             t
         ]);
     }
-    var _Ge = $t(({ room: e, roomId: t, mEvent: n, imagePackRooms: r, onCancel: i, ...a }, o)=>{
-        let s = J(), c = c5(), [l] = Y(X, `enterForNewline`), [u] = Y(X, `editorToolbar`), [d] = Y(X, `isMarkdown`), [f, p] = (0, A.useState)(u), m = gGe(), [h, g] = (0, A.useState)(), _ = (0, A.useCallback)(()=>{
+    var gGe = $t(({ room: e, roomId: t, mEvent: n, imagePackRooms: r, onCancel: i, ...a }, o)=>{
+        let s = J(), c = c5(), [l] = Y(X, `enterForNewline`), [u] = Y(X, `editorToolbar`), [d] = Y(X, `isMarkdown`), [f, p] = (0, A.useState)(u), m = hGe(), [h, g] = (0, A.useState)(), _ = (0, A.useCallback)(()=>{
             let t = n.getId(), r = e.getTimelineForEvent(t), i = (r && BG(t, n, r.getTimelineSet()))?.getContent()[`m.new_content`] ?? n.getContent(), { body: a, formatted_body: o } = i, s = i[`m.mentions`];
             return [
                 typeof a == `string` ? a : void 0,
@@ -127040,7 +127034,7 @@ ${r.current.stack}
             e,
             n
         ]), [v, y] = V((0, A.useCallback)(async ()=>{
-            let e = y5(c.children, d).trim(), r = dWe(v5(c.children, {
+            let e = y5(c.children, d).trim(), r = uWe(v5(c.children, {
                 allowTextFormatting: !0,
                 allowBlockMarkdown: d,
                 allowInlineMarkdown: d
@@ -127099,7 +127093,7 @@ ${r.current.stack}
             c.insertNode(Y8(e, t)), Z8(c);
         };
         return (0, A.useEffect)(()=>{
-            let [e, t] = _(), n = typeof t == `string` ? fGe(t, d) : pGe(typeof e == `string` ? e : ``, d);
+            let [e, t] = _(), n = typeof t == `string` ? dGe(t, d) : fGe(typeof e == `string` ? e : ``, d);
             d6.select(c, {
                 anchor: $.start(c, []),
                 focus: $.end(c, [])
@@ -127240,7 +127234,7 @@ ${r.current.stack}
                                         variant: `SurfaceVariant`,
                                         size: `300`
                                     }),
-                                    (0, j.jsx)(bWe, {})
+                                    (0, j.jsx)(yWe, {})
                                 ]
                             })
                         ]
@@ -127253,7 +127247,7 @@ ${r.current.stack}
         return (0, A.useMemo)(()=>t?.getContent()?.pinned ?? [], [
             t
         ]);
-    }, vGe = $t(({ onReaction: e, ...t }, n)=>{
+    }, _Ge = $t(({ onReaction: e, ...t }, n)=>{
         let r = g3(J(), 4);
         return r.length === 0 ? (0, j.jsx)(`span`, {}) : (0, j.jsxs)(j.Fragment, {
             children: [
@@ -127285,7 +127279,7 @@ ${r.current.stack}
                 })
             ]
         });
-    }), yGe = $t(({ room: e, relations: t, onClose: n, ...r }, i)=>{
+    }), vGe = $t(({ room: e, relations: t, onClose: n, ...r }, i)=>{
         let [a, o] = (0, A.useState)(!1), s = ()=>{
             o(!1), n?.();
         };
@@ -127340,7 +127334,7 @@ ${r.current.stack}
                 })
             ]
         });
-    }), bGe = $t(({ room: e, eventId: t, onClose: n, ...r }, i)=>{
+    }), yGe = $t(({ room: e, eventId: t, onClose: n, ...r }, i)=>{
         let [a, o] = (0, A.useState)(!1), s = ()=>{
             o(!1), n?.();
         };
@@ -127391,7 +127385,7 @@ ${r.current.stack}
                 })
             ]
         });
-    }), xGe = $t(({ room: e, mEvent: t, onClose: n, ...r }, i)=>{
+    }), bGe = $t(({ room: e, mEvent: t, onClose: n, ...r }, i)=>{
         let [a, o] = (0, A.useState)(!1), s = (e)=>e.isEncrypted() ? {
                 "<== DECRYPTED_EVENT ==>": e.getEffectiveEvent(),
                 "<== ORIGINAL_EVENT ==>": e.event
@@ -127454,7 +127448,7 @@ ${r.current.stack}
                 })
             ]
         });
-    }), SGe = $t(({ room: e, mEvent: t, onClose: n, ...r }, i)=>(0, j.jsx)(kn, {
+    }), xGe = $t(({ room: e, mEvent: t, onClose: n, ...r }, i)=>(0, j.jsx)(kn, {
             size: `300`,
             after: (0, j.jsx)(I, {
                 size: `100`,
@@ -127474,7 +127468,7 @@ ${r.current.stack}
                 truncate: !0,
                 children: `Copy Link`
             })
-        })), CGe = $t(({ room: e, mEvent: t, onClose: n, ...r }, i)=>{
+        })), SGe = $t(({ room: e, mEvent: t, onClose: n, ...r }, i)=>{
         let [a, o] = (0, A.useState)(!1), s = t.getId(), c = s ? e.getTimelineForEvent(s) : void 0;
         return (s && c ? zG(c.getTimelineSet(), s, t.getType())?.getRelations()?.length ?? 0 : 0) === 0 ? null : (0, j.jsxs)(j.Fragment, {
             children: [
@@ -127506,7 +127500,7 @@ ${r.current.stack}
                 })
             ]
         });
-    }), wGe = $t(({ mEvent: e, onClose: t, ...n }, r)=>{
+    }), CGe = $t(({ mEvent: e, onClose: t, ...n }, r)=>{
         let [i, a] = (0, A.useState)(!1);
         return (0, j.jsxs)(j.Fragment, {
             children: [
@@ -127537,7 +127531,7 @@ ${r.current.stack}
                 })
             ]
         });
-    }), TGe = $t(({ room: e, mEvent: t, onClose: n, ...r }, i)=>{
+    }), wGe = $t(({ room: e, mEvent: t, onClose: n, ...r }, i)=>{
         let a = J(), o = K5(e), s = o.includes(t.getId() ?? ``);
         return (0, j.jsx)(kn, {
             size: `300`,
@@ -127562,7 +127556,7 @@ ${r.current.stack}
                 children: s ? `Unpin Message` : `Pin Message`
             })
         });
-    }), EGe = $t(({ room: e, mEvent: t, onClose: n, ...r }, i)=>{
+    }), TGe = $t(({ room: e, mEvent: t, onClose: n, ...r }, i)=>{
         let a = J(), [o, s] = (0, A.useState)(!1), [c, l] = V((0, A.useCallback)((t, n)=>a.redactEvent(e.roomId, t, void 0, n ? {
                 reason: n
             } : void 0), [
@@ -127704,7 +127698,7 @@ ${r.current.stack}
                 })
             ]
         });
-    }), DGe = $t(({ room: e, mEvent: t, onClose: n, ...r }, i)=>{
+    }), EGe = $t(({ room: e, mEvent: t, onClose: n, ...r }, i)=>{
         let a = J(), [o, s] = (0, A.useState)(!1), [c, l] = V((0, A.useCallback)((t, n, r)=>a.reportEvent(e.roomId, t, n, r), [
             a,
             e
@@ -127958,7 +127952,7 @@ ${r.current.stack}
             },
             children: [
                 b,
-                o && y ? (0, j.jsx)(_Ge, {
+                o && y ? (0, j.jsx)(gGe, {
                     style: {
                         maxWidth: `100%`,
                         width: `100vw`
@@ -128148,7 +128142,7 @@ ${r.current.stack}
                                         },
                                         children: (0, j.jsxs)(An, {
                                             children: [
-                                                c && (0, j.jsx)(vGe, {
+                                                c && (0, j.jsx)(_Ge, {
                                                     onReaction: (e, t)=>{
                                                         v(n.getId(), e, t), Oe();
                                                     }
@@ -128174,7 +128168,7 @@ ${r.current.stack}
                                                                 children: `Add Reaction`
                                                             })
                                                         }),
-                                                        d && (0, j.jsx)(yGe, {
+                                                        d && (0, j.jsx)(vGe, {
                                                             room: t,
                                                             relations: d,
                                                             onClose: Oe
@@ -128237,26 +128231,26 @@ ${r.current.stack}
                                                                 children: `Edit Message`
                                                             })
                                                         }),
-                                                        !S && (0, j.jsx)(bGe, {
+                                                        !S && (0, j.jsx)(yGe, {
                                                             room: t,
                                                             eventId: n.getId() ?? ``,
                                                             onClose: Oe
                                                         }),
-                                                        C && (0, j.jsx)(xGe, {
+                                                        C && (0, j.jsx)(bGe, {
                                                             room: t,
-                                                            mEvent: n,
-                                                            onClose: Oe
-                                                        }),
-                                                        (0, j.jsx)(wGe, {
                                                             mEvent: n,
                                                             onClose: Oe
                                                         }),
                                                         (0, j.jsx)(CGe, {
-                                                            room: t,
                                                             mEvent: n,
                                                             onClose: Oe
                                                         }),
                                                         (0, j.jsx)(SGe, {
+                                                            room: t,
+                                                            mEvent: n,
+                                                            onClose: Oe
+                                                        }),
+                                                        (0, j.jsx)(xGe, {
                                                             room: t,
                                                             mEvent: n,
                                                             onClose: Oe
@@ -128279,7 +128273,7 @@ ${r.current.stack}
                                                                 children: `Mark Unread`
                                                             })
                                                         }),
-                                                        l && (0, j.jsx)(TGe, {
+                                                        l && (0, j.jsx)(wGe, {
                                                             room: t,
                                                             mEvent: n,
                                                             onClose: Oe
@@ -128296,12 +128290,12 @@ ${r.current.stack}
                                                             gap: `100`,
                                                             className: `_1qcw1448`,
                                                             children: [
-                                                                !n.isRedacted() && s && (0, j.jsx)(EGe, {
+                                                                !n.isRedacted() && s && (0, j.jsx)(TGe, {
                                                                     room: t,
                                                                     mEvent: n,
                                                                     onClose: Oe
                                                                 }),
-                                                                n.getSender() !== ne.getUserId() && (0, j.jsx)(DGe, {
+                                                                n.getSender() !== ne.getUserId() && (0, j.jsx)(EGe, {
                                                                     room: t,
                                                                     mEvent: n,
                                                                     onClose: Oe
@@ -128412,26 +128406,26 @@ ${r.current.stack}
                                                 gap: `100`,
                                                 className: `_1qcw1448`,
                                                 children: [
-                                                    !o && (0, j.jsx)(bGe, {
+                                                    !o && (0, j.jsx)(yGe, {
                                                         room: t,
                                                         eventId: n.getId() ?? ``,
                                                         onClose: x
                                                     }),
-                                                    s && (0, j.jsx)(xGe, {
+                                                    s && (0, j.jsx)(bGe, {
                                                         room: t,
-                                                        mEvent: n,
-                                                        onClose: x
-                                                    }),
-                                                    (0, j.jsx)(wGe, {
                                                         mEvent: n,
                                                         onClose: x
                                                     }),
                                                     (0, j.jsx)(CGe, {
-                                                        room: t,
                                                         mEvent: n,
                                                         onClose: x
                                                     }),
                                                     (0, j.jsx)(SGe, {
+                                                        room: t,
+                                                        mEvent: n,
+                                                        onClose: x
+                                                    }),
+                                                    (0, j.jsx)(xGe, {
                                                         room: t,
                                                         mEvent: n,
                                                         onClose: x
@@ -128448,12 +128442,12 @@ ${r.current.stack}
                                                         gap: `100`,
                                                         className: `_1qcw1448`,
                                                         children: [
-                                                            !n.isRedacted() && i && (0, j.jsx)(EGe, {
+                                                            !n.isRedacted() && i && (0, j.jsx)(TGe, {
                                                                 room: t,
                                                                 mEvent: n,
                                                                 onClose: x
                                                             }),
-                                                            n.getSender() !== d.getUserId() && (0, j.jsx)(DGe, {
+                                                            n.getSender() !== d.getUserId() && (0, j.jsx)(EGe, {
                                                                 room: t,
                                                                 mEvent: n,
                                                                 onClose: x
@@ -128487,7 +128481,7 @@ ${r.current.stack}
             ]
         });
     });
-    function OGe({ mEvent: e, children: t }) {
+    function DGe({ mEvent: e, children: t }) {
         let [, n] = (0, A.useState)(e.getType() === VU.RoomMessageEncrypted);
         return (0, A.useEffect)(()=>{
             n(e.getType() === VU.RoomMessageEncrypted);
@@ -128503,7 +128497,7 @@ ${r.current.stack}
             children: t()
         });
     }
-    var kGe = (e, t)=>{
+    var OGe = (e, t)=>{
         let n = [];
         return e.forEach((e)=>{
             if (!t.has(e.room_id)) return;
@@ -128519,7 +128513,7 @@ ${r.current.stack}
                 ]
             });
         }), n;
-    }, AGe = (e, t)=>{
+    }, kGe = (e, t)=>{
         let n = J(), r = Oi(jq), i = (0, A.useMemo)(()=>new Set(r), [
             r
         ]), [a, o] = (0, A.useState)({
@@ -128540,7 +128534,7 @@ ${r.current.stack}
                 n || o({
                     groups: []
                 });
-                let r = await s(n, e, t ? `highlight` : void 0), a = kGe(r.notifications, i);
+                let r = await s(n, e, t ? `highlight` : void 0), a = OGe(r.notifications, i);
                 o((e)=>e.nextToken === n ? {
                         nextToken: r.next_token,
                         groups: n ? e.groups.concat(a) : a
@@ -128552,7 +128546,7 @@ ${r.current.stack}
                 i
             ]),
             (0, A.useCallback)(async ()=>{
-                let n = await s(void 0, e, t ? `highlight` : void 0), r = kGe(n.notifications, i);
+                let n = await s(void 0, e, t ? `highlight` : void 0), r = OGe(n.notifications, i);
                 o({
                     nextToken: n.next_token,
                     groups: r
@@ -128565,7 +128559,7 @@ ${r.current.stack}
             ])
         ];
     };
-    function jGe({ room: e, notifications: t, mediaAutoLoad: n, urlPreview: r, hideActivity: i, onOpen: a, legacyUsernameColor: o, hour24Clock: s, dateFormatString: c }) {
+    function AGe({ room: e, notifications: t, mediaAutoLoad: n, urlPreview: r, hideActivity: i, onOpen: a, legacyUsernameColor: o, hour24Clock: s, dateFormatString: c }) {
         let l = J(), u = FX(), d = iX(e.roomId, Yq), f = lX(e), p = UX(e), m = _2(), h = p2(e, f), g = D4(e, p, f), _ = k4(L$().kind, m, h), v = u2(e.roomId), y = d2(), b = (0, A.useMemo)(()=>({
                 ...s$,
                 render: u$((t)=>l$(l, e.roomId, t, c$(v)))
@@ -128615,7 +128609,7 @@ ${r.current.stack}
                             ` event`
                         ]
                     })
-                }) : (0, j.jsx)(OGe, {
+                }) : (0, j.jsx)(DGe, {
                     mEvent: o,
                     children: ()=>{
                         if (o.isRedacted()) return (0, j.jsx)(k0, {});
@@ -128861,13 +128855,13 @@ ${r.current.stack}
             ]
         });
     }
-    var MGe = (e)=>(0, A.useMemo)(()=>({
+    var jGe = (e)=>(0, A.useMemo)(()=>({
                 only: e.get(`only`) ?? void 0
             }), [
             e
-        ]), NGe = 7e3;
-    function PGe() {
-        let e = J(), [t] = Y(X, `hideActivity`), [n] = Y(X, `mediaAutoLoad`), [r] = Y(X, `urlPreview`), [i] = Y(X, `legacyUsernameColor`), [a] = Y(X, `hour24Clock`), [o] = Y(X, `dateFormatString`), s = vp(), c = Oi(Mq), { navigateRoom: l } = T1(), [u, d] = Ml(), f = MGe(u), p = (0, A.useRef)(null), m = (0, A.useRef)(null), [h, g] = (0, A.useState)(NGe), _ = f.only === `highlight`, v = (e)=>{
+        ]), MGe = 7e3;
+    function NGe() {
+        let e = J(), [t] = Y(X, `hideActivity`), [n] = Y(X, `mediaAutoLoad`), [r] = Y(X, `urlPreview`), [i] = Y(X, `legacyUsernameColor`), [a] = Y(X, `hour24Clock`), [o] = Y(X, `dateFormatString`), s = vp(), c = Oi(Mq), { navigateRoom: l } = T1(), [u, d] = Ml(), f = jGe(u), p = (0, A.useRef)(null), m = (0, A.useRef)(null), [h, g] = (0, A.useState)(MGe), _ = f.only === `highlight`, v = (e)=>{
             if (e) {
                 d(new URLSearchParams({
                     only: `highlight`
@@ -128875,7 +128869,7 @@ ${r.current.stack}
                 return;
             }
             d();
-        }, [y, b, x] = AGe(24, _), [S, C] = V(b), w = TY({
+        }, [y, b, x] = kGe(24, _), [S, C] = V(b), w = TY({
             count: y.groups.length,
             getScrollElement: ()=>p.current,
             estimateSize: ()=>40,
@@ -128886,7 +128880,7 @@ ${r.current.stack}
         }, [
             x
         ]), h);
-        let E = (0, A.useCallback)((e)=>g(e ? NGe : -1), []);
+        let E = (0, A.useCallback)((e)=>g(e ? MGe : -1), []);
         (0, A.useEffect)(()=>{
             C();
         }, [
@@ -129036,7 +129030,7 @@ ${r.current.stack}
                                                         paddingTop: N.space.S500
                                                     },
                                                     ref: w.measureElement,
-                                                    children: (0, j.jsx)(jGe, {
+                                                    children: (0, j.jsx)(AGe, {
                                                         room: d,
                                                         notifications: u.notifications,
                                                         mediaAutoLoad: n,
@@ -129112,10 +129106,10 @@ ${r.current.stack}
             ]
         });
     }
-    var FGe = `4r5e,5h1t,5hit,a55,anal,anus,ar5e,arrse,arse,ass,ass-fucker,asses,assfucker,assfukka,asshole,assholes,asswhole,a_s_s,b!tch,b00bs,b17ch,b1tch,ballbag,balls,ballsack,bastard,beastial,beastiality,bellend,bestial,bestiality,bi+ch,biatch,bitch,bitcher,bitchers,bitches,bitchin,bitching,bloody,blow job,blowjob,blowjobs,boiolas,bollock,bollok,boner,boob,boobs,booobs,boooobs,booooobs,booooooobs,breasts,buceta,bugger,bum,bunny fucker,butt,butthole,buttmuch,buttplug,c0ck,c0cksucker,carpet muncher,cawk,chink,cipa,cl1t,clit,clitoris,clits,cnut,cock,cock-sucker,cockface,cockhead,cockmunch,cockmuncher,cocks,cocksuck,cocksucked,cocksucker,cocksucking,cocksucks,cocksuka,cocksukka,cok,cokmuncher,coksucka,coon,cox,crap,cum,cummer,cumming,cums,cumshot,cunilingus,cunillingus,cunnilingus,cunt,cuntlick,cuntlicker,cuntlicking,cunts,cyalis,cyberfuc,cyberfuck,cyberfucked,cyberfucker,cyberfuckers,cyberfucking,d1ck,damn,dick,dickhead,dildo,dildos,dink,dinks,dirsa,dlck,dog-fucker,doggin,dogging,donkeyribber,doosh,duche,dyke,ejaculate,ejaculated,ejaculates,ejaculating,ejaculatings,ejaculation,ejakulate,f u c k,f u c k e r,f4nny,fag,fagging,faggitt,faggot,faggs,fagot,fagots,fags,fanny,fannyflaps,fannyfucker,fanyy,fatass,fcuk,fcuker,fcuking,feck,fecker,felching,fellate,fellatio,fingerfuck,fingerfucked,fingerfucker,fingerfuckers,fingerfucking,fingerfucks,fistfuck,fistfucked,fistfucker,fistfuckers,fistfucking,fistfuckings,fistfucks,flange,fook,fooker,fuck,fucka,fucked,fucker,fuckers,fuckhead,fuckheads,fuckin,fucking,fuckings,fuckingshitmotherfucker,fuckme,fucks,fuckwhit,fuckwit,fudge packer,fudgepacker,fuk,fuker,fukker,fukkin,fuks,fukwhit,fukwit,fux,fux0r,f_u_c_k,gangbang,gangbanged,gangbangs,gaylord,gaysex,goatse,God,god-dam,god-damned,goddamn,goddamned,hardcoresex,hell,heshe,hoar,hoare,hoer,homo,hore,horniest,horny,hotsex,jack-off,jackoff,jap,jerk-off,jism,jiz,jizm,jizz,kawk,knob,knobead,knobed,knobend,knobhead,knobjocky,knobjokey,kock,kondum,kondums,kum,kummer,kumming,kums,kunilingus,l3i+ch,l3itch,labia,lust,lusting,m0f0,m0fo,m45terbate,ma5terb8,ma5terbate,masochist,master-bate,masterb8,masterbat*,masterbat3,masterbate,masterbation,masterbations,masturbate,mo-fo,mof0,mofo,mothafuck,mothafucka,mothafuckas,mothafuckaz,mothafucked,mothafucker,mothafuckers,mothafuckin,mothafucking,mothafuckings,mothafucks,mother fucker,motherfuck,motherfucked,motherfucker,motherfuckers,motherfuckin,motherfucking,motherfuckings,motherfuckka,motherfucks,muff,mutha,muthafecker,muthafuckker,muther,mutherfucker,n1gga,n1gger,nazi,nigg3r,nigg4h,nigga,niggah,niggas,niggaz,nigger,niggers,nob,nob jokey,nobhead,nobjocky,nobjokey,numbnuts,nutsack,orgasim,orgasims,orgasm,orgasms,p0rn,pawn,pecker,penis,penisfucker,phonesex,phuck,phuk,phuked,phuking,phukked,phukking,phuks,phuq,pigfucker,pimpis,piss,pissed,pisser,pissers,pisses,pissflaps,pissin,pissing,pissoff,poop,porn,porno,pornography,pornos,prick,pricks,pron,pube,pusse,pussi,pussies,pussy,pussys,rectum,retard,rimjaw,rimming,s hit,s.o.b.,sadist,schlong,screwing,scroat,scrote,scrotum,semen,sex,sh!+,sh!t,sh1t,shag,shagger,shaggin,shagging,shemale,shi+,shit,shitdick,shite,shited,shitey,shitfuck,shitfull,shithead,shiting,shitings,shits,shitted,shitter,shitters,shitting,shittings,shitty,skank,slut,sluts,smegma,smut,snatch,son-of-a-bitch,spac,spunk,s_h_i_t,t1tt1e5,t1tties,teets,teez,testical,testicle,tit,titfuck,tits,titt,tittie5,tittiefucker,titties,tittyfuck,tittywank,titwank,tosser,turd,tw4t,twat,twathead,twatty,twunt,twunter,v14gra,v1gra,vagina,viagra,vulva,w00se,wang,wank,wanker,wanky,whoar,whore,willies,willy,xrated,xxx`.split(`,`), IGe = [
+    var PGe = `4r5e,5h1t,5hit,a55,anal,anus,ar5e,arrse,arse,ass,ass-fucker,asses,assfucker,assfukka,asshole,assholes,asswhole,a_s_s,b!tch,b00bs,b17ch,b1tch,ballbag,balls,ballsack,bastard,beastial,beastiality,bellend,bestial,bestiality,bi+ch,biatch,bitch,bitcher,bitchers,bitches,bitchin,bitching,bloody,blow job,blowjob,blowjobs,boiolas,bollock,bollok,boner,boob,boobs,booobs,boooobs,booooobs,booooooobs,breasts,buceta,bugger,bum,bunny fucker,butt,butthole,buttmuch,buttplug,c0ck,c0cksucker,carpet muncher,cawk,chink,cipa,cl1t,clit,clitoris,clits,cnut,cock,cock-sucker,cockface,cockhead,cockmunch,cockmuncher,cocks,cocksuck,cocksucked,cocksucker,cocksucking,cocksucks,cocksuka,cocksukka,cok,cokmuncher,coksucka,coon,cox,crap,cum,cummer,cumming,cums,cumshot,cunilingus,cunillingus,cunnilingus,cunt,cuntlick,cuntlicker,cuntlicking,cunts,cyalis,cyberfuc,cyberfuck,cyberfucked,cyberfucker,cyberfuckers,cyberfucking,d1ck,damn,dick,dickhead,dildo,dildos,dink,dinks,dirsa,dlck,dog-fucker,doggin,dogging,donkeyribber,doosh,duche,dyke,ejaculate,ejaculated,ejaculates,ejaculating,ejaculatings,ejaculation,ejakulate,f u c k,f u c k e r,f4nny,fag,fagging,faggitt,faggot,faggs,fagot,fagots,fags,fanny,fannyflaps,fannyfucker,fanyy,fatass,fcuk,fcuker,fcuking,feck,fecker,felching,fellate,fellatio,fingerfuck,fingerfucked,fingerfucker,fingerfuckers,fingerfucking,fingerfucks,fistfuck,fistfucked,fistfucker,fistfuckers,fistfucking,fistfuckings,fistfucks,flange,fook,fooker,fuck,fucka,fucked,fucker,fuckers,fuckhead,fuckheads,fuckin,fucking,fuckings,fuckingshitmotherfucker,fuckme,fucks,fuckwhit,fuckwit,fudge packer,fudgepacker,fuk,fuker,fukker,fukkin,fuks,fukwhit,fukwit,fux,fux0r,f_u_c_k,gangbang,gangbanged,gangbangs,gaylord,gaysex,goatse,God,god-dam,god-damned,goddamn,goddamned,hardcoresex,hell,heshe,hoar,hoare,hoer,homo,hore,horniest,horny,hotsex,jack-off,jackoff,jap,jerk-off,jism,jiz,jizm,jizz,kawk,knob,knobead,knobed,knobend,knobhead,knobjocky,knobjokey,kock,kondum,kondums,kum,kummer,kumming,kums,kunilingus,l3i+ch,l3itch,labia,lust,lusting,m0f0,m0fo,m45terbate,ma5terb8,ma5terbate,masochist,master-bate,masterb8,masterbat*,masterbat3,masterbate,masterbation,masterbations,masturbate,mo-fo,mof0,mofo,mothafuck,mothafucka,mothafuckas,mothafuckaz,mothafucked,mothafucker,mothafuckers,mothafuckin,mothafucking,mothafuckings,mothafucks,mother fucker,motherfuck,motherfucked,motherfucker,motherfuckers,motherfuckin,motherfucking,motherfuckings,motherfuckka,motherfucks,muff,mutha,muthafecker,muthafuckker,muther,mutherfucker,n1gga,n1gger,nazi,nigg3r,nigg4h,nigga,niggah,niggas,niggaz,nigger,niggers,nob,nob jokey,nobhead,nobjocky,nobjokey,numbnuts,nutsack,orgasim,orgasims,orgasm,orgasms,p0rn,pawn,pecker,penis,penisfucker,phonesex,phuck,phuk,phuked,phuking,phukked,phukking,phuks,phuq,pigfucker,pimpis,piss,pissed,pisser,pissers,pisses,pissflaps,pissin,pissing,pissoff,poop,porn,porno,pornography,pornos,prick,pricks,pron,pube,pusse,pussi,pussies,pussy,pussys,rectum,retard,rimjaw,rimming,s hit,s.o.b.,sadist,schlong,screwing,scroat,scrote,scrotum,semen,sex,sh!+,sh!t,sh1t,shag,shagger,shaggin,shagging,shemale,shi+,shit,shitdick,shite,shited,shitey,shitfuck,shitfull,shithead,shiting,shitings,shits,shitted,shitter,shitters,shitting,shittings,shitty,skank,slut,sluts,smegma,smut,snatch,son-of-a-bitch,spac,spunk,s_h_i_t,t1tt1e5,t1tties,teets,teez,testical,testicle,tit,titfuck,tits,titt,tittie5,tittiefucker,titties,tittyfuck,tittywank,titwank,tosser,turd,tw4t,twat,twathead,twatty,twunt,twunter,v14gra,v1gra,vagina,viagra,vulva,w00se,wang,wank,wanker,wanky,whoar,whore,willies,willy,xrated,xxx`.split(`,`), FGe = [
         `torture`,
         `t0rture`
-    ], LGe = IGe.concat(FGe.filter((e)=>!IGe.includes(e))), RGe = RegExp(`(\\b|_)(${LGe.map((e)=>mK(e)).join(`|`)})(\\b|_)`, `g`), Y5 = (e)=>!!e.toLowerCase().match(RGe), X5 = ()=>{
+    ], IGe = FGe.concat(PGe.filter((e)=>!FGe.includes(e))), LGe = RegExp(`(\\b|_)(${IGe.map((e)=>mK(e)).join(`|`)})(\\b|_)`, `g`), Y5 = (e)=>!!e.toLowerCase().match(LGe), X5 = ()=>{
         let e = Lq(zU.IgnoredUserList);
         return (0, A.useMemo)(()=>{
             let t = e?.getContent().ignored_users ?? {};
@@ -129123,10 +129117,10 @@ ${r.current.stack}
         }, [
             e
         ]);
-    }, zGe = ()=>{
+    }, RGe = ()=>{
         let { versions: e, unstable_features: t } = Ep();
         return t?.[`org.matrix.msc4151`] || e.includes(`v1.13`);
-    }, BGe = 548, VGe = (e, t, n)=>{
+    }, zGe = 548, BGe = (e, t, n)=>{
         let r = e.getSafeUserId(), i = Zme(t, r), a = i ? MG(e, t, 96, n) : jG(e, t, 96, n), o = t.name || t.getCanonicalAlias() || t.roomId, s = vG(t, q.RoomTopic)?.getContent()?.topic ?? void 0, c = t.getMember(r)?.events.member, l = c?.getContent(), u = c?.getSender(), d = u ? PG(t, u) ?? KG(u) ?? u : void 0, f = c?.getTs(), p = l && `reason` in l && typeof l.reason == `string` ? l.reason : void 0;
         return {
             room: t,
@@ -129143,8 +129137,8 @@ ${r.current.stack}
             isDirect: i,
             isEncrypted: !!vG(t, q.RoomEncryption)
         };
-    }, HGe = (e)=>Y5(e.roomName) || Y5(e.roomTopic ?? ``) || Y5(e.senderName) || Y5(e.senderId) || Y5(e.reason || ``);
-    function UGe({ invite: e, compact: t, hour24Clock: n, dateFormatString: r, onNavigate: i, hideAvatar: a }) {
+    }, VGe = (e)=>Y5(e.roomName) || Y5(e.roomTopic ?? ``) || Y5(e.senderName) || Y5(e.senderId) || Y5(e.reason || ``);
+    function HGe({ invite: e, compact: t, hour24Clock: n, dateFormatString: r, onNavigate: i, hideAvatar: a }) {
         let o = J(), s = o.getSafeUserId(), [c, l] = (0, A.useState)(!1), u = ()=>l(!1), d = ()=>l(!0), [f, p] = V((0, A.useCallback)(async ()=>{
             let t = Zme(e.room, s) ? iK(e.room, s) : void 0;
             await o.joinRoom(e.roomId), t && await aK(o, e.roomId, t), i(e.roomId, e.isSpace);
@@ -129387,7 +129381,7 @@ ${r.current.stack}
             ]
         });
     }
-    function WGe({ filter: e, onFilter: t, knownInvites: n, unknownInvites: r, spamInvites: i }) {
+    function UGe({ filter: e, onFilter: t, knownInvites: n, unknownInvites: r, spamInvites: i }) {
         let a = e === 0, o = e === 1, s = e === 2;
         return (0, j.jsxs)(P, {
             gap: `200`,
@@ -129464,7 +129458,7 @@ ${r.current.stack}
             ]
         });
     }
-    function GGe({ invites: e, handleNavigate: t, compact: n, hour24Clock: r, dateFormatString: i }) {
+    function WGe({ invites: e, handleNavigate: t, compact: n, hour24Clock: r, dateFormatString: i }) {
         return (0, j.jsxs)(P, {
             direction: `Column`,
             gap: `200`,
@@ -129476,7 +129470,7 @@ ${r.current.stack}
                 e.length > 0 ? (0, j.jsx)(P, {
                     direction: `Column`,
                     gap: `100`,
-                    children: e.map((e)=>(0, j.jsx)(UGe, {
+                    children: e.map((e)=>(0, j.jsx)(HGe, {
                             invite: e,
                             compact: n,
                             hour24Clock: r,
@@ -129499,7 +129493,7 @@ ${r.current.stack}
             ]
         });
     }
-    function KGe({ invites: e, handleNavigate: t, compact: n, hour24Clock: r, dateFormatString: i }) {
+    function GGe({ invites: e, handleNavigate: t, compact: n, hour24Clock: r, dateFormatString: i }) {
         let a = J(), [o, s] = V((0, A.useCallback)(async ()=>{
             await lK(e.map((e)=>e.roomId), (e)=>a.leave(e));
         }, [
@@ -129541,7 +129535,7 @@ ${r.current.stack}
                 e.length > 0 ? (0, j.jsx)(P, {
                     direction: `Column`,
                     gap: `100`,
-                    children: e.map((e)=>(0, j.jsx)(UGe, {
+                    children: e.map((e)=>(0, j.jsx)(HGe, {
                             invite: e,
                             compact: n,
                             hour24Clock: r,
@@ -129564,8 +129558,8 @@ ${r.current.stack}
             ]
         });
     }
-    function qGe({ invites: e, handleNavigate: t, compact: n, hour24Clock: r, dateFormatString: i }) {
-        let a = J(), [o, s] = (0, A.useState)(!1), c = zGe(), [l, u] = V((0, A.useCallback)(async ()=>{
+    function KGe({ invites: e, handleNavigate: t, compact: n, hour24Clock: r, dateFormatString: i }) {
+        let a = J(), [o, s] = (0, A.useState)(!1), c = RGe(), [l, u] = V((0, A.useCallback)(async ()=>{
             await lK(e.map((e)=>e.roomId), (e)=>a.leave(e));
         }, [
             a,
@@ -129695,7 +129689,7 @@ ${r.current.stack}
                                 })
                             })
                         }),
-                        o && e.map((e)=>(0, j.jsx)(UGe, {
+                        o && e.map((e)=>(0, j.jsx)(HGe, {
                                 invite: e,
                                 compact: n,
                                 hour24Clock: r,
@@ -129719,11 +129713,11 @@ ${r.current.stack}
             ]
         });
     }
-    function JGe() {
-        let e = J(), t = FX(), { navigateRoom: n, navigateSpace: r } = T1(), i = Oi(jq), a = Oi(kq), [o, s] = (0, A.useState)(0), c = a.map((t)=>e.getRoom(t)).filter((e)=>!!e).map((n)=>VGe(e, n, t)), [l, u, d] = (0, A.useMemo)(()=>{
+    function qGe() {
+        let e = J(), t = FX(), { navigateRoom: n, navigateSpace: r } = T1(), i = Oi(jq), a = Oi(kq), [o, s] = (0, A.useState)(0), c = a.map((t)=>e.getRoom(t)).filter((e)=>!!e).map((n)=>BGe(e, n, t)), [l, u, d] = (0, A.useMemo)(()=>{
             let t = [], n = [], r = [];
             return c.forEach((a)=>{
-                if (HGe(a) || phe(e, i, a.senderId)) {
+                if (VGe(a) || phe(e, i, a.senderId)) {
                     r.push(a);
                     return;
                 }
@@ -129741,8 +129735,8 @@ ${r.current.stack}
             e,
             i,
             c
-        ]), f = (0, A.useRef)(null), [p, m] = (0, A.useState)(document.body.clientWidth <= BGe);
-        gp((0, A.useCallback)(()=>f.current, []), (0, A.useCallback)((e)=>m(e <= BGe), []));
+        ]), f = (0, A.useRef)(null), [p, m] = (0, A.useState)(document.body.clientWidth <= zGe);
+        gp((0, A.useCallback)(()=>f.current, []), (0, A.useCallback)((e)=>m(e <= zGe), []));
         let h = vp(), [g] = Y(X, `hour24Clock`), [_] = Y(X, `dateFormatString`), v = (e, t)=>{
             if (t) {
                 r(e);
@@ -129815,7 +129809,7 @@ ${r.current.stack}
                                                     size: `L400`,
                                                     children: `Filter`
                                                 }),
-                                                (0, j.jsx)(WGe, {
+                                                (0, j.jsx)(UGe, {
                                                     filter: o,
                                                     onFilter: s,
                                                     knownInvites: l,
@@ -129824,21 +129818,21 @@ ${r.current.stack}
                                                 })
                                             ]
                                         }),
-                                        o === 0 && (0, j.jsx)(GGe, {
+                                        o === 0 && (0, j.jsx)(WGe, {
                                             invites: l,
                                             compact: p,
                                             hour24Clock: g,
                                             dateFormatString: _,
                                             handleNavigate: v
                                         }),
-                                        o === 1 && (0, j.jsx)(KGe, {
+                                        o === 1 && (0, j.jsx)(GGe, {
                                             invites: u,
                                             compact: p,
                                             hour24Clock: g,
                                             dateFormatString: _,
                                             handleNavigate: v
                                         }),
-                                        o === 2 && (0, j.jsx)(qGe, {
+                                        o === 2 && (0, j.jsx)(KGe, {
                                             invites: d,
                                             compact: p,
                                             hour24Clock: g,
@@ -129854,8 +129848,8 @@ ${r.current.stack}
             ]
         });
     }
-    var YGe = `_9a87v70`, XGe = $t(({ className: e, ...t }, n)=>(0, j.jsx)(P, {
-            className: (0, bt.default)(YGe, e),
+    var JGe = `_9a87v70`, YGe = $t(({ className: e, ...t }, n)=>(0, j.jsx)(P, {
+            className: (0, bt.default)(JGe, e),
             ...t,
             ref: n
         })), Z5 = (e)=>typeof e == `string`, Q5 = ()=>{
@@ -129863,22 +129857,22 @@ ${r.current.stack}
             e = n, t = r;
         });
         return n.resolve = e, n.reject = t, n;
-    }, ZGe = (e)=>e == null ? `` : String(e), QGe = (e, t, n)=>{
+    }, XGe = (e)=>e == null ? `` : String(e), ZGe = (e, t, n)=>{
         e.forEach((e)=>{
             t[e] && (n[e] = t[e]);
         });
-    }, $Ge = /###/g, eKe = (e)=>e && e.includes(`###`) ? e.replace($Ge, `.`) : e, tKe = (e)=>!e || Z5(e), $5 = (e, t, n)=>{
+    }, QGe = /###/g, $Ge = (e)=>e && e.includes(`###`) ? e.replace(QGe, `.`) : e, eKe = (e)=>!e || Z5(e), $5 = (e, t, n)=>{
         let r = Z5(t) ? t.split(`.`) : t, i = 0;
         for(; i < r.length - 1;){
-            if (tKe(e)) return {};
-            let t = eKe(r[i]);
+            if (eKe(e)) return {};
+            let t = $Ge(r[i]);
             !e[t] && n && (e[t] = new n), e = Object.prototype.hasOwnProperty.call(e, t) ? e[t] : {}, ++i;
         }
-        return tKe(e) ? {} : {
+        return eKe(e) ? {} : {
             obj: e,
-            k: eKe(r[i])
+            k: $Ge(r[i])
         };
-    }, nKe = (e, t, n)=>{
+    }, tKe = (e, t, n)=>{
         let { obj: r, k: i } = $5(e, t, Object);
         if (r !== void 0 || t.length === 1) {
             r[i] = n;
@@ -129887,26 +129881,26 @@ ${r.current.stack}
         let a = t[t.length - 1], o = t.slice(0, t.length - 1), s = $5(e, o, Object);
         for(; s.obj === void 0 && o.length;)a = `${o[o.length - 1]}.${a}`, o = o.slice(0, o.length - 1), s = $5(e, o, Object), s?.obj && s.obj[`${s.k}.${a}`] !== void 0 && (s.obj = void 0);
         s.obj[`${s.k}.${a}`] = n;
-    }, rKe = (e, t, n, r)=>{
+    }, nKe = (e, t, n, r)=>{
         let { obj: i, k: a } = $5(e, t, Object);
         i[a] = i[a] || [], i[a].push(n);
     }, e7 = (e, t)=>{
         let { obj: n, k: r } = $5(e, t);
         if (n && Object.prototype.hasOwnProperty.call(n, r)) return n[r];
-    }, iKe = (e, t, n)=>{
+    }, rKe = (e, t, n)=>{
         let r = e7(e, n);
         return r === void 0 ? e7(t, n) : r;
-    }, aKe = (e, t, n)=>{
-        for(let r in t)r !== `__proto__` && r !== `constructor` && (r in e ? Z5(e[r]) || e[r] instanceof String || Z5(t[r]) || t[r] instanceof String ? n && (e[r] = t[r]) : aKe(e[r], t[r], n) : e[r] = t[r]);
+    }, iKe = (e, t, n)=>{
+        for(let r in t)r !== `__proto__` && r !== `constructor` && (r in e ? Z5(e[r]) || e[r] instanceof String || Z5(t[r]) || t[r] instanceof String ? n && (e[r] = t[r]) : iKe(e[r], t[r], n) : e[r] = t[r]);
         return e;
-    }, t7 = (e)=>e.replace(/[\-\[\]\/\{\}\(\)\*\+\?\.\\\^\$\|]/g, `\\$&`), oKe = {
+    }, t7 = (e)=>e.replace(/[\-\[\]\/\{\}\(\)\*\+\?\.\\\^\$\|]/g, `\\$&`), aKe = {
         "&": `&amp;`,
         "<": `&lt;`,
         ">": `&gt;`,
         '"': `&quot;`,
         "'": `&#39;`,
         "/": `&#x2F;`
-    }, sKe = (e)=>Z5(e) ? e.replace(/[&<>"'\/]/g, (e)=>oKe[e]) : e, cKe = class {
+    }, oKe = (e)=>Z5(e) ? e.replace(/[&<>"'\/]/g, (e)=>aKe[e]) : e, sKe = class {
         constructor(e){
             this.capacity = e, this.regExpMap = new Map, this.regExpQueue = [];
         }
@@ -129916,23 +129910,23 @@ ${r.current.stack}
             let n = new RegExp(e);
             return this.regExpQueue.length === this.capacity && this.regExpMap.delete(this.regExpQueue.shift()), this.regExpMap.set(e, n), this.regExpQueue.push(e), n;
         }
-    }, lKe = [
+    }, cKe = [
         ` `,
         `,`,
         `?`,
         `!`,
         `;`
-    ], uKe = new cKe(20), dKe = (e, t, n)=>{
+    ], lKe = new sKe(20), uKe = (e, t, n)=>{
         t ||= ``, n ||= ``;
-        let r = lKe.filter((e)=>!t.includes(e) && !n.includes(e));
+        let r = cKe.filter((e)=>!t.includes(e) && !n.includes(e));
         if (r.length === 0) return !0;
-        let i = uKe.getRegExp(`(${r.map((e)=>e === `?` ? `\\?` : e).join(`|`)})`), a = !i.test(e);
+        let i = lKe.getRegExp(`(${r.map((e)=>e === `?` ? `\\?` : e).join(`|`)})`), a = !i.test(e);
         if (!a) {
             let t = e.indexOf(n);
             t > 0 && !i.test(e.substring(0, t)) && (a = !0);
         }
         return a;
-    }, fKe = (e, t, n = `.`)=>{
+    }, dKe = (e, t, n = `.`)=>{
         if (!e) return;
         if (e[t]) return Object.prototype.hasOwnProperty.call(e, t) ? e[t] : void 0;
         let r = t.split(n), i = e;
@@ -129951,7 +129945,7 @@ ${r.current.stack}
             i = t;
         }
         return i;
-    }, n7 = (e)=>e?.replace(/_/g, `-`), pKe = {
+    }, n7 = (e)=>e?.replace(/_/g, `-`), fKe = {
         type: `logger`,
         log (e) {
             this.output(`log`, e);
@@ -129970,7 +129964,7 @@ ${r.current.stack}
             this.init(e, t);
         }
         init(e, t = {}) {
-            this.prefix = t.prefix || `i18next:`, this.logger = e || pKe, this.options = t, this.debug = t.debug;
+            this.prefix = t.prefix || `i18next:`, this.logger = e || fKe, this.options = t, this.debug = t.debug;
         }
         log(...e) {
             return this.forward(e, `log`, ``, !0);
@@ -130029,7 +130023,7 @@ ${r.current.stack}
                 for(let i = 0; i < r; i++)n(e, ...t);
             });
         }
-    }, mKe = class extends i7 {
+    }, pKe = class extends i7 {
         constructor(e, t = {
             ns: [
                 `translation`
@@ -130052,7 +130046,7 @@ ${r.current.stack}
                 t
             ], n && (Array.isArray(n) ? o.push(...n) : Z5(n) && i ? o.push(...n.split(i)) : o.push(n)));
             let s = e7(this.data, o);
-            return !s && !t && !n && e.includes(`.`) && (e = o[0], t = o[1], n = o.slice(2).join(`.`)), s || !a || !Z5(n) ? s : fKe(this.data?.[e]?.[t], n, i);
+            return !s && !t && !n && e.includes(`.`) && (e = o[0], t = o[1], n = o.slice(2).join(`.`)), s || !a || !Z5(n) ? s : dKe(this.data?.[e]?.[t], n, i);
         }
         addResource(e, t, n, r, i = {
             silent: !1
@@ -130061,7 +130055,7 @@ ${r.current.stack}
                 e,
                 t
             ];
-            n && (o = o.concat(a ? n.split(a) : n)), e.includes(`.`) && (o = e.split(`.`), r = t, t = o[1]), this.addNamespaces(t), nKe(this.data, o, r), i.silent || this.emit(`added`, e, t, n, r);
+            n && (o = o.concat(a ? n.split(a) : n)), e.includes(`.`) && (o = e.split(`.`), r = t, t = o[1]), this.addNamespaces(t), tKe(this.data, o, r), i.silent || this.emit(`added`, e, t, n, r);
         }
         addResources(e, t, n, r = {
             silent: !1
@@ -130081,10 +130075,10 @@ ${r.current.stack}
             ];
             e.includes(`.`) && (o = e.split(`.`), r = n, n = t, t = o[1]), this.addNamespaces(t);
             let s = e7(this.data, o) || {};
-            a.skipCopy || (n = JSON.parse(JSON.stringify(n))), r ? aKe(s, n, i) : s = {
+            a.skipCopy || (n = JSON.parse(JSON.stringify(n))), r ? iKe(s, n, i) : s = {
                 ...s,
                 ...n
-            }, nKe(this.data, o, s), a.silent || this.emit(`added`, e, t, n);
+            }, tKe(this.data, o, s), a.silent || this.emit(`added`, e, t, n);
         }
         removeResourceBundle(e, t) {
             this.hasResourceBundle(e, t) && delete this.data[e][t], this.removeNamespaces(t), this.emit(`removed`, e, t);
@@ -130105,7 +130099,7 @@ ${r.current.stack}
         toJSON() {
             return this.data;
         }
-    }, hKe = {
+    }, mKe = {
         processors: {},
         addPostProcessor (e) {
             this.processors[e.name] = e;
@@ -130115,13 +130109,13 @@ ${r.current.stack}
                 t = this.processors[e]?.process(t, n, r, i) ?? t;
             }), t;
         }
-    }, gKe = Symbol(`i18next/PATH_KEY`);
-    function _Ke() {
+    }, hKe = Symbol(`i18next/PATH_KEY`);
+    function gKe() {
         let e = [], t = Object.create(null), n;
-        return t.get = (r, i)=>(n?.revoke?.(), i === gKe ? e : (e.push(i), n = Proxy.revocable(r, t), n.proxy)), Proxy.revocable(Object.create(null), t).proxy;
+        return t.get = (r, i)=>(n?.revoke?.(), i === hKe ? e : (e.push(i), n = Proxy.revocable(r, t), n.proxy)), Proxy.revocable(Object.create(null), t).proxy;
     }
     function a7(e, t) {
-        let { [gKe]: n } = e(_Ke()), r = t?.keySeparator ?? `.`, i = t?.nsSeparator ?? `:`, a = t?.enableSelector === `strict`;
+        let { [hKe]: n } = e(gKe()), r = t?.keySeparator ?? `.`, i = t?.nsSeparator ?? `:`, a = t?.enableSelector === `strict`;
         if (n.length > 1 && i) {
             let e = t?.ns, o = a ? Array.isArray(e) ? e : e ? [
                 e
@@ -130130,9 +130124,9 @@ ${r.current.stack}
         }
         return n.join(r);
     }
-    var vKe = (e)=>!Z5(e) && typeof e != `boolean` && typeof e != `number`, yKe = class e extends i7 {
+    var _Ke = (e)=>!Z5(e) && typeof e != `boolean` && typeof e != `number`, vKe = class e extends i7 {
         constructor(e, t = {}){
-            super(), QGe([
+            super(), ZGe([
                 `resourceStore`,
                 `languageUtils`,
                 `pluralResolver`,
@@ -130154,13 +130148,13 @@ ${r.current.stack}
             if (e == null) return !1;
             let r = this.resolve(e, n);
             if (r?.res === void 0) return !1;
-            let i = vKe(r.res);
+            let i = _Ke(r.res);
             return !(n.returnObjects === !1 && i);
         }
         extractFromKey(e, t) {
             let n = t.nsSeparator === void 0 ? this.options.nsSeparator : t.nsSeparator;
             n === void 0 && (n = `:`);
-            let r = t.keySeparator === void 0 ? this.options.keySeparator : t.keySeparator, i = t.ns || this.options.defaultNS || [], a = n && e.includes(n), o = !this.options.userDefinedKeySeparator && !t.keySeparator && !this.options.userDefinedNsSeparator && !t.nsSeparator && !dKe(e, n, r);
+            let r = t.keySeparator === void 0 ? this.options.keySeparator : t.keySeparator, i = t.ns || this.options.defaultNS || [], a = n && e.includes(n), o = !this.options.userDefinedKeySeparator && !t.keySeparator && !this.options.userDefinedNsSeparator && !t.nsSeparator && !uKe(e, n, r);
             if (a && !o) {
                 let t = e.match(this.interpolator.nestingRegexp);
                 if (t && t.length > 0) return {
@@ -130221,7 +130215,7 @@ ${r.current.stack}
                 ordinal: !1
             }) : ``, w = b && !i.ordinal && i.count === 0, T = w && i[`defaultValue${this.options.pluralSeparator}zero`] || i[`defaultValue${S}`] || i[`defaultValue${C}`] || i.defaultValue, E = m;
             y && !m && x && (E = T);
-            let D = vKe(E), O = Object.prototype.toString.apply(E);
+            let D = _Ke(E), O = Object.prototype.toString.apply(E);
             if (y && E && D && !_.includes(O) && !(Z5(v) && Array.isArray(E))) {
                 if (!i.returnObjects && !this.options.returnObjects) {
                     this.options.returnedObjectHandler || this.logger.warn(`accessing an object - but returnObjects options is not enabled!`);
@@ -130237,7 +130231,7 @@ ${r.current.stack}
                         let r = `${n}${o}${e}`;
                         t[e] = x && !m ? this.translate(r, {
                             ...i,
-                            defaultValue: vKe(T) ? T[e] : void 0,
+                            defaultValue: _Ke(T) ? T[e] : void 0,
                             joinArrays: !1,
                             ns: c
                         }) : this.translate(r, {
@@ -130314,7 +130308,7 @@ ${r.current.stack}
             let a = n.postProcess || this.options.postProcess, o = Z5(a) ? [
                 a
             ] : a;
-            return e != null && o?.length && n.applyPostProcessor !== !1 && (e = hKe.handle(o, e, t, this.options && this.options.postProcessPassResolved ? {
+            return e != null && o?.length && n.applyPostProcessor !== !1 && (e = mKe.handle(o, e, t, this.options && this.options.postProcessPassResolved ? {
                 i18nResolved: {
                     ...r,
                     usedParams: this.getUsedParamsDetails(n)
@@ -130404,7 +130398,7 @@ ${r.current.stack}
             for(let t in e)if (Object.prototype.hasOwnProperty.call(e, t) && t.startsWith(`defaultValue`) && e[t] !== void 0) return !0;
             return !1;
         }
-    }, bKe = class {
+    }, yKe = class {
         constructor(e){
             this.options = e, this.supportedLngs = this.options.supportedLngs || !1, this.logger = r7.create(`languageUtils`);
         }
@@ -130464,14 +130458,14 @@ ${r.current.stack}
                 r.includes(e) || i(this.formatLanguageCode(e));
             }), r;
         }
-    }, xKe = {
+    }, bKe = {
         zero: 0,
         one: 1,
         two: 2,
         few: 3,
         many: 4,
         other: 5
-    }, SKe = {
+    }, xKe = {
         select: (e)=>e === 1 ? `one` : `other`,
         resolvedOptions: ()=>({
                 pluralCategories: [
@@ -130479,7 +130473,7 @@ ${r.current.stack}
                     `other`
                 ]
             })
-    }, CKe = class {
+    }, SKe = class {
         constructor(e, t = {}){
             this.languageUtils = e, this.options = t, this.logger = r7.create(`pluralResolver`), this.pluralRulesCache = {};
         }
@@ -130498,8 +130492,8 @@ ${r.current.stack}
                     type: r
                 });
             } catch  {
-                if (typeof Intl > `u`) return this.logger.error(`No Intl support, please use an Intl polyfill!`), SKe;
-                if (!e.match(/-|_/)) return SKe;
+                if (typeof Intl > `u`) return this.logger.error(`No Intl support, please use an Intl polyfill!`), xKe;
+                if (!e.match(/-|_/)) return xKe;
                 let n = this.languageUtils.getLanguagePartFromCode(e);
                 a = this.getRule(n, t);
             }
@@ -130514,16 +130508,16 @@ ${r.current.stack}
         }
         getSuffixes(e, t = {}) {
             let n = this.getRule(e, t);
-            return n ||= this.getRule(`dev`, t), n ? n.resolvedOptions().pluralCategories.sort((e, t)=>xKe[e] - xKe[t]).map((e)=>`${this.options.prepend}${t.ordinal ? `ordinal${this.options.prepend}` : ``}${e}`) : [];
+            return n ||= this.getRule(`dev`, t), n ? n.resolvedOptions().pluralCategories.sort((e, t)=>bKe[e] - bKe[t]).map((e)=>`${this.options.prepend}${t.ordinal ? `ordinal${this.options.prepend}` : ``}${e}`) : [];
         }
         getSuffix(e, t, n = {}) {
             let r = this.getRule(e, n);
             return r ? `${this.options.prepend}${n.ordinal ? `ordinal${this.options.prepend}` : ``}${r.select(t)}` : (this.logger.warn(`no plural rule found for: ${e}`), this.getSuffix(`dev`, t, n));
         }
-    }, wKe = (e, t, n, r = `.`, i = !0)=>{
-        let a = iKe(e, t, n);
-        return !a && i && Z5(n) && (a = fKe(e, n, r), a === void 0 && (a = fKe(t, n, r))), a;
-    }, TKe = (e)=>e.replace(/\$/g, `$$$$`), EKe = class {
+    }, CKe = (e, t, n, r = `.`, i = !0)=>{
+        let a = rKe(e, t, n);
+        return !a && i && Z5(n) && (a = dKe(e, n, r), a === void 0 && (a = dKe(t, n, r))), a;
+    }, wKe = (e)=>e.replace(/\$/g, `$$$$`), TKe = class {
         constructor(e = {}){
             this.logger = r7.create(`interpolator`), this.options = e, this.format = e?.interpolation?.format || ((e)=>e), this.init(e);
         }
@@ -130532,7 +130526,7 @@ ${r.current.stack}
                 escapeValue: !0
             };
             let { escape: t, escapeValue: n, useRawValueToEscape: r, prefix: i, prefixEscaped: a, suffix: o, suffixEscaped: s, formatSeparator: c, unescapeSuffix: l, unescapePrefix: u, nestingPrefix: d, nestingPrefixEscaped: f, nestingSuffix: p, nestingSuffixEscaped: m, nestingOptionsSeparator: h, maxReplaces: g, alwaysFormat: _ } = e.interpolation;
-            this.escape = t === void 0 ? sKe : t, this.escapeValue = n === void 0 || n, this.useRawValueToEscape = r !== void 0 && r, this.prefix = i ? t7(i) : a || `{{`, this.suffix = o ? t7(o) : s || `}}`, this.formatSeparator = c || `,`, this.unescapePrefix = l ? `` : u ? t7(u) : `-`, this.unescapeSuffix = this.unescapePrefix ? `` : l ? t7(l) : ``, this.nestingPrefix = d ? t7(d) : f || t7(`$t(`), this.nestingSuffix = p ? t7(p) : m || t7(`)`), this.nestingOptionsSeparator = h || `,`, this.maxReplaces = g || 1e3, this.alwaysFormat = _ !== void 0 && _, this.resetRegExp();
+            this.escape = t === void 0 ? oKe : t, this.escapeValue = n === void 0 || n, this.useRawValueToEscape = r !== void 0 && r, this.prefix = i ? t7(i) : a || `{{`, this.suffix = o ? t7(o) : s || `}}`, this.formatSeparator = c || `,`, this.unescapePrefix = l ? `` : u ? t7(u) : `-`, this.unescapeSuffix = this.unescapePrefix ? `` : l ? t7(l) : ``, this.nestingPrefix = d ? t7(d) : f || t7(`$t(`), this.nestingSuffix = p ? t7(p) : m || t7(`)`), this.nestingOptionsSeparator = h || `,`, this.maxReplaces = g || 1e3, this.alwaysFormat = _ !== void 0 && _, this.resetRegExp();
         }
         reset() {
             this.options && this.init(this.options);
@@ -130544,7 +130538,7 @@ ${r.current.stack}
         interpolate(e, t, n, r) {
             let i, a, o, s = this.options && this.options.interpolation && this.options.interpolation.defaultVariables || {}, c = (e)=>{
                 if (!e.includes(this.formatSeparator)) {
-                    let i = wKe(t, s, e, this.options.keySeparator, this.options.ignoreJSONStructure);
+                    let i = CKe(t, s, e, this.options.keySeparator, this.options.ignoreJSONStructure);
                     return this.alwaysFormat ? this.format(i, void 0, n, {
                         ...r,
                         ...t,
@@ -130552,7 +130546,7 @@ ${r.current.stack}
                     }) : i;
                 }
                 let i = e.split(this.formatSeparator), a = i.shift().trim(), o = i.join(this.formatSeparator).trim();
-                return this.format(wKe(t, s, a, this.options.keySeparator, this.options.ignoreJSONStructure), o, n, {
+                return this.format(CKe(t, s, a, this.options.keySeparator, this.options.ignoreJSONStructure), o, n, {
                     ...r,
                     ...t,
                     interpolationkey: a
@@ -130563,11 +130557,11 @@ ${r.current.stack}
             return [
                 {
                     regex: this.regexpUnescape,
-                    safeValue: (e)=>TKe(e)
+                    safeValue: (e)=>wKe(e)
                 },
                 {
                     regex: this.regexp,
-                    safeValue: (e)=>this.escapeValue ? TKe(this.escape(e)) : TKe(e)
+                    safeValue: (e)=>this.escapeValue ? wKe(this.escape(e)) : wKe(e)
                 }
             ].forEach((t)=>{
                 for(o = 0; i = t.regex.exec(e);){
@@ -130581,7 +130575,7 @@ ${r.current.stack}
                             a = i[0];
                             continue;
                         } else this.logger.warn(`missed to pass in variable ${n} for interpolating ${e}`), a = ``;
-                    } else !Z5(a) && !this.useRawValueToEscape && (a = ZGe(a));
+                    } else !Z5(a) && !this.useRawValueToEscape && (a = XGe(a));
                     let s = t.safeValue(a);
                     if (e = e.replace(i[0], s), u ? (t.regex.lastIndex += a.length, t.regex.lastIndex -= i[0].length) : t.regex.lastIndex = 0, o++, o >= this.maxReplaces) break;
                 }
@@ -130612,14 +130606,14 @@ ${r.current.stack}
                 }, a = a.replace && !Z5(a.replace) ? a.replace : a, a.applyPostProcessor = !1, delete a.defaultValue;
                 let c = /{.*}/.test(r[1]) ? r[1].lastIndexOf(`}`) + 1 : r[1].indexOf(this.formatSeparator);
                 if (c !== -1 && (s = r[1].slice(c).split(this.formatSeparator).map((e)=>e.trim()).filter(Boolean), r[1] = r[1].slice(0, c)), i = t(o.call(this, r[1].trim(), a), a), i && r[0] === e && !Z5(i)) return i;
-                Z5(i) || (i = ZGe(i)), i ||= (this.logger.warn(`missed to resolve ${r[1]} for nesting ${e}`), ``), s.length && (i = s.reduce((e, t)=>this.format(e, t, n.lng, {
+                Z5(i) || (i = XGe(i)), i ||= (this.logger.warn(`missed to resolve ${r[1]} for nesting ${e}`), ``), s.length && (i = s.reduce((e, t)=>this.format(e, t, n.lng, {
                         ...n,
                         interpolationkey: r[1].trim()
                     }), i.trim())), e = e.replace(r[0], i), this.regexp.lastIndex = 0;
             }
             return e;
         }
-    }, DKe = (e)=>{
+    }, EKe = (e)=>{
         let t = e.toLowerCase().trim(), n = {};
         if (e.includes(`(`)) {
             let r = e.split(`(`);
@@ -130636,7 +130630,7 @@ ${r.current.stack}
             formatName: t,
             formatOptions: n
         };
-    }, OKe = (e)=>{
+    }, DKe = (e)=>{
         let t = {};
         return (n, r, i)=>{
             let a = i;
@@ -130647,7 +130641,7 @@ ${r.current.stack}
             let o = r + JSON.stringify(a), s = t[o];
             return s || (s = e(n7(r), i), t[o] = s), s(n);
         };
-    }, kKe = (e)=>(t, n, r)=>e(n7(n), r)(t), AKe = class {
+    }, OKe = (e)=>(t, n, r)=>e(n7(n), r)(t), kKe = class {
         constructor(e = {}){
             this.logger = r7.create(`formatter`), this.options = e, this.init(e);
         }
@@ -130655,7 +130649,7 @@ ${r.current.stack}
             interpolation: {}
         }) {
             this.formatSeparator = t.interpolation.formatSeparator || `,`;
-            let n = t.cacheInBuiltFormats ? OKe : kKe;
+            let n = t.cacheInBuiltFormats ? DKe : OKe;
             this.formats = {
                 number: n((e, t)=>{
                     let n = new Intl.NumberFormat(e, {
@@ -130694,7 +130688,7 @@ ${r.current.stack}
             this.formats[e.toLowerCase().trim()] = t;
         }
         addCached(e, t) {
-            this.formats[e.toLowerCase().trim()] = OKe(t);
+            this.formats[e.toLowerCase().trim()] = DKe(t);
         }
         format(e, t, n, r = {}) {
             if (!t || e == null) return e;
@@ -130707,7 +130701,7 @@ ${r.current.stack}
                 ].join(this.formatSeparator);
             }
             return i.reduce((e, t)=>{
-                let { formatName: i, formatOptions: a } = DKe(t);
+                let { formatName: i, formatOptions: a } = EKe(t);
                 if (this.formats[i]) {
                     let t = e;
                     try {
@@ -130725,9 +130719,9 @@ ${r.current.stack}
                 return this.logger.warn(`there was no format function for ${i}`), e;
             }, e);
         }
-    }, jKe = (e, t)=>{
+    }, AKe = (e, t)=>{
         e.pending[t] !== void 0 && (delete e.pending[t], e.pendingCount--);
-    }, MKe = class extends i7 {
+    }, jKe = class extends i7 {
         constructor(e, t, n, r = {}){
             super(), this.backend = e, this.store = t, this.services = n, this.languageUtils = n.languageUtils, this.options = r, this.logger = r7.create(`backendConnector`), this.waitingReads = [], this.maxParallelReads = r.maxParallelReads || 10, this.readingCalls = 0, this.maxRetries = r.maxRetries >= 0 ? r.maxRetries : 5, this.retryTimeout = r.retryTimeout >= 1 ? r.retryTimeout : 350, this.state = {}, this.queue = [], this.backend?.init?.(n, r.backend, r);
         }
@@ -130759,9 +130753,9 @@ ${r.current.stack}
             }), this.state[e] = t ? -1 : 2, t && n && (this.state[e] = 0);
             let o = {};
             this.queue.forEach((n)=>{
-                rKe(n.loaded, [
+                nKe(n.loaded, [
                     i
-                ], a), jKe(n, e), t && n.errors.push(t), n.pendingCount === 0 && !n.done && (Object.keys(n.loaded).forEach((e)=>{
+                ], a), AKe(n, e), t && n.errors.push(t), n.pendingCount === 0 && !n.done && (Object.keys(n.loaded).forEach((e)=>{
                     o[e] || (o[e] = {});
                     let t = n.loaded[e];
                     t.length && t.forEach((t)=>{
@@ -130855,7 +130849,7 @@ ${r.current.stack}
                 !e || !e[0] || this.store.addResource(e[0], t, n, r);
             }
         }
-    }, NKe = ()=>({
+    }, MKe = ()=>({
             debug: !1,
             initAsync: !0,
             ns: [
@@ -130917,7 +130911,7 @@ ${r.current.stack}
                 skipOnVariables: !0
             },
             cacheInBuiltFormats: !0
-        }), PKe = (e)=>(Z5(e.ns) && (e.ns = [
+        }), NKe = (e)=>(Z5(e.ns) && (e.ns = [
             e.ns
         ]), Z5(e.fallbackLng) && (e.fallbackLng = [
             e.fallbackLng
@@ -130925,15 +130919,15 @@ ${r.current.stack}
             e.fallbackNS
         ]), e.supportedLngs && !e.supportedLngs.includes(`cimode`) && (e.supportedLngs = e.supportedLngs.concat([
             `cimode`
-        ])), e), o7 = ()=>{}, FKe = (e)=>{
+        ])), e), o7 = ()=>{}, PKe = (e)=>{
         Object.getOwnPropertyNames(Object.getPrototypeOf(e)).forEach((t)=>{
             typeof e[t] == `function` && (e[t] = e[t].bind(e));
         });
     }, s7 = class e extends i7 {
         constructor(e = {}, t){
-            if (super(), this.options = PKe(e), this.services = {}, this.logger = r7, this.modules = {
+            if (super(), this.options = NKe(e), this.services = {}, this.logger = r7, this.modules = {
                 external: []
-            }, FKe(this), t && !this.isInitialized && !e.isClone) {
+            }, PKe(this), t && !this.isInitialized && !e.isClone) {
                 if (!this.options.initAsync) return this.init(e, t), this;
                 setTimeout(()=>{
                     this.init(e, t);
@@ -130942,11 +130936,11 @@ ${r.current.stack}
         }
         init(e = {}, t) {
             this.isInitializing = !0, typeof e == `function` && (t = e, e = {}), e.defaultNS == null && e.ns && (Z5(e.ns) ? e.defaultNS = e.ns : e.ns.includes(`translation`) || (e.defaultNS = e.ns[0]));
-            let n = NKe();
+            let n = MKe();
             this.options = {
                 ...n,
                 ...this.options,
-                ...PKe(e)
+                ...NKe(e)
             }, this.options.interpolation = {
                 ...n.interpolation,
                 ...this.options.interpolation
@@ -130955,17 +130949,17 @@ ${r.current.stack}
             if (!this.options.isClone) {
                 this.modules.logger ? r7.init(r(this.modules.logger), this.options) : r7.init(null, this.options);
                 let e;
-                e = this.modules.formatter ? this.modules.formatter : AKe;
-                let t = new bKe(this.options);
-                this.store = new mKe(this.options.resources, this.options);
+                e = this.modules.formatter ? this.modules.formatter : kKe;
+                let t = new yKe(this.options);
+                this.store = new pKe(this.options.resources, this.options);
                 let n = this.services;
-                n.logger = r7, n.resourceStore = this.store, n.languageUtils = t, n.pluralResolver = new CKe(t, {
+                n.logger = r7, n.resourceStore = this.store, n.languageUtils = t, n.pluralResolver = new SKe(t, {
                     prepend: this.options.pluralSeparator
-                }), e && (n.formatter = r(e), n.formatter.init && n.formatter.init(n, this.options), this.options.interpolation.format = n.formatter.format.bind(n.formatter)), n.interpolator = new EKe(this.options), n.utils = {
+                }), e && (n.formatter = r(e), n.formatter.init && n.formatter.init(n, this.options), this.options.interpolation.format = n.formatter.format.bind(n.formatter)), n.interpolator = new TKe(this.options), n.utils = {
                     hasLoadedNamespace: this.hasLoadedNamespace.bind(this)
-                }, n.backendConnector = new MKe(r(this.modules.backend), n.resourceStore, n, this.options), n.backendConnector.on(`*`, (e, ...t)=>{
+                }, n.backendConnector = new jKe(r(this.modules.backend), n.resourceStore, n, this.options), n.backendConnector.on(`*`, (e, ...t)=>{
                     this.emit(e, ...t);
-                }), this.modules.languageDetector && (n.languageDetector = r(this.modules.languageDetector), n.languageDetector.init && n.languageDetector.init(n, this.options.detection, this.options)), this.modules.i18nFormat && (n.i18nFormat = r(this.modules.i18nFormat), n.i18nFormat.init && n.i18nFormat.init(this)), this.translator = new yKe(this.services, this.options), this.translator.on(`*`, (e, ...t)=>{
+                }), this.modules.languageDetector && (n.languageDetector = r(this.modules.languageDetector), n.languageDetector.init && n.languageDetector.init(n, this.options.detection, this.options)), this.modules.i18nFormat && (n.i18nFormat = r(this.modules.i18nFormat), n.i18nFormat.init && n.i18nFormat.init(this)), this.translator = new vKe(this.services, this.options), this.translator.on(`*`, (e, ...t)=>{
                     this.emit(e, ...t);
                 }), this.modules.external.forEach((e)=>{
                     e.init && e.init(this);
@@ -131022,7 +131016,7 @@ ${r.current.stack}
         use(e) {
             if (!e) throw Error(`You are passing an undefined module! Please check the object you are passing to i18next.use()`);
             if (!e.type) throw Error(`You are passing a wrong module! Please check the object you are passing to i18next.use()`);
-            return e.type === `backend` && (this.modules.backend = e), (e.type === `logger` || e.log && e.warn && e.error) && (this.modules.logger = e), e.type === `languageDetector` && (this.modules.languageDetector = e), e.type === `i18nFormat` && (this.modules.i18nFormat = e), e.type === `postProcessor` && hKe.addPostProcessor(e), e.type === `formatter` && (this.modules.formatter = e), e.type === `3rdParty` && this.modules.external.push(e), this;
+            return e.type === `backend` && (this.modules.backend = e), (e.type === `logger` || e.log && e.warn && e.error) && (this.modules.logger = e), e.type === `languageDetector` && (this.modules.languageDetector = e), e.type === `i18nFormat` && (this.modules.i18nFormat = e), e.type === `postProcessor` && mKe.addPostProcessor(e), e.type === `formatter` && (this.modules.formatter = e), e.type === `3rdParty` && this.modules.external.push(e), this;
         }
         setResolvedLanguage(e) {
             if (!(!e || !this.languages) && ![
@@ -131135,7 +131129,7 @@ ${r.current.stack}
                     if (e && e.direction) return e.direction;
                 }
             } catch  {}
-            let t = `ar.shu.sqr.ssh.xaa.yhd.yud.aao.abh.abv.acm.acq.acw.acx.acy.adf.ads.aeb.aec.afb.ajp.apc.apd.arb.arq.ars.ary.arz.auz.avl.ayh.ayl.ayn.ayp.bbz.pga.he.iw.ps.pbt.pbu.pst.prp.prd.ug.ur.ydd.yds.yih.ji.yi.hbo.men.xmn.fa.jpr.peo.pes.prs.dv.sam.ckb`.split(`.`), n = this.services?.languageUtils || new bKe(NKe());
+            let t = `ar.shu.sqr.ssh.xaa.yhd.yud.aao.abh.abv.acm.acq.acw.acx.acy.adf.ads.aeb.aec.afb.ajp.apc.apd.arb.arq.ars.ary.arz.auz.avl.ayh.ayl.ayn.ayp.bbz.pga.he.iw.ps.pbt.pbu.pst.prp.prd.ug.ur.ydd.yds.yih.ji.yi.hbo.men.xmn.fa.jpr.peo.pes.prs.dv.sam.ckb`.split(`.`), n = this.services?.languageUtils || new yKe(MKe());
             return e.toLowerCase().indexOf(`-latn`) > 1 ? `ltr` : t.includes(n.getLanguagePartFromCode(e)) || e.toLowerCase().indexOf(`-arab`) > 1 ? `rtl` : `ltr`;
         }
         static createInstance(t = {}, n) {
@@ -131160,22 +131154,22 @@ ${r.current.stack}
                 ...this.services
             }, a.services.utils = {
                 hasLoadedNamespace: a.hasLoadedNamespace.bind(a)
-            }, r && (a.store = new mKe(Object.keys(this.store.data).reduce((e, t)=>(e[t] = {
+            }, r && (a.store = new pKe(Object.keys(this.store.data).reduce((e, t)=>(e[t] = {
                     ...this.store.data[t]
                 }, e[t] = Object.keys(e[t]).reduce((n, r)=>(n[r] = {
                         ...e[t][r]
                     }, n), e[t]), e), {}), i), a.services.resourceStore = a.store), t.interpolation) {
                 let e = {
-                    ...NKe().interpolation,
+                    ...MKe().interpolation,
                     ...this.options.interpolation,
                     ...t.interpolation
                 }, n = {
                     ...i,
                     interpolation: e
                 };
-                a.services.interpolator = new EKe(n);
+                a.services.interpolator = new TKe(n);
             }
-            return a.translator = new yKe(a.services, i), a.translator.on(`*`, (e, ...t)=>{
+            return a.translator = new vKe(a.services, i), a.translator.on(`*`, (e, ...t)=>{
                 a.emit(e, ...t);
             }), a.init(i, n), a.translator.options = i, a.translator.backendConnector.services.utils = {
                 hasLoadedNamespace: a.hasLoadedNamespace.bind(a)
@@ -131192,7 +131186,7 @@ ${r.current.stack}
         }
     }.createInstance();
     s7.createInstance, s7.dir, s7.init, s7.loadResources, s7.reloadResources, s7.use, s7.changeLanguage, s7.getFixedT, s7.t, s7.exists, s7.setDefaultNamespace, s7.hasLoadedNamespace, s7.loadNamespaces, s7.loadLanguages;
-    var IKe = (e, t, n, r)=>{
+    var FKe = (e, t, n, r)=>{
         let i = [
             n,
             {
@@ -131202,9 +131196,9 @@ ${r.current.stack}
         ];
         if (e?.services?.logger?.forward) return e.services.logger.forward(i, `warn`, `react-i18next::`, !0);
         c7(i[0]) && (i[0] = `react-i18next:: ${i[0]}`), e?.services?.logger?.warn ? e.services.logger.warn(...i) : console?.warn && console.warn(...i);
-    }, LKe = {}, RKe = (e, t, n, r)=>{
-        c7(n) && LKe[n] || (c7(n) && (LKe[n] = new Date), IKe(e, t, n, r));
-    }, zKe = (e, t)=>()=>{
+    }, IKe = {}, LKe = (e, t, n, r)=>{
+        c7(n) && IKe[n] || (c7(n) && (IKe[n] = new Date), FKe(e, t, n, r));
+    }, RKe = (e, t)=>()=>{
             if (e.isInitialized) t();
             else {
                 let n = ()=>{
@@ -131214,23 +131208,23 @@ ${r.current.stack}
                 };
                 e.on(`initialized`, n);
             }
-        }, BKe = (e, t, n)=>{
-        e.loadNamespaces(t, zKe(e, n));
-    }, VKe = (e, t, n, r)=>{
+        }, zKe = (e, t, n)=>{
+        e.loadNamespaces(t, RKe(e, n));
+    }, BKe = (e, t, n, r)=>{
         if (c7(n) && (n = [
             n
-        ]), e.options.preload && e.options.preload.indexOf(t) > -1) return BKe(e, n, r);
+        ]), e.options.preload && e.options.preload.indexOf(t) > -1) return zKe(e, n, r);
         n.forEach((t)=>{
             e.options.ns.indexOf(t) < 0 && e.options.ns.push(t);
-        }), e.loadLanguages(t, zKe(e, r));
-    }, HKe = (e, t, n = {})=>!t.languages || !t.languages.length ? (RKe(t, `NO_LANGUAGES`, `i18n.languages were undefined or empty`, {
+        }), e.loadLanguages(t, RKe(e, r));
+    }, VKe = (e, t, n = {})=>!t.languages || !t.languages.length ? (LKe(t, `NO_LANGUAGES`, `i18n.languages were undefined or empty`, {
             languages: t.languages
         }), !0) : t.hasLoadedNamespace(e, {
             lng: n.lng,
             precheck: (t, r)=>{
                 if (n.bindI18n && n.bindI18n.indexOf(`languageChanging`) > -1 && t.services.backendConnector.backend && t.isLanguageChangingTo && !r(t.isLanguageChangingTo, e)) return !1;
             }
-        }), c7 = (e)=>typeof e == `string`, UKe = (e)=>typeof e == `object` && !!e, WKe = /&(?:amp|#38|lt|#60|gt|#62|apos|#39|quot|#34|nbsp|#160|copy|#169|reg|#174|hellip|#8230|#x2F|#47);/g, GKe = {
+        }), c7 = (e)=>typeof e == `string`, HKe = (e)=>typeof e == `object` && !!e, UKe = /&(?:amp|#38|lt|#60|gt|#62|apos|#39|quot|#34|nbsp|#160|copy|#169|reg|#174|hellip|#8230|#x2F|#47);/g, WKe = {
         "&amp;": `&`,
         "&#38;": `&`,
         "&lt;": `<`,
@@ -131251,7 +131245,7 @@ ${r.current.stack}
         "&#8230;": `…`,
         "&#x2F;": `/`,
         "&#47;": `/`
-    }, KKe = (e)=>GKe[e], qKe = {
+    }, GKe = (e)=>WKe[e], KKe = {
         bindI18n: `languageChanged`,
         bindI18nStore: ``,
         transEmptyNodeValue: ``,
@@ -131264,21 +131258,21 @@ ${r.current.stack}
             `p`
         ],
         useSuspense: !0,
-        unescape: (e)=>e.replace(WKe, KKe),
+        unescape: (e)=>e.replace(UKe, GKe),
         transDefaultProps: void 0
-    }, JKe = (e = {})=>{
-        qKe = {
-            ...qKe,
+    }, qKe = (e = {})=>{
+        KKe = {
+            ...KKe,
             ...e
         };
-    }, YKe = ()=>qKe, XKe, ZKe = (e)=>{
-        XKe = e;
-    }, QKe = ()=>XKe, $Ke = {
+    }, JKe = ()=>KKe, YKe, XKe = (e)=>{
+        YKe = e;
+    }, ZKe = ()=>YKe, QKe = {
         type: `3rdParty`,
         init (e) {
-            JKe(e.options.react), ZKe(e);
+            qKe(e.options.react), XKe(e);
         }
-    }, eqe = (0, A.createContext)(), tqe = class {
+    }, $Ke = (0, A.createContext)(), eqe = class {
         constructor(){
             this.usedNamespaces = {};
         }
@@ -131290,10 +131284,10 @@ ${r.current.stack}
         getUsedNamespaces() {
             return Object.keys(this.usedNamespaces);
         }
-    }, nqe = Rbe(), rqe = {
+    }, tqe = Rbe(), nqe = {
         t: (e, t)=>{
             if (c7(t)) return t;
-            if (UKe(t) && c7(t.defaultValue)) return t.defaultValue;
+            if (HKe(t) && c7(t.defaultValue)) return t.defaultValue;
             if (typeof e == `function`) return ``;
             if (Array.isArray(e)) {
                 let t = e[e.length - 1];
@@ -131302,11 +131296,11 @@ ${r.current.stack}
             return e;
         },
         ready: !1
-    }, iqe = ()=>()=>{}, aqe = (e, t = {})=>{
-        let { i18n: n } = t, { i18n: r, defaultNS: i } = (0, A.useContext)(eqe) || {}, a = n || r || QKe();
-        a && !a.reportNamespaces && (a.reportNamespaces = new tqe), a || RKe(a, `NO_I18NEXT_INSTANCE`, `useTranslation: You will need to pass in an i18next instance by using initReactI18next`);
+    }, rqe = ()=>()=>{}, iqe = (e, t = {})=>{
+        let { i18n: n } = t, { i18n: r, defaultNS: i } = (0, A.useContext)($Ke) || {}, a = n || r || ZKe();
+        a && !a.reportNamespaces && (a.reportNamespaces = new eqe), a || LKe(a, `NO_I18NEXT_INSTANCE`, `useTranslation: You will need to pass in an i18next instance by using initReactI18next`);
         let o = (0, A.useMemo)(()=>({
-                ...YKe(),
+                ...JKe(),
                 ...a?.options?.react,
                 ...t
             }), [
@@ -131319,7 +131313,7 @@ ${r.current.stack}
         ], d = (0, A.useMemo)(()=>u, u);
         a?.reportNamespaces?.addUsedNamespaces?.(d);
         let f = (0, A.useRef)(0), p = (0, A.useCallback)((e)=>{
-            if (!a) return iqe;
+            if (!a) return rqe;
             let { bindI18n: t, bindI18nStore: n } = o, r = ()=>{
                 f.current += 1, e();
             };
@@ -131330,8 +131324,8 @@ ${r.current.stack}
             a,
             o
         ]), m = (0, A.useRef)(), h = (0, A.useCallback)(()=>{
-            if (!a) return rqe;
-            let e = !!(a.isInitialized || a.initializedStoreOnce) && d.every((e)=>HKe(e, a, o)), n = t.lng || a.language, r = f.current, i = m.current;
+            if (!a) return nqe;
+            let e = !!(a.isInitialized || a.initializedStoreOnce) && d.every((e)=>VKe(e, a, o)), n = t.lng || a.language, r = f.current, i = m.current;
             if (i && i.ready === e && i.lng === n && i.keyPrefix === c && i.revision === r) return i;
             let s = {
                 t: a.getFixedT(n, o.nsMode === `fallback` ? d : d[0], c, {
@@ -131349,11 +131343,11 @@ ${r.current.stack}
             c,
             o,
             t.lng
-        ]), [g, _] = (0, A.useState)(0), { t: v, ready: y } = (0, nqe.useSyncExternalStore)(p, h, h);
+        ]), [g, _] = (0, A.useState)(0), { t: v, ready: y } = (0, tqe.useSyncExternalStore)(p, h, h);
         (0, A.useEffect)(()=>{
             if (a && !y && !s) {
                 let e = ()=>_((e)=>e + 1);
-                t.lng ? VKe(a, t.lng, d, e) : BKe(a, d, e);
+                t.lng ? BKe(a, t.lng, d, e) : zKe(a, d, e);
             }
         }, [
             a,
@@ -131379,7 +131373,7 @@ ${r.current.stack}
         }, w = (0, A.useMemo)(()=>{
             let e = b, t = e?.language, n = e;
             e && (x.current && x.current.__original === e && S.current === t ? n = x.current : (n = C(e), x.current = n, S.current = t));
-            let r = !y && !s ? (...e)=>(RKe(a, `USE_T_BEFORE_READY`, `useTranslation: t was called before ready. When using useSuspense: false, make sure to check the ready flag before using t.`), v(...e)) : v, i = [
+            let r = !y && !s ? (...e)=>(LKe(a, `USE_T_BEFORE_READY`, `useTranslation: t was called before ready. When using useSuspense: false, make sure to check the ready flag before using t.`), v(...e)) : v, i = [
                 r,
                 n,
                 y
@@ -131395,14 +131389,14 @@ ${r.current.stack}
         ]);
         if (a && s && !y) throw new Promise((e)=>{
             let n = ()=>e();
-            t.lng ? VKe(a, t.lng, d, n) : BKe(a, d, n);
+            t.lng ? BKe(a, t.lng, d, n) : zKe(a, d, n);
         });
         return w;
     }, l7 = `data-paginator-anchor`, u7 = (e)=>{
         let t = [];
         for(let n = e.start; n < e.end; n += 1)t.push(n);
         return t;
-    }, oqe = (e, t, n, r, i = 1)=>{
+    }, aqe = (e, t, n, r, i = 1)=>{
         let a = n === `B`, o = a ? u7(t) : u7(t).reverse(), { viewHeight: s, top: c, height: l } = vX(e), { offsetTop: u } = e, d = c + s, f = a ? Math.max(c - s * i, 0) : Math.min(d + s * i, l);
         if (f === 0 || f === l) return;
         let p;
@@ -131412,7 +131406,7 @@ ${r.current.stack}
             let { clientHeight: n } = t, i = t.offsetTop - u, o = i + n;
             return (a ? o > f : i < f) || (p = e, !1);
         }), p;
-    }, sqe = (e, t, n)=>{
+    }, oqe = (e, t, n)=>{
         let r;
         return [
             (n === `B` ? u7(e) : u7(e).reverse()).find((e)=>{
@@ -131421,14 +131415,14 @@ ${r.current.stack}
             }),
             r
         ];
-    }, cqe = (e, t)=>{
+    }, sqe = (e, t)=>{
         let [n, r] = t;
         if (!(!n || !r)) return {
             scrollTop: e,
             anchorItem: n,
             anchorOffsetTop: r.offsetTop
         };
-    }, lqe = (e, t)=>(0, A.useMemo)(()=>{
+    }, cqe = (e, t)=>(0, A.useMemo)(()=>{
             let n = null;
             return (r)=>{
                 r !== n && (n && e?.unobserve(n), r && (n = r, r.setAttribute(l7, t), e?.observe(r)));
@@ -131436,7 +131430,7 @@ ${r.current.stack}
         }, [
             e,
             t
-        ]), uqe = (e)=>{
+        ]), lqe = (e)=>{
         let { count: t, limit: n, range: r, onRangeChange: i, getScrollElement: a, getItemElement: o, onEnd: s } = e, c = (0, A.useRef)(!0), l = (0, A.useRef)(void 0), u = (0, A.useRef)(void 0), d = (0, A.useRef)({
             range: r,
             limit: n,
@@ -131499,20 +131493,20 @@ ${r.current.stack}
                     s?.(!0);
                     return;
                 }
-                t && (l.current = cqe(t.scrollTop, sqe({
+                t && (l.current = sqe(t.scrollTop, oqe({
                     start: u,
                     end: f
-                }, o, `B`))), t && (f = oqe(t, n, `F`, o, 2) ?? f), u = Math.max(u - r, 0);
+                }, o, `B`))), t && (f = aqe(t, n, `F`, o, 2) ?? f), u = Math.max(u - r, 0);
             }
             if (e === `F`) {
                 if (l.current = void 0, f === c) {
                     s?.(!1);
                     return;
                 }
-                t && (l.current = cqe(t.scrollTop, sqe({
+                t && (l.current = sqe(t.scrollTop, oqe({
                     start: u,
                     end: f
-                }, o, `F`))), f = Math.min(f + r, c), t && (u = oqe(t, n, `B`, o, 2) ?? u);
+                }, o, `F`))), f = Math.min(f + r, c), t && (u = aqe(t, n, `B`, o, 2) ?? u);
             }
             i({
                 start: u,
@@ -131531,7 +131525,7 @@ ${r.current.stack}
                 root: a()
             }), [
             a
-        ])), _ = lqe(g, `B`), v = lqe(g, `F`);
+        ])), _ = cqe(g, `B`), v = cqe(g, `F`);
         return (0, A.useLayoutEffect)(()=>{
             let e = a();
             if (!l.current || !e) return;
@@ -131580,11 +131574,11 @@ ${r.current.stack}
             observeBackAnchor: _,
             observeFrontAnchor: v
         };
-    }, dqe = /(^|\+)\s*(mod|ctrl|cmd|control|alt|opt|shift|meta|win)\s*\+/i;
-    function fqe(e) {
-        return dqe.test(e);
+    }, uqe = /(^|\+)\s*(mod|ctrl|cmd|control|alt|opt|shift|meta|win)\s*\+/i;
+    function dqe(e) {
+        return uqe.test(e);
     }
-    function pqe() {
+    function fqe() {
         let e = document.activeElement;
         if (!e) return !1;
         let t = e.tagName;
@@ -131593,10 +131587,10 @@ ${r.current.stack}
     function d7(e, t, n) {
         let [r] = Y(X, `keybinds`), i = (0, A.useRef)(t);
         i.current = t;
-        let a = r[e] ?? T5(e)?.defaultKeys ?? e, o = n?.allowInEditable ?? fqe(a);
+        let a = r[e] ?? T5(e)?.defaultKeys ?? e, o = n?.allowInEditable ?? dqe(a);
         (0, A.useEffect)(()=>{
             let e = (e)=>{
-                up(a, e) && (!o && pqe() || i.current(e) !== !1 && e.preventDefault());
+                up(a, e) && (!o && fqe() || i.current(e) !== !1 && e.preventDefault());
             };
             return window.addEventListener(`keydown`, e), ()=>window.removeEventListener(`keydown`, e);
         }, [
@@ -131604,8 +131598,8 @@ ${r.current.stack}
             o
         ]);
     }
-    var mqe = pi(!1);
-    function hqe() {
+    var pqe = pi(!1);
+    function mqe() {
         let e = document.activeElement;
         if (!e) return !1;
         let t = e.tagName;
@@ -131616,8 +131610,8 @@ ${r.current.stack}
         let r = t === void 0 ? -1 : e.indexOf(t);
         return r < 0 ? e[n === 1 ? 0 : e.length - 1] : e[(r + n + e.length) % e.length];
     }
-    function gqe() {
-        let e = ec(), t = J(), n = PY(), r = w1(), i = Wje(), { navigateRoom: a, navigateSpace: o } = T1(), s = ki(hWe), c = ki(mqe), l = $q(X, `isPeopleDrawer`), [u] = Y(X, `hideActivity`), d = Oi(jq), f = Oi(Yq), p = Oi(Pq), m = Oi(Mq), h = LY(t, jq);
+    function hqe() {
+        let e = ec(), t = J(), n = PY(), r = w1(), i = Wje(), { navigateRoom: a, navigateSpace: o } = T1(), s = ki(mWe), c = ki(pqe), l = $q(X, `isPeopleDrawer`), [u] = Y(X, `hideActivity`), d = Oi(jq), f = Oi(Yq), p = Oi(Pq), m = Oi(Mq), h = LY(t, jq);
         d7(`toggle-member-list`, ()=>{
             l((e)=>!e);
         }), d7(`keyboard-shortcuts`, ()=>{
@@ -131675,9 +131669,9 @@ ${r.current.stack}
             let e = f7(d.filter((e)=>(f.get(e)?.highlight ?? 0) > 0), n, 1);
             e && a(e);
         }), d7(`mark-channel-read`, ()=>{
-            hqe() || n && wX(t, n, u);
+            mqe() || n && wX(t, n, u);
         }), d7(`mark-server-read`, ()=>{
-            hqe() || (r ? d.forEach((e)=>{
+            mqe() || (r ? d.forEach((e)=>{
                 let n = t.getRoom(e);
                 !n || xG(n) || p.get(e)?.has(r) && wX(t, e, u);
             }) : d.forEach((e)=>{
@@ -131694,8 +131688,8 @@ ${r.current.stack}
             i && a(n, i);
         });
         let _ = (e, t = .9)=>{
-            if (hqe()) return;
-            let n = yqe();
+            if (mqe()) return;
+            let n = vqe();
             if (!n) return;
             let r = n.clientHeight * t;
             n.scrollBy({
@@ -131705,12 +131699,12 @@ ${r.current.stack}
         };
         return d7(`scroll-chat-up`, ()=>_(-1)), d7(`scroll-chat-down`, ()=>_(1)), null;
     }
-    var _qe = null;
-    function vqe(e) {
-        _qe = e;
+    var gqe = null;
+    function _qe(e) {
+        gqe = e;
     }
-    function yqe() {
-        return _qe;
+    function vqe() {
+        return gqe;
     }
     var p7 = function(e) {
         return e.Idle = `idle`, e.Loading = `loading`, e.Success = `success`, e.Error = `error`, e;
@@ -131754,7 +131748,7 @@ ${r.current.stack}
                 error: i.error
             });
         });
-    }, bqe = (e, t, n)=>{
+    }, yqe = (e, t, n)=>{
         let [r, i] = Ai(t), { file: a } = r, o = lPe((0, A.useCallback)((e)=>i({
                 progress: e
             }), [
@@ -131791,7 +131785,7 @@ ${r.current.stack}
                 r
             ])
         };
-    }, xqe = ()=>Xq(m7), Sqe = (e, t)=>pi((n)=>t.map((t)=>n(e(t)))), Cqe = Xq(()=>{
+    }, bqe = ()=>Xq(m7), xqe = (e, t)=>pi((n)=>t.map((t)=>n(e(t)))), Sqe = Xq(()=>{
         let e = pi([]);
         return pi((t)=>t(e), (t, n, r)=>{
             let i = t(e), a = Array.isArray(r.item) ? r.item : [
@@ -131810,9 +131804,9 @@ ${r.current.stack}
             }
             r.type === `REPLACE` && n(e, i.map((e)=>e === r.item ? r.replacement : e));
         });
-    }), wqe = xqe(), Tqe = ()=>pi([]), Eqe = Xq(()=>Tqe()), Dqe = ()=>pi(void 0), Oqe = Xq(()=>Dqe());
-    function kqe({ room: e, onSetEditId: t }) {
-        let n = J(), r = ki(Oqe(e.roomId)), i = K5(e), a = (t)=>()=>{
+    }), Cqe = bqe(), wqe = ()=>pi([]), Tqe = Xq(()=>wqe()), Eqe = ()=>pi(void 0), Dqe = Xq(()=>Eqe());
+    function Oqe({ room: e, onSetEditId: t }) {
+        let n = J(), r = ki(Dqe(e.roomId)), i = K5(e), a = (t)=>()=>{
                 let n = BNe();
                 n && e.findEventById(n) && t(n);
             };
@@ -131861,7 +131855,7 @@ ${r.current.stack}
             bxe(n, e.roomId, t);
         })), null;
     }
-    var Aqe = ()=>(e)=>{
+    var kqe = ()=>(e)=>{
             let t = e.getContent(), n = e.getPrevContent(), r = e.getSender(), i = e.getStateKey(), a = typeof t.reason == `string` ? t.reason : void 0;
             if (!r || !i) return {
                 icon: L.User,
@@ -132070,7 +132064,7 @@ ${r.current.stack}
                     ]
                 })
             };
-        }, jqe = $t(({ room: e, ...t }, n)=>{
+        }, Aqe = $t(({ room: e, ...t }, n)=>{
         let r = J(), i = FX(), { navigateRoom: a } = T1(), o = Oi(Mq), [s, c] = (0, A.useState)(!1), l = vG(e, q.RoomCreate), u = b$(e, o.has(e.roomId)), d = x$(e), f = S$(e), p = u ? oK(r, u, i) : void 0, m = l?.getContent(), h = l?.getTs(), g = l?.getSender(), _ = g && (PG(e, g) ?? KG(g)), v = m?.predecessor?.room_id, [y, b] = V((0, A.useCallback)(async (e)=>r.joinRoom(e), [
             r
         ])), [x] = Y(X, `hour24Clock`);
@@ -132180,14 +132174,14 @@ ${r.current.stack}
                 })
             ]
         });
-    }), Mqe = (0, A.createContext)(!1);
-    function Nqe({ children: e }) {
-        return (0, j.jsx)(Mqe.Provider, {
+    }), jqe = (0, A.createContext)(!1);
+    function Mqe({ children: e }) {
+        return (0, j.jsx)(jqe.Provider, {
             value: !0,
             children: e
         });
     }
-    var Pqe = ()=>(0, A.useContext)(Mqe), Fqe = xq({
+    var Nqe = ()=>(0, A.useContext)(jqe), Pqe = xq({
         defaultClassName: `_10tu9iu0 _1mqalmd1 _1mqalmd0`,
         variantClassNames: {
             position: {
@@ -132206,7 +132200,7 @@ ${r.current.stack}
             e,
             t
         ]);
-    }, Iqe = (e)=>{
+    }, Fqe = (e)=>{
         (0, A.useEffect)(()=>{
             let t = document.hasFocus(), n = ()=>{
                 if (document.hasFocus()) {
@@ -132220,7 +132214,7 @@ ${r.current.stack}
         }, [
             e
         ]);
-    }, Lqe = (e)=>{
+    }, Iqe = (e)=>{
         let [t, n] = (0, A.useState)(!1);
         return (0, A.useEffect)(()=>{
             if (!e) return;
@@ -132235,9 +132229,9 @@ ${r.current.stack}
         }, [
             e
         ]), e && t;
-    }, Rqe = pi(void 0), zqe = ()=>window.matchMedia?.(`(prefers-reduced-motion: reduce)`).matches ?? !1;
-    function Bqe() {
-        let e = (0, A.useRef)(null), [t, n] = Ai(Rqe), [r] = (0, A.useState)(zqe);
+    }, Lqe = pi(void 0), Rqe = ()=>window.matchMedia?.(`(prefers-reduced-motion: reduce)`).matches ?? !1;
+    function zqe() {
+        let e = (0, A.useRef)(null), [t, n] = Ai(Lqe), [r] = (0, A.useState)(Rqe);
         return (0, A.useEffect)(()=>{
             if (!t || r) return;
             let n = e.current;
@@ -132267,10 +132261,10 @@ ${r.current.stack}
             }
         });
     }
-    var Vqe = (e)=>{
+    var Bqe = (e)=>{
         let t = e.getContent(), n = (t[`org.matrix.msc3381.poll.response`] ?? t[`m.poll.response`] ?? void 0)?.answers;
         return Array.isArray(n) ? n.filter((e)=>typeof e == `string`) : [];
-    }, Hqe = (e, t)=>{
+    }, Vqe = (e, t)=>{
         let n = J(), r = t.getId(), [i, a] = (0, A.useState)(), [o, s] = (0, A.useState)(!1), [c, l] = (0, A.useState)(0);
         (0, A.useEffect)(()=>{
             let t = ()=>l((e)=>e + 1);
@@ -132304,7 +132298,7 @@ ${r.current.stack}
             let { pollEvent: e } = u, t = n.getSafeUserId(), r = i?.getRelations() ?? [], a = new Map;
             r.forEach((e)=>{
                 let t = e.getSender();
-                t && a.set(t, Vqe(e));
+                t && a.set(t, Bqe(e));
             });
             let s = new Set(e.answers.map((e)=>e.id)), c = new Map, l = 0;
             a.forEach((t)=>{
@@ -132335,12 +132329,12 @@ ${r.current.stack}
             c,
             o
         ]);
-    }, Uqe = `nevcx90 _1mqalmd1 _1mqalmd0`, Wqe = `nevcx94`;
-    function Gqe({ text: e, count: t, totalVotes: n, selected: r, winner: i, showResults: a, disabled: o, onClick: s }) {
+    }, Hqe = `nevcx90 _1mqalmd1 _1mqalmd0`, Uqe = `nevcx94`;
+    function Wqe({ text: e, count: t, totalVotes: n, selected: r, winner: i, showResults: a, disabled: o, onClick: s }) {
         let c = n > 0 ? t / n : 0;
         return (0, j.jsxs)(`button`, {
             type: `button`,
-            className: (0, bt.default)(Uqe, r && `nevcx91`, i && `nevcx92`),
+            className: (0, bt.default)(Hqe, r && `nevcx91`, i && `nevcx92`),
             onClick: s,
             disabled: o,
             "aria-pressed": r,
@@ -132352,7 +132346,7 @@ ${r.current.stack}
                     }
                 }),
                 (0, j.jsxs)(P, {
-                    className: Wqe,
+                    className: Uqe,
                     alignItems: `Center`,
                     gap: `200`,
                     children: [
@@ -132386,8 +132380,8 @@ ${r.current.stack}
             ]
         });
     }
-    function Kqe({ room: e, mEvent: t, canEnd: n }) {
-        let r = J(), i = Hqe(e, t), [a, o] = (0, A.useState)(!1), s = t.getId(), [c, l] = V((0, A.useCallback)(async (t)=>{
+    function Gqe({ room: e, mEvent: t, canEnd: n }) {
+        let r = J(), i = Vqe(e, t), [a, o] = (0, A.useState)(!1), s = t.getId(), [c, l] = V((0, A.useCallback)(async (t)=>{
             s && await r.sendEvent(e.roomId, dz.name, {
                 "m.relates_to": {
                     rel_type: aR.Reference,
@@ -132480,7 +132474,7 @@ ${r.current.stack}
                 (0, j.jsx)(P, {
                     direction: `Column`,
                     gap: `100`,
-                    children: i.answers.map((e)=>(0, j.jsx)(Gqe, {
+                    children: i.answers.map((e)=>(0, j.jsx)(Wqe, {
                             text: e.text,
                             count: e.count,
                             totalVotes: i.totalVotes,
@@ -132566,11 +132560,11 @@ ${r.current.stack}
             ]
         });
     }
-    var qqe = {
+    var Kqe = {
         padding: `0 ${N.space.S200} 0 ${N.space.S400}`,
         borderBottomWidth: N.borderWidth.B300
     };
-    function Jqe({ url: e, onConfirm: t, onCancel: n }) {
+    function qqe({ url: e, onConfirm: t, onCancel: n }) {
         return (0, j.jsx)(Ln, {
             open: !0,
             backdrop: (0, j.jsx)(Rn, {}),
@@ -132586,7 +132580,7 @@ ${r.current.stack}
                         variant: `Surface`,
                         children: [
                             (0, j.jsxs)(wn, {
-                                style: qqe,
+                                style: Kqe,
                                 variant: `Surface`,
                                 size: `500`,
                                 children: [
@@ -132664,7 +132658,7 @@ ${r.current.stack}
             })
         });
     }
-    var Yqe = (e, t)=>`${e}:${t}`, Xqe = (e, t)=>{
+    var Jqe = (e, t)=>`${e}:${t}`, Yqe = (e, t)=>{
         let n = J(), [r, i] = (0, A.useState)(null), [a, o] = (0, A.useState)(null), [s, c] = (0, A.useState)(!1), [l, u] = (0, A.useState)(null), d = (0, A.useRef)(null), f = (0, A.useRef)(null), p = (0, A.useCallback)(()=>{
             d.current = null, f.current &&= (clearTimeout(f.current), null), i(null);
         }, []);
@@ -132698,7 +132692,7 @@ ${r.current.stack}
             let m = typeof crypto < `u` && `randomUUID` in crypto ? crypto.randomUUID() : `${Date.now()}-${Math.random().toString(36).slice(2)}`;
             d.current = {
                 id: m
-            }, i(Yqe(a, s)), o(null), c(!1), u(null), f.current = setTimeout(()=>{
+            }, i(Jqe(a, s)), o(null), c(!1), u(null), f.current = setTimeout(()=>{
                 p(), c(!0);
             }, sNe), n.sendEvent(e.roomId, VU.BotCallback, {
                 "m.relates_to": {
@@ -132739,12 +132733,12 @@ ${r.current.stack}
             l,
             h
         ]);
-    }, Zqe = `ntyv180`, Qqe = `ntyv181`, $qe = `ntyv182 _1mqalmd1 _1mqalmd0`, eJe = `ntyv185`, tJe = {
+    }, Xqe = `ntyv180`, Zqe = `ntyv181`, Qqe = `ntyv182 _1mqalmd1 _1mqalmd0`, $qe = `ntyv185`, eJe = {
         padding: `0 ${N.space.S200} 0 ${N.space.S400}`,
         borderBottomWidth: N.borderWidth.B300
     };
-    function nJe({ room: e, mEvent: t, markup: n, onSwitchInline: r }) {
-        let [i] = Y(X, `renderBotKeyboards`), [a] = Y(X, `confirmBotUrls`), { press: o, pending: s, answer: c, timedOut: l, error: u, dismiss: d } = Xqe(e, t), [f, p] = (0, A.useState)(null), [m, h] = (0, A.useState)(null), g = (0, A.useCallback)((e)=>{
+    function tJe({ room: e, mEvent: t, markup: n, onSwitchInline: r }) {
+        let [i] = Y(X, `renderBotKeyboards`), [a] = Y(X, `confirmBotUrls`), { press: o, pending: s, answer: c, timedOut: l, error: u, dismiss: d } = Yqe(e, t), [f, p] = (0, A.useState)(null), [m, h] = (0, A.useState)(null), g = (0, A.useCallback)((e)=>{
             window.open(e, `_blank`, `noopener,noreferrer`);
         }, []), _ = (0, A.useCallback)((e)=>{
             a ? p(e) : g(e);
@@ -132756,17 +132750,17 @@ ${r.current.stack}
         }, []);
         if (!i || !lNe(n)) return null;
         let y = (e, t, n)=>{
-            let i = Yqe(t, n), a = vNe(e), c = s === i, l = a.kind === `disabled` || s !== null && !c, u;
+            let i = Jqe(t, n), a = vNe(e), c = s === i, l = a.kind === `disabled` || s !== null && !c, u;
             return a.kind === `disabled` ? u = a.reason === `invalid_url` ? `This button links somewhere unopenable` : a.reason === `ambiguous` ? `This button asks for two things at once` : `This button uses a feature this client does not support` : a.kind === `url` && (u = a.url), (0, j.jsx)(`button`, {
                 type: `button`,
-                className: (0, bt.default)($qe, e.style === `primary` && `ntyv183`, e.style === `danger` && `ntyv184`),
+                className: (0, bt.default)(Qqe, e.style === `primary` && `ntyv183`, e.style === `danger` && `ntyv184`),
                 disabled: l || a.kind === `switch_inline` && !r,
                 title: u,
                 onClick: ()=>{
                     a.kind === `callback` ? o(a.data, t, n) : a.kind === `url` ? _(a.url) : a.kind === `copy` ? v(i, a.text) : a.kind === `switch_inline` && r?.(a.query);
                 },
                 children: (0, j.jsxs)(`span`, {
-                    className: eJe,
+                    className: $qe,
                     children: [
                         c && (0, j.jsx)(nr, {
                             size: `100`,
@@ -132791,12 +132785,12 @@ ${r.current.stack}
             }, i);
         }, b = c?.show_alert === !0 && (c.text || c.url);
         return (0, j.jsxs)(P, {
-            className: Zqe,
+            className: Xqe,
             direction: `Column`,
             gap: `100`,
             children: [
                 n.inline_keyboard.map((e, t)=>(0, j.jsx)(`div`, {
-                        className: Qqe,
+                        className: Zqe,
                         children: e.map((e, n)=>y(e, t, n))
                     }, t)),
                 !b && c?.text && (0, j.jsxs)(P, {
@@ -132907,7 +132901,7 @@ ${r.current.stack}
                                 variant: `Surface`,
                                 children: [
                                     (0, j.jsxs)(wn, {
-                                        style: tJe,
+                                        style: eJe,
                                         variant: `Surface`,
                                         size: `500`,
                                         children: [
@@ -132977,7 +132971,7 @@ ${r.current.stack}
                         })
                     })
                 }),
-                f && (0, j.jsx)(Jqe, {
+                f && (0, j.jsx)(qqe, {
                     url: f,
                     onConfirm: ()=>{
                         g(f), p(null);
@@ -132987,7 +132981,7 @@ ${r.current.stack}
             ]
         });
     }
-    var rJe = (e, t)=>{
+    var nJe = (e, t)=>{
         if (!t) return e;
         let n = e[a3.PlainBody], r = e[a3.PlainFormattedBody];
         if (typeof n != `string` && typeof r != `string`) return e;
@@ -132995,7 +132989,7 @@ ${r.current.stack}
             ...e
         };
         return typeof n == `string` && (i.body = n), typeof r == `string` ? i.formatted_body = r : typeof n == `string` && (delete i.formatted_body, delete i.format), i;
-    }, iJe, aJe, oJe = async ()=>iJe || (aJe ||= (async ()=>{
+    }, rJe, iJe, aJe = async ()=>rJe || (iJe ||= (async ()=>{
             let [e] = await Promise.all([
                 c(()=>import(`./maplibre-gl-CrDadnl3.js`).then(async (m)=>{
                         await m.__tla;
@@ -133006,13 +133000,13 @@ ${r.current.stack}
                         return m;
                     }), __vite__mapDeps([12]))
             ]);
-            return iJe = e, e;
-        })(), aJe);
-    function sJe({ styleUrl: e, pins: t, center: n, zoom: r = 14, interactive: i = !0, height: a = `200px`, onPick: o }) {
+            return rJe = e, e;
+        })(), iJe);
+    function oJe({ styleUrl: e, pins: t, center: n, zoom: r = 14, interactive: i = !0, height: a = `200px`, onPick: o }) {
         let s = (0, A.useRef)(null), c = (0, A.useRef)(void 0), l = (0, A.useRef)([]), [u, d] = (0, A.useState)(!1), [f, p] = (0, A.useState)(!1);
         return (0, A.useEffect)(()=>{
             let a = !1;
-            if (s.current) return oJe().then((l)=>{
+            if (s.current) return aJe().then((l)=>{
                 if (a || !s.current) return;
                 let u = n ?? t[0], f = new l.Map({
                     container: s.current,
@@ -133045,7 +133039,7 @@ ${r.current.stack}
             e
         ]), (0, A.useEffect)(()=>{
             let e = c.current;
-            !e || !f || oJe().then((r)=>{
+            !e || !f || aJe().then((r)=>{
                 l.current.forEach((e)=>e.remove()), l.current = t.map((t)=>new r.Marker({
                         color: t.live ? M.Success.Main : M.Primary.Main
                     }).setLngLat([
@@ -133108,14 +133102,14 @@ ${r.current.stack}
             ]
         });
     }
-    var cJe = `m.tile_server`, lJe = `org.matrix.msc3488.tile_server`, g7 = ()=>{
+    var sJe = `m.tile_server`, cJe = `org.matrix.msc3488.tile_server`, g7 = ()=>{
         let e = J(), t = pd(), n = e.getClientWellKnown();
-        return n?.[cJe]?.map_style_url ?? n?.[lJe]?.map_style_url ?? t.mapStyleUrl;
-    }, uJe = ()=>{
+        return n?.[sJe]?.map_style_url ?? n?.[cJe]?.map_style_url ?? t.mapStyleUrl;
+    }, lJe = ()=>{
         let [e] = Y(X, `showMaps`), t = g7();
         return e && !!t;
     };
-    function dJe({ room: e, mEvent: t, onClick: n }) {
+    function uJe({ room: e, mEvent: t, onClick: n }) {
         let r = J(), i = t.getId(), a = (0, A.useMemo)(()=>{
             if (!i) return;
             let n = t.getServerAggregatedRelation(HH.name), a = typeof n?.count == `number` ? n.count : 0, o = n?.current_user_participated === !0, s = 0, c;
@@ -133181,7 +133175,7 @@ ${r.current.stack}
             ]
         });
     }
-    var fJe = pi(void 0), pJe = (e, t)=>{
+    var dJe = pi(void 0), fJe = (e, t)=>{
         let n = J();
         return (0, A.useMemo)(()=>[
                 e
@@ -133193,8 +133187,8 @@ ${r.current.stack}
             e,
             t
         ]);
-    }, mJe = $t(({ position: e, className: t, ...n }, r)=>(0, j.jsx)(P, {
-            className: (0, bt.default)(Fqe({
+    }, pJe = $t(({ position: e, className: t, ...n }, r)=>(0, j.jsx)(P, {
+            className: (0, bt.default)(Pqe({
                 position: e
             }), t),
             justifyContent: `Center`,
@@ -133202,7 +133196,7 @@ ${r.current.stack}
             gap: `200`,
             ...n,
             ref: r
-        })), hJe = $t(({ variant: e, children: t, ...n }, r)=>(0, j.jsxs)(P, {
+        })), mJe = $t(({ variant: e, children: t, ...n }, r)=>(0, j.jsxs)(P, {
             gap: `100`,
             justifyContent: `Center`,
             alignItems: `Center`,
@@ -133225,7 +133219,7 @@ ${r.current.stack}
                     size: `300`
                 })
             ]
-        })), gJe = (e)=>e.getUnfilteredTimelineSet().getLiveTimeline(), _Je = (e)=>{
+        })), hJe = (e)=>e.getUnfilteredTimelineSet().getLiveTimeline(), gJe = (e)=>{
         if (e.getType() === G.Reaction || e.isRedaction()) return !1;
         let t = e.getRelation();
         return t?.rel_type !== aR.Annotation && t?.rel_type !== aR.Replace;
@@ -133236,7 +133230,7 @@ ${r.current.stack}
         let t = v7(e, FR.Backward), n = [];
         for(let e = t; e; e = e.getNeighbouringTimeline(FR.Forward))n.push(e);
         return n;
-    }, b7 = (e)=>e.getEvents().length, x7 = (e)=>e.reduce((e, t)=>e + b7(t), 0), vJe = (e, t)=>{
+    }, b7 = (e)=>e.getEvents().length, x7 = (e)=>e.reduce((e, t)=>e + b7(t), 0), _Je = (e, t)=>{
         let n = 0, r = e.find((e)=>(n += e.getEvents().length, t < n));
         return r ? [
             r,
@@ -133245,18 +133239,18 @@ ${r.current.stack}
             void 0,
             0
         ];
-    }, yJe = (e, t)=>e - t, bJe = (e, t)=>e.getEvents()[t], xJe = (e, t, n)=>{
+    }, vJe = (e, t)=>e - t, yJe = (e, t)=>e.getEvents()[t], bJe = (e, t, n)=>{
         let r = e.findIndex((e)=>e === t);
         if (r === -1) return;
         let i = t.getEvents().findIndex((e)=>e.getId() === n);
         if (i !== -1) return e.slice(0, r).reduce((e, t)=>t.getEvents().length + e, 0) + i;
-    }, S7 = 80, SJe = (e, t, n, r)=>(0, A.useCallback)(async (i)=>{
+    }, S7 = 80, xJe = (e, t, n, r)=>(0, A.useCallback)(async (i)=>{
             let [a, o] = await wp(e.getEventTimeline(t.getUnfilteredTimelineSet(), i));
             if (!o) {
                 r(a ?? null);
                 return;
             }
-            let s = y7(o), c = xJe(s, o, i);
+            let s = y7(o), c = bJe(s, o, i);
             if (c === void 0) {
                 r(a ?? null);
                 return;
@@ -133267,7 +133261,7 @@ ${r.current.stack}
             t,
             n,
             r
-        ]), CJe = (e, t, n, r)=>{
+        ]), SJe = (e, t, n, r)=>{
         let i = (0, A.useRef)(t);
         i.current = t;
         let a = cd();
@@ -133307,7 +133301,7 @@ ${r.current.stack}
             n,
             r
         ]);
-    }, wJe = (e, t)=>{
+    }, CJe = (e, t)=>{
         (0, A.useEffect)(()=>{
             let n = (n, r, i, a, o)=>{
                 r?.roomId !== e.roomId || !o.liveEvent || t(n);
@@ -133321,7 +133315,7 @@ ${r.current.stack}
             e,
             t
         ]);
-    }, TJe = (e, t)=>{
+    }, wJe = (e, t)=>{
         (0, A.useEffect)(()=>{
             let n = (n)=>{
                 n.roomId === e.roomId && t();
@@ -133334,7 +133328,7 @@ ${r.current.stack}
             t
         ]);
     }, C7 = (e)=>{
-        let t = y7(gJe(e)), n = x7(t);
+        let t = y7(hJe(e)), n = x7(t);
         return {
             linkedTimelines: t,
             range: {
@@ -133348,7 +133342,7 @@ ${r.current.stack}
                 end: 0
             },
             linkedTimelines: []
-        }), EJe = (e, t = !1)=>{
+        }), TJe = (e, t = !1)=>{
         let n = e.getEventReadUpTo(e.client.getUserId() ?? ``);
         if (!n) return;
         let r = _7(e, n);
@@ -133358,12 +133352,12 @@ ${r.current.stack}
             scrollTo: t
         };
     };
-    function DJe({ room: e, eventId: t, roomInputRef: n, editor: r }) {
-        let i = J(), a = Pqe(), o = ki(Rqe), s = ki(fJe), c = FX(), [l] = Y(X, `hideActivity`), [u] = Y(X, `messageLayout`), [d] = Y(X, `messageSpacing`), [f] = Y(X, `legacyUsernameColor`), p = P4(), [m] = Y(X, `hideMembershipEvents`), [h] = Y(X, `hideNickAvatarEvents`), [g] = Y(X, `mediaAutoLoad`), [_] = Y(X, `urlPreview`), [v] = Y(X, `renderMaths`), [y] = Y(X, `renderBotKeyboards`), b = Lqe(v), [x] = Y(X, `encUrlPreview`), S = e.hasEncryptionStateEvent() ? x : _, [C] = Y(X, `showHiddenEvents`), [w] = Y(X, `developerTools`), [T] = Y(X, `scrollOnSend`), E = (0, A.useRef)(T);
+    function EJe({ room: e, eventId: t, roomInputRef: n, editor: r }) {
+        let i = J(), a = Nqe(), o = ki(Lqe), s = ki(dJe), c = FX(), [l] = Y(X, `hideActivity`), [u] = Y(X, `messageLayout`), [d] = Y(X, `messageSpacing`), [f] = Y(X, `legacyUsernameColor`), p = P4(), [m] = Y(X, `hideMembershipEvents`), [h] = Y(X, `hideNickAvatarEvents`), [g] = Y(X, `mediaAutoLoad`), [_] = Y(X, `urlPreview`), [v] = Y(X, `renderMaths`), [y] = Y(X, `renderBotKeyboards`), b = Iqe(v), [x] = Y(X, `encUrlPreview`), S = e.hasEncryptionStateEvent() ? x : _, [C] = Y(X, `showHiddenEvents`), [w] = Y(X, `developerTools`), [T] = Y(X, `scrollOnSend`), E = (0, A.useRef)(T);
         E.current = T;
         let [D] = Y(X, `hour24Clock`), [O] = Y(X, `dateFormatString`), k = X5(), ee = (0, A.useMemo)(()=>new Set(k), [
             k
-        ]), te = ki(Oqe(e.roomId)), ne = uX(), re = UX(e), ie = _2(), ae = p2(e, ne), oe = D4(e, re, ne), se = k4(L$().kind, ie, ae), ce = KX(re, ne), le = ce.action(`redact`, i.getSafeUserId()), ue = ce.event(VU.RoomRedaction, i.getSafeUserId()), de = ce.event(VU.Reaction, i.getSafeUserId()), fe = ce.stateEvent(q.RoomPinnedEvents, i.getSafeUserId()), [pe, me] = (0, A.useState)(), he = Oi(Pq), ge = iX(e.roomId, Yq), { navigateRoom: _e } = T1(), ve = u2(e.roomId), ye = d2(), be = l2(), xe = HX(), Se = pJe(e.roomId, he), [Ce, we] = (0, A.useState)(()=>EJe(e, !0)), Te = (0, A.useRef)(void 0);
+        ]), te = ki(Dqe(e.roomId)), ne = uX(), re = UX(e), ie = _2(), ae = p2(e, ne), oe = D4(e, re, ne), se = k4(L$().kind, ie, ae), ce = KX(re, ne), le = ce.action(`redact`, i.getSafeUserId()), ue = ce.event(VU.RoomRedaction, i.getSafeUserId()), de = ce.event(VU.Reaction, i.getSafeUserId()), fe = ce.stateEvent(q.RoomPinnedEvents, i.getSafeUserId()), [pe, me] = (0, A.useState)(), he = Oi(Pq), ge = iX(e.roomId, Yq), { navigateRoom: _e } = T1(), ve = u2(e.roomId), ye = d2(), be = l2(), xe = HX(), Se = fJe(e.roomId, he), [Ce, we] = (0, A.useState)(()=>TJe(e, !0)), Te = (0, A.useRef)(void 0);
         Ce && (Te.current = Ce.readUptoEventId);
         let Ee = (0, A.useRef)(null), [De, Oe] = (0, A.useState)(!0), ke = (0, A.useRef)(De);
         ke.current = De;
@@ -133371,7 +133365,7 @@ ${r.current.stack}
             count: 0,
             smooth: !0
         });
-        (0, A.useEffect)(()=>(vqe(Ae.current), ()=>vqe(null)), []);
+        (0, A.useEffect)(()=>(_qe(Ae.current), ()=>_qe(null)), []);
         let [Me, Ne] = (0, A.useState)(), Pe = cd(), Fe = (0, A.useMemo)(()=>({
                 ...s$,
                 render: u$((t)=>l$(i, e.roomId, t, c$(ve)))
@@ -133393,7 +133387,7 @@ ${r.current.stack}
             ve,
             c,
             b
-        ]), Le = g7(), Re = uJe(), ze = (0, A.useCallback)((e)=>{
+        ]), Le = g7(), Re = lJe(), ze = (0, A.useCallback)((e)=>{
             if (!Re || !Le) return null;
             let t = Number(e.latitude), n = Number(e.longitude);
             return !Number.isFinite(t) || !Number.isFinite(n) ? null : (0, j.jsx)(`div`, {
@@ -133401,7 +133395,7 @@ ${r.current.stack}
                     width: `100%`,
                     maxWidth: Et(400)
                 },
-                children: (0, j.jsx)(sJe, {
+                children: (0, j.jsx)(oJe, {
                     styleUrl: Le,
                     pins: [
                         {
@@ -133416,9 +133410,9 @@ ${r.current.stack}
         }, [
             Re,
             Le
-        ]), Be = Aqe(), [Ve, He] = (0, A.useState)(()=>t ? w7() : C7(e)), Ue = x7(Ve.linkedTimelines), We = Ve.linkedTimelines[Ve.linkedTimelines.length - 1] === gJe(e), Ge = typeof Ve.linkedTimelines[0]?.getPaginationToken(FR.Backward) == `string`, Ke = Ve.range.start === 0, qe = Ve.range.end === Ue, Je = (0, A.useRef)(We && qe);
+        ]), Be = kqe(), [Ve, He] = (0, A.useState)(()=>t ? w7() : C7(e)), Ue = x7(Ve.linkedTimelines), We = Ve.linkedTimelines[Ve.linkedTimelines.length - 1] === hJe(e), Ge = typeof Ve.linkedTimelines[0]?.getPaginationToken(FR.Backward) == `string`, Ke = Ve.range.start === 0, qe = Ve.range.end === Ue, Je = (0, A.useRef)(We && qe);
         Je.current = We && qe;
-        let Ye = CJe(i, Ve, He, S7), Xe = (0, A.useCallback)(()=>Ae.current, []), { getItems: Ze, scrollToItem: Qe, scrollToElement: $e, observeBackAnchor: et, observeFrontAnchor: tt } = uqe({
+        let Ye = SJe(i, Ve, He, S7), Xe = (0, A.useCallback)(()=>Ae.current, []), { getItems: Ze, scrollToItem: Qe, scrollToElement: $e, observeBackAnchor: et, observeFrontAnchor: tt } = lqe({
             count: Ue,
             limit: S7,
             range: Ve.range,
@@ -133429,7 +133423,7 @@ ${r.current.stack}
             getScrollElement: Xe,
             getItemElement: (0, A.useCallback)((e)=>Ae.current?.querySelector(`[data-message-item="${e}"]`) ?? void 0, []),
             onEnd: Ye
-        }), nt = SJe(i, e, (0, A.useCallback)((e, t, n)=>{
+        }), nt = xJe(i, e, (0, A.useCallback)((e, t, n)=>{
             if (!Pe()) return;
             let r = x7(t);
             Ne({
@@ -133451,7 +133445,7 @@ ${r.current.stack}
             Pe,
             e
         ]));
-        wJe(e, (0, A.useCallback)((t)=>{
+        CJe(e, (0, A.useCallback)((t)=>{
             if (!a && t.getType() === G.RoomMessage && !t.isRedacted()) {
                 let e = t.getContent(), n = FOe(e.msgtype) ?? (typeof e.body == `string` ? IOe(e.body) : void 0);
                 n && o({
@@ -133460,7 +133454,7 @@ ${r.current.stack}
                 });
             }
             if (ke.current) {
-                !a && document.hasFocus() && (!Ce || t.getSender() === i.getUserId()) && requestAnimationFrame(()=>wX(i, t.getRoomId(), l)), !document.hasFocus() && !Ce && we(EJe(e)), _Je(t) && (je.current.count += 1, je.current.smooth = !0), He((e)=>({
+                !a && document.hasFocus() && (!Ce || t.getSender() === i.getUserId()) && requestAnimationFrame(()=>wX(i, t.getRoomId(), l)), !document.hasFocus() && !Ce && we(TJe(e)), gJe(t) && (je.current.count += 1, je.current.smooth = !0), He((e)=>({
                         ...e,
                         range: {
                             start: e.range.start + 1,
@@ -133469,13 +133463,13 @@ ${r.current.stack}
                     }));
                 return;
             }
-            if (E.current && t.getSender() === i.getUserId() && _Je(t)) {
+            if (E.current && t.getSender() === i.getUserId() && gJe(t)) {
                 He(C7(e)), je.current.count += 1, je.current.smooth = !1, !a && document.hasFocus() && requestAnimationFrame(()=>wX(i, t.getRoomId(), l));
                 return;
             }
             He((e)=>({
                     ...e
-                })), Ce || we(EJe(e));
+                })), Ce || we(TJe(e));
         }, [
             i,
             e,
@@ -133485,7 +133479,7 @@ ${r.current.stack}
             o
         ]));
         let rt = (0, A.useCallback)(async (t, n = !0, r = void 0)=>{
-            let i = _7(e, t), a = i && xJe(Ve.linkedTimelines, i, t);
+            let i = _7(e, t), a = i && bJe(Ve.linkedTimelines, i, t);
             if (typeof a == `number`) {
                 let e = Qe(a, {
                     behavior: `smooth`,
@@ -133504,7 +133498,7 @@ ${r.current.stack}
             Qe,
             nt
         ]);
-        TJe(e, (0, A.useCallback)(()=>{
+        wJe(e, (0, A.useCallback)(()=>{
             We && He(C7(e));
         }, [
             e,
@@ -133558,7 +133552,7 @@ ${r.current.stack}
                 rootMargin: `100px`
             }), [
             Xe
-        ]), (0, A.useCallback)(()=>Ee.current, [])), Iqe((0, A.useCallback)((e)=>{
+        ]), (0, A.useCallback)(()=>Ee.current, [])), Fqe((0, A.useCallback)((e)=>{
             if (e && ke.current) {
                 if (Ce?.inLiveTimeline) {
                     rt(Ce.readUptoEventId, !1, (e)=>{
@@ -133593,7 +133587,7 @@ ${r.current.stack}
         }, []), (0, A.useLayoutEffect)(()=>{
             let { readUptoEventId: t, inLiveTimeline: n, scrollTo: r } = Ce ?? {};
             if (t && n && r) {
-                let n = y7(gJe(e)), r = _7(e, t), i = r && xJe(n, r, t);
+                let n = y7(hJe(e)), r = _7(e, t), i = r && bJe(n, r, t);
                 i && Qe(i, {
                     behavior: `instant`,
                     align: `start`,
@@ -133738,9 +133732,9 @@ ${r.current.stack}
             me(void 0), Q8(r);
         }, [
             r
-        ]), { t: vt } = aqe(), yt = k1({
+        ]), { t: vt } = iqe(), yt = k1({
             [VU.RoomMessage]: (t, n, r, a, o)=>{
-                let s = RG(a, t), c = s && s.getSortedAnnotationsByKey(), m = c && c.length > 0, { replyEventId: h, threadRootId: _ } = n, v = Me?.index === r && Me.highlight, b = BG(t, n, a), x = b?.getContent()[`m.new_content`] ?? n.getContent(), C = y ? CNe(x[a3.ReplyMarkup]) : null, T = C !== null && !n.isRedacted(), E = (()=>rJe(x, T)), k = n.getSender() ?? ``, ee = PG(e, k) ?? KG(k) ?? k;
+                let s = RG(a, t), c = s && s.getSortedAnnotationsByKey(), m = c && c.length > 0, { replyEventId: h, threadRootId: _ } = n, v = Me?.index === r && Me.highlight, b = BG(t, n, a), x = b?.getContent()[`m.new_content`] ?? n.getContent(), C = y ? CNe(x[a3.ReplyMarkup]) : null, T = C !== null && !n.isRedacted(), E = (()=>nJe(x, T)), k = n.getSender() ?? ``, ee = PG(e, k) ?? KG(k) ?? k;
                 return (0, j.jsx)(q5, {
                     "data-message-item": r,
                     "data-message-id": t,
@@ -133775,13 +133769,13 @@ ${r.current.stack}
                     }),
                     reactions: (0, j.jsxs)(j.Fragment, {
                         children: [
-                            T && C && (0, j.jsx)(nJe, {
+                            T && C && (0, j.jsx)(tJe, {
                                 room: e,
                                 mEvent: n,
                                 markup: C,
                                 onSwitchInline: pt
                             }),
-                            (0, j.jsx)(dJe, {
+                            (0, j.jsx)(uJe, {
                                 room: e,
                                 mEvent: n,
                                 onClick: gt
@@ -133873,7 +133867,7 @@ ${r.current.stack}
                     legacyUsernameColor: f || p,
                     hour24Clock: D,
                     dateFormatString: O,
-                    children: (0, j.jsx)(OGe, {
+                    children: (0, j.jsx)(DGe, {
                         mEvent: n,
                         children: ()=>{
                             if (n.isRedacted()) return (0, j.jsx)(k0, {});
@@ -134017,7 +134011,7 @@ ${r.current.stack}
                             dateFormatString: O,
                             children: n.isRedacted() ? (0, j.jsx)(k0, {
                                 reason: n.getUnsigned().redacted_because?.content.reason
-                            }) : (0, j.jsx)(Kqe, {
+                            }) : (0, j.jsx)(Gqe, {
                                 room: e,
                                 mEvent: n,
                                 canEnd: g === i.getUserId() || le
@@ -134307,7 +134301,7 @@ ${r.current.stack}
                 position: `relative`
             },
             children: [
-                Ce?.readUptoEventId && !Ce?.inLiveTimeline && (0, j.jsxs)(mJe, {
+                Ce?.readUptoEventId && !Ce?.inLiveTimeline && (0, j.jsxs)(pJe, {
                     position: `Top`,
                     children: [
                         (0, j.jsx)(xn, {
@@ -134340,7 +134334,7 @@ ${r.current.stack}
                         })
                     ]
                 }),
-                (0, j.jsx)(kqe, {
+                (0, j.jsx)(Oqe, {
                     room: e,
                     onSetEditId: me
                 }),
@@ -134359,7 +134353,7 @@ ${r.current.stack}
                                 style: {
                                     padding: `${N.space.S700} ${N.space.S400} ${N.space.S600} ${u === eJ.Compact ? N.space.S400 : Et(64)}`
                                 },
-                                children: (0, j.jsx)(jqe, {
+                                children: (0, j.jsx)(Aqe, {
                                     room: e
                                 })
                             }),
@@ -134397,9 +134391,9 @@ ${r.current.stack}
                                 ]
                             })),
                             Ze().map((e)=>{
-                                let [t, n] = vJe(Ve.linkedTimelines, e);
+                                let [t, n] = _Je(Ve.linkedTimelines, e);
                                 if (!t) return null;
-                                let r = t?.getTimelineSet(), a = bJe(t, yJe(e, n)), o = a?.getId();
+                                let r = t?.getTimelineSet(), a = yJe(t, vJe(e, n)), o = a?.getId();
                                 if (!a || !o) return null;
                                 let s = a.getSender();
                                 if (s && ee.has(s) || a.isRedacted() && !C) return null;
@@ -134435,7 +134429,7 @@ ${r.current.stack}
                                     })
                                 }) : null, f = St && l ? (0, j.jsx)(M1, {
                                     space: d,
-                                    children: (0, j.jsx)(hJe, {
+                                    children: (0, j.jsx)(mJe, {
                                         variant: `Surface`,
                                         children: (0, j.jsx)(fn, {
                                             as: `span`,
@@ -134497,7 +134491,7 @@ ${r.current.stack}
                         ]
                     })
                 }),
-                !De && (0, j.jsx)(mJe, {
+                !De && (0, j.jsx)(pJe, {
                     position: `Bottom`,
                     children: (0, j.jsx)(xn, {
                         variant: `SurfaceVariant`,
@@ -134517,7 +134511,7 @@ ${r.current.stack}
             ]
         });
     }
-    var OJe = `_1px4w011 _1mqalmd1 _1mqalmd0`, kJe = `_1px4w012`, AJe = $t(({ className: e, room: t, ...n }, r)=>{
+    var DJe = `_1px4w011 _1mqalmd1 _1mqalmd0`, OJe = `_1px4w012`, kJe = $t(({ className: e, room: t, ...n }, r)=>{
         let i = ki(aJ), a = J(), o = EX(t.roomId), s = o.filter((e)=>e.userId !== a.getUserId()).map((e)=>PG(t, e.userId) ?? KG(e.userId)).reverse();
         if (s.length === 0) return null;
         let c = ()=>{
@@ -134532,7 +134526,7 @@ ${r.current.stack}
                 position: `relative`
             },
             children: (0, j.jsxs)(P, {
-                className: (0, bt.default)(OJe, e),
+                className: (0, bt.default)(DJe, e),
                 alignItems: `Center`,
                 gap: `400`,
                 ...n,
@@ -134540,7 +134534,7 @@ ${r.current.stack}
                 children: [
                     (0, j.jsx)(OX, {}),
                     (0, j.jsxs)(z, {
-                        className: kJe,
+                        className: OJe,
                         size: `T300`,
                         truncate: !0,
                         children: [
@@ -134668,8 +134662,8 @@ ${r.current.stack}
                 ]
             })
         });
-    }), jJe = `mxcys80`;
-    function MJe({ roomId: e, body: t, replacementRoomId: n }) {
+    }), AJe = `mxcys80`;
+    function jJe({ roomId: e, body: t, replacementRoomId: n }) {
         let r = J(), { navigateRoom: i } = T1(), [a, o] = V((0, A.useCallback)(()=>{
             let t = r.getRoom(e), i = t ? PX(t) : [];
             return r.joinRoom(n, {
@@ -134680,10 +134674,10 @@ ${r.current.stack}
             e,
             n
         ])), s = r.getRoom(n);
-        return (0, j.jsxs)(XGe, {
+        return (0, j.jsxs)(YGe, {
             alignItems: `Center`,
             gap: `600`,
-            className: jJe,
+            className: AJe,
             children: [
                 (0, j.jsxs)(P, {
                     direction: `Column`,
@@ -134737,7 +134731,7 @@ ${r.current.stack}
             ]
         });
     }
-    var NJe = (e, t)=>{
+    var MJe = (e, t)=>{
         let n = (0, A.useRef)(0);
         return (0, A.useMemo)(()=>(n.current = 0, (r)=>{
                 if (r) {
@@ -134760,14 +134754,14 @@ ${r.current.stack}
         }, [
             t,
             e
-        ]), PJe = (e)=>(0, A.useCallback)((t)=>{
+        ]), NJe = (e)=>(0, A.useCallback)((t)=>{
             let n = hX(t.clipboardData);
             n && e(n);
         }, [
             e
-        ]), E7 = null, FJe = (e)=>{
+        ]), E7 = null, PJe = (e)=>{
         E7 = e;
-    }, IJe = ()=>{
+    }, FJe = ()=>{
         (0, A.useEffect)(()=>{
             let e = (e)=>{
                 e.preventDefault();
@@ -134780,13 +134774,13 @@ ${r.current.stack}
                 document.removeEventListener(`dragover`, e), document.removeEventListener(`drop`, t);
             };
         }, []);
-    }, LJe = ()=>{
+    }, IJe = ()=>{
         (0, A.useEffect)(()=>{
             if (!pq()) return;
             let e = null, t = !1;
             return (async ()=>{
                 let { getCurrentWindow: n } = await c(async ()=>{
-                    let { getCurrentWindow: e } = await Promise.resolve().then(()=>s7e);
+                    let { getCurrentWindow: e } = await Promise.resolve().then(()=>o7e);
                     return {
                         getCurrentWindow: e
                     };
@@ -134820,7 +134814,7 @@ ${r.current.stack}
                 t = !0, e && e();
             };
         }, []);
-    }, RJe = (e, t)=>{
+    }, LJe = (e, t)=>{
         let n = (0, A.useRef)(void 0), [r, i] = (0, A.useState)(!1);
         return (0, A.useEffect)(()=>{
             let r = e.current, a = (e)=>{
@@ -134848,7 +134842,7 @@ ${r.current.stack}
         }, [
             e
         ]), r;
-    }, zJe = xq({
+    }, RJe = xq({
         defaultClassName: `_1fwe7gc0`,
         variantClassNames: {
             radii: {
@@ -134870,8 +134864,8 @@ ${r.current.stack}
             radii: `400`
         },
         compoundVariants: []
-    }), BJe = `_1fwe7gc9`, VJe = (0, A.forwardRef)(({ before: e, after: t, children: n, bottom: r, radii: i, outlined: a, compact: o }, s)=>(0, j.jsxs)(P, {
-            className: zJe({
+    }), zJe = `_1fwe7gc9`, BJe = (0, A.forwardRef)(({ before: e, after: t, children: n, bottom: r, radii: i, outlined: a, compact: o }, s)=>(0, j.jsxs)(P, {
+            className: RJe({
                 radii: i,
                 outlined: a,
                 compact: o
@@ -134897,7 +134891,7 @@ ${r.current.stack}
                 r
             ]
         }));
-    function HJe({ sentBytes: e, totalBytes: t }) {
+    function VJe({ sentBytes: e, totalBytes: t }) {
         return (0, j.jsxs)(P, {
             grow: `Yes`,
             direction: `Column`,
@@ -134941,7 +134935,7 @@ ${r.current.stack}
             ]
         });
     }
-    function UJe({ sentBytes: e, totalBytes: t }) {
+    function HJe({ sentBytes: e, totalBytes: t }) {
         return (0, j.jsxs)(P, {
             grow: `Yes`,
             gap: `200`,
@@ -134985,7 +134979,7 @@ ${r.current.stack}
     }
     function D7({ children: e }) {
         return (0, j.jsxs)(P, {
-            className: BJe,
+            className: zJe,
             alignItems: `Center`,
             gap: `300`,
             children: [
@@ -135009,7 +135003,7 @@ ${r.current.stack}
             t
         ]), t;
     };
-    function WJe({ fileItem: e }) {
+    function UJe({ fileItem: e }) {
         let { originalFile: t, metadata: n } = e, r = O7(t);
         return (0, j.jsx)(`img`, {
             style: {
@@ -135022,7 +135016,7 @@ ${r.current.stack}
             src: r
         });
     }
-    function GJe({ fileItem: e }) {
+    function WJe({ fileItem: e }) {
         let { originalFile: t, metadata: n } = e, r = O7(t);
         return (0, j.jsx)(`video`, {
             style: {
@@ -135034,7 +135028,7 @@ ${r.current.stack}
             src: r
         });
     }
-    function KJe({ fileItem: e, onSpoiler: t, children: n }) {
+    function GJe({ fileItem: e, onSpoiler: t, children: n }) {
         let { originalFile: r, metadata: i } = e;
         return O7(r) ? (0, j.jsxs)(P, {
             style: {
@@ -135072,8 +135066,8 @@ ${r.current.stack}
             ]
         }) : null;
     }
-    function qJe({ isEncrypted: e, fileItem: t, setMetadata: n, onRemove: r, onComplete: i }) {
-        let a = J(), o = eve()[`m.upload.size`] || 1 / 0, s = wqe(t.file), { metadata: c } = t, { upload: l, startUpload: u, cancelUpload: d } = bqe(a, s, e), { file: f } = l, p = f.size >= o;
+    function KJe({ isEncrypted: e, fileItem: t, setMetadata: n, onRemove: r, onComplete: i }) {
+        let a = J(), o = eve()[`m.upload.size`] || 1 / 0, s = Cqe(t.file), { metadata: c } = t, { upload: l, startUpload: u, cancelUpload: d } = yqe(a, s, e), { file: f } = l, p = f.size >= o;
         l.status === p7.Idle && !p && u();
         let m = (e)=>{
             n(t, {
@@ -135086,7 +135080,7 @@ ${r.current.stack}
         }, [
             l,
             i
-        ]), (0, j.jsxs)(VJe, {
+        ]), (0, j.jsxs)(BJe, {
             radii: `300`,
             before: (0, j.jsx)(I, {
                 src: yr(L, f.type)
@@ -135122,25 +135116,25 @@ ${r.current.stack}
             }),
             bottom: (0, j.jsxs)(j.Fragment, {
                 children: [
-                    t.originalFile.type.startsWith(`image`) && (0, j.jsx)(KJe, {
+                    t.originalFile.type.startsWith(`image`) && (0, j.jsx)(GJe, {
+                        fileItem: t,
+                        onSpoiler: m,
+                        children: (0, j.jsx)(UJe, {
+                            fileItem: t
+                        })
+                    }),
+                    t.originalFile.type.startsWith(`video`) && (0, j.jsx)(GJe, {
                         fileItem: t,
                         onSpoiler: m,
                         children: (0, j.jsx)(WJe, {
                             fileItem: t
                         })
                     }),
-                    t.originalFile.type.startsWith(`video`) && (0, j.jsx)(KJe, {
-                        fileItem: t,
-                        onSpoiler: m,
-                        children: (0, j.jsx)(GJe, {
-                            fileItem: t
-                        })
-                    }),
-                    l.status === p7.Idle && !p && (0, j.jsx)(HJe, {
+                    l.status === p7.Idle && !p && (0, j.jsx)(VJe, {
                         sentBytes: 0,
                         totalBytes: f.size
                     }),
-                    l.status === p7.Loading && (0, j.jsx)(HJe, {
+                    l.status === p7.Loading && (0, j.jsx)(VJe, {
                         sentBytes: l.progress.loaded,
                         totalBytes: f.size
                     }),
@@ -135187,13 +135181,13 @@ ${r.current.stack}
         });
     }
     function k7({ isEncrypted: e, uploadAtom: t, onRemove: n, onComplete: r }) {
-        let i = J(), a = eve()[`m.upload.size`] || 1 / 0, { upload: o, startUpload: s, cancelUpload: c } = bqe(i, t, e), { file: l } = o, u = l.size >= a;
+        let i = J(), a = eve()[`m.upload.size`] || 1 / 0, { upload: o, startUpload: s, cancelUpload: c } = yqe(i, t, e), { file: l } = o, u = l.size >= a;
         return o.status === p7.Idle && !u && s(), (0, A.useEffect)(()=>{
             o.status === p7.Success && r?.(o);
         }, [
             o,
             r
-        ]), (0, j.jsx)(VJe, {
+        ]), (0, j.jsx)(BJe, {
             compact: !0,
             outlined: !0,
             radii: `300`,
@@ -135246,11 +135240,11 @@ ${r.current.stack}
                 ]
             }) : (0, j.jsxs)(j.Fragment, {
                 children: [
-                    o.status === p7.Idle && !u && (0, j.jsx)(UJe, {
+                    o.status === p7.Idle && !u && (0, j.jsx)(HJe, {
                         sentBytes: 0,
                         totalBytes: l.size
                     }),
-                    o.status === p7.Loading && (0, j.jsx)(UJe, {
+                    o.status === p7.Loading && (0, j.jsx)(HJe, {
                         sentBytes: o.progress.loaded,
                         totalBytes: l.size
                     }),
@@ -135282,15 +135276,15 @@ ${r.current.stack}
             })
         });
     }
-    var JJe = `_1vnya280 _1mqalmd1 _1mqalmd0`, YJe = `_1vnya281 _1mqalmd1 _1mqalmd0`, XJe = `_1vnya282`, ZJe = `_1vnya283`, QJe = `_1vnya284`, $Je = $t(({ header: e, children: t, ...n }, r)=>(0, j.jsx)(P, {
-            className: JJe,
+    var qJe = `_1vnya280 _1mqalmd1 _1mqalmd0`, JJe = `_1vnya281 _1mqalmd1 _1mqalmd0`, YJe = `_1vnya282`, XJe = `_1vnya283`, ZJe = `_1vnya284`, QJe = $t(({ header: e, children: t, ...n }, r)=>(0, j.jsx)(P, {
+            className: qJe,
             ...n,
             ref: r,
             children: (0, j.jsx)(P, {
-                className: YJe,
+                className: JJe,
                 justifyContent: `End`,
                 children: (0, j.jsxs)(P, {
-                    className: (0, bt.default)(XJe),
+                    className: (0, bt.default)(YJe),
                     direction: `Column`,
                     children: [
                         (0, j.jsx)(P, {
@@ -135307,7 +135301,7 @@ ${r.current.stack}
                 })
             })
         }));
-    function eYe({ open: e, onToggle: t, uploadFamilyObserverAtom: n, onCancel: r, onSend: i, imperativeHandlerRef: a }) {
+    function $Je({ open: e, onToggle: t, uploadFamilyObserverAtom: n, onCancel: r, onSend: i, imperativeHandlerRef: a }) {
         let o = (0, A.useRef)(!1), s = Oi(n), c = s.every((e)=>e.status === p7.Success), l = s.some((e)=>e.status === p7.Error), u = s.reduce((e, t)=>(e.total += t.file.size, t.status === p7.Loading && (e.loaded += t.progress.loaded), t.status === p7.Success && (e.loaded += t.file.size), e), {
             loaded: 0,
             total: 0
@@ -135325,7 +135319,7 @@ ${r.current.stack}
                         cursor: `pointer`
                     },
                     onClick: t,
-                    className: ZJe,
+                    className: XJe,
                     alignItems: `Center`,
                     grow: `Yes`,
                     gap: `100`,
@@ -135341,7 +135335,7 @@ ${r.current.stack}
                     ]
                 }),
                 (0, j.jsxs)(P, {
-                    className: ZJe,
+                    className: XJe,
                     alignItems: `Center`,
                     gap: `100`,
                     children: [
@@ -135409,14 +135403,14 @@ ${r.current.stack}
             ]
         });
     }
-    var tYe = $t(({ className: e, children: t, ...n }, r)=>(0, j.jsx)(P, {
-            className: (0, bt.default)(QJe, e),
+    var eYe = $t(({ className: e, children: t, ...n }, r)=>(0, j.jsx)(P, {
+            className: (0, bt.default)(ZJe, e),
             direction: `Column`,
             gap: `200`,
             ...n,
             ref: r,
             children: t
-        })), nYe = async (e, t, n, r)=>{
+        })), tYe = async (e, t, n, r)=>{
         let i = await vxe(t, ...n);
         if (!i) throw Error(`Can not create thumbnail!`);
         let a = r ? await $G(i) : void 0, o = a?.file ?? i;
@@ -135430,7 +135424,7 @@ ${r.current.stack}
             width: n[0],
             height: n[1]
         });
-    }, rYe = async (e, t, n)=>{
+    }, nYe = async (e, t, n)=>{
         let { file: r, originalFile: i, encInfo: a, metadata: o } = t, [s, c] = await wp(_X(mxe(i)));
         s && console.warn(s);
         let l = {
@@ -135450,7 +135444,7 @@ ${r.current.stack}
             ...a,
             url: n
         } : l.url = n, l;
-    }, iYe = async (e, t, n)=>{
+    }, rYe = async (e, t, n)=>{
         let { file: r, originalFile: i, encInfo: a, metadata: o } = t, [s, c] = await wp(gxe(hxe(i)));
         s && console.warn(s);
         let l = {
@@ -135460,7 +135454,7 @@ ${r.current.stack}
             [n0]: o.markedAsSpoiler
         };
         if (c) {
-            let [t, n] = await wp(nYe(e, c, _xe(c.videoWidth, c.videoHeight), !!a));
+            let [t, n] = await wp(tYe(e, c, _xe(c.videoWidth, c.videoHeight), !!a));
             n && n.thumbnail_info && (n.thumbnail_info[t0] = nEe(c, 512, Tr(c.videoWidth, 512, c.videoHeight))), t && console.warn(t), l.info = {
                 ...vhe(c, r),
                 ...n
@@ -135470,7 +135464,7 @@ ${r.current.stack}
             ...a,
             url: n
         } : l.url = n, l;
-    }, aYe = (e, t, n)=>{
+    }, iYe = (e, t, n)=>{
         let { file: r, encInfo: i } = e, a = {
             msgtype: oR.Audio,
             filename: r.name,
@@ -135487,7 +135481,7 @@ ${r.current.stack}
             ...i,
             url: t
         } : a.url = t, a;
-    }, oYe = (e, t, n, r)=>{
+    }, aYe = (e, t, n, r)=>{
         let { file: i, encInfo: a } = e, o = `Voice message.ogg`, s = i.type || `audio/ogg`, c = Math.round(n), l = r.map((e)=>Math.round(Math.min(1, Math.max(0, e)) * 1024)), u = {
             msgtype: oR.Audio,
             body: `Voice message`,
@@ -135521,7 +135515,7 @@ ${r.current.stack}
             mimetype: s,
             size: i.size
         }), u;
-    }, sYe = (e, t)=>{
+    }, oYe = (e, t)=>{
         let { file: n, encInfo: r } = e, i = {
             msgtype: oR.File,
             body: n.name,
@@ -135535,7 +135529,7 @@ ${r.current.stack}
             ...r,
             url: t
         } : i.url = t, i;
-    }, cYe = n(s(((e, t)=>{
+    }, sYe = n(s(((e, t)=>{
         (function(n, r) {
             typeof e == `object` && typeof t == `object` ? t.exports = r() : typeof define == `function` && define.amd ? define([], r) : typeof e == `object` ? e.Recorder = r() : n.Recorder = r();
         })(typeof self < `u` ? self : e, (function() {
@@ -135755,15 +135749,15 @@ ${r.current.stack}
                 }
             ]);
         }));
-    }))(), 1), lYe = `/app/assets/encoderWorker.min-DpsJ02BN.js`;
-    async function uYe() {
+    }))(), 1), cYe = `/app/assets/encoderWorker.min-DpsJ02BN.js`;
+    async function lYe() {
         if (pq()) try {
             await i(`arm_capture_intent`);
         } catch (e) {
             console.warn(`arm_capture_intent unavailable`, e);
         }
     }
-    var dYe = ()=>{
+    var uYe = ()=>{
         let e = nJ();
         return {
             channelCount: 1,
@@ -135783,11 +135777,11 @@ ${r.current.stack}
             } : void 0
         };
     };
-    async function fYe(e) {
+    async function dYe(e) {
         if (!navigator.mediaDevices?.getUserMedia) throw Error(`This app build cannot access the microphone.`);
-        await uYe();
+        await lYe();
         let t = await navigator.mediaDevices.getUserMedia({
-            audio: e ?? dYe()
+            audio: e ?? uYe()
         });
         Eq(!0).catch(()=>void 0);
         let n = !1;
@@ -135798,7 +135792,7 @@ ${r.current.stack}
             }
         };
     }
-    function pYe(e) {
+    function fYe(e) {
         switch(e instanceof DOMException || e instanceof Error ? e.name : ``){
             case `NotAllowedError`:
                 return `Microphone access was denied. Allow it for Prinny in your system settings and try again.`;
@@ -135813,7 +135807,7 @@ ${r.current.stack}
                 return e instanceof Error ? e.message : `Could not start recording.`;
         }
     }
-    var mYe = 48e3, hYe = 1, gYe = 24e3, _Ye = 2048, vYe = 50, yYe = class {
+    var pYe = 48e3, mYe = 1, hYe = 24e3, gYe = 2048, _Ye = 50, vYe = class {
         constructor(){
             this.chunks = [], this.liveWaveform = Array(44).fill(0), this.amplitudes = [], this.startedAt = 0, this.state = `inactive`;
         }
@@ -135822,16 +135816,16 @@ ${r.current.stack}
         }
         async start() {
             if (this.state !== `inactive`) throw Error(`Recorder already started`);
-            this.mic = await fYe(), this.state = `recording`;
+            this.mic = await dYe(), this.state = `recording`;
             try {
                 this.context = new AudioContext({
-                    sampleRate: mYe
-                }), this.context.state === `suspended` && await this.context.resume(), this.source = this.context.createMediaStreamSource(this.mic.stream), this.analyser = this.context.createAnalyser(), this.analyser.fftSize = 2048, this.analyser.smoothingTimeConstant = .3, this.source.connect(this.analyser), this.recorder = new cYe.default({
-                    encoderPath: lYe,
-                    encoderApplication: _Ye,
-                    encoderBitRate: gYe,
-                    encoderSampleRate: mYe,
-                    numberOfChannels: hYe,
+                    sampleRate: pYe
+                }), this.context.state === `suspended` && await this.context.resume(), this.source = this.context.createMediaStreamSource(this.mic.stream), this.analyser = this.context.createAnalyser(), this.analyser.fftSize = 2048, this.analyser.smoothingTimeConstant = .3, this.source.connect(this.analyser), this.recorder = new sYe.default({
+                    encoderPath: cYe,
+                    encoderApplication: gYe,
+                    encoderBitRate: hYe,
+                    encoderSampleRate: pYe,
+                    numberOfChannels: mYe,
                     streamPages: !0,
                     encoderFrameSize: 20,
                     encoderComplexity: 3,
@@ -135866,7 +135860,7 @@ ${r.current.stack}
                     ],
                     durationSeconds: r
                 }), r >= 900 && this.onMaxDuration?.();
-            }, vYe);
+            }, _Ye);
         }
         stopTicking() {
             this.tickTimer !== void 0 && (window.clearInterval(this.tickTimer), this.tickTimer = void 0);
@@ -135908,18 +135902,18 @@ ${r.current.stack}
         releaseResources() {
             this.recorder?.close(), this.recorder = void 0, this.source?.disconnect(), this.source = void 0, this.analyser = void 0, this.context?.close().catch(()=>void 0), this.context = void 0, this.mic?.release(), this.mic = void 0;
         }
-    }, bYe = ()=>{
+    }, yYe = ()=>{
         try {
-            return !!navigator.mediaDevices?.getUserMedia && cYe.default.isRecordingSupported();
+            return !!navigator.mediaDevices?.getUserMedia && sYe.default.isRecordingSupported();
         } catch  {
             return !1;
         }
     }, A7 = function(e) {
         return e.Idle = `idle`, e.Starting = `starting`, e.Recording = `recording`, e.Preview = `preview`, e.Sending = `sending`, e;
-    }({}), xYe = ()=>Array(44).fill(0);
-    function SYe(e) {
-        let t = (0, A.useRef)(void 0), [n, r] = (0, A.useState)(`idle`), [i, a] = (0, A.useState)(xYe), [o, s] = (0, A.useState)(0), [c, l] = (0, A.useState)(), [u, d] = (0, A.useState)(), f = (0, A.useCallback)(()=>{
-            t.current?.cancel(), t.current = void 0, l(void 0), a(xYe()), s(0), r(`idle`);
+    }({}), bYe = ()=>Array(44).fill(0);
+    function xYe(e) {
+        let t = (0, A.useRef)(void 0), [n, r] = (0, A.useState)(`idle`), [i, a] = (0, A.useState)(bYe), [o, s] = (0, A.useState)(0), [c, l] = (0, A.useState)(), [u, d] = (0, A.useState)(), f = (0, A.useCallback)(()=>{
+            t.current?.cancel(), t.current = void 0, l(void 0), a(bYe()), s(0), r(`idle`);
         }, []), p = (0, A.useCallback)(async ()=>{
             let e = t.current;
             if (e) try {
@@ -135932,8 +135926,8 @@ ${r.current.stack}
         m.current = p;
         let h = (0, A.useCallback)(async ()=>{
             if (t.current) return;
-            d(void 0), l(void 0), a(xYe()), s(0), r(`starting`);
-            let e = new yYe;
+            d(void 0), l(void 0), a(bYe()), s(0), r(`starting`);
+            let e = new vYe;
             e.onUpdate = (e)=>{
                 a(e.waveform), s(e.durationSeconds);
             }, e.onMaxDuration = ()=>{
@@ -135942,7 +135936,7 @@ ${r.current.stack}
             try {
                 await e.start(), t.current = e, r(`recording`);
             } catch (e) {
-                d(pYe(e)), r(`idle`);
+                d(fYe(e)), r(`idle`);
             }
         }, []), g = (0, A.useCallback)((e)=>{
             r(e ? `sending` : `preview`);
@@ -135967,7 +135961,7 @@ ${r.current.stack}
             clearError: (0, A.useCallback)(()=>d(void 0), [])
         };
     }
-    function CYe({ controls: e, onSend: t }) {
+    function SYe({ controls: e, onSend: t }) {
         let { status: n, waveform: r, durationSeconds: i, recording: a, endingSoon: o } = e, [s, c] = (0, A.useState)(!1), [l, u] = (0, A.useState)(0), d = (0, A.useRef)(null), f = (0, A.useMemo)(()=>a ? URL.createObjectURL(a.blob) : void 0, [
             a
         ]);
@@ -136112,24 +136106,24 @@ ${r.current.stack}
             ]
         });
     }
-    var wYe = (e)=>e.replace(/&/g, `&amp;`).replace(/</g, `&lt;`).replace(/>/g, `&gt;`).replace(/"/g, `&quot;`), TYe = (e, t, n)=>{
+    var CYe = (e)=>e.replace(/&/g, `&amp;`).replace(/</g, `&lt;`).replace(/>/g, `&gt;`).replace(/"/g, `&quot;`), wYe = (e, t, n)=>{
         let r = n / 100, i = t * Math.min(r, 1 - r) / 100, a = (t)=>{
             let n = (t + e / 30) % 12, a = r - i * Math.max(Math.min(n - 3, 9 - n, 1), -1);
             return Math.round(255 * a).toString(16).padStart(2, `0`);
         };
         return `#${a(0)}${a(8)}${a(4)}`;
-    }, EYe = (e)=>{
+    }, TYe = (e)=>{
         let t = Array.from(e), n = t.filter((e)=>e.trim() !== ``).length;
-        if (n === 0) return wYe(e);
+        if (n === 0) return CYe(e);
         let r = 0;
         return t.map((e)=>{
-            if (e.trim() === ``) return wYe(e);
+            if (e.trim() === ``) return CYe(e);
             let t = r / n * 360;
             r += 1;
-            let i = TYe(t, 100, 50);
-            return `<font data-mx-color="${i}" color="${i}">${wYe(e)}</font>`;
+            let i = wYe(t, 100, 50);
+            return `<font data-mx-color="${i}" color="${i}">${CYe(e)}</font>`;
         }).join(``);
-    }, DYe = class {
+    }, EYe = class {
         constructor(e){
             this.wireFormat = e;
         }
@@ -136141,7 +136135,7 @@ ${r.current.stack}
             super(e);
         }
     };
-    function OYe(e, t) {
+    function DYe(e, t) {
         var n = Object.keys(e);
         if (Object.getOwnPropertySymbols) {
             var r = Object.getOwnPropertySymbols(e);
@@ -136151,18 +136145,18 @@ ${r.current.stack}
         }
         return n;
     }
-    function kYe(e) {
+    function OYe(e) {
         for(var t = 1; t < arguments.length; t++){
             var n = arguments[t] == null ? {} : arguments[t];
-            t % 2 ? OYe(Object(n), !0).forEach(function(t) {
+            t % 2 ? DYe(Object(n), !0).forEach(function(t) {
                 U(e, t, n[t]);
-            }) : Object.getOwnPropertyDescriptors ? Object.defineProperties(e, Object.getOwnPropertyDescriptors(n)) : OYe(Object(n)).forEach(function(t) {
+            }) : Object.getOwnPropertyDescriptors ? Object.defineProperties(e, Object.getOwnPropertyDescriptors(n)) : DYe(Object(n)).forEach(function(t) {
                 Object.defineProperty(e, t, Object.getOwnPropertyDescriptor(n, t));
             });
         }
         return e;
     }
-    var AYe = class e extends DYe {
+    var kYe = class e extends EYe {
         constructor(e){
             super(e), U(this, `text`, void 0), U(this, `html`, void 0), U(this, `renderings`, void 0);
             var t = XR.findIn(this.wireContent), n = ZR.findIn(this.wireContent), r = QR.findIn(this.wireContent);
@@ -136200,7 +136194,7 @@ ${r.current.stack}
         serialize() {
             return {
                 type: `m.room.message`,
-                content: kYe(kYe({}, this.serializeMMessageOnly()), {}, {
+                content: OYe(OYe({}, this.serializeMMessageOnly()), {}, {
                     body: this.text,
                     msgtype: `m.text`,
                     format: this.html ? `org.matrix.custom.html` : void 0,
@@ -136218,7 +136212,7 @@ ${r.current.stack}
             });
         }
     };
-    function jYe(e, t) {
+    function AYe(e, t) {
         var n = Object.keys(e);
         if (Object.getOwnPropertySymbols) {
             var r = Object.getOwnPropertySymbols(e);
@@ -136228,18 +136222,18 @@ ${r.current.stack}
         }
         return n;
     }
-    function MYe(e) {
+    function jYe(e) {
         for(var t = 1; t < arguments.length; t++){
             var n = arguments[t] == null ? {} : arguments[t];
-            t % 2 ? jYe(Object(n), !0).forEach(function(t) {
+            t % 2 ? AYe(Object(n), !0).forEach(function(t) {
                 U(e, t, n[t]);
-            }) : Object.getOwnPropertyDescriptors ? Object.defineProperties(e, Object.getOwnPropertyDescriptors(n)) : jYe(Object(n)).forEach(function(t) {
+            }) : Object.getOwnPropertyDescriptors ? Object.defineProperties(e, Object.getOwnPropertyDescriptors(n)) : AYe(Object(n)).forEach(function(t) {
                 Object.defineProperty(e, t, Object.getOwnPropertyDescriptor(n, t));
             });
         }
         return e;
     }
-    var NYe = class e extends AYe {
+    var MYe = class e extends kYe {
         constructor(e){
             super(e), U(this, `id`, void 0);
             var t = e.content.id;
@@ -136249,7 +136243,7 @@ ${r.current.stack}
         serialize() {
             return {
                 type: `org.matrix.sdk.poll.answer`,
-                content: MYe({
+                content: jYe({
                     id: this.id
                 }, this.serializeMMessageOnly())
             };
@@ -136263,16 +136257,16 @@ ${r.current.stack}
                 }
             });
         }
-    }, PYe = class e extends DYe {
+    }, NYe = class e extends EYe {
         constructor(e){
             super(e), U(this, `question`, void 0), U(this, `kind`, void 0), U(this, `rawKind`, void 0), U(this, `maxSelections`, void 0), U(this, `answers`, void 0);
             var t = uz.findIn(this.wireContent);
             if (!(t != null && t.question)) throw new j7(`A question is required`);
-            if (this.question = new AYe({
+            if (this.question = new kYe({
                 type: `org.matrix.sdk.poll.question`,
                 content: t.question
             }), this.rawKind = t.kind, this.kind = cz.matches(this.rawKind) ? cz : lz, this.maxSelections = Number.isFinite(t.max_selections) && t.max_selections > 0 ? t.max_selections : 1, !Array.isArray(t.answers)) throw new j7(`Poll answers must be an array`);
-            var n = t.answers.slice(0, 20).map((e)=>new NYe({
+            var n = t.answers.slice(0, 20).map((e)=>new MYe({
                     type: `org.matrix.sdk.poll.answer`,
                     content: e
                 }));
@@ -136311,29 +136305,29 @@ ${this.answers.map((e, t)=>`${t + 1}. ${e.text}`).join(`
                         kind: r instanceof MR.NamespacedValue ? r.name : r,
                         max_selections: i,
                         answers: n.map((e)=>({
-                                id: IYe(),
+                                id: FYe(),
                                 [ZR.name]: e
                             }))
                     }
                 }
             });
         }
-    }, FYe = `abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789`;
-    function IYe() {
+    }, PYe = `abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789`;
+    function FYe() {
         return [
             ...Array(16)
-        ].map(()=>FYe.charAt(Math.floor(Math.random() * FYe.length))).join(``);
+        ].map(()=>PYe.charAt(Math.floor(Math.random() * PYe.length))).join(``);
     }
-    var LYe = 2, RYe = 20;
-    function zYe({ room: e, requestClose: t }) {
+    var IYe = 2, LYe = 20;
+    function RYe({ room: e, requestClose: t }) {
         let n = J(), r = cd(), [i, a] = (0, A.useState)(``), [o, s] = (0, A.useState)([
             ``,
             ``
-        ]), [c, l] = (0, A.useState)(!0), u = (e, t)=>s((n)=>n.map((n, r)=>r === e ? t : n)), d = ()=>s((e)=>e.length >= RYe ? e : [
+        ]), [c, l] = (0, A.useState)(!0), u = (e, t)=>s((n)=>n.map((n, r)=>r === e ? t : n)), d = ()=>s((e)=>e.length >= LYe ? e : [
                     ...e,
                     ``
-                ]), f = (e)=>s((t)=>t.length <= LYe ? t : t.filter((t, n)=>n !== e)), p = o.map((e)=>e.trim()).filter((e)=>e !== ``), m = i.trim() !== `` && p.length >= LYe, [h, g] = V((0, A.useCallback)(async ()=>{
-            let t = PYe.from(i.trim(), p, c ? cz.name : lz.name).serialize();
+                ]), f = (e)=>s((t)=>t.length <= IYe ? t : t.filter((t, n)=>n !== e)), p = o.map((e)=>e.trim()).filter((e)=>e !== ``), m = i.trim() !== `` && p.length >= IYe, [h, g] = V((0, A.useCallback)(async ()=>{
+            let t = NYe.from(i.trim(), p, c ? cz.name : lz.name).serialize();
             await n.sendEvent(e.roomId, t.type, t.content);
         }, [
             n,
@@ -136461,7 +136455,7 @@ ${this.answers.map((e, t)=>`${t + 1}. ${e.text}`).join(`
                                                                                     radii: `300`,
                                                                                     variant: `SurfaceVariant`,
                                                                                     onClick: ()=>f(t),
-                                                                                    disabled: o.length <= LYe,
+                                                                                    disabled: o.length <= IYe,
                                                                                     "aria-label": `Remove answer ${t + 1}`,
                                                                                     children: (0, j.jsx)(I, {
                                                                                         size: `50`,
@@ -136480,7 +136474,7 @@ ${this.answers.map((e, t)=>`${t + 1}. ${e.text}`).join(`
                                                                         fill: `Soft`,
                                                                         outlined: !0,
                                                                         onClick: d,
-                                                                        disabled: o.length >= RYe,
+                                                                        disabled: o.length >= LYe,
                                                                         before: (0, j.jsx)(I, {
                                                                             size: `50`,
                                                                             src: L.Plus
@@ -136544,7 +136538,7 @@ ${this.answers.map((e, t)=>`${t + 1}. ${e.text}`).join(`
             })
         });
     }
-    var BYe = (e)=>{
+    var zYe = (e)=>{
         if (!e) return;
         let t = e.match(/^geo:(-?\d+(?:\.\d+)?),(-?\d+(?:\.\d+)?)/);
         if (!t) return;
@@ -136553,7 +136547,7 @@ ${this.answers.map((e, t)=>`${t + 1}. ${e.text}`).join(`
             latitude: n,
             longitude: r
         };
-    }, VYe = (e)=>{
+    }, BYe = (e)=>{
         let [, t] = (0, A.useState)(0), n = (0, A.useCallback)(()=>t((e)=>e + 1), []);
         return (0, A.useEffect)(()=>{
             let t = e.currentState;
@@ -136566,7 +136560,7 @@ ${this.answers.map((e, t)=>`${t + 1}. ${e.text}`).join(`
             e,
             n
         ]), Array.from(e.currentState.beacons.values()).filter((e)=>e.isLive).map((e)=>{
-            let { beaconInfo: t } = e, n = (t?.timestamp ?? 0) + (t?.timeout ?? 0), r = BYe(e.latestLocationState?.uri);
+            let { beaconInfo: t } = e, n = (t?.timestamp ?? 0) + (t?.timeout ?? 0), r = zYe(e.latestLocationState?.uri);
             return {
                 beacon: e,
                 ownerId: e.beaconInfoOwner,
@@ -136576,7 +136570,7 @@ ${this.answers.map((e, t)=>`${t + 1}. ${e.text}`).join(`
                 expiresAt: n
             };
         }).filter((e)=>e.expiresAt === 0 || e.expiresAt > Date.now()).sort((e, t)=>e.expiresAt - t.expiresAt);
-    }, HYe = 3e4, UYe = [
+    }, VYe = 3e4, HYe = [
         {
             label: `15 minutes`,
             ms: 9e5
@@ -136589,16 +136583,16 @@ ${this.answers.map((e, t)=>`${t + 1}. ${e.text}`).join(`
             label: `8 hours`,
             ms: 288e5
         }
-    ], WYe = pi(void 0), M7 = {}, GYe = ()=>{
+    ], UYe = pi(void 0), M7 = {}, WYe = ()=>{
         M7.watchId !== void 0 && (navigator.geolocation.clearWatch(M7.watchId), M7.watchId = void 0), M7.timerId !== void 0 && (window.clearInterval(M7.timerId), M7.timerId = void 0), M7.endTimerId !== void 0 && (window.clearTimeout(M7.endTimerId), M7.endTimerId = void 0), M7.beaconInfoId = void 0, M7.lastPosition = void 0;
-    }, KYe = async (e, t)=>{
-        GYe();
+    }, GYe = async (e, t)=>{
+        WYe();
         try {
             await e.sendStateEvent(t, uV.name, tz(0, !1), e.getSafeUserId());
         } catch  {}
-    }, qYe = async (e, t, n, r, i)=>{
+    }, KYe = async (e, t, n, r, i)=>{
         if (!navigator.geolocation) throw Error(`This device cannot report a location.`);
-        GYe(), M7.beaconInfoId = (await e.sendStateEvent(t, uV.name, tz(n, !0, r), e.getSafeUserId())).event_id, M7.watchId = navigator.geolocation.watchPosition((e)=>{
+        WYe(), M7.beaconInfoId = (await e.sendStateEvent(t, uV.name, tz(n, !0, r), e.getSafeUserId())).event_id, M7.watchId = navigator.geolocation.watchPosition((e)=>{
             M7.lastPosition = e;
         }, ()=>void 0, {
             enableHighAccuracy: !0,
@@ -136610,12 +136604,12 @@ ${this.answers.map((e, t)=>`${t + 1}. ${e.text}`).join(`
             try {
                 await e.sendEvent(t, dV.name, Wae(i, n.timestamp, r));
             } catch  {}
-        }, HYe), M7.endTimerId = window.setTimeout(()=>{
-            KYe(e, t).finally(i);
+        }, VYe), M7.endTimerId = window.setTimeout(()=>{
+            GYe(e, t).finally(i);
         }, n);
-    }, JYe = (e)=>{
-        let t = J(), [n, r] = Ai(WYe), i = (0, A.useCallback)(async (n, i)=>{
-            await qYe(t, e.roomId, n, i, ()=>r(void 0)), r({
+    }, qYe = (e)=>{
+        let t = J(), [n, r] = Ai(UYe), i = (0, A.useCallback)(async (n, i)=>{
+            await KYe(t, e.roomId, n, i, ()=>r(void 0)), r({
                 roomId: e.roomId,
                 expiresAt: Date.now() + n
             });
@@ -136624,7 +136618,7 @@ ${this.answers.map((e, t)=>`${t + 1}. ${e.text}`).join(`
             e.roomId,
             r
         ]), a = (0, A.useCallback)(async ()=>{
-            r(void 0), await KYe(t, e.roomId);
+            r(void 0), await GYe(t, e.roomId);
         }, [
             t,
             e.roomId,
@@ -136636,8 +136630,8 @@ ${this.answers.map((e, t)=>`${t + 1}. ${e.text}`).join(`
             stop: a
         };
     };
-    function YYe({ room: e }) {
-        let t = J(), n = VYe(e), r = uJe(), i = g7(), { sharing: a, stop: o } = JYe(e), s = (0, A.useMemo)(()=>n.filter((e)=>e.latitude !== void 0 && e.longitude !== void 0).map((e)=>({
+    function JYe({ room: e }) {
+        let t = J(), n = BYe(e), r = lJe(), i = g7(), { sharing: a, stop: o } = qYe(e), s = (0, A.useMemo)(()=>n.filter((e)=>e.latitude !== void 0 && e.longitude !== void 0).map((e)=>({
                     latitude: e.latitude,
                     longitude: e.longitude,
                     live: !0
@@ -136703,7 +136697,7 @@ ${this.answers.map((e, t)=>`${t + 1}. ${e.text}`).join(`
                         })
                     ]
                 }),
-                r && i && s.length > 0 && (0, j.jsx)(sJe, {
+                r && i && s.length > 0 && (0, j.jsx)(oJe, {
                     styleUrl: i,
                     pins: s,
                     height: `160px`,
@@ -136717,7 +136711,7 @@ ${this.answers.map((e, t)=>`${t + 1}. ${e.text}`).join(`
             ]
         });
     }
-    var XYe = `m.self`, ZYe = `m.pin`, QYe = (e)=>{
+    var YYe = `m.self`, XYe = `m.pin`, ZYe = (e)=>{
         if (typeof GeolocationPositionError < `u` && e instanceof GeolocationPositionError) {
             if (e.code === e.PERMISSION_DENIED) return `Location access was denied. Allow it for Prinny in your system settings.`;
             if (e.code === e.POSITION_UNAVAILABLE) return `Your position could not be determined.`;
@@ -136725,8 +136719,8 @@ ${this.answers.map((e, t)=>`${t + 1}. ${e.text}`).join(`
         }
         return `Could not get your location.`;
     };
-    function $Ye({ room: e, threadRootId: t, requestClose: n }) {
-        let r = J(), i = cd(), a = g7(), [o, s] = (0, A.useState)(), [c, l] = (0, A.useState)(!0), u = JYe(e), [d, f] = (0, A.useState)(), [p, m] = (0, A.useState)(!1), [h, g] = V((0, A.useCallback)(()=>new Promise((e, t)=>{
+    function QYe({ room: e, threadRootId: t, requestClose: n }) {
+        let r = J(), i = cd(), a = g7(), [o, s] = (0, A.useState)(), [c, l] = (0, A.useState)(!0), u = qYe(e), [d, f] = (0, A.useState)(), [p, m] = (0, A.useState)(!1), [h, g] = V((0, A.useCallback)(()=>new Promise((e, t)=>{
                 if (!navigator.geolocation) {
                     t(Error(`This device cannot report a location.`));
                     return;
@@ -136753,7 +136747,7 @@ ${this.answers.map((e, t)=>`${t + 1}. ${e.text}`).join(`
                     description: o
                 },
                 "org.matrix.msc3488.asset": {
-                    type: i ? XYe : ZYe
+                    type: i ? YYe : XYe
                 },
                 "org.matrix.msc3488.ts": Date.now(),
                 "org.matrix.msc1767.text": `${o}: ${a}`,
@@ -136831,7 +136825,7 @@ ${this.answers.map((e, t)=>`${t + 1}. ${e.text}`).join(`
                                     children: [
                                         a ? (0, j.jsxs)(j.Fragment, {
                                             children: [
-                                                (0, j.jsx)(sJe, {
+                                                (0, j.jsx)(oJe, {
                                                     styleUrl: a,
                                                     height: `260px`,
                                                     pins: o ? [
@@ -136891,7 +136885,7 @@ ${this.answers.map((e, t)=>`${t + 1}. ${e.text}`).join(`
                                             style: {
                                                 color: M.Critical.Main
                                             },
-                                            children: QYe(h.error)
+                                            children: ZYe(h.error)
                                         }),
                                         _.status === B.Error && (0, j.jsx)(z, {
                                             size: `T200`,
@@ -136921,7 +136915,7 @@ ${this.answers.map((e, t)=>`${t + 1}. ${e.text}`).join(`
                                                 (0, j.jsx)(P, {
                                                     gap: `100`,
                                                     wrap: `Wrap`,
-                                                    children: UYe.map((e)=>(0, j.jsx)(F, {
+                                                    children: HYe.map((e)=>(0, j.jsx)(F, {
                                                             size: `300`,
                                                             radii: `Pill`,
                                                             variant: `Secondary`,
@@ -136973,8 +136967,8 @@ ${this.answers.map((e, t)=>`${t + 1}. ${e.text}`).join(`
             })
         });
     }
-    var eXe = `¯\\_(ツ)_/¯`, tXe = `(╯°□°)╯︵ ┻━┻`, nXe = `┬─┬ノ( º_ºノ)`, rXe = `(?:^|\\s)-(\\w+)\\b`, iXe = new RegExp(rXe), aXe = new RegExp(rXe, `g`), N7 = (e)=>{
-        let t = e.match(iXe);
+    var $Ye = `¯\\_(ツ)_/¯`, eXe = `(╯°□°)╯︵ ┻━┻`, tXe = `┬─┬ノ( º_ºノ)`, nXe = `(?:^|\\s)-(\\w+)\\b`, rXe = new RegExp(nXe), iXe = new RegExp(nXe, `g`), N7 = (e)=>{
+        let t = e.match(rXe);
         return t ? [
             e.slice(0, t.index),
             e.slice(t.index)
@@ -136986,7 +136980,7 @@ ${this.answers.map((e, t)=>`${t + 1}. ${e.text}`).join(`
         let t = {};
         if (!e) return t;
         let n = [];
-        for(let t = aXe.exec(e); t !== null; t = aXe.exec(e))n.push({
+        for(let t = iXe.exec(e); t !== null; t = iXe.exec(e))n.push({
             key: t[1],
             index: t.index,
             match: t[0]
@@ -137001,12 +136995,12 @@ ${this.answers.map((e, t)=>`${t + 1}. ${e.text}`).join(`
         return Fr(e).forEach((e)=>{
             qG(e) && t.push(e);
         }), t;
-    }, oXe = (e)=>{
+    }, aXe = (e)=>{
         let t = [];
         return Fr(e).forEach((e)=>{
             ghe(e) && t.push(e);
         }), t;
-    }, sXe = (e, t)=>e.getMembers().filter((e)=>e.userId.endsWith(`:${t}`)), cXe = (e)=>{
+    }, oXe = (e, t)=>e.getMembers().filter((e)=>e.userId.endsWith(`:${t}`)), sXe = (e)=>{
         let t = e.match(/^(\d+(?:\.\d+)?)([dhms])$/);
         if (!t) return;
         let n = parseFloat(t[1]), r = t[2], i = Date.now(), a = 0;
@@ -137029,7 +137023,7 @@ ${this.answers.map((e, t)=>`${t + 1}. ${e.text}`).join(`
         return i - a;
     }, I7 = function(e) {
         return e.Me = `me`, e.Notice = `notice`, e.Shrug = `shrug`, e.StartDm = `startdm`, e.Join = `join`, e.Leave = `leave`, e.Invite = `invite`, e.DisInvite = `disinvite`, e.Kick = `kick`, e.Ban = `ban`, e.UnBan = `unban`, e.Ignore = `ignore`, e.UnIgnore = `unignore`, e.MyRoomNick = `myroomnick`, e.MyRoomAvatar = `myroomavatar`, e.ConvertToDm = `converttodm`, e.ConvertToRoom = `converttoroom`, e.TableFlip = `tableflip`, e.UnFlip = `unflip`, e.Delete = `delete`, e.Acl = `acl`, e.Nick = `nick`, e.MyAvatar = `myavatar`, e.Topic = `topic`, e.RoomName = `roomname`, e.RoomAvatar = `roomavatar`, e.Query = `query`, e.Whois = `whois`, e.UpgradeRoom = `upgraderoom`, e.DiscardSession = `discardsession`, e.Poll = `poll`, e.Location = `location`, e.Rainbow = `rainbow`, e.RainbowMe = `rainbowme`, e.Plain = `plain`, e.Html = `html`, e.Confetti = `confetti`, e.Fireworks = `fireworks`, e.Snowfall = `snowfall`, e.Rainfall = `rainfall`, e.Hearts = `hearts`, e;
-    }({}), lXe = (e, t)=>{
+    }({}), cXe = (e, t)=>{
         let { navigateRoom: n } = T1(), r = l2();
         return (0, A.useMemo)(()=>({
                 me: {
@@ -137049,12 +137043,12 @@ ${this.answers.map((e, t)=>`${t + 1}. ${e.text}`).join(`
                 },
                 tableflip: {
                     name: `tableflip`,
-                    description: `Send ${tXe} as message`,
+                    description: `Send ${eXe} as message`,
                     exe: async ()=>void 0
                 },
                 unflip: {
                     name: `unflip`,
-                    description: `Send ${nXe} as message`,
+                    description: `Send ${tXe} as message`,
                     exe: async ()=>void 0
                 },
                 startdm: {
@@ -137122,7 +137116,7 @@ ${this.answers.map((e, t)=>`${t + 1}. ${e.text}`).join(`
                     name: `kick`,
                     description: `Kick user from room. Example: /kick userId1 userId2 servername [-r reason]`,
                     exe: async (n)=>{
-                        let [r, i] = N7(n), a = F7(r), o = oXe(r), s = P7(i).r, c = (o?.flatMap((e)=>sXe(t, e)))?.filter((e)=>e.membership !== BU.Ban).map((e)=>e.userId);
+                        let [r, i] = N7(n), a = F7(r), o = aXe(r), s = P7(i).r, c = (o?.flatMap((e)=>oXe(t, e)))?.filter((e)=>e.membership !== BU.Ban).map((e)=>e.userId);
                         Array.isArray(c) && c.forEach((e)=>{
                             a.includes(e) || a.push(e);
                         }), lK(a, (n)=>e.kick(t.roomId, n, s));
@@ -137132,7 +137126,7 @@ ${this.answers.map((e, t)=>`${t + 1}. ${e.text}`).join(`
                     name: `ban`,
                     description: `Ban user from room. Example: /ban userId1 userId2 servername [-r reason]`,
                     exe: async (n)=>{
-                        let [r, i] = N7(n), a = F7(r), o = oXe(r), s = P7(i).r, c = (o?.flatMap((e)=>sXe(t, e)))?.map((e)=>e.userId);
+                        let [r, i] = N7(n), a = F7(r), o = aXe(r), s = P7(i).r, c = (o?.flatMap((e)=>oXe(t, e)))?.map((e)=>e.userId);
                         Array.isArray(c) && c.forEach((e)=>{
                             a.includes(e) || a.push(e);
                         }), lK(a, (n)=>e.ban(t.roomId, n, s));
@@ -137215,9 +137209,9 @@ ${this.answers.map((e, t)=>`${t + 1}. ${e.text}`).join(`
                     name: `delete`,
                     description: `Delete messages from users. Example: /delete userId1 servername -past 1d|2h|5m|30s [-t m.room.message] [-r spam]`,
                     exe: async (n)=>{
-                        let [r, i] = N7(n), a = F7(r), o = oXe(r), s = P7(i), c = s.r, l = s.past ?? ``, u = s.t, d = u ? Fr(u) : [], f = cXe(l);
+                        let [r, i] = N7(n), a = F7(r), o = aXe(r), s = P7(i), c = s.r, l = s.past ?? ``, u = s.t, d = u ? Fr(u) : [], f = sXe(l);
                         if (!f) return;
-                        let p = (o?.flatMap((e)=>sXe(t, e)))?.map((e)=>e.userId);
+                        let p = (o?.flatMap((e)=>oXe(t, e)))?.map((e)=>e.userId);
                         Array.isArray(p) && p.forEach((e)=>{
                             a.includes(e) || a.push(e);
                         });
@@ -137404,7 +137398,7 @@ ${this.answers.map((e, t)=>`${t + 1}. ${e.text}`).join(`
             n,
             r
         ]);
-    }, uXe = (e, t)=>{
+    }, lXe = (e, t)=>{
         let n = p3(e);
         return (0, A.useMemo)(()=>{
             let r = new Set(t), i = new Map;
@@ -137432,19 +137426,19 @@ ${this.answers.map((e, t)=>`${t + 1}. ${e.text}`).join(`
             e,
             t
         ]);
-    }, dXe = {
+    }, uXe = {
         matchOptions: {
             contain: !0
         }
     };
-    function fXe({ room: e, editor: t, query: n, requestClose: r }) {
-        let i = lXe(J(), e), a = g7(), o = (0, A.useMemo)(()=>{
+    function dXe({ room: e, editor: t, query: n, requestClose: r }) {
+        let i = cXe(J(), e), a = g7(), o = (0, A.useMemo)(()=>{
             let e = Object.keys(i);
             return a ? e : e.filter((e)=>e !== I7.Location);
         }, [
             i,
             a
-        ]), s = uXe(e, o), c = (0, A.useMemo)(()=>{
+        ]), s = lXe(e, o), c = (0, A.useMemo)(()=>{
             let e = o.map((e)=>({
                     name: e,
                     insertName: e,
@@ -137466,7 +137460,7 @@ ${this.answers.map((e, t)=>`${t + 1}. ${e.text}`).join(`
             o,
             i,
             s
-        ]), [l, u, d] = ZX(c, (0, A.useCallback)((e)=>e.name, []), dXe), f = l ? l.items : c;
+        ]), [l, u, d] = ZX(c, (0, A.useCallback)((e)=>e.name, []), uXe), f = l ? l.items : c;
         (0, A.useEffect)(()=>{
             n.text ? u(n.text) : d();
         }, [
@@ -137553,19 +137547,19 @@ ${this.answers.map((e, t)=>`${t + 1}. ${e.text}`).join(`
                 }, `${e.botName ?? ``}/${e.insertName}`))
         });
     }
-    var pXe = 200, mXe = (e, t)=>{
+    var fXe = 200, pXe = (e, t)=>{
         if (!t) return !1;
         let n = e.getContent()[`m.mentions`];
         return Array.isArray(n?.user_ids) && n.user_ids.includes(t);
-    }, hXe = (e, t)=>{
-        let n = e.getLiveTimeline().getEvents(), r = Math.max(0, n.length - pXe);
+    }, mXe = (e, t)=>{
+        let n = e.getLiveTimeline().getEvents(), r = Math.max(0, n.length - fXe);
         for(let e = n.length - 1; e >= r; --e){
             let r = n[e];
             if (!r || r.isRedacted()) continue;
             let i = r.getSender();
             if (!i || i === t) continue;
             let a = CNe(r.getContent()[a3.ReplyMarkup]);
-            if (!a || !uNe(a) && !dNe(a) && !fNe(a) || a.selective && !mXe(r, t)) continue;
+            if (!a || !uNe(a) && !dNe(a) && !fNe(a) || a.selective && !pXe(r, t)) continue;
             let o = r.getId();
             if (o) return dNe(a) ? {
                 kind: `none`
@@ -137584,7 +137578,7 @@ ${this.answers.map((e, t)=>`${t + 1}. ${e.text}`).join(`
         return {
             kind: `none`
         };
-    }, gXe = (e)=>{
+    }, hXe = (e)=>{
         let t = J(), [n, r] = aX(), [i, a] = (0, A.useState)(null), [o, s] = (0, A.useState)(null);
         (0, A.useEffect)(()=>{
             let n = (t, n)=>{
@@ -137598,7 +137592,7 @@ ${this.answers.map((e, t)=>`${t + 1}. ${e.text}`).join(`
             e.roomId,
             r
         ]);
-        let c = (0, A.useMemo)(()=>hXe(e, t.getUserId()), [
+        let c = (0, A.useMemo)(()=>mXe(e, t.getUserId()), [
             e,
             t,
             n
@@ -137629,20 +137623,20 @@ ${this.answers.map((e, t)=>`${t + 1}. ${e.text}`).join(`
             p,
             f
         ]);
-    }, _Xe = `_9pp3jz0`, vXe = `_9pp3jz1`, yXe = `_9pp3jz2 _1mqalmd1 _1mqalmd0`;
-    function bXe({ room: e, keyboard: t, onPressKey: n }) {
+    }, gXe = `_9pp3jz0`, _Xe = `_9pp3jz1`, vXe = `_9pp3jz2 _1mqalmd1 _1mqalmd0`;
+    function yXe({ room: e, keyboard: t, onPressKey: n }) {
         let { state: r, dismiss: i, noteUsed: a, collapsed: o, expand: s } = t;
         if (r.kind !== `keyboard`) return null;
         let c = PG(e, r.botUserId) ?? KG(r.botUserId) ?? r.botUserId;
         if (o) return (0, j.jsx)(P, {
-            className: _Xe,
+            className: gXe,
             alignItems: `Center`,
             gap: `200`,
             children: (0, j.jsx)(P, {
                 grow: `Yes`,
                 children: (0, j.jsx)(`button`, {
                     type: `button`,
-                    className: yXe,
+                    className: vXe,
                     onClick: s,
                     children: (0, j.jsxs)(z, {
                         as: `span`,
@@ -137658,7 +137652,7 @@ ${this.answers.map((e, t)=>`${t + 1}. ${e.text}`).join(`
         });
         let l = r.markup.resize_keyboard !== !0;
         return (0, j.jsxs)(P, {
-            className: _Xe,
+            className: gXe,
             direction: `Column`,
             gap: `100`,
             children: [
@@ -137692,10 +137686,10 @@ ${this.answers.map((e, t)=>`${t + 1}. ${e.text}`).join(`
                     ]
                 }),
                 r.markup.keyboard.map((e, t)=>(0, j.jsx)(`div`, {
-                        className: vXe,
+                        className: _Xe,
                         children: e.map((e)=>(0, j.jsx)(`button`, {
                                 type: `button`,
-                                className: (0, bt.default)(yXe, l && `_9pp3jz3`),
+                                className: (0, bt.default)(vXe, l && `_9pp3jz3`),
                                 onClick: ()=>{
                                     n(e.text), a();
                                 },
@@ -137710,7 +137704,7 @@ ${this.answers.map((e, t)=>`${t + 1}. ${e.text}`).join(`
             ]
         });
     }
-    function xXe({ room: e, editor: t }) {
+    function bXe({ room: e, editor: t }) {
         let n = p3(e), [r, i] = (0, A.useState)(null), a = (0, A.useMemo)(()=>{
             let e = !1, t = null;
             return n.forEach((n)=>{
@@ -137747,7 +137741,7 @@ ${this.answers.map((e, t)=>`${t + 1}. ${e.text}`).join(`
                         src: L.External
                     })
                 }),
-                r && (0, j.jsx)(Jqe, {
+                r && (0, j.jsx)(qqe, {
                     url: r,
                     onConfirm: ()=>{
                         window.open(r, `_blank`, `noopener,noreferrer`), i(null);
@@ -137767,11 +137761,11 @@ ${this.answers.map((e, t)=>`${t + 1}. ${e.text}`).join(`
             })
         }) : null;
     }
-    function SXe({ onToggle: e }) {
+    function xXe({ onToggle: e }) {
         return d7(`toggle-emoji-picker`, e), null;
     }
-    var CXe = (0, A.forwardRef)(({ editor: e, fileDropContainerRef: t, roomId: n, room: r, threadRootId: i, threadLatestEventId: a }, o)=>{
-        let s = J(), c = FX(), [l] = Y(X, `enterForNewline`), [u] = Y(X, `isMarkdown`), [d] = Y(X, `hideActivity`), [f] = Y(X, `legacyUsernameColor`), p = P4(), m = lXe(s, r), h = (0, A.useRef)(null), g = Oi(Pq), _ = uX(), v = UX(r), y = i ? `${n}|thread:${i}` : n, [b, x] = Ai(Eqe(y)), [S, C] = Ai(Oqe(y)), w = S?.userId, T = gXe(r), E = (0, A.useRef)(null);
+    var SXe = (0, A.forwardRef)(({ editor: e, fileDropContainerRef: t, roomId: n, room: r, threadRootId: i, threadLatestEventId: a }, o)=>{
+        let s = J(), c = FX(), [l] = Y(X, `enterForNewline`), [u] = Y(X, `isMarkdown`), [d] = Y(X, `hideActivity`), [f] = Y(X, `legacyUsernameColor`), p = P4(), m = cXe(s, r), h = (0, A.useRef)(null), g = Oi(Pq), _ = uX(), v = UX(r), y = i ? `${n}|thread:${i}` : n, [b, x] = Ai(Tqe(y)), [S, C] = Ai(Dqe(y)), w = S?.userId, T = hXe(r), E = (0, A.useRef)(null);
         (0, A.useEffect)(()=>{
             let t = T.state;
             if (t.kind !== `force_reply`) {
@@ -137794,7 +137788,7 @@ ${this.answers.map((e, t)=>`${t + 1}. ${e.text}`).join(`
             C,
             e
         ]);
-        let D = p2(r, _), O = _2(), k = D4(r, v, _), ee = k4(L$().kind, O, D), te = w ? k(w) : void 0, ne = te?.color ? ee.get(te.color) : void 0, re = f || p ? eX(w ?? ``) : ne, [ie, ae] = (0, A.useState)(!0), [oe, se] = Ai(Cqe(y)), ce = Sqe(wqe, oe.map((e)=>e.file)), le = (0, A.useRef)(void 0), ue = pJe(n, g), [de, fe] = Y(X, `editorToolbar`), [pe, me] = (0, A.useState)(), he = NJe(s, n), ge = SYe(n), [_e, ve] = (0, A.useState)(!1), [ye, be] = (0, A.useState)(!1), xe = g7(), Se = ge.status !== A7.Idle, Ce = (0, A.useMemo)(()=>bYe(), []), we = (0, A.useCallback)(async (e)=>{
+        let D = p2(r, _), O = _2(), k = D4(r, v, _), ee = k4(L$().kind, O, D), te = w ? k(w) : void 0, ne = te?.color ? ee.get(te.color) : void 0, re = f || p ? eX(w ?? ``) : ne, [ie, ae] = (0, A.useState)(!0), [oe, se] = Ai(Sqe(y)), ce = xqe(Cqe, oe.map((e)=>e.file)), le = (0, A.useRef)(void 0), ue = fJe(n, g), [de, fe] = Y(X, `editorToolbar`), [pe, me] = (0, A.useState)(), he = MJe(s, n), ge = xYe(n), [_e, ve] = (0, A.useState)(!1), [ye, be] = (0, A.useState)(!1), xe = g7(), Se = ge.status !== A7.Idle, Ce = (0, A.useMemo)(()=>yYe(), []), we = (0, A.useCallback)(async (e)=>{
             ae(!0);
             let t = e.map(PTe), n = [];
             r.hasEncryptionStateEvent() ? br(await Promise.allSettled(t.map((e)=>$G(e)))).forEach((e)=>n.push({
@@ -137818,12 +137812,12 @@ ${this.answers.map((e, t)=>`${t + 1}. ${e.text}`).join(`
             r
         ]);
         (0, A.useEffect)(()=>{
-            if (!i) return FJe(we), ()=>FJe(null);
+            if (!i) return PJe(we), ()=>PJe(null);
         }, [
             we,
             i
         ]);
-        let Te = T7(we, !0), Ee = PJe(we);
+        let Te = T7(we, !0), Ee = NJe(we);
         d7(`upload-file`, ()=>{
             i || Te(`*/*`);
         }), d7(`focus-textarea`, ()=>{
@@ -137839,7 +137833,7 @@ ${this.answers.map((e, t)=>`${t + 1}. ${e.text}`).join(`
             t && we(t);
         }, [
             we
-        ]), Oe = RJe(t, we), [ke, Ae] = (0, A.useState)(document.body.clientWidth < 500), je = gGe();
+        ]), Oe = LJe(t, we), [ke, Ae] = (0, A.useState)(document.body.clientWidth < 500), je = hGe();
         gp((0, A.useCallback)(()=>t.current, [
             t
         ]), (0, A.useCallback)((e)=>Ae(e < 500), [])), (0, A.useEffect)(()=>{
@@ -137877,7 +137871,7 @@ ${this.answers.map((e, t)=>`${t + 1}. ${e.text}`).join(`
             se({
                 type: `DELETE`,
                 item: oe.filter((e)=>t.find((t)=>t === e.file))
-            }), t.forEach((e)=>wqe.remove(e));
+            }), t.forEach((e)=>Cqe.remove(e));
         }, [
             se,
             oe
@@ -137889,7 +137883,7 @@ ${this.answers.map((e, t)=>`${t + 1}. ${e.text}`).join(`
             let t = e.map(async (e)=>{
                 let t = oe.find((t)=>t.file === e.file);
                 if (!t) throw Error(`Broken upload`);
-                return t.file.type.startsWith(`image`) ? rYe(s, t, e.mxc) : t.file.type.startsWith(`video`) ? iYe(s, t, e.mxc) : t.file.type.startsWith(`audio`) ? aYe(t, e.mxc) : sYe(t, e.mxc);
+                return t.file.type.startsWith(`image`) ? nYe(s, t, e.mxc) : t.file.type.startsWith(`video`) ? rYe(s, t, e.mxc) : t.file.type.startsWith(`audio`) ? iYe(t, e.mxc) : oYe(t, e.mxc);
             });
             Pe(e), br(await Promise.allSettled(t)).forEach((e)=>{
                 i && Ie(e), s.sendMessage(n, e);
@@ -137929,7 +137923,7 @@ ${this.answers.map((e, t)=>`${t + 1}. ${e.text}`).join(`
                             onSuccess: e,
                             onError: t
                         });
-                    }), l = oYe({
+                    }), l = aYe({
                         file: o,
                         originalFile: i,
                         encInfo: a?.encInfo,
@@ -137953,17 +137947,17 @@ ${this.answers.map((e, t)=>`${t + 1}. ${e.text}`).join(`
             Ie
         ]), Re = (0, A.useCallback)(()=>{
             le.current?.handleSend();
-            let t = sHe(e), r = y5(e.children, u).trim(), i = dWe(v5(e.children, {
+            let t = sHe(e), r = y5(e.children, u).trim(), i = uWe(v5(e.children, {
                 allowTextFormatting: !0,
                 allowBlockMarkdown: u,
                 allowInlineMarkdown: u
             })), a = oR.Text, o, c = t && kOe(t) ? t : void 0, l = t !== void 0 && t in m;
-            if (t && l && (r = fWe(t, r), i = fWe(t, i)), t === I7.Me) a = oR.Emote;
+            if (t && l && (r = dWe(t, r), i = dWe(t, i)), t === I7.Me) a = oR.Emote;
             else if (t === I7.Notice) a = oR.Notice;
-            else if (t === I7.Shrug) r = `${eXe} ${r}`, i = `${eXe} ${i}`;
-            else if (t === I7.TableFlip) r = `${tXe} ${r}`, i = `${tXe} ${i}`;
-            else if (t === I7.UnFlip) r = `${nXe} ${r}`, i = `${nXe} ${i}`;
-            else if (t === I7.Rainbow || t === I7.RainbowMe) t === I7.RainbowMe && (a = oR.Emote), i = EYe(r);
+            else if (t === I7.Shrug) r = `${$Ye} ${r}`, i = `${$Ye} ${i}`;
+            else if (t === I7.TableFlip) r = `${eXe} ${r}`, i = `${eXe} ${i}`;
+            else if (t === I7.UnFlip) r = `${tXe} ${r}`, i = `${tXe} ${i}`;
+            else if (t === I7.Rainbow || t === I7.RainbowMe) t === I7.RainbowMe && (a = oR.Emote), i = TYe(r);
             else if (t === I7.Plain) i = r;
             else if (t === I7.Html) i = r;
             else if (t === I7.Poll) {
@@ -138051,17 +138045,17 @@ ${this.answers.map((e, t)=>`${t + 1}. ${e.text}`).join(`
         return (0, j.jsxs)(`div`, {
             ref: o,
             children: [
-                _e && (0, j.jsx)(zYe, {
+                _e && (0, j.jsx)(RYe, {
                     room: r,
                     requestClose: ()=>ve(!1)
                 }),
-                ye && (0, j.jsx)($Ye, {
+                ye && (0, j.jsx)(QYe, {
                     room: r,
                     threadRootId: i,
                     requestClose: ()=>be(!1)
                 }),
-                oe.length > 0 && (0, j.jsx)($Je, {
-                    header: (0, j.jsx)(eYe, {
+                oe.length > 0 && (0, j.jsx)(QJe, {
+                    header: (0, j.jsx)($Je, {
                         open: ie,
                         onToggle: ()=>ae(!ie),
                         uploadFamilyObserverAtom: ce,
@@ -138073,8 +138067,8 @@ ${this.answers.map((e, t)=>`${t + 1}. ${e.text}`).join(`
                         size: `300`,
                         hideTrack: !0,
                         visibility: `Hover`,
-                        children: (0, j.jsx)(tYe, {
-                            children: Array.from(oe).reverse().map((e, t)=>(0, j.jsx)(qJe, {
+                        children: (0, j.jsx)(eYe, {
+                            children: Array.from(oe).reverse().map((e, t)=>(0, j.jsx)(KJe, {
                                     isEncrypted: !!e.encInfo,
                                     fileItem: e,
                                     setMetadata: Me,
@@ -138137,7 +138131,7 @@ ${this.answers.map((e, t)=>`${t + 1}. ${e.text}`).join(`
                     query: pe,
                     requestClose: He
                 }),
-                pe?.prefix === m6.Command && (0, j.jsx)(fXe, {
+                pe?.prefix === m6.Command && (0, j.jsx)(dXe, {
                     room: r,
                     editor: e,
                     query: pe,
@@ -138153,7 +138147,7 @@ ${this.answers.map((e, t)=>`${t + 1}. ${e.text}`).join(`
                     onDrop: De,
                     top: (0, j.jsxs)(j.Fragment, {
                         children: [
-                            (0, j.jsx)(bXe, {
+                            (0, j.jsx)(yXe, {
                                 room: r,
                                 keyboard: T,
                                 onPressKey: ze
@@ -138188,7 +138182,7 @@ ${this.answers.map((e, t)=>`${t + 1}. ${e.text}`).join(`
                                     })
                                 ]
                             }),
-                            Se && (0, j.jsx)(CYe, {
+                            Se && (0, j.jsx)(SYe, {
                                 controls: ge,
                                 onSend: Le
                             }),
@@ -138271,7 +138265,7 @@ ${this.answers.map((e, t)=>`${t + 1}. ${e.text}`).join(`
                                     src: L.PlusCircle
                                 })
                             }),
-                            (0, j.jsx)(xXe, {
+                            (0, j.jsx)(bXe, {
                                 room: r,
                                 editor: e
                             })
@@ -138306,7 +138300,7 @@ ${this.answers.map((e, t)=>`${t + 1}. ${e.text}`).join(`
                                 initial: void 0,
                                 children: (t, n)=>(0, j.jsxs)(j.Fragment, {
                                         children: [
-                                            (0, j.jsx)(SXe, {
+                                            (0, j.jsx)(xXe, {
                                                 onToggle: ()=>n((e)=>e === O3.Emoji ? void 0 : O3.Emoji)
                                             }),
                                             (0, j.jsxs)(Gn, {
@@ -138388,13 +138382,13 @@ ${this.answers.map((e, t)=>`${t + 1}. ${e.text}`).join(`
                                 variant: `SurfaceVariant`,
                                 size: `300`
                             }),
-                            (0, j.jsx)(bWe, {})
+                            (0, j.jsx)(yWe, {})
                         ]
                     })
                 })
             ]
         });
-    }), wXe = `kq7ios0 _1mqalmd1 _1mqalmd0`, TXe = xq({
+    }), CXe = `kq7ios0 _1mqalmd1 _1mqalmd0`, wXe = xq({
         defaultClassName: `kq7ios1 _1mqalmd1 _1mqalmd0`,
         variantClassNames: {
             clickable: {
@@ -138403,7 +138397,7 @@ ${this.answers.map((e, t)=>`${t + 1}. ${e.text}`).join(`
         },
         defaultVariants: {},
         compoundVariants: []
-    }), EXe = (e)=>{
+    }), TXe = (e)=>{
         let [t] = Y(X, `hideMembershipEvents`), [n] = Y(X, `hideNickAvatarEvents`), [r] = Y(X, `showHiddenEvents`), [i, a] = (0, A.useState)();
         return (0, A.useEffect)(()=>{
             let i = ()=>{
@@ -138432,14 +138426,14 @@ ${this.answers.map((e, t)=>`${t + 1}. ${e.text}`).join(`
             r
         ]), i;
     };
-    function DXe() {
+    function EXe() {
         return (0, j.jsx)(`div`, {
-            className: wXe
+            className: CXe
         });
     }
-    var OXe = $t(({ className: e, room: t, ...n }, r)=>{
-        let i = J(), [a] = Y(X, `readReceiptStyle`), [o, s] = (0, A.useState)(!1), c = EXe(t), l = KNe(t, c?.getId()).filter((e)=>e !== i.getUserId()).map((e)=>PG(t, e) ?? KG(e) ?? e), u = c?.getId();
-        return a === `element` ? (0, j.jsx)(DXe, {}) : (0, j.jsxs)(j.Fragment, {
+    var DXe = $t(({ className: e, room: t, ...n }, r)=>{
+        let i = J(), [a] = Y(X, `readReceiptStyle`), [o, s] = (0, A.useState)(!1), c = TXe(t), l = KNe(t, c?.getId()).filter((e)=>e !== i.getUserId()).map((e)=>PG(t, e) ?? KG(e) ?? e), u = c?.getId();
+        return a === `element` ? (0, j.jsx)(EXe, {}) : (0, j.jsxs)(j.Fragment, {
             children: [
                 u && (0, j.jsx)(Ln, {
                     open: o,
@@ -138473,7 +138467,7 @@ ${this.answers.map((e, t)=>`${t + 1}. ${e.text}`).join(`
                 (0, j.jsx)(P, {
                     as: l.length > 0 ? `button` : `div`,
                     onClick: l.length > 0 ? ()=>s(!0) : void 0,
-                    className: (0, bt.default)(TXe({
+                    className: (0, bt.default)(wXe({
                         clickable: l.length > 0
                     }), e),
                     alignItems: `Center`,
@@ -138610,8 +138604,8 @@ ${this.answers.map((e, t)=>`${t + 1}. ${e.text}`).join(`
                 })
             ]
         });
-    }), kXe = pi({}), AXe = $t(({ room: e, ...t }, n)=>{
-        let r = K5(e), { navigateRoom: i } = T1(), [a, o] = Ai(kXe), [s, c] = (0, A.useState)(0), l = (0, A.useMemo)(()=>Array.from(r).reverse(), [
+    }), OXe = pi({}), kXe = $t(({ room: e, ...t }, n)=>{
+        let r = K5(e), { navigateRoom: i } = T1(), [a, o] = Ai(OXe), [s, c] = (0, A.useState)(0), l = (0, A.useMemo)(()=>Array.from(r).reverse(), [
             r
         ]), u = l.length > 0 ? s % l.length : 0, d = l[u], f = p0(e, d ?? ``);
         if (l.length === 0 || !d || a[e.roomId] === l[0] || !f || f.isRedacted()) return null;
@@ -138711,16 +138705,16 @@ ${this.answers.map((e, t)=>`${t + 1}. ${e.text}`).join(`
                 })
             ]
         });
-    }), jXe = /^F\d+$/, MXe = (e)=>{
+    }), AXe = /^F\d+$/, jXe = (e)=>{
         let { code: t } = e;
-        return !(e.metaKey || e.altKey || e.ctrlKey || jXe.test(t) || t.startsWith(`OS`) || t.startsWith(`Meta`) || t.startsWith(`Shift`) || t.startsWith(`Alt`) || t.startsWith(`Control`) || t.startsWith(`Arrow`) || t.startsWith(`Page`) || t.startsWith(`End`) || t.startsWith(`Home`) || t === `Tab` || t === `Space` || t === `Enter` || t === `NumLock` || t === `ScrollLock`);
+        return !(e.metaKey || e.altKey || e.ctrlKey || AXe.test(t) || t.startsWith(`OS`) || t.startsWith(`Meta`) || t.startsWith(`Shift`) || t.startsWith(`Alt`) || t.startsWith(`Control`) || t.startsWith(`Arrow`) || t.startsWith(`Page`) || t.startsWith(`End`) || t.startsWith(`Home`) || t === `Tab` || t === `Space` || t === `Enter` || t === `NumLock` || t === `ScrollLock`);
     };
-    function NXe({ eventId: e }) {
+    function MXe({ eventId: e }) {
         let t = (0, A.useRef)(null), n = (0, A.useRef)(null), [r] = Y(X, `hideActivity`), i = M4(), { roomId: a } = i, o = c5(), s = J(), c = oX(i, q.RoomTombstone), l = uX(), u = KX(UX(i), l).event(G.RoomMessage, s.getSafeUserId());
         return h7(window, (0, A.useCallback)((e)=>{
             if (mX()) return;
             let t = document.getElementById(`portalContainer`);
-            t && t.children.length > 0 || (MXe(e) || up(`mod+v`, e)) && Q8(o);
+            t && t.children.length > 0 || (jXe(e) || up(`mod+v`, e)) && Q8(o);
         }, [
             o
         ])), (0, j.jsxs)(m1, {
@@ -138730,13 +138724,13 @@ ${this.answers.map((e, t)=>`${t + 1}. ${e.text}`).join(`
                     grow: `Yes`,
                     direction: `Column`,
                     children: [
-                        (0, j.jsx)(DJe, {
+                        (0, j.jsx)(EJe, {
                             room: i,
                             eventId: e,
                             roomInputRef: t,
                             editor: o
                         }, a),
-                        (0, j.jsx)(AJe, {
+                        (0, j.jsx)(kJe, {
                             room: i
                         })
                     ]
@@ -138750,23 +138744,23 @@ ${this.answers.map((e, t)=>`${t + 1}. ${e.text}`).join(`
                                 padding: `0 ${N.space.S400}`
                             },
                             children: [
-                                (0, j.jsx)(AXe, {
+                                (0, j.jsx)(kXe, {
                                     room: i
                                 }),
-                                c ? (0, j.jsx)(MJe, {
+                                c ? (0, j.jsx)(jJe, {
                                     roomId: a,
                                     body: c.getContent().body,
                                     replacementRoomId: c.getContent().replacement_room
                                 }) : (0, j.jsxs)(j.Fragment, {
                                     children: [
-                                        u && (0, j.jsx)(CXe, {
+                                        u && (0, j.jsx)(SXe, {
                                             room: i,
                                             editor: o,
                                             roomId: a,
                                             fileDropContainerRef: n,
                                             ref: t
                                         }),
-                                        !u && (0, j.jsx)(XGe, {
+                                        !u && (0, j.jsx)(YGe, {
                                             style: {
                                                 padding: N.space.S200
                                             },
@@ -138781,7 +138775,7 @@ ${this.answers.map((e, t)=>`${t + 1}. ${e.text}`).join(`
                                 })
                             ]
                         }),
-                        r ? (0, j.jsx)(DXe, {}) : (0, j.jsx)(OXe, {
+                        r ? (0, j.jsx)(EXe, {}) : (0, j.jsx)(DXe, {
                             room: i
                         })
                     ]
@@ -138789,13 +138783,13 @@ ${this.answers.map((e, t)=>`${t + 1}. ${e.text}`).join(`
             ]
         });
     }
-    var PXe = `_18fjf6z0`, FXe = `_18fjf6z1`, IXe = `_18fjf6z2`, LXe = `_18fjf6z3`, RXe = `_18fjf6z4`, zXe = `_18fjf6z5`, BXe = `_18fjf6z8`, VXe = `_18fjf6z9`, HXe = `_18fjf6za`, UXe = `_18fjf6zb`, WXe = pi(!1), GXe = pi(0), L7 = {
+    var NXe = `_18fjf6z0`, PXe = `_18fjf6z1`, FXe = `_18fjf6z2`, IXe = `_18fjf6z3`, LXe = `_18fjf6z4`, RXe = `_18fjf6z5`, zXe = `_18fjf6z8`, BXe = `_18fjf6z9`, VXe = `_18fjf6za`, HXe = `_18fjf6zb`, UXe = pi(!1), WXe = pi(0), L7 = {
         filterJoined: (e)=>e.membership === BU.Join,
         filterInvited: (e)=>e.membership === BU.Invite,
         filterLeaved: (e)=>e.membership === BU.Leave && e.events.member?.getStateKey() === e.events.member?.getSender(),
         filterKicked: (e)=>e.membership === BU.Leave && e.events.member?.getStateKey() !== e.events.member?.getSender(),
         filterBanned: (e)=>e.membership === BU.Ban
-    }, KXe = ()=>(0, A.useMemo)(()=>[
+    }, GXe = ()=>(0, A.useMemo)(()=>[
                 {
                     name: `Joined`,
                     filterFn: L7.filterJoined
@@ -138816,12 +138810,12 @@ ${this.answers.map((e, t)=>`${t + 1}. ${e.text}`).join(`
                     name: `Banned`,
                     filterFn: L7.filterBanned
                 }
-            ], []), qXe = (e, t)=>t[e] ?? t[0], R7 = {
+            ], []), KXe = (e, t)=>t[e] ?? t[0], R7 = {
         Ascending: (e, t)=>e.name.toLowerCase() < t.name.toLowerCase() ? -1 : 1,
         Descending: (e, t)=>e.name.toLowerCase() > t.name.toLowerCase() ? -1 : 1,
         NewestFirst: (e, t)=>(t.events.member?.getTs() ?? 0) - (e.events.member?.getTs() ?? 0),
         Oldest: (e, t)=>(e.events.member?.getTs() ?? 0) - (t.events.member?.getTs() ?? 0)
-    }, JXe = ()=>(0, A.useMemo)(()=>[
+    }, qXe = ()=>(0, A.useMemo)(()=>[
                 {
                     name: `A to Z`,
                     sortFn: R7.Ascending
@@ -138838,11 +138832,42 @@ ${this.answers.map((e, t)=>`${t + 1}. ${e.text}`).join(`
                     name: `Oldest`,
                     sortFn: R7.Oldest
                 }
-            ], []), YXe = (e, t)=>t[e] ?? t[0], XXe = (e, t)=>(0, A.useCallback)((n, r)=>e.has(n.userId) && e.has(r.userId) ? 0 : e.has(n.userId) ? -1 : e.has(r.userId) ? 1 : t(r.userId) - t(n.userId), [
+            ], []), JXe = (e, t)=>t[e] ?? t[0], YXe = (e, t)=>(0, A.useCallback)((n, r)=>e.has(n.userId) && e.has(r.userId) ? 0 : e.has(n.userId) ? -1 : e.has(r.userId) ? 1 : t(r.userId) - t(n.userId), [
             e
         ]);
+    function XXe({ selected: e, onSelect: t, requestClose: n }) {
+        let r = GXe();
+        return (0, j.jsx)(cp.FocusTrap, {
+            focusTrapOptions: {
+                initialFocus: !1,
+                onDeactivate: n,
+                clickOutsideDeactivates: !0,
+                isKeyForward: (e)=>e.key === `ArrowDown`,
+                isKeyBackward: (e)=>e.key === `ArrowUp`,
+                escapeDeactivates: mp
+            },
+            children: (0, j.jsx)(An, {
+                style: {
+                    padding: N.space.S100
+                },
+                children: r.map((r, i)=>(0, j.jsx)(kn, {
+                        variant: `Surface`,
+                        "aria-pressed": e === i,
+                        size: `300`,
+                        radii: `300`,
+                        onClick: ()=>{
+                            t(i), n();
+                        },
+                        children: (0, j.jsx)(z, {
+                            size: `T300`,
+                            children: r.name
+                        })
+                    }, r.name))
+            })
+        });
+    }
     function ZXe({ selected: e, onSelect: t, requestClose: n }) {
-        let r = KXe();
+        let r = qXe();
         return (0, j.jsx)(cp.FocusTrap, {
             focusTrapOptions: {
                 initialFocus: !1,
@@ -138872,46 +138897,15 @@ ${this.answers.map((e, t)=>`${t + 1}. ${e.text}`).join(`
             })
         });
     }
-    function QXe({ selected: e, onSelect: t, requestClose: n }) {
-        let r = JXe();
-        return (0, j.jsx)(cp.FocusTrap, {
-            focusTrapOptions: {
-                initialFocus: !1,
-                onDeactivate: n,
-                clickOutsideDeactivates: !0,
-                isKeyForward: (e)=>e.key === `ArrowDown`,
-                isKeyBackward: (e)=>e.key === `ArrowUp`,
-                escapeDeactivates: mp
-            },
-            children: (0, j.jsx)(An, {
-                style: {
-                    padding: N.space.S100
-                },
-                children: r.map((r, i)=>(0, j.jsx)(kn, {
-                        variant: `Surface`,
-                        "aria-pressed": e === i,
-                        size: `300`,
-                        radii: `300`,
-                        onClick: ()=>{
-                            t(i), n();
-                        },
-                        children: (0, j.jsx)(z, {
-                            size: `T300`,
-                            children: r.name
-                        })
-                    }, r.name))
-            })
-        });
-    }
-    var $Xe = 20, eZe = 5e4, tZe = 100, nZe = 2, rZe = (e, t)=>({
+    var QXe = 20, $Xe = 5e4, eZe = 100, tZe = 2, nZe = (e, t)=>({
             ...e.getEffectiveEvent(),
             room_id: t
-        }), iZe = (e, t)=>e.length === 0 ? [] : [
+        }), rZe = (e, t)=>e.length === 0 ? [] : [
             {
                 roomId: t,
                 items: e.map((n, r)=>({
                         rank: e.length - r,
-                        event: rZe(n, t),
+                        event: nZe(n, t),
                         context: {
                             events_before: [],
                             events_after: [],
@@ -138919,11 +138913,11 @@ ${this.answers.map((e, t)=>`${t + 1}. ${e.text}`).join(`
                         }
                     }))
             }
-        ], aZe = (e, t, n)=>{
+        ], iZe = (e, t, n)=>{
         if (e.getType() !== G.RoomMessage || e.isRedacted()) return !1;
         let r = e.getContent(), i = typeof r.body == `string` ? r.body.toLowerCase() : ``;
         return i ? i.includes(t) ? !0 : n.length > 1 && n.every((e)=>i.includes(e)) : !1;
-    }, oZe = (e, t)=>{
+    }, aZe = (e, t)=>{
         let n = J(), r = (0, A.useRef)(null);
         return (0, A.useCallback)(async (i, a)=>{
             let o = t?.toLowerCase().trim();
@@ -138948,11 +138942,11 @@ ${this.answers.map((e, t)=>`${t + 1}. ${e.text}`).join(`
                     !i || u.has(i) || (u.add(i), c.scanned += 1, t.push(r));
                 }
                 await Promise.all(t.map((e)=>e.isEncrypted() && e.getType() === G.RoomMessageEncrypted && !e.isDecryptionFailure() ? n.decryptEventIfNeeded(e).catch(()=>void 0) : void 0));
-                for(let e = 0; e < t.length; e += 1)aZe(t[e], o, s) && c.matches.push(t[e]);
-            }, f = i && parseInt(i, 10) || 0, p = f + $Xe;
+                for(let e = 0; e < t.length; e += 1)iZe(t[e], o, s) && c.matches.push(t[e]);
+            }, f = i && parseInt(i, 10) || 0, p = f + QXe;
             await d();
             let m = 0;
-            for(; !a?.aborted && c.matches.length < p && !c.exhausted && c.scanned < eZe && m < nZe;){
+            for(; !a?.aborted && c.matches.length < p && !c.exhausted && c.scanned < $Xe && m < tZe;){
                 if (!l.getPaginationToken(IR.BACKWARDS)) {
                     c.exhausted = !0;
                     break;
@@ -138962,7 +138956,7 @@ ${this.answers.map((e, t)=>`${t + 1}. ${e.text}`).join(`
                 try {
                     e = await n.paginateEventTimeline(l, {
                         backwards: !0,
-                        limit: tZe
+                        limit: eZe
                     });
                 } catch  {
                     e = !1;
@@ -138973,11 +138967,11 @@ ${this.answers.map((e, t)=>`${t + 1}. ${e.text}`).join(`
                 }
                 await d();
             }
-            if (c.scanned >= eZe && (c.exhausted = !0), a?.aborted) throw new DOMException(`Search cancelled`, `AbortError`);
-            let h = c.matches.slice(f, f + $Xe), g = f + h.length, _ = c.matches.length > g || !c.exhausted;
+            if (c.scanned >= $Xe && (c.exhausted = !0), a?.aborted) throw new DOMException(`Search cancelled`, `AbortError`);
+            let h = c.matches.slice(f, f + QXe), g = f + h.length, _ = c.matches.length > g || !c.exhausted;
             return {
                 highlights: s,
-                groups: iZe(h, e.roomId),
+                groups: rZe(h, e.roomId),
                 nextToken: _ ? String(g) : void 0
             };
         }, [
@@ -138985,8 +138979,8 @@ ${this.answers.map((e, t)=>`${t + 1}. ${e.text}`).join(`
             e,
             t
         ]);
-    }, sZe = 20, cZe = 20;
-    function lZe({ room: e, term: t, onOpen: n }) {
+    }, oZe = 20, sZe = 20;
+    function cZe({ room: e, term: t, onOpen: n }) {
         let r = J(), i = Oi(Mq), [a] = Y(X, `mediaAutoLoad`), [o] = Y(X, `urlPreview`), [s] = Y(X, `legacyUsernameColor`), [c] = Y(X, `hour24Clock`), [l] = Y(X, `dateFormatString`), u = e.hasEncryptionStateEvent(), d = Xwe((0, A.useMemo)(()=>({
                 term: t,
                 order: aV.Recent,
@@ -138996,7 +138990,7 @@ ${this.answers.map((e, t)=>`${t + 1}. ${e.text}`).join(`
             }), [
             t,
             e.roomId
-        ])), f = oZe(e, t), p = u ? f : d, { status: m, data: h, error: g, fetchNextPage: _, hasNextPage: v, isFetchingNextPage: y } = sd({
+        ])), f = aZe(e, t), p = u ? f : d, { status: m, data: h, error: g, fetchNextPage: _, hasNextPage: v, isFetchingNextPage: y } = sd({
             enabled: !!t,
             queryKey: [
                 `room-search`,
@@ -139016,9 +139010,9 @@ ${this.answers.map((e, t)=>`${t + 1}. ${e.text}`).join(`
             h
         ]), S = (0, A.useRef)(0), C = `${e.roomId}|${u}|${t ?? ``}`, w = (0, A.useRef)(C);
         w.current !== C && (w.current = C, S.current = 0);
-        let T = S.current < sZe, E = (0, A.useMemo)(()=>b.reduce((e, t)=>e + t.items.length, 0), [
+        let T = S.current < oZe, E = (0, A.useMemo)(()=>b.reduce((e, t)=>e + t.items.length, 0), [
             b
-        ]) < cZe && v && T;
+        ]) < sZe && v && T;
         return (0, A.useEffect)(()=>{
             E && !y && m === `success` && (S.current += 1, _());
         }, [
@@ -139126,7 +139120,7 @@ ${this.answers.map((e, t)=>`${t + 1}. ${e.text}`).join(`
             ]
         }) : null;
     }
-    function uZe({ mx: e, useAuthentication: t, room: n, member: r, onClick: i, pressed: a, typing: o }) {
+    function lZe({ mx: e, useAuthentication: t, room: n, member: r, onClick: i, pressed: a, typing: o }) {
         let s = PG(n, r.userId) ?? KG(r.userId) ?? r.userId, c = r.getMxcAvatarUrl(), l = c ? e.mxcUrlToHttp(c, 100, 100, `crop`, void 0, !1, t) : void 0, u = Y$(r.userId);
         return (0, j.jsx)(kn, {
             style: {
@@ -139185,24 +139179,24 @@ ${this.answers.map((e, t)=>`${t + 1}. ${e.text}`).join(`
             })
         });
     }
-    var dZe = {
+    var uZe = {
         limit: 1e3,
         matchOptions: {
             contain: !0
         }
-    }, fZe = 3, pZe = (e)=>KG(e) ?? e, mZe = (e, t)=>FG(e, t, pZe);
-    function hZe({ room: e, members: t, overlay: n, onClose: r }) {
+    }, dZe = 3, fZe = (e)=>KG(e) ?? e, pZe = (e, t)=>FG(e, t, fZe);
+    function mZe({ room: e, members: t, overlay: n, onClose: r }) {
         let i = J(), a = FX(), o = $q(X, `isPeopleDrawer`), s = (0, A.useCallback)(()=>{
             r ? r() : o(!1);
         }, [
             r,
             o
-        ]), c = vp(), l = c1(`membersPane`), { navigateRoom: u } = T1(), d = (0, A.useRef)(null), f = (0, A.useRef)(null), p = (0, A.useRef)(null), [m, h] = (0, A.useState)(), g = uX(), _ = UX(e), v = D4(e, _, g), y = fX(g), b = t.length < e.getJoinedMemberCount(), x = l2(), S = HX(), C = s2()?.userId, w = KXe(), T = JXe(), [E, D] = Y(X, `memberSortFilterIndex`), [O, k] = (0, A.useState)(0), ee = qXe(O, w), te = YXe(E, T), ne = XXe(_, y), re = EX(e.roomId), ie = (0, A.useMemo)(()=>t.filter(ee.filterFn).sort(te.sortFn).sort(ne), [
+        ]), c = vp(), l = c1(`membersPane`), { navigateRoom: u } = T1(), d = (0, A.useRef)(null), f = (0, A.useRef)(null), p = (0, A.useRef)(null), [m, h] = (0, A.useState)(), g = uX(), _ = UX(e), v = D4(e, _, g), y = fX(g), b = t.length < e.getJoinedMemberCount(), x = l2(), S = HX(), C = s2()?.userId, w = GXe(), T = qXe(), [E, D] = Y(X, `memberSortFilterIndex`), [O, k] = (0, A.useState)(0), ee = KXe(O, w), te = JXe(E, T), ne = YXe(_, y), re = EX(e.roomId), ie = (0, A.useMemo)(()=>t.filter(ee.filterFn).sort(te.sortFn).sort(ne), [
             t,
             ee,
             te,
             ne
-        ]), [ae, oe, se] = ZX(ie, mZe, dZe);
+        ]), [ae, oe, se] = ZX(ie, pZe, uZe);
         !ae && f.current?.value && oe(f.current.value);
         let ce = ae ? ae.items : ie, le = uje(ce, v), ue = TY({
             count: le.length,
@@ -139211,7 +139205,7 @@ ${this.answers.map((e, t)=>`${t + 1}. ${e.text}`).join(`
             overscan: 10
         }), de = iq((0, A.useCallback)((e)=>{
             let t = e.target.value.trim();
-            t ? oe(t) : se(), h(t.length >= fZe ? t : void 0);
+            t ? oe(t) : se(), h(t.length >= dZe ? t : void 0);
         }, [
             oe,
             se
@@ -139223,7 +139217,7 @@ ${this.answers.map((e, t)=>`${t + 1}. ${e.text}`).join(`
             u,
             c,
             s
-        ]), [pe, me] = Ai(GXe);
+        ]), [pe, me] = Ai(WXe);
         (0, A.useEffect)(()=>{
             pe !== 0 && (f.current?.focus(), f.current?.select(), me(0));
         }, [
@@ -139239,7 +139233,7 @@ ${this.answers.map((e, t)=>`${t + 1}. ${e.text}`).join(`
             r && x(e.roomId, S?.roomId, r, n.getBoundingClientRect(), `Left`);
         };
         return (0, j.jsxs)(P, {
-            className: (0, bt.default)(n ? FXe : PXe, Sq({
+            className: (0, bt.default)(n ? PXe : NXe, Sq({
                 variant: `Background`
             })),
             shrink: `No`,
@@ -139248,7 +139242,7 @@ ${this.answers.map((e, t)=>`${t + 1}. ${e.text}`).join(`
             direction: `Column`,
             children: [
                 (0, j.jsx)(wn, {
-                    className: IXe,
+                    className: FXe,
                     variant: `Background`,
                     size: `600`,
                     children: (0, j.jsxs)(P, {
@@ -139290,7 +139284,7 @@ ${this.answers.map((e, t)=>`${t + 1}. ${e.text}`).join(`
                     })
                 }),
                 (0, j.jsx)(P, {
-                    className: LXe,
+                    className: IXe,
                     direction: `Column`,
                     shrink: `No`,
                     children: (0, j.jsx)(Dn, {
@@ -139326,7 +139320,7 @@ ${this.answers.map((e, t)=>`${t + 1}. ${e.text}`).join(`
                     })
                 }),
                 (0, j.jsx)(P, {
-                    className: RXe,
+                    className: LXe,
                     grow: `Yes`,
                     children: (0, j.jsx)(Xn, {
                         ref: d,
@@ -139335,13 +139329,13 @@ ${this.answers.map((e, t)=>`${t + 1}. ${e.text}`).join(`
                         visibility: `Hover`,
                         hideTrack: !0,
                         children: (0, j.jsxs)(P, {
-                            className: zXe,
+                            className: RXe,
                             direction: `Column`,
                             gap: `200`,
                             children: [
                                 (0, j.jsx)(P, {
                                     ref: p,
-                                    className: BXe,
+                                    className: zXe,
                                     direction: `Column`,
                                     gap: `200`,
                                     children: (0, j.jsxs)(P, {
@@ -139364,7 +139358,7 @@ ${this.answers.map((e, t)=>`${t + 1}. ${e.text}`).join(`
                                                         position: `Bottom`,
                                                         align: `Start`,
                                                         offset: 4,
-                                                        content: (0, j.jsx)(ZXe, {
+                                                        content: (0, j.jsx)(XXe, {
                                                             selected: O,
                                                             onSelect: k,
                                                             requestClose: ()=>t(void 0)
@@ -139392,7 +139386,7 @@ ${this.answers.map((e, t)=>`${t + 1}. ${e.text}`).join(`
                                                         position: `Bottom`,
                                                         align: `End`,
                                                         offset: 4,
-                                                        content: (0, j.jsx)(QXe, {
+                                                        content: (0, j.jsx)(ZXe, {
                                                             selected: E,
                                                             onSelect: D,
                                                             requestClose: ()=>t(void 0)
@@ -139440,7 +139434,7 @@ ${this.answers.map((e, t)=>`${t + 1}. ${e.text}`).join(`
                                     children: `No "${ee.name}" Members`
                                 }),
                                 (0, j.jsx)(P, {
-                                    className: VXe,
+                                    className: BXe,
                                     direction: `Column`,
                                     gap: `100`,
                                     children: (0, j.jsx)(`div`, {
@@ -139454,10 +139448,10 @@ ${this.answers.map((e, t)=>`${t + 1}. ${e.text}`).join(`
                                                 style: {
                                                     transform: `translateY(${t.start}px)`
                                                 },
-                                                className: UXe,
+                                                className: HXe,
                                                 "data-index": t.index,
                                                 ref: ue.measureElement,
-                                                children: (0, j.jsx)(uZe, {
+                                                children: (0, j.jsx)(lZe, {
                                                     mx: i,
                                                     useAuthentication: a,
                                                     room: e,
@@ -139472,7 +139466,7 @@ ${this.answers.map((e, t)=>`${t + 1}. ${e.text}`).join(`
                                                 },
                                                 "data-index": t.index,
                                                 ref: ue.measureElement,
-                                                className: (0, bt.default)(HXe, UXe),
+                                                className: (0, bt.default)(VXe, HXe),
                                                 size: `L400`,
                                                 children: n.name
                                             }, `${e.roomId}-${t.index}`);
@@ -139486,7 +139480,7 @@ ${this.answers.map((e, t)=>`${t + 1}. ${e.text}`).join(`
                                 m && (0, j.jsx)(P, {
                                     className: `_18fjf6z8`,
                                     direction: `Column`,
-                                    children: (0, j.jsx)(lZe, {
+                                    children: (0, j.jsx)(cZe, {
                                         room: e,
                                         term: m,
                                         onOpen: fe
@@ -139499,16 +139493,16 @@ ${this.answers.map((e, t)=>`${t + 1}. ${e.text}`).join(`
             ]
         });
     }
-    var gZe = `_10hybyx0`, _Ze = `_10hybyx1`, vZe = `_10hybyx2`, yZe = `_10hybyx3`, bZe = `_10hybyx4`, xZe = `_10hybyx5`;
-    function SZe() {
+    var hZe = `_10hybyx0`, gZe = `_10hybyx1`, _Ze = `_10hybyx2`, vZe = `_10hybyx3`, yZe = `_10hybyx4`, bZe = `_10hybyx5`;
+    function xZe() {
         return (0, j.jsx)(On, {
             variant: `SurfaceVariant`,
             size: `300`,
             direction: `Vertical`,
-            className: vZe
+            className: _Ze
         });
     }
-    function CZe({ enabled: e, onToggle: t }) {
+    function SZe({ enabled: e, onToggle: t }) {
         let [n, r] = V(t), i = n.status === B.Loading;
         return (0, j.jsx)(mr, {
             position: `Top`,
@@ -139536,7 +139530,7 @@ ${this.answers.map((e, t)=>`${t + 1}. ${e.text}`).join(`
                 })
         });
     }
-    function wZe({ enabled: e, onToggle: t }) {
+    function CZe({ enabled: e, onToggle: t }) {
         return (0, j.jsx)(mr, {
             position: `Top`,
             delay: 500,
@@ -139562,7 +139556,7 @@ ${this.answers.map((e, t)=>`${t + 1}. ${e.text}`).join(`
                 })
         });
     }
-    function TZe({ enabled: e, onToggle: t }) {
+    function wZe({ enabled: e, onToggle: t }) {
         let [n, r] = V(t), i = n.status === B.Loading;
         return (0, j.jsx)(mr, {
             position: `Top`,
@@ -139590,7 +139584,7 @@ ${this.answers.map((e, t)=>`${t + 1}. ${e.text}`).join(`
                 })
         });
     }
-    function EZe({ enabled: e, onToggle: t }) {
+    function TZe({ enabled: e, onToggle: t }) {
         return (0, j.jsx)(mr, {
             position: `Top`,
             delay: 500,
@@ -139616,7 +139610,7 @@ ${this.answers.map((e, t)=>`${t + 1}. ${e.text}`).join(`
                 })
         });
     }
-    function DZe() {
+    function EZe() {
         let [e, t] = Ai(B$);
         return (0, j.jsx)(mr, {
             position: `Top`,
@@ -139643,14 +139637,14 @@ ${this.answers.map((e, t)=>`${t + 1}. ${e.text}`).join(`
                 })
         });
     }
-    function OZe({ canJoin: e }) {
+    function DZe({ canJoin: e }) {
         let t = M4(), n = V$(), r = U$(n), i = P4(), a = n && n.roomId !== t.roomId, o = H$(i), s = n?.roomId === t.roomId && !r, c = a || !e, { microphone: l, video: u, sound: d, toggleMicrophone: f, toggleVideo: p, toggleSound: m } = swe(), h = (0, A.useCallback)(async ()=>f(), [
             f
         ]), g = (0, A.useCallback)(async ()=>p(), [
             p
         ]);
         return (0, j.jsxs)(C1, {
-            className: _Ze,
+            className: gZe,
             variant: `SurfaceVariant`,
             gap: `400`,
             radii: `500`,
@@ -139664,28 +139658,28 @@ ${this.answers.map((e, t)=>`${t + 1}. ${e.text}`).join(`
                     justifyContent: `SpaceBetween`,
                     gap: `200`,
                     children: [
-                        (0, j.jsx)(CZe, {
+                        (0, j.jsx)(SZe, {
                             enabled: l,
                             onToggle: h
                         }),
-                        (0, j.jsx)(wZe, {
+                        (0, j.jsx)(CZe, {
                             enabled: d,
                             onToggle: m
                         })
                     ]
                 }),
-                (0, j.jsx)(SZe, {}),
+                (0, j.jsx)(xZe, {}),
                 (0, j.jsxs)(P, {
                     shrink: `No`,
                     alignItems: `Inherit`,
                     justifyContent: `SpaceBetween`,
                     gap: `200`,
                     children: [
-                        (0, j.jsx)(TZe, {
+                        (0, j.jsx)(wZe, {
                             enabled: u,
                             onToggle: g
                         }),
-                        (0, j.jsx)(DZe, {})
+                        (0, j.jsx)(EZe, {})
                     ]
                 }),
                 (0, j.jsx)(P, {
@@ -139718,13 +139712,13 @@ ${this.answers.map((e, t)=>`${t + 1}. ${e.text}`).join(`
             ]
         });
     }
-    function kZe({ member: e }) {
+    function OZe({ member: e }) {
         let t = J(), n = FX(), r = M4(), i = l2(), { userId: a } = e;
         if (!a) return null;
         let o = PG(r, a) ?? KG(a) ?? a, s = IG(r, a), c = s ? oK(t, s, n, 96, 96) ?? void 0 : void 0, l = e.callIntent === `audio`;
         return (0, j.jsx)(C1, {
             as: `button`,
-            className: yZe,
+            className: vZe,
             variant: `SurfaceVariant`,
             radii: `500`,
             onClick: (e)=>i(r.roomId, void 0, a, CX(e.nativeEvent), `Right`),
@@ -139763,11 +139757,11 @@ ${this.answers.map((e, t)=>`${t + 1}. ${e.text}`).join(`
             })
         }, e.memberId);
     }
-    function AZe({ members: e, max: t = 4 }) {
+    function kZe({ members: e, max: t = 4 }) {
         let [n, r] = (0, A.useState)(!1), i = n ? e : e.slice(0, 4), a = e.length - i.length;
         return (0, j.jsxs)(j.Fragment, {
             children: [
-                i.map((e)=>(0, j.jsx)(kZe, {
+                i.map((e)=>(0, j.jsx)(OZe, {
                         member: e
                     }, e.memberId)),
                 e.length > t && (0, j.jsxs)(C1, {
@@ -139800,7 +139794,7 @@ ${this.answers.map((e, t)=>`${t + 1}. ${e.text}`).join(`
             ]
         });
     }
-    function jZe({ callEmbed: e }) {
+    function AZe({ callEmbed: e }) {
         let t = (0, A.useRef)(null), [n, r] = (0, A.useState)(document.body.clientWidth < 500);
         hp((0, A.useCallback)(()=>{
             let e = t.current;
@@ -139833,11 +139827,11 @@ ${this.answers.map((e, t)=>`${t + 1}. ${e.text}`).join(`
             y || v();
         }), (0, j.jsx)(P, {
             ref: t,
-            className: bZe,
+            className: yZe,
             justifyContent: `Center`,
             alignItems: `Center`,
             children: (0, j.jsxs)(C1, {
-                className: _Ze,
+                className: gZe,
                 variant: `SurfaceVariant`,
                 gap: `400`,
                 radii: `500`,
@@ -139856,28 +139850,28 @@ ${this.answers.map((e, t)=>`${t + 1}. ${e.text}`).join(`
                                 justifyContent: `Inherit`,
                                 gap: `200`,
                                 children: [
-                                    (0, j.jsx)(CZe, {
+                                    (0, j.jsx)(SZe, {
                                         enabled: i,
                                         onToggle: h
                                     }),
-                                    (0, j.jsx)(wZe, {
+                                    (0, j.jsx)(CZe, {
                                         enabled: o,
                                         onToggle: ()=>e.control.toggleSound()
                                     })
                                 ]
                             }),
-                            !n && (0, j.jsx)(SZe, {}),
+                            !n && (0, j.jsx)(xZe, {}),
                             (0, j.jsxs)(P, {
                                 shrink: `No`,
                                 alignItems: `Inherit`,
                                 justifyContent: `Inherit`,
                                 gap: `200`,
                                 children: [
-                                    (0, j.jsx)(TZe, {
+                                    (0, j.jsx)(wZe, {
                                         enabled: a,
                                         onToggle: g
                                     }),
-                                    (0, j.jsx)(EZe, {
+                                    (0, j.jsx)(TZe, {
                                         enabled: s,
                                         onToggle: ()=>e.control.toggleScreenshare()
                                     })
@@ -139885,7 +139879,7 @@ ${this.answers.map((e, t)=>`${t + 1}. ${e.text}`).join(`
                             })
                         ]
                     }),
-                    !n && (0, j.jsx)(SZe, {}),
+                    !n && (0, j.jsx)(xZe, {}),
                     (0, j.jsxs)(P, {
                         alignItems: `Center`,
                         gap: `Inherit`,
@@ -139898,7 +139892,7 @@ ${this.answers.map((e, t)=>`${t + 1}. ${e.text}`).join(`
                                 justifyContent: `Inherit`,
                                 gap: `200`,
                                 children: [
-                                    (0, j.jsx)(DZe, {}),
+                                    (0, j.jsx)(EZe, {}),
                                     (0, j.jsx)(Gn, {
                                         anchor: l,
                                         position: `Top`,
@@ -140004,7 +139998,7 @@ ${this.answers.map((e, t)=>`${t + 1}. ${e.text}`).join(`
             })
         });
     }
-    function MZe() {
+    function jZe() {
         return (0, j.jsx)(z, {
             style: {
                 margin: `auto`,
@@ -140015,7 +140009,7 @@ ${this.answers.map((e, t)=>`${t + 1}. ${e.text}`).join(`
             children: `Your homeserver does not support calling.`
         });
     }
-    function NZe() {
+    function MZe() {
         return (0, j.jsx)(z, {
             style: {
                 margin: `auto`,
@@ -140026,8 +140020,8 @@ ${this.answers.map((e, t)=>`${t + 1}. ${e.text}`).join(`
             children: `Your browser does not support WebRTC, which is required for calling.`
         });
     }
-    function PZe({ hasParticipant: e, livekitSupported: t, rtcSupported: n }) {
-        return n === !1 ? (0, j.jsx)(NZe, {}) : t === !1 ? (0, j.jsx)(MZe, {}) : e ? null : (0, j.jsx)(z, {
+    function NZe({ hasParticipant: e, livekitSupported: t, rtcSupported: n }) {
+        return n === !1 ? (0, j.jsx)(MZe, {}) : t === !1 ? (0, j.jsx)(jZe, {}) : e ? null : (0, j.jsx)(z, {
             style: {
                 margin: `auto`
             },
@@ -140036,7 +140030,7 @@ ${this.answers.map((e, t)=>`${t + 1}. ${e.text}`).join(`
             children: `Voice chat’s empty — Be the first to hop in!`
         });
     }
-    function FZe() {
+    function PZe() {
         return (0, j.jsx)(z, {
             style: {
                 margin: `auto`
@@ -140046,7 +140040,7 @@ ${this.answers.map((e, t)=>`${t + 1}. ${e.text}`).join(`
             children: `You don't have permission to join!`
         });
     }
-    function IZe() {
+    function FZe() {
         return (0, j.jsx)(z, {
             style: {
                 margin: `auto`,
@@ -140057,13 +140051,13 @@ ${this.answers.map((e, t)=>`${t + 1}. ${e.text}`).join(`
             children: `Already in another call — End the current call to join!`
         });
     }
-    function LZe() {
+    function IZe() {
         let e = J(), t = M4(), n = W$(), r = Q$(), i = uX(), a = KX(UX(t), i).stateEvent(q.GroupCallMemberPrefix, e.getSafeUserId()), o = E$(w$(t)), s = o.length > 0, c = V$(), l = c && c.roomId !== t.roomId, u = a && n && r;
         return (0, j.jsx)(Xn, {
             variant: `Surface`,
             hideTrack: !0,
             children: (0, j.jsx)(P, {
-                className: gZe,
+                className: hZe,
                 alignItems: `Center`,
                 justifyContent: `Center`,
                 children: (0, j.jsxs)(P, {
@@ -140101,22 +140095,22 @@ ${this.answers.map((e, t)=>`${t + 1}. ${e.text}`).join(`
                                 })
                             ]
                         }),
-                        (0, j.jsx)(AZe, {
+                        (0, j.jsx)(kZe, {
                             members: o
                         }),
-                        (0, j.jsx)(OZe, {
+                        (0, j.jsx)(DZe, {
                             canJoin: u
                         }),
                         (0, j.jsxs)(P, {
-                            className: xZe,
+                            className: bZe,
                             alignItems: `Center`,
                             children: [
-                                !l && (a ? (0, j.jsx)(PZe, {
+                                !l && (a ? (0, j.jsx)(NZe, {
                                     hasParticipant: s,
                                     livekitSupported: n,
                                     rtcSupported: r
-                                }) : (0, j.jsx)(FZe, {})),
-                                l && (0, j.jsx)(IZe, {})
+                                }) : (0, j.jsx)(PZe, {})),
+                                l && (0, j.jsx)(FZe, {})
                             ]
                         })
                     ]
@@ -140124,7 +140118,7 @@ ${this.answers.map((e, t)=>`${t + 1}. ${e.text}`).join(`
             })
         });
     }
-    function RZe({ joined: e, containerRef: t }) {
+    function LZe({ joined: e, containerRef: t }) {
         let n = V$();
         return (0, j.jsxs)(P, {
             grow: `Yes`,
@@ -140134,13 +140128,13 @@ ${this.answers.map((e, t)=>`${t + 1}. ${e.text}`).join(`
                     grow: `Yes`,
                     ref: t
                 }),
-                n && e && (0, j.jsx)(jZe, {
+                n && e && (0, j.jsx)(AZe, {
                     callEmbed: n
                 })
             ]
         });
     }
-    function zZe() {
+    function RZe() {
         let e = M4(), t = (0, A.useRef)(null);
         rwe(t);
         let n = V$(), r = U$(n), i = n?.roomId === e.roomId && r;
@@ -140153,16 +140147,16 @@ ${this.answers.map((e, t)=>`${t + 1}. ${e.text}`).join(`
             },
             grow: `Yes`,
             children: [
-                !i && (0, j.jsx)(LZe, {}),
-                (0, j.jsx)(RZe, {
+                !i && (0, j.jsx)(IZe, {}),
+                (0, j.jsx)(LZe, {
                     joined: i,
                     containerRef: t
                 })
             ]
         });
     }
-    var BZe = `_13de4120`, VZe = `_13de4121`, HZe = `_13de4122`;
-    function UZe({ room: e, eventId: t, renderContent: n, onOpen: r, canPinEvent: i, getMemberPowerTag: a, accessibleTagColors: o, legacyUsernameColor: s, hour24Clock: c, dateFormatString: l }) {
+    var zZe = `_13de4120`, BZe = `_13de4121`, VZe = `_13de4122`;
+    function HZe({ room: e, eventId: t, renderContent: n, onOpen: r, canPinEvent: i, getMemberPowerTag: a, accessibleTagColors: o, legacyUsernameColor: s, hour24Clock: c, dateFormatString: l }) {
         let u = p0(e, t), d = FX(), f = J(), [p, m] = V((0, A.useCallback)(()=>{
             let n = {
                 pinned: (vG(e, q.RoomPinnedEvents)?.getContent() ?? {
@@ -140303,7 +140297,7 @@ ${this.answers.map((e, t)=>`${t + 1}. ${e.text}`).join(`
             ]
         });
     }
-    var WZe = (0, A.forwardRef)(({ room: e, requestClose: t }, n)=>{
+    var UZe = (0, A.forwardRef)(({ room: e, requestClose: t }, n)=>{
         let r = J(), i = r.getUserId(), a = uX(), o = UX(e), s = KX(o, a).stateEvent(q.RoomPinnedEvents, i), c = _2(), l = p2(e, a), u = D4(e, o, a), d = k4(L$().kind, c, l), f = K5(e), p = (0, A.useMemo)(()=>Array.from(f).reverse(), [
             f
         ]), m = FX(), [h] = Y(X, `mediaAutoLoad`), [g] = Y(X, `urlPreview`), _ = P4(), [v] = Y(X, `legacyUsernameColor`), [y] = Y(X, `hour24Clock`), [b] = Y(X, `dateFormatString`), { navigateRoom: x } = T1(), S = (0, A.useRef)(null), C = TY({
@@ -140361,7 +140355,7 @@ ${this.answers.map((e, t)=>`${t + 1}. ${e.text}`).join(`
                             ` event`
                         ]
                     })
-                }) : (0, j.jsx)(OGe, {
+                }) : (0, j.jsx)(DGe, {
                     mEvent: a,
                     children: ()=>{
                         if (a.isRedacted()) return (0, j.jsx)(k0, {});
@@ -140438,13 +140432,13 @@ ${this.answers.map((e, t)=>`${t + 1}. ${e.text}`).join(`
         };
         return (0, j.jsx)(An, {
             ref: n,
-            className: BZe,
+            className: zZe,
             children: (0, j.jsxs)(P, {
                 grow: `Yes`,
                 direction: `Column`,
                 children: [
                     (0, j.jsxs)(wn, {
-                        className: VZe,
+                        className: BZe,
                         size: `500`,
                         children: [
                             (0, j.jsx)(P, {
@@ -140476,7 +140470,7 @@ ${this.answers.map((e, t)=>`${t + 1}. ${e.text}`).join(`
                             hideTrack: !0,
                             visibility: `Hover`,
                             children: (0, j.jsx)(P, {
-                                className: HZe,
+                                className: VZe,
                                 direction: `Column`,
                                 gap: `100`,
                                 children: p.length > 0 ? (0, j.jsx)(`div`, {
@@ -140499,7 +140493,7 @@ ${this.answers.map((e, t)=>`${t + 1}. ${e.text}`).join(`
                                                 },
                                                 variant: `SurfaceVariant`,
                                                 direction: `Column`,
-                                                children: (0, j.jsx)(UZe, {
+                                                children: (0, j.jsx)(HZe, {
                                                     room: e,
                                                     eventId: n,
                                                     renderContent: O,
@@ -140561,10 +140555,10 @@ ${this.answers.map((e, t)=>`${t + 1}. ${e.text}`).join(`
                 ]
             })
         });
-    }), GZe = `_1j4fvkl0`, KZe = `_1j4fvkl1`, qZe = `_1j4fvkl2`, JZe = `_1j4fvkl3`, YZe = `lrhkx50`, z7 = $t(({ as: e = `div`, className: t, variant: n = `Surface`, ...r }, i)=>(0, j.jsx)(e, {
+    }), WZe = `_1j4fvkl0`, GZe = `_1j4fvkl1`, KZe = `_1j4fvkl2`, qZe = `_1j4fvkl3`, JZe = `lrhkx50`, z7 = $t(({ as: e = `div`, className: t, variant: n = `Surface`, ...r }, i)=>(0, j.jsx)(e, {
             className: (0, bt.default)(Sq({
                 variant: n
-            }), YZe, t),
+            }), JZe, t),
             ...r,
             ref: i
         }));
@@ -140574,7 +140568,7 @@ ${this.answers.map((e, t)=>`${t + 1}. ${e.text}`).join(`
             gap: `100`,
             children: [
                 (0, j.jsx)(z, {
-                    className: qZe,
+                    className: KZe,
                     size: `L400`,
                     children: e
                 }),
@@ -140587,7 +140581,7 @@ ${this.answers.map((e, t)=>`${t + 1}. ${e.text}`).join(`
                             size: `300`,
                             hideTrack: !0,
                             children: (0, j.jsx)(P, {
-                                className: JZe,
+                                className: qZe,
                                 direction: `Column`,
                                 gap: `100`,
                                 children: t
@@ -140598,7 +140592,7 @@ ${this.answers.map((e, t)=>`${t + 1}. ${e.text}`).join(`
             ]
         });
     }
-    var XZe = (0, A.forwardRef)(({ min: e, max: t, value: n, onChange: r }, i)=>{
+    var YZe = (0, A.forwardRef)(({ min: e, max: t, value: n, onChange: r }, i)=>{
         let [a] = Y(X, `hour24Clock`), o = (0, h0.default)(n).hour(), s = a ? o : AEe(o), c = (0, h0.default)(n).minute(), l = o >= 12, u = (n)=>{
             r(Math.min(Math.max(e, n), t));
         }, d = (e)=>{
@@ -140612,12 +140606,12 @@ ${this.answers.map((e, t)=>`${t + 1}. ${e.text}`).join(`
             u(t);
         }, m = (0, h0.default)(e).hour(), h = (0, h0.default)(t).hour(), g = (0, h0.default)(e).minute(), _ = (0, h0.default)(t).minute(), v = m >= 12, y = h >= 12, b = S0(e, n), x = S0(t, n);
         return (0, j.jsx)(An, {
-            className: GZe,
+            className: WZe,
             ref: i,
             children: (0, j.jsxs)(P, {
                 direction: `Row`,
                 gap: `200`,
-                className: KZe,
+                className: GZe,
                 children: [
                     (0, j.jsx)(B7, {
                         title: `Hour`,
@@ -140697,7 +140691,7 @@ ${this.answers.map((e, t)=>`${t + 1}. ${e.text}`).join(`
                 ]
             })
         });
-    }), ZZe = (0, A.forwardRef)(({ min: e, max: t, value: n, onChange: r }, i)=>{
+    }), XZe = (0, A.forwardRef)(({ min: e, max: t, value: n, onChange: r }, i)=>{
         let a = (0, h0.default)(n).year(), o = (0, h0.default)(n).month() + 1, s = (0, h0.default)(n).date(), c = (n)=>{
             r(Math.min(Math.max(e, n), t));
         }, l = (e)=>{
@@ -140712,12 +140706,12 @@ ${this.answers.map((e, t)=>`${t + 1}. ${e.text}`).join(`
             u(o, e);
         }, p = (0, h0.default)(e).year(), m = (0, h0.default)(t).year(), h = m - p + 1, g = (0, h0.default)(e).month() + 1, _ = (0, h0.default)(t).month() + 1, v = (0, h0.default)(e).date(), y = (0, h0.default)(t).date();
         return (0, j.jsx)(An, {
-            className: GZe,
+            className: WZe,
             ref: i,
             children: (0, j.jsxs)(P, {
                 direction: `Row`,
                 gap: `200`,
-                className: KZe,
+                className: GZe,
                 children: [
                     (0, j.jsx)(B7, {
                         title: `Day`,
@@ -140770,7 +140764,7 @@ ${this.answers.map((e, t)=>`${t + 1}. ${e.text}`).join(`
             })
         });
     });
-    function QZe({ onCancel: e, onSubmit: t }) {
+    function ZZe({ onCancel: e, onSubmit: t }) {
         let n = J(), r = M4(), i = cd(), a = oX(r, q.RoomCreate), o = MEe(), s = NEe(), c = (0, A.useMemo)(()=>a?.getTs() ?? 0, [
             a
         ]), [l, u] = (0, A.useState)(()=>Date.now()), [d] = Y(X, `hour24Clock`), [f, p] = (0, A.useState)(), [m, h] = (0, A.useState)(), g = (e)=>{
@@ -140879,7 +140873,7 @@ ${this.answers.map((e, t)=>`${t + 1}. ${e.text}`).join(`
                                                                         isKeyBackward: (e)=>e.key === `ArrowUp` || e.key === `ArrowLeft`,
                                                                         escapeDeactivates: mp
                                                                     },
-                                                                    children: (0, j.jsx)(XZe, {
+                                                                    children: (0, j.jsx)(YZe, {
                                                                         min: c,
                                                                         max: Date.now(),
                                                                         value: l,
@@ -140935,7 +140929,7 @@ ${this.answers.map((e, t)=>`${t + 1}. ${e.text}`).join(`
                                                                         isKeyBackward: (e)=>e.key === `ArrowUp` || e.key === `ArrowLeft`,
                                                                         escapeDeactivates: mp
                                                                     },
-                                                                    children: (0, j.jsx)(ZZe, {
+                                                                    children: (0, j.jsx)(XZe, {
                                                                         min: c,
                                                                         max: Date.now(),
                                                                         value: l,
@@ -141028,7 +141022,7 @@ ${this.answers.map((e, t)=>`${t + 1}. ${e.text}`).join(`
             })
         });
     }
-    function $Ze({ room: e, requestClose: t }) {
+    function QZe({ room: e, requestClose: t }) {
         let { navigateRoom: n } = T1(), [r] = Y(X, `hour24Clock`), i = (0, A.useMemo)(()=>Array.from(e.polls.values()).sort((e, t)=>t.rootEvent.getTs() - e.rootEvent.getTs()), [
             e
         ]), a = i.filter((e)=>!e.isEnded), o = i.filter((e)=>e.isEnded), s = (i)=>{
@@ -141168,17 +141162,17 @@ ${this.answers.map((e, t)=>`${t + 1}. ${e.text}`).join(`
             })
         });
     }
-    var eQe = new Set([
+    var $Ze = new Set([
         oR.Image,
         oR.Video,
         oR.Audio,
         oR.File
-    ]), tQe = (e)=>e === oR.Image ? L.Photo : e === oR.Video || e === oR.Audio ? L.Play : L.File;
-    function nQe({ room: e, requestClose: t }) {
+    ]), eQe = (e)=>e === oR.Image ? L.Photo : e === oR.Video || e === oR.Audio ? L.Play : L.File;
+    function tQe({ room: e, requestClose: t }) {
         let { navigateRoom: n } = T1(), [r] = Y(X, `hour24Clock`), i = (0, A.useMemo)(()=>e.getUnfilteredTimelineSet().getLiveTimeline().getEvents().filter((e)=>{
                 if (e.isRedacted() || e.getType() !== `m.room.message`) return !1;
                 let t = e.getContent();
-                return eQe.has(t.msgtype ?? ``) ? !t2(t) : !1;
+                return $Ze.has(t.msgtype ?? ``) ? !t2(t) : !1;
             }).reverse(), [
             e
         ]);
@@ -141257,7 +141251,7 @@ ${this.answers.map((e, t)=>`${t + 1}. ${e.text}`).join(`
                                                             variant: `Surface`,
                                                             before: (0, j.jsx)(I, {
                                                                 size: `100`,
-                                                                src: tQe(a.msgtype)
+                                                                src: eQe(a.msgtype)
                                                             }),
                                                             onClick: ()=>{
                                                                 let r = i.getId();
@@ -141297,7 +141291,7 @@ ${this.answers.map((e, t)=>`${t + 1}. ${e.text}`).join(`
             })
         });
     }
-    var rQe = (e)=>{
+    var nQe = (e)=>{
         let t = (0, A.useCallback)(()=>{
             let t = e.getLiveTimeline().getState(FR.Forward), n = new Map;
             return t && t.events.forEach((e, t)=>{
@@ -141319,10 +141313,10 @@ ${this.answers.map((e, t)=>`${t + 1}. ${e.text}`).join(`
             e,
             t
         ]), n;
-    }, iQe = [
+    }, rQe = [
         `m.widget`,
         `im.vector.modular.widgets`
-    ], aQe = (e)=>e.map((e)=>{
+    ], iQe = (e)=>e.map((e)=>{
             let t = e.getContent(), n = e.getStateKey(), r = t.url, i = t.type;
             if (!(!n || typeof r != `string` || typeof i != `string`)) return {
                 id: n,
@@ -141334,20 +141328,20 @@ ${this.answers.map((e, t)=>`${t + 1}. ${e.text}`).join(`
                 senderId: e.getSender() ?? void 0,
                 data: t.data ?? {}
             };
-        }).filter((e)=>e !== void 0), oQe = (e)=>{
-        let t = rQe(e);
+        }).filter((e)=>e !== void 0), aQe = (e)=>{
+        let t = nQe(e);
         return (0, A.useMemo)(()=>{
             let e = new Map;
-            return iQe.slice().reverse().forEach((n)=>{
+            return rQe.slice().reverse().forEach((n)=>{
                 let r = t.get(n);
-                r && aQe(Array.from(r.values())).forEach((t)=>e.set(t.id, t));
+                r && iQe(Array.from(r.values())).forEach((t)=>e.set(t.id, t));
             }), Array.from(e.values());
         }, [
             t
         ]);
-    }, sQe = new Set([
+    }, oQe = new Set([
         `https:`
-    ]), cQe = /^(localhost|127(?:\.\d+){3}|0\.0\.0\.0|\[?::1\]?|10(?:\.\d+){3}|192\.168(?:\.\d+){2}|172\.(?:1[6-9]|2\d|3[01])(?:\.\d+){2}|.*\.local|.*\.localhost)$/i, lQe = (e)=>{
+    ]), sQe = /^(localhost|127(?:\.\d+){3}|0\.0\.0\.0|\[?::1\]?|10(?:\.\d+){3}|192\.168(?:\.\d+){2}|172\.(?:1[6-9]|2\d|3[01])(?:\.\d+){2}|.*\.local|.*\.localhost)$/i, cQe = (e)=>{
         let t;
         try {
             t = new URL(e);
@@ -141358,7 +141352,7 @@ ${this.answers.map((e, t)=>`${t + 1}. ${e.text}`).join(`
                 message: `That is not a valid URL.`
             };
         }
-        return sQe.has(t.protocol) ? t.username || t.password ? {
+        return oQe.has(t.protocol) ? t.username || t.password ? {
             ok: !1,
             reason: `credentials`,
             message: `Widget URLs must not contain credentials.`
@@ -141366,7 +141360,7 @@ ${this.answers.map((e, t)=>`${t + 1}. ${e.text}`).join(`
             ok: !1,
             reason: `same-origin`,
             message: `This widget is served from the same address as the app itself, which would give it access to your account. Refusing to load it.`
-        } : cQe.test(t.hostname) ? {
+        } : sQe.test(t.hostname) ? {
             ok: !1,
             reason: `private-host`,
             message: `Widgets cannot be loaded from local or private addresses.`
@@ -141378,7 +141372,7 @@ ${this.answers.map((e, t)=>`${t + 1}. ${e.text}`).join(`
             reason: `scheme`,
             message: `Widgets must be served over https.`
         };
-    }, uQe = (e, t)=>{
+    }, lQe = (e, t)=>{
         let n = {
             $matrix_widget_id: t.widgetId,
             $matrix_room_id: t.roomId,
@@ -141389,32 +141383,32 @@ ${this.answers.map((e, t)=>`${t + 1}. ${e.text}`).join(`
             $matrix_base_url: t.baseUrl ?? ``
         };
         return Object.entries(n).reduce((e, [t, n])=>e.split(t).join(encodeURIComponent(n)), e);
-    }, dQe = `im.vector.setting.allowed_widgets`, V7 = (e)=>e.getAccountData(`im.vector.setting.allowed_widgets`)?.getContent() ?? {}, fQe = (e, t)=>{
+    }, uQe = `im.vector.setting.allowed_widgets`, V7 = (e)=>e.getAccountData(`im.vector.setting.allowed_widgets`)?.getContent() ?? {}, dQe = (e, t)=>{
         let n = V7(e).allowed?.[t] ?? {};
         return new Set(Object.entries(n).filter(([, e])=>e === !0).map(([e])=>e));
-    }, pQe = async (e, t, n)=>{
+    }, fQe = async (e, t, n)=>{
         let r = V7(e), i = {
             ...r.allowed ?? {}
         };
         i[t] = {
             ...i[t] ?? {},
             ...n
-        }, await e.setAccountData(dQe, {
+        }, await e.setAccountData(uQe, {
             ...r,
             allowed: i
         });
-    }, mQe = async (e, t)=>{
+    }, pQe = async (e, t)=>{
         let n = V7(e), r = {
             ...n.allowed ?? {}
         };
-        delete r[t], await e.setAccountData(dQe, {
+        delete r[t], await e.setAccountData(uQe, {
             ...n,
             allowed: r
         });
-    }, hQe = (e, t, n)=>{
+    }, mQe = (e, t, n)=>{
         let r = V7(e).allowed?.[t] ?? {};
         return Array.from(n).filter((e)=>!(e in r));
-    }, gQe = class extends MCe {
+    }, hQe = class extends MCe {
         constructor(e, t, n){
             super(e, t), this.granted = n;
         }
@@ -141426,7 +141420,7 @@ ${this.answers.map((e, t)=>`${t + 1}. ${e.text}`).join(`
                 state: sU.OpenIDRequestState.Blocked
             });
         }
-    }, _Qe = {
+    }, gQe = {
         [sU.MatrixCapabilities.AlwaysOnScreen]: {
             text: `Stay visible on screen while you use other rooms`
         },
@@ -141466,7 +141460,7 @@ ${this.answers.map((e, t)=>`${t + 1}. ${e.text}`).join(`
             text: `Read messages sent directly to your devices`,
             sensitive: !0
         }
-    }, vQe = (e)=>{
+    }, _Qe = (e)=>{
         let t = e.direction === sU.EventDirection.Send ? `Send` : `Read`, n = e.keyStr ? `${e.eventType} (${e.keyStr})` : e.eventType, r = e.eventType === `m.room.message` || e.eventType === `m.room.encrypted` || e.direction === sU.EventDirection.Send;
         return e.eventType === `m.room.message` ? {
             text: t === `Send` ? `Send messages to this room as you` : `Read messages in this room`,
@@ -141475,8 +141469,8 @@ ${this.answers.map((e, t)=>`${t + 1}. ${e.text}`).join(`
             text: `${t} "${n}" events in this room`,
             sensitive: r
         };
-    }, yQe = (e)=>{
-        let t = _Qe[e];
+    }, vQe = (e)=>{
+        let t = gQe[e];
         if (t) return {
             capability: e,
             text: t.text,
@@ -141487,7 +141481,7 @@ ${this.answers.map((e, t)=>`${t + 1}. ${e.text}`).join(`
             e
         ]);
         if (n.length > 0) {
-            let t = vQe(n[0]);
+            let t = _Qe(n[0]);
             return {
                 capability: e,
                 text: t.text,
@@ -141501,9 +141495,9 @@ ${this.answers.map((e, t)=>`${t + 1}. ${e.text}`).join(`
             unknown: !0,
             sensitive: !0
         };
-    }, bQe = (e)=>Array.from(e).map(yQe).sort((e, t)=>Number(t.sensitive) - Number(e.sensitive));
-    function xQe({ widget: e, requested: t, onDecide: n, onCancel: r }) {
-        let i = (0, A.useMemo)(()=>bQe(t), [
+    }, yQe = (e)=>Array.from(e).map(vQe).sort((e, t)=>Number(t.sensitive) - Number(e.sensitive));
+    function bQe({ widget: e, requested: t, onDecide: n, onCancel: r }) {
+        let i = (0, A.useMemo)(()=>yQe(t), [
             t
         ]), [a, o] = (0, A.useState)(()=>Object.fromEntries(t.map((e)=>[
                     e,
@@ -141624,10 +141618,10 @@ ${this.answers.map((e, t)=>`${t + 1}. ${e.text}`).join(`
             ]
         });
     }
-    function SQe({ room: e, widget: t, onClose: n }) {
-        let r = J(), i = (0, A.useRef)(null), a = (0, A.useRef)(void 0), o = (0, A.useMemo)(()=>lQe(t.url), [
+    function xQe({ room: e, widget: t, onClose: n }) {
+        let r = J(), i = (0, A.useRef)(null), a = (0, A.useRef)(void 0), o = (0, A.useMemo)(()=>cQe(t.url), [
             t.url
-        ]), s = (0, A.useMemo)(()=>hQe(r, t.permissionKey, [
+        ]), s = (0, A.useMemo)(()=>mQe(r, t.permissionKey, [
                 `m.always_on_screen`,
                 `m.sticker`,
                 `org.matrix.msc2762.receive.state_event:m.room.member`,
@@ -141637,7 +141631,7 @@ ${this.answers.map((e, t)=>`${t + 1}. ${e.text}`).join(`
             r,
             t.permissionKey
         ]), [c, l] = (0, A.useState)(s.length > 0), [u, d] = (0, A.useState)(!1), f = (0, A.useCallback)(async (e)=>{
-            await pQe(r, t.permissionKey, e), l(!1);
+            await fQe(r, t.permissionKey, e), l(!1);
         }, [
             r,
             t.permissionKey
@@ -141646,7 +141640,7 @@ ${this.answers.map((e, t)=>`${t + 1}. ${e.text}`).join(`
             if (c || !o.ok) return;
             let n = i.current;
             if (!n) return;
-            let s = uQe(t.url, {
+            let s = lQe(t.url, {
                 widgetId: t.id,
                 roomId: e.roomId,
                 userId: r.getSafeUserId(),
@@ -141661,7 +141655,7 @@ ${this.answers.map((e, t)=>`${t + 1}. ${e.text}`).join(`
                 url: t.url,
                 name: t.name,
                 data: t.data
-            }, f = fQe(r, t.permissionKey), p = new gQe(r, e.roomId, f), m = new sU.ClientWidgetApi(new sU.Widget(u), l, p);
+            }, f = dQe(r, t.permissionKey), p = new hQe(r, e.roomId, f), m = new sU.ClientWidgetApi(new sU.Widget(u), l, p);
             return a.current = m, d(!0), ()=>{
                 m.stop(), a.current = void 0, l.remove();
             };
@@ -141671,7 +141665,7 @@ ${this.answers.map((e, t)=>`${t + 1}. ${e.text}`).join(`
             t,
             e.roomId,
             r
-        ]), o.ok ? c ? (0, j.jsx)(xQe, {
+        ]), o.ok ? c ? (0, j.jsx)(bQe, {
             widget: t,
             requested: s,
             onDecide: f,
@@ -141788,11 +141782,11 @@ ${this.answers.map((e, t)=>`${t + 1}. ${e.text}`).join(`
             ]
         });
     }
-    var CQe = `im.vector.modular.widgets`;
-    function wQe({ room: e, requestClose: t }) {
-        let n = J(), r = oQe(e), i = uX(), a = KX(UX(e), i).stateEvent(CQe, n.getSafeUserId()), [o, s] = (0, A.useState)(), [c, l] = (0, A.useState)(``), [u, d] = (0, A.useState)(``), [f, p] = (0, A.useState)(), [m, h] = V((0, A.useCallback)(async (t, r)=>{
+    var SQe = `im.vector.modular.widgets`;
+    function CQe({ room: e, requestClose: t }) {
+        let n = J(), r = aQe(e), i = uX(), a = KX(UX(e), i).stateEvent(SQe, n.getSafeUserId()), [o, s] = (0, A.useState)(), [c, l] = (0, A.useState)(``), [u, d] = (0, A.useState)(``), [f, p] = (0, A.useState)(), [m, h] = V((0, A.useCallback)(async (t, r)=>{
             let i = `prinny-${Date.now()}`;
-            await n.sendStateEvent(e.roomId, CQe, {
+            await n.sendStateEvent(e.roomId, SQe, {
                 type: `customwidget`,
                 url: t,
                 name: r || `Widget`,
@@ -141802,7 +141796,7 @@ ${this.answers.map((e, t)=>`${t + 1}. ${e.text}`).join(`
             n,
             e.roomId
         ])), [g, _] = V((0, A.useCallback)(async (t)=>{
-            await n.sendStateEvent(e.roomId, t.eventType, {}, t.id), await mQe(n, t.permissionKey);
+            await n.sendStateEvent(e.roomId, t.eventType, {}, t.id), await pQe(n, t.permissionKey);
         }, [
             n,
             e.roomId
@@ -141852,7 +141846,7 @@ ${this.answers.map((e, t)=>`${t + 1}. ${e.text}`).join(`
                                         })
                                     ]
                                 }),
-                                o ? (0, j.jsx)(SQe, {
+                                o ? (0, j.jsx)(xQe, {
                                     room: e,
                                     widget: o,
                                     onClose: ()=>s(void 0)
@@ -141875,7 +141869,7 @@ ${this.answers.map((e, t)=>`${t + 1}. ${e.text}`).join(`
                                                     children: `This room has no widgets.`
                                                 }),
                                                 r.map((e)=>{
-                                                    let t = lQe(e.url);
+                                                    let t = cQe(e.url);
                                                     return (0, j.jsxs)(C1, {
                                                         variant: `SurfaceVariant`,
                                                         direction: `Column`,
@@ -141954,7 +141948,7 @@ ${this.answers.map((e, t)=>`${t + 1}. ${e.text}`).join(`
                                                     as: `form`,
                                                     onSubmit: (e)=>{
                                                         e.preventDefault();
-                                                        let t = lQe(c.trim());
+                                                        let t = cQe(c.trim());
                                                         if (!t.ok) {
                                                             p(t.message);
                                                             return;
@@ -142034,7 +142028,7 @@ ${this.answers.map((e, t)=>`${t + 1}. ${e.text}`).join(`
             })
         });
     }
-    var TQe = (()=>{
+    var wQe = (()=>{
         let e = new Uint32Array(256);
         for(let t = 0; t < 256; t += 1){
             let n = t;
@@ -142042,18 +142036,18 @@ ${this.answers.map((e, t)=>`${t + 1}. ${e.text}`).join(`
             e[t] = n >>> 0;
         }
         return e;
-    })(), EQe = (e)=>{
+    })(), TQe = (e)=>{
         let t = 4294967295;
-        for(let n = 0; n < e.length; n += 1)t = TQe[(t ^ e[n]) & 255] ^ t >>> 8;
+        for(let n = 0; n < e.length; n += 1)t = wQe[(t ^ e[n]) & 255] ^ t >>> 8;
         return (t ^ 4294967295) >>> 0;
-    }, DQe = (e)=>({
+    }, EQe = (e)=>({
             time: e.getHours() << 11 | e.getMinutes() << 5 | Math.floor(e.getSeconds() / 2) & 31,
             date: e.getFullYear() - 1980 << 9 | e.getMonth() + 1 << 5 | e.getDate()
-        }), OQe = 67324752, kQe = 33639248, AQe = 101010256, jQe = (e)=>{
+        }), DQe = 67324752, OQe = 33639248, kQe = 101010256, AQe = (e)=>{
         let t = new TextEncoder, n = [], r = [], i = 0;
         e.forEach((e)=>{
-            let a = t.encode(e.name), o = EQe(e.data), { time: s, date: c } = DQe(e.modified ?? new Date(0)), l = new DataView(new ArrayBuffer(30));
-            l.setUint32(0, OQe, !0), l.setUint16(4, 20, !0), l.setUint16(6, 2048, !0), l.setUint16(8, 0, !0), l.setUint16(10, s, !0), l.setUint16(12, c, !0), l.setUint32(14, o, !0), l.setUint32(18, e.data.length, !0), l.setUint32(22, e.data.length, !0), l.setUint16(26, a.length, !0), l.setUint16(28, 0, !0), n.push(l.buffer, a, e.data), r.push({
+            let a = t.encode(e.name), o = TQe(e.data), { time: s, date: c } = EQe(e.modified ?? new Date(0)), l = new DataView(new ArrayBuffer(30));
+            l.setUint32(0, DQe, !0), l.setUint16(4, 20, !0), l.setUint16(6, 2048, !0), l.setUint16(8, 0, !0), l.setUint16(10, s, !0), l.setUint16(12, c, !0), l.setUint32(14, o, !0), l.setUint32(18, e.data.length, !0), l.setUint32(22, e.data.length, !0), l.setUint16(26, a.length, !0), l.setUint16(28, 0, !0), n.push(l.buffer, a, e.data), r.push({
                 nameBytes: a,
                 crc: o,
                 size: e.data.length,
@@ -142065,16 +142059,16 @@ ${this.answers.map((e, t)=>`${t + 1}. ${e.text}`).join(`
         let a = i;
         r.forEach((e)=>{
             let t = new DataView(new ArrayBuffer(46));
-            t.setUint32(0, kQe, !0), t.setUint16(4, 20, !0), t.setUint16(6, 20, !0), t.setUint16(8, 2048, !0), t.setUint16(10, 0, !0), t.setUint16(12, e.time, !0), t.setUint16(14, e.date, !0), t.setUint32(16, e.crc, !0), t.setUint32(20, e.size, !0), t.setUint32(24, e.size, !0), t.setUint16(28, e.nameBytes.length, !0), t.setUint16(30, 0, !0), t.setUint16(32, 0, !0), t.setUint16(34, 0, !0), t.setUint16(36, 0, !0), t.setUint32(38, 0, !0), t.setUint32(42, e.offset, !0), n.push(t.buffer, e.nameBytes), i += 46 + e.nameBytes.length;
+            t.setUint32(0, OQe, !0), t.setUint16(4, 20, !0), t.setUint16(6, 20, !0), t.setUint16(8, 2048, !0), t.setUint16(10, 0, !0), t.setUint16(12, e.time, !0), t.setUint16(14, e.date, !0), t.setUint32(16, e.crc, !0), t.setUint32(20, e.size, !0), t.setUint32(24, e.size, !0), t.setUint16(28, e.nameBytes.length, !0), t.setUint16(30, 0, !0), t.setUint16(32, 0, !0), t.setUint16(34, 0, !0), t.setUint16(36, 0, !0), t.setUint32(38, 0, !0), t.setUint32(42, e.offset, !0), n.push(t.buffer, e.nameBytes), i += 46 + e.nameBytes.length;
         });
         let o = new DataView(new ArrayBuffer(22));
-        return o.setUint32(0, AQe, !0), o.setUint16(4, 0, !0), o.setUint16(6, 0, !0), o.setUint16(8, r.length, !0), o.setUint16(10, r.length, !0), o.setUint32(12, i - a, !0), o.setUint32(16, a, !0), o.setUint16(20, 0, !0), n.push(o.buffer), new Blob(n, {
+        return o.setUint32(0, kQe, !0), o.setUint16(4, 0, !0), o.setUint16(6, 0, !0), o.setUint16(8, r.length, !0), o.setUint16(10, r.length, !0), o.setUint32(12, i - a, !0), o.setUint32(16, a, !0), o.setUint16(20, 0, !0), n.push(o.buffer), new Blob(n, {
             type: `application/zip`
         });
-    }, MQe = 100, H7 = (e)=>e.replace(/&/g, `&amp;`).replace(/</g, `&lt;`).replace(/>/g, `&gt;`).replace(/"/g, `&quot;`), NQe = (e)=>{
+    }, jQe = 100, H7 = (e)=>e.replace(/&/g, `&amp;`).replace(/</g, `&lt;`).replace(/>/g, `&gt;`).replace(/"/g, `&quot;`), MQe = (e)=>{
         let t = e.getContent().msgtype;
         return t === oR.Image || t === oR.Video || t === oR.Audio || t === oR.File;
-    }, PQe = (e, t)=>{
+    }, NQe = (e, t)=>{
         let n = t.getContent(), r = typeof n.body == `string` ? n.body : ``;
         if (t.isRedacted()) return `[message deleted]`;
         if (t.getType() === `m.room.encrypted`) return `[could not decrypt]`;
@@ -142093,13 +142087,13 @@ ${this.answers.map((e, t)=>`${t + 1}. ${e.text}`).join(`
             default:
                 return r;
         }
-    }, FQe = async (e, t, n)=>{
+    }, PQe = async (e, t, n)=>{
         let r = [], i = null, a = e.getCrypto();
         for(; r.length < n.limit;){
             if (n.signal.aborted) throw Error(`aborted`);
             let o;
             try {
-                o = await e.createMessagesRequest(t.roomId, i, Math.min(MQe, n.limit - r.length), FR.Backward);
+                o = await e.createMessagesRequest(t.roomId, i, Math.min(jQe, n.limit - r.length), FR.Backward);
             } catch  {
                 break;
             }
@@ -142112,21 +142106,21 @@ ${this.answers.map((e, t)=>`${t + 1}. ${e.text}`).join(`
             i = o.end ?? null;
         }
         return r.filter((e)=>e.getType() === `m.room.message` || e.isEncrypted()).sort((e, t)=>e.getTs() - t.getTs()).slice(-n.limit);
-    }, IQe = (e, t)=>{
+    }, FQe = (e, t)=>{
         let n = t.map((t)=>{
             let n = t.getSender() ?? ``, r = PG(e, n) ?? KG(n) ?? n;
-            return `[${new Date(t.getTs()).toISOString()}] ${r}: ${PQe(e, t)}`;
+            return `[${new Date(t.getTs()).toISOString()}] ${r}: ${NQe(e, t)}`;
         });
         return `${e.name}\n${`=`.repeat(e.name.length)}\n\n${n.join(`
 `)}\n`;
-    }, LQe = (e, t)=>JSON.stringify({
+    }, IQe = (e, t)=>JSON.stringify({
             room_id: e.roomId,
             room_name: e.name,
             exported_at: new Date().toISOString(),
             messages: t.map((e)=>e.getEffectiveEvent())
-        }, null, 2), RQe = (e, t, n)=>{
+        }, null, 2), LQe = (e, t, n)=>{
         let r = t.map((t)=>{
-            let r = t.getSender() ?? ``, i = PG(e, r) ?? KG(r) ?? r, a = new Date(t.getTs()).toLocaleString(), o = t.getId() ?? ``, s = n.get(o), c = H7(PQe(e, t));
+            let r = t.getSender() ?? ``, i = PG(e, r) ?? KG(r) ?? r, a = new Date(t.getTs()).toLocaleString(), o = t.getId() ?? ``, s = n.get(o), c = H7(NQe(e, t));
             if (s) {
                 let e = t.getContent().msgtype, n = H7(s);
                 c = e === oR.Image ? `<a href="${n}"><img src="${n}" alt="${H7(String(t.getContent().body ?? ``))}" /></a>` : `<a href="${n}">${c}</a>`;
@@ -142158,24 +142152,24 @@ ${r}
 </body>
 </html>
 `;
-    }, zQe = async (e, t, n)=>{
+    }, RQe = async (e, t, n)=>{
         let r = t.getContent(), i = r.file?.url ?? r.url;
         if (typeof i != `string`) return;
         let a = oK(e, i, n);
         if (!a) return;
         let o = r.info?.mimetype ?? `application/octet-stream`, [s, c] = await wp(r.file ? cK(a, (e)=>eK(e, o, r.file)) : sK(a));
         if (!s) return c;
-    }, BQe = async (e, t, n)=>{
-        let r = await FQe(e, t, n), i = new Map, a = [], o = 0;
+    }, zQe = async (e, t, n)=>{
+        let r = await PQe(e, t, n), i = new Map, a = [], o = 0;
         if (n.includeAttachments) {
-            let t = r.filter(NQe);
+            let t = r.filter(MQe);
             for(let s = 0; s < t.length; s += 1){
                 if (n.signal.aborted) throw Error(`aborted`);
                 let c = t[s], l = c.getId(), u = c.getContent();
                 if ((typeof u.info?.size == `number` ? u.info.size : 0) > n.maxAttachmentBytes) o += 1;
                 else if (l) {
                     n.onProgress(`Downloading attachments (${s + 1}/${t.length})`, r.length);
-                    let o = await zQe(e, c, n.useAuthentication);
+                    let o = await RQe(e, c, n.useAuthentication);
                     if (o) {
                         let e = J1(typeof u.body == `string` ? u.body : `attachment`), t = `media/${l.replace(/[^a-zA-Z0-9]/g, ``)}-${e}`;
                         i.set(l, t), a.push({
@@ -142189,7 +142183,7 @@ ${r}
         }
         n.onProgress(`Writing file`, r.length);
         let s = new Date().toISOString().slice(0, 10), c = `${J1(t.name || t.roomId).replace(/\s+/g, `-`) || `room`}-${s}`, l, u;
-        return n.format === `json` ? (l = LQe(t, r), u = `json`) : n.format === `txt` ? (l = IQe(t, r), u = `txt`) : (l = RQe(t, r, i), u = `html`), a.length === 0 ? {
+        return n.format === `json` ? (l = IQe(t, r), u = `json`) : n.format === `txt` ? (l = FQe(t, r), u = `txt`) : (l = LQe(t, r, i), u = `html`), a.length === 0 ? {
             blob: new Blob([
                 l
             ], {
@@ -142202,11 +142196,11 @@ ${r}
             data: new TextEncoder().encode(l),
             modified: new Date
         }), {
-            blob: jQe(a),
+            blob: AQe(a),
             filename: `${c}.zip`,
             skippedAttachments: o
         });
-    }, VQe = [
+    }, BQe = [
         {
             value: `html`,
             label: `HTML`,
@@ -142222,16 +142216,16 @@ ${r}
             label: `JSON`,
             hint: `Raw events, for tooling`
         }
-    ], HQe = 25;
-    function UQe({ room: e, requestClose: t }) {
+    ], VQe = 25;
+    function HQe({ room: e, requestClose: t }) {
         let n = J(), r = FX(), [i, a] = (0, A.useState)(`html`), [o, s] = (0, A.useState)(SY() ? 500 : 2e3), [c, l] = (0, A.useState)(!1), [u, d] = (0, A.useState)(), [f, p] = (0, A.useState)(0), m = (0, A.useRef)(void 0), [h, g] = V((0, A.useCallback)(async ()=>{
             let t = new AbortController;
             m.current = t, p(0);
-            let a = await BQe(n, e, {
+            let a = await zQe(n, e, {
                 format: i,
                 limit: o,
                 includeAttachments: c,
-                maxAttachmentBytes: HQe * 1024 * 1024,
+                maxAttachmentBytes: VQe * 1024 * 1024,
                 useAuthentication: r,
                 signal: t.signal,
                 onProgress: (e, t)=>d(`${e}… ${t} messages`)
@@ -142317,7 +142311,7 @@ ${r}
                                                         (0, j.jsx)(P, {
                                                             gap: `100`,
                                                             wrap: `Wrap`,
-                                                            children: VQe.map((e)=>(0, j.jsx)(F, {
+                                                            children: BQe.map((e)=>(0, j.jsx)(F, {
                                                                     size: `300`,
                                                                     radii: `Pill`,
                                                                     variant: i === e.value ? `Primary` : `Secondary`,
@@ -142333,7 +142327,7 @@ ${r}
                                                         (0, j.jsx)(z, {
                                                             size: `T200`,
                                                             priority: `300`,
-                                                            children: VQe.find((e)=>e.value === i)?.hint
+                                                            children: BQe.find((e)=>e.value === i)?.hint
                                                         })
                                                     ]
                                                 }),
@@ -142366,7 +142360,7 @@ ${r}
                                                 }),
                                                 (0, j.jsx)(H4, {
                                                     title: `Include attachments`,
-                                                    description: `Bundles the export and its media into a zip. Files over ${HQe}MB are left out.`,
+                                                    description: `Bundles the export and its media into a zip. Files over ${VQe}MB are left out.`,
                                                     after: (0, j.jsx)(ar, {
                                                         variant: `Primary`,
                                                         value: c,
@@ -142446,7 +142440,7 @@ ${r}
             })
         });
     }
-    var WQe = (0, A.forwardRef)(({ room: e, requestClose: t }, n)=>{
+    var UQe = (0, A.forwardRef)(({ room: e, requestClose: t }, n)=>{
         let r = J(), [i] = Y(X, `hideActivity`), a = iX(e.roomId, Yq), o = uX(), s = KX(UX(e), o).action(`invite`, r.getSafeUserId()), c = Wq(Hq(), e.roomId), { navigateRoom: l } = T1(), [u, d] = (0, A.useState)(!1), f = ()=>{
             wX(r, e.roomId, i), t();
         }, p = ()=>{
@@ -142616,7 +142610,7 @@ ${r}
                                                 children: `Widgets`
                                             })
                                         }),
-                                        n && (0, j.jsx)(wQe, {
+                                        n && (0, j.jsx)(CQe, {
                                             room: e,
                                             requestClose: ()=>{
                                                 r(!1), t();
@@ -142648,7 +142642,7 @@ ${r}
                                                 children: `Files`
                                             })
                                         }),
-                                        n && (0, j.jsx)(nQe, {
+                                        n && (0, j.jsx)(tQe, {
                                             room: e,
                                             requestClose: ()=>{
                                                 r(!1), t();
@@ -142680,7 +142674,7 @@ ${r}
                                                 children: `Export Chat`
                                             })
                                         }),
-                                        n && (0, j.jsx)(UQe, {
+                                        n && (0, j.jsx)(HQe, {
                                             room: e,
                                             requestClose: ()=>{
                                                 r(!1), t();
@@ -142712,7 +142706,7 @@ ${r}
                                                 children: `Polls`
                                             })
                                         }),
-                                        n && (0, j.jsx)($Ze, {
+                                        n && (0, j.jsx)(QZe, {
                                             room: e,
                                             requestClose: ()=>{
                                                 r(!1), t();
@@ -142744,7 +142738,7 @@ ${r}
                                                 children: `Jump to Time`
                                             })
                                         }),
-                                        n && (0, j.jsx)(QZe, {
+                                        n && (0, j.jsx)(ZZe, {
                                             onSubmit: (n)=>{
                                                 r(!1), l(e.roomId, n), t();
                                             },
@@ -142802,7 +142796,7 @@ ${r}
             ]
         });
     });
-    function GQe({ livekitSupported: e, hasCallPermission: t }) {
+    function WQe({ livekitSupported: e, hasCallPermission: t }) {
         let n = M4(), r = P4(), i = V$(), a = H$(r), o = i && i.roomId === n.roomId, s = i && !o, c = !!(s || o || !e || !t), l = s ? `Already in another call — End the current call to join!` : e ? t ? null : `You do not have permission to start a call in this room.` : `Your homeserver does not advertise a LiveKit/MatrixRTC focus, so calls cannot be started.`, u = ()=>{
             c || a(n, {
                 microphone: !0,
@@ -142865,8 +142859,8 @@ ${r}
             ]
         });
     }
-    function KQe({ callView: e }) {
-        let t = ec(), n = J(), r = FX(), i = vp(), a = M4(), o = HX(), s = uX(), c = KX(UX(a), s).stateEvent(q.GroupCallMemberPrefix, n.getSafeUserId()), l = W$(), u = Q$(), [d, f] = (0, A.useState)(), [p, m] = (0, A.useState)(), h = P4(), g = K5(a), _ = b$(a, h), v = x$(a), y = S$(a), b = _ ? oK(n, _, r, 96, 96, `crop`) ?? void 0 : void 0, [x, S] = Y(X, `isPeopleDrawer`), C = h ? iK(a, n.getSafeUserId()) : void 0, w = Y$(C ?? ``), [T, E] = Ai(WXe), D = ki(GXe), O = ()=>{
+    function GQe({ callView: e }) {
+        let t = ec(), n = J(), r = FX(), i = vp(), a = M4(), o = HX(), s = uX(), c = KX(UX(a), s).stateEvent(q.GroupCallMemberPrefix, n.getSafeUserId()), l = W$(), u = Q$(), [d, f] = (0, A.useState)(), [p, m] = (0, A.useState)(), h = P4(), g = K5(a), _ = b$(a, h), v = x$(a), y = S$(a), b = _ ? oK(n, _, r, 96, 96, `crop`) ?? void 0 : void 0, [x, S] = Y(X, `isPeopleDrawer`), C = h ? iK(a, n.getSafeUserId()) : void 0, w = Y$(C ?? ``), [T, E] = Ai(UXe), D = ki(WXe), O = ()=>{
             if (e) {
                 let e = {
                     rooms: a.roomId
@@ -143067,13 +143061,13 @@ ${r}
                                         isKeyBackward: (e)=>e.key === `ArrowUp`,
                                         escapeDeactivates: mp
                                     },
-                                    children: (0, j.jsx)(WZe, {
+                                    children: (0, j.jsx)(UZe, {
                                         room: a,
                                         requestClose: ()=>m(void 0)
                                     })
                                 })
                             }),
-                            !a.isCallRoom() && u && (0, j.jsx)(GQe, {
+                            !a.isCallRoom() && u && (0, j.jsx)(WQe, {
                                 livekitSupported: l,
                                 hasCallPermission: c
                             }),
@@ -143132,7 +143126,7 @@ ${r}
                                         isKeyBackward: (e)=>e.key === `ArrowUp`,
                                         escapeDeactivates: mp
                                     },
-                                    children: (0, j.jsx)(WQe, {
+                                    children: (0, j.jsx)(UQe, {
                                         room: a,
                                         requestClose: ()=>f(void 0)
                                     })
@@ -143144,10 +143138,10 @@ ${r}
             })
         });
     }
-    qQe = function(e) {
+    KQe = function(e) {
         return e.Sas = `m.sas.v1`, e.ShowQrCode = `m.qr_code.show.v1`, e.ScanQrCode = `m.qr_code.scan.v1`, e.Reciprocate = `m.reciprocate.v1`, e;
     }({});
-    function JQe({ room: e }) {
+    function qQe({ room: e }) {
         let t = J(), n = FX(), r = e5(t, e.roomId), i = uX(), a = KX(UX(e), i), o = t.getSafeUserId(), s = a.action(`invite`, o), c = a.action(`kick`, o), [l, u] = (0, A.useState)([]), d = (0, A.useMemo)(()=>r.filter((e)=>e.membership === vR.Knock && !l.includes(e.userId)), [
             r,
             l
@@ -143257,7 +143251,7 @@ ${r}
             ]
         });
     }
-    var YQe = (e, t)=>{
+    var JQe = (e, t)=>{
         let n = J(), [r, i] = (0, A.useState)([]), [a, o] = (0, A.useState)(), [s, c] = (0, A.useState)(!0), [l, u] = (0, A.useState)(!1), [d, f] = (0, A.useState)(0), p = (0, A.useCallback)(async (r)=>{
             c(!0);
             try {
@@ -143325,7 +143319,7 @@ ${r}
             ])
         };
     };
-    function XQe({ room: e, mEvent: t, htmlReactParserOptions: n, linkifyOpts: r, hour24Clock: i, dateFormatString: a, mediaAutoLoad: o, urlPreview: s }) {
+    function YQe({ room: e, mEvent: t, htmlReactParserOptions: n, linkifyOpts: r, hour24Clock: i, dateFormatString: a, mediaAutoLoad: o, urlPreview: s }) {
         let c = J(), l = FX(), u = t.getSender() ?? ``, d = PG(e, u) ?? KG(u) ?? u, f = IG(e, u);
         return (0, j.jsx)(M1, {
             space: `300`,
@@ -143387,8 +143381,8 @@ ${r}
             })
         });
     }
-    function ZQe({ room: e, rootId: t, onClose: n }) {
-        let r = J(), i = c5(), a = (0, A.useRef)(null), o = (0, A.useRef)(null), s = p0(e, t), { events: c, loading: l, canPaginate: u, paginate: d } = YQe(e, t), [f] = Y(X, `hour24Clock`), [p] = Y(X, `dateFormatString`), [m] = Y(X, `mediaAutoLoad`), [h] = Y(X, `urlPreview`), [g] = Y(X, `renderMaths`), _ = Lqe(g), v = FX(), y = u2(e.roomId), b = d2(), x = (0, A.useMemo)(()=>({
+    function XQe({ room: e, rootId: t, onClose: n }) {
+        let r = J(), i = c5(), a = (0, A.useRef)(null), o = (0, A.useRef)(null), s = p0(e, t), { events: c, loading: l, canPaginate: u, paginate: d } = JQe(e, t), [f] = Y(X, `hour24Clock`), [p] = Y(X, `dateFormatString`), [m] = Y(X, `mediaAutoLoad`), [h] = Y(X, `urlPreview`), [g] = Y(X, `renderMaths`), _ = Iqe(g), v = FX(), y = u2(e.roomId), b = d2(), x = (0, A.useMemo)(()=>({
                 ...s$,
                 render: u$((t)=>l$(r, e.roomId, t, c$(y)))
             }), [
@@ -143484,7 +143478,7 @@ ${r}
                                     },
                                     children: `The message this thread started from could not be loaded.`
                                 }),
-                                s && (0, j.jsx)(XQe, {
+                                s && (0, j.jsx)(YQe, {
                                     room: e,
                                     mEvent: s,
                                     htmlReactParserOptions: S,
@@ -143551,7 +143545,7 @@ ${r}
                                         size: `400`
                                     })
                                 }),
-                                c.map((t)=>(0, j.jsx)(XQe, {
+                                c.map((t)=>(0, j.jsx)(YQe, {
                                         room: e,
                                         mEvent: t,
                                         htmlReactParserOptions: S,
@@ -143571,7 +143565,7 @@ ${r}
                     style: {
                         padding: N.space.S200
                     },
-                    children: (0, j.jsx)(CXe, {
+                    children: (0, j.jsx)(SXe, {
                         room: e,
                         roomId: e.roomId,
                         editor: i,
@@ -143583,7 +143577,7 @@ ${r}
             ]
         });
     }
-    function QQe() {
+    function ZQe() {
         let { eventId: e } = ic(), t = ki(B$), n = vp(), r = c1(`callChatPane`), i = ()=>t(!1);
         return (0, j.jsxs)(m1, {
             style: n === _p.Desktop ? {
@@ -143638,14 +143632,14 @@ ${r}
                 (0, j.jsx)(P, {
                     grow: `Yes`,
                     direction: `Column`,
-                    children: (0, j.jsx)(NXe, {
+                    children: (0, j.jsx)(MXe, {
                         eventId: e
                     })
                 })
             ]
         });
     }
-    function $Qe(e, { edge: t, edgeWidth: n = 32, anywhere: r = !1, threshold: i = 80, onSwipe: a, canSwipe: o, trackElement: s, commitOffset: c = 0 }) {
+    function QQe(e, { edge: t, edgeWidth: n = 32, anywhere: r = !1, threshold: i = 80, onSwipe: a, canSwipe: o, trackElement: s, commitOffset: c = 0 }) {
         let l = (0, A.useRef)(0), u = (0, A.useRef)(0), d = (0, A.useRef)(!1), f = (0, A.useRef)(null), [p, m] = (0, A.useState)(!1), h = (0, A.useCallback)((e, t)=>{
             let n = s?.current;
             n && (n.style.transition = t ? `transform 180ms ease-out` : `none`, n.style.transform = e === 0 ? `` : `translate3d(${e}px, 0, 0)`, n.style.willChange = e === 0 && !t ? `` : `transform`);
@@ -143718,9 +143712,9 @@ ${r}
             isTracking: p
         };
     }
-    function e$e({ children: e }) {
+    function $Qe({ children: e }) {
         let t = vp(), n = ec(), r = (0, A.useRef)(null);
-        return $Qe(r, {
+        return QQe(r, {
             edge: `left`,
             anywhere: !0,
             threshold: 80,
@@ -143751,12 +143745,12 @@ ${r}
         });
     }
     function U7() {
-        let { eventId: e } = ic(), t = M4(), n = J(), r = E$(w$(t)), i = V$(), [a] = Y(X, `isPeopleDrawer`), [o] = Y(X, `hideActivity`), [s, c] = Ai(WXe), l = vp();
+        let { eventId: e } = ic(), t = M4(), n = J(), r = E$(w$(t)), i = V$(), [a] = Y(X, `isPeopleDrawer`), [o] = Y(X, `hideActivity`), [s, c] = Ai(UXe), l = vp();
         (0, A.useEffect)(()=>(c(!1), ()=>c(!1)), [
             t.roomId,
             c
         ]);
-        let [u, d] = Ai(fJe), f = (0, A.useCallback)(()=>d(void 0), [
+        let [u, d] = Ai(dJe), f = (0, A.useCallback)(()=>d(void 0), [
             d
         ]), p = u?.roomId === t.roomId ? u.rootId : void 0;
         (0, A.useEffect)(()=>{
@@ -143766,7 +143760,7 @@ ${r}
             u,
             d
         ]);
-        let m = lX(t), h = e5(n, t.roomId), g = Oi(B$), _ = Pqe();
+        let m = lX(t), h = e5(n, t.roomId), g = Oi(B$), _ = Nqe();
         h7(window, (0, A.useCallback)((e)=>{
             _ || up(`escape`, e) && wX(n, t.roomId, o);
         }, [
@@ -143779,8 +143773,8 @@ ${r}
         return (0, j.jsxs)(rxe, {
             value: m,
             children: [
-                (0, j.jsx)(Bqe, {}),
-                (0, j.jsx)(e$e, {
+                (0, j.jsx)(zqe, {}),
+                (0, j.jsx)($Qe, {
                     children: (0, j.jsxs)(P, {
                         grow: `Yes`,
                         children: [
@@ -143788,12 +143782,12 @@ ${r}
                                 grow: `Yes`,
                                 direction: `Column`,
                                 children: [
-                                    (0, j.jsx)(KQe, {
+                                    (0, j.jsx)(GQe, {
                                         callView: !0
                                     }),
                                     (0, j.jsx)(P, {
                                         grow: `Yes`,
-                                        children: (0, j.jsx)(zZe, {})
+                                        children: (0, j.jsx)(RZe, {})
                                     })
                                 ]
                             }),
@@ -143804,16 +143798,16 @@ ${r}
                                     position: `relative`
                                 },
                                 children: [
-                                    (0, j.jsx)(KQe, {}),
-                                    (0, j.jsx)(JQe, {
+                                    (0, j.jsx)(GQe, {}),
+                                    (0, j.jsx)(qQe, {
                                         room: t
                                     }),
-                                    (0, j.jsx)(YYe, {
+                                    (0, j.jsx)(JYe, {
                                         room: t
                                     }),
                                     (0, j.jsx)(P, {
                                         grow: `Yes`,
-                                        children: (0, j.jsx)(NXe, {
+                                        children: (0, j.jsx)(MXe, {
                                             eventId: e
                                         })
                                     }),
@@ -143823,7 +143817,7 @@ ${r}
                                             inset: 0,
                                             zIndex: 11
                                         },
-                                        children: (0, j.jsx)(ZQe, {
+                                        children: (0, j.jsx)(XQe, {
                                             room: t,
                                             rootId: p,
                                             onClose: f
@@ -143835,7 +143829,7 @@ ${r}
                                             inset: 0,
                                             zIndex: 10
                                         },
-                                        children: (0, j.jsx)(hZe, {
+                                        children: (0, j.jsx)(mZe, {
                                             room: t,
                                             members: h,
                                             overlay: !0,
@@ -143851,7 +143845,7 @@ ${r}
                                         side: `After`,
                                         label: `call chat`
                                     }),
-                                    (0, j.jsx)(QQe, {})
+                                    (0, j.jsx)(ZQe, {})
                                 ]
                             }),
                             !v && l === _p.Desktop && p && (0, j.jsxs)(j.Fragment, {
@@ -143864,7 +143858,7 @@ ${r}
                                     (0, j.jsx)(P, {
                                         shrink: `No`,
                                         style: y.style,
-                                        children: (0, j.jsx)(ZQe, {
+                                        children: (0, j.jsx)(XQe, {
                                             room: t,
                                             rootId: p,
                                             onClose: f
@@ -143879,7 +143873,7 @@ ${r}
                                         side: `After`,
                                         label: `member list`
                                     }),
-                                    (0, j.jsx)(hZe, {
+                                    (0, j.jsx)(mZe, {
                                         room: t,
                                         members: h
                                     }, t.roomId)
@@ -143896,7 +143890,7 @@ ${r}
         return new Set(t);
     }, (e, t)=>{
         lq(e, Array.from(t));
-    }), t$e = pi((e)=>e(W7), (e, t, n)=>{
+    }), e$e = pi((e)=>e(W7), (e, t, n)=>{
         let r = e(W7), { type: i, roomIds: a } = n;
         if (i === `DELETE` && a.find((e)=>r.has(e))) {
             t(W7, gt(r, (e)=>{
@@ -143910,7 +143904,7 @@ ${r}
                 e.forEach((e)=>t.add(e));
             }));
         }
-    }), n$e = `_1p73zhk0`, r$e = (0, A.forwardRef)(({ powerLevels: e, requestClose: t }, n)=>{
+    }), t$e = `_1p73zhk0`, n$e = (0, A.forwardRef)(({ powerLevels: e, requestClose: t }, n)=>{
         let r = J(), i = VX(), a = KX(UX(i), e).action(`invite`, r.getSafeUserId()), o = n3(), [s, c] = (0, A.useState)(!1);
         return (0, j.jsxs)(An, {
             ref: n,
@@ -144025,12 +144019,12 @@ ${r}
             ]
         });
     });
-    function i$e({ showProfile: e, powerLevels: t }) {
+    function r$e({ showProfile: e, powerLevels: t }) {
         let n = J(), r = FX(), i = VX(), a = $q(X, `isPeopleDrawer`), [o, s] = (0, A.useState)(), c = vp(), l = x$(i), u = b$(i), d = u ? oK(n, u, r, 96, 96, `crop`) ?? void 0 : void 0, f = (e)=>{
             s(e.currentTarget.getBoundingClientRect());
         };
         return (0, j.jsx)(h1, {
-            className: e ? void 0 : n$e,
+            className: e ? void 0 : t$e,
             balance: !0,
             children: (0, j.jsxs)(P, {
                 grow: `Yes`,
@@ -144154,7 +144148,7 @@ ${r}
                                         isKeyBackward: (e)=>e.key === `ArrowUp`,
                                         escapeDeactivates: mp
                                     },
-                                    children: (0, j.jsx)(r$e, {
+                                    children: (0, j.jsx)(n$e, {
                                         powerLevels: t,
                                         requestClose: ()=>s(void 0)
                                     })
@@ -144166,7 +144160,7 @@ ${r}
             })
         });
     }
-    function a$e() {
+    function i$e() {
         let e = J(), t = FX(), n = VX(), r = x$(n), i = S$(n), a = b$(n), o = a ? oK(e, a, t, 96, 96, `crop`) ?? void 0 : void 0;
         return (0, j.jsx)(y1, {
             icon: (0, j.jsx)(cn, {
@@ -144220,8 +144214,8 @@ ${r}
             })
         });
     }
-    var o$e = `closedLobbyCategories`, s$e = (e)=>{
-        let t = uq(`${o$e}${e}`, (e)=>{
+    var a$e = `closedLobbyCategories`, o$e = (e)=>{
+        let t = uq(`${a$e}${e}`, (e)=>{
             let t = cq(e, []);
             return new Set(t);
         }, (e, t)=>{
@@ -144238,7 +144232,7 @@ ${r}
                 e.add(r.categoryId);
             }));
         });
-    }, c$e = (...e)=>e.join(`|`), l$e = s(((e)=>{
+    }, s$e = (...e)=>e.join(`|`), c$e = s(((e)=>{
         Object.defineProperty(e, "__esModule", {
             value: !0
         }), e.bind = void 0;
@@ -144249,7 +144243,7 @@ ${r}
             };
         }
         e.bind = t;
-    })), u$e = s(((e)=>{
+    })), l$e = s(((e)=>{
         var t = e && e.__assign || function() {
             return t = Object.assign || function(e) {
                 for(var t, n = 1, r = arguments.length; n < r; n++)for(var i in t = arguments[n], t)Object.prototype.hasOwnProperty.call(t, i) && (e[i] = t[i]);
@@ -144259,7 +144253,7 @@ ${r}
         Object.defineProperty(e, "__esModule", {
             value: !0
         }), e.bindAll = void 0;
-        var n = l$e();
+        var n = c$e();
         function r(e) {
             if (e !== void 0) return typeof e == `boolean` ? {
                 capture: e
@@ -144286,29 +144280,29 @@ ${r}
         Object.defineProperty(e, "__esModule", {
             value: !0
         }), e.bindAll = e.bind = void 0;
-        var t = l$e();
+        var t = c$e();
         Object.defineProperty(e, "bind", {
             enumerable: !0,
             get: function() {
                 return t.bind;
             }
         });
-        var n = u$e();
+        var n = l$e();
         Object.defineProperty(e, "bindAll", {
             enumerable: !0,
             get: function() {
                 return n.bindAll;
             }
         });
-    }))(), d$e = `data-pdnd-honey-pot`;
-    function f$e(e) {
+    }))(), u$e = `data-pdnd-honey-pot`;
+    function d$e(e) {
         return e instanceof Element && e.hasAttribute(`data-pdnd-honey-pot`);
     }
-    function p$e(e) {
+    function f$e(e) {
         var t = kp(document.elementsFromPoint(e.x, e.y), 2), n = t[0], r = t[1];
-        return n ? f$e(n) ? r ?? null : n : null;
+        return n ? d$e(n) ? r ?? null : n : null;
     }
-    var m$e = 2147483647, h$e = {
+    var p$e = 2147483647, m$e = {
         inset: `unset`,
         border: `none`,
         padding: 0,
@@ -144331,10 +144325,10 @@ ${r}
             return t.result;
         };
     }
-    var g$e = K7(function() {
+    var h$e = K7(function() {
         return typeof HTMLElement < `u` && typeof HTMLElement.prototype.showPopover == `function`;
     });
-    function _$e(e, t) {
+    function g$e(e, t) {
         var n = Object.keys(e);
         if (Object.getOwnPropertySymbols) {
             var r = Object.getOwnPropertySymbols(e);
@@ -144344,44 +144338,44 @@ ${r}
         }
         return n;
     }
-    function v$e(e) {
+    function _$e(e) {
         for(var t = 1; t < arguments.length; t++){
             var n = arguments[t] == null ? {} : arguments[t];
-            t % 2 ? _$e(Object(n), !0).forEach(function(t) {
+            t % 2 ? g$e(Object(n), !0).forEach(function(t) {
                 U(e, t, n[t]);
-            }) : Object.getOwnPropertyDescriptors ? Object.defineProperties(e, Object.getOwnPropertyDescriptors(n)) : _$e(Object(n)).forEach(function(t) {
+            }) : Object.getOwnPropertyDescriptors ? Object.defineProperties(e, Object.getOwnPropertyDescriptors(n)) : g$e(Object(n)).forEach(function(t) {
                 Object.defineProperty(e, t, Object.getOwnPropertyDescriptor(n, t));
             });
         }
         return e;
     }
-    var q7 = 2, y$e = q7 / 2;
-    function b$e(e) {
+    var q7 = 2, v$e = q7 / 2;
+    function y$e(e) {
         return {
             x: Math.floor(e.x),
             y: Math.floor(e.y)
         };
     }
-    function x$e(e) {
+    function b$e(e) {
         return {
-            x: e.x - y$e,
-            y: e.y - y$e
+            x: e.x - v$e,
+            y: e.y - v$e
         };
     }
-    function S$e(e) {
+    function x$e(e) {
         return {
             x: Math.max(e.x, 0),
             y: Math.max(e.y, 0)
         };
     }
-    function C$e(e) {
+    function S$e(e) {
         return {
             x: Math.min(e.x, window.innerWidth - q7),
             y: Math.min(e.y, window.innerHeight - q7)
         };
     }
-    function w$e(e) {
-        var t = e.client, n = C$e(S$e(x$e(b$e(t))));
+    function C$e(e) {
+        var t = e.client, n = S$e(x$e(b$e(y$e(t))));
         return DOMRect.fromRect({
             x: n.x,
             y: n.y,
@@ -144389,7 +144383,7 @@ ${r}
             height: q7
         });
     }
-    function T$e(e) {
+    function w$e(e) {
         var t = e.clientRect;
         return {
             left: `${t.left}px`,
@@ -144398,38 +144392,38 @@ ${r}
             height: `${t.height}px`
         };
     }
-    function E$e(e) {
+    function T$e(e) {
         var t = e.client, n = e.clientRect;
         return t.x >= n.x && t.x <= n.x + n.width && t.y >= n.y && t.y <= n.y + n.height;
     }
-    function D$e(e) {
+    function E$e(e) {
         var t = e.initial, n = document.createElement(`div`);
-        n.setAttribute(d$e, `true`), g$e() && n.setAttribute(`popover`, `manual`);
-        var r = w$e({
+        n.setAttribute(u$e, `true`), h$e() && n.setAttribute(`popover`, `manual`);
+        var r = C$e({
             client: t
         });
-        Object.assign(n.style, v$e(v$e({
+        Object.assign(n.style, _$e(_$e({
             position: `fixed`
-        }, g$e() ? h$e : {
-            zIndex: m$e
+        }, h$e() ? m$e : {
+            zIndex: p$e
         }), {}, {
             backgroundColor: `transparent`,
             padding: 0,
             margin: 0,
             boxSizing: `border-box`,
             pointerEvents: `auto`
-        }, T$e({
+        }, w$e({
             clientRect: r
-        }))), document.body.appendChild(n), g$e() && n.showPopover();
+        }))), document.body.appendChild(n), h$e() && n.showPopover();
         var i = (0, G7.bind)(window, {
             type: `pointermove`,
             listener: function(e) {
-                r = w$e({
+                r = C$e({
                     client: {
                         x: e.clientX,
                         y: e.clientY
                     }
-                }), Object.assign(n.style, T$e({
+                }), Object.assign(n.style, w$e({
                     clientRect: r
                 }));
             },
@@ -144439,7 +144433,7 @@ ${r}
         });
         return function(e) {
             var t = e.current;
-            if (i(), E$e({
+            if (i(), T$e({
                 client: t,
                 clientRect: r
             })) {
@@ -144483,7 +144477,7 @@ ${r}
             });
         };
     }
-    function O$e() {
+    function D$e() {
         var e = null;
         function t() {
             return e = null, (0, G7.bind)(window, {
@@ -144505,7 +144499,7 @@ ${r}
                 var r = n.eventName, i = n.payload;
                 if (r === `onDragStart`) {
                     var a = i.location.initial.input;
-                    t = D$e({
+                    t = E$e({
                         initial: e ?? {
                             x: a.clientX,
                             y: a.clientY
@@ -144528,31 +144522,31 @@ ${r}
             getOnPostDispatch: n
         };
     }
-    function k$e(e) {
+    function O$e(e) {
         if (Array.isArray(e)) return zte(e);
     }
-    function A$e() {
+    function k$e() {
         throw TypeError(`Invalid attempt to spread non-iterable instance.
 In order to be iterable, non-array objects must have a [Symbol.iterator]() method.`);
     }
-    function j$e(e) {
-        return k$e(e) || Bie(e) || Op(e) || A$e();
+    function A$e(e) {
+        return O$e(e) || Bie(e) || Op(e) || k$e();
     }
-    var M$e = K7(function() {
+    var j$e = K7(function() {
         return navigator.userAgent.includes(`Firefox`);
-    }), N$e = K7(function() {
+    }), M$e = K7(function() {
         var e = navigator.userAgent;
         return e.includes(`AppleWebKit`) && !e.includes(`Chrome`);
-    }), P$e = {
+    }), N$e = {
         isLeavingWindow: Symbol(`leaving`),
         isEnteringWindow: Symbol(`entering`)
     };
-    function F$e(e) {
+    function P$e(e) {
         var t = e.dragLeave;
-        return N$e() ? t.hasOwnProperty(P$e.isLeavingWindow) : !1;
+        return M$e() ? t.hasOwnProperty(N$e.isLeavingWindow) : !1;
     }
     (function() {
-        if (typeof window > `u` || !N$e()) return;
+        if (typeof window > `u` || !M$e()) return;
         function e() {
             return {
                 enterCount: 0,
@@ -144581,32 +144575,32 @@ In order to be iterable, non-array objects must have a [Symbol.iterator]() metho
             {
                 type: `dragenter`,
                 listener: function(e) {
-                    !t.isOverWindow && t.enterCount === 0 && (e[P$e.isEnteringWindow] = !0), t.isOverWindow = !0, t.enterCount++;
+                    !t.isOverWindow && t.enterCount === 0 && (e[N$e.isEnteringWindow] = !0), t.isOverWindow = !0, t.enterCount++;
                 }
             },
             {
                 type: `dragleave`,
                 listener: function(e) {
-                    t.enterCount--, t.isOverWindow && t.enterCount === 0 && (e[P$e.isLeavingWindow] = !0, t.isOverWindow = !1);
+                    t.enterCount--, t.isOverWindow && t.enterCount === 0 && (e[N$e.isLeavingWindow] = !0, t.isOverWindow = !1);
                 }
             }
         ], {
             capture: !0
         });
     })();
-    function I$e(e) {
+    function F$e(e) {
         return `nodeName` in e;
     }
+    function I$e(e) {
+        return F$e(e) && e.ownerDocument !== document;
+    }
     function L$e(e) {
-        return I$e(e) && e.ownerDocument !== document;
+        var t = e.dragLeave, n = t.type, r = t.relatedTarget;
+        return n === `dragleave` ? M$e() ? P$e({
+            dragLeave: t
+        }) : r == null ? !0 : j$e() ? I$e(r) : r instanceof HTMLIFrameElement : !1;
     }
     function R$e(e) {
-        var t = e.dragLeave, n = t.type, r = t.relatedTarget;
-        return n === `dragleave` ? N$e() ? F$e({
-            dragLeave: t
-        }) : r == null ? !0 : M$e() ? L$e(r) : r instanceof HTMLIFrameElement : !1;
-    }
-    function z$e(e) {
         var t = e.onDragEnd;
         return [
             {
@@ -144642,7 +144636,7 @@ In order to be iterable, non-array objects must have a [Symbol.iterator]() metho
             pageY: e.pageY
         };
     }
-    var B$e = function(e) {
+    var z$e = function(e) {
         var t = [], n = null, r = function() {
             t = [
                 ...arguments
@@ -144673,7 +144667,7 @@ In order to be iterable, non-array objects must have a [Symbol.iterator]() metho
             flush: n
         };
     }();
-    function V$e(e) {
+    function B$e(e) {
         var t = e.source, n = e.initial, r = e.dispatchEvent, i = {
             dropTargets: []
         };
@@ -144708,7 +144702,7 @@ In order to be iterable, non-array objects must have a [Symbol.iterator]() metho
             },
             dragUpdate: function(e) {
                 var r = e.current;
-                Y7.flush(), B$e.cancel(), a({
+                Y7.flush(), z$e.cancel(), a({
                     eventName: `onDropTargetChange`,
                     payload: {
                         source: t,
@@ -144722,7 +144716,7 @@ In order to be iterable, non-array objects must have a [Symbol.iterator]() metho
             },
             drag: function(e) {
                 var r = e.current;
-                B$e(function() {
+                z$e(function() {
                     Y7.flush(), a({
                         eventName: `onDrag`,
                         payload: {
@@ -144738,7 +144732,7 @@ In order to be iterable, non-array objects must have a [Symbol.iterator]() metho
             },
             drop: function(e) {
                 var r = e.current, o = e.updatedSourcePayload;
-                Y7.flush(), B$e.cancel(), a({
+                Y7.flush(), z$e.cancel(), a({
                     eventName: `onDrop`,
                     payload: {
                         source: o ?? t,
@@ -144752,44 +144746,44 @@ In order to be iterable, non-array objects must have a [Symbol.iterator]() metho
             }
         };
     }
-    var H$e = {
+    var V$e = {
         isActive: !1
     };
-    function U$e() {
-        return !H$e.isActive;
+    function H$e() {
+        return !V$e.isActive;
     }
-    function W$e(e) {
+    function U$e(e) {
         return e.dataTransfer ? e.dataTransfer.setDragImage.bind(e.dataTransfer) : null;
     }
-    function G$e(e) {
+    function W$e(e) {
         var t = e.current, n = e.next;
         if (t.length !== n.length) return !0;
         for(var r = 0; r < t.length; r++)if (t[r].element !== n[r].element) return !0;
         return !1;
     }
-    function K$e(e) {
+    function G$e(e) {
         var t = e.event, n = e.dragType, r = e.getDropTargetsOver, i = e.dispatchEvent;
-        if (!U$e()) return;
-        var a = J$e({
+        if (!H$e()) return;
+        var a = q$e({
             event: t,
             dragType: n,
             getDropTargetsOver: r
         });
-        H$e.isActive = !0;
+        V$e.isActive = !0;
         var o = {
             current: a
         };
-        q$e({
+        K$e({
             event: t,
             current: a.dropTargets
         });
-        var s = V$e({
+        var s = B$e({
             source: n.payload,
             dispatchEvent: i,
             initial: a
         });
         function c(e) {
-            var t = G$e({
+            var t = W$e({
                 current: o.current.dropTargets,
                 next: e.dropTargets
             });
@@ -144799,7 +144793,7 @@ In order to be iterable, non-array objects must have a [Symbol.iterator]() metho
         }
         function l(e) {
             var t = J7(e), i = r({
-                target: f$e(e.target) ? p$e({
+                target: d$e(e.target) ? f$e({
                     x: t.clientX,
                     y: t.clientY
                 }) : e.target,
@@ -144807,7 +144801,7 @@ In order to be iterable, non-array objects must have a [Symbol.iterator]() metho
                 source: n.payload,
                 current: o.current.dropTargets
             });
-            i.length && (e.preventDefault(), q$e({
+            i.length && (e.preventDefault(), K$e({
                 event: e,
                 current: i
             })), c({
@@ -144825,7 +144819,7 @@ In order to be iterable, non-array objects must have a [Symbol.iterator]() metho
             }), d();
         }
         function d() {
-            H$e.isActive = !1, f();
+            V$e.isActive = !1, f();
         }
         var f = (0, G7.bindAll)(window, [
             {
@@ -144843,7 +144837,7 @@ In order to be iterable, non-array objects must have a [Symbol.iterator]() metho
             {
                 type: `dragleave`,
                 listener: function(e) {
-                    R$e({
+                    L$e({
                         dragLeave: e
                     }) && (c({
                         input: o.current.input,
@@ -144861,7 +144855,7 @@ In order to be iterable, non-array objects must have a [Symbol.iterator]() metho
                         u();
                         return;
                     }
-                    e.preventDefault(), q$e({
+                    e.preventDefault(), K$e({
                         event: e,
                         current: o.current.dropTargets
                     }), s.drop({
@@ -144879,20 +144873,20 @@ In order to be iterable, non-array objects must have a [Symbol.iterator]() metho
                     }, u();
                 }
             }
-        ].concat(j$e(z$e({
+        ].concat(A$e(R$e({
             onDragEnd: u
         }))), {
             capture: !0
         });
         s.start({
-            nativeSetDragImage: W$e(t)
+            nativeSetDragImage: U$e(t)
         });
     }
-    function q$e(e) {
+    function K$e(e) {
         var t = e.event, n = e.current[0]?.dropEffect;
         n != null && t.dataTransfer && (t.dataTransfer.dropEffect = n);
     }
-    function J$e(e) {
+    function q$e(e) {
         var t = e.event, n = e.dragType, r = e.getDropTargetsOver, i = J7(t);
         return n.startedFrom === `external` ? {
             input: i,
@@ -144907,24 +144901,24 @@ In order to be iterable, non-array objects must have a [Symbol.iterator]() metho
             })
         };
     }
-    var Y$e = {
-        canStart: U$e,
-        start: K$e
-    }, X$e = new Map;
-    function Z$e(e) {
-        var t = e.typeKey, n = e.mount, r = X$e.get(t);
+    var J$e = {
+        canStart: H$e,
+        start: G$e
+    }, Y$e = new Map;
+    function X$e(e) {
+        var t = e.typeKey, n = e.mount, r = Y$e.get(t);
         if (r) return r.usageCount++, r;
         var i = {
             typeKey: t,
             unmount: n(),
             usageCount: 1
         };
-        return X$e.set(t, i), i;
+        return Y$e.set(t, i), i;
     }
-    function Q$e(e) {
-        var t = Z$e(e);
+    function Z$e(e) {
+        var t = X$e(e);
         return function() {
-            t.usageCount--, !(t.usageCount > 0) && (t.unmount(), X$e.delete(e.typeKey));
+            t.usageCount--, !(t.usageCount > 0) && (t.unmount(), Y$e.delete(e.typeKey));
         };
     }
     function X7() {
@@ -144937,13 +144931,13 @@ In order to be iterable, non-array objects must have a [Symbol.iterator]() metho
             });
         };
     }
-    function $$e(e, t) {
+    function Q$e(e, t) {
         var n = t.attribute, r = t.value;
         return e.setAttribute(n, r), function() {
             return e.removeAttribute(n);
         };
     }
-    function e1e(e, t) {
+    function $$e(e, t) {
         var n = Object.keys(e);
         if (Object.getOwnPropertySymbols) {
             var r = Object.getOwnPropertySymbols(e);
@@ -144956,18 +144950,18 @@ In order to be iterable, non-array objects must have a [Symbol.iterator]() metho
     function Z7(e) {
         for(var t = 1; t < arguments.length; t++){
             var n = arguments[t] == null ? {} : arguments[t];
-            t % 2 ? e1e(Object(n), !0).forEach(function(t) {
+            t % 2 ? $$e(Object(n), !0).forEach(function(t) {
                 U(e, t, n[t]);
-            }) : Object.getOwnPropertyDescriptors ? Object.defineProperties(e, Object.getOwnPropertyDescriptors(n)) : e1e(Object(n)).forEach(function(t) {
+            }) : Object.getOwnPropertyDescriptors ? Object.defineProperties(e, Object.getOwnPropertyDescriptors(n)) : $$e(Object(n)).forEach(function(t) {
                 Object.defineProperty(e, t, Object.getOwnPropertyDescriptor(n, t));
             });
         }
         return e;
     }
-    function t1e(e, t) {
+    function e1e(e, t) {
         var n = typeof Symbol < `u` && e[Symbol.iterator] || e[`@@iterator`];
         if (!n) {
-            if (Array.isArray(e) || (n = n1e(e)) || t && e && typeof e.length == `number`) {
+            if (Array.isArray(e) || (n = t1e(e)) || t && e && typeof e.length == `number`) {
                 n && (e = n);
                 var r = 0, i = function() {};
                 return {
@@ -145010,22 +145004,22 @@ In order to be iterable, non-array objects must have a [Symbol.iterator]() metho
             }
         };
     }
-    function n1e(e, t) {
+    function t1e(e, t) {
         if (e) {
-            if (typeof e == `string`) return r1e(e, t);
+            if (typeof e == `string`) return n1e(e, t);
             var n = {}.toString.call(e).slice(8, -1);
-            return n === `Object` && e.constructor && (n = e.constructor.name), n === `Map` || n === `Set` ? Array.from(e) : n === `Arguments` || /^(?:Ui|I)nt(?:8|16|32)(?:Clamped)?Array$/.test(n) ? r1e(e, t) : void 0;
+            return n === `Object` && e.constructor && (n = e.constructor.name), n === `Map` || n === `Set` ? Array.from(e) : n === `Arguments` || /^(?:Ui|I)nt(?:8|16|32)(?:Clamped)?Array$/.test(n) ? n1e(e, t) : void 0;
         }
     }
-    function r1e(e, t) {
+    function n1e(e, t) {
         (t == null || t > e.length) && (t = e.length);
         for(var n = 0, r = Array(t); n < t; n++)r[n] = e[n];
         return r;
     }
-    function i1e(e) {
+    function r1e(e) {
         return e.slice(0).reverse();
     }
-    function a1e(e) {
+    function i1e(e) {
         var t = e.typeKey, n = e.defaultDropEffect, r = new WeakMap, i = `data-drop-target-for-${t}`, a = `[${i}]`;
         function o(e) {
             return r.set(e.element, e), function() {
@@ -145033,7 +145027,7 @@ In order to be iterable, non-array objects must have a [Symbol.iterator]() metho
             };
         }
         function s(e) {
-            return K7(X7($$e(e.element, {
+            return K7(X7(Q$e(e.element, {
                 attribute: i,
                 value: `true`
             }), o(e)));
@@ -145072,13 +145066,13 @@ In order to be iterable, non-array objects must have a [Symbol.iterator]() metho
                 source: t,
                 target: d.element.parentElement,
                 input: o,
-                result: [].concat(j$e(l), [
+                result: [].concat(A$e(l), [
                     h
                 ])
             });
         }
         function l(e) {
-            var t = e.eventName, n = e.payload, i = t1e(n.location.current.dropTargets), a;
+            var t = e.eventName, n = e.payload, i = e1e(n.location.current.dropTargets), a;
             try {
                 for(i.s(); !(a = i.n()).done;){
                     var o, s = a.value, c = r.get(s.element), l = Z7(Z7({}, n), {}, {
@@ -145100,7 +145094,7 @@ In order to be iterable, non-array objects must have a [Symbol.iterator]() metho
             onDropTargetChange: function(e) {
                 var t = e.payload, n = new Set(t.location.current.dropTargets.map(function(e) {
                     return e.element;
-                })), i = new Set, a = t1e(t.location.previous.dropTargets), o;
+                })), i = new Set, a = e1e(t.location.previous.dropTargets), o;
                 try {
                     for(a.s(); !(o = a.n()).done;){
                         var s, c = o.value;
@@ -145118,7 +145112,7 @@ In order to be iterable, non-array objects must have a [Symbol.iterator]() metho
                 } finally{
                     a.f();
                 }
-                var p = t1e(t.location.current.dropTargets), m;
+                var p = e1e(t.location.current.dropTargets), m;
                 try {
                     for(p.s(); !(m = p.n()).done;){
                         var h, g, _ = m.value;
@@ -145146,7 +145140,7 @@ In order to be iterable, non-array objects must have a [Symbol.iterator]() metho
                 input: i
             });
             if (o.length >= a.length) return o;
-            for(var s = i1e(a), l = i1e(o), u = [], d = 0; d < s.length; d++){
+            for(var s = r1e(a), l = r1e(o), u = [], d = 0; d < s.length; d++){
                 var f, p = s[d], m = l[d];
                 if (m != null) {
                     u.push(m);
@@ -145166,7 +145160,7 @@ In order to be iterable, non-array objects must have a [Symbol.iterator]() metho
                     isActiveDueToStickiness: !0
                 }));
             }
-            return i1e(u);
+            return r1e(u);
         }
         return {
             dropTargetForConsumers: s,
@@ -145174,10 +145168,10 @@ In order to be iterable, non-array objects must have a [Symbol.iterator]() metho
             dispatchEvent: d
         };
     }
-    function o1e(e, t) {
+    function a1e(e, t) {
         var n = typeof Symbol < `u` && e[Symbol.iterator] || e[`@@iterator`];
         if (!n) {
-            if (Array.isArray(e) || (n = s1e(e)) || t && e && typeof e.length == `number`) {
+            if (Array.isArray(e) || (n = o1e(e)) || t && e && typeof e.length == `number`) {
                 n && (e = n);
                 var r = 0, i = function() {};
                 return {
@@ -145220,19 +145214,19 @@ In order to be iterable, non-array objects must have a [Symbol.iterator]() metho
             }
         };
     }
-    function s1e(e, t) {
+    function o1e(e, t) {
         if (e) {
-            if (typeof e == `string`) return c1e(e, t);
+            if (typeof e == `string`) return s1e(e, t);
             var n = {}.toString.call(e).slice(8, -1);
-            return n === `Object` && e.constructor && (n = e.constructor.name), n === `Map` || n === `Set` ? Array.from(e) : n === `Arguments` || /^(?:Ui|I)nt(?:8|16|32)(?:Clamped)?Array$/.test(n) ? c1e(e, t) : void 0;
+            return n === `Object` && e.constructor && (n = e.constructor.name), n === `Map` || n === `Set` ? Array.from(e) : n === `Arguments` || /^(?:Ui|I)nt(?:8|16|32)(?:Clamped)?Array$/.test(n) ? s1e(e, t) : void 0;
         }
     }
-    function c1e(e, t) {
+    function s1e(e, t) {
         (t == null || t > e.length) && (t = e.length);
         for(var n = 0, r = Array(t); n < t; n++)r[n] = e[n];
         return r;
     }
-    function l1e(e, t) {
+    function c1e(e, t) {
         var n = Object.keys(e);
         if (Object.getOwnPropertySymbols) {
             var r = Object.getOwnPropertySymbols(e);
@@ -145242,24 +145236,24 @@ In order to be iterable, non-array objects must have a [Symbol.iterator]() metho
         }
         return n;
     }
-    function u1e(e) {
+    function l1e(e) {
         for(var t = 1; t < arguments.length; t++){
             var n = arguments[t] == null ? {} : arguments[t];
-            t % 2 ? l1e(Object(n), !0).forEach(function(t) {
+            t % 2 ? c1e(Object(n), !0).forEach(function(t) {
                 U(e, t, n[t]);
-            }) : Object.getOwnPropertyDescriptors ? Object.defineProperties(e, Object.getOwnPropertyDescriptors(n)) : l1e(Object(n)).forEach(function(t) {
+            }) : Object.getOwnPropertyDescriptors ? Object.defineProperties(e, Object.getOwnPropertyDescriptors(n)) : c1e(Object(n)).forEach(function(t) {
                 Object.defineProperty(e, t, Object.getOwnPropertyDescriptor(n, t));
             });
         }
         return e;
     }
-    function d1e() {
+    function u1e() {
         var e = new Set, t = null;
         function n(e) {
             t && (!e.canMonitor || e.canMonitor(t.canMonitorArgs)) && t.active.add(e);
         }
         function r(r) {
-            var i = u1e({}, r);
+            var i = l1e({}, r);
             e.add(i), n(i);
             function a() {
                 e.delete(i), t && t.active.delete(i);
@@ -145276,7 +145270,7 @@ In order to be iterable, non-array objects must have a [Symbol.iterator]() metho
                     },
                     active: new Set
                 };
-                var o = o1e(e), s;
+                var o = a1e(e), s;
                 try {
                     for(o.s(); !(s = o.n()).done;){
                         var c = s.value;
@@ -145304,8 +145298,8 @@ In order to be iterable, non-array objects must have a [Symbol.iterator]() metho
             monitorForConsumers: r
         };
     }
-    function f1e(e) {
-        var t = e.typeKey, n = e.mount, r = e.dispatchEventToSource, i = e.onPostDispatch, a = e.defaultDropEffect, o = d1e(), s = a1e({
+    function d1e(e) {
+        var t = e.typeKey, n = e.mount, r = e.dispatchEventToSource, i = e.onPostDispatch, a = e.defaultDropEffect, o = u1e(), s = i1e({
             typeKey: t,
             defaultDropEffect: a
         });
@@ -145314,7 +145308,7 @@ In order to be iterable, non-array objects must have a [Symbol.iterator]() metho
         }
         function l(e) {
             var t = e.event, n = e.dragType;
-            Y$e.start({
+            J$e.start({
                 event: t,
                 dragType: n,
                 getDropTargetsOver: s.getIsOver,
@@ -145324,11 +145318,11 @@ In order to be iterable, non-array objects must have a [Symbol.iterator]() metho
         function u() {
             function e() {
                 return n({
-                    canStart: Y$e.canStart,
+                    canStart: J$e.canStart,
                     start: l
                 });
             }
-            return Q$e({
+            return Z$e({
                 typeKey: t,
                 mount: e
             });
@@ -145339,19 +145333,19 @@ In order to be iterable, non-array objects must have a [Symbol.iterator]() metho
             monitor: o.monitorForConsumers
         };
     }
-    var p1e = K7(function() {
+    var f1e = K7(function() {
         return navigator.userAgent.toLocaleLowerCase().includes(`android`);
-    }), m1e = `pdnd:android-fallback`, h1e = `text/plain`, g1e = `application/vnd.pdnd`, Q7 = new WeakMap;
-    function _1e(e) {
+    }), p1e = `pdnd:android-fallback`, m1e = `text/plain`, h1e = `application/vnd.pdnd`, Q7 = new WeakMap;
+    function g1e(e) {
         return Q7.set(e.element, e), function() {
             Q7.delete(e.element);
         };
     }
-    var v1e = O$e(), y1e = f1e({
+    var _1e = D$e(), v1e = d1e({
         typeKey: `element`,
         defaultDropEffect: `move`,
         mount: function(e) {
-            return X7(v1e.bindEvents(), (0, G7.bind)(document, {
+            return X7(_1e.bindEvents(), (0, G7.bind)(document, {
                 type: `dragstart`,
                 listener: function(t) {
                     if (e.canStart(t) && !t.defaultPrevented && t.dataTransfer) {
@@ -145369,7 +145363,7 @@ In order to be iterable, non-array objects must have a [Symbol.iterator]() metho
                                     return;
                                 }
                                 if (r.dragHandle) {
-                                    var o = p$e({
+                                    var o = f$e({
                                         x: i.clientX,
                                         y: i.clientY
                                     });
@@ -145383,7 +145377,7 @@ In order to be iterable, non-array objects must have a [Symbol.iterator]() metho
                                     var u = kp(l[c], 2), d = u[0], f = u[1];
                                     t.dataTransfer.setData(d, f ?? ``);
                                 }
-                                p1e() && !t.dataTransfer.types.includes(`text/plain`) && !t.dataTransfer.types.includes(`text/uri-list`) && t.dataTransfer.setData(h1e, m1e), t.dataTransfer.setData(g1e, ``);
+                                f1e() && !t.dataTransfer.types.includes(`text/plain`) && !t.dataTransfer.types.includes(`text/uri-list`) && t.dataTransfer.setData(m1e, p1e), t.dataTransfer.setData(h1e, ``);
                                 var p = {
                                     type: `element`,
                                     payload: {
@@ -145407,17 +145401,17 @@ In order to be iterable, non-array objects must have a [Symbol.iterator]() metho
             var t, n, r = e.eventName, i = e.payload;
             (t = Q7.get(i.source.element)) == null || (n = t[r]) == null || n.call(t, i);
         },
-        onPostDispatch: v1e.getOnPostDispatch()
-    }), b1e = y1e.dropTarget, x1e = y1e.monitor;
-    function S1e(e) {
-        return K7(X7(y1e.registerUsage(), _1e(e), $$e(e.element, {
+        onPostDispatch: _1e.getOnPostDispatch()
+    }), y1e = v1e.dropTarget, b1e = v1e.monitor;
+    function x1e(e) {
+        return K7(X7(v1e.registerUsage(), g1e(e), Q$e(e.element, {
             attribute: `draggable`,
             value: `true`
         })));
     }
     var $7 = new Map, e9 = new Set;
-    function C1e(e) {
-        w1e(e);
+    function S1e(e) {
+        C1e(e);
         var t = $7.get(e);
         if (t) return t;
         var n = {
@@ -145425,35 +145419,35 @@ In order to be iterable, non-array objects must have a [Symbol.iterator]() metho
         };
         return $7.set(e, n), n;
     }
-    function w1e(e) {
+    function C1e(e) {
         e9.add(e);
     }
-    function T1e(e) {
+    function w1e(e) {
         e9.clear(), e(), $7.forEach(function(e, t) {
             e9.has(t) || $7.delete(t);
         }), e9.clear();
     }
-    function E1e() {
+    function T1e() {
         $7.clear();
     }
-    var D1e = new Map;
-    function O1e(e) {
-        var t = D1e.get(e);
+    var E1e = new Map;
+    function D1e(e) {
+        var t = E1e.get(e);
         if (t) return t;
-        var n = k1e(e);
-        return D1e.set(e, n), n;
+        var n = O1e(e);
+        return E1e.set(e, n), n;
     }
-    function k1e(e) {
+    function O1e(e) {
         var t = {
             type: `idle`
         }, n = [];
         function r(e) {
             if (t.type === `running`) {
-                var i = e - t.timeLastFrameFinished, a = t.latestArgs, o = p$e({
+                var i = e - t.timeLastFrameFinished, a = t.latestArgs, o = f$e({
                     x: a.location.current.input.clientX,
                     y: a.location.current.input.clientY
                 });
-                T1e(function() {
+                w1e(function() {
                     n.forEach(function(e) {
                         return e({
                             underUsersPointer: o,
@@ -145465,7 +145459,7 @@ In order to be iterable, non-array objects must have a [Symbol.iterator]() metho
             }
         }
         function i() {
-            t.type !== `idle` && (cancelAnimationFrame(t.frameId), E1e(), t = {
+            t.type !== `idle` && (cancelAnimationFrame(t.frameId), T1e(), t = {
                 type: `idle`
             });
         }
@@ -145501,13 +145495,13 @@ In order to be iterable, non-array objects must have a [Symbol.iterator]() metho
             }
         };
     }
-    var A1e = `data-auto-scrollable`, j1e = `[${A1e}="true"]`;
-    function M1e(e) {
-        return e.setAttribute(A1e, `true`), function() {
-            return e.removeAttribute(A1e);
+    var k1e = `data-auto-scrollable`, A1e = `[${k1e}="true"]`;
+    function j1e(e) {
+        return e.setAttribute(k1e, `true`), function() {
+            return e.removeAttribute(k1e);
         };
     }
-    function N1e(e, t) {
+    function M1e(e, t) {
         var n = Object.keys(e);
         if (Object.getOwnPropertySymbols) {
             var r = Object.getOwnPropertySymbols(e);
@@ -145517,18 +145511,18 @@ In order to be iterable, non-array objects must have a [Symbol.iterator]() metho
         }
         return n;
     }
-    function P1e(e) {
+    function N1e(e) {
         for(var t = 1; t < arguments.length; t++){
             var n = arguments[t] == null ? {} : arguments[t];
-            t % 2 ? N1e(Object(n), !0).forEach(function(t) {
+            t % 2 ? M1e(Object(n), !0).forEach(function(t) {
                 U(e, t, n[t]);
-            }) : Object.getOwnPropertyDescriptors ? Object.defineProperties(e, Object.getOwnPropertyDescriptors(n)) : N1e(Object(n)).forEach(function(t) {
+            }) : Object.getOwnPropertyDescriptors ? Object.defineProperties(e, Object.getOwnPropertyDescriptors(n)) : M1e(Object(n)).forEach(function(t) {
                 Object.defineProperty(e, t, Object.getOwnPropertyDescriptor(n, t));
             });
         }
         return e;
     }
-    var F1e = {
+    var P1e = {
         startHitboxAtPercentageRemainingOfElement: {
             top: .25,
             right: .25,
@@ -145543,16 +145537,16 @@ In order to be iterable, non-array objects must have a [Symbol.iterator]() metho
         },
         timeDampeningDurationMs: 400,
         maxMainAxisHitboxSize: 180
-    }, I1e = {
+    }, F1e = {
         standard: 900,
         fast: 1500
     };
-    function L1e(e) {
-        return P1e(P1e({}, F1e), {}, {
-            maxPixelScrollPerSecond: I1e[e?.maxScrollSpeed ?? `standard`]
+    function I1e(e) {
+        return N1e(N1e({}, P1e), {}, {
+            maxPixelScrollPerSecond: F1e[e?.maxScrollSpeed ?? `standard`]
         });
     }
-    var R1e = {
+    var L1e = {
         top: function(e) {
             return e.scrollTop > 0;
         },
@@ -145565,36 +145559,36 @@ In order to be iterable, non-array objects must have a [Symbol.iterator]() metho
         left: function(e) {
             return e.scrollLeft > 0;
         }
-    }, z1e = [
+    }, R1e = [
         `top`,
         `right`,
         `bottom`,
         `left`
-    ], B1e = {
+    ], z1e = {
         top: `vertical`,
         right: `horizontal`,
         bottom: `vertical`,
         left: `horizontal`
-    }, V1e = {
+    }, B1e = {
         start: `top`,
         end: `bottom`,
         point: `y`,
         size: `height`
-    }, H1e = {
+    }, V1e = {
         start: `left`,
         end: `right`,
         point: `x`,
         size: `width`
-    }, U1e = {
+    }, H1e = {
         vertical: {
-            mainAxis: V1e,
-            crossAxis: H1e
+            mainAxis: B1e,
+            crossAxis: V1e
         },
         horizontal: {
-            mainAxis: H1e,
-            crossAxis: V1e
+            mainAxis: V1e,
+            crossAxis: B1e
         }
-    }, W1e = {
+    }, U1e = {
         top: `start`,
         right: `end`,
         bottom: `end`,
@@ -145603,11 +145597,11 @@ In order to be iterable, non-array objects must have a [Symbol.iterator]() metho
     function t9(e) {
         var t = e.edge, n = e.axis;
         return function(e) {
-            var r = e.clientRect, i = e.config, a = U1e[n], o = a.mainAxis, s = a.crossAxis, c = W1e[t], l = Math.min(i.startHitboxAtPercentageRemainingOfElement[t] * r[o.size], i.maxMainAxisHitboxSize);
+            var r = e.clientRect, i = e.config, a = H1e[n], o = a.mainAxis, s = a.crossAxis, c = U1e[t], l = Math.min(i.startHitboxAtPercentageRemainingOfElement[t] * r[o.size], i.maxMainAxisHitboxSize);
             return DOMRect.fromRect(U(U(U(U({}, o.point, c === `start` ? r[o.point] : r[o.point] + r[o.size] - l), s.point, r[s.point]), o.size, l), s.size, r[s.size]));
         };
     }
-    var G1e = {
+    var W1e = {
         top: t9({
             axis: `vertical`,
             edge: `top`
@@ -145625,69 +145619,69 @@ In order to be iterable, non-array objects must have a [Symbol.iterator]() metho
             edge: `left`
         })
     };
-    function K1e(e) {
+    function G1e(e) {
         var t = e.startOfRange, n = e.endOfRange, r = e.value;
         if (!(t < n) || r < t) return 0;
         if (r > n) return 1;
         var i = n - t;
         return (r - t) / i;
     }
-    function q1e(e) {
+    function K1e(e) {
         var t = e.timeSinceLastFrame, n = e.config, r = n.maxPixelScrollPerSecond / 1e3, i = Math.ceil(r * t), a = n.maxPixelScrollPerSecond / 60;
         return Math.min(i, a);
     }
-    function J1e(e) {
-        var t = e.client, n = e.axis, r = e.edge, i = e.hitbox, a = e.config, o = U1e[n].mainAxis, s = W1e[r], c = i[o.size] * a.maxScrollAtPercentageRemainingOfHitbox[r];
-        return s === `end` ? K1e({
+    function q1e(e) {
+        var t = e.client, n = e.axis, r = e.edge, i = e.hitbox, a = e.config, o = H1e[n].mainAxis, s = U1e[r], c = i[o.size] * a.maxScrollAtPercentageRemainingOfHitbox[r];
+        return s === `end` ? G1e({
             startOfRange: i[o.start],
             endOfRange: i[o.end] - c,
             value: t[o.point]
-        }) : 1 - K1e({
+        }) : 1 - G1e({
             startOfRange: i[o.start] + c,
             endOfRange: i[o.end],
             value: t[o.point]
         });
     }
     function n9(e) {
-        var t = e.client, n = e.timeSinceLastFrame, r = e.engagement, i = e.axis, a = e.hitbox, o = e.edge, s = e.isDistanceDampeningEnabled, c = e.config, l = q1e({
+        var t = e.client, n = e.timeSinceLastFrame, r = e.engagement, i = e.axis, a = e.hitbox, o = e.edge, s = e.isDistanceDampeningEnabled, c = e.config, l = K1e({
             timeSinceLastFrame: n,
             config: c
-        }), u = (s ? J1e({
+        }), u = (s ? q1e({
             client: t,
             edge: o,
             hitbox: a,
             axis: i,
             config: c
-        }) : 1) * K1e({
+        }) : 1) * G1e({
             startOfRange: r.timeOfEngagementStart,
             endOfRange: r.timeOfEngagementStart + c.timeDampeningDurationMs,
             value: Date.now()
         }), d = Math.max(l * u, 1);
-        return W1e[o] === `end` ? d : -1 * d;
+        return U1e[o] === `end` ? d : -1 * d;
     }
-    function Y1e(e, t) {
+    function J1e(e, t) {
         return t === `all` || e === t;
     }
-    function X1e(e) {
+    function Y1e(e) {
         var t = e.client, n = e.clientRect;
         return t.x >= n.x && t.x <= n.x + n.width && t.y >= n.y && t.y <= n.y + n.height;
     }
-    function Z1e(e) {
+    function X1e(e) {
         return e.getBoundingClientRect();
     }
-    function Q1e(e) {
-        var t = e.element, n = e.input, r = e.timeSinceLastFrame, i = e.engagement, a = e.config, o = e.allowedAxis, s = e.getRect, c = s === void 0 ? Z1e : s, l = {
+    function Z1e(e) {
+        var t = e.element, n = e.input, r = e.timeSinceLastFrame, i = e.engagement, a = e.config, o = e.allowedAxis, s = e.getRect, c = s === void 0 ? X1e : s, l = {
             x: n.clientX,
             y: n.clientY
-        }, u = c(t), d = z1e.reduce(function(e, n) {
-            var r = G1e[n]({
+        }, u = c(t), d = R1e.reduce(function(e, n) {
+            var r = W1e[n]({
                 clientRect: u,
                 config: a
-            }), i = B1e[n];
-            return !Y1e(i, o) || !X1e({
+            }), i = z1e[n];
+            return !J1e(i, o) || !Y1e({
                 client: l,
                 clientRect: r
-            }) || !R1e[n](t) || e.set(n, {
+            }) || !L1e[n](t) || e.set(n, {
                 edge: n,
                 hitbox: r
             }), e;
@@ -145743,10 +145737,10 @@ In order to be iterable, non-array objects must have a [Symbol.iterator]() metho
             }()
         };
     }
-    function $1e(e, t) {
+    function Q1e(e, t) {
         var n = typeof Symbol < `u` && e[Symbol.iterator] || e[`@@iterator`];
         if (!n) {
-            if (Array.isArray(e) || (n = e0e(e)) || t && e && typeof e.length == `number`) {
+            if (Array.isArray(e) || (n = $1e(e)) || t && e && typeof e.length == `number`) {
                 n && (e = n);
                 var r = 0, i = function() {};
                 return {
@@ -145789,33 +145783,33 @@ In order to be iterable, non-array objects must have a [Symbol.iterator]() metho
             }
         };
     }
-    function e0e(e, t) {
+    function $1e(e, t) {
         if (e) {
-            if (typeof e == `string`) return t0e(e, t);
+            if (typeof e == `string`) return e0e(e, t);
             var n = {}.toString.call(e).slice(8, -1);
-            return n === `Object` && e.constructor && (n = e.constructor.name), n === `Map` || n === `Set` ? Array.from(e) : n === `Arguments` || /^(?:Ui|I)nt(?:8|16|32)(?:Clamped)?Array$/.test(n) ? t0e(e, t) : void 0;
+            return n === `Object` && e.constructor && (n = e.constructor.name), n === `Map` || n === `Set` ? Array.from(e) : n === `Arguments` || /^(?:Ui|I)nt(?:8|16|32)(?:Clamped)?Array$/.test(n) ? e0e(e, t) : void 0;
         }
     }
-    function t0e(e, t) {
+    function e0e(e, t) {
         (t == null || t > e.length) && (t = e.length);
         for(var n = 0, r = Array(t); n < t; n++)r[n] = e[n];
         return r;
     }
-    function n0e(e) {
+    function t0e(e) {
         return !!(e.top || e.left);
     }
-    function r0e(e) {
+    function n0e(e) {
         var t = e.target, n = e.input, r = e.source, i = e.findEntry, a = e.timeSinceLastFrame, o = e.available, s = o === void 0 ? {
             top: !0,
             left: !0
         } : o;
-        if (!n0e(s) || !t) return s;
-        var c = t.closest(j1e);
+        if (!t0e(s) || !t) return s;
+        var c = t.closest(A1e);
         if (!c) return s;
         var l = i(c);
         if (!l) return s;
         function u() {
-            return r0e({
+            return n0e({
                 target: c?.parentElement ?? null,
                 findEntry: i,
                 source: r,
@@ -145830,7 +145824,7 @@ In order to be iterable, non-array objects must have a [Symbol.iterator]() metho
             element: c
         };
         if (l.canScroll && !l.canScroll(d)) return u();
-        var f = C1e(c), p = L1e(l.getConfiguration?.call(l, d)), m = Q1e({
+        var f = S1e(c), p = I1e(l.getConfiguration?.call(l, d)), m = Z1e({
             element: c,
             engagement: f,
             input: n,
@@ -145843,21 +145837,21 @@ In order to be iterable, non-array objects must have a [Symbol.iterator]() metho
         };
         return s.top && m.top !== 0 && (h.top = m.top, s.top = !1), s.left && m.left !== 0 && (h.left = m.left, s.left = !1), (h.top !== 0 || h.left !== 0) && c.scrollBy(h), u();
     }
-    function i0e(e) {
+    function r0e(e) {
         var t = e.input, n = e.timeSinceLastFrame, r = e.available, i = e.source, a = e.entries, o = document.documentElement, s = {
             input: t,
             source: i,
             element: o
-        }, c = $1e(a), l;
+        }, c = Q1e(a), l;
         try {
             for(c.s(); !(l = c.n()).done;){
                 var u = l.value;
                 if (!(u.canScroll && !u.canScroll(s))) {
-                    var d = Q1e({
+                    var d = Z1e({
                         element: o,
-                        engagement: C1e(o),
+                        engagement: S1e(o),
                         input: t,
-                        config: L1e(u.getConfiguration?.call(u, s)),
+                        config: I1e(u.getConfiguration?.call(u, s)),
                         allowedAxis: u.getAllowedAxis?.call(u, s) ?? `all`,
                         getRect: function(e) {
                             return DOMRect.fromRect({
@@ -145882,15 +145876,15 @@ In order to be iterable, non-array objects must have a [Symbol.iterator]() metho
             c.f();
         }
     }
-    function a0e(e) {
-        var t = e.input, n = e.findEntry, r = e.timeSinceLastFrame, i = e.source, a = e.getWindowScrollEntries, o = e.underUsersPointer, s = r0e({
+    function i0e(e) {
+        var t = e.input, n = e.findEntry, r = e.timeSinceLastFrame, i = e.source, a = e.getWindowScrollEntries, o = e.underUsersPointer, s = n0e({
             target: o,
             timeSinceLastFrame: r,
             input: t,
             source: i,
             findEntry: n
         });
-        n0e(s) && i0e({
+        t0e(s) && r0e({
             input: t,
             source: i,
             entries: a(),
@@ -145898,7 +145892,7 @@ In order to be iterable, non-array objects must have a [Symbol.iterator]() metho
             available: s
         });
     }
-    function o0e(e, t) {
+    function a0e(e, t) {
         var n = Object.keys(e);
         if (Object.getOwnPropertySymbols) {
             var r = Object.getOwnPropertySymbols(e);
@@ -145908,26 +145902,26 @@ In order to be iterable, non-array objects must have a [Symbol.iterator]() metho
         }
         return n;
     }
-    function s0e(e) {
+    function o0e(e) {
         for(var t = 1; t < arguments.length; t++){
             var n = arguments[t] == null ? {} : arguments[t];
-            t % 2 ? o0e(Object(n), !0).forEach(function(t) {
+            t % 2 ? a0e(Object(n), !0).forEach(function(t) {
                 U(e, t, n[t]);
-            }) : Object.getOwnPropertyDescriptors ? Object.defineProperties(e, Object.getOwnPropertyDescriptors(n)) : o0e(Object(n)).forEach(function(t) {
+            }) : Object.getOwnPropertyDescriptors ? Object.defineProperties(e, Object.getOwnPropertyDescriptors(n)) : a0e(Object(n)).forEach(function(t) {
                 Object.defineProperty(e, t, Object.getOwnPropertyDescriptor(n, t));
             });
         }
         return e;
     }
-    function c0e(e) {
+    function s0e(e) {
         var t = e.monitor, n = new Map, r = new Set;
         function i(e) {
-            return n.set(e.element, e), K7(X7(M1e(e.element), function() {
+            return n.set(e.element, e), K7(X7(j1e(e.element), function() {
                 return n.delete(e.element);
             }));
         }
         function a() {
-            var e = s0e({}, arguments.length > 0 && arguments[0] !== void 0 ? arguments[0] : {});
+            var e = o0e({}, arguments.length > 0 && arguments[0] !== void 0 ? arguments[0] : {});
             r.add(e);
             function t() {
                 r.delete(e);
@@ -145942,7 +145936,7 @@ In order to be iterable, non-array objects must have a [Symbol.iterator]() metho
         }
         function c(e) {
             var t = e.latestArgs, n = e.underUsersPointer, r = e.timeSinceLastFrame;
-            a0e({
+            i0e({
                 input: t.location.current.input,
                 source: t.source,
                 findEntry: o,
@@ -145951,20 +145945,20 @@ In order to be iterable, non-array objects must have a [Symbol.iterator]() metho
                 getWindowScrollEntries: s
             });
         }
-        return O1e(t).onFrame(c), {
+        return D1e(t).onFrame(c), {
             autoScroll: i,
             autoScrollWindow: a
         };
     }
-    var l0e = c0e({
-        monitor: x1e
-    }), u0e = l0e.autoScroll;
-    l0e.autoScrollWindow;
-    var d0e = `_10dxgc60 _1rwrsxz0 _1mqalmd1 _1mqalmd0 _1rwrsxz3`, f0e = `_10dxgc63 _10dxgc62 _10dxgc61`, p0e = `_10dxgc64 _10dxgc62 _10dxgc61`, m0e = (e, t, n, r)=>{
+    var c0e = s0e({
+        monitor: b1e
+    }), l0e = c0e.autoScroll;
+    c0e.autoScrollWindow;
+    var u0e = `_10dxgc60 _1rwrsxz0 _1mqalmd1 _1mqalmd0 _1rwrsxz3`, d0e = `_10dxgc63 _10dxgc62 _10dxgc61`, f0e = `_10dxgc64 _10dxgc62 _10dxgc61`, p0e = (e, t, n, r)=>{
         let [i, a] = (0, A.useState)(!1);
         return (0, A.useEffect)(()=>{
             let i = t.current, o = r?.current ?? void 0;
-            return i ? S1e({
+            return i ? x1e({
                 element: i,
                 dragHandle: o,
                 getInitialData: ()=>e,
@@ -145981,10 +145975,10 @@ In order to be iterable, non-array objects must have a [Symbol.iterator]() metho
             e,
             n
         ]), i;
-    }, h0e = $t(({ className: e, ...t }, n)=>(0, j.jsx)(P, {
+    }, m0e = $t(({ className: e, ...t }, n)=>(0, j.jsx)(P, {
             justifyContent: `Center`,
             alignItems: `Center`,
-            className: (0, bt.default)(d0e, e),
+            className: (0, bt.default)(u0e, e),
             ref: n,
             ...t,
             children: (0, j.jsx)(I, {
@@ -145992,12 +145986,12 @@ In order to be iterable, non-array objects must have a [Symbol.iterator]() metho
                 src: L.VerticalDots
             })
         }));
-    function g0e({ item: e, afterSpace: t, nextRoomId: n, canDrop: r }) {
+    function h0e({ item: e, afterSpace: t, nextRoomId: n, canDrop: r }) {
         let i = (0, A.useRef)(null), [a, o] = (0, A.useState)(`idle`);
         return (0, A.useEffect)(()=>{
             let t = i.current;
             if (!t) throw Error(`drop target ref is not set properly`);
-            return b1e({
+            return y1e({
                 element: t,
                 getData: ()=>({
                         item: e,
@@ -146017,23 +146011,23 @@ In order to be iterable, non-array objects must have a [Symbol.iterator]() metho
             n,
             r
         ]), (0, j.jsx)(`div`, {
-            className: t ? p0e : f0e,
+            className: t ? f0e : d0e,
             "data-hover": a !== `idle`,
             "data-error": a === `not-allow`,
             ref: i
         });
     }
-    var _0e = (e, t, n)=>{
+    var g0e = (e, t, n)=>{
         (0, A.useEffect)(()=>{
             let r = e.current;
             if (!r) throw Error(`Scroll element ref not configured`);
-            return X7(x1e({
+            return X7(b1e({
                 onDrop: ({ source: e, location: r })=>{
                     t(void 0);
                     let { dropTargets: i } = r.current;
                     i.length !== 0 && n(e.data, i[0].data);
                 }
-            }), u0e({
+            }), l0e({
                 element: r
             }));
         }, [
@@ -146041,7 +146035,7 @@ In order to be iterable, non-array objects must have a [Symbol.iterator]() metho
             t,
             n
         ]);
-    }, v0e = class {
+    }, _0e = class {
         constructor(e, t, n){
             if (e > t) throw Error(`Invalid ASCII code! startCode is greater than endCode.`);
             if (e < 0 || t > 128) throw Error(`Invalid ASCII code range!`);
@@ -146132,7 +146126,7 @@ In order to be iterable, non-array objects must have a [Symbol.iterator]() metho
             }
             if (!(s.length < e)) return s;
         }
-    }, y0e = (e, t)=>{
+    }, v0e = (e, t)=>{
         for(let n = e; n < t.length; n += 1){
             let e = t[n];
             if (typeof e == `string`) return [
@@ -146144,10 +146138,10 @@ In order to be iterable, non-array objects must have a [Symbol.iterator]() metho
             -1,
             void 0
         ];
-    }, b0e = (e, t)=>{
+    }, y0e = (e, t)=>{
         let n = [];
         for(let r = 0; r < t.length;){
-            let i = t[r], a = [], [o, s] = y0e(r + 1, t);
+            let i = t[r], a = [], [o, s] = v0e(r + 1, t);
             typeof i == `string` && a.push(i);
             let c = (o === -1 ? t.length : o) - (i ? r + 1 : r + 0);
             if (c > 0) {
@@ -146158,8 +146152,8 @@ In order to be iterable, non-array objects must have a [Symbol.iterator]() metho
             n.push(...a), r += a.length;
         }
         if (n.length === t.length) return n;
-    }, x0e = (0, A.createContext)(null), S0e = x0e.Provider, C0e = ()=>{
-        let e = (0, A.useContext)(x0e);
+    }, b0e = (0, A.createContext)(null), x0e = b0e.Provider, S0e = ()=>{
+        let e = (0, A.useContext)(b0e);
         if (!e) throw Error(`ClosedLobbyCategoriesAtom is not provided!`);
         return e;
     }, r9 = (e, t, n)=>{
@@ -146181,7 +146175,7 @@ In order to be iterable, non-array objects must have a [Symbol.iterator]() metho
                 });
             }
         }), i.forEach((e)=>a.push(e)), a;
-    }, w0e = (e)=>{
+    }, C0e = (e)=>{
         let t = J(), [n, r] = (0, A.useState)(()=>{
             let n = bG(t, zU.CinnySpaces)?.getContent();
             return r9(t, e, n);
@@ -146204,7 +146198,7 @@ In order to be iterable, non-array objects must have a [Symbol.iterator]() metho
             n,
             r
         ];
-    }, T0e = (e, t)=>e.map((e)=>{
+    }, w0e = (e, t)=>e.map((e)=>{
             if (typeof e == `string`) return e === t ? null : e;
             if (e.content.includes(t)) {
                 let n = e.content.filter((e)=>e !== t);
@@ -146214,10 +146208,10 @@ In order to be iterable, non-array objects must have a [Symbol.iterator]() metho
                 };
             }
             return e;
-        }).filter((e)=>e !== null), E0e = (e, t)=>({
+        }).filter((e)=>e !== null), T0e = (e, t)=>({
             ...bG(e, zU.CinnySpaces)?.getContent() ?? {},
             sidebar: t
-        }), D0e = xq({
+        }), E0e = xq({
         defaultClassName: `_1321e2t0`,
         variantClassNames: {
             outlined: {
@@ -146226,15 +146220,15 @@ In order to be iterable, non-array objects must have a [Symbol.iterator]() metho
         },
         defaultVariants: {},
         compoundVariants: []
-    }), i9 = `_1321e2t2`, O0e = `_1321e2t3`, k0e = `_1xrrjei0`, a9 = `_1xrrjei1 _1mqalmd1 _1mqalmd0`, A0e = pi(void 0), j0e = ()=>Oi(A0e), M0e = ()=>{
-        let e = ki(A0e);
+    }), i9 = `_1321e2t2`, D0e = `_1321e2t3`, O0e = `_1xrrjei0`, a9 = `_1xrrjei1 _1mqalmd1 _1mqalmd0`, k0e = pi(void 0), A0e = ()=>Oi(k0e), j0e = ()=>{
+        let e = ki(k0e);
         return (0, A.useCallback)(()=>{
             e(void 0);
         }, [
             e
         ]);
-    }, N0e = ()=>{
-        let e = ki(A0e);
+    }, M0e = ()=>{
+        let e = ki(k0e);
         return (0, A.useCallback)((t, n)=>{
             e({
                 spaceId: t,
@@ -146243,15 +146237,15 @@ In order to be iterable, non-array objects must have a [Symbol.iterator]() metho
         }, [
             e
         ]);
-    }, P0e = pi(void 0), F0e = ()=>Oi(P0e), I0e = ()=>{
-        let e = ki(P0e);
+    }, N0e = pi(void 0), P0e = ()=>Oi(N0e), F0e = ()=>{
+        let e = ki(N0e);
         return (0, A.useCallback)(()=>{
             e(void 0);
         }, [
             e
         ]);
-    }, L0e = ()=>{
-        let e = ki(P0e);
+    }, I0e = ()=>{
+        let e = ki(N0e);
         return (0, A.useCallback)((t)=>{
             e({
                 spaceId: t
@@ -146259,7 +146253,7 @@ In order to be iterable, non-array objects must have a [Symbol.iterator]() metho
         }, [
             e
         ]);
-    }, R0e = {
+    }, L0e = {
         limit: 500,
         matchOptions: {
             contain: !0
@@ -146268,7 +146262,7 @@ In order to be iterable, non-array objects must have a [Symbol.iterator]() metho
             ignoreWhitespace: !1
         }
     };
-    function z0e({ parentId: e, space: t, requestClose: n }) {
+    function R0e({ parentId: e, space: t, requestClose: n }) {
         let r = J(), i = FX(), a = cd(), o = Oi(Mq), s = LY(r, jq), c = zY(r, jq, o), l = BY(r, jq, o), u = Oi(Pq), d = (0, A.useRef)(null), [f, p] = (0, A.useState)([]), m = JX(qX()), h = (0, A.useMemo)(()=>(t ? [
                 ...s
             ] : [
@@ -146284,7 +146278,7 @@ In order to be iterable, non-array objects must have a [Symbol.iterator]() metho
             r
         ]), [g, _, v] = ZX(h, (0, A.useCallback)((e)=>m(e)?.name ?? e, [
             m
-        ]), R0e), y = g?.query ? f$(g.query.split(` `)) : void 0, b = g ? g.items : h, x = TY({
+        ]), L0e), y = g?.query ? f$(g.query.split(` `)) : void 0, b = g ? g.items : h, x = TY({
             count: b.length,
             getScrollElement: ()=>d.current,
             estimateSize: ()=>32,
@@ -146569,7 +146563,7 @@ In order to be iterable, non-array objects must have a [Symbol.iterator]() metho
             })
         });
     }
-    function B0e() {
+    function z0e() {
         return (0, j.jsx)(mr, {
             position: `Right`,
             align: `Center`,
@@ -146604,7 +146598,7 @@ In order to be iterable, non-array objects must have a [Symbol.iterator]() metho
                 })
         });
     }
-    function V0e() {
+    function B0e() {
         return (0, j.jsx)(P, {
             gap: `200`,
             alignItems: `Center`,
@@ -146612,10 +146606,10 @@ In order to be iterable, non-array objects must have a [Symbol.iterator]() metho
                 grow: `Yes`,
                 gap: `200`,
                 alignItems: `Center`,
-                className: O0e,
+                className: D0e,
                 children: [
                     (0, j.jsx)(cn, {
-                        className: k0e,
+                        className: O0e,
                         size: `200`,
                         radii: `300`
                     }),
@@ -146631,7 +146625,7 @@ In order to be iterable, non-array objects must have a [Symbol.iterator]() metho
             })
         });
     }
-    function H0e({ roomId: e, suggested: t }) {
+    function V0e({ roomId: e, suggested: t }) {
         return (0, j.jsx)(xn, {
             as: `span`,
             className: i9,
@@ -146682,7 +146676,7 @@ In order to be iterable, non-array objects must have a [Symbol.iterator]() metho
             })
         });
     }
-    function U0e({ roomId: e, via: t, name: n, avatarUrl: r, suggested: i }) {
+    function H0e({ roomId: e, via: t, name: n, avatarUrl: r, suggested: i }) {
         let a = J(), [o, s] = V((0, A.useCallback)(()=>a.joinRoom(e, {
                 viaServers: t
             }), [
@@ -146751,7 +146745,7 @@ In order to be iterable, non-array objects must have a [Symbol.iterator]() metho
             })
         });
     }
-    function W0e({ roomId: e, name: t, avatarUrl: n, suggested: r, closed: i, categoryId: a, handleClose: o }) {
+    function U0e({ roomId: e, name: t, avatarUrl: n, suggested: r, closed: i, categoryId: a, handleClose: o }) {
         return (0, j.jsx)(xn, {
             "data-category-id": a,
             onClick: o,
@@ -146799,7 +146793,7 @@ In order to be iterable, non-array objects must have a [Symbol.iterator]() metho
             })
         });
     }
-    function G0e({ closed: e, categoryId: t, handleClose: n }) {
+    function W0e({ closed: e, categoryId: t, handleClose: n }) {
         return (0, j.jsx)(xn, {
             "data-category-id": t,
             onClick: n,
@@ -146821,8 +146815,8 @@ In order to be iterable, non-array objects must have a [Symbol.iterator]() metho
             })
         });
     }
-    function K0e({ item: e }) {
-        let [t, n] = (0, A.useState)(), r = N0e(), [i, a] = (0, A.useState)(!1), o = (e)=>{
+    function G0e({ item: e }) {
+        let [t, n] = (0, A.useState)(), r = M0e(), [i, a] = (0, A.useState)(!1), o = (e)=>{
             n(e.currentTarget.getBoundingClientRect());
         }, s = (t)=>{
             r(e.roomId, t), n(void 0);
@@ -146862,7 +146856,7 @@ In order to be iterable, non-array objects must have a [Symbol.iterator]() metho
                             variant: `Primary`,
                             fill: `None`,
                             onClick: ()=>s(U4.VoiceRoom),
-                            after: (0, j.jsx)(B0e, {}),
+                            after: (0, j.jsx)(z0e, {}),
                             children: (0, j.jsx)(z, {
                                 size: `T300`,
                                 children: `Voice Room`
@@ -146898,15 +146892,15 @@ In order to be iterable, non-array objects must have a [Symbol.iterator]() metho
                         children: `Add Room`
                     })
                 }),
-                i && (0, j.jsx)(z0e, {
+                i && (0, j.jsx)(R0e, {
                     parentId: e.roomId,
                     requestClose: ()=>a(!1)
                 })
             ]
         });
     }
-    function q0e({ item: e }) {
-        let [t, n] = (0, A.useState)(), r = L0e(), [i, a] = (0, A.useState)(!1);
+    function K0e({ item: e }) {
+        let [t, n] = (0, A.useState)(), r = I0e(), [i, a] = (0, A.useState)(!1);
         return (0, j.jsxs)(Gn, {
             anchor: t,
             position: `Bottom`,
@@ -146970,7 +146964,7 @@ In order to be iterable, non-array objects must have a [Symbol.iterator]() metho
                         children: `Add Space`
                     })
                 }),
-                i && (0, j.jsx)(z0e, {
+                i && (0, j.jsx)(R0e, {
                     space: !0,
                     parentId: e.roomId,
                     requestClose: ()=>a(!1)
@@ -146978,13 +146972,13 @@ In order to be iterable, non-array objects must have a [Symbol.iterator]() metho
             ]
         });
     }
-    var J0e = $t(({ className: e, summary: t, loading: n, joined: r, closed: i, categoryId: a, item: o, handleClose: s, options: c, before: l, after: u, canEditChild: d, canReorder: f, onDragging: p, getRoom: m, ...h }, g)=>{
+    var q0e = $t(({ className: e, summary: t, loading: n, joined: r, closed: i, categoryId: a, item: o, handleClose: s, options: c, before: l, after: u, canEditChild: d, canReorder: f, onDragging: p, getRoom: m, ...h }, g)=>{
         let _ = J(), v = FX(), { roomId: y, content: b } = o, x = m(y), S = (0, A.useRef)(null);
-        return m0e(o, S, p), (0, j.jsxs)(P, {
+        return p0e(o, S, p), (0, j.jsxs)(P, {
             shrink: `No`,
             alignItems: `Center`,
             gap: `200`,
-            className: (0, bt.default)(D0e({
+            className: (0, bt.default)(E0e({
                 outlined: !r || i
             }), e),
             ...h,
@@ -147001,7 +146995,7 @@ In order to be iterable, non-array objects must have a [Symbol.iterator]() metho
                             ref: f ? S : null,
                             children: x ? (0, j.jsx)(Bje, {
                                 room: x,
-                                children: (e)=>o.parentId ? (0, j.jsx)(W0e, {
+                                children: (e)=>o.parentId ? (0, j.jsx)(U0e, {
                                         roomId: y,
                                         name: e.name,
                                         avatarUrl: jG(_, x, 96, v),
@@ -147009,18 +147003,18 @@ In order to be iterable, non-array objects must have a [Symbol.iterator]() metho
                                         closed: i,
                                         categoryId: a,
                                         handleClose: s
-                                    }) : (0, j.jsx)(G0e, {
+                                    }) : (0, j.jsx)(W0e, {
                                         closed: i,
                                         categoryId: a,
                                         handleClose: s
                                     })
                             }) : (0, j.jsxs)(j.Fragment, {
                                 children: [
-                                    !t && (n ? (0, j.jsx)(V0e, {}) : (0, j.jsx)(H0e, {
+                                    !t && (n ? (0, j.jsx)(B0e, {}) : (0, j.jsx)(V0e, {
                                         roomId: o.roomId,
                                         suggested: o.content.suggested
                                     })),
-                                    t && (0, j.jsx)(U0e, {
+                                    t && (0, j.jsx)(H0e, {
                                         roomId: y,
                                         via: o.content.via,
                                         name: t.name || t.canonical_alias || y,
@@ -147035,10 +147029,10 @@ In order to be iterable, non-array objects must have a [Symbol.iterator]() metho
                             alignItems: `Inherit`,
                             gap: `200`,
                             children: [
-                                (0, j.jsx)(K0e, {
+                                (0, j.jsx)(G0e, {
                                     item: o
                                 }),
-                                o.parentId === void 0 && (0, j.jsx)(q0e, {
+                                o.parentId === void 0 && (0, j.jsx)(K0e, {
                                     item: o
                                 })
                             ]
@@ -147050,7 +147044,7 @@ In order to be iterable, non-array objects must have a [Symbol.iterator]() metho
             ]
         });
     });
-    function Y0e({ item: e, requestClose: t }) {
+    function J0e({ item: e, requestClose: t }) {
         let n = J(), { roomId: r, parentId: i, content: a } = e, [o, s] = V((0, A.useCallback)(()=>{
             let e = {
                 ...a,
@@ -147084,7 +147078,7 @@ In order to be iterable, non-array objects must have a [Symbol.iterator]() metho
             })
         });
     }
-    function X0e({ item: e, requestClose: t }) {
+    function Y0e({ item: e, requestClose: t }) {
         let n = J(), { roomId: r, parentId: i } = e, [a, o] = V((0, A.useCallback)(()=>n.sendStateEvent(i, q.SpaceChild, {}, r), [
             n,
             i,
@@ -147115,7 +147109,7 @@ In order to be iterable, non-array objects must have a [Symbol.iterator]() metho
             })
         });
     }
-    function Z0e({ item: e, requestClose: t, disabled: n }) {
+    function X0e({ item: e, requestClose: t, disabled: n }) {
         let r = J().getRoom(e.roomId), [i, a] = (0, A.useState)(!1);
         return (0, j.jsxs)(j.Fragment, {
             children: [
@@ -147145,7 +147139,7 @@ In order to be iterable, non-array objects must have a [Symbol.iterator]() metho
             ]
         });
     }
-    function Q0e({ item: e, requestClose: t, disabled: n }) {
+    function Z0e({ item: e, requestClose: t, disabled: n }) {
         let r = RX(), i = n3(), a = HX();
         return (0, j.jsx)(kn, {
             onClick: ()=>{
@@ -147162,7 +147156,7 @@ In order to be iterable, non-array objects must have a [Symbol.iterator]() metho
             })
         });
     }
-    function $0e({ item: e, joined: t, powerLevels: n, canEditChild: r, pinned: i, onTogglePin: a }) {
+    function Q0e({ item: e, joined: t, powerLevels: n, canEditChild: r, pinned: i, onTogglePin: a }) {
         let o = J(), [s, c] = (0, A.useState)(), l = ()=>n ? GX(WX(o, e.roomId), n).action(`invite`, o.getSafeUserId()) : !1, u = (e)=>{
             c(e.currentTarget.getBoundingClientRect());
         }, d = (0, A.useCallback)(()=>c(void 0), []);
@@ -147223,12 +147217,12 @@ In order to be iterable, non-array objects must have a [Symbol.iterator]() metho
                                                 children: i ? `Unpin from Sidebar` : `Pin to Sidebar`
                                             })
                                         }),
-                                        (0, j.jsx)(Z0e, {
+                                        (0, j.jsx)(X0e, {
                                             item: e,
                                             requestClose: d,
                                             disabled: !l()
                                         }),
-                                        (0, j.jsx)(Q0e, {
+                                        (0, j.jsx)(Z0e, {
                                             item: e,
                                             requestClose: d
                                         }),
@@ -147283,11 +147277,11 @@ In order to be iterable, non-array objects must have a [Symbol.iterator]() metho
                                         padding: N.space.S100
                                     },
                                     children: [
-                                        (0, j.jsx)(Y0e, {
+                                        (0, j.jsx)(J0e, {
                                             item: e,
                                             requestClose: d
                                         }),
-                                        (0, j.jsx)(X0e, {
+                                        (0, j.jsx)(Y0e, {
                                             item: e,
                                             requestClose: d
                                         })
@@ -147300,8 +147294,8 @@ In order to be iterable, non-array objects must have a [Symbol.iterator]() metho
             ]
         });
     }
-    var e2e = `_7ry8260`, t2e = `_7ry8262`;
-    function n2e({ roomId: e, via: t }) {
+    var $0e = `_7ry8260`, e2e = `_7ry8262`;
+    function t2e({ roomId: e, via: t }) {
         let n = J(), [r, i] = V((0, A.useCallback)(()=>n.joinRoom(e, {
                 viaServers: t
             }), [
@@ -147373,13 +147367,13 @@ In order to be iterable, non-array objects must have a [Symbol.iterator]() metho
             ]
         });
     }
-    function r2e() {
+    function n2e() {
         return (0, j.jsxs)(P, {
             grow: `Yes`,
             gap: `300`,
             children: [
                 (0, j.jsx)(cn, {
-                    className: k0e
+                    className: O0e
                 }),
                 (0, j.jsxs)(P, {
                     grow: `Yes`,
@@ -147422,7 +147416,7 @@ In order to be iterable, non-array objects must have a [Symbol.iterator]() metho
             ]
         });
     }
-    function i2e({ roomId: e, suggested: t, inaccessibleRoom: n, via: r }) {
+    function r2e({ roomId: e, suggested: t, inaccessibleRoom: n, via: r }) {
         return (0, j.jsxs)(P, {
             grow: `Yes`,
             gap: `300`,
@@ -147442,7 +147436,7 @@ In order to be iterable, non-array objects must have a [Symbol.iterator]() metho
                 (0, j.jsxs)(P, {
                     grow: `Yes`,
                     direction: `Column`,
-                    className: t2e,
+                    className: e2e,
                     children: [
                         (0, j.jsxs)(P, {
                             gap: `200`,
@@ -147489,14 +147483,14 @@ In order to be iterable, non-array objects must have a [Symbol.iterator]() metho
                         })
                     ]
                 }),
-                !n && (0, j.jsx)(n2e, {
+                !n && (0, j.jsx)(t2e, {
                     roomId: e,
                     via: r
                 })
             ]
         });
     }
-    function a2e({ roomId: e, roomType: t, name: n, topic: r, avatarUrl: i, suggested: a, memberCount: o, joinRule: s, options: c }) {
+    function i2e({ roomId: e, roomType: t, name: n, topic: r, avatarUrl: i, suggested: a, memberCount: o, joinRule: s, options: c }) {
         return (0, j.jsxs)(P, {
             grow: `Yes`,
             gap: `300`,
@@ -147607,12 +147601,12 @@ In order to be iterable, non-array objects must have a [Symbol.iterator]() metho
             ]
         });
     }
-    var o2e = $t(({ item: e, loading: t, error: n, summary: r, dm: i, onOpen: a, options: o, before: s, after: c, onDragging: l, canReorder: u, getRoom: d, ...f }, p)=>{
+    var a2e = $t(({ item: e, loading: t, error: n, summary: r, dm: i, onOpen: a, options: o, before: s, after: c, onDragging: l, canReorder: u, getRoom: d, ...f }, p)=>{
         let m = J(), h = FX(), { roomId: g, content: _ } = e, v = d(g), y = (0, A.useRef)(null), b = (0, A.useRef)(null);
-        m0e(e, y, l, b);
+        p0e(e, y, l, b);
         let x = v?.getMyMembership() === BU.Join;
         return (0, j.jsxs)(C1, {
-            className: e2e,
+            className: $0e,
             variant: `SurfaceVariant`,
             gap: `300`,
             alignItems: `Center`,
@@ -147624,12 +147618,12 @@ In order to be iterable, non-array objects must have a [Symbol.iterator]() metho
                     ref: u ? y : null,
                     grow: `Yes`,
                     children: [
-                        u && (0, j.jsx)(h0e, {
+                        u && (0, j.jsx)(m0e, {
                             ref: b
                         }),
                         v ? (0, j.jsx)(Bje, {
                             room: v,
-                            children: (e)=>(0, j.jsx)(a2e, {
+                            children: (e)=>(0, j.jsx)(i2e, {
                                     roomId: g,
                                     roomType: e.roomType,
                                     name: e.name,
@@ -147655,22 +147649,22 @@ In order to be iterable, non-array objects must have a [Symbol.iterator]() metho
                                                 src: L.ArrowRight
                                             })
                                         })
-                                    }) : (0, j.jsx)(n2e, {
+                                    }) : (0, j.jsx)(t2e, {
                                         roomId: g,
                                         via: _.via
                                     })
                                 })
                         }) : (0, j.jsxs)(j.Fragment, {
                             children: [
-                                !r && (n ? (0, j.jsx)(i2e, {
+                                !r && (n ? (0, j.jsx)(r2e, {
                                     roomId: g,
                                     inaccessibleRoom: !1,
                                     suggested: _.suggested,
                                     via: _.via
                                 }) : (0, j.jsxs)(j.Fragment, {
                                     children: [
-                                        t && (0, j.jsx)(r2e, {}),
-                                        !t && (0, j.jsx)(i2e, {
+                                        t && (0, j.jsx)(n2e, {}),
+                                        !t && (0, j.jsx)(r2e, {
                                             roomId: g,
                                             inaccessibleRoom: !0,
                                             suggested: _.suggested,
@@ -147678,7 +147672,7 @@ In order to be iterable, non-array objects must have a [Symbol.iterator]() metho
                                         })
                                     ]
                                 })),
-                                r && (0, j.jsx)(a2e, {
+                                r && (0, j.jsx)(i2e, {
                                     roomId: g,
                                     roomType: r.room_type,
                                     name: r.name || r.canonical_alias || g,
@@ -147687,7 +147681,7 @@ In order to be iterable, non-array objects must have a [Symbol.iterator]() metho
                                     memberCount: r.num_joined_members,
                                     suggested: _.suggested,
                                     joinRule: r.join_rule,
-                                    options: (0, j.jsx)(n2e, {
+                                    options: (0, j.jsx)(t2e, {
                                         roomId: g,
                                         via: _.via
                                     })
@@ -147700,7 +147694,7 @@ In order to be iterable, non-array objects must have a [Symbol.iterator]() metho
                 c
             ]
         });
-    }), s2e = (0, A.forwardRef)(({ summary: e, spaceItem: t, roomItems: n, allJoinedRooms: r, mDirects: i, roomsPowerLevels: a, categoryId: o, closed: s, handleClose: c, draggingItem: l, onDragging: u, canDrop: d, disabledReorder: f, nextSpaceId: p, getRoom: m, pinned: h, togglePinToSidebar: g, onOpenRoom: _, onSpacesFound: v }, y)=>{
+    }), o2e = (0, A.forwardRef)(({ summary: e, spaceItem: t, roomItems: n, allJoinedRooms: r, mDirects: i, roomsPowerLevels: a, categoryId: o, closed: s, handleClose: c, draggingItem: l, onDragging: u, canDrop: d, disabledReorder: f, nextSpaceId: p, getRoom: m, pinned: h, togglePinToSidebar: g, onOpenRoom: _, onSpacesFound: v }, y)=>{
         let b = J(), { fetching: x, error: S, rooms: C } = gMe(t.roomId, !0), w = (0, A.useMemo)(()=>{
             let e = new Map;
             return C.forEach((t)=>{
@@ -147724,7 +147718,7 @@ In order to be iterable, non-array objects must have a [Symbol.iterator]() metho
             gap: `100`,
             ref: y,
             children: [
-                (0, j.jsx)(J0e, {
+                (0, j.jsx)(q0e, {
                     summary: C.get(t.roomId) ?? e,
                     loading: x,
                     item: t,
@@ -147735,7 +147729,7 @@ In order to be iterable, non-array objects must have a [Symbol.iterator]() metho
                     getRoom: m,
                     canEditChild: !!D?.stateEvent(q.SpaceChild, b.getSafeUserId()),
                     canReorder: ee && !f && ne ? ne.stateEvent(q.SpaceChild, b.getSafeUserId()) : !1,
-                    options: k && ee && (0, j.jsx)($0e, {
+                    options: k && ee && (0, j.jsx)(Q0e, {
                         item: {
                             ...t,
                             parentId: k
@@ -147746,7 +147740,7 @@ In order to be iterable, non-array objects must have a [Symbol.iterator]() metho
                         pinned: h,
                         onTogglePin: g
                     }),
-                    after: (0, j.jsx)(g0e, {
+                    after: (0, j.jsx)(h0e, {
                         item: t,
                         nextRoomId: s ? p : re?.[0]?.roomId,
                         afterSpace: !0,
@@ -147760,7 +147754,7 @@ In order to be iterable, non-array objects must have a [Symbol.iterator]() metho
                     gap: `100`,
                     children: re.map((e, t)=>{
                         let n = C.get(e.roomId), o = a.get(e.roomId) ?? {}, s = t === re.length ? p : re[t + 1]?.roomId, c = l?.roomId === e.roomId && l.parentId === e.parentId;
-                        return (0, j.jsx)(o2e, {
+                        return (0, j.jsx)(a2e, {
                             item: e,
                             loading: x,
                             error: S,
@@ -147769,13 +147763,13 @@ In order to be iterable, non-array objects must have a [Symbol.iterator]() metho
                             onOpen: _,
                             getRoom: m,
                             canReorder: !!D?.stateEvent(q.SpaceChild, b.getSafeUserId()) && !f,
-                            options: (0, j.jsx)($0e, {
+                            options: (0, j.jsx)(Q0e, {
                                 item: e,
                                 powerLevels: o,
                                 joined: r.has(e.roomId),
                                 canEditChild: !!D?.stateEvent(q.SpaceChild, b.getSafeUserId())
                             }),
-                            after: (0, j.jsx)(g0e, {
+                            after: (0, j.jsx)(h0e, {
                                 item: e,
                                 nextRoomId: s,
                                 canDrop: d
@@ -147814,7 +147808,7 @@ In order to be iterable, non-array objects must have a [Symbol.iterator]() metho
                 })
             ]
         });
-    }), c2e = (e, t, n)=>{
+    }), s2e = (e, t, n)=>{
         let r = J(), i = (0, A.useCallback)((i, a)=>{
             if (!(`space` in a.item)) return !1;
             let o = e.roomId, s = t.get(o) ?? {}, c = GX(WX(r, o), s);
@@ -147842,17 +147836,17 @@ In order to be iterable, non-array objects must have a [Symbol.iterator]() metho
             a
         ]);
     };
-    function l2e() {
+    function c2e() {
         let e = ec(), t = J(), n = Oi(Mq), r = Oi(jq), i = (0, A.useMemo)(()=>new Set(r), [
             r
-        ]), a = VX(), o = lX(a), s = (0, A.useMemo)(()=>new v0e(32, 126, 6), []), c = e5(t, a.roomId), l = (0, A.useRef)(null), u = (0, A.useRef)(null), [d, f] = (0, A.useState)(), [p, m] = Ai(t$e), [h] = Y(X, `isPeopleDrawer`), g = vp(), [_, v] = (0, A.useState)(!0), [y, b] = Ai(C0e()), [x] = w0e(RY(t, jq, Oi(Pq))), S = (0, A.useMemo)(()=>{
+        ]), a = VX(), o = lX(a), s = (0, A.useMemo)(()=>new _0e(32, 126, 6), []), c = e5(t, a.roomId), l = (0, A.useRef)(null), u = (0, A.useRef)(null), [d, f] = (0, A.useState)(), [p, m] = Ai(e$e), [h] = Y(X, `isPeopleDrawer`), g = vp(), [_, v] = (0, A.useState)(!0), [y, b] = Ai(S0e()), [x] = C0e(RY(t, jq, Oi(Pq))), S = (0, A.useMemo)(()=>{
             let e = x.flatMap((e)=>typeof e == `string` ? e : e.content);
             return new Set(e);
         }, [
             x
         ]), [C, w] = (0, A.useState)(()=>new Map);
         gp((0, A.useCallback)(()=>u.current, []), (0, A.useCallback)((e, t)=>f(t), []));
-        let T = JX(i), [E, D] = (0, A.useState)(), O = fMe(a.roomId, p, T, (0, A.useCallback)((e)=>y.has(c$e(a.roomId, e)) || (E ? `space` in E : !1), [
+        let T = JX(i), [E, D] = (0, A.useState)(), O = fMe(a.roomId, p, T, (0, A.useCallback)((e)=>y.has(s$e(a.roomId, e)) || (E ? `space` in E : !1), [
             y,
             a.roomId,
             E
@@ -147871,7 +147865,7 @@ In order to be iterable, non-array objects must have a [Symbol.iterator]() metho
             }).filter((e)=>!!e), [
             O,
             T
-        ])), ne = c2e(a, te, T), [re, ie] = V((0, A.useCallback)(async (e, n)=>{
+        ])), ne = s2e(a, te, T), [re, ie] = V((0, A.useCallback)(async (e, n)=>{
             if (!e.parentId) return;
             let r = O.map((e)=>e.space).filter((t)=>t.roomId !== e.roomId), i = r.findIndex((e)=>e.roomId === n.roomId) + 1;
             r.splice(i, 0, {
@@ -147883,7 +147877,7 @@ In order to be iterable, non-array objects must have a [Symbol.iterator]() metho
             });
             let a = r.map((e)=>{
                 if (typeof e.content.order == `string` && s.has(e.content.order)) return e.content.order;
-            }), o = b0e(s, a)?.map((e, t)=>({
+            }), o = y0e(s, a)?.map((e, t)=>({
                     item: r[t],
                     orderKey: e
                 })).filter((e, n)=>{
@@ -147930,7 +147924,7 @@ In order to be iterable, non-array objects must have a [Symbol.iterator]() metho
             });
             let u = o.map((e)=>{
                 if (typeof e.content.order == `string` && s.has(e.content.order)) return e.content.order;
-            }), d = b0e(s, u)?.map((e, t)=>({
+            }), d = y0e(s, u)?.map((e, t)=>({
                     item: o[t],
                     orderKey: e
                 })).filter((e, t)=>e.item && e.orderKey !== u[t]);
@@ -147945,7 +147939,7 @@ In order to be iterable, non-array objects must have a [Symbol.iterator]() metho
             O,
             s
         ])), ce = oe.status === B.Loading || ae;
-        _0e(l, D, (0, A.useCallback)((e, t)=>{
+        g0e(l, D, (0, A.useCallback)((e, t)=>{
             ne(e, t) && (`space` in e ? ie(e, t.item) : se(e, t.item));
         }, [
             se,
@@ -147970,9 +147964,9 @@ In order to be iterable, non-array objects must have a [Symbol.iterator]() metho
             let i = ZG(t, a.roomId);
             e(NK(i, ZG(t, r)));
         }, fe = (0, A.useCallback)((e)=>{
-            let n = T0e(x, e);
+            let n = w0e(x, e);
             S.has(e) || n.push(e);
-            let r = E0e(t, n);
+            let r = T0e(t, n);
             t.setAccountData(zU.CinnySpaces, r);
         }, [
             t,
@@ -147986,7 +147980,7 @@ In order to be iterable, non-array objects must have a [Symbol.iterator]() metho
                 children: [
                     (0, j.jsxs)(m1, {
                         children: [
-                            (0, j.jsx)(i$e, {
+                            (0, j.jsx)(r$e, {
                                 showProfile: !_,
                                 powerLevels: te.get(a.roomId) ?? {}
                             }),
@@ -148030,19 +148024,19 @@ In order to be iterable, non-array objects must have a [Symbol.iterator]() metho
                                                             style: {
                                                                 paddingTop: 0
                                                             },
-                                                            children: (0, j.jsx)(a$e, {})
+                                                            children: (0, j.jsx)(i$e, {})
                                                         }),
                                                         ee.map((e)=>{
                                                             let t = O[e.index];
                                                             if (!t) return null;
-                                                            let r = O[e.index + 1]?.space.roomId, o = c$e(a.roomId, t.space.roomId);
+                                                            let r = O[e.index + 1]?.space.roomId, o = s$e(a.roomId, t.space.roomId);
                                                             return (0, j.jsx)(HY, {
                                                                 virtualItem: e,
                                                                 style: {
                                                                     paddingTop: e.index === 0 ? 0 : N.space.S500
                                                                 },
                                                                 ref: k.measureElement,
-                                                                children: (0, j.jsx)(s2e, {
+                                                                children: (0, j.jsx)(o2e, {
                                                                     spaceItem: t.space,
                                                                     summary: C.get(t.space.roomId),
                                                                     roomItems: t.rooms,
@@ -148106,7 +148100,7 @@ In order to be iterable, non-array objects must have a [Symbol.iterator]() metho
                                 direction: `Vertical`,
                                 size: `300`
                             }),
-                            (0, j.jsx)(hZe, {
+                            (0, j.jsx)(mZe, {
                                 room: a,
                                 members: c
                             })
@@ -148116,8 +148110,8 @@ In order to be iterable, non-array objects must have a [Symbol.iterator]() metho
             })
         });
     }
-    var u2e = /^##\s+(\d{2}\.\d{2}\.\d{4})\s*$/, d2e = /^-\s+`([a-f0-9]{7,8})`\s+(.+?)\s*$/;
-    function f2e(e) {
+    var l2e = /^##\s+(\d{2}\.\d{2}\.\d{4})\s*$/, u2e = /^-\s+`([a-f0-9]{7,8})`\s+(.+?)\s*$/;
+    function d2e(e) {
         let t = [], n = e.split(/(`[^`]+`)/);
         for (let e of n)e && (e.startsWith("`") && e.endsWith("`") && e.length >= 2 ? t.push({
             kind: `code`,
@@ -148128,11 +148122,11 @@ In order to be iterable, non-array objects must have a [Symbol.iterator]() metho
         }));
         return t;
     }
-    function p2e(e) {
+    function f2e(e) {
         let t = [], n = null;
         for (let r of e.split(`
 `)){
-            let e = r.trimEnd(), i = e.match(u2e);
+            let e = r.trimEnd(), i = e.match(l2e);
             if (i) {
                 n && n.bullets.length > 0 && t.push(n), n = {
                     rawDate: i[1],
@@ -148141,15 +148135,15 @@ In order to be iterable, non-array objects must have a [Symbol.iterator]() metho
                 continue;
             }
             if (!n) continue;
-            let a = e.match(d2e);
+            let a = e.match(u2e);
             a && n.bullets.push({
                 sha: a[1],
-                parts: f2e(a[2])
+                parts: d2e(a[2])
             });
         }
         return n && n.bullets.length > 0 && t.push(n), t;
     }
-    var m2e = [
+    var p2e = [
         `Jan`,
         `Feb`,
         `Mar`,
@@ -148163,14 +148157,14 @@ In order to be iterable, non-array objects must have a [Symbol.iterator]() metho
         `Nov`,
         `Dec`
     ];
-    function h2e(e) {
+    function m2e(e) {
         let t = e.match(/^(\d{2})\.(\d{2})\.(\d{4})$/);
         if (!t) return e;
         let n = parseInt(t[1], 10), r = parseInt(t[2], 10) - 1, i = t[3];
-        return r < 0 || r > 11 ? e : `${n} ${m2e[r]} ${i}`;
+        return r < 0 || r > 11 ? e : `${n} ${p2e[r]} ${i}`;
     }
-    var g2e = '# Changelog\n\nUser-facing changes per commit. Most recent at the top.\n\n## 13.08.2026\n\n- `d971afd` Added **`piped.gmach.online`** to the instance list — a real domain with a valid certificate (verified working), so the web app has a second instance that actually loads, not just a bare IP.\n- `d08c6cc` Added **a Piped instance picker with automatic failover**. Instead of one hardcoded instance, YouTube embeds now choose from a list — Settings → General → *Piped instance* lets you pick one or leave it on **Auto**, which probes the list and uses the first that responds. (On the web app, `http://` instances are blocked as mixed content and only work in the desktop app; Auto skips unreachable ones for you.)\n- `90eef8a` Fixed **code formatting to match Discord**. A single-line ` ```code``` ` now renders as a code block instead of showing literal backticks, and inline code accepts double backticks (` ``a`b`` `) so you can put a backtick inside. The rest of the formatting — **bold**, *italic*, `__underline__`, `~~strike~~`, `||spoiler||` — was already Discord-compatible.\n- `30112a4` Fixed **`-` bullet lists turning into numbered lists**. A list written with `-` (or `+`) was sent as an ordered `<ol>` — numbered even in the raw Matrix source. All of `-`, `*` and `+` are now bullet lists, matching every other Matrix/Markdown client.\n- `30112a4` Fixed **the thread panel\'s avatar filling its whole column**. The sender avatar now sits in a fixed-size box like it does in the main timeline.\n- `61e9b8a` Fixed **images and voice messages that failed to load** ("Mismatched SHA-256 digest" in the console). When the app\'s access token was refreshed, the service worker kept sending the old one for media, so every image/voice note silently failed until a reload. The worker now notices the rejection, refreshes its token and retries, and media download failures report the real error instead of a misleading digest mismatch.\n- `61e9b8a` Fixed **a member list flooding the console** with a repeated "event not found" 404 and an EventEmitter memory-leak warning in rooms with many people. Presence now uses a single shared subscription instead of one per member, and the pinned-message banner no longer requests an empty event id.\n- `61e9b8a` Fixed **stray React Router and fullscreen warnings** on load — the landing route now shows a loading splash while it redirects, and video embeds no longer double up the fullscreen permission.\n- `2d0d32d` Added **an update button in Settings → About**, next to Source Code. It tells you what it is doing — checking, downloading, or that you are up to date — and when an update is waiting it installs it, rather than sending you looking for the banner.\n- `2d0d32d` Fixed **the update banner telling you to "tap" on a desktop**. It now says tap or click to match the device you are actually using. The banner text is also centred properly instead of sitting off to one side.\n- `842520e` Changed **where the web client\'s source lives**: the repository is now `coffeegrind123/prinny` instead of `coffeegrind123/cinny`, matching the name of the app. If you self-host by cloning the `webapp-release` branch, your existing copy keeps updating — GitHub forwards the old address — but the address to use from now on is `https://github.com/coffeegrind123/prinny.git`.\n- `260e107` Fixed **the in-app updater reporting that no update was available for your platform**, on every desktop install. The published update file listed no platforms at all, so each client failed with "None of the fallback platforms were found". The builds themselves were fine — signed and uploaded correctly — but the step that writes that file runs seconds after they finish, and GitHub had not started serving the freshly uploaded signatures yet, so it recorded every platform as missing and reported success. It now retries those downloads, and refuses to publish an update file that would disable updating rather than quietly shipping one.\n- `40b72fa` Added **buttons under bot messages**. A bot can now put real buttons on what it sends — press one and it acts, with a spinner on the button until it answers back and a note if it never does. Buttons can also open a link, copy something to your clipboard, or fill the composer for you. A link button always asks first and shows the site it genuinely goes to, because the wording on a button is written by whoever sent it and the address is not. Destructive buttons look destructive. If you would rather not have buttons at all, Settings → General → Show Bot Buttons turns them off and you get the plain numbered list instead — which is also what people on other Matrix clients see, so a conversation with a bot works the same for everyone in the room.\n- `40b72fa` Added **a bot\'s commands to the `/` menu**. Bots can publish what they understand, so typing `/` lists their commands and descriptions alongside the client\'s own, with the bot\'s name beside each one. A new button by the attach icon opens the same list, and it only appears in rooms where a bot has actually published something. Where two bots offer the same command, picking one addresses it properly so they do not both answer.\n- `40b72fa` Added **quick-reply buttons above the composer**. A bot can offer a set of ready answers; pressing one sends it as an ordinary message. They stay put across a reload and follow you to your other devices, and a bot can clear them or ask you for one specific thing with the composer already pointed at its question.\n- `40b72fa` Added **a BOT tag** next to the name of any account that has published bot commands in a room, in both the conversation and the member list.\n- `40b72fa` Fixed **commands meant for a bot being silently swallowed**. Typing any `/command` this client did not itself recognise cleared the composer and sent nothing at all, with no error — so bot commands simply never arrived. They are now sent as written.\n- `0ec210e` Added **links that open a chat with a bot**, the equivalent of a `t.me` link. Following one opens a direct message and sends its opening command, after asking you first and showing exactly which account and exactly what will be sent.\n\n## 12.08.2026\n\n- `1b99127` Fixed **GIFs and videos in Twitter/X posts not playing at all**. They loaded as an empty box or a dead frame while ordinary GIF links played fine. Twitter\'s video servers refuse any request that says which page it came from, and the setting meant to strip that does nothing on a video — it only exists for pictures, which is exactly why pictures were unaffected. The file is now fetched separately, without that header, and handed to the player. This also means a Twitter clip that previously failed inside the desktop app now has a second way to load rather than showing an error.\n- `1b99127` Fixed **voice messages sitting in a grey box** with a "Voice message" label above them and a download button beside the player. All three were repeating what the player already gives you — it has its own background, and its menu already offers Download. Just the player now.\n- `1b99127` Fixed **long lists in dialogs not scrolling**. The Files dialog, poll history, widgets, edit history, forwarding, export and add-to-space all cut their list off at the bottom edge with no scrollbar and no way to reach the rest.\n- `1b99127` Fixed **the Add Email Address box in Settings still being narrower** than the identity-server one beside it.\n- `805df93` Added **draggable dividers between the columns**. The room list on the left and the member list, thread panel and call chat on the right can all be resized by dragging the line beside them. Double-click a divider to put it back. Widths are remembered, scale with your zoom setting, and are capped so two wide columns cannot squeeze the conversation out. Keyboard: focus a divider and use the arrow keys, Shift+arrow to move faster, Home/End for the extremes, Enter to reset.\n- `3f54ed7` Fixed **selecting text that starts on a link**. Dragging from a link towards the left selected nothing and the highlight jumped somewhere else entirely, because the browser was starting to drag the link rather than select the text. Links in messages are no longer draggable; they are still clickable and copyable.\n- `3f54ed7` Fixed **input boxes in Settings being narrower than the rest and a darker colour**, most visibly the add-email-address field beside the display-name one. The same fault affected the identity-server field, the account-deletion confirmation, the poll answer fields and the server-browser search.\n- `3f54ed7` Fixed **voice messages**, which now play in the audio player your system provides instead of a custom one. The old player could not draw a progress bar for the format voice notes are actually sent in — its own seek bar had nothing to measure against — and it decoded every clip in the background just to draw a waveform, whether or not you ever pressed play.\n- `3f54ed7` Fixed **dialogs being taller than their contents**, such as the widgets dialog, which drew a full-height panel with a large empty band under a short list.\n- `3f54ed7` Moved **creating a poll and sharing your location** out of the composer to the `/poll` and `/location` commands, freeing the buttons beside the attach icon. `/location` only appears when your homeserver actually provides a map server — before, it opened a picker with nothing to aim at.\n- `4a4c58c` Fixed **GIFs not playing when you link one**. A linked GIF showed a single frozen frame, because the preview picture came from the server\'s thumbnailer and a thumbnail of an animation is one still image. GIFs now play, whether the link is the GIF file itself, a Tenor or Giphy page, or a post that contains one.\n- `4a4c58c` Fixed **GIFs in Twitter/X posts** showing a play button that had to be pressed, instead of looping on their own.\n- `4a4c58c` Fixed **GIFs in Bluesky posts** showing only a still thumbnail. Bluesky attaches a GIF as a link rather than as media, so there was nothing to play. They now loop, and use a version around fifty times smaller than the one Bluesky points at — fetched from Tenor directly, so reading a GIF no longer tells Bluesky\'s servers you looked at it.\n- `4a4c58c` Fixed **a GIF that could not be started at all** on Linux and Android. Both refuse to start video on their own, and a looping GIF has no play button by design, so it sat there as a dead picture. If playback is refused, controls now appear. Click a playing GIF to pause it.\n- `4a4c58c` Fixed **image links producing no preview** when the server could not fetch one, and **`og:image`-based video and audio players** that were permanently broken on pages advertising media they do not actually serve — those now show a picture and a link instead of a dead player.\n- `93001c0` Fixed **the Android build failing to release**. `matrix:` links tapped in another app also never reached the client on Android; the app registered itself as the handler but nothing was reading the link.\n- `b3946e0` Added **voice messages**. Press the microphone in the composer, review what you recorded, then send it. They arrive with a waveform and a duration in Element and other clients, and voice notes from those clients now show as a proper player here instead of an anonymous file. Recording stops and releases the microphone when you cancel, switch rooms or close the app.\n- `b3946e0` Added **a thread panel**. Threads could be started before but never read — replies landed loose in the conversation and there was nowhere to open. A message that started a thread now shows how many replies it has and opens them in a panel beside the room, or full screen on a phone. Replies still appear in the main conversation as well, so nothing has disappeared.\n- `b3946e0` Added **polls**. Create one from the composer, vote, and end it when you are done. Polls sent from other clients used to show as "unsupported content" and now work properly. A poll set to hide its results shows nothing at all until it ends, not even to you.\n- `b3946e0` Added **forwarding a message** to one or more rooms, from the message menu.\n- `b3946e0` Added **edit history** on messages that have been edited, fetched from the server so it works for edits made before you opened the app.\n- `b3946e0` Added **a pinned-message banner** above the composer, so a pin is visible without opening the room menu. Dismissing it hides only that pin; pinning something new brings it back.\n- `b3946e0` Added **approving people who ask to join**. Setting a room to "ask to join" used to be a trap: requests arrived with nothing to show them, so people waited on a room that looked like it had ignored them.\n- `b3946e0` Added **exporting a conversation** as HTML, plain text or JSON, with attachments bundled alongside it. Also added **a file list** for the room, so you can find that PDF without scrolling for it.\n- `b3946e0` Added **sharing a location**, either where you are or a pin you drop, and **live location sharing** for 15 minutes, an hour or eight hours. While you are sharing, a banner stays on screen that cannot be dismissed — only stopped. Maps are off until you turn them on, because drawing one tells whoever serves the map tiles where you are looking.\n- `b3946e0` Added **widgets**. Room widgets can be opened, added and removed, and each one asks before it is allowed to read or send anything, item by item. Widgets never get the microphone, the camera or your Matrix identity, and one served from the same address as the app itself is refused outright.\n- `b3946e0` Added **changing your password, adding and removing email addresses, and closing your account** in Settings. Changing a password previously meant logging out and using the reset flow, which needed access to the email on the account.\n- `b3946e0` Added **privacy settings**: block all incoming invites, choose when media previews load, and hide avatars in invitations from strangers.\n- `b3946e0` Added **thirteen more slash commands**, including `/nick`, `/topic`, `/roomname`, `/myavatar`, `/whois`, `/query`, `/plain`, `/html` and `/rainbow`.\n- `b3946e0` Added **chat effects** — `/confetti`, `/fireworks`, `/snowfall`, `/rainfall` and `/hearts`, which also fire when someone sends the matching emoji. Skipped entirely if your system asks for reduced motion.\n- `b3946e0` Added **LaTeX rendering** for maths in messages, off by default.\n- `b3946e0` Added **microphone settings** — choose an input device and turn echo cancellation, noise suppression and gain control on or off. Used by voice messages and calls alike.\n- `b3946e0` Fixed **audio attachments being sent without a duration**, which made them show as unknown-length in every other client.\n- `f96ddb0` Fixed **the microphone never working on Linux**. The window\'s browser engine ships with capture switched off and silently refuses any request nothing is listening for, so recording and call audio could not have worked on that build. Screen sharing from a call is covered too.\n- `f96ddb0` Fixed **the app being killed on macOS the first time it touched the microphone or camera**, instead of asking for permission.\n- `f96ddb0` Added **opening `matrix:` links**, both inside the app and from other programs, on all four platforms. They previously did nothing at all when clicked.\n- `f96ddb0` Added **starting at login**, launching minimized to the tray. Related: a window closed to the tray no longer comes back invisible the next time you start the app by hand.\n- `f96ddb0` Added **hiding the window from screenshots and screen recordings**, in Settings. Works on Windows and macOS; most Linux desktops ignore it.\n- `f96ddb0` Added **spell checking on Linux**, which the window\'s browser engine leaves off by default, using the languages from your own system settings.\n\n## 11.08.2026\n\n- `451148f` Fixed **the icon bar on the left not moving with the swipe on mobile**. It stayed put while the conversation list slid, then appeared or disappeared abruptly at the end, shifting everything sideways. It now slides away together with the list, and the chat opens at the full width of the screen without jumping.\n- `bcb92f0` Improved **message search filling in as it goes**. It used to sit blank while it worked, then stop at the first match it found — so a single recent hit looked like the whole answer and older messages only turned up if you scrolled. Results now arrive a few at a time and keep coming until there is a proper list of them.\n- `bcb92f0` Improved **the settings menu on phones**, spacing the entries out and making each one a larger touch target so neighbouring rows are harder to hit by accident.\n- `bcb92f0` Added **link previews in encrypted rooms by default**. Note this asks your homeserver to fetch the link, which it cannot otherwise see inside an encrypted message — the setting turns it back off.\n- `bcb92f0` Improved **where the Telegram sticker import setting lives**, moving it from General to Emojis & Stickers, next to the packs it applies to.\n- `7679ea5` Improved **swiping toward a chat on mobile**, which now uncovers the conversation as you swipe, the same way swiping out of a chat reveals the list behind it. Previously there was nothing on the other side and the chat only appeared once the swipe finished. Rooms revealed this way are not marked as read — only opening one does that.\n- `7679ea5` Improved **search being the same everywhere**. The search button used to lead to two different screens depending on the window size, and the one on phones could only search messages. There is now a single search, and it finds both people and messages on every device.\n- `7679ea5` Fixed **the settings menu sitting against the top of the screen on mobile**, leaving a large gap below. The list is now centred vertically; the logout button stays where it was.\n- `fe3fdd7` Fixed **swiping back toward a chat looking broken on mobile**. The conversation list went transparent mid-swipe, leaving just the room names floating over nothing. It now slides as one solid page, matching the swipe in the other direction.\n- `fe3fdd7` Improved **the people sidebar search box**, which now spans the full width of the sidebar instead of being squeezed next to the close button. The sidebar also gained a "People" heading.\n- `fe3fdd7` Fixed **the search screen being too wide on small phones**, where it could be pushed past the edge of the screen and scroll sideways.\n- `fe3fdd7` Improved **settings layout**, centring each settings page in the available space rather than letting it hug the left edge — matching how the rest of the app already lays out its pages.\n- `c6a0111` Added **importing Telegram sticker packs**. Open any image pack you can edit, choose "Import from Telegram", and paste a `t.me/addstickers/...` link — its stickers are downloaded and added to the pack. Animated and video stickers are skipped and counted, since packs can only show still images. This needs a Telegram bot token, set once in Settings → General: Telegram publishes sticker packs nowhere else, so there is no way to import without one. Creating a bot with @BotFather takes a moment and is free, and the token is kept on your device only — never sent to your homeserver.\n- `15bd574` Fixed **the attach button doing nothing on Android**. Tapping `+` in the composer, or using the upload shortcut, opened no file picker and gave no error. The file type it asked for was written in a form Android rejects, so the system found nothing able to handle the request and silently gave up. Other pickers in the app — profile picture, sticker pack image — were unaffected and kept working, which is why this looked like an attachments-only problem.\n- `985f7b9` Improved **third-party code once more**, replacing six small packages with equivalent code kept in this project — number formatting, keyboard shortcut matching, file downloads, image placeholders and error handling. The two with any real logic were checked against the packages they replace over tens of thousands of generated cases with no behaviour difference, including on macOS, where the shortcut key differs.\n- `19bad2e` Improved **third-party code in the client further**, removing two packages that nothing used and twelve more from the desktop shell that were never imported by anything. Together with the earlier commit-hook removal today, the web client now resolves 801 packages instead of 950.\n- `db9bb8d` Fixed **the web app at prinny.app/app failing to load with "Failed to load"**, usually right as you signed in. A tab left open while a new version was published kept asking for pieces of the old version that no longer exist on the server; the sign-in step is what requested one first, so the app appeared to break specifically at login. Such a tab now notices and refreshes itself onto the current version instead of dying. If it happens again before this update reaches you, a hard refresh clears it.\n- `db9bb8d` Fixed **the web app not being installable to your home screen or desktop**. Its app manifest was requested from the wrong address on prinny.app/app and always came back missing, so browsers saw no installable app.\n- `5989652` Improved **the amount of third-party code that goes into a build**, down from 950 packages to 803. A commit-hook stack inherited from upstream — husky, lint-staged and commitizen — was fully commented out and could not run, so removing it costs nothing and takes 147 packages out of the supply chain. Leftover upstream project files (code of conduct, contributing guide, sample reverse-proxy configs for a different project\'s name) and a version-stamping script that had been superseded were removed at the same time.\n- `b3341b9` Fixed **ending up with several copies of Prinny running on Windows**, and the pinned taskbar shortcut appearing to do nothing. Closing to the tray hides the window, so the app looked shut down and each new launch started another client. Launching again now restores and focuses the one already running — from the shortcut, the taskbar pin or the Start menu — and a pinned Prinny shares one taskbar button with the running window instead of showing two.\n- `3a1e9bb` Improved **what happens on a server that will not let apps complete sign-up**. Some servers require a step they keep to their own website. Instead of a blank error page, the app now says so plainly and links that server\'s actual sign-up page, so you can create the account there and come straight back to sign in.\n- `258978b` Added **support for servers that use hCaptcha**. Some homeservers run hCaptcha while still presenting it as the standard captcha step, and the app was drawing Google\'s box with an hCaptcha key — which can never be solved, so registration on those servers was impossible. The right captcha is now shown for each.\n- `258978b` Fixed **being turned away from servers with an unfamiliar sign-up step**. Anything the app does not handle itself — a phone-number check, a captcha provider it does not recognise, something a server invented — now opens the server\'s own sign-up page in a second window; finish there and you are brought straight back. Previously this said "this application does not support registration on this homeserver" and stopped.\n- `94a3982` Added **a directory of public Matrix servers**, replacing the matrixrooms.info room feed. Around 1,150 servers, merged and deduplicated every day from three independent lists (asra.gr, joinmatrix.org, privacydev.net). Explore now offers "Browse public servers" — pick any server and read its own public room directory, instead of one third party\'s view of which rooms are worth seeing.\n- `94a3982` Improved **choosing a homeserver when signing in or registering**. The field now completes as you type, the way a browser address bar does: type `tchn` and it fills in `tchncs.de` with the rest selected, so carrying on typing simply overwrites it. The magnifier beside the field opens the full directory, searchable by name, software, country or hosting provider, and filterable by open registration, captcha, email requirement and Tor friendliness.\n- `94a3982` Fixed **the server list being unreadable in a browser**. None of the three upstream lists allow cross-origin requests, so the web version could not have fetched them at all. The merge now happens once a day on prinny.app and every version — desktop, Android and web — reads the same prepared file. Self-hosters can point `publicServersUrl` at their own copy.\n- `8bf8ba9` Fixed **the release pipeline silently skipping a build**. Two pushes close together left one release half-built and the second push produced no build at all — the second run cancelled the first *after* it had already created the release and uploaded three platforms, then declined to build anything itself because that release now existed. Builds queue instead of cancelling, the version number now accounts for a release that has been drafted but not yet tagged, and a build can be re-run by hand without inventing a commit.\n- `86d4a10` Fixed **nothing watching the app\'s dependencies for security patches**. The configuration said one bot handled them; that bot was never installed, and the approval step it waited on could not exist because the repository has issues turned off. So no patch was ever proposed, which is how 22 known-vulnerable packages piled up. Dependency alerts and automatic security updates are now switched on for both repositories, with a bot that needs no extra setup.\n- `86d4a10` Improved **download size**: the bundled video-call widget was shipping 18 MB of debug source maps that no user ever loads. Total download drops from 63 MB to 45 MB.\n- `86d4a10` Fixed **desktop shell shipping five unused system integrations**. Clipboard, file-system, shell-command, HTTP and dialog plugins were compiled into every build but granted no permission and called by nothing — dead code that also pinned an XML parser with two denial-of-service advisories. Removed. Copying text is unaffected; it uses the browser API.\n- `86d4a10` Fixed **known-vulnerable Rust libraries in the desktop shell**, including two certificate-validation bugs in the TLS stack (`rustls-webpki` — name constraints wrongly accepted for URI and wildcard certificates) and a remote memory-exhaustion bug in the QUIC networking layer.\n- `a4600e5` Fixed **an image attachment being able to open attacker-written content inside the app**. A sender chooses the `mimetype` on a picture they send, and the image and sticker renderers passed that value straight through when building the local media object — so a picture could declare itself as HTML, and the image viewer\'s "open in browser" button would then open it as a page running with the app\'s own permissions. Images and stickers are now restricted to real picture formats, and that button refuses anything that is not an ordinary web link.\n- `a4600e5` Fixed **push notifications trusting everything the push server sent**. The service worker displayed whatever text arrived and handed the room identifier it was given straight to the app\'s navigation. Notification text is now length-limited and stripped of control characters, and the room and event identifiers must look like real Matrix identifiers before anything is shown or opened. This matters more now that pushes carry real message content.\n- `a4600e5` Fixed **a code block in a message being able to freeze the client**. Syntax highlighting ran on the main thread with no size limit, and the sender picks the language from 287 options. Measured across every grammar we ship, the cost grows with the square of the length: `javascript` on a plain run of letters takes **4.1 s at 32 000 characters and 40 s at 100 000**, and `scss` reaches **8.6 s and 84 s**. Code blocks over 4 096 characters now render in full but without colours (worst case ~130 ms). This also fixes an honest large paste hanging the app.\n- `a4600e5` Fixed **an emoji shortcode being able to break out of the HTML it is written into** when a message is edited and re-sent. Every neighbouring field was escaped; this one was not.\n- `a4600e5` Fixed **all 22 known-vulnerable dependencies, 10 of them high severity — now zero**. The important one is the PDF renderer (`pdfjs-dist` 5.7.284 → 6.2.108), where a malicious PDF could run JavaScript in the app, in a client that renders PDFs strangers send you. Also the router (open redirect and XSS), the user-agent parser (a hang on a crafted string), and `lodash` — the only vulnerable package that actually reached the shipped app. The PDF upgrade is a major version: it needed code changes, and the new renderer fetches WebAssembly decoders at runtime that were not previously bundled, without which **scanned documents would have rendered blank with no error** — those are now shipped. Verified in a real browser that PDFs still render and the app still starts.\n- `a4600e5` **Self-hosters: the Docker image now listens on port 8080, not 80**, because it no longer runs as root. Change the container side of your port mapping (`-p 80:80` → `-p 80:8080`) and any Compose or Kubernetes manifest that names port 80. README updated.\n- `c0b94a6` **Android: reinstall required once.** Release APKs are now signed with a new key, because the previous signing key had been committed to the public repository and anyone could sign an APK your phone would accept as a Prinny update. Android refuses an update signed by a different key, so this build will not install over your current one — **uninstall Prinny and install this APK fresh**. In-app updates work normally again afterwards. Sorry for the one-time hassle; there is no way to rotate a leaked signing key without it.\n- `c0b94a6` Fixed **Android notifications only arriving while the app was open**. The push receiver decided who should show a notification by checking whether the app\'s plugin object existed — but that flag is set on first launch and never cleared, so every push was handed to the WebView, and Android suspends WebView JavaScript the moment the app leaves the screen. Nothing rendered. The receiver now checks whether the app is genuinely on screen (`MainActivity.isAppInForeground`) and posts the notification from native code when it is not, so notifications arrive with the app closed. Notifications also show the real sender and message with `BigTextStyle`, get **one notification per room** instead of all rooms overwriting a single entry, and tapping one opens the right room. Encrypted rooms show "New message" — the server cannot read them, which is the encryption working.\n- `c0b94a6` Fixed the **Android in-app updater installing an APK without checking it**. `UpdateChecker` parsed the published `sha256` and then never used it, and staged the download in shared public storage under a predictable name where another app could replace it. It now verifies the SHA-256 before prompting (deleting the file on mismatch), stages in app-private storage, requires an `https` GitHub host, and registers its download receiver as `RECEIVER_NOT_EXPORTED`.\n- `c0b94a6` Fixed **embedded web content being able to turn on your microphone and camera**. The Android WebView permission handler granted capture based only on whether the app held the OS permission, never checking which origin asked — so any third-party iframe (a link preview, an embed) could obtain mic and camera silently once you had made one call. Capture is now restricted to the app\'s own origin, and page scripts can no longer flip the microphone foreground-service type on their own.\n- `c0b94a6` Fixed **a single message being able to freeze the client**. The jumbo-emoji check used a nested-quantifier regex whose cost doubled every ~2.5 characters: a message of ~70 colons locked the render thread for minutes, and the event persisted so reopening the room re-froze it. Measured 55 colons: **3.7 s → 0.14 ms**, and flat at 1000. The URL matcher\'s variable-length lookbehind was quadratic on long messages (**853 ms → 0.8 ms** on 40 000 characters), and an empty search term could spin the highlighter forever — a double space in the room switcher was enough. `utils/regex.ts`, `utils/findAndReplace.ts`, `plugins/react-custom-html-parser.tsx`.\n- `c0b94a6` Fixed **links and embeds handing arbitrary URL schemes to the operating system**. On desktop, a link opening a new window is passed to the OS URL opener, so a homeserver-supplied or message-supplied `file:`, UNC or app-protocol URL invoked a local handler. All such URLs are now validated as `http(s)` at the point of use (new `utils/safeUrl.ts`), `ftp:` and `magnet:` are no longer accepted in message links, and the native side enforces its own scheme allowlist.\n- `c0b94a6` Fixed **login credentials being sendable to the wrong server**. The homeserver allowlist was checked against the name you typed while the login request went to the `base_url` that server\'s own `.well-known` returned, which was never re-checked; and an `http://` prefix in a `/login/:server` link survived into the credential request. Discovery now forces `https`, the route parameter must be a bare hostname, and the allowlist is re-applied to the discovered URL.\n- `c0b94a6` Added a **"Hide message content"** notification setting (Settings → Notifications) so system notifications can show only the sender. Decrypted message text otherwise goes into the OS notification store, where other software on the device may read it.\n- `c0b94a6` Added a **Bluesky post embeds** toggle and made every third-party embed state plainly that enabling it sends the link and your IP address to that service. Bluesky previews previously fetched from `public.api.bsky.app` with no setting at all. Link previews for **encrypted** rooms are now off by default — asking the server to preview a URL from a message it cannot read hands it that URL.\n- `c0b94a6` Improved **rendering safety for hostile room state and media**: power-level tag icons can no longer be an arbitrary URL that beacons every viewer\'s IP on each render, attachment dimensions are clamped, download filenames are sanitised, blob MIME types can no longer be declared as active content, and megolm key-file import bounds its key-derivation work.\n- `c0b94a6` Improved **desktop native hardening**: the app now refuses to start if another process already holds its frontend port (that port grants native permissions, so whoever answers on it inherits them), the SSRF guards cover 0.0.0.0/8 and IPv4-in-IPv6 encodings, redirects are re-validated per hop, downloads are size-capped, and drag-drop file access is consumed once instead of lasting the whole session. The permission grant to the page dropped filesystem, HTTP, dialog, clipboard, shell and global-shortcut access, none of which the client uses.\n- `c0b94a6` Improved **self-hosting and build security**: every shipped nginx/Caddy/Netlify config now sets a Content-Security-Policy and related headers (verified in a real browser, including WebAssembly crypto and the bundled call widget), production source maps are no longer published, the Docker image runs unprivileged (**publish `-p 80:8080` now**), the web root no longer exposes `.git`, and CI pins its actions, drops install scripts, and stops packaging its own credentials into the source archive.\n\n## 10.08.2026\n\n- `22f0979` Updated **sanitize-html to 2.17.6** — a security release for the HTML sanitizer every incoming message body passes through. Upstream cinny `90837f7`.\n- `3ef594f8` Upgraded the **in-app call stack to element-call 0.20.1** (from 0.19.3) and **matrix-js-sdk to 41.7.0**. Fixes the **call settings and reaction buttons doing nothing** — element-call moved its settings button to a new `data-testid` and our control layer was still walking `previousElementSibling` off the leave button, so it was clicking the wrong nodes. **Screenshare and spotlight buttons now update their state**, the **mic/video buttons disable while a toggle is in flight** (instead of letting you desync them with fast clicks), and **incoming-call popups no longer appear for voice rooms**. `plugins/call/CallControl.ts`, `CallEmbedProvider.tsx`, `call-status/CallControl.tsx`, `call/CallControls.tsx`, `call/Controls.tsx`, `call/PrescreenControls.tsx`. Upstream cinny `e379714`.\n- `aba72c2` Fixed **"Manage devices" opening a dead page** on homeservers that have moved to the stable spec — account management now uses the stable MSC2965 action names instead of the unstable `org.matrix.msc2965.*` ones. `useAccountManagement.ts`. Upstream cinny `a9245c8`.\n- `03ad4e7` Fixed **long space names and descriptions overflowing the lobby header** instead of truncating. `LobbyHero.css.tsx`, `page/style.css.ts`. Upstream cinny `762e99a`.\n- `69fc00c` Updated **folds to 2.7.1** (the UI component library). Upstream cinny `730a748`.\n\n## 07.06.2026\n\n- `c9ca749` Unified **people + message search into the members drawer** — the search box moved into the drawer header and the **"N Members"** title moved down beside the Filter/Sort chips. One box now drives both: matching members filter the list instantly, and a new **Messages** section below shows matching messages (with a "Search older messages" button to page deeper). The standalone search icon and search panel are gone on desktop; mobile/tablet keep the search overlay since there\'s no drawer there. New `RoomMessageResults.tsx` renders the inline results for encrypted (local scan) and unencrypted (server) rooms alike. `MembersDrawer.tsx`, `Room.tsx`, `RoomViewHeader.tsx`.\n- `c9ca749` Made **encrypted-room search much faster** — back-paginated events are now decrypted **in parallel** instead of one-at-a-time (the per-event serial decrypt was the bottleneck), and each page back-paginates a bounded number of rounds before returning, so as-you-type search stays responsive and deeper history loads on demand. `useClientRoomSearch.ts`.\n- `ba1c6b1` Fixed **encrypted-room search returning no results** — the client-side scan (`useClientRoomSearch.ts`) walked the *entire* room history (up to 50k events / hundreds of back-pagination round-trips) before returning even one match, so for any encrypted room with real history the search just sat on loading skeletons and never showed anything. It now streams: it scans the already-synced history and back-paginates only far enough to fill the requested page, returning matches immediately and resuming pagination on demand as you scroll. Dense terms appear almost instantly; "no results" is only shown once history is genuinely exhausted (still bounded at 50k events).\n\n## 06.06.2026\n\n- `36a04bf` Made **all link-preview embeds 2x larger** — the card max-width went 216→432px and the image/video height caps doubled (300→600, 320→640), so YouTube, Twitter/X, Bluesky and generic embeds all render bigger (everything inside is width:100% of the card, so it scales proportionally). `UrlPreview.css.tsx`.\n- `36a04bf` Fixed **multi-image Twitter/X embeds stacking vertically** — they now render in a 2-column grid (side by side), matching the Bluesky layout. `UrlPreviewCard.tsx`.\n- `36a04bf` Repurposed the embed **"Show all" button for long descriptions** — removed the old og: metadata dump that lived behind it; now a description over 100 words shows the first 100 with a Show all / Show less toggle, and shorter ones show in full. `UrlPreviewCard.tsx`.\n- `36a04bf` Replaced the custom **audio-attachment player with native HTML `<audio controls>`** — encrypted/authenticated media is fetched to a blob first, plain media streams directly. `AudioContent.tsx`, `RenderMessageContent.tsx`.\n- `36a04bf` Fixed a **softlock when swiping right in Settings on mobile** — the swipe slid the container fully off-screen (via `commitOffset`) expecting a route change to unmount it, but Settings navigates subpage→menu in place, so it stayed stuck off-screen. Settings now snaps back instead. `Settings.tsx`.\n- `36a04bf` Fixed **swiping back into the last conversation on mobile** — `MobileSwipeOpen` remounts on every in/out transition (so its `useState` last-room reset to nothing) and its fallback link selector matched no real path. The last-opened room is now remembered across remounts and the fallback targets the top room in the list. `MobileSwipeOpen.tsx`.\n- `36a04bf` Fixed the **Inbox page layout on mobile** — Notifications/Invites rendered in normal flow, so the absolute nav backdrop painted over them. They\'re now wrapped in `MobileSwipeBack` (an opaque z-index:1 layer, like rooms), which fixes the stacking and adds the swipe-back gesture. `Router.tsx`.\n- `36a04bf` Made the **mobile UI 15% larger** — bumped the root font-size to 115% under 640px; folds sizes everything in rem, so fonts/spacing/icons/controls scale together. `index.css`.\n- `36a04bf` Made the **Settings menu items full-width and centered on mobile**. `Settings.tsx`, `settings/styles.css.ts`.\n- `36a04bf` Colored the **mobile safe-area insets** (notch / home-indicator bars) with the themed grey surface instead of black. `SafeArea.css.ts`, `index.css`.\n- `5eb6249` Added **message search in end-to-end encrypted rooms** — the room search button is no longer hidden in encrypted rooms, and a new client-side search (`useClientRoomSearch.ts`) runs there instead of the server. Since the homeserver only holds ciphertext, it back-paginates and decrypts the local timeline (bounded at 50k events), matches message bodies (phrase, falling back to all-words), and returns the same paginated/virtualized result shape as the server path so `RoomSearch` uses either interchangeably. Encrypted rooms show a notice that search runs locally over history synced to this device. Non-encrypted rooms still use server-side `mx.search`.\n- `5eb6249` Fixed reacting to a message scrolling the timeline to the most recent message — a reaction is an `m.reaction` live event "sent by you", so the Scroll-to-Bottom-on-Send path (and the at-bottom auto-scroll) yanked the viewport to the live edge. `RoomTimeline.tsx` now gates both scroll paths on `isLiveDisplayEvent` (skips reactions, edits and redactions, mirroring the render filter); the range still advances so reactions render in place without moving the view.\n- `5eb6249` Moved the **cancel-reply (✕) button to the right** of the reply preview, nearer the send controls, so dismissing a reply needs less mouse travel. An invisible spacer keeps the message you\'re replying to aligned with the text input below (`RoomInput.tsx`).\n- `5eb6249` Improved the **desktop update toast** — clicking it (or its "Open" action) now downloads and installs the update directly, the same as the banner\'s Update button. The toast is tagged `kind: \'update\'` and routed by a dedicated listener so it no longer falls through the message-click → room-navigation path (`useUpdateCheck.ts`, `desktop-notifications.ts`).\n- `5eb6249` Improved the connecting screen — it now shows **Connecting to `<homeserver>`…** instead of a bare "Connecting…", so you can see which server is being reached (`SyncStatus.tsx`).\n- `5eb6249` Fixed **presence dots not appearing** until a live presence event arrived — `useUserPresence` now syncs immediately from whatever the store already holds (the peer\'s `User` object is often created lazily after first render), handles an empty user id, and avoids a stale `undefined` that hid the badge.\n\n## 30.05.2026\n\n- `605d9de` Added **client-side link-preview fallback** (Settings → General, desktop/mobile app only, **default off**) — when your homeserver\'s `preview_url` can\'t generate a link card (commonly a `504` because the target site blocks Synapse\'s non-browser User-Agent), the app now fetches the page itself with a real Chrome UA and parses its OG/Twitter meta tags locally. New Rust `fetch_og_preview` IPC command fetches server-side (bypassing CORS) but keeps every SSRF guard from the media proxy — scheme check, post-DNS private/loopback/link-local/CGNAT/cloud-metadata rejection, DNS pinning against rebinding, per-hop redirect re-vetting (auto-redirects disabled), and a 512 KiB response cap — and, unlike `fetch_remote_bytes`, accepts any *public* host since a generic preview can point anywhere. `UrlPreviewCard.tsx` falls back to it only after the homeserver preview errors, and renders a direct `https` `og:image` straight through (homeserver previews use `mxc://`). Skipped for Twitter/X, Bluesky, YouTube and direct-audio URLs, which already render without the homeserver.\n- `8e99e44` Hardened the desktop media proxy against SSRF — the Rust `fetch_remote_bytes` IPC command (used for Twitter/X and Bluesky video/images) now requires `http`/`https`, restricts the host to a `twimg.com`/`bsky.app` allowlist, resolves DNS and **rejects any private/loopback/link-local/CGNAT/cloud-metadata (`169.254.169.254`) address**, pins the vetted IP on the request to defeat DNS-rebinding, and only follows redirects that stay on the allowlist. Previously it fetched any URL server-side, bypassing CORS.\n- `8e99e44` Fixed the notification-icon cacher leaking the Matrix access token — `cache_notification_icon` now forwards the `Authorization` header **only** when the avatar URL is under the logged-in homeserver\'s `/_matrix/` media endpoint (origin + path validated against `mx.baseUrl`); every other URL is fetched with no credentials and SSRF-guarded.\n- `8e99e44` Hardened `read_dropped_file` — it now reads **only** paths the user actually drag-dropped onto the window (captured from the native drag-drop event), so an injected script can no longer read arbitrary files such as `/etc/passwd`.\n- `8e99e44` Removed the unused `shell:allow-execute` / `shell:allow-open` desktop capabilities (arbitrary process spawn from the webview — nothing in the app used them), tightened the CSP `script-src` to drop remote `http:`/`https:` origins (keeps `unsafe-eval` for the crypto WASM), and scoped the Android `FileProvider` from the whole external-storage/cache roots down to just `Download/` (the only dir the updater APK uses).\n- `8e99e44` Added a non-blocking `security-audit` CI job (npm production-dependency audit gated at critical; `high` + `cargo audit` advisory) and applied `npm audit fix` for the `@octokit/*` ReDoS advisories in the release tooling.\n- `66a3bab` Fixed the Android in-app updater never installing — every release was CI-signed with a **freshly generated random keystore**, so Android rejected each update with "App not installed" (`INSTALL_FAILED_UPDATE_INCOMPATIBLE`: signatures don\'t match the installed app). The APK downloaded but could never install over the previous build, even after granting "install unknown apps." CI now signs every release with a **stable committed key** (`prinny-ci.keystore`), with an optional `ANDROID_KEYSTORE_BASE64` secret override. Existing users need ONE manual reinstall to land on the stable key; after that, in-app updates work.\n- `d9aca00` Added **in-conversation message search** — a search button in the room header (right side, by the call icons) now opens a right-side results panel instead of navigating away. Server-side `mx.search` scoped to the current room, paginated and virtualized (`@tanstack/react-query` infinite query + `@tanstack/react-virtual`) for long histories; click a result to jump to that message in the timeline. Works on web, desktop (side panel), and mobile/tablet (full-screen overlay that closes on result tap). Unavailable in end-to-end encrypted rooms (server can\'t index encrypted messages) — shows a notice.\n- `d9aca00` Added **presence/status bubbles inside the chat and the room header** — message avatars now show the sender\'s online/idle/offline dot (matching the members panel and DM list), and DM headers show the other user\'s presence next to their name.\n- `d9aca00` Made **URL-preview embeds/videos ~50% smaller** (Discord-like) — the preview card max width dropped 432→216px and video height is capped at 320px, so portrait clips render around 180×320 instead of filling the message column. `UrlPreview.css.tsx` + loading-placeholder caps in `UrlPreviewCard.tsx`.\n- `f29c063` Added a **Scroll to Bottom on Send** setting (Settings → General → Editor, on by default) — when you send a message while scrolled up in a room, the timeline now jumps back to the live edge so your own message scrolls into view. Implemented in `useLiveEventArrive` (`RoomTimeline.tsx`): a live event whose sender is the current user resets the timeline via `getInitialTimeline` and triggers `scrollToBottom`, reusing the `handleJumpToLatest` path. Gated on the sender being us, so other people\'s messages never yank the viewport.\n- `38f0d1c` Fixed `:3` (and other single-char emoticons like `:p`, `:D`, `:o`) triggering the emoji autocomplete and auto-replacing on Enter — the `EMOTICON_QUERY_RE` shortcode trigger in `getAutocompleteQuery` matched any run of word characters after `:`, including a single one. Tightened to `[a-zA-Z0-9_+-]{2,}` so the picker only opens once there are at least two characters after the `:` (Discord parity); `:12` → `:1234:` still completes.\n- `32c880f` Fixed emoji/mention autocomplete arrow-key selection — pressing Up/Down moved the highlight (via the focus-trap) but Enter/Tab always inserted the *top* item and the caret jumped to the start of the composer. A window-level capture handler in `EmoticonAutocomplete`, `UserMentionAutocomplete`, `RoomMentionAutocomplete` and `CommandAutocomplete` was hardcoded to commit index 0. Each menu item now carries a `data-autocomplete-index`, and Enter/Tab click the focused item (reusing the mouse-click path, so the selected emoji/mention inserts and the cursor stays put); falls back to the first result when focus is still in the editor.\n- `32c880f` Fixed typing `:)` (and other punctuation smileys) auto-inserting an unrelated emoji on Enter — the emoji shortcode trigger matched any non-space text after `:`. `getAutocompleteQuery` now only treats `:` as an emoji query when the following text matches `[a-zA-Z0-9_+-]` (real shortcodes like `+1`, `e-mail`), so `:)`, `:(`, etc. send as literal text.\n- `32c880f` Improved Element-style read receipts for users without an avatar — the bare grey initial (which read like a stray newline glyph) is now centred inside a circle tinted with the user\'s `colorMXID` placeholder colour, matching how `UserAvatar` renders avatar fallbacks.\n- `32c880f` Fixed Alt+Up / Alt+Down not moving between DMs — outside a space the handler fell through to "all non-space rooms", so in the Direct Messages list it jumped to arbitrary non-DM rooms. It now matches the open sidebar: space → that space\'s rooms, Direct → DMs only, Home → orphan rooms.\n- `32c880f` Added `Ctrl+?` (Ctrl+Shift+/) as a second shortcut to toggle the keyboard-shortcuts panel, alongside the existing rebindable `Ctrl+/` (Discord parity; `Cmd+Shift+/` on macOS).\n- `c32d959` Fixed calls dropping — backported upstream\'s call-drop fix (#2954). Membership counting in `useCall`, `useCallEmbed` and `CallEmbedProvider` was using the experimental slot-based `MatrixRTCSession.sessionMembershipsForSlot()` API (carried over from an earlier backport), which could miss active participants and tear the call down. Reverted to the stable synchronous `rtcSession.memberships`, restoring reliable "call ongoing" detection and incoming-call dismissal.\n\n## 19.05.2026\n\n- `5694870` Fixed Android updater re-downloading every launch and never installing — `UpdateChecker.kt` now (1) checks for an existing APK on disk and a previously-enqueued DownloadManager job before queueing a fresh download, so a downloaded-but-uninstalled APK is reused instead of re-pulled; (2) registers a `BroadcastReceiver` for `ACTION_DOWNLOAD_COMPLETE` and fires the install intent itself with a FileProvider `content://` URI — DownloadManager\'s built-in tap-the-notification handler still generates a `file://` URI that crashes Android 7+ with `FileUriExposedException`, which was the silent failure when the user tried to install; (3) cleans up stale APKs once the new version is the installed one; (4) targets `Context.RECEIVER_EXPORTED` on Android 14+ so the dynamic receiver actually fires; (5) auto-prompts install at most once per cold start when the APK is already downloaded, so a dismissed dialog isn\'t re-shown on every relaunch.\n- `aa75417` Fixed update banner overflow on mobile — the size-300 action Button (32px tall) was poking out below a banner that auto-sized to the text height (~36px) and the Box didn\'t always stretch to the parent column, so the banner ended where the text ended and the button sat half-outside. Added explicit `width: 100%`, `min-height: 48px`, and `flex-shrink: 0` to the shared container style; the inner text Box got `min-width: 0` + `truncate` so long messages ellipsis instead of pushing the button out horizontally.\n- `fff19fa` Fixed mobile swipe gestures and modal layout — `useSwipeGesture` now refuses to engage when there is no navigation target (empty Home no longer follows the finger to nowhere); `MobileSwipeOpen` resolves the target as selected → last → first-rendered room link, so swiping in the DM tab opens the most-recent conversation; commit animates the foreground fully off-screen instead of snapping back, and `MobileFriendlyPageNav` now renders the page-nav as an absolute backdrop behind the room view on mobile sub-routes so swipe-back reveals the actual nav underneath. `Settings` modal supports left→right swipe as "X" (subpage → menu list → close) and on mobile no longer collapses to a tiny top-left island — `Modal500` explicitly flexes the content column and `interactive-widget=resizes-content` + new `useKeyboardInset` hook keep the chat input above the on-screen keyboard without leaving a gap of safe-area padding hovering over the keyboard.\n- `380ca1a` Fixed Element-style read receipts duplicating across many old messages — `useElementReadReceipts` was memoizing once per Message instance and never invalidating, so as receipts moved forward older mounted Messages kept showing the indicator at their original position. Now subscribes to `RoomEvent.Receipt` and `RoomEvent.Timeline` and rebuilds the receipt map consistently across every Message.\n- `380ca1a` Made message hover effect more subtle — `selected` background (when the right-click menu / emoji board / reaction picker is anchored on a message) was using `Surface.ContainerActive`, the same intensity the theme reserves for pressed states. Demoted to `Surface.ContainerHover` and added a faint hover tint at the same tone so plain hover and right-click feel continuous.\n- `f3e6d88` Improved multi-link embeds — multiple URL preview cards in one message now stack vertically (Discord-style) on every viewport. Previously the desktop layout was a horizontal scroller; the column layout was mobile-only.\n- `f3e6d88` Improved embed image rendering — tiny favicon-style images (`og:image:width` ≤ 96 AND `og:image:height` ≤ 96) are no longer rendered as the embed\'s main image. The text-only card (title / description / siteName) still shows. Article hero shots / post media render as before.\n\n## 18.05.2026\n\n- `9c481ba` Improved mobile layout — nav pane (Home / Direct / Search / Inbox indices) now stretches to the full viewport on mobile via inline `width: 100%` override on `PageNav` so the changelog-side empty-state doesn\'t leave whitespace.\n- `9c481ba` Improved mobile settings modal — fills viewport (`100vw` × `100dvh`), square corners, safe-area-inset padding so notch/home-bar don\'t obscure controls. Keybinds tab hidden on mobile (physical-keyboard only).\n- `9c481ba` Fixed `body { height: 100% }` keyboard breakage — switched to `100dvh` with `100%` fallback so the on-screen keyboard pushes the layout up instead of leaving inputs hidden behind it.\n- `9c481ba` Fixed gallery tap-out reopening viewer — overlay\'s `onDeactivate` now plants a transparent full-screen blocker for 350ms that swallows the next pointerdown/click, preventing the tap from bubbling through to the underlying message image.\n- `9c481ba` Mobile image viewer: tap-to-zoom replaced with pinch-to-zoom — two-finger gesture tracks distance ratio from initial pinch and scales accordingly (bounds 0.1×–5× matching the +/- buttons). Single-tap zoom kept on desktop where double-firing isn\'t an issue.\n- `47f158f` Followed up on draft-release fix — passed `draft: true` to all softprops/action-gh-release uploads (was defaulting to false and flipping the release to published on the first upload, defeating the whole point of staging as a draft); dropped the versioned `prinny-webapp-vX.Y.Z.zip` variant since the release tag already versions it and every other platform asset is single-named.\n- `ec98378` Fixed release-pipeline window where `/latest/download/*.apk` 404\'d during Android cross-compile — releases now stay drafts until every platform build (windows + linux + macos + android + webapp-zip + archive) has uploaded its artifacts, then publish atomically. Old versioned releases are deleted after publish, not before, so the previous tag stays "latest" until the new one is fully assembled.\n- `2b24087` Added README download link for the web client zip — `prinny-webapp.zip` is now uploaded with a stable filename alongside the versioned one so `releases/latest/download/prinny-webapp.zip` resolves.\n- `d047dd6` Added platform notification for update banner — `useUpdateCheck` fires `sendDesktopNotification` the first time each new version becomes available; deduped per-version so a dismissed banner doesn\'t re-notify on repeat polls. Android Tauri skipped (UpdateChecker.kt\'s own DownloadManager notification covers it).\n- `09cc5ee` Added web client dist zip to GitHub releases — new `webapp-zip` job in prinny-client\'s `build.yml` attaches `prinny-webapp-vX.Y.Z.zip` (rebrand + `npm run build` output) to every release for self-hosters who\'d rather download than `git pull`.\n- `6932b32` Replaced welcome splash with bundled changelog viewer — empty-state screen now reads `cinny/CHANGELOG.md` baked in at build time (Vite `?raw` import) and renders the latest dated bullets, links each SHA to the cinny commit page.\n- `0a803b4` Added Web Push for background notifications — service worker `push`/`notificationclick` handlers, Matrix HTTP pusher with VAPID public key from `config.json`. Falls back to foreground `window.Notification` when no gateway configured. Also flipped `usePiped` default to `false` so YouTube links resolve through youtube.com unless opted in.\n- `5abc142` Fixed Slate "Cannot resolve a DOM node" crash on message edit with emoji — new `safeFocusEditor` wrapper falls back to deselect + DOM focus when the selection is stale after autocomplete close.\n- `2afe5a1` Fixed Ctrl+/ keybinds modal silently closing itself — two window listeners cancelled each other in one tick; removed the duplicate so the toggle actually fires.\n- `2afe5a1` Fixed soundcloak embeds spamming 502s — skip homeserver `preview_url` for direct-audio URLs since it rejects `audio/mpeg`.\n- `2afe5a1` Fixed fullscreen button greyed out on YouTube iframe — `allow="fullscreen"` was overridden by the rest of the permissions policy.\n- `2afe5a1` Improved composer layout — attachment button moves to left of editor, send to the right (Discord-style).\n- `2afe5a1` Improved mobile gallery — title bar relocates to the bottom on mobile, both rows span full viewport width.\n- `2afe5a1` Improved mobile swipe gestures — follows the finger via transform with a 180ms ease-out settle on release; right-edge forward-swipe now returns to the last-visited DM.\n- `2afe5a1` Fixed double notifications on web — `sendDesktopNotification` was firing alongside an explicit `new Notification` with click handler.\n- `1180ddb` Added auto-bump-cinny workflow — reactive `repository_dispatch` from cinny\'s publish-webapp keeps prinny-client\'s submodule pointer current within ~30s of every cinny push.\n- `0a803b4` Added Web self-host download row to README — `git clone -b webapp-release https://github.com/coffeegrind123/cinny.git /usr/share/webapps/prinny` for self-hosters.\n- `4461ea0` Fixed Android updater re-downloading APK on every launch — `tauri.properties` was missing so `versionName` defaulted to `"1.0"`; `bump-version.mjs` now writes it explicitly with both versionName + versionCode.\n\n## 17.05.2026\n\n- `15a60e9` Added webapp-release publish workflow — built dist auto-publishes to the `webapp-release` branch of `coffeegrind123/cinny` on every push to `desktop-notifications`. Self-hosters install with `git clone` + `git pull`, no `npm` at deploy time.\n- `8a50134` Fixed standalone webapp build — version imports in `AuthFooter.tsx` and `WelcomePage.tsx` were going 5 directories up (which only resolves when cinny is nested under prinny-client). Switched to 4-up so both build contexts work.\n\n[End of changelog. Earlier history lives in git log.]\n', _2e = `https://github.com/coffeegrind123/prinny-client/releases`, v2e = `https://github.com/coffeegrind123/prinny/commit/`;
-    function y2e({ children: e }) {
+    var h2e = '# Changelog\n\nUser-facing changes per commit. Most recent at the top.\n\n## 13.08.2026\n\n- `46b469d` Fixed **not being able to type or send in a thread**. With a thread open in the side panel, one of the two message boxes stopped working: clicking it put the cursor there, but nothing you typed appeared and Enter and the send button did nothing. Both boxes were being built from the same shared blank document, and the editor library tracks its position by that document, so whichever box drew last took ownership and the other one could no longer work out where the cursor was. Each box now gets its own. Room and thread composers work at the same time, and drafts still stay separate.\n- `46b469d` Fixed **code blocks that start on the same line as the ```**. Typing ``` and pasting several lines after it — the usual way to paste code — produced literal backticks instead of a code block, because the fence had to be alone on its line and the closing ``` had to be on a line of its own. All four Discord forms now work: ` ```code``` `, ` ```lang ` then the code, code starting right after the opening ```, and the closing ``` at the end of the last line. A language is still picked up when the fence is followed by a single word (` ```js `), and anything else on that line is treated as code.\n- `d971afd` Added **`piped.gmach.online`** to the instance list — a real domain with a valid certificate (verified working), so the web app has a second instance that actually loads, not just a bare IP.\n- `d08c6cc` Added **a Piped instance picker with automatic failover**. Instead of one hardcoded instance, YouTube embeds now choose from a list — Settings → General → *Piped instance* lets you pick one or leave it on **Auto**, which probes the list and uses the first that responds. (On the web app, `http://` instances are blocked as mixed content and only work in the desktop app; Auto skips unreachable ones for you.)\n- `90eef8a` Fixed **code formatting to match Discord**. A single-line ` ```code``` ` now renders as a code block instead of showing literal backticks, and inline code accepts double backticks (` ``a`b`` `) so you can put a backtick inside. The rest of the formatting — **bold**, *italic*, `__underline__`, `~~strike~~`, `||spoiler||` — was already Discord-compatible.\n- `30112a4` Fixed **`-` bullet lists turning into numbered lists**. A list written with `-` (or `+`) was sent as an ordered `<ol>` — numbered even in the raw Matrix source. All of `-`, `*` and `+` are now bullet lists, matching every other Matrix/Markdown client.\n- `30112a4` Fixed **the thread panel\'s avatar filling its whole column**. The sender avatar now sits in a fixed-size box like it does in the main timeline.\n- `61e9b8a` Fixed **images and voice messages that failed to load** ("Mismatched SHA-256 digest" in the console). When the app\'s access token was refreshed, the service worker kept sending the old one for media, so every image/voice note silently failed until a reload. The worker now notices the rejection, refreshes its token and retries, and media download failures report the real error instead of a misleading digest mismatch.\n- `61e9b8a` Fixed **a member list flooding the console** with a repeated "event not found" 404 and an EventEmitter memory-leak warning in rooms with many people. Presence now uses a single shared subscription instead of one per member, and the pinned-message banner no longer requests an empty event id.\n- `61e9b8a` Fixed **stray React Router and fullscreen warnings** on load — the landing route now shows a loading splash while it redirects, and video embeds no longer double up the fullscreen permission.\n- `2d0d32d` Added **an update button in Settings → About**, next to Source Code. It tells you what it is doing — checking, downloading, or that you are up to date — and when an update is waiting it installs it, rather than sending you looking for the banner.\n- `2d0d32d` Fixed **the update banner telling you to "tap" on a desktop**. It now says tap or click to match the device you are actually using. The banner text is also centred properly instead of sitting off to one side.\n- `842520e` Changed **where the web client\'s source lives**: the repository is now `coffeegrind123/prinny` instead of `coffeegrind123/cinny`, matching the name of the app. If you self-host by cloning the `webapp-release` branch, your existing copy keeps updating — GitHub forwards the old address — but the address to use from now on is `https://github.com/coffeegrind123/prinny.git`.\n- `260e107` Fixed **the in-app updater reporting that no update was available for your platform**, on every desktop install. The published update file listed no platforms at all, so each client failed with "None of the fallback platforms were found". The builds themselves were fine — signed and uploaded correctly — but the step that writes that file runs seconds after they finish, and GitHub had not started serving the freshly uploaded signatures yet, so it recorded every platform as missing and reported success. It now retries those downloads, and refuses to publish an update file that would disable updating rather than quietly shipping one.\n- `40b72fa` Added **buttons under bot messages**. A bot can now put real buttons on what it sends — press one and it acts, with a spinner on the button until it answers back and a note if it never does. Buttons can also open a link, copy something to your clipboard, or fill the composer for you. A link button always asks first and shows the site it genuinely goes to, because the wording on a button is written by whoever sent it and the address is not. Destructive buttons look destructive. If you would rather not have buttons at all, Settings → General → Show Bot Buttons turns them off and you get the plain numbered list instead — which is also what people on other Matrix clients see, so a conversation with a bot works the same for everyone in the room.\n- `40b72fa` Added **a bot\'s commands to the `/` menu**. Bots can publish what they understand, so typing `/` lists their commands and descriptions alongside the client\'s own, with the bot\'s name beside each one. A new button by the attach icon opens the same list, and it only appears in rooms where a bot has actually published something. Where two bots offer the same command, picking one addresses it properly so they do not both answer.\n- `40b72fa` Added **quick-reply buttons above the composer**. A bot can offer a set of ready answers; pressing one sends it as an ordinary message. They stay put across a reload and follow you to your other devices, and a bot can clear them or ask you for one specific thing with the composer already pointed at its question.\n- `40b72fa` Added **a BOT tag** next to the name of any account that has published bot commands in a room, in both the conversation and the member list.\n- `40b72fa` Fixed **commands meant for a bot being silently swallowed**. Typing any `/command` this client did not itself recognise cleared the composer and sent nothing at all, with no error — so bot commands simply never arrived. They are now sent as written.\n- `0ec210e` Added **links that open a chat with a bot**, the equivalent of a `t.me` link. Following one opens a direct message and sends its opening command, after asking you first and showing exactly which account and exactly what will be sent.\n\n## 12.08.2026\n\n- `1b99127` Fixed **GIFs and videos in Twitter/X posts not playing at all**. They loaded as an empty box or a dead frame while ordinary GIF links played fine. Twitter\'s video servers refuse any request that says which page it came from, and the setting meant to strip that does nothing on a video — it only exists for pictures, which is exactly why pictures were unaffected. The file is now fetched separately, without that header, and handed to the player. This also means a Twitter clip that previously failed inside the desktop app now has a second way to load rather than showing an error.\n- `1b99127` Fixed **voice messages sitting in a grey box** with a "Voice message" label above them and a download button beside the player. All three were repeating what the player already gives you — it has its own background, and its menu already offers Download. Just the player now.\n- `1b99127` Fixed **long lists in dialogs not scrolling**. The Files dialog, poll history, widgets, edit history, forwarding, export and add-to-space all cut their list off at the bottom edge with no scrollbar and no way to reach the rest.\n- `1b99127` Fixed **the Add Email Address box in Settings still being narrower** than the identity-server one beside it.\n- `805df93` Added **draggable dividers between the columns**. The room list on the left and the member list, thread panel and call chat on the right can all be resized by dragging the line beside them. Double-click a divider to put it back. Widths are remembered, scale with your zoom setting, and are capped so two wide columns cannot squeeze the conversation out. Keyboard: focus a divider and use the arrow keys, Shift+arrow to move faster, Home/End for the extremes, Enter to reset.\n- `3f54ed7` Fixed **selecting text that starts on a link**. Dragging from a link towards the left selected nothing and the highlight jumped somewhere else entirely, because the browser was starting to drag the link rather than select the text. Links in messages are no longer draggable; they are still clickable and copyable.\n- `3f54ed7` Fixed **input boxes in Settings being narrower than the rest and a darker colour**, most visibly the add-email-address field beside the display-name one. The same fault affected the identity-server field, the account-deletion confirmation, the poll answer fields and the server-browser search.\n- `3f54ed7` Fixed **voice messages**, which now play in the audio player your system provides instead of a custom one. The old player could not draw a progress bar for the format voice notes are actually sent in — its own seek bar had nothing to measure against — and it decoded every clip in the background just to draw a waveform, whether or not you ever pressed play.\n- `3f54ed7` Fixed **dialogs being taller than their contents**, such as the widgets dialog, which drew a full-height panel with a large empty band under a short list.\n- `3f54ed7` Moved **creating a poll and sharing your location** out of the composer to the `/poll` and `/location` commands, freeing the buttons beside the attach icon. `/location` only appears when your homeserver actually provides a map server — before, it opened a picker with nothing to aim at.\n- `4a4c58c` Fixed **GIFs not playing when you link one**. A linked GIF showed a single frozen frame, because the preview picture came from the server\'s thumbnailer and a thumbnail of an animation is one still image. GIFs now play, whether the link is the GIF file itself, a Tenor or Giphy page, or a post that contains one.\n- `4a4c58c` Fixed **GIFs in Twitter/X posts** showing a play button that had to be pressed, instead of looping on their own.\n- `4a4c58c` Fixed **GIFs in Bluesky posts** showing only a still thumbnail. Bluesky attaches a GIF as a link rather than as media, so there was nothing to play. They now loop, and use a version around fifty times smaller than the one Bluesky points at — fetched from Tenor directly, so reading a GIF no longer tells Bluesky\'s servers you looked at it.\n- `4a4c58c` Fixed **a GIF that could not be started at all** on Linux and Android. Both refuse to start video on their own, and a looping GIF has no play button by design, so it sat there as a dead picture. If playback is refused, controls now appear. Click a playing GIF to pause it.\n- `4a4c58c` Fixed **image links producing no preview** when the server could not fetch one, and **`og:image`-based video and audio players** that were permanently broken on pages advertising media they do not actually serve — those now show a picture and a link instead of a dead player.\n- `93001c0` Fixed **the Android build failing to release**. `matrix:` links tapped in another app also never reached the client on Android; the app registered itself as the handler but nothing was reading the link.\n- `b3946e0` Added **voice messages**. Press the microphone in the composer, review what you recorded, then send it. They arrive with a waveform and a duration in Element and other clients, and voice notes from those clients now show as a proper player here instead of an anonymous file. Recording stops and releases the microphone when you cancel, switch rooms or close the app.\n- `b3946e0` Added **a thread panel**. Threads could be started before but never read — replies landed loose in the conversation and there was nowhere to open. A message that started a thread now shows how many replies it has and opens them in a panel beside the room, or full screen on a phone. Replies still appear in the main conversation as well, so nothing has disappeared.\n- `b3946e0` Added **polls**. Create one from the composer, vote, and end it when you are done. Polls sent from other clients used to show as "unsupported content" and now work properly. A poll set to hide its results shows nothing at all until it ends, not even to you.\n- `b3946e0` Added **forwarding a message** to one or more rooms, from the message menu.\n- `b3946e0` Added **edit history** on messages that have been edited, fetched from the server so it works for edits made before you opened the app.\n- `b3946e0` Added **a pinned-message banner** above the composer, so a pin is visible without opening the room menu. Dismissing it hides only that pin; pinning something new brings it back.\n- `b3946e0` Added **approving people who ask to join**. Setting a room to "ask to join" used to be a trap: requests arrived with nothing to show them, so people waited on a room that looked like it had ignored them.\n- `b3946e0` Added **exporting a conversation** as HTML, plain text or JSON, with attachments bundled alongside it. Also added **a file list** for the room, so you can find that PDF without scrolling for it.\n- `b3946e0` Added **sharing a location**, either where you are or a pin you drop, and **live location sharing** for 15 minutes, an hour or eight hours. While you are sharing, a banner stays on screen that cannot be dismissed — only stopped. Maps are off until you turn them on, because drawing one tells whoever serves the map tiles where you are looking.\n- `b3946e0` Added **widgets**. Room widgets can be opened, added and removed, and each one asks before it is allowed to read or send anything, item by item. Widgets never get the microphone, the camera or your Matrix identity, and one served from the same address as the app itself is refused outright.\n- `b3946e0` Added **changing your password, adding and removing email addresses, and closing your account** in Settings. Changing a password previously meant logging out and using the reset flow, which needed access to the email on the account.\n- `b3946e0` Added **privacy settings**: block all incoming invites, choose when media previews load, and hide avatars in invitations from strangers.\n- `b3946e0` Added **thirteen more slash commands**, including `/nick`, `/topic`, `/roomname`, `/myavatar`, `/whois`, `/query`, `/plain`, `/html` and `/rainbow`.\n- `b3946e0` Added **chat effects** — `/confetti`, `/fireworks`, `/snowfall`, `/rainfall` and `/hearts`, which also fire when someone sends the matching emoji. Skipped entirely if your system asks for reduced motion.\n- `b3946e0` Added **LaTeX rendering** for maths in messages, off by default.\n- `b3946e0` Added **microphone settings** — choose an input device and turn echo cancellation, noise suppression and gain control on or off. Used by voice messages and calls alike.\n- `b3946e0` Fixed **audio attachments being sent without a duration**, which made them show as unknown-length in every other client.\n- `f96ddb0` Fixed **the microphone never working on Linux**. The window\'s browser engine ships with capture switched off and silently refuses any request nothing is listening for, so recording and call audio could not have worked on that build. Screen sharing from a call is covered too.\n- `f96ddb0` Fixed **the app being killed on macOS the first time it touched the microphone or camera**, instead of asking for permission.\n- `f96ddb0` Added **opening `matrix:` links**, both inside the app and from other programs, on all four platforms. They previously did nothing at all when clicked.\n- `f96ddb0` Added **starting at login**, launching minimized to the tray. Related: a window closed to the tray no longer comes back invisible the next time you start the app by hand.\n- `f96ddb0` Added **hiding the window from screenshots and screen recordings**, in Settings. Works on Windows and macOS; most Linux desktops ignore it.\n- `f96ddb0` Added **spell checking on Linux**, which the window\'s browser engine leaves off by default, using the languages from your own system settings.\n\n## 11.08.2026\n\n- `451148f` Fixed **the icon bar on the left not moving with the swipe on mobile**. It stayed put while the conversation list slid, then appeared or disappeared abruptly at the end, shifting everything sideways. It now slides away together with the list, and the chat opens at the full width of the screen without jumping.\n- `bcb92f0` Improved **message search filling in as it goes**. It used to sit blank while it worked, then stop at the first match it found — so a single recent hit looked like the whole answer and older messages only turned up if you scrolled. Results now arrive a few at a time and keep coming until there is a proper list of them.\n- `bcb92f0` Improved **the settings menu on phones**, spacing the entries out and making each one a larger touch target so neighbouring rows are harder to hit by accident.\n- `bcb92f0` Added **link previews in encrypted rooms by default**. Note this asks your homeserver to fetch the link, which it cannot otherwise see inside an encrypted message — the setting turns it back off.\n- `bcb92f0` Improved **where the Telegram sticker import setting lives**, moving it from General to Emojis & Stickers, next to the packs it applies to.\n- `7679ea5` Improved **swiping toward a chat on mobile**, which now uncovers the conversation as you swipe, the same way swiping out of a chat reveals the list behind it. Previously there was nothing on the other side and the chat only appeared once the swipe finished. Rooms revealed this way are not marked as read — only opening one does that.\n- `7679ea5` Improved **search being the same everywhere**. The search button used to lead to two different screens depending on the window size, and the one on phones could only search messages. There is now a single search, and it finds both people and messages on every device.\n- `7679ea5` Fixed **the settings menu sitting against the top of the screen on mobile**, leaving a large gap below. The list is now centred vertically; the logout button stays where it was.\n- `fe3fdd7` Fixed **swiping back toward a chat looking broken on mobile**. The conversation list went transparent mid-swipe, leaving just the room names floating over nothing. It now slides as one solid page, matching the swipe in the other direction.\n- `fe3fdd7` Improved **the people sidebar search box**, which now spans the full width of the sidebar instead of being squeezed next to the close button. The sidebar also gained a "People" heading.\n- `fe3fdd7` Fixed **the search screen being too wide on small phones**, where it could be pushed past the edge of the screen and scroll sideways.\n- `fe3fdd7` Improved **settings layout**, centring each settings page in the available space rather than letting it hug the left edge — matching how the rest of the app already lays out its pages.\n- `c6a0111` Added **importing Telegram sticker packs**. Open any image pack you can edit, choose "Import from Telegram", and paste a `t.me/addstickers/...` link — its stickers are downloaded and added to the pack. Animated and video stickers are skipped and counted, since packs can only show still images. This needs a Telegram bot token, set once in Settings → General: Telegram publishes sticker packs nowhere else, so there is no way to import without one. Creating a bot with @BotFather takes a moment and is free, and the token is kept on your device only — never sent to your homeserver.\n- `15bd574` Fixed **the attach button doing nothing on Android**. Tapping `+` in the composer, or using the upload shortcut, opened no file picker and gave no error. The file type it asked for was written in a form Android rejects, so the system found nothing able to handle the request and silently gave up. Other pickers in the app — profile picture, sticker pack image — were unaffected and kept working, which is why this looked like an attachments-only problem.\n- `985f7b9` Improved **third-party code once more**, replacing six small packages with equivalent code kept in this project — number formatting, keyboard shortcut matching, file downloads, image placeholders and error handling. The two with any real logic were checked against the packages they replace over tens of thousands of generated cases with no behaviour difference, including on macOS, where the shortcut key differs.\n- `19bad2e` Improved **third-party code in the client further**, removing two packages that nothing used and twelve more from the desktop shell that were never imported by anything. Together with the earlier commit-hook removal today, the web client now resolves 801 packages instead of 950.\n- `db9bb8d` Fixed **the web app at prinny.app/app failing to load with "Failed to load"**, usually right as you signed in. A tab left open while a new version was published kept asking for pieces of the old version that no longer exist on the server; the sign-in step is what requested one first, so the app appeared to break specifically at login. Such a tab now notices and refreshes itself onto the current version instead of dying. If it happens again before this update reaches you, a hard refresh clears it.\n- `db9bb8d` Fixed **the web app not being installable to your home screen or desktop**. Its app manifest was requested from the wrong address on prinny.app/app and always came back missing, so browsers saw no installable app.\n- `5989652` Improved **the amount of third-party code that goes into a build**, down from 950 packages to 803. A commit-hook stack inherited from upstream — husky, lint-staged and commitizen — was fully commented out and could not run, so removing it costs nothing and takes 147 packages out of the supply chain. Leftover upstream project files (code of conduct, contributing guide, sample reverse-proxy configs for a different project\'s name) and a version-stamping script that had been superseded were removed at the same time.\n- `b3341b9` Fixed **ending up with several copies of Prinny running on Windows**, and the pinned taskbar shortcut appearing to do nothing. Closing to the tray hides the window, so the app looked shut down and each new launch started another client. Launching again now restores and focuses the one already running — from the shortcut, the taskbar pin or the Start menu — and a pinned Prinny shares one taskbar button with the running window instead of showing two.\n- `3a1e9bb` Improved **what happens on a server that will not let apps complete sign-up**. Some servers require a step they keep to their own website. Instead of a blank error page, the app now says so plainly and links that server\'s actual sign-up page, so you can create the account there and come straight back to sign in.\n- `258978b` Added **support for servers that use hCaptcha**. Some homeservers run hCaptcha while still presenting it as the standard captcha step, and the app was drawing Google\'s box with an hCaptcha key — which can never be solved, so registration on those servers was impossible. The right captcha is now shown for each.\n- `258978b` Fixed **being turned away from servers with an unfamiliar sign-up step**. Anything the app does not handle itself — a phone-number check, a captcha provider it does not recognise, something a server invented — now opens the server\'s own sign-up page in a second window; finish there and you are brought straight back. Previously this said "this application does not support registration on this homeserver" and stopped.\n- `94a3982` Added **a directory of public Matrix servers**, replacing the matrixrooms.info room feed. Around 1,150 servers, merged and deduplicated every day from three independent lists (asra.gr, joinmatrix.org, privacydev.net). Explore now offers "Browse public servers" — pick any server and read its own public room directory, instead of one third party\'s view of which rooms are worth seeing.\n- `94a3982` Improved **choosing a homeserver when signing in or registering**. The field now completes as you type, the way a browser address bar does: type `tchn` and it fills in `tchncs.de` with the rest selected, so carrying on typing simply overwrites it. The magnifier beside the field opens the full directory, searchable by name, software, country or hosting provider, and filterable by open registration, captcha, email requirement and Tor friendliness.\n- `94a3982` Fixed **the server list being unreadable in a browser**. None of the three upstream lists allow cross-origin requests, so the web version could not have fetched them at all. The merge now happens once a day on prinny.app and every version — desktop, Android and web — reads the same prepared file. Self-hosters can point `publicServersUrl` at their own copy.\n- `8bf8ba9` Fixed **the release pipeline silently skipping a build**. Two pushes close together left one release half-built and the second push produced no build at all — the second run cancelled the first *after* it had already created the release and uploaded three platforms, then declined to build anything itself because that release now existed. Builds queue instead of cancelling, the version number now accounts for a release that has been drafted but not yet tagged, and a build can be re-run by hand without inventing a commit.\n- `86d4a10` Fixed **nothing watching the app\'s dependencies for security patches**. The configuration said one bot handled them; that bot was never installed, and the approval step it waited on could not exist because the repository has issues turned off. So no patch was ever proposed, which is how 22 known-vulnerable packages piled up. Dependency alerts and automatic security updates are now switched on for both repositories, with a bot that needs no extra setup.\n- `86d4a10` Improved **download size**: the bundled video-call widget was shipping 18 MB of debug source maps that no user ever loads. Total download drops from 63 MB to 45 MB.\n- `86d4a10` Fixed **desktop shell shipping five unused system integrations**. Clipboard, file-system, shell-command, HTTP and dialog plugins were compiled into every build but granted no permission and called by nothing — dead code that also pinned an XML parser with two denial-of-service advisories. Removed. Copying text is unaffected; it uses the browser API.\n- `86d4a10` Fixed **known-vulnerable Rust libraries in the desktop shell**, including two certificate-validation bugs in the TLS stack (`rustls-webpki` — name constraints wrongly accepted for URI and wildcard certificates) and a remote memory-exhaustion bug in the QUIC networking layer.\n- `a4600e5` Fixed **an image attachment being able to open attacker-written content inside the app**. A sender chooses the `mimetype` on a picture they send, and the image and sticker renderers passed that value straight through when building the local media object — so a picture could declare itself as HTML, and the image viewer\'s "open in browser" button would then open it as a page running with the app\'s own permissions. Images and stickers are now restricted to real picture formats, and that button refuses anything that is not an ordinary web link.\n- `a4600e5` Fixed **push notifications trusting everything the push server sent**. The service worker displayed whatever text arrived and handed the room identifier it was given straight to the app\'s navigation. Notification text is now length-limited and stripped of control characters, and the room and event identifiers must look like real Matrix identifiers before anything is shown or opened. This matters more now that pushes carry real message content.\n- `a4600e5` Fixed **a code block in a message being able to freeze the client**. Syntax highlighting ran on the main thread with no size limit, and the sender picks the language from 287 options. Measured across every grammar we ship, the cost grows with the square of the length: `javascript` on a plain run of letters takes **4.1 s at 32 000 characters and 40 s at 100 000**, and `scss` reaches **8.6 s and 84 s**. Code blocks over 4 096 characters now render in full but without colours (worst case ~130 ms). This also fixes an honest large paste hanging the app.\n- `a4600e5` Fixed **an emoji shortcode being able to break out of the HTML it is written into** when a message is edited and re-sent. Every neighbouring field was escaped; this one was not.\n- `a4600e5` Fixed **all 22 known-vulnerable dependencies, 10 of them high severity — now zero**. The important one is the PDF renderer (`pdfjs-dist` 5.7.284 → 6.2.108), where a malicious PDF could run JavaScript in the app, in a client that renders PDFs strangers send you. Also the router (open redirect and XSS), the user-agent parser (a hang on a crafted string), and `lodash` — the only vulnerable package that actually reached the shipped app. The PDF upgrade is a major version: it needed code changes, and the new renderer fetches WebAssembly decoders at runtime that were not previously bundled, without which **scanned documents would have rendered blank with no error** — those are now shipped. Verified in a real browser that PDFs still render and the app still starts.\n- `a4600e5` **Self-hosters: the Docker image now listens on port 8080, not 80**, because it no longer runs as root. Change the container side of your port mapping (`-p 80:80` → `-p 80:8080`) and any Compose or Kubernetes manifest that names port 80. README updated.\n- `c0b94a6` **Android: reinstall required once.** Release APKs are now signed with a new key, because the previous signing key had been committed to the public repository and anyone could sign an APK your phone would accept as a Prinny update. Android refuses an update signed by a different key, so this build will not install over your current one — **uninstall Prinny and install this APK fresh**. In-app updates work normally again afterwards. Sorry for the one-time hassle; there is no way to rotate a leaked signing key without it.\n- `c0b94a6` Fixed **Android notifications only arriving while the app was open**. The push receiver decided who should show a notification by checking whether the app\'s plugin object existed — but that flag is set on first launch and never cleared, so every push was handed to the WebView, and Android suspends WebView JavaScript the moment the app leaves the screen. Nothing rendered. The receiver now checks whether the app is genuinely on screen (`MainActivity.isAppInForeground`) and posts the notification from native code when it is not, so notifications arrive with the app closed. Notifications also show the real sender and message with `BigTextStyle`, get **one notification per room** instead of all rooms overwriting a single entry, and tapping one opens the right room. Encrypted rooms show "New message" — the server cannot read them, which is the encryption working.\n- `c0b94a6` Fixed the **Android in-app updater installing an APK without checking it**. `UpdateChecker` parsed the published `sha256` and then never used it, and staged the download in shared public storage under a predictable name where another app could replace it. It now verifies the SHA-256 before prompting (deleting the file on mismatch), stages in app-private storage, requires an `https` GitHub host, and registers its download receiver as `RECEIVER_NOT_EXPORTED`.\n- `c0b94a6` Fixed **embedded web content being able to turn on your microphone and camera**. The Android WebView permission handler granted capture based only on whether the app held the OS permission, never checking which origin asked — so any third-party iframe (a link preview, an embed) could obtain mic and camera silently once you had made one call. Capture is now restricted to the app\'s own origin, and page scripts can no longer flip the microphone foreground-service type on their own.\n- `c0b94a6` Fixed **a single message being able to freeze the client**. The jumbo-emoji check used a nested-quantifier regex whose cost doubled every ~2.5 characters: a message of ~70 colons locked the render thread for minutes, and the event persisted so reopening the room re-froze it. Measured 55 colons: **3.7 s → 0.14 ms**, and flat at 1000. The URL matcher\'s variable-length lookbehind was quadratic on long messages (**853 ms → 0.8 ms** on 40 000 characters), and an empty search term could spin the highlighter forever — a double space in the room switcher was enough. `utils/regex.ts`, `utils/findAndReplace.ts`, `plugins/react-custom-html-parser.tsx`.\n- `c0b94a6` Fixed **links and embeds handing arbitrary URL schemes to the operating system**. On desktop, a link opening a new window is passed to the OS URL opener, so a homeserver-supplied or message-supplied `file:`, UNC or app-protocol URL invoked a local handler. All such URLs are now validated as `http(s)` at the point of use (new `utils/safeUrl.ts`), `ftp:` and `magnet:` are no longer accepted in message links, and the native side enforces its own scheme allowlist.\n- `c0b94a6` Fixed **login credentials being sendable to the wrong server**. The homeserver allowlist was checked against the name you typed while the login request went to the `base_url` that server\'s own `.well-known` returned, which was never re-checked; and an `http://` prefix in a `/login/:server` link survived into the credential request. Discovery now forces `https`, the route parameter must be a bare hostname, and the allowlist is re-applied to the discovered URL.\n- `c0b94a6` Added a **"Hide message content"** notification setting (Settings → Notifications) so system notifications can show only the sender. Decrypted message text otherwise goes into the OS notification store, where other software on the device may read it.\n- `c0b94a6` Added a **Bluesky post embeds** toggle and made every third-party embed state plainly that enabling it sends the link and your IP address to that service. Bluesky previews previously fetched from `public.api.bsky.app` with no setting at all. Link previews for **encrypted** rooms are now off by default — asking the server to preview a URL from a message it cannot read hands it that URL.\n- `c0b94a6` Improved **rendering safety for hostile room state and media**: power-level tag icons can no longer be an arbitrary URL that beacons every viewer\'s IP on each render, attachment dimensions are clamped, download filenames are sanitised, blob MIME types can no longer be declared as active content, and megolm key-file import bounds its key-derivation work.\n- `c0b94a6` Improved **desktop native hardening**: the app now refuses to start if another process already holds its frontend port (that port grants native permissions, so whoever answers on it inherits them), the SSRF guards cover 0.0.0.0/8 and IPv4-in-IPv6 encodings, redirects are re-validated per hop, downloads are size-capped, and drag-drop file access is consumed once instead of lasting the whole session. The permission grant to the page dropped filesystem, HTTP, dialog, clipboard, shell and global-shortcut access, none of which the client uses.\n- `c0b94a6` Improved **self-hosting and build security**: every shipped nginx/Caddy/Netlify config now sets a Content-Security-Policy and related headers (verified in a real browser, including WebAssembly crypto and the bundled call widget), production source maps are no longer published, the Docker image runs unprivileged (**publish `-p 80:8080` now**), the web root no longer exposes `.git`, and CI pins its actions, drops install scripts, and stops packaging its own credentials into the source archive.\n\n## 10.08.2026\n\n- `22f0979` Updated **sanitize-html to 2.17.6** — a security release for the HTML sanitizer every incoming message body passes through. Upstream cinny `90837f7`.\n- `3ef594f8` Upgraded the **in-app call stack to element-call 0.20.1** (from 0.19.3) and **matrix-js-sdk to 41.7.0**. Fixes the **call settings and reaction buttons doing nothing** — element-call moved its settings button to a new `data-testid` and our control layer was still walking `previousElementSibling` off the leave button, so it was clicking the wrong nodes. **Screenshare and spotlight buttons now update their state**, the **mic/video buttons disable while a toggle is in flight** (instead of letting you desync them with fast clicks), and **incoming-call popups no longer appear for voice rooms**. `plugins/call/CallControl.ts`, `CallEmbedProvider.tsx`, `call-status/CallControl.tsx`, `call/CallControls.tsx`, `call/Controls.tsx`, `call/PrescreenControls.tsx`. Upstream cinny `e379714`.\n- `aba72c2` Fixed **"Manage devices" opening a dead page** on homeservers that have moved to the stable spec — account management now uses the stable MSC2965 action names instead of the unstable `org.matrix.msc2965.*` ones. `useAccountManagement.ts`. Upstream cinny `a9245c8`.\n- `03ad4e7` Fixed **long space names and descriptions overflowing the lobby header** instead of truncating. `LobbyHero.css.tsx`, `page/style.css.ts`. Upstream cinny `762e99a`.\n- `69fc00c` Updated **folds to 2.7.1** (the UI component library). Upstream cinny `730a748`.\n\n## 07.06.2026\n\n- `c9ca749` Unified **people + message search into the members drawer** — the search box moved into the drawer header and the **"N Members"** title moved down beside the Filter/Sort chips. One box now drives both: matching members filter the list instantly, and a new **Messages** section below shows matching messages (with a "Search older messages" button to page deeper). The standalone search icon and search panel are gone on desktop; mobile/tablet keep the search overlay since there\'s no drawer there. New `RoomMessageResults.tsx` renders the inline results for encrypted (local scan) and unencrypted (server) rooms alike. `MembersDrawer.tsx`, `Room.tsx`, `RoomViewHeader.tsx`.\n- `c9ca749` Made **encrypted-room search much faster** — back-paginated events are now decrypted **in parallel** instead of one-at-a-time (the per-event serial decrypt was the bottleneck), and each page back-paginates a bounded number of rounds before returning, so as-you-type search stays responsive and deeper history loads on demand. `useClientRoomSearch.ts`.\n- `ba1c6b1` Fixed **encrypted-room search returning no results** — the client-side scan (`useClientRoomSearch.ts`) walked the *entire* room history (up to 50k events / hundreds of back-pagination round-trips) before returning even one match, so for any encrypted room with real history the search just sat on loading skeletons and never showed anything. It now streams: it scans the already-synced history and back-paginates only far enough to fill the requested page, returning matches immediately and resuming pagination on demand as you scroll. Dense terms appear almost instantly; "no results" is only shown once history is genuinely exhausted (still bounded at 50k events).\n\n## 06.06.2026\n\n- `36a04bf` Made **all link-preview embeds 2x larger** — the card max-width went 216→432px and the image/video height caps doubled (300→600, 320→640), so YouTube, Twitter/X, Bluesky and generic embeds all render bigger (everything inside is width:100% of the card, so it scales proportionally). `UrlPreview.css.tsx`.\n- `36a04bf` Fixed **multi-image Twitter/X embeds stacking vertically** — they now render in a 2-column grid (side by side), matching the Bluesky layout. `UrlPreviewCard.tsx`.\n- `36a04bf` Repurposed the embed **"Show all" button for long descriptions** — removed the old og: metadata dump that lived behind it; now a description over 100 words shows the first 100 with a Show all / Show less toggle, and shorter ones show in full. `UrlPreviewCard.tsx`.\n- `36a04bf` Replaced the custom **audio-attachment player with native HTML `<audio controls>`** — encrypted/authenticated media is fetched to a blob first, plain media streams directly. `AudioContent.tsx`, `RenderMessageContent.tsx`.\n- `36a04bf` Fixed a **softlock when swiping right in Settings on mobile** — the swipe slid the container fully off-screen (via `commitOffset`) expecting a route change to unmount it, but Settings navigates subpage→menu in place, so it stayed stuck off-screen. Settings now snaps back instead. `Settings.tsx`.\n- `36a04bf` Fixed **swiping back into the last conversation on mobile** — `MobileSwipeOpen` remounts on every in/out transition (so its `useState` last-room reset to nothing) and its fallback link selector matched no real path. The last-opened room is now remembered across remounts and the fallback targets the top room in the list. `MobileSwipeOpen.tsx`.\n- `36a04bf` Fixed the **Inbox page layout on mobile** — Notifications/Invites rendered in normal flow, so the absolute nav backdrop painted over them. They\'re now wrapped in `MobileSwipeBack` (an opaque z-index:1 layer, like rooms), which fixes the stacking and adds the swipe-back gesture. `Router.tsx`.\n- `36a04bf` Made the **mobile UI 15% larger** — bumped the root font-size to 115% under 640px; folds sizes everything in rem, so fonts/spacing/icons/controls scale together. `index.css`.\n- `36a04bf` Made the **Settings menu items full-width and centered on mobile**. `Settings.tsx`, `settings/styles.css.ts`.\n- `36a04bf` Colored the **mobile safe-area insets** (notch / home-indicator bars) with the themed grey surface instead of black. `SafeArea.css.ts`, `index.css`.\n- `5eb6249` Added **message search in end-to-end encrypted rooms** — the room search button is no longer hidden in encrypted rooms, and a new client-side search (`useClientRoomSearch.ts`) runs there instead of the server. Since the homeserver only holds ciphertext, it back-paginates and decrypts the local timeline (bounded at 50k events), matches message bodies (phrase, falling back to all-words), and returns the same paginated/virtualized result shape as the server path so `RoomSearch` uses either interchangeably. Encrypted rooms show a notice that search runs locally over history synced to this device. Non-encrypted rooms still use server-side `mx.search`.\n- `5eb6249` Fixed reacting to a message scrolling the timeline to the most recent message — a reaction is an `m.reaction` live event "sent by you", so the Scroll-to-Bottom-on-Send path (and the at-bottom auto-scroll) yanked the viewport to the live edge. `RoomTimeline.tsx` now gates both scroll paths on `isLiveDisplayEvent` (skips reactions, edits and redactions, mirroring the render filter); the range still advances so reactions render in place without moving the view.\n- `5eb6249` Moved the **cancel-reply (✕) button to the right** of the reply preview, nearer the send controls, so dismissing a reply needs less mouse travel. An invisible spacer keeps the message you\'re replying to aligned with the text input below (`RoomInput.tsx`).\n- `5eb6249` Improved the **desktop update toast** — clicking it (or its "Open" action) now downloads and installs the update directly, the same as the banner\'s Update button. The toast is tagged `kind: \'update\'` and routed by a dedicated listener so it no longer falls through the message-click → room-navigation path (`useUpdateCheck.ts`, `desktop-notifications.ts`).\n- `5eb6249` Improved the connecting screen — it now shows **Connecting to `<homeserver>`…** instead of a bare "Connecting…", so you can see which server is being reached (`SyncStatus.tsx`).\n- `5eb6249` Fixed **presence dots not appearing** until a live presence event arrived — `useUserPresence` now syncs immediately from whatever the store already holds (the peer\'s `User` object is often created lazily after first render), handles an empty user id, and avoids a stale `undefined` that hid the badge.\n\n## 30.05.2026\n\n- `605d9de` Added **client-side link-preview fallback** (Settings → General, desktop/mobile app only, **default off**) — when your homeserver\'s `preview_url` can\'t generate a link card (commonly a `504` because the target site blocks Synapse\'s non-browser User-Agent), the app now fetches the page itself with a real Chrome UA and parses its OG/Twitter meta tags locally. New Rust `fetch_og_preview` IPC command fetches server-side (bypassing CORS) but keeps every SSRF guard from the media proxy — scheme check, post-DNS private/loopback/link-local/CGNAT/cloud-metadata rejection, DNS pinning against rebinding, per-hop redirect re-vetting (auto-redirects disabled), and a 512 KiB response cap — and, unlike `fetch_remote_bytes`, accepts any *public* host since a generic preview can point anywhere. `UrlPreviewCard.tsx` falls back to it only after the homeserver preview errors, and renders a direct `https` `og:image` straight through (homeserver previews use `mxc://`). Skipped for Twitter/X, Bluesky, YouTube and direct-audio URLs, which already render without the homeserver.\n- `8e99e44` Hardened the desktop media proxy against SSRF — the Rust `fetch_remote_bytes` IPC command (used for Twitter/X and Bluesky video/images) now requires `http`/`https`, restricts the host to a `twimg.com`/`bsky.app` allowlist, resolves DNS and **rejects any private/loopback/link-local/CGNAT/cloud-metadata (`169.254.169.254`) address**, pins the vetted IP on the request to defeat DNS-rebinding, and only follows redirects that stay on the allowlist. Previously it fetched any URL server-side, bypassing CORS.\n- `8e99e44` Fixed the notification-icon cacher leaking the Matrix access token — `cache_notification_icon` now forwards the `Authorization` header **only** when the avatar URL is under the logged-in homeserver\'s `/_matrix/` media endpoint (origin + path validated against `mx.baseUrl`); every other URL is fetched with no credentials and SSRF-guarded.\n- `8e99e44` Hardened `read_dropped_file` — it now reads **only** paths the user actually drag-dropped onto the window (captured from the native drag-drop event), so an injected script can no longer read arbitrary files such as `/etc/passwd`.\n- `8e99e44` Removed the unused `shell:allow-execute` / `shell:allow-open` desktop capabilities (arbitrary process spawn from the webview — nothing in the app used them), tightened the CSP `script-src` to drop remote `http:`/`https:` origins (keeps `unsafe-eval` for the crypto WASM), and scoped the Android `FileProvider` from the whole external-storage/cache roots down to just `Download/` (the only dir the updater APK uses).\n- `8e99e44` Added a non-blocking `security-audit` CI job (npm production-dependency audit gated at critical; `high` + `cargo audit` advisory) and applied `npm audit fix` for the `@octokit/*` ReDoS advisories in the release tooling.\n- `66a3bab` Fixed the Android in-app updater never installing — every release was CI-signed with a **freshly generated random keystore**, so Android rejected each update with "App not installed" (`INSTALL_FAILED_UPDATE_INCOMPATIBLE`: signatures don\'t match the installed app). The APK downloaded but could never install over the previous build, even after granting "install unknown apps." CI now signs every release with a **stable committed key** (`prinny-ci.keystore`), with an optional `ANDROID_KEYSTORE_BASE64` secret override. Existing users need ONE manual reinstall to land on the stable key; after that, in-app updates work.\n- `d9aca00` Added **in-conversation message search** — a search button in the room header (right side, by the call icons) now opens a right-side results panel instead of navigating away. Server-side `mx.search` scoped to the current room, paginated and virtualized (`@tanstack/react-query` infinite query + `@tanstack/react-virtual`) for long histories; click a result to jump to that message in the timeline. Works on web, desktop (side panel), and mobile/tablet (full-screen overlay that closes on result tap). Unavailable in end-to-end encrypted rooms (server can\'t index encrypted messages) — shows a notice.\n- `d9aca00` Added **presence/status bubbles inside the chat and the room header** — message avatars now show the sender\'s online/idle/offline dot (matching the members panel and DM list), and DM headers show the other user\'s presence next to their name.\n- `d9aca00` Made **URL-preview embeds/videos ~50% smaller** (Discord-like) — the preview card max width dropped 432→216px and video height is capped at 320px, so portrait clips render around 180×320 instead of filling the message column. `UrlPreview.css.tsx` + loading-placeholder caps in `UrlPreviewCard.tsx`.\n- `f29c063` Added a **Scroll to Bottom on Send** setting (Settings → General → Editor, on by default) — when you send a message while scrolled up in a room, the timeline now jumps back to the live edge so your own message scrolls into view. Implemented in `useLiveEventArrive` (`RoomTimeline.tsx`): a live event whose sender is the current user resets the timeline via `getInitialTimeline` and triggers `scrollToBottom`, reusing the `handleJumpToLatest` path. Gated on the sender being us, so other people\'s messages never yank the viewport.\n- `38f0d1c` Fixed `:3` (and other single-char emoticons like `:p`, `:D`, `:o`) triggering the emoji autocomplete and auto-replacing on Enter — the `EMOTICON_QUERY_RE` shortcode trigger in `getAutocompleteQuery` matched any run of word characters after `:`, including a single one. Tightened to `[a-zA-Z0-9_+-]{2,}` so the picker only opens once there are at least two characters after the `:` (Discord parity); `:12` → `:1234:` still completes.\n- `32c880f` Fixed emoji/mention autocomplete arrow-key selection — pressing Up/Down moved the highlight (via the focus-trap) but Enter/Tab always inserted the *top* item and the caret jumped to the start of the composer. A window-level capture handler in `EmoticonAutocomplete`, `UserMentionAutocomplete`, `RoomMentionAutocomplete` and `CommandAutocomplete` was hardcoded to commit index 0. Each menu item now carries a `data-autocomplete-index`, and Enter/Tab click the focused item (reusing the mouse-click path, so the selected emoji/mention inserts and the cursor stays put); falls back to the first result when focus is still in the editor.\n- `32c880f` Fixed typing `:)` (and other punctuation smileys) auto-inserting an unrelated emoji on Enter — the emoji shortcode trigger matched any non-space text after `:`. `getAutocompleteQuery` now only treats `:` as an emoji query when the following text matches `[a-zA-Z0-9_+-]` (real shortcodes like `+1`, `e-mail`), so `:)`, `:(`, etc. send as literal text.\n- `32c880f` Improved Element-style read receipts for users without an avatar — the bare grey initial (which read like a stray newline glyph) is now centred inside a circle tinted with the user\'s `colorMXID` placeholder colour, matching how `UserAvatar` renders avatar fallbacks.\n- `32c880f` Fixed Alt+Up / Alt+Down not moving between DMs — outside a space the handler fell through to "all non-space rooms", so in the Direct Messages list it jumped to arbitrary non-DM rooms. It now matches the open sidebar: space → that space\'s rooms, Direct → DMs only, Home → orphan rooms.\n- `32c880f` Added `Ctrl+?` (Ctrl+Shift+/) as a second shortcut to toggle the keyboard-shortcuts panel, alongside the existing rebindable `Ctrl+/` (Discord parity; `Cmd+Shift+/` on macOS).\n- `c32d959` Fixed calls dropping — backported upstream\'s call-drop fix (#2954). Membership counting in `useCall`, `useCallEmbed` and `CallEmbedProvider` was using the experimental slot-based `MatrixRTCSession.sessionMembershipsForSlot()` API (carried over from an earlier backport), which could miss active participants and tear the call down. Reverted to the stable synchronous `rtcSession.memberships`, restoring reliable "call ongoing" detection and incoming-call dismissal.\n\n## 19.05.2026\n\n- `5694870` Fixed Android updater re-downloading every launch and never installing — `UpdateChecker.kt` now (1) checks for an existing APK on disk and a previously-enqueued DownloadManager job before queueing a fresh download, so a downloaded-but-uninstalled APK is reused instead of re-pulled; (2) registers a `BroadcastReceiver` for `ACTION_DOWNLOAD_COMPLETE` and fires the install intent itself with a FileProvider `content://` URI — DownloadManager\'s built-in tap-the-notification handler still generates a `file://` URI that crashes Android 7+ with `FileUriExposedException`, which was the silent failure when the user tried to install; (3) cleans up stale APKs once the new version is the installed one; (4) targets `Context.RECEIVER_EXPORTED` on Android 14+ so the dynamic receiver actually fires; (5) auto-prompts install at most once per cold start when the APK is already downloaded, so a dismissed dialog isn\'t re-shown on every relaunch.\n- `aa75417` Fixed update banner overflow on mobile — the size-300 action Button (32px tall) was poking out below a banner that auto-sized to the text height (~36px) and the Box didn\'t always stretch to the parent column, so the banner ended where the text ended and the button sat half-outside. Added explicit `width: 100%`, `min-height: 48px`, and `flex-shrink: 0` to the shared container style; the inner text Box got `min-width: 0` + `truncate` so long messages ellipsis instead of pushing the button out horizontally.\n- `fff19fa` Fixed mobile swipe gestures and modal layout — `useSwipeGesture` now refuses to engage when there is no navigation target (empty Home no longer follows the finger to nowhere); `MobileSwipeOpen` resolves the target as selected → last → first-rendered room link, so swiping in the DM tab opens the most-recent conversation; commit animates the foreground fully off-screen instead of snapping back, and `MobileFriendlyPageNav` now renders the page-nav as an absolute backdrop behind the room view on mobile sub-routes so swipe-back reveals the actual nav underneath. `Settings` modal supports left→right swipe as "X" (subpage → menu list → close) and on mobile no longer collapses to a tiny top-left island — `Modal500` explicitly flexes the content column and `interactive-widget=resizes-content` + new `useKeyboardInset` hook keep the chat input above the on-screen keyboard without leaving a gap of safe-area padding hovering over the keyboard.\n- `380ca1a` Fixed Element-style read receipts duplicating across many old messages — `useElementReadReceipts` was memoizing once per Message instance and never invalidating, so as receipts moved forward older mounted Messages kept showing the indicator at their original position. Now subscribes to `RoomEvent.Receipt` and `RoomEvent.Timeline` and rebuilds the receipt map consistently across every Message.\n- `380ca1a` Made message hover effect more subtle — `selected` background (when the right-click menu / emoji board / reaction picker is anchored on a message) was using `Surface.ContainerActive`, the same intensity the theme reserves for pressed states. Demoted to `Surface.ContainerHover` and added a faint hover tint at the same tone so plain hover and right-click feel continuous.\n- `f3e6d88` Improved multi-link embeds — multiple URL preview cards in one message now stack vertically (Discord-style) on every viewport. Previously the desktop layout was a horizontal scroller; the column layout was mobile-only.\n- `f3e6d88` Improved embed image rendering — tiny favicon-style images (`og:image:width` ≤ 96 AND `og:image:height` ≤ 96) are no longer rendered as the embed\'s main image. The text-only card (title / description / siteName) still shows. Article hero shots / post media render as before.\n\n## 18.05.2026\n\n- `9c481ba` Improved mobile layout — nav pane (Home / Direct / Search / Inbox indices) now stretches to the full viewport on mobile via inline `width: 100%` override on `PageNav` so the changelog-side empty-state doesn\'t leave whitespace.\n- `9c481ba` Improved mobile settings modal — fills viewport (`100vw` × `100dvh`), square corners, safe-area-inset padding so notch/home-bar don\'t obscure controls. Keybinds tab hidden on mobile (physical-keyboard only).\n- `9c481ba` Fixed `body { height: 100% }` keyboard breakage — switched to `100dvh` with `100%` fallback so the on-screen keyboard pushes the layout up instead of leaving inputs hidden behind it.\n- `9c481ba` Fixed gallery tap-out reopening viewer — overlay\'s `onDeactivate` now plants a transparent full-screen blocker for 350ms that swallows the next pointerdown/click, preventing the tap from bubbling through to the underlying message image.\n- `9c481ba` Mobile image viewer: tap-to-zoom replaced with pinch-to-zoom — two-finger gesture tracks distance ratio from initial pinch and scales accordingly (bounds 0.1×–5× matching the +/- buttons). Single-tap zoom kept on desktop where double-firing isn\'t an issue.\n- `47f158f` Followed up on draft-release fix — passed `draft: true` to all softprops/action-gh-release uploads (was defaulting to false and flipping the release to published on the first upload, defeating the whole point of staging as a draft); dropped the versioned `prinny-webapp-vX.Y.Z.zip` variant since the release tag already versions it and every other platform asset is single-named.\n- `ec98378` Fixed release-pipeline window where `/latest/download/*.apk` 404\'d during Android cross-compile — releases now stay drafts until every platform build (windows + linux + macos + android + webapp-zip + archive) has uploaded its artifacts, then publish atomically. Old versioned releases are deleted after publish, not before, so the previous tag stays "latest" until the new one is fully assembled.\n- `2b24087` Added README download link for the web client zip — `prinny-webapp.zip` is now uploaded with a stable filename alongside the versioned one so `releases/latest/download/prinny-webapp.zip` resolves.\n- `d047dd6` Added platform notification for update banner — `useUpdateCheck` fires `sendDesktopNotification` the first time each new version becomes available; deduped per-version so a dismissed banner doesn\'t re-notify on repeat polls. Android Tauri skipped (UpdateChecker.kt\'s own DownloadManager notification covers it).\n- `09cc5ee` Added web client dist zip to GitHub releases — new `webapp-zip` job in prinny-client\'s `build.yml` attaches `prinny-webapp-vX.Y.Z.zip` (rebrand + `npm run build` output) to every release for self-hosters who\'d rather download than `git pull`.\n- `6932b32` Replaced welcome splash with bundled changelog viewer — empty-state screen now reads `cinny/CHANGELOG.md` baked in at build time (Vite `?raw` import) and renders the latest dated bullets, links each SHA to the cinny commit page.\n- `0a803b4` Added Web Push for background notifications — service worker `push`/`notificationclick` handlers, Matrix HTTP pusher with VAPID public key from `config.json`. Falls back to foreground `window.Notification` when no gateway configured. Also flipped `usePiped` default to `false` so YouTube links resolve through youtube.com unless opted in.\n- `5abc142` Fixed Slate "Cannot resolve a DOM node" crash on message edit with emoji — new `safeFocusEditor` wrapper falls back to deselect + DOM focus when the selection is stale after autocomplete close.\n- `2afe5a1` Fixed Ctrl+/ keybinds modal silently closing itself — two window listeners cancelled each other in one tick; removed the duplicate so the toggle actually fires.\n- `2afe5a1` Fixed soundcloak embeds spamming 502s — skip homeserver `preview_url` for direct-audio URLs since it rejects `audio/mpeg`.\n- `2afe5a1` Fixed fullscreen button greyed out on YouTube iframe — `allow="fullscreen"` was overridden by the rest of the permissions policy.\n- `2afe5a1` Improved composer layout — attachment button moves to left of editor, send to the right (Discord-style).\n- `2afe5a1` Improved mobile gallery — title bar relocates to the bottom on mobile, both rows span full viewport width.\n- `2afe5a1` Improved mobile swipe gestures — follows the finger via transform with a 180ms ease-out settle on release; right-edge forward-swipe now returns to the last-visited DM.\n- `2afe5a1` Fixed double notifications on web — `sendDesktopNotification` was firing alongside an explicit `new Notification` with click handler.\n- `1180ddb` Added auto-bump-cinny workflow — reactive `repository_dispatch` from cinny\'s publish-webapp keeps prinny-client\'s submodule pointer current within ~30s of every cinny push.\n- `0a803b4` Added Web self-host download row to README — `git clone -b webapp-release https://github.com/coffeegrind123/cinny.git /usr/share/webapps/prinny` for self-hosters.\n- `4461ea0` Fixed Android updater re-downloading APK on every launch — `tauri.properties` was missing so `versionName` defaulted to `"1.0"`; `bump-version.mjs` now writes it explicitly with both versionName + versionCode.\n\n## 17.05.2026\n\n- `15a60e9` Added webapp-release publish workflow — built dist auto-publishes to the `webapp-release` branch of `coffeegrind123/cinny` on every push to `desktop-notifications`. Self-hosters install with `git clone` + `git pull`, no `npm` at deploy time.\n- `8a50134` Fixed standalone webapp build — version imports in `AuthFooter.tsx` and `WelcomePage.tsx` were going 5 directories up (which only resolves when cinny is nested under prinny-client). Switched to 4-up so both build contexts work.\n\n[End of changelog. Earlier history lives in git log.]\n', g2e = `https://github.com/coffeegrind123/prinny-client/releases`, _2e = `https://github.com/coffeegrind123/prinny/commit/`;
+    function v2e({ children: e }) {
         return (0, j.jsx)(`span`, {
             style: {
                 fontFamily: `ui-monospace, SFMono-Regular, "SF Mono", Menlo, Consolas, monospace`,
@@ -148183,8 +148177,8 @@ In order to be iterable, non-array objects must have a [Symbol.iterator]() metho
             children: e
         });
     }
-    function b2e({ bullet: e }) {
-        let t = `${v2e}${e.sha}`;
+    function y2e({ bullet: e }) {
+        let t = `${_2e}${e.sha}`;
         return (0, j.jsxs)(P, {
             gap: `200`,
             alignItems: `Start`,
@@ -148219,7 +148213,7 @@ In order to be iterable, non-array objects must have a [Symbol.iterator]() metho
                         flex: 1,
                         minWidth: 0
                     },
-                    children: e.parts.map((e, t)=>e.kind === `code` ? (0, j.jsx)(y2e, {
+                    children: e.parts.map((e, t)=>e.kind === `code` ? (0, j.jsx)(v2e, {
                             children: e.value
                         }, t) : (0, j.jsx)(A.Fragment, {
                             children: e.value
@@ -148228,8 +148222,8 @@ In order to be iterable, non-array objects must have a [Symbol.iterator]() metho
             ]
         });
     }
-    function x2e() {
-        let e = (0, A.useMemo)(()=>p2e(g2e), []);
+    function b2e() {
+        let e = (0, A.useMemo)(()=>f2e(h2e), []);
         return (0, j.jsx)(m1, {
             children: (0, j.jsx)(Xn, {
                 size: `300`,
@@ -148260,7 +148254,7 @@ In order to be iterable, non-array objects must have a [Symbol.iterator]() metho
                                         `Prinny Client`,
                                         ` `,
                                         (0, j.jsxs)(`a`, {
-                                            href: _2e,
+                                            href: g2e,
                                             target: `_blank`,
                                             rel: `noreferrer noopener`,
                                             style: {
@@ -148299,13 +148293,13 @@ In order to be iterable, non-array objects must have a [Symbol.iterator]() metho
                                                 style: {
                                                     color: M.Secondary.Main
                                                 },
-                                                children: h2e(e.rawDate)
+                                                children: m2e(e.rawDate)
                                             })
                                         }),
                                         (0, j.jsx)(P, {
                                             direction: `Column`,
                                             gap: `200`,
-                                            children: e.bullets.map((e, t)=>(0, j.jsx)(b2e, {
+                                            children: e.bullets.map((e, t)=>(0, j.jsx)(y2e, {
                                                     bullet: e
                                                 }, `${e.sha}-${t}`))
                                         })
@@ -148354,9 +148348,9 @@ In order to be iterable, non-array objects must have a [Symbol.iterator]() metho
         });
     }
     function o9() {
-        return (0, j.jsx)(x2e, {});
+        return (0, j.jsx)(b2e, {});
     }
-    var S2e = `_1ho1fyw0 _1mqalmd1 _1mqalmd0`, C2e = `_1ho1fyw1 _1mqalmd1 _1mqalmd0`, w2e = xq({
+    var x2e = `_1ho1fyw0 _1mqalmd1 _1mqalmd0`, S2e = `_1ho1fyw1 _1mqalmd1 _1mqalmd0`, C2e = xq({
         defaultClassName: `_1ho1fyw4 _1mqalmd1 _1mqalmd0 _1bugis91 _1ho1fyw3`,
         variantClassNames: {
             active: {
@@ -148365,7 +148359,7 @@ In order to be iterable, non-array objects must have a [Symbol.iterator]() metho
         },
         defaultVariants: {},
         compoundVariants: []
-    }), T2e = xq({
+    }), w2e = xq({
         defaultClassName: `_1ho1fyw6 _1mqalmd1 _1mqalmd0`,
         variantClassNames: {
             hasCount: {
@@ -148377,7 +148371,7 @@ In order to be iterable, non-array objects must have a [Symbol.iterator]() metho
             hasCount: !1
         },
         compoundVariants: []
-    }), E2e = xq({
+    }), T2e = xq({
         defaultClassName: `_1ho1fyw9`,
         variantClassNames: {
             size: {
@@ -148393,7 +148387,7 @@ In order to be iterable, non-array objects must have a [Symbol.iterator]() metho
             size: `400`
         },
         compoundVariants: []
-    }), D2e = xq({
+    }), E2e = xq({
         defaultClassName: `_1ho1fywe _1rwrsxz0 _1mqalmd1 _1mqalmd0 _1rwrsxz1 _1bugis90 _1ho1fyw3`,
         variantClassNames: {
             state: {
@@ -148405,7 +148399,7 @@ In order to be iterable, non-array objects must have a [Symbol.iterator]() metho
             state: `Close`
         },
         compoundVariants: []
-    }), O2e = xq({
+    }), D2e = xq({
         defaultClassName: `_1ho1fywh`,
         variantClassNames: {
             position: {
@@ -148415,18 +148409,18 @@ In order to be iterable, non-array objects must have a [Symbol.iterator]() metho
         },
         defaultVariants: {},
         compoundVariants: []
-    }), k2e = $t(({ as: e = `div`, className: t, ...n }, r)=>(0, j.jsx)(e, {
-            className: (0, bt.default)(S2e, t),
+    }), O2e = $t(({ as: e = `div`, className: t, ...n }, r)=>(0, j.jsx)(e, {
+            className: (0, bt.default)(x2e, t),
             ...n,
             ref: r
         })), s9 = $t(({ as: e = `div`, className: t, active: n, ...r }, i)=>(0, j.jsx)(e, {
-            className: (0, bt.default)(w2e({
+            className: (0, bt.default)(C2e({
                 active: n
             }), t),
             ...r,
             ref: i
         })), c9 = $t(({ as: e = `div`, className: t, hasCount: n, ...r }, i)=>(0, j.jsx)(e, {
-            className: (0, bt.default)(T2e({
+            className: (0, bt.default)(w2e({
                 hasCount: n
             }), t),
             ...r,
@@ -148449,27 +148443,27 @@ In order to be iterable, non-array objects must have a [Symbol.iterator]() metho
         }) : t(()=>void 0);
     }
     var u9 = $t(({ className: e, size: t, outlined: n, radii: r, ...i }, a)=>(0, j.jsx)(cn, {
-            className: (0, bt.default)(E2e({
+            className: (0, bt.default)(T2e({
                 size: t,
                 outlined: n
             }), e),
             radii: r,
             ...i,
             ref: a
-        })), A2e = $t(({ as: e = `div`, className: t, state: n, ...r }, i)=>(0, j.jsx)(e, {
-            className: (0, bt.default)(D2e({
+        })), k2e = $t(({ as: e = `div`, className: t, state: n, ...r }, i)=>(0, j.jsx)(e, {
+            className: (0, bt.default)(E2e({
                 state: n
             }), t),
             ...r,
             ref: i
-        })), j2e = $t(({ as: e = `div`, className: t, position: n, ...r }, i)=>(0, j.jsx)(e, {
-            className: (0, bt.default)(O2e({
+        })), A2e = $t(({ as: e = `div`, className: t, position: n, ...r }, i)=>(0, j.jsx)(e, {
+            className: (0, bt.default)(D2e({
                 position: n
             }), t),
             ...r,
             ref: i
         }));
-    function M2e({ scrollable: e, sticky: t }) {
+    function j2e({ scrollable: e, sticky: t }) {
         return (0, j.jsxs)(j.Fragment, {
             children: [
                 (0, j.jsx)(P, {
@@ -148486,11 +148480,11 @@ In order to be iterable, non-array objects must have a [Symbol.iterator]() metho
         });
     }
     var d9 = $t(({ as: e = `div`, className: t, ...n }, r)=>(0, j.jsx)(e, {
-            className: (0, bt.default)(C2e, t),
+            className: (0, bt.default)(S2e, t),
             ...n,
             ref: r
         }));
-    function N2e() {
+    function M2e() {
         return (0, j.jsx)(On, {
             role: `separator`,
             style: {
@@ -148501,7 +148495,7 @@ In order to be iterable, non-array objects must have a [Symbol.iterator]() metho
             size: `300`
         });
     }
-    var P2e = (0, A.forwardRef)(({ requestClose: e }, t)=>{
+    var N2e = (0, A.forwardRef)(({ requestClose: e }, t)=>{
         let n = VY(), [r] = Y(X, `hideActivity`), i = rX(n, Yq), a = J();
         return (0, j.jsx)(An, {
             ref: t,
@@ -148539,7 +148533,7 @@ In order to be iterable, non-array objects must have a [Symbol.iterator]() metho
             })
         });
     });
-    function F2e() {
+    function P2e() {
         let e = ec(), t = J(), n = vp(), r = Oi(r1()), i = rX(Obe(t, jq, Oi(Mq), Oi(Pq)), Yq), a = xbe(), [o, s] = (0, A.useState)(), c = ()=>{
             let t = r.get(`home`);
             if (t && n !== _p.Mobile) {
@@ -148592,7 +148586,7 @@ In order to be iterable, non-array objects must have a [Symbol.iterator]() metho
                             isKeyBackward: (e)=>e.key === `ArrowUp`,
                             escapeDeactivates: mp
                         },
-                        children: (0, j.jsx)(P2e, {
+                        children: (0, j.jsx)(N2e, {
                             requestClose: ()=>s(void 0)
                         })
                     })
@@ -148600,7 +148594,7 @@ In order to be iterable, non-array objects must have a [Symbol.iterator]() metho
             ]
         });
     }
-    var I2e = (0, A.forwardRef)(({ requestClose: e }, t)=>{
+    var F2e = (0, A.forwardRef)(({ requestClose: e }, t)=>{
         let n = B4(), [r] = Y(X, `hideActivity`), i = rX(n, Yq), a = J();
         return (0, j.jsx)(An, {
             ref: t,
@@ -148638,7 +148632,7 @@ In order to be iterable, non-array objects must have a [Symbol.iterator]() metho
             })
         });
     });
-    function L2e() {
+    function I2e() {
         let e = ec(), t = J(), n = vp(), r = Oi(r1()), i = rX(BY(t, jq, Oi(Mq)), Yq), [a, o] = (0, A.useState)(), s = Wje(), c = ()=>{
             let t = r.get(`direct`);
             if (t && n !== _p.Mobile) {
@@ -148691,7 +148685,7 @@ In order to be iterable, non-array objects must have a [Symbol.iterator]() metho
                             isKeyBackward: (e)=>e.key === `ArrowUp`,
                             escapeDeactivates: mp
                         },
-                        children: (0, j.jsx)(I2e, {
+                        children: (0, j.jsx)(F2e, {
                             requestClose: ()=>o(void 0)
                         })
                     })
@@ -148699,24 +148693,24 @@ In order to be iterable, non-array objects must have a [Symbol.iterator]() metho
             ]
         });
     }
-    function R2e(e, t) {
+    function L2e(e, t) {
         var n = Object.keys(e), r = Object.keys(t);
         return n.length === r.length && n.every(function(n) {
             return Object.is(e[n], t[n]);
         });
     }
-    function z2e() {
-        var e = arguments.length > 0 && arguments[0] !== void 0 ? arguments[0] : R2e, t = null;
+    function R2e() {
+        var e = arguments.length > 0 && arguments[0] !== void 0 ? arguments[0] : L2e, t = null;
         return function(n) {
             return t && e(t.value, n) || (t = {
                 value: n
             }), t.value;
         };
     }
-    var B2e = [
+    var z2e = [
         `block`
     ];
-    function V2e(e, t) {
+    function B2e(e, t) {
         var n = Object.keys(e);
         if (Object.getOwnPropertySymbols) {
             var r = Object.getOwnPropertySymbols(e);
@@ -148726,44 +148720,44 @@ In order to be iterable, non-array objects must have a [Symbol.iterator]() metho
         }
         return n;
     }
-    function H2e(e) {
+    function V2e(e) {
         for(var t = 1; t < arguments.length; t++){
             var n = arguments[t] == null ? {} : arguments[t];
-            t % 2 ? V2e(Object(n), !0).forEach(function(t) {
+            t % 2 ? B2e(Object(n), !0).forEach(function(t) {
                 U(e, t, n[t]);
-            }) : Object.getOwnPropertyDescriptors ? Object.defineProperties(e, Object.getOwnPropertyDescriptors(n)) : V2e(Object(n)).forEach(function(t) {
+            }) : Object.getOwnPropertyDescriptors ? Object.defineProperties(e, Object.getOwnPropertyDescriptors(n)) : B2e(Object(n)).forEach(function(t) {
                 Object.defineProperty(e, t, Object.getOwnPropertyDescriptor(n, t));
             });
         }
         return e;
     }
-    var U2e = Symbol(`tree-item-instruction`);
-    function W2e(e) {
+    var H2e = Symbol(`tree-item-instruction`);
+    function U2e(e) {
         return {
             x: (e.right + e.left) / 2,
             y: (e.bottom + e.top) / 2
         };
     }
-    function G2e(e) {
+    function W2e(e) {
         var t = e.client, n = e.borderBox, r = n.height / 4;
         return t.y <= n.top + r ? `reorder-above` : t.y >= n.bottom - r ? `reorder-below` : `make-child`;
     }
-    function K2e(e) {
+    function G2e(e) {
         var t = e.element, n = e.input, r = e.currentLevel, i = e.indentPerLevel, a = e.mode, o = {
             x: n.clientX,
             y: n.clientY
         }, s = t.getBoundingClientRect();
         if (a === `standard`) return {
-            type: G2e({
+            type: W2e({
                 borderBox: s,
                 client: o
             }),
             indentPerLevel: i,
             currentLevel: r
         };
-        var c = W2e(s);
+        var c = U2e(s);
         if (a === `expanded`) {
-            var l = G2e({
+            var l = W2e({
                 borderBox: s,
                 client: o
             });
@@ -148789,7 +148783,7 @@ In order to be iterable, non-array objects must have a [Symbol.iterator]() metho
             };
         }
         return {
-            type: G2e({
+            type: W2e({
                 borderBox: s,
                 client: o
             }),
@@ -148797,38 +148791,38 @@ In order to be iterable, non-array objects must have a [Symbol.iterator]() metho
             currentLevel: r
         };
     }
-    function q2e(e, t) {
-        return e.type === t.type ? e.type === `instruction-blocked` && t.type === `instruction-blocked` ? q2e(e.desired, t.desired) : R2e(e, t) : !1;
+    function K2e(e, t) {
+        return e.type === t.type ? e.type === `instruction-blocked` && t.type === `instruction-blocked` ? K2e(e.desired, t.desired) : L2e(e, t) : !1;
     }
-    var J2e = z2e(q2e);
-    function Y2e(e) {
+    var q2e = R2e(K2e);
+    function J2e(e) {
         var t = e.desired, n = e.block;
         return n != null && n.includes(t.type) && t.type !== `instruction-blocked` ? {
             type: `instruction-blocked`,
             desired: t
         } : t;
     }
-    function X2e(e, t) {
-        var n = t.block, r = J2e(Y2e({
-            desired: K2e(yae(t, B2e)),
+    function Y2e(e, t) {
+        var n = t.block, r = q2e(J2e({
+            desired: G2e(yae(t, z2e)),
             block: n
         }));
-        return H2e(H2e({}, e), {}, U({}, U2e, r));
+        return V2e(V2e({}, e), {}, U({}, H2e, r));
     }
-    function Z2e(e) {
-        return e[U2e] ?? null;
+    function X2e(e) {
+        return e[H2e] ?? null;
     }
-    function Q2e({ roomId: e, children: t }) {
+    function Z2e({ roomId: e, children: t }) {
         return t(iX(e, Yq));
     }
-    function $2e({ rooms: e, children: t }) {
+    function Q2e({ rooms: e, children: t }) {
         return t(rX(e, Yq));
     }
-    var e4e = (0, A.createContext)(null), t4e = e4e.Provider, n4e = ()=>{
-        let e = (0, A.useContext)(e4e);
+    var $2e = (0, A.createContext)(null), e4e = $2e.Provider, t4e = ()=>{
+        let e = (0, A.useContext)($2e);
         if (!e) throw Error(`OpenedSidebarFolderAtom is not provided!`);
         return e;
-    }, r4e = (0, A.forwardRef)(({ room: e, requestClose: t, onUnpin: n }, r)=>{
+    }, n4e = (0, A.forwardRef)(({ room: e, requestClose: t, onUnpin: n }, r)=>{
         let i = J(), [a] = Y(X, `hideActivity`), o = Oi(Pq), s = lX(e), c = KX(UX(e), s).action(`invite`, i.getSafeUserId()), l = n3(), [u, d] = (0, A.useState)(!1), f = IY(jq, e.roomId, Tbe(i, o)), p = rX(f, Yq);
         return (0, j.jsxs)(An, {
             ref: r,
@@ -148973,11 +148967,11 @@ In order to be iterable, non-array objects must have a [Symbol.iterator]() metho
                 })
             ]
         });
-    }), i4e = (e, t, n, r)=>{
+    }), r4e = (e, t, n, r)=>{
         let [i, a] = (0, A.useState)(!1);
         return (0, A.useEffect)(()=>{
             let i = t.current, o = r?.current ?? void 0;
-            return i ? S1e({
+            return i ? x1e({
                 element: i,
                 dragHandle: o,
                 getInitialData: ()=>({
@@ -148996,11 +148990,11 @@ In order to be iterable, non-array objects must have a [Symbol.iterator]() metho
             e,
             n
         ]), i;
-    }, a4e = (e, t)=>{
+    }, i4e = (e, t)=>{
         let [n, r] = (0, A.useState)();
         return (0, A.useEffect)(()=>{
             let n = t.current;
-            if (n) return b1e({
+            if (n) return y1e({
                 element: n,
                 canDrop: ({ source: t })=>t.data.item !== e,
                 getData: ({ input: t, element: n })=>{
@@ -149008,7 +149002,7 @@ In order to be iterable, non-array objects must have a [Symbol.iterator]() metho
                         `reparent`
                     ];
                     typeof e == `object` && e.spaceId && i.push(`make-child`);
-                    let a = Z2e(X2e({}, {
+                    let a = X2e(Y2e({}, {
                         input: t,
                         element: n,
                         currentLevel: 0,
@@ -149029,11 +149023,11 @@ In order to be iterable, non-array objects must have a [Symbol.iterator]() metho
             t
         ]), n;
     };
-    function o4e(e, t, n) {
+    function a4e(e, t, n) {
         let [r, i] = (0, A.useState)();
         return (0, A.useEffect)(()=>{
             let r = t.current;
-            if (r) return b1e({
+            if (r) return y1e({
                 element: r,
                 canDrop: ({ source: t })=>t.data.item !== e,
                 getData: ()=>(i(n), {
@@ -149049,11 +149043,11 @@ In order to be iterable, non-array objects must have a [Symbol.iterator]() metho
             n
         ]), r;
     }
-    var s4e = (e, t, n)=>{
+    var o4e = (e, t, n)=>{
         (0, A.useEffect)(()=>{
             let r = e.current;
             if (!r) throw Error(`Scroll element ref not configured`);
-            return X7(x1e({
+            return X7(b1e({
                 onDrop: ({ source: e, location: r })=>{
                     t(void 0);
                     let { dropTargets: i } = r.current;
@@ -149061,7 +149055,7 @@ In order to be iterable, non-array objects must have a [Symbol.iterator]() metho
                     let a = e.data.item, o = i[0].data.item, s = i[0].data.instructionType;
                     s && n(a, o, s);
                 }
-            }), u0e({
+            }), l0e({
                 element: r
             }));
         }, [
@@ -149070,7 +149064,7 @@ In order to be iterable, non-array objects must have a [Symbol.iterator]() metho
             n
         ]);
     };
-    function c4e({ space: e, selected: t, onClick: n, folder: r, onDragging: i, disabled: a, onUnpin: o }) {
+    function s4e({ space: e, selected: t, onClick: n, folder: r, onDragging: i, disabled: a, onUnpin: o }) {
         let s = J(), c = FX(), l = (0, A.useRef)(null), u = (0, A.useMemo)(()=>r ? {
                 folder: r,
                 spaceId: e.roomId
@@ -149078,15 +149072,15 @@ In order to be iterable, non-array objects must have a [Symbol.iterator]() metho
             r,
             e
         ]);
-        i4e(u, l, i);
-        let d = a4e(u, l)?.type, [f, p] = (0, A.useState)(), m = (e)=>{
+        r4e(u, l, i);
+        let d = i4e(u, l)?.type, [f, p] = (0, A.useState)(), m = (e)=>{
             e.preventDefault();
             let t = e.currentTarget.getBoundingClientRect();
             p((e)=>{
                 if (!e) return t;
             });
         };
-        return (0, j.jsx)(Q2e, {
+        return (0, j.jsx)(Z2e, {
             roomId: e.roomId,
             children: (i)=>(0, j.jsxs)(s9, {
                     active: t,
@@ -149138,7 +149132,7 @@ In order to be iterable, non-array objects must have a [Symbol.iterator]() metho
                                     isKeyBackward: (e)=>e.key === `ArrowUp`,
                                     escapeDeactivates: mp
                                 },
-                                children: (0, j.jsx)(r4e, {
+                                children: (0, j.jsx)(n4e, {
                                     room: e,
                                     requestClose: ()=>p(void 0),
                                     onUnpin: o
@@ -149149,19 +149143,19 @@ In order to be iterable, non-array objects must have a [Symbol.iterator]() metho
                 })
         });
     }
-    function l4e({ folder: e, onClose: t, children: n }) {
+    function c4e({ folder: e, onClose: t, children: n }) {
         let r = (0, A.useRef)(null), i = (0, A.useRef)(null), a = (0, A.useMemo)(()=>({
                 folder: e,
                 open: !0
             }), [
             e
-        ]), o = o4e(a, r, `reorder-above`), s = o4e(a, i, `reorder-below`);
-        return (0, j.jsxs)(A2e, {
+        ]), o = a4e(a, r, `reorder-above`), s = a4e(a, i, `reorder-below`);
+        return (0, j.jsxs)(k2e, {
             state: `Open`,
             "data-drop-above": o === `reorder-above`,
             "data-drop-below": s === `reorder-below`,
             children: [
-                (0, j.jsx)(j2e, {
+                (0, j.jsx)(A2e, {
                     ref: r,
                     position: `Top`
                 }),
@@ -149180,22 +149174,22 @@ In order to be iterable, non-array objects must have a [Symbol.iterator]() metho
                     })
                 }),
                 n,
-                (0, j.jsx)(j2e, {
+                (0, j.jsx)(A2e, {
                     ref: i,
                     position: `Bottom`
                 })
             ]
         });
     }
-    function u4e({ folder: e, selected: t, onOpen: n, onDragging: r, disabled: i }) {
+    function l4e({ folder: e, selected: t, onOpen: n, onDragging: r, disabled: i }) {
         let a = J(), o = FX(), s = (0, A.useRef)(null), c = (0, A.useMemo)(()=>({
                 folder: e
             }), [
             e
         ]);
-        i4e(c, s, r);
-        let l = a4e(c, s)?.type, u = e.name ?? e.content.map((e)=>a.getRoom(e)?.name ?? ``).join(`, `) ?? `Unnamed`;
-        return (0, j.jsx)($2e, {
+        r4e(c, s, r);
+        let l = i4e(c, s)?.type, u = e.name ?? e.content.map((e)=>a.getRoom(e)?.name ?? ``).join(`, `) ?? `Unnamed`;
+        return (0, j.jsx)(Q2e, {
             rooms: e.content,
             children: (r)=>(0, j.jsxs)(s9, {
                     active: t,
@@ -149207,7 +149201,7 @@ In order to be iterable, non-array objects must have a [Symbol.iterator]() metho
                     children: [
                         (0, j.jsx)(l9, {
                             tooltip: i ? void 0 : u,
-                            children: (t)=>(0, j.jsx)(A2e, {
+                            children: (t)=>(0, j.jsx)(k2e, {
                                     "data-id": e.id,
                                     as: `button`,
                                     ref: t,
@@ -149243,9 +149237,9 @@ In order to be iterable, non-array objects must have a [Symbol.iterator]() metho
                 })
         });
     }
-    function d4e({ scrollRef: e }) {
-        let t = ec(), n = J(), r = vp(), i = RY(n, jq, Oi(Pq)), [a, o] = w0e(i), s = Oi(r1()), [c, l] = Ai(n4e()), [u, d] = (0, A.useState)();
-        s4e(e, d, (0, A.useCallback)((e, t, r)=>{
+    function u4e({ scrollRef: e }) {
+        let t = ec(), n = J(), r = vp(), i = RY(n, jq, Oi(Pq)), [a, o] = C0e(i), s = Oi(r1()), [c, l] = Ai(t4e()), [u, d] = (0, A.useState)();
+        o4e(e, d, (0, A.useCallback)((e, t, r)=>{
             let s = [], c = (e, t)=>typeof e == `string` && typeof t == `string` ? e === t : typeof e == `object` && typeof t == `object` && e.id === t.folder.id, u = (e)=>typeof e == `string` ? [
                     e
                 ] : e.spaceId ? [
@@ -149322,7 +149316,7 @@ In order to be iterable, non-array objects must have a [Symbol.iterator]() metho
                 }
                 s.push(n);
             });
-            let d = E0e(n, s);
+            let d = T0e(n, s);
             o(r9(n, i, d)), n.setAccountData(zU.CinnySpaces, d);
         }, [
             n,
@@ -149353,7 +149347,7 @@ In order to be iterable, non-array objects must have a [Symbol.iterator]() metho
             });
         }, h = (0, A.useCallback)((e)=>{
             if (i.includes(e)) return;
-            let t = T0e(a, e), r = E0e(n, t);
+            let t = w0e(a, e), r = T0e(n, t);
             o(r9(n, i, r)), n.setAccountData(zU.CinnySpaces, r);
         }, [
             n,
@@ -149363,15 +149357,15 @@ In order to be iterable, non-array objects must have a [Symbol.iterator]() metho
         ]);
         return a.length === 0 ? null : (0, j.jsxs)(j.Fragment, {
             children: [
-                (0, j.jsx)(N2e, {}),
+                (0, j.jsx)(M2e, {}),
                 (0, j.jsx)(d9, {
                     children: a.map((e)=>{
-                        if (typeof e == `object`) return c.has(e.id) ? (0, j.jsx)(l4e, {
+                        if (typeof e == `object`) return c.has(e.id) ? (0, j.jsx)(c4e, {
                             folder: e,
                             onClose: m,
                             children: e.content.map((t)=>{
                                 let r = n.getRoom(t);
-                                return r ? (0, j.jsx)(c4e, {
+                                return r ? (0, j.jsx)(s4e, {
                                     space: r,
                                     selected: r.roomId === f,
                                     onClick: p,
@@ -149381,7 +149375,7 @@ In order to be iterable, non-array objects must have a [Symbol.iterator]() metho
                                     onUnpin: i.includes(r.roomId) ? void 0 : h
                                 }, r.roomId) : null;
                             })
-                        }, e.id) : (0, j.jsx)(u4e, {
+                        }, e.id) : (0, j.jsx)(l4e, {
                             folder: e,
                             selected: !!f && e.content.includes(f),
                             onOpen: m,
@@ -149389,7 +149383,7 @@ In order to be iterable, non-array objects must have a [Symbol.iterator]() metho
                             disabled: typeof u == `object` && u.folder.id === e.id
                         }, e.id);
                         let t = n.getRoom(e);
-                        return t ? (0, j.jsx)(c4e, {
+                        return t ? (0, j.jsx)(s4e, {
                             space: t,
                             selected: t.roomId === f,
                             onClick: p,
@@ -149402,7 +149396,7 @@ In order to be iterable, non-array objects must have a [Symbol.iterator]() metho
             ]
         });
     }
-    function f4e() {
+    function d4e() {
         let e = vp(), t = ec(), n = Oi(r1()), r = BMe(), i = Oi(kq).length, a = ()=>{
             if (e === _p.Mobile) {
                 t(LK());
@@ -149442,7 +149436,7 @@ In order to be iterable, non-array objects must have a [Symbol.iterator]() metho
             ]
         });
     }
-    function p4e() {
+    function f4e() {
         let e = J(), t = vp(), n = pd(), r = ec(), i = Oi(r1()), a = TMe(), o = ()=>{
             if (t === _p.Mobile) {
                 r(PK());
@@ -149481,12 +149475,12 @@ In order to be iterable, non-array objects must have a [Symbol.iterator]() metho
             })
         });
     }
-    var f9 = `vkenjr0`, m4e = `vkenjr1`, h4e = `org.matrix.msc4155.invite_permission_config`, g4e = `io.element.msc4278.media_preview_config`;
-    function _4e() {
+    var f9 = `vkenjr0`, p4e = `vkenjr1`, m4e = `org.matrix.msc4155.invite_permission_config`, h4e = `io.element.msc4278.media_preview_config`;
+    function g4e() {
         let e = J(), [t, n] = Y(X, `contentProtection`), [r, i] = (0, A.useState)(!1), [a, o] = (0, A.useState)(`on`), [s, c] = (0, A.useState)(`on`), l = (0, A.useCallback)(()=>{
-            let t = e.getAccountData(h4e)?.getContent();
+            let t = e.getAccountData(m4e)?.getContent();
             i(Array.isArray(t?.blocked_users) && t.blocked_users.includes(`*`));
-            let n = e.getAccountData(g4e)?.getContent();
+            let n = e.getAccountData(h4e)?.getContent();
             o(n?.media_previews ?? `on`), c(n?.invite_avatars ?? `on`);
         }, [
             e
@@ -149501,7 +149495,7 @@ In order to be iterable, non-array objects must have a [Symbol.iterator]() metho
         }, [
             e,
             l
-        ])), f = u.status === B.Loading, p = (e)=>d(g4e, {
+        ])), f = u.status === B.Loading, p = (e)=>d(h4e, {
                 media_previews: a,
                 invite_avatars: s,
                 ...e
@@ -149541,7 +149535,7 @@ In order to be iterable, non-array objects must have a [Symbol.iterator]() metho
                             variant: `Primary`,
                             value: r,
                             disabled: f,
-                            onChange: (e)=>d(h4e, e ? {
+                            onChange: (e)=>d(m4e, e ? {
                                     blocked_users: [
                                         `*`
                                     ]
@@ -149617,7 +149611,7 @@ In order to be iterable, non-array objects must have a [Symbol.iterator]() metho
             ]
         });
     }
-    function v4e() {
+    function _4e() {
         let [e, t] = Y(X, `audioInputId`), [n, r] = Y(X, `echoCancellation`), [i, a] = Y(X, `noiseSuppression`), [o, s] = Y(X, `autoGainControl`), [c, l] = (0, A.useState)([]), [u, d] = (0, A.useState)(!1), [f, p] = (0, A.useState)(), m = (0, A.useCallback)(async ()=>{
             if (!navigator.mediaDevices?.enumerateDevices) return;
             let e = (await navigator.mediaDevices.enumerateDevices()).filter((e)=>e.kind === `audioinput`).map((e)=>({
@@ -149634,7 +149628,7 @@ In order to be iterable, non-array objects must have a [Symbol.iterator]() metho
         let h = (0, A.useCallback)(async ()=>{
             p(void 0);
             try {
-                (await fYe()).release(), await m();
+                (await dYe()).release(), await m();
             } catch  {
                 p(`Microphone access was refused, so device names cannot be shown.`);
             }
@@ -149765,19 +149759,19 @@ In order to be iterable, non-array objects must have a [Symbol.iterator]() metho
             ]
         });
     }
-    async function y4e() {
+    async function v4e() {
         return await i(`plugin:autostart|is_enabled`);
     }
-    async function b4e() {
+    async function y4e() {
         await i(`plugin:autostart|enable`);
     }
-    async function x4e() {
+    async function b4e() {
         await i(`plugin:autostart|disable`);
     }
-    var S4e = ()=>{
+    var x4e = ()=>{
         let e = pq(), [t, n] = (0, A.useState)(void 0), [r, i] = (0, A.useState)(!1), [a, o] = (0, A.useState)();
         return (0, A.useEffect)(()=>{
-            e && y4e().then(n).catch(()=>{
+            e && v4e().then(n).catch(()=>{
                 n(void 0);
             });
         }, [
@@ -149788,12 +149782,12 @@ In order to be iterable, non-array objects must have a [Symbol.iterator]() metho
             busy: r,
             error: a,
             toggle: (0, A.useCallback)((t)=>{
-                e && (i(!0), o(void 0), (t ? b4e() : x4e()).then(()=>y4e()).then(n).catch(()=>o(`Could not change the start-at-login setting.`)).finally(()=>i(!1)));
+                e && (i(!0), o(void 0), (t ? y4e() : b4e()).then(()=>v4e()).then(n).catch(()=>o(`Could not change the start-at-login setting.`)).finally(()=>i(!1)));
             }, [
                 e
             ])
         };
-    }, C4e = ()=>(0, A.useMemo)(()=>[
+    }, S4e = ()=>(0, A.useMemo)(()=>[
                 {
                     layout: eJ.Modern,
                     name: `Modern`
@@ -149806,7 +149800,7 @@ In order to be iterable, non-array objects must have a [Symbol.iterator]() metho
                     layout: eJ.Bubble,
                     name: `Bubble`
                 }
-            ], []), w4e = ()=>(0, A.useMemo)(()=>[
+            ], []), C4e = ()=>(0, A.useMemo)(()=>[
                 {
                     spacing: `0`,
                     name: `None`
@@ -149831,7 +149825,7 @@ In order to be iterable, non-array objects must have a [Symbol.iterator]() metho
                     spacing: `500`,
                     name: `Large`
                 }
-            ], []), T4e = ()=>(0, A.useMemo)(()=>[
+            ], []), w4e = ()=>(0, A.useMemo)(()=>[
                 {
                     format: `D MMM YYYY`,
                     name: `D MMM YYYY`
@@ -149856,7 +149850,7 @@ In order to be iterable, non-array objects must have a [Symbol.iterator]() metho
                     format: ``,
                     name: `Custom`
                 }
-            ], []), E4e = $t(({ themeNames: e, themes: t, selected: n, onSelect: r, ...i }, a)=>(0, j.jsx)(An, {
+            ], []), T4e = $t(({ themeNames: e, themes: t, selected: n, onSelect: r, ...i }, a)=>(0, j.jsx)(An, {
             ...i,
             ref: a,
             children: (0, j.jsx)(P, {
@@ -149877,7 +149871,7 @@ In order to be iterable, non-array objects must have a [Symbol.iterator]() metho
                     }, t.id))
             })
         }));
-    function D4e({ disabled: e }) {
+    function E4e({ disabled: e }) {
         let t = F$(), n = WCe(), [r, i] = Y(X, `themeId`), [a, o] = (0, A.useState)(), s = t.find((e)=>e.id === r) ?? N$;
         return (0, j.jsxs)(j.Fragment, {
             children: [
@@ -149914,7 +149908,7 @@ In order to be iterable, non-array objects must have a [Symbol.iterator]() metho
                             isKeyBackward: (e)=>e.key === `ArrowUp` || e.key === `ArrowLeft`,
                             escapeDeactivates: mp
                         },
-                        children: (0, j.jsx)(E4e, {
+                        children: (0, j.jsx)(T4e, {
                             themeNames: n,
                             themes: t,
                             selected: s,
@@ -149927,7 +149921,7 @@ In order to be iterable, non-array objects must have a [Symbol.iterator]() metho
             ]
         });
     }
-    var O4e = (e)=>{
+    var D4e = (e)=>{
         if (!e) return `Auto (fastest reachable)`;
         try {
             return new URL(e).host;
@@ -149935,7 +149929,7 @@ In order to be iterable, non-array objects must have a [Symbol.iterator]() metho
             return e;
         }
     };
-    function k4e() {
+    function O4e() {
         let [e, t] = Y(X, `pipedInstance`), [n, r] = (0, A.useState)(), i = [
             ``,
             ...R0
@@ -149959,7 +149953,7 @@ In order to be iterable, non-array objects must have a [Symbol.iterator]() metho
                     onClick: a,
                     children: (0, j.jsx)(z, {
                         size: `T300`,
-                        children: O4e(e)
+                        children: D4e(e)
                     })
                 }),
                 (0, j.jsx)(Gn, {
@@ -149990,7 +149984,7 @@ In order to be iterable, non-array objects must have a [Symbol.iterator]() metho
                                         onClick: ()=>o(t),
                                         children: (0, j.jsx)(z, {
                                             size: `T300`,
-                                            children: O4e(t)
+                                            children: D4e(t)
                                         })
                                     }, t || `auto`))
                             })
@@ -150000,7 +149994,7 @@ In order to be iterable, non-array objects must have a [Symbol.iterator]() metho
             ]
         });
     }
-    function A4e() {
+    function k4e() {
         let e = I$(), t = WCe(), n = F$(), [r, i] = Y(X, `lightThemeId`), [a, o] = Y(X, `darkThemeId`), s = n.filter((e)=>e.kind === M$.Light), c = n.filter((e)=>e.kind === M$.Dark), l = s.find((e)=>e.id === r) ?? N$, u = c.find((e)=>e.id === a) ?? P$, [d, f] = (0, A.useState)(), [p, m] = (0, A.useState)();
         return (0, j.jsxs)(P, {
             wrap: `Wrap`,
@@ -150039,7 +150033,7 @@ In order to be iterable, non-array objects must have a [Symbol.iterator]() metho
                             isKeyBackward: (e)=>e.key === `ArrowUp` || e.key === `ArrowLeft`,
                             escapeDeactivates: mp
                         },
-                        children: (0, j.jsx)(E4e, {
+                        children: (0, j.jsx)(T4e, {
                             themeNames: t,
                             themes: s,
                             selected: l,
@@ -150082,7 +150076,7 @@ In order to be iterable, non-array objects must have a [Symbol.iterator]() metho
                             isKeyBackward: (e)=>e.key === `ArrowUp` || e.key === `ArrowLeft`,
                             escapeDeactivates: mp
                         },
-                        children: (0, j.jsx)(E4e, {
+                        children: (0, j.jsx)(T4e, {
                             themeNames: t,
                             themes: c,
                             selected: u,
@@ -150095,7 +150089,7 @@ In order to be iterable, non-array objects must have a [Symbol.iterator]() metho
             ]
         });
     }
-    function j4e() {
+    function A4e() {
         let [e, t] = Y(X, `pageZoom`), [n, r] = (0, A.useState)(`${e}`);
         return (0, j.jsx)(Dn, {
             style: {
@@ -150126,7 +150120,7 @@ In order to be iterable, non-array objects must have a [Symbol.iterator]() metho
             outlined: !0
         });
     }
-    function M4e() {
+    function j4e() {
         let [e, t] = Y(X, `useSystemTheme`), [n, r] = Y(X, `monochromeMode`), [i, a] = Y(X, `twitterEmoji`);
         return (0, j.jsxs)(P, {
             direction: `Column`,
@@ -150151,7 +150145,7 @@ In order to be iterable, non-array objects must have a [Symbol.iterator]() metho
                                 onChange: t
                             })
                         }),
-                        e && (0, j.jsx)(A4e, {})
+                        e && (0, j.jsx)(k4e, {})
                     ]
                 }),
                 (0, j.jsx)(C1, {
@@ -150161,7 +150155,7 @@ In order to be iterable, non-array objects must have a [Symbol.iterator]() metho
                     children: (0, j.jsx)(H4, {
                         title: `Theme`,
                         description: `Theme to use when system theme is not enabled.`,
-                        after: (0, j.jsx)(D4e, {
+                        after: (0, j.jsx)(E4e, {
                             disabled: e
                         })
                     })
@@ -150198,13 +150192,13 @@ In order to be iterable, non-array objects must have a [Symbol.iterator]() metho
                     direction: `Column`,
                     children: (0, j.jsx)(H4, {
                         title: `Page Zoom`,
-                        after: (0, j.jsx)(j4e, {})
+                        after: (0, j.jsx)(A4e, {})
                     })
                 })
             ]
         });
     }
-    function N4e({ hasChanges: e, handleReset: t }) {
+    function M4e({ hasChanges: e, handleReset: t }) {
         let [n, r] = (0, A.useState)(), i = {
             padding: N.space.S200,
             paddingTop: 0
@@ -150537,7 +150531,7 @@ In order to be iterable, non-array objects must have a [Symbol.iterator]() metho
             })
         });
     }
-    function P4e({ value: e, onChange: t }) {
+    function N4e({ value: e, onChange: t }) {
         let [n, r] = (0, A.useState)(e);
         (0, A.useEffect)(()=>{
             r(e);
@@ -150575,7 +150569,7 @@ In order to be iterable, non-array objects must have a [Symbol.iterator]() metho
                             style: {
                                 paddingRight: N.space.S200
                             },
-                            after: (0, j.jsx)(N4e, {
+                            after: (0, j.jsx)(M4e, {
                                 hasChanges: s,
                                 handleReset: a
                             })
@@ -150598,8 +150592,8 @@ In order to be iterable, non-array objects must have a [Symbol.iterator]() metho
             })
         });
     }
-    function F4e({ value: e, onChange: t }) {
-        let [n, r] = (0, A.useState)(), i = T4e(), a = (e)=>e === `` ? `Custom` : (0, h0.default)().format(e), o = (e)=>{
+    function P4e({ value: e, onChange: t }) {
+        let [n, r] = (0, A.useState)(), i = w4e(), a = (e)=>e === `` ? `Custom` : (0, h0.default)().format(e), o = (e)=>{
             r(e.currentTarget.getBoundingClientRect());
         }, s = (e)=>{
             t(e), r(void 0);
@@ -150660,28 +150654,28 @@ In order to be iterable, non-array objects must have a [Symbol.iterator]() metho
             ]
         });
     }
-    function I4e() {
+    function F4e() {
         let [e, t] = Y(X, `dateFormatString`), [n, r] = (0, A.useState)(e), i = n === ``;
         return (0, j.jsxs)(j.Fragment, {
             children: [
                 (0, j.jsx)(H4, {
                     title: `Date Format`,
                     description: i ? (0, h0.default)().format(e) : ``,
-                    after: (0, j.jsx)(F4e, {
+                    after: (0, j.jsx)(P4e, {
                         value: n,
                         onChange: (e)=>{
                             r(e), e !== `` && t(e);
                         }
                     })
                 }),
-                i && (0, j.jsx)(P4e, {
+                i && (0, j.jsx)(N4e, {
                     value: e,
                     onChange: t
                 })
             ]
         });
     }
-    function L4e() {
+    function I4e() {
         let [e, t] = Y(X, `hour24Clock`);
         return (0, j.jsxs)(P, {
             direction: `Column`,
@@ -150708,13 +150702,13 @@ In order to be iterable, non-array objects must have a [Symbol.iterator]() metho
                     className: f9,
                     variant: `SurfaceVariant`,
                     direction: `Column`,
-                    children: (0, j.jsx)(I4e, {})
+                    children: (0, j.jsx)(F4e, {})
                 })
             ]
         });
     }
-    function R4e() {
-        let [e, t] = Y(X, `enterForNewline`), [n, r] = Y(X, `scrollOnSend`), [i, a] = Y(X, `isMarkdown`), [o, s] = Y(X, `hideActivity`), [c, l] = Y(X, `readReceiptStyle`), [u, d] = Y(X, `useVxTwitter`), [f, p] = Y(X, `useSoundcloak`), [m, h] = Y(X, `useBlueskyEmbeds`), [g, _] = Y(X, `usePiped`), [v, y] = Y(X, `renderMaths`), [b, x] = Y(X, `showMaps`), [S, C] = Y(X, `renderBotKeyboards`), [w, T] = Y(X, `confirmBotUrls`), [E, D] = Y(X, `clientPreviewFallback`), [O, k] = Y(X, `minimizeToTray`), ee = S4e();
+    function L4e() {
+        let [e, t] = Y(X, `enterForNewline`), [n, r] = Y(X, `scrollOnSend`), [i, a] = Y(X, `isMarkdown`), [o, s] = Y(X, `hideActivity`), [c, l] = Y(X, `readReceiptStyle`), [u, d] = Y(X, `useVxTwitter`), [f, p] = Y(X, `useSoundcloak`), [m, h] = Y(X, `useBlueskyEmbeds`), [g, _] = Y(X, `usePiped`), [v, y] = Y(X, `renderMaths`), [b, x] = Y(X, `showMaps`), [S, C] = Y(X, `renderBotKeyboards`), [w, T] = Y(X, `confirmBotUrls`), [E, D] = Y(X, `clientPreviewFallback`), [O, k] = Y(X, `minimizeToTray`), ee = x4e();
         return (0, j.jsxs)(P, {
             direction: `Column`,
             gap: `100`,
@@ -150929,7 +150923,7 @@ In order to be iterable, non-array objects must have a [Symbol.iterator]() metho
                         g && (0, j.jsx)(H4, {
                             title: `Piped instance`,
                             description: `Which Piped instance to embed from. Auto probes the list and uses the first that responds; http instances only load in the desktop app (the web app blocks them as mixed content).`,
-                            after: (0, j.jsx)(k4e, {})
+                            after: (0, j.jsx)(O4e, {})
                         })
                     ]
                 }),
@@ -150992,8 +150986,8 @@ In order to be iterable, non-array objects must have a [Symbol.iterator]() metho
             ]
         });
     }
-    function z4e() {
-        let [e, t] = (0, A.useState)(), [n, r] = Y(X, `messageLayout`), i = C4e(), a = (e)=>{
+    function R4e() {
+        let [e, t] = (0, A.useState)(), [n, r] = Y(X, `messageLayout`), i = S4e(), a = (e)=>{
             t(e.currentTarget.getBoundingClientRect());
         }, o = (e)=>{
             r(e), t(void 0);
@@ -151054,8 +151048,8 @@ In order to be iterable, non-array objects must have a [Symbol.iterator]() metho
             ]
         });
     }
-    function B4e() {
-        let [e, t] = (0, A.useState)(), [n, r] = Y(X, `messageSpacing`), i = w4e(), a = (e)=>{
+    function z4e() {
+        let [e, t] = (0, A.useState)(), [n, r] = Y(X, `messageSpacing`), i = C4e(), a = (e)=>{
             t(e.currentTarget.getBoundingClientRect());
         }, o = (e)=>{
             r(e), t(void 0);
@@ -151116,7 +151110,7 @@ In order to be iterable, non-array objects must have a [Symbol.iterator]() metho
             ]
         });
     }
-    function V4e() {
+    function B4e() {
         let [e, t] = Y(X, `legacyUsernameColor`), [n, r] = Y(X, `hideMembershipEvents`), [i, a] = Y(X, `hideNickAvatarEvents`), [o, s] = Y(X, `mediaAutoLoad`), [c, l] = Y(X, `urlPreview`), [u, d] = Y(X, `encUrlPreview`), [f, p] = Y(X, `showHiddenEvents`);
         return (0, j.jsxs)(P, {
             direction: `Column`,
@@ -151132,7 +151126,7 @@ In order to be iterable, non-array objects must have a [Symbol.iterator]() metho
                     direction: `Column`,
                     children: (0, j.jsx)(H4, {
                         title: `Message Layout`,
-                        after: (0, j.jsx)(z4e, {})
+                        after: (0, j.jsx)(R4e, {})
                     })
                 }),
                 (0, j.jsx)(C1, {
@@ -151141,7 +151135,7 @@ In order to be iterable, non-array objects must have a [Symbol.iterator]() metho
                     direction: `Column`,
                     children: (0, j.jsx)(H4, {
                         title: `Message Spacing`,
-                        after: (0, j.jsx)(B4e, {})
+                        after: (0, j.jsx)(z4e, {})
                     })
                 }),
                 (0, j.jsx)(C1, {
@@ -151238,7 +151232,7 @@ In order to be iterable, non-array objects must have a [Symbol.iterator]() metho
             ]
         });
     }
-    function H4e({ requestClose: e }) {
+    function V4e({ requestClose: e }) {
         return (0, j.jsxs)(m1, {
             children: [
                 (0, j.jsx)(h1, {
@@ -151281,12 +151275,12 @@ In order to be iterable, non-array objects must have a [Symbol.iterator]() metho
                                     direction: `Column`,
                                     gap: `700`,
                                     children: [
-                                        (0, j.jsx)(M4e, {}),
+                                        (0, j.jsx)(j4e, {}),
+                                        (0, j.jsx)(I4e, {}),
                                         (0, j.jsx)(L4e, {}),
-                                        (0, j.jsx)(R4e, {}),
-                                        (0, j.jsx)(V4e, {}),
-                                        (0, j.jsx)(v4e, {}),
-                                        (0, j.jsx)(_4e, {})
+                                        (0, j.jsx)(B4e, {}),
+                                        (0, j.jsx)(_4e, {}),
+                                        (0, j.jsx)(g4e, {})
                                     ]
                                 })
                             })
@@ -151296,7 +151290,7 @@ In order to be iterable, non-array objects must have a [Symbol.iterator]() metho
             ]
         });
     }
-    function U4e() {
+    function H4e() {
         let e = J().getUserId();
         return (0, j.jsxs)(P, {
             direction: `Column`,
@@ -151357,16 +151351,16 @@ In order to be iterable, non-array objects must have a [Symbol.iterator]() metho
             t,
             e
         ]), n;
-    }, W4e = `evl28k0 _1mqalmd1 _1mqalmd0`, G4e = `evl28k1 _1mqalmd1 _1mqalmd0`, K4e = `evl28k2 _1mqalmd1 _1mqalmd0`, q4e = `evl28k3`, J4e = $t(({ className: e, name: t, url: n, requestClose: r, ...i }, a)=>{
+    }, U4e = `evl28k0 _1mqalmd1 _1mqalmd0`, W4e = `evl28k1 _1mqalmd1 _1mqalmd0`, G4e = `evl28k2 _1mqalmd1 _1mqalmd0`, K4e = `evl28k3`, q4e = $t(({ className: e, name: t, url: n, requestClose: r, ...i }, a)=>{
         let o = ()=>{};
         return (0, j.jsxs)(P, {
-            className: (0, bt.default)(W4e, e),
+            className: (0, bt.default)(U4e, e),
             direction: `Column`,
             ...i,
             ref: a,
             children: [
                 (0, j.jsxs)(wn, {
-                    className: G4e,
+                    className: W4e,
                     size: `400`,
                     children: [
                         (0, j.jsxs)(P, {
@@ -151408,11 +151402,11 @@ In order to be iterable, non-array objects must have a [Symbol.iterator]() metho
                 }),
                 (0, j.jsx)(P, {
                     grow: `Yes`,
-                    className: K4e,
+                    className: G4e,
                     justifyContent: `Center`,
                     alignItems: `Center`,
                     children: (0, j.jsx)(`img`, {
-                        className: q4e,
+                        className: K4e,
                         src: n,
                         alt: t
                     })
@@ -151420,7 +151414,7 @@ In order to be iterable, non-array objects must have a [Symbol.iterator]() metho
             ]
         });
     });
-    function Y4e({ profile: e, userId: t }) {
+    function J4e({ profile: e, userId: t }) {
         let n = J(), r = FX(), i = yq(), [a, o] = (0, A.useState)(!1), s = i[`m.set_avatar_url`]?.enabled === !1, c = e.displayName ?? KG(t) ?? t, l = e.avatarUrl ? oK(n, e.avatarUrl, r, 96, 96, `crop`) ?? void 0 : void 0, [u, d] = (0, A.useState)(), f = O7(u), p = (0, A.useMemo)(()=>{
             if (u) return m7(u);
         }, [
@@ -151506,7 +151500,7 @@ In order to be iterable, non-array objects must have a [Symbol.iterator]() metho
                                 className: `_1xx1mdm0`,
                                 variant: `Surface`,
                                 size: `500`,
-                                children: (0, j.jsx)(J4e, {
+                                children: (0, j.jsx)(q4e, {
                                     name: u?.name ?? `Unnamed`,
                                     url: f,
                                     requestClose: h
@@ -151589,7 +151583,7 @@ In order to be iterable, non-array objects must have a [Symbol.iterator]() metho
             ]
         });
     }
-    function X4e({ profile: e, userId: t }) {
+    function Y4e({ profile: e, userId: t }) {
         let n = J(), r = yq()[`m.set_displayname`]?.enabled === !1, i = e.displayName ?? KG(t) ?? t, [a, o] = (0, A.useState)(i), [s, c] = V((0, A.useCallback)((e)=>n.setDisplayName(e), [
             n
         ])), l = s.status === B.Loading;
@@ -151676,7 +151670,7 @@ In order to be iterable, non-array objects must have a [Symbol.iterator]() metho
             })
         });
     }
-    function Z4e() {
+    function X4e() {
         let e = J().getUserId(), t = p9(e);
         return (0, j.jsxs)(P, {
             direction: `Column`,
@@ -151692,11 +151686,11 @@ In order to be iterable, non-array objects must have a [Symbol.iterator]() metho
                     direction: `Column`,
                     gap: `400`,
                     children: [
-                        (0, j.jsx)(Y4e, {
+                        (0, j.jsx)(J4e, {
                             userId: e,
                             profile: t
                         }),
-                        (0, j.jsx)(X4e, {
+                        (0, j.jsx)(Y4e, {
                             userId: e,
                             profile: t
                         })
@@ -151705,7 +151699,7 @@ In order to be iterable, non-array objects must have a [Symbol.iterator]() metho
             ]
         });
     }
-    var Q4e = [
+    var Z4e = [
         _U.Password,
         _U.Sso
     ];
@@ -151732,16 +151726,16 @@ In order to be iterable, non-array objects must have a [Symbol.iterator]() metho
         }) : null;
     }
     function h9({ authData: e, unsupported: t, children: n }) {
-        let r = ige(e.flows ?? [], Q4e), i = r.length > 0 ? r[0] : void 0;
+        let r = ige(e.flows ?? [], Z4e), i = r.length > 0 ? r[0] : void 0;
         return i ? n(i) : t();
     }
-    var $4e = ()=>{
+    var Q4e = ()=>{
         let e = new Uint8Array(16);
         return window.crypto.getRandomValues(e), Array.from(e).map((e)=>e.toString(16).padStart(2, `0`)).join(``);
     };
-    function e3e({ onAdded: e }) {
+    function $4e({ onAdded: e }) {
         let t = J(), [n, r] = (0, A.useState)(``), [i, a] = (0, A.useState)(), [o, s] = (0, A.useState)(), [c, l] = (0, A.useState)(), [u, d] = V((0, A.useCallback)(async (e)=>{
-            let n = $4e(), r = await t.requestAdd3pidEmailToken(e, n, 1);
+            let n = Q4e(), r = await t.requestAdd3pidEmailToken(e, n, 1);
             a(n), s(r.sid);
         }, [
             t
@@ -151900,7 +151894,7 @@ In order to be iterable, non-array objects must have a [Symbol.iterator]() metho
             ]
         });
     }
-    function t3e() {
+    function e3e() {
         let e = J(), [t, n] = V((0, A.useCallback)(()=>e.getThreePids(), [
             e
         ])), r = t.status === B.Success ? t.data.threepids : void 0, [i, a] = V((0, A.useCallback)(async (t, r)=>{
@@ -151992,7 +151986,7 @@ In order to be iterable, non-array objects must have a [Symbol.iterator]() metho
                                 style: {
                                     marginTop: N.space.S300
                                 },
-                                children: (0, j.jsx)(e3e, {
+                                children: (0, j.jsx)($4e, {
                                     onAdded: n
                                 })
                             })
@@ -152053,7 +152047,7 @@ In order to be iterable, non-array objects must have a [Symbol.iterator]() metho
             ]
         });
     }
-    function n3e({ userList: e }) {
+    function t3e({ userList: e }) {
         let t = J(), [n, r] = (0, A.useState)(``), i = cd(), [a, o] = V((0, A.useCallback)(async (n)=>{
             await t.setIgnoredUsers([
                 ...e,
@@ -152129,7 +152123,7 @@ In order to be iterable, non-array objects must have a [Symbol.iterator]() metho
             ]
         });
     }
-    function r3e({ userId: e, userList: t }) {
+    function n3e({ userId: e, userList: t }) {
         let n = J(), [r, i] = V((0, A.useCallback)(()=>n.setIgnoredUsers(t.filter((t)=>t !== e)), [
             n,
             e,
@@ -152154,7 +152148,7 @@ In order to be iterable, non-array objects must have a [Symbol.iterator]() metho
             })
         });
     }
-    function i3e() {
+    function r3e() {
         let e = X5();
         return (0, j.jsxs)(P, {
             direction: `Column`,
@@ -152181,7 +152175,7 @@ In order to be iterable, non-array objects must have a [Symbol.iterator]() metho
                             direction: `Column`,
                             gap: `300`,
                             children: [
-                                (0, j.jsx)(n3e, {
+                                (0, j.jsx)(t3e, {
                                     userList: e
                                 }),
                                 e.length > 0 && (0, j.jsxs)(P, {
@@ -152195,7 +152189,7 @@ In order to be iterable, non-array objects must have a [Symbol.iterator]() metho
                                         (0, j.jsx)(P, {
                                             wrap: `Wrap`,
                                             gap: `200`,
-                                            children: e.map((t)=>(0, j.jsx)(r3e, {
+                                            children: e.map((t)=>(0, j.jsx)(n3e, {
                                                     userId: t,
                                                     userList: e
                                                 }, t))
@@ -152209,7 +152203,7 @@ In order to be iterable, non-array objects must have a [Symbol.iterator]() metho
             ]
         });
     }
-    function a3e() {
+    function i3e() {
         let e = J(), [t, n] = (0, A.useState)(!1), [r, i] = (0, A.useState)(!1), [a, o] = V((0, A.useCallback)(async (t, n, r)=>{
             await e.setPassword({
                 type: `m.login.password`,
@@ -152372,7 +152366,7 @@ In order to be iterable, non-array objects must have a [Symbol.iterator]() metho
             ]
         });
     }
-    function o3e({ requestClose: e }) {
+    function a3e({ requestClose: e }) {
         let t = J(), n = t.getSafeUserId(), [r, i] = (0, A.useState)(``), [a, o] = (0, A.useState)(!1), [s, c] = (0, A.useState)(), [l, u] = V((0, A.useCallback)(async (e)=>{
             try {
                 await t.deactivateAccount(e, a), t.stopClient(), t.clearStores(), window.localStorage.clear(), window.location.reload();
@@ -152516,7 +152510,7 @@ In order to be iterable, non-array objects must have a [Symbol.iterator]() metho
             })
         });
     }
-    function s3e() {
+    function o3e() {
         let [e, t] = (0, A.useState)(!1);
         return (0, j.jsxs)(P, {
             direction: `Column`,
@@ -152548,17 +152542,17 @@ In order to be iterable, non-array objects must have a [Symbol.iterator]() metho
                         })
                     })
                 }),
-                e && (0, j.jsx)(o3e, {
+                e && (0, j.jsx)(a3e, {
                     requestClose: ()=>t(!1)
                 })
             ]
         });
     }
-    var c3e = `m.identity_server`;
-    function l3e() {
+    var s3e = `m.identity_server`;
+    function c3e() {
         let e = J(), t = e.getIdentityServerUrl() ?? ``, [n, r] = (0, A.useState)(t), [i, a] = V((0, A.useCallback)(async (t)=>{
             let n = t.trim().replace(/\/+$/, ``);
-            await e.setAccountData(c3e, {
+            await e.setAccountData(s3e, {
                 base_url: n === `` ? null : n
             }), e.setIdentityServerUrl(n === `` ? void 0 : n);
         }, [
@@ -152641,7 +152635,7 @@ In order to be iterable, non-array objects must have a [Symbol.iterator]() metho
             ]
         });
     }
-    function u3e({ requestClose: e }) {
+    function l3e({ requestClose: e }) {
         return (0, j.jsxs)(m1, {
             children: [
                 (0, j.jsx)(h1, {
@@ -152684,13 +152678,13 @@ In order to be iterable, non-array objects must have a [Symbol.iterator]() metho
                                     direction: `Column`,
                                     gap: `700`,
                                     children: [
-                                        (0, j.jsx)(Z4e, {}),
-                                        (0, j.jsx)(U4e, {}),
-                                        (0, j.jsx)(t3e, {}),
-                                        (0, j.jsx)(l3e, {}),
-                                        (0, j.jsx)(a3e, {}),
+                                        (0, j.jsx)(X4e, {}),
+                                        (0, j.jsx)(H4e, {}),
+                                        (0, j.jsx)(e3e, {}),
+                                        (0, j.jsx)(c3e, {}),
                                         (0, j.jsx)(i3e, {}),
-                                        (0, j.jsx)(s3e, {})
+                                        (0, j.jsx)(r3e, {}),
+                                        (0, j.jsx)(o3e, {})
                                     ]
                                 })
                             })
@@ -152700,31 +152694,31 @@ In order to be iterable, non-array objects must have a [Symbol.iterator]() metho
             ]
         });
     }
-    var d3e = ()=>pq(), f3e = `notifPermissionGranted`, p3e = ()=>{
+    var u3e = ()=>pq(), d3e = `notifPermissionGranted`, f3e = ()=>{
         try {
-            return localStorage.getItem(f3e) === `1`;
+            return localStorage.getItem(d3e) === `1`;
         } catch  {
             return !1;
         }
     }, g9 = (e)=>{
         try {
-            e ? localStorage.setItem(f3e, `1`) : localStorage.removeItem(f3e);
+            e ? localStorage.setItem(d3e, `1`) : localStorage.removeItem(d3e);
         } catch  {}
     };
     O_e().then((e)=>{
         g9(e);
     }).catch(()=>{});
-    var m3e = ()=>{
+    var p3e = ()=>{
         if (`Notification` in window) {
-            if (d3e()) {
+            if (u3e()) {
                 let e = A_e();
-                return e === void 0 ? window.Notification.permission === `granted` || p3e() ? `granted` : `prompt` : e ? `granted` : `prompt`;
+                return e === void 0 ? window.Notification.permission === `granted` || f3e() ? `granted` : `prompt` : e ? `granted` : `prompt`;
             }
             return window.Notification.permission === "default" ? `prompt` : (window.Notification.permission === `granted` ? g9(!0) : window.Notification.permission === `denied` && g9(!1), window.Notification.permission);
         }
         return `denied`;
     };
-    function h3e(e, t = `prompt`) {
+    function m3e(e, t = `prompt`) {
         let [n, r] = (0, A.useState)(t);
         return (0, A.useEffect)(()=>{
             let t;
@@ -152737,7 +152731,7 @@ In order to be iterable, non-array objects must have a [Symbol.iterator]() metho
                 t = e, n.apply(e), e.addEventListener(`change`, n);
             }).catch(()=>{});
             let i = async ()=>{
-                if (e === `notifications` && d3e()) try {
+                if (e === `notifications` && u3e()) try {
                     await T_e();
                     let e = await O_e();
                     g9(e), r((t)=>{
@@ -152748,7 +152742,7 @@ In order to be iterable, non-array objects must have a [Symbol.iterator]() metho
             };
             i();
             let a = setInterval(async ()=>{
-                if (e === `notifications` && d3e()) await i();
+                if (e === `notifications` && u3e()) await i();
                 else if (e === `notifications` && `Notification` in window) {
                     let e = window.Notification.permission;
                     e === `granted` ? (k_e(!0), g9(!0)) : e === `denied` && (k_e(!1), g9(!1)), r((t)=>t === e ? t : e);
@@ -152761,7 +152755,7 @@ In order to be iterable, non-array objects must have a [Symbol.iterator]() metho
             e
         ]), n;
     }
-    var g3e = ()=>{
+    var h3e = ()=>{
         let e = J(), [t, n] = ud((0, A.useCallback)(async ()=>{
             let t = ((await e.getThreePids())?.threepids).filter((e)=>e.medium === `email`).map((e)=>e.address);
             if (t.length === 0) return {
@@ -152789,8 +152783,8 @@ In order to be iterable, non-array objects must have a [Symbol.iterator]() metho
             n
         ];
     };
-    function _3e() {
-        let e = J(), [t, n] = g3e(), [r, i] = V((0, A.useCallback)(async (t, n)=>{
+    function g3e() {
+        let e = J(), [t, n] = h3e(), [r, i] = V((0, A.useCallback)(async (t, n)=>{
             if (n) {
                 await e.setPusher({
                     kind: `email`,
@@ -152860,8 +152854,8 @@ In order to be iterable, non-array objects must have a [Symbol.iterator]() metho
             })
         });
     }
-    function v3e() {
-        let e = h3e(`notifications`, m3e()), [t, n] = Y(X, `showNotifications`), [r, i] = Y(X, `notificationContentMode`), [a, o] = Y(X, `isNotificationSounds`);
+    function _3e() {
+        let e = m3e(`notifications`, p3e()), [t, n] = Y(X, `showNotifications`), [r, i] = Y(X, `notificationContentMode`), [a, o] = Y(X, `isNotificationSounds`);
         return (0, j.jsxs)(P, {
             direction: `Column`,
             gap: `100`,
@@ -152937,22 +152931,22 @@ In order to be iterable, non-array objects must have a [Symbol.iterator]() metho
                     variant: `SurfaceVariant`,
                     direction: `Column`,
                     gap: `400`,
-                    children: (0, j.jsx)(_3e, {})
+                    children: (0, j.jsx)(g3e, {})
                 })
             ]
         });
     }
-    var y3e = ()=>(0, A.useMemo)(()=>[
+    var v3e = ()=>(0, A.useMemo)(()=>[
                 Rq.NotifyLoud,
                 Rq.Notify,
                 Rq.OFF
-            ], []), b3e = ()=>(0, A.useMemo)(()=>({
+            ], []), y3e = ()=>(0, A.useMemo)(()=>({
                 [Rq.OFF]: `Disable`,
                 [Rq.Notify]: `Notify Silent`,
                 [Rq.NotifyLoud]: `Notify Loud`
             }), []);
-    function x3e({ pushRule: e, onChange: t }) {
-        let n = y3e(), r = b3e(), i = Uve(e.actions), [a, o] = V(t), s = a.status === B.Loading, [c, l] = (0, A.useState)(), u = (e)=>{
+    function b3e({ pushRule: e, onChange: t }) {
+        let n = v3e(), r = y3e(), i = Uve(e.actions), [a, o] = V(t), s = a.status === B.Loading, [c, l] = (0, A.useState)(), u = (e)=>{
             l(e.currentTarget.getBoundingClientRect());
         }, d = (e)=>{
             l(void 0), o(e);
@@ -153031,25 +153025,25 @@ In order to be iterable, non-array objects must have a [Symbol.iterator]() metho
                 conditions: r,
                 actions: n
             }
-        }), S3e = [
+        }), x3e = [
         zB.Override,
         zB.ContentSpecific,
         zB.RoomSpecific,
         zB.SenderSpecific,
         zB.Underride
-    ], C3e = (e, t)=>{
+    ], S3e = (e, t)=>{
         let { global: n } = e, r;
-        return S3e.some((e)=>{
+        return x3e.some((e)=>{
             let i = n[e]?.find((e)=>e.rule_id === t);
             return i ? (r = {
                 kind: e,
                 pushRule: i
             }, !0) : !1;
         }), r;
-    }, w3e = (e, t)=>(0, A.useMemo)(()=>C3e(e, t), [
+    }, C3e = (e, t)=>(0, A.useMemo)(()=>S3e(e, t), [
             e,
             t
-        ]), T3e = (e, t, n)=>{
+        ]), w3e = (e, t, n)=>{
         let r = [];
         return n && r.push({
             kind: RB.RoomMemberCount,
@@ -153070,7 +153064,7 @@ In order to be iterable, non-array objects must have a [Symbol.iterator]() metho
         };
     };
     function v9({ ruleId: e, pushRules: t, encrypted: n = !1, oneToOne: r = !1 }) {
-        let i = J(), a = T3e(e, n, r), { kind: o, pushRule: s } = w3e(t, e) ?? a, c = Vq(), l = (0, A.useCallback)(async (t)=>{
+        let i = J(), a = w3e(e, n, r), { kind: o, pushRule: s } = C3e(t, e) ?? a, c = Vq(), l = (0, A.useCallback)(async (t)=>{
             let n = c(t);
             await i.setPushRuleActions(`global`, o, e, n);
         }, [
@@ -153079,12 +153073,12 @@ In order to be iterable, non-array objects must have a [Symbol.iterator]() metho
             o,
             e
         ]);
-        return (0, j.jsx)(x3e, {
+        return (0, j.jsx)(b3e, {
             pushRule: s,
             onChange: l
         });
     }
-    function E3e() {
+    function T3e() {
         let e = Lq(zU.PushRules), t = (0, A.useMemo)(()=>e?.getContent() ?? {
                 global: {}
             }, [
@@ -153182,9 +153176,9 @@ In order to be iterable, non-array objects must have a [Symbol.iterator]() metho
             ]
         });
     }
-    var D3e = {
+    var E3e = {
         highlight: !0
-    }, O3e = (e)=>_9(zB.Override, BB.IsUserMention, Bq(Rq.NotifyLoud, {
+    }, D3e = (e)=>_9(zB.Override, BB.IsUserMention, Bq(Rq.NotifyLoud, {
             highlight: !0
         }), [
             {
@@ -153192,15 +153186,15 @@ In order to be iterable, non-array objects must have a [Symbol.iterator]() metho
                 key: `content.m\\.mentions.user_ids`,
                 value: e
             }
-        ]), k3e = _9(zB.Override, BB.ContainsDisplayName, Bq(Rq.NotifyLoud, {
+        ]), O3e = _9(zB.Override, BB.ContainsDisplayName, Bq(Rq.NotifyLoud, {
         highlight: !0
     }), [
         {
             kind: RB.ContainsDisplayName
         }
-    ]), A3e = (e)=>_9(zB.ContentSpecific, BB.ContainsUserName, Bq(Rq.NotifyLoud, {
+    ]), k3e = (e)=>_9(zB.ContentSpecific, BB.ContainsUserName, Bq(Rq.NotifyLoud, {
             highlight: !0
-        }), void 0, e), j3e = _9(zB.Override, BB.IsRoomMention, Bq(Rq.Notify, {
+        }), void 0, e), A3e = _9(zB.Override, BB.IsRoomMention, Bq(Rq.Notify, {
         highlight: !0
     }), [
         {
@@ -153212,7 +153206,7 @@ In order to be iterable, non-array objects must have a [Symbol.iterator]() metho
             kind: RB.SenderNotificationPermission,
             key: `room`
         }
-    ]), M3e = _9(zB.Override, BB.AtRoomNotification, Bq(Rq.Notify, {
+    ]), j3e = _9(zB.Override, BB.AtRoomNotification, Bq(Rq.Notify, {
         highlight: !0
     }), [
         {
@@ -153226,7 +153220,7 @@ In order to be iterable, non-array objects must have a [Symbol.iterator]() metho
         }
     ]);
     function y9({ ruleId: e, pushRules: t, defaultPushRuleData: n }) {
-        let r = J(), { kind: i, pushRule: a } = w3e(t, e) ?? n, o = Vq(D3e), s = (0, A.useCallback)(async (t)=>{
+        let r = J(), { kind: i, pushRule: a } = C3e(t, e) ?? n, o = Vq(E3e), s = (0, A.useCallback)(async (t)=>{
             let n = o(t);
             await r.setPushRuleActions(`global`, i, e, n);
         }, [
@@ -153235,12 +153229,12 @@ In order to be iterable, non-array objects must have a [Symbol.iterator]() metho
             i,
             e
         ]);
-        return (0, j.jsx)(x3e, {
+        return (0, j.jsx)(b3e, {
             pushRule: a,
             onChange: s
         });
     }
-    function N3e() {
+    function M3e() {
         let e = J().getUserId(), { displayName: t } = p9(e), n = Lq(zU.PushRules), r = (0, A.useMemo)(()=>n?.getContent() ?? {
                 global: {}
             }, [
@@ -153289,7 +153283,7 @@ In order to be iterable, non-array objects must have a [Symbol.iterator]() metho
                         after: (0, j.jsx)(y9, {
                             pushRules: r,
                             ruleId: BB.IsUserMention,
-                            defaultPushRuleData: O3e(e)
+                            defaultPushRuleData: D3e(e)
                         })
                     })
                 }),
@@ -153303,7 +153297,7 @@ In order to be iterable, non-array objects must have a [Symbol.iterator]() metho
                         after: (0, j.jsx)(y9, {
                             pushRules: r,
                             ruleId: BB.ContainsDisplayName,
-                            defaultPushRuleData: k3e
+                            defaultPushRuleData: O3e
                         })
                     })
                 }),
@@ -153317,7 +153311,7 @@ In order to be iterable, non-array objects must have a [Symbol.iterator]() metho
                         after: (0, j.jsx)(y9, {
                             pushRules: r,
                             ruleId: BB.ContainsUserName,
-                            defaultPushRuleData: A3e(KG(e) ?? e)
+                            defaultPushRuleData: k3e(KG(e) ?? e)
                         })
                     })
                 }),
@@ -153331,7 +153325,7 @@ In order to be iterable, non-array objects must have a [Symbol.iterator]() metho
                         after: (0, j.jsx)(y9, {
                             pushRules: r,
                             ruleId: BB.IsRoomMention,
-                            defaultPushRuleData: j3e
+                            defaultPushRuleData: A3e
                         })
                     })
                 }),
@@ -153345,20 +153339,20 @@ In order to be iterable, non-array objects must have a [Symbol.iterator]() metho
                         after: (0, j.jsx)(y9, {
                             pushRules: r,
                             ruleId: BB.AtRoomNotification,
-                            defaultPushRuleData: M3e
+                            defaultPushRuleData: j3e
                         })
                     })
                 })
             ]
         });
     }
-    var P3e = {
+    var N3e = {
         highlight: !0
     };
-    function F3e() {
+    function P3e() {
         let e = J(), [t, n] = (0, A.useState)(``), [r, i] = V((0, A.useCallback)(async (t)=>{
             e.addPushRule(`global`, zB.ContentSpecific, t, {
-                actions: Bq(Rq.Notify, P3e),
+                actions: Bq(Rq.Notify, N3e),
                 pattern: t
             }), n(``);
         }, [
@@ -153428,7 +153422,7 @@ In order to be iterable, non-array objects must have a [Symbol.iterator]() metho
             ]
         });
     }
-    function I3e({ pushRule: e }) {
+    function F3e({ pushRule: e }) {
         let t = J(), [n, r] = V((0, A.useCallback)(()=>t.deletePushRule(`global`, zB.ContentSpecific, e.rule_id), [
             t,
             e
@@ -153447,8 +153441,8 @@ In order to be iterable, non-array objects must have a [Symbol.iterator]() metho
             })
         });
     }
-    function L3e({ pushRule: e }) {
-        let t = J(), n = Vq(P3e), r = (0, A.useCallback)(async (r)=>{
+    function I3e({ pushRule: e }) {
+        let t = J(), n = Vq(N3e), r = (0, A.useCallback)(async (r)=>{
             let i = n(r);
             await t.setPushRuleActions(`global`, zB.ContentSpecific, e.rule_id, i);
         }, [
@@ -153456,12 +153450,12 @@ In order to be iterable, non-array objects must have a [Symbol.iterator]() metho
             n,
             e
         ]);
-        return (0, j.jsx)(x3e, {
+        return (0, j.jsx)(b3e, {
             pushRule: e,
             onChange: r
         });
     }
-    function R3e() {
+    function L3e() {
         let e = Lq(zU.PushRules), t = (0, A.useMemo)(()=>e?.getContent() ?? {
                 global: {}
             }, [
@@ -153510,7 +153504,7 @@ In order to be iterable, non-array objects must have a [Symbol.iterator]() metho
                     children: (0, j.jsx)(H4, {
                         title: `Select Keyword`,
                         description: `Set a notification preference for message containing given keyword.`,
-                        children: (0, j.jsx)(F3e, {})
+                        children: (0, j.jsx)(P3e, {})
                     })
                 }),
                 n.map((e)=>(0, j.jsx)(C1, {
@@ -153520,10 +153514,10 @@ In order to be iterable, non-array objects must have a [Symbol.iterator]() metho
                         gap: `400`,
                         children: (0, j.jsx)(H4, {
                             title: `"${e.pattern}"`,
-                            before: (0, j.jsx)(I3e, {
+                            before: (0, j.jsx)(F3e, {
                                 pushRule: e
                             }),
-                            after: (0, j.jsx)(L3e, {
+                            after: (0, j.jsx)(I3e, {
                                 pushRule: e
                             })
                         })
@@ -153531,7 +153525,7 @@ In order to be iterable, non-array objects must have a [Symbol.iterator]() metho
             ]
         });
     }
-    function z3e({ requestClose: e }) {
+    function R3e({ requestClose: e }) {
         return (0, j.jsxs)(m1, {
             children: [
                 (0, j.jsx)(h1, {
@@ -153574,10 +153568,10 @@ In order to be iterable, non-array objects must have a [Symbol.iterator]() metho
                                     direction: `Column`,
                                     gap: `700`,
                                     children: [
-                                        (0, j.jsx)(v3e, {}),
-                                        (0, j.jsx)(E3e, {}),
-                                        (0, j.jsx)(N3e, {}),
-                                        (0, j.jsx)(R3e, {}),
+                                        (0, j.jsx)(_3e, {}),
+                                        (0, j.jsx)(T3e, {}),
+                                        (0, j.jsx)(M3e, {}),
+                                        (0, j.jsx)(L3e, {}),
                                         (0, j.jsxs)(P, {
                                             direction: `Column`,
                                             gap: `100`,
@@ -153606,7 +153600,7 @@ In order to be iterable, non-array objects must have a [Symbol.iterator]() metho
             ]
         });
     }
-    var B3e = (e)=>{
+    var z3e = (e)=>{
         let t = J();
         (0, A.useEffect)(()=>(t.on(SV.DevicesUpdated, e), ()=>{
                 t.removeListener(SV.DevicesUpdated, e);
@@ -153614,12 +153608,12 @@ In order to be iterable, non-array objects must have a [Symbol.iterator]() metho
             t,
             e
         ]);
-    }, V3e = [
+    }, B3e = [
         `devices`
     ];
-    function H3e() {
+    function V3e() {
         let e = J(), { data: t, refetch: n } = od({
-            queryKey: V3e,
+            queryKey: B3e,
             queryFn: (0, A.useCallback)(async ()=>(await e.getDevices()).devices ?? [], [
                 e
             ]),
@@ -153631,7 +153625,7 @@ In order to be iterable, non-array objects must have a [Symbol.iterator]() metho
         }, [
             n
         ]);
-        return B3e((0, A.useCallback)((t)=>{
+        return z3e((0, A.useCallback)((t)=>{
             let n = e.getUserId();
             n && t.includes(n) && r();
         }, [
@@ -153642,9 +153636,9 @@ In order to be iterable, non-array objects must have a [Symbol.iterator]() metho
             r
         ];
     }
-    var U3e = (e)=>(0, A.useMemo)(()=>e?.map((e)=>e.device_id) ?? [], [
+    var H3e = (e)=>(0, A.useMemo)(()=>e?.map((e)=>e.device_id) ?? [], [
             e
-        ]), W3e = (e)=>{
+        ]), U3e = (e)=>{
         let t = J().getDeviceId();
         return [
             (0, A.useMemo)(()=>e?.find((e)=>e.device_id === t), [
@@ -153664,8 +153658,8 @@ In order to be iterable, non-array objects must have a [Symbol.iterator]() metho
     function S9() {
         return `Your browser does not support the required cryptography extensions`;
     }
-    var G3e = 1e3, K3e = 5e6;
-    async function q3e(e, t, n) {
+    var W3e = 1e3, G3e = 5e6;
+    async function K3e(e, t, n) {
         let r = new Date, i;
         try {
             i = await b9.importKey(`raw`, new TextEncoder().encode(n), {
@@ -153711,53 +153705,53 @@ In order to be iterable, non-array objects must have a [Symbol.iterator]() metho
             l
         ]);
     }
-    function J3e(e) {
+    function q3e(e) {
         let t = window.atob(e), n = new Uint8Array(t.length);
         for(let e = 0; e < t.length; e += 1)n[e] = t.charCodeAt(e);
         return n;
     }
-    function Y3e(e) {
+    function J3e(e) {
         let t = String.fromCharCode.apply(null, e);
         return window.btoa(t);
     }
-    var X3e = `-----BEGIN MEGOLM SESSION DATA-----`, Z3e = `-----END MEGOLM SESSION DATA-----`;
-    function Q3e(e) {
+    var Y3e = `-----BEGIN MEGOLM SESSION DATA-----`, X3e = `-----END MEGOLM SESSION DATA-----`;
+    function Z3e(e) {
         let t = new TextDecoder().decode(new Uint8Array(e)), n = 0;
         for(;;){
             let e = t.indexOf(`
 `, n);
             if (e < 0) throw Error(`Header line not found`);
             let r = t.slice(n, e).trim();
-            if (n = e + 1, r === X3e) break;
+            if (n = e + 1, r === Y3e) break;
         }
         let r = n;
         for(;;){
             let e = t.indexOf(`
 `, n);
-            if (t.slice(n, e < 0 ? void 0 : e).trim() === Z3e) break;
+            if (t.slice(n, e < 0 ? void 0 : e).trim() === X3e) break;
             if (e < 0) throw Error(`Trailer line not found`);
             n = e + 1;
         }
         let i = n;
-        return J3e(t.slice(r, i));
+        return q3e(t.slice(r, i));
     }
-    function $3e(e) {
+    function Q3e(e) {
         let t = Math.ceil(e.length / 96), n = Array(t + 3);
-        n[0] = X3e;
+        n[0] = Y3e;
         let r = 0, i;
-        for(i = 1; i <= t; i += 1)n[i] = Y3e(e.subarray(r, r + 96)), r += 96;
-        return n[i] = Z3e, i += 1, n[i] = ``, new TextEncoder().encode(n.join(`
+        for(i = 1; i <= t; i += 1)n[i] = J3e(e.subarray(r, r + 96)), r += 96;
+        return n[i] = X3e, i += 1, n[i] = ``, new TextEncoder().encode(n.join(`
 `)).buffer;
     }
-    async function e6e(e, t) {
-        let n = Q3e(e);
+    async function $3e(e, t) {
+        let n = Z3e(e);
         if (n.length < 1) throw x9(`Invalid file: too short`, `Not a valid keyfile`);
         if (n[0] !== 1) throw x9(`Unsupported version`, `Not a valid keyfile`);
         let r = n.length - 69;
         if (r < 0) throw x9(`Invalid file: too short`, `Not a valid keyfile`);
         let i = n.subarray(1, 17), a = n.subarray(17, 33), o = n[33] << 24 | n[34] << 16 | n[35] << 8 | n[36];
-        if (!Number.isInteger(o) || o < G3e || o > K3e) throw x9(`Invalid file: kdf iteration count out of range (${o})`, `Not a valid keyfile`);
-        let s = n.subarray(37, 37 + r), c = n.subarray(-32), [l, u] = await q3e(i, o, t), d = n.subarray(0, -32), f;
+        if (!Number.isInteger(o) || o < W3e || o > G3e) throw x9(`Invalid file: kdf iteration count out of range (${o})`, `Not a valid keyfile`);
+        let s = n.subarray(37, 37 + r), c = n.subarray(-32), [l, u] = await K3e(i, o, t), d = n.subarray(0, -32), f;
         try {
             f = await b9.verify({
                 name: `HMAC`
@@ -153778,13 +153772,13 @@ In order to be iterable, non-array objects must have a [Symbol.iterator]() metho
         }
         return new TextDecoder().decode(new Uint8Array(p));
     }
-    async function t6e(e, t, n) {
+    async function e6e(e, t, n) {
         n ||= {};
         let r = n.kdf_rounds || 5e5, i = new Uint8Array(16);
         window.crypto.getRandomValues(i);
         let a = new Uint8Array(16);
         window.crypto.getRandomValues(a), a[8] &= 127;
-        let [o, s] = await q3e(i, r, t), c = new TextEncoder().encode(e), l;
+        let [o, s] = await K3e(i, r, t), c = new TextEncoder().encode(e), l;
         try {
             l = await b9.encrypt({
                 name: `AES-CTR`,
@@ -153805,13 +153799,13 @@ In order to be iterable, non-array objects must have a [Symbol.iterator]() metho
             throw x9(`subtleCrypto.sign failed: ` + e, S9());
         }
         let g = new Uint8Array(h);
-        return f.set(g, p), $3e(f);
+        return f.set(g, p), Q3e(f);
     }
-    function n6e() {
+    function t6e() {
         let e = J(), t = cd(), [n, r] = V((0, A.useCallback)(async (t)=>{
             let n = e.getCrypto();
             if (!n) throw Error(`Unexpected Error! Crypto module not found!`);
-            let r = await t6e(await n.exportRoomKeysAsJson(), t), i = new Blob([
+            let r = await e6e(await n.exportRoomKeysAsJson(), t), i = new Blob([
                 r
             ], {
                 type: `text/plain;charset=us-ascii`
@@ -153924,7 +153918,7 @@ In order to be iterable, non-array objects must have a [Symbol.iterator]() metho
             })
         });
     }
-    function r6e() {
+    function n6e() {
         let [e, t] = (0, A.useState)(!1);
         return (0, j.jsxs)(j.Fragment, {
             children: [
@@ -153954,15 +153948,15 @@ In order to be iterable, non-array objects must have a [Symbol.iterator]() metho
                         })
                     })
                 }),
-                e && (0, j.jsx)(n6e, {})
+                e && (0, j.jsx)(t6e, {})
             ]
         });
     }
-    function i6e({ file: e, onDone: t }) {
+    function r6e({ file: e, onDone: t }) {
         let n = J(), r = cd(), [i, a] = V((0, A.useCallback)(async (t)=>{
             let r = n.getCrypto();
             if (!r) throw Error(`Unexpected Error! Crypto module not found!`);
-            let i = await e6e(await e.arrayBuffer(), t);
+            let i = await $3e(await e.arrayBuffer(), t);
             await r.importRoomKeysAsJson(i);
         }, [
             e,
@@ -154044,7 +154038,7 @@ In order to be iterable, non-array objects must have a [Symbol.iterator]() metho
             })
         });
     }
-    function a6e() {
+    function i6e() {
         let [e, t] = (0, A.useState)(), n = T7(t), r = (0, A.useCallback)(()=>{
             t(void 0);
         }, []);
@@ -154099,14 +154093,14 @@ In order to be iterable, non-array objects must have a [Symbol.iterator]() metho
                         })
                     })
                 }),
-                e && (0, j.jsx)(i6e, {
+                e && (0, j.jsx)(r6e, {
                     file: e,
                     onDone: r
                 })
             ]
         });
     }
-    function o6e() {
+    function a6e() {
         return (0, j.jsxs)(P, {
             direction: `Column`,
             gap: `100`,
@@ -154120,23 +154114,23 @@ In order to be iterable, non-array objects must have a [Symbol.iterator]() metho
                     variant: `SurfaceVariant`,
                     direction: `Column`,
                     gap: `400`,
-                    children: (0, j.jsx)(r6e, {})
+                    children: (0, j.jsx)(n6e, {})
                 }),
                 (0, j.jsx)(C1, {
                     className: f9,
                     variant: `SurfaceVariant`,
                     direction: `Column`,
                     gap: `400`,
-                    children: (0, j.jsx)(a6e, {})
+                    children: (0, j.jsx)(i6e, {})
                 })
             ]
         });
     }
-    var s6e = ()=>!!Lq(zU.CrossSigningMaster)?.getContent(), c6e = `vcu13p0`;
+    var o6e = ()=>!!Lq(zU.CrossSigningMaster)?.getContent(), s6e = `vcu13p0`;
     function C9({ variant: e = `Primary`, title: t, description: n, before: r, after: i, children: a }) {
         return (0, j.jsxs)(P, {
             direction: `Column`,
-            className: (0, bt.default)(c6e, Sq({
+            className: (0, bt.default)(s6e, Sq({
                 variant: e
             })),
             gap: `300`,
@@ -154177,15 +154171,15 @@ In order to be iterable, non-array objects must have a [Symbol.iterator]() metho
             ]
         });
     }
-    var l6e = async (e, t, n)=>{
+    var c6e = async (e, t, n)=>{
         let r = await e.getDeviceVerificationStatus(t, n);
         return r ? r.crossSigningVerified : null;
     }, w9 = function(e) {
         return e[e.Unknown = 0] = `Unknown`, e[e.Unverified = 1] = `Unverified`, e[e.Verified = 2] = `Verified`, e[e.Unsupported = 3] = `Unsupported`, e;
-    }({}), u6e = (e, t, n, r)=>{
+    }({}), l6e = (e, t, n, r)=>{
         let i = J(), a = (0, A.useCallback)(async ()=>{
             if (e && n) {
-                let i = await l6e(e, t, n);
+                let i = await c6e(e, t, n);
                 if (i === null) {
                     r(3);
                     return;
@@ -154206,7 +154200,7 @@ In order to be iterable, non-array objects must have a [Symbol.iterator]() metho
             i,
             a,
             t
-        ]), B3e((0, A.useCallback)((e)=>{
+        ]), z3e((0, A.useCallback)((e)=>{
             e.includes(t) && a();
         }, [
             t,
@@ -154214,12 +154208,12 @@ In order to be iterable, non-array objects must have a [Symbol.iterator]() metho
         ]));
     }, T9 = (e, t, n)=>{
         let [r, i] = (0, A.useState)(0);
-        return u6e(e, t, n, i), r;
-    }, d6e = (e, t, n)=>{
+        return l6e(e, t, n, i), r;
+    }, u6e = (e, t, n)=>{
         let [r, i] = (0, A.useState)(), a = cd(), o = (0, A.useCallback)(async ()=>{
             let r = 0;
             if (e) {
-                let i = n.map((n)=>l6e(e, t, n));
+                let i = n.map((n)=>c6e(e, t, n));
                 br(await Promise.allSettled(i)).forEach((e)=>{
                     e === !1 && (r += 1);
                 });
@@ -154231,7 +154225,7 @@ In order to be iterable, non-array objects must have a [Symbol.iterator]() metho
             n,
             a
         ]);
-        return B3e((0, A.useCallback)((e)=>{
+        return z3e((0, A.useCallback)((e)=>{
             e.includes(t) && o();
         }, [
             t,
@@ -154241,8 +154235,8 @@ In order to be iterable, non-array objects must have a [Symbol.iterator]() metho
         }, [
             o
         ]), r;
-    }, f6e = (0, A.forwardRef)(({ handleClose: e }, t)=>{
-        let n = J(), r = !!n.getRooms().find((e)=>e.hasEncryptionStateEvent()), i = s6e(), a = T9(n.getCrypto(), n.getSafeUserId(), n.getDeviceId() ?? void 0), [o, s] = V((0, A.useCallback)(async ()=>{
+    }, d6e = (0, A.forwardRef)(({ handleClose: e }, t)=>{
+        let n = J(), r = !!n.getRooms().find((e)=>e.hasEncryptionStateEvent()), i = o6e(), a = T9(n.getCrypto(), n.getSafeUserId(), n.getDeviceId() ?? void 0), [o, s] = V((0, A.useCallback)(async ()=>{
             await G_e(n);
         }, [
             n
@@ -154331,7 +154325,7 @@ In order to be iterable, non-array objects must have a [Symbol.iterator]() metho
             ]
         });
     });
-    function p6e() {
+    function f6e() {
         return (0, j.jsx)(C1, {
             className: f9,
             style: {
@@ -154342,7 +154336,7 @@ In order to be iterable, non-array objects must have a [Symbol.iterator]() metho
             gap: `400`
         });
     }
-    function m6e({ ts: e }) {
+    function p6e({ ts: e }) {
         let [t] = Y(X, `hour24Clock`), [n] = Y(X, `dateFormatString`);
         return (0, j.jsxs)(z, {
             className: _$,
@@ -154366,7 +154360,7 @@ In order to be iterable, non-array objects must have a [Symbol.iterator]() metho
             ]
         });
     }
-    function h6e({ device: e }) {
+    function m6e({ device: e }) {
         return (0, j.jsxs)(j.Fragment, {
             children: [
                 typeof e.device_id == `string` && (0, j.jsxs)(z, {
@@ -154394,7 +154388,7 @@ In order to be iterable, non-array objects must have a [Symbol.iterator]() metho
             ]
         });
     }
-    function g6e({ crypto: e }) {
+    function h6e({ crypto: e }) {
         let [t, n] = V((0, A.useCallback)(()=>e.getOwnDeviceKeys(), [
             e
         ]));
@@ -154415,7 +154409,7 @@ In order to be iterable, non-array objects must have a [Symbol.iterator]() metho
             ]
         });
     }
-    function _6e({ device: e, onCancel: t, onRename: n, refreshDeviceList: r }) {
+    function g6e({ device: e, onCancel: t, onRename: n, refreshDeviceList: r }) {
         let i = J(), [a, o] = V((0, A.useCallback)(async (t)=>{
             await i.setDeviceDetails(e.device_id, {
                 display_name: t
@@ -154514,7 +154508,7 @@ In order to be iterable, non-array objects must have a [Symbol.iterator]() metho
             ]
         });
     }
-    function v6e() {
+    function _6e() {
         let [e, t] = (0, A.useState)(!1), n = ()=>t(!1);
         return (0, j.jsxs)(j.Fragment, {
             children: [
@@ -154538,7 +154532,7 @@ In order to be iterable, non-array objects must have a [Symbol.iterator]() metho
                                 clickOutsideDeactivates: !0,
                                 escapeDeactivates: mp
                             },
-                            children: (0, j.jsx)(f6e, {
+                            children: (0, j.jsx)(d6e, {
                                 handleClose: n
                             })
                         })
@@ -154547,7 +154541,7 @@ In order to be iterable, non-array objects must have a [Symbol.iterator]() metho
             ]
         });
     }
-    function y6e({ deviceId: e, deleted: t, onDeleteToggle: n, disabled: r }) {
+    function v6e({ deviceId: e, deleted: t, onDeleteToggle: n, disabled: r }) {
         return t ? (0, j.jsx)(xn, {
             variant: `Critical`,
             fill: `None`,
@@ -154570,7 +154564,7 @@ In order to be iterable, non-array objects must have a [Symbol.iterator]() metho
             })
         });
     }
-    function b6e({ device: e, deleted: t, refreshDeviceList: n, disabled: r, options: i, children: a }) {
+    function y6e({ device: e, deleted: t, refreshDeviceList: n, disabled: r, options: i, children: a }) {
         let o = e.last_seen_ts, [s, c] = (0, A.useState)(!1), [l, u] = (0, A.useState)(!1), d = (0, A.useCallback)(()=>{
             u(!1);
         }, []);
@@ -154613,12 +154607,12 @@ In order to be iterable, non-array objects must have a [Symbol.iterator]() metho
                         (0, j.jsxs)(P, {
                             direction: `Column`,
                             children: [
-                                typeof o == `number` && (0, j.jsx)(m6e, {
+                                typeof o == `number` && (0, j.jsx)(p6e, {
                                     ts: o
                                 }),
                                 s && (0, j.jsxs)(j.Fragment, {
                                     children: [
-                                        (0, j.jsx)(h6e, {
+                                        (0, j.jsx)(m6e, {
                                             device: e
                                         }),
                                         a
@@ -154628,7 +154622,7 @@ In order to be iterable, non-array objects must have a [Symbol.iterator]() metho
                         })
                     ]
                 }),
-                l && (0, j.jsx)(_6e, {
+                l && (0, j.jsx)(g6e, {
                     device: e,
                     onCancel: ()=>u(!1),
                     onRename: d,
@@ -154637,10 +154631,10 @@ In order to be iterable, non-array objects must have a [Symbol.iterator]() metho
             ]
         });
     }
-    function x6e({ crypto: e, userId: t, deviceId: n, children: r }) {
+    function b6e({ crypto: e, userId: t, deviceId: n, children: r }) {
         return r(T9(e, t, n));
     }
-    function S6e({ processing: e, keyContent: t, passphraseContent: n, onDecodedRecoveryKey: r }) {
+    function x6e({ processing: e, keyContent: t, passphraseContent: n, onDecodedRecoveryKey: r }) {
         let i = J(), a = cd(), [o, s] = V((0, A.useCallback)(async (e, n, r, a)=>{
             let o = await Fce(e, n, r, a);
             if (!await i.secretStorage.checkKey(o, t)) throw Error(`Invalid recovery passphrase.`);
@@ -154726,7 +154720,7 @@ In order to be iterable, non-array objects must have a [Symbol.iterator]() metho
             ]
         });
     }
-    function C6e({ processing: e, keyContent: t, onDecodedRecoveryKey: n }) {
+    function S6e({ processing: e, keyContent: t, onDecodedRecoveryKey: n }) {
         let r = J(), i = cd(), [a, o] = V((0, A.useCallback)(async (e)=>{
             let n = Nce(e);
             if (!await r.secretStorage.checkKey(n, t)) throw Error(`Invalid recovery key.`);
@@ -154809,7 +154803,7 @@ In order to be iterable, non-array objects must have a [Symbol.iterator]() metho
             ]
         });
     }
-    function w6e({ value: e, onChange: t }) {
+    function C6e({ value: e, onChange: t }) {
         let [n, r] = (0, A.useState)(), i = (e)=>{
             r(e.currentTarget.getBoundingClientRect());
         }, a = (e)=>{
@@ -154894,7 +154888,7 @@ In order to be iterable, non-array objects must have a [Symbol.iterator]() metho
             ]
         });
     }
-    function T6e({ secretStorageKeyId: e, secretStorageKeyContent: t, options: n }) {
+    function w6e({ secretStorageKeyId: e, secretStorageKeyContent: t, options: n }) {
         let r = J(), i = !!t.passphrase, [a, o] = (0, A.useState)(i ? `passphrase` : `key`), [s, c] = V((0, A.useCallback)(async (t)=>{
             let n = r.getCrypto();
             if (!n) throw Error(`Unexpected Error! Crypto object not found.`);
@@ -154914,7 +154908,7 @@ In order to be iterable, non-array objects must have a [Symbol.iterator]() metho
                         alignItems: `Center`,
                         gap: `200`,
                         children: [
-                            i && (0, j.jsx)(w6e, {
+                            i && (0, j.jsx)(C6e, {
                                 value: a,
                                 onChange: o
                             }),
@@ -154934,12 +154928,12 @@ In order to be iterable, non-array objects must have a [Symbol.iterator]() metho
                     direction: `Column`,
                     gap: `100`,
                     children: [
-                        a === `key` && (0, j.jsx)(C6e, {
+                        a === `key` && (0, j.jsx)(S6e, {
                             processing: l,
                             keyContent: t,
                             onDecodedRecoveryKey: c
                         }),
-                        a === `passphrase` && t.passphrase && (0, j.jsx)(S6e, {
+                        a === `passphrase` && t.passphrase && (0, j.jsx)(x6e, {
                             processing: l,
                             keyContent: t,
                             passphraseContent: t.passphrase,
@@ -154959,7 +154953,7 @@ In order to be iterable, non-array objects must have a [Symbol.iterator]() metho
             ]
         });
     }
-    var E6e = (e)=>{
+    var T6e = (e)=>{
         let t = J();
         (0, A.useEffect)(()=>(t.on(SV.VerificationRequestReceived, e), ()=>{
                 t.removeListener(SV.VerificationRequestReceived, e);
@@ -154967,35 +154961,35 @@ In order to be iterable, non-array objects must have a [Symbol.iterator]() metho
             t,
             e
         ]);
-    }, D6e = (e, t)=>{
+    }, E6e = (e, t)=>{
         (0, A.useEffect)(()=>(e.on(_V.Change, t), ()=>{
                 e.removeListener(_V.Change, t);
             }), [
             e,
             t
         ]);
-    }, O6e = (e)=>{
+    }, D6e = (e)=>{
         let [t, n] = (0, A.useState)(()=>e.phase);
-        return D6e(e, (0, A.useCallback)(()=>{
+        return E6e(e, (0, A.useCallback)(()=>{
             n(e.phase);
         }, [
             e
         ])), t;
-    }, k6e = (e, t)=>{
+    }, O6e = (e, t)=>{
         (0, A.useEffect)(()=>(e.on(yV.Cancel, t), ()=>{
                 e.removeListener(yV.Cancel, t);
             }), [
             e,
             t
         ]);
-    }, A6e = (e, t)=>{
+    }, k6e = (e, t)=>{
         (0, A.useEffect)(()=>(e.on(yV.ShowSas, t), ()=>{
                 e.removeListener(yV.ShowSas, t);
             }), [
             e,
             t
         ]);
-    }, j6e = {
+    }, A6e = {
         padding: `0 ${N.space.S200} 0 ${N.space.S400}`,
         borderBottomWidth: N.borderWidth.B300
     };
@@ -155015,7 +155009,7 @@ In order to be iterable, non-array objects must have a [Symbol.iterator]() metho
             ]
         });
     }
-    function M6e({ message: e, onClose: t }) {
+    function j6e({ message: e, onClose: t }) {
         return (0, j.jsxs)(P, {
             direction: `Column`,
             gap: `400`,
@@ -155035,7 +155029,7 @@ In order to be iterable, non-array objects must have a [Symbol.iterator]() metho
             ]
         });
     }
-    function N6e() {
+    function M6e() {
         return (0, j.jsxs)(P, {
             direction: `Column`,
             gap: `400`,
@@ -155049,7 +155043,7 @@ In order to be iterable, non-array objects must have a [Symbol.iterator]() metho
             ]
         });
     }
-    function P6e({ onAccept: e }) {
+    function N6e({ onAccept: e }) {
         let [t, n] = V(e), r = t.status === B.Loading;
         return (0, j.jsxs)(P, {
             direction: `Column`,
@@ -155076,7 +155070,7 @@ In order to be iterable, non-array objects must have a [Symbol.iterator]() metho
             ]
         });
     }
-    function F6e() {
+    function P6e() {
         return (0, j.jsxs)(P, {
             direction: `Column`,
             gap: `400`,
@@ -155090,7 +155084,7 @@ In order to be iterable, non-array objects must have a [Symbol.iterator]() metho
             ]
         });
     }
-    function I6e({ onStart: e }) {
+    function F6e({ onStart: e }) {
         return (0, A.useEffect)(()=>{
             e();
         }, [
@@ -155103,7 +155097,7 @@ In order to be iterable, non-array objects must have a [Symbol.iterator]() metho
             })
         });
     }
-    function L6e({ sasData: e }) {
+    function I6e({ sasData: e }) {
         let [t, n] = V((0, A.useCallback)(()=>e.confirm(), [
             e
         ])), r = t.status === B.Loading || t.status === B.Success;
@@ -155175,13 +155169,13 @@ In order to be iterable, non-array objects must have a [Symbol.iterator]() metho
             ]
         });
     }
-    function R6e({ verifier: e, onCancel: t }) {
+    function L6e({ verifier: e, onCancel: t }) {
         let [n, r] = (0, A.useState)();
-        return A6e(e, r), k6e(e, t), (0, A.useEffect)(()=>{
+        return k6e(e, r), O6e(e, t), (0, A.useEffect)(()=>{
             e.verify();
         }, [
             e
-        ]), n ? (0, j.jsx)(L6e, {
+        ]), n ? (0, j.jsx)(I6e, {
             sasData: n
         }) : (0, j.jsx)(P, {
             direction: `Column`,
@@ -155191,7 +155185,7 @@ In order to be iterable, non-array objects must have a [Symbol.iterator]() metho
             })
         });
     }
-    function z6e({ onExit: e }) {
+    function R6e({ onExit: e }) {
         return (0, j.jsxs)(P, {
             direction: `Column`,
             gap: `400`,
@@ -155213,7 +155207,7 @@ In order to be iterable, non-array objects must have a [Symbol.iterator]() metho
             ]
         });
     }
-    function B6e({ onClose: e }) {
+    function z6e({ onClose: e }) {
         return (0, j.jsxs)(P, {
             direction: `Column`,
             gap: `400`,
@@ -155233,8 +155227,8 @@ In order to be iterable, non-array objects must have a [Symbol.iterator]() metho
             ]
         });
     }
-    function V6e({ request: e, onExit: t }) {
-        let n = O6e(e), r = (0, A.useCallback)(()=>{
+    function B6e({ request: e, onExit: t }) {
+        let n = D6e(e), r = (0, A.useCallback)(()=>{
             e.phase !== vV.Done && e.phase !== vV.Cancelled && e.cancel(), t();
         }, [
             e,
@@ -155242,7 +155236,7 @@ In order to be iterable, non-array objects must have a [Symbol.iterator]() metho
         ]), i = (0, A.useCallback)(()=>e.accept(), [
             e
         ]), a = (0, A.useCallback)(async ()=>{
-            await e.startVerification(qQe.Sas);
+            await e.startVerification(KQe.Sas);
         }, [
             e
         ]);
@@ -155260,7 +155254,7 @@ In order to be iterable, non-array objects must have a [Symbol.iterator]() metho
                         variant: `Surface`,
                         children: [
                             (0, j.jsxs)(wn, {
-                                style: j6e,
+                                style: A6e,
                                 variant: `Surface`,
                                 size: `500`,
                                 children: [
@@ -155288,23 +155282,23 @@ In order to be iterable, non-array objects must have a [Symbol.iterator]() metho
                                 direction: `Column`,
                                 gap: `400`,
                                 children: [
-                                    n === vV.Requested && (e.initiatedByMe ? (0, j.jsx)(N6e, {}) : (0, j.jsx)(P6e, {
+                                    n === vV.Requested && (e.initiatedByMe ? (0, j.jsx)(M6e, {}) : (0, j.jsx)(N6e, {
                                         onAccept: i
                                     })),
-                                    n === vV.Ready && (e.initiatedByMe ? (0, j.jsx)(I6e, {
+                                    n === vV.Ready && (e.initiatedByMe ? (0, j.jsx)(F6e, {
                                         onStart: a
-                                    }) : (0, j.jsx)(F6e, {})),
-                                    n === vV.Started && (e.verifier ? (0, j.jsx)(R6e, {
+                                    }) : (0, j.jsx)(P6e, {})),
+                                    n === vV.Started && (e.verifier ? (0, j.jsx)(L6e, {
                                         verifier: e.verifier,
                                         onCancel: r
-                                    }) : (0, j.jsx)(M6e, {
+                                    }) : (0, j.jsx)(j6e, {
                                         message: `Unexpected Error! Verification is started but verifier is missing.`,
                                         onClose: r
                                     })),
-                                    n === vV.Done && (0, j.jsx)(z6e, {
+                                    n === vV.Done && (0, j.jsx)(R6e, {
                                         onExit: t
                                     }),
-                                    n === vV.Cancelled && (0, j.jsx)(B6e, {
+                                    n === vV.Cancelled && (0, j.jsx)(z6e, {
                                         onClose: r
                                     })
                                 ]
@@ -155315,18 +155309,18 @@ In order to be iterable, non-array objects must have a [Symbol.iterator]() metho
             })
         });
     }
-    function H6e() {
+    function V6e() {
         let [e, t] = (0, A.useState)();
-        E6e(t);
+        T6e(t);
         let n = (0, A.useCallback)(()=>{
             t(void 0);
         }, []);
-        return !e || !e.isSelfVerification ? null : (0, j.jsx)(V6e, {
+        return !e || !e.isSelfVerification ? null : (0, j.jsx)(B6e, {
             request: e,
             onExit: n
         });
     }
-    function U6e(e, t, n, r) {
+    function H6e(e, t, n, r) {
         return {
             authData: e,
             callback: async (e)=>{
@@ -155344,7 +155338,7 @@ In order to be iterable, non-array objects must have a [Symbol.iterator]() metho
             cancelCallback: r
         };
     }
-    function W6e({ onComplete: e }) {
+    function U6e({ onComplete: e }) {
         let t = J(), n = cd(), [r, i] = (0, A.useState)(), [a, o] = (0, A.useState)(), s = (0, A.useCallback)(async (e)=>{
             if (!r) throw Error(`Unexpected Error! UIA action is perform without data.`);
             n() && o(null);
@@ -155362,7 +155356,7 @@ In order to be iterable, non-array objects must have a [Symbol.iterator]() metho
                     t(), c();
                 }).catch((a)=>{
                     if (a instanceof _z && a.httpStatus === 401) {
-                        let o = a.data, s = U6e(o, e, t, (e)=>{
+                        let o = a.data, s = H6e(o, e, t, (e)=>{
                             c(), r(e);
                         });
                         n() ? i(s) : r(Error(`Authentication failed! Failed to setup device verification.`));
@@ -155463,7 +155457,7 @@ In order to be iterable, non-array objects must have a [Symbol.iterator]() metho
             ]
         });
     }
-    function G6e({ recoveryKey: e }) {
+    function W6e({ recoveryKey: e }) {
         let [t, n] = (0, A.useState)(!1), r = ()=>{
             bX(e);
         }, i = ()=>{
@@ -155547,7 +155541,7 @@ In order to be iterable, non-array objects must have a [Symbol.iterator]() metho
             ]
         });
     }
-    var K6e = (0, A.forwardRef)(({ onCancel: e }, t)=>{
+    var G6e = (0, A.forwardRef)(({ onCancel: e }, t)=>{
         let [n, r] = (0, A.useState)();
         return (0, j.jsxs)(Sn, {
             ref: t,
@@ -155583,15 +155577,15 @@ In order to be iterable, non-array objects must have a [Symbol.iterator]() metho
                     },
                     direction: `Column`,
                     gap: `400`,
-                    children: n ? (0, j.jsx)(G6e, {
+                    children: n ? (0, j.jsx)(W6e, {
                         recoveryKey: n
-                    }) : (0, j.jsx)(W6e, {
+                    }) : (0, j.jsx)(U6e, {
                         onComplete: r
                     })
                 })
             ]
         });
-    }), q6e = (0, A.forwardRef)(({ onCancel: e }, t)=>{
+    }), K6e = (0, A.forwardRef)(({ onCancel: e }, t)=>{
         let [n, r] = (0, A.useState)(!1);
         return (0, j.jsxs)(Sn, {
             ref: t,
@@ -155629,9 +155623,9 @@ In order to be iterable, non-array objects must have a [Symbol.iterator]() metho
                     gap: `400`,
                     children: (0, j.jsx)(HK, {
                         initial: void 0,
-                        children: (e, t)=>e ? (0, j.jsx)(G6e, {
+                        children: (e, t)=>e ? (0, j.jsx)(W6e, {
                                 recoveryKey: e
-                            }) : (0, j.jsx)(W6e, {
+                            }) : (0, j.jsx)(U6e, {
                                 onComplete: t
                             })
                     })
@@ -155683,7 +155677,7 @@ In order to be iterable, non-array objects must have a [Symbol.iterator]() metho
                 })
             ]
         });
-    }), J6e = ()=>(0, A.useMemo)(()=>({
+    }), q6e = ()=>(0, A.useMemo)(()=>({
                 profile: `org.matrix.profile`,
                 sessionsList: `org.matrix.devices_list`,
                 sessionView: `org.matrix.device_view`,
@@ -155691,7 +155685,7 @@ In order to be iterable, non-array objects must have a [Symbol.iterator]() metho
                 accountDeactivate: `org.matrix.account_deactivate`,
                 crossSigningReset: `org.matrix.cross_signing_reset`
             }), []);
-    function Y6e({ verificationStatus: e, otherUnverifiedCount: t }) {
+    function J6e({ verificationStatus: e, otherUnverifiedCount: t }) {
         return e === w9.Unknown || typeof t != `number` ? (0, j.jsx)(nr, {
             size: `400`,
             variant: `Secondary`
@@ -155724,7 +155718,7 @@ In order to be iterable, non-array objects must have a [Symbol.iterator]() metho
             })
         });
     }
-    function X6e() {
+    function Y6e() {
         return (0, j.jsxs)(P, {
             direction: `Column`,
             children: [
@@ -155780,7 +155774,7 @@ In order to be iterable, non-array objects must have a [Symbol.iterator]() metho
             ]
         });
     }
-    function Z6e({ secretStorageKeyId: e, secretStorageKeyContent: t }) {
+    function X6e({ secretStorageKeyId: e, secretStorageKeyContent: t }) {
         let [n, r] = (0, A.useState)(!1), [i, a] = (0, A.useState)(!1);
         return (0, j.jsxs)(j.Fragment, {
             children: [
@@ -155814,9 +155808,9 @@ In order to be iterable, non-array objects must have a [Symbol.iterator]() metho
                             children: `Verify Manually`
                         })
                     }),
-                    children: n && (0, j.jsx)(X6e, {})
+                    children: n && (0, j.jsx)(Y6e, {})
                 }),
-                i && (0, j.jsx)(T6e, {
+                i && (0, j.jsx)(w6e, {
                     secretStorageKeyId: e,
                     secretStorageKeyContent: t,
                     options: (0, j.jsx)(xn, {
@@ -155834,7 +155828,7 @@ In order to be iterable, non-array objects must have a [Symbol.iterator]() metho
             ]
         });
     }
-    function Q6e({ crypto: e, deviceId: t }) {
+    function Z6e({ crypto: e, deviceId: t }) {
         let n = J(), [r, i] = (0, A.useState)({
             status: B.Idle
         }), a = ld((0, A.useCallback)(()=>e.requestDeviceVerification(n.getSafeUserId(), t), [
@@ -155872,14 +155866,14 @@ In order to be iterable, non-array objects must have a [Symbol.iterator]() metho
                     size: `T200`,
                     children: r.error.message
                 }),
-                r.status === B.Success && (0, j.jsx)(V6e, {
+                r.status === B.Success && (0, j.jsx)(B6e, {
                     request: r.data,
                     onExit: o
                 })
             ]
         });
     }
-    function $6e({ visible: e }) {
+    function Q6e({ visible: e }) {
         let [t, n] = (0, A.useState)(!1), r = (0, A.useCallback)(()=>n(!1), []);
         return (0, j.jsxs)(j.Fragment, {
             children: [
@@ -155903,7 +155897,7 @@ In order to be iterable, non-array objects must have a [Symbol.iterator]() metho
                                 clickOutsideDeactivates: !1,
                                 escapeDeactivates: !1
                             },
-                            children: (0, j.jsx)(K6e, {
+                            children: (0, j.jsx)(G6e, {
                                 onCancel: r
                             })
                         })
@@ -155912,8 +155906,8 @@ In order to be iterable, non-array objects must have a [Symbol.iterator]() metho
             ]
         });
     }
-    function e8e() {
-        let [e, t] = (0, A.useState)(), n = fve(), r = J6e(), [i, a] = (0, A.useState)(!1), o = (0, A.useCallback)(()=>{
+    function $6e() {
+        let [e, t] = (0, A.useState)(), n = fve(), r = q6e(), [i, a] = (0, A.useState)(!1), o = (0, A.useCallback)(()=>{
             a(!1);
         }, []);
         return (0, j.jsxs)(j.Fragment, {
@@ -155988,7 +155982,7 @@ In order to be iterable, non-array objects must have a [Symbol.iterator]() metho
                                 clickOutsideDeactivates: !1,
                                 escapeDeactivates: !1
                             },
-                            children: (0, j.jsx)(q6e, {
+                            children: (0, j.jsx)(K6e, {
                                 onCancel: o
                             })
                         })
@@ -155997,8 +155991,8 @@ In order to be iterable, non-array objects must have a [Symbol.iterator]() metho
             ]
         });
     }
-    function t8e({ devices: e, refreshDeviceList: t, showVerification: n }) {
-        let r = J(), i = r.getCrypto(), a = fve(), o = J6e(), [s, c] = (0, A.useState)(new Set), l = (0, A.useCallback)(()=>{
+    function e8e({ devices: e, refreshDeviceList: t, showVerification: n }) {
+        let r = J(), i = r.getCrypto(), a = fve(), o = q6e(), [s, c] = (0, A.useState)(new Set), l = (0, A.useCallback)(()=>{
             let e = a?.account_management_uri ?? a?.issuer;
             e && window.open(bK(e, {
                 action: o.sessionsList
@@ -156074,27 +156068,27 @@ In order to be iterable, non-array objects must have a [Symbol.iterator]() metho
                                 direction: `Column`,
                                 gap: `400`,
                                 children: [
-                                    (0, j.jsx)(b6e, {
+                                    (0, j.jsx)(y6e, {
                                         device: e,
                                         deleted: s.has(e.device_id),
                                         refreshDeviceList: t,
                                         disabled: _,
-                                        options: a ? (0, j.jsx)(y6e, {
+                                        options: a ? (0, j.jsx)(v6e, {
                                             deviceId: e.device_id,
                                             deleted: !1,
                                             onDeleteToggle: u
-                                        }) : (0, j.jsx)(y6e, {
+                                        }) : (0, j.jsx)(v6e, {
                                             deviceId: e.device_id,
                                             deleted: s.has(e.device_id),
                                             onDeleteToggle: d,
                                             disabled: _
                                         })
                                     }),
-                                    n && i && (0, j.jsx)(x6e, {
+                                    n && i && (0, j.jsx)(b6e, {
                                         crypto: i,
                                         userId: r.getSafeUserId(),
                                         deviceId: e.device_id,
-                                        children: (t)=>t === w9.Unverified && (0, j.jsx)(Q6e, {
+                                        children: (t)=>t === w9.Unverified && (0, j.jsx)(Z6e, {
                                                 crypto: i,
                                                 deviceId: e.device_id
                                             })
@@ -156195,11 +156189,11 @@ In order to be iterable, non-array objects must have a [Symbol.iterator]() metho
             ]
         }) : null;
     }
-    var n8e = (e)=>`m.secret_storage.key.${e}`, r8e = ()=>Lq(zU.SecretStorageDefaultKey)?.getContent().key, i8e = (e)=>Lq(n8e(e))?.getContent(), D9 = function(e) {
+    var t8e = (e)=>`m.secret_storage.key.${e}`, n8e = ()=>Lq(zU.SecretStorageDefaultKey)?.getContent().key, r8e = (e)=>Lq(t8e(e))?.getContent(), D9 = function(e) {
         return e[e.Idle = 0] = `Idle`, e[e.Fetching = 1] = `Fetching`, e[e.Loading = 2] = `Loading`, e[e.Done = 3] = `Done`, e;
     }({}), O9 = pi({
         status: 0
-    }), a8e = pi((e)=>e(O9), (e, t, n)=>{
+    }), i8e = pi((e)=>e(O9), (e, t, n)=>{
         if (n.stage === CV.Fetch) {
             t(O9, {
                 status: 1
@@ -156224,7 +156218,7 @@ In order to be iterable, non-array objects must have a [Symbol.iterator]() metho
                 }
             });
         }
-    }), o8e = (e)=>{
+    }), a8e = (e)=>{
         let t = J();
         (0, A.useEffect)(()=>(t.on(SV.KeyBackupStatus, e), ()=>{
                 t.removeListener(SV.KeyBackupStatus, e);
@@ -156232,7 +156226,7 @@ In order to be iterable, non-array objects must have a [Symbol.iterator]() metho
             t,
             e
         ]);
-    }, s8e = (e)=>{
+    }, o8e = (e)=>{
         let t = cd(), [n, r] = (0, A.useState)(!1);
         return (0, A.useEffect)(()=>{
             e.getActiveSessionBackupVersion().then((e)=>{
@@ -156241,8 +156235,8 @@ In order to be iterable, non-array objects must have a [Symbol.iterator]() metho
         }, [
             e,
             t
-        ]), o8e(r), n;
-    }, c8e = (e)=>{
+        ]), a8e(r), n;
+    }, s8e = (e)=>{
         let t = J();
         (0, A.useEffect)(()=>(t.on(SV.KeyBackupSessionsRemaining, e), ()=>{
                 t.removeListener(SV.KeyBackupSessionsRemaining, e);
@@ -156250,7 +156244,7 @@ In order to be iterable, non-array objects must have a [Symbol.iterator]() metho
             t,
             e
         ]);
-    }, l8e = (e)=>{
+    }, c8e = (e)=>{
         let t = J();
         (0, A.useEffect)(()=>(t.on(SV.KeyBackupFailed, e), ()=>{
                 t.removeListener(SV.KeyBackupFailed, e);
@@ -156258,7 +156252,7 @@ In order to be iterable, non-array objects must have a [Symbol.iterator]() metho
             t,
             e
         ]);
-    }, u8e = (e)=>{
+    }, l8e = (e)=>{
         let t = J();
         (0, A.useEffect)(()=>(t.on(SV.KeyBackupDecryptionKeyCached, e), ()=>{
                 t.removeListener(SV.KeyBackupDecryptionKeyCached, e);
@@ -156266,17 +156260,17 @@ In order to be iterable, non-array objects must have a [Symbol.iterator]() metho
             t,
             e
         ]);
-    }, d8e = ()=>{
+    }, u8e = ()=>{
         let [e, t] = (0, A.useState)(0), [n, r] = (0, A.useState)();
-        return c8e((0, A.useCallback)((e)=>{
+        return s8e((0, A.useCallback)((e)=>{
             t(e), r(void 0);
-        }, [])), l8e((0, A.useCallback)((e)=>{
+        }, [])), c8e((0, A.useCallback)((e)=>{
             typeof e == `string` && (r(e), t(0));
         }, [])), [
             e,
             n
         ];
-    }, f8e = (e)=>{
+    }, d8e = (e)=>{
         let t = cd(), [n, r] = (0, A.useState)(), i = (0, A.useCallback)(()=>{
             e.getKeyBackupInfo().then((e)=>{
                 t() && r(e);
@@ -156289,12 +156283,12 @@ In order to be iterable, non-array objects must have a [Symbol.iterator]() metho
             i();
         }, [
             i
-        ]), o8e(i), c8e((0, A.useCallback)((e)=>{
+        ]), a8e(i), s8e((0, A.useCallback)((e)=>{
             e === 0 && i();
         }, [
             i
         ])), n;
-    }, p8e = (e, t)=>{
+    }, f8e = (e, t)=>{
         let n = cd(), [r, i] = (0, A.useState)(), a = (0, A.useCallback)(()=>{
             e.isKeyBackupTrusted(t).then((e)=>{
                 n() && i(e);
@@ -156308,10 +156302,10 @@ In order to be iterable, non-array objects must have a [Symbol.iterator]() metho
             a();
         }, [
             a
-        ]), o8e(a), u8e(a), r;
-    }, m8e = ()=>{
-        let e = ki(a8e), t = J();
-        u8e((0, A.useCallback)(()=>{
+        ]), a8e(a), l8e(a), r;
+    }, p8e = ()=>{
+        let e = ki(i8e), t = J();
+        l8e((0, A.useCallback)(()=>{
             let n = t.getCrypto();
             n && n.restoreKeyBackup({
                 progressCallback (t) {
@@ -156323,7 +156317,7 @@ In order to be iterable, non-array objects must have a [Symbol.iterator]() metho
             e
         ]));
     };
-    function h8e({ enabled: e }) {
+    function m8e({ enabled: e }) {
         return (0, j.jsxs)(P, {
             as: `span`,
             gap: `100`,
@@ -156346,7 +156340,7 @@ In order to be iterable, non-array objects must have a [Symbol.iterator]() metho
             ]
         });
     }
-    function g8e({ count: e }) {
+    function h8e({ count: e }) {
         return (0, j.jsxs)(P, {
             as: `span`,
             gap: `100`,
@@ -156372,7 +156366,7 @@ In order to be iterable, non-array objects must have a [Symbol.iterator]() metho
             ]
         });
     }
-    function _8e() {
+    function g8e() {
         return (0, j.jsxs)(P, {
             grow: `Yes`,
             gap: `200`,
@@ -156406,7 +156400,7 @@ In order to be iterable, non-array objects must have a [Symbol.iterator]() metho
             ]
         });
     }
-    function v8e({ total: e, downloaded: t }) {
+    function _8e({ total: e, downloaded: t }) {
         return (0, j.jsxs)(P, {
             grow: `Yes`,
             gap: `200`,
@@ -156451,8 +156445,8 @@ In order to be iterable, non-array objects must have a [Symbol.iterator]() metho
             ]
         });
     }
-    function y8e({ crypto: e, backupInfo: t }) {
-        let n = p8e(e, t);
+    function v8e({ crypto: e, backupInfo: t }) {
+        let n = f8e(e, t);
         return n ? (0, j.jsxs)(P, {
             direction: `Column`,
             children: [
@@ -156493,8 +156487,8 @@ In order to be iterable, non-array objects must have a [Symbol.iterator]() metho
             ]
         }) : null;
     }
-    function b8e({ crypto: e }) {
-        let [t, n] = Ai(a8e), r = t.status === D9.Fetching || t.status === D9.Loading, i = s8e(e), a = f8e(e), [o, s] = d8e(), [c, l] = (0, A.useState)(), u = (e)=>{
+    function y8e({ crypto: e }) {
+        let [t, n] = Ai(i8e), r = t.status === D9.Fetching || t.status === D9.Loading, i = o8e(e), a = d8e(e), [o, s] = u8e(), [c, l] = (0, A.useState)(), u = (e)=>{
             l(e.currentTarget.getBoundingClientRect());
         }, [d, f] = V((0, A.useCallback)(async ()=>{
             await e.restoreKeyBackup({
@@ -156513,9 +156507,9 @@ In order to be iterable, non-array objects must have a [Symbol.iterator]() metho
                 alignItems: `Center`,
                 gap: `200`,
                 children: [
-                    o === 0 ? (0, j.jsx)(h8e, {
+                    o === 0 ? (0, j.jsx)(m8e, {
                         enabled: i
-                    }) : (0, j.jsx)(g8e, {
+                    }) : (0, j.jsx)(h8e, {
                         count: o
                     }),
                     (0, j.jsx)(R, {
@@ -156619,13 +156613,13 @@ In order to be iterable, non-array objects must have a [Symbol.iterator]() metho
                         children: `No backup present on server!`
                     })
                 }),
-                !s && !i && a && (0, j.jsx)(y8e, {
+                !s && !i && a && (0, j.jsx)(v8e, {
                     crypto: e,
                     backupInfo: a
                 }),
-                d.status === B.Loading && !r && (0, j.jsx)(_8e, {}),
-                t.status === D9.Fetching && (0, j.jsx)(_8e, {}),
-                t.status === D9.Loading && (0, j.jsx)(v8e, {
+                d.status === B.Loading && !r && (0, j.jsx)(g8e, {}),
+                t.status === D9.Fetching && (0, j.jsx)(g8e, {}),
+                t.status === D9.Loading && (0, j.jsx)(_8e, {
                     total: t.data.total,
                     downloaded: t.data.downloaded
                 }),
@@ -156641,21 +156635,21 @@ In order to be iterable, non-array objects must have a [Symbol.iterator]() metho
             ]
         });
     }
-    function x8e() {
-        return m8e(), null;
+    function b8e() {
+        return p8e(), null;
     }
-    function S8e() {
+    function x8e() {
         return (0, j.jsxs)(P, {
             direction: `Column`,
             gap: `100`,
             children: [
-                (0, j.jsx)(p6e, {}),
-                (0, j.jsx)(p6e, {})
+                (0, j.jsx)(f6e, {}),
+                (0, j.jsx)(f6e, {})
             ]
         });
     }
-    function C8e({ requestClose: e }) {
-        let t = J(), n = t.getCrypto(), r = s6e(), [i, a] = H3e(), [o, s] = W3e(i), c = T9(n, t.getSafeUserId(), o?.device_id), l = U3e(s), u = d6e(n, t.getSafeUserId(), l), d = r8e(), f = i8e(d ?? ``);
+    function S8e({ requestClose: e }) {
+        let t = J(), n = t.getCrypto(), r = o6e(), [i, a] = V3e(), [o, s] = U3e(i), c = T9(n, t.getSafeUserId(), o?.device_id), l = H3e(s), u = u6e(n, t.getSafeUserId(), l), d = n8e(), f = r8e(d ?? ``);
         return (0, j.jsxs)(m1, {
             children: [
                 (0, j.jsx)(h1, {
@@ -156716,18 +156710,18 @@ In order to be iterable, non-array objects must have a [Symbol.iterator]() metho
                                                         description: `To verify device identity and grant access to encrypted messages.`,
                                                         after: (0, j.jsxs)(j.Fragment, {
                                                             children: [
-                                                                (0, j.jsx)($6e, {
+                                                                (0, j.jsx)(Q6e, {
                                                                     visible: !r
                                                                 }),
                                                                 r && (0, j.jsxs)(P, {
                                                                     gap: `200`,
                                                                     alignItems: `Center`,
                                                                     children: [
-                                                                        (0, j.jsx)(Y6e, {
+                                                                        (0, j.jsx)(J6e, {
                                                                             verificationStatus: c,
                                                                             otherUnverifiedCount: u
                                                                         }),
-                                                                        (0, j.jsx)(e8e, {})
+                                                                        (0, j.jsx)($6e, {})
                                                                     ]
                                                                 })
                                                             ]
@@ -156750,32 +156744,32 @@ In order to be iterable, non-array objects must have a [Symbol.iterator]() metho
                                                     direction: `Column`,
                                                     gap: `400`,
                                                     children: [
-                                                        (0, j.jsx)(b6e, {
+                                                        (0, j.jsx)(y6e, {
                                                             device: o,
                                                             refreshDeviceList: a,
-                                                            options: (0, j.jsx)(v6e, {}),
-                                                            children: n && (0, j.jsx)(g6e, {
+                                                            options: (0, j.jsx)(_6e, {}),
+                                                            children: n && (0, j.jsx)(h6e, {
                                                                 crypto: n
                                                             })
                                                         }),
-                                                        r && c === w9.Unverified && d && f && (0, j.jsx)(Z6e, {
+                                                        r && c === w9.Unverified && d && f && (0, j.jsx)(X6e, {
                                                             secretStorageKeyId: d,
                                                             secretStorageKeyContent: f
                                                         }),
-                                                        n && c === w9.Verified && (0, j.jsx)(b8e, {
+                                                        n && c === w9.Verified && (0, j.jsx)(y8e, {
                                                             crypto: n
                                                         })
                                                     ]
-                                                }) : (0, j.jsx)(p6e, {})
+                                                }) : (0, j.jsx)(f6e, {})
                                             ]
                                         }),
-                                        i === void 0 && (0, j.jsx)(S8e, {}),
-                                        s && (0, j.jsx)(t8e, {
+                                        i === void 0 && (0, j.jsx)(x8e, {}),
+                                        s && (0, j.jsx)(e8e, {
                                             devices: s,
                                             refreshDeviceList: a,
                                             showVerification: r && c === w9.Verified
                                         }),
-                                        (0, j.jsx)(o6e, {})
+                                        (0, j.jsx)(a6e, {})
                                     ]
                                 })
                             })
@@ -156785,7 +156779,7 @@ In order to be iterable, non-array objects must have a [Symbol.iterator]() metho
             ]
         });
     }
-    function w8e({ packs: e, useAuthentication: t, onSelect: n }) {
+    function C8e({ packs: e, useAuthentication: t, onSelect: n }) {
         let r = J(), i = (0, A.useMemo)(()=>{
             let t = new Map;
             return e.filter((e)=>!e.deleted).forEach((e)=>{
@@ -156983,7 +156977,7 @@ In order to be iterable, non-array objects must have a [Symbol.iterator]() metho
             ]
         });
     }
-    function T8e({ onViewPack: e }) {
+    function w8e({ onViewPack: e }) {
         let t = J(), n = FX(), r = iPe(), [i, a] = (0, A.useState)(), o = Oi(jq), s = sPe((0, A.useMemo)(()=>{
             let e = [];
             return o.forEach((n)=>{
@@ -157164,7 +157158,7 @@ In order to be iterable, non-array objects must have a [Symbol.iterator]() metho
                                                         width: `100vw`,
                                                         maxHeight: Et(500)
                                                     },
-                                                    children: (0, j.jsx)(w8e, {
+                                                    children: (0, j.jsx)(C8e, {
                                                         packs: p,
                                                         useAuthentication: n,
                                                         onSelect: g
@@ -157250,7 +157244,7 @@ In order to be iterable, non-array objects must have a [Symbol.iterator]() metho
             ]
         });
     }
-    function E8e({ onViewPack: e }) {
+    function T8e({ onViewPack: e }) {
         let t = J(), n = FX(), r = D3(), i = r?.getAvatarUrl(y3.Emoticon), a = i ? oK(t, i, n) : void 0;
         return (0, j.jsxs)(P, {
             direction: `Column`,
@@ -157303,27 +157297,27 @@ In order to be iterable, non-array objects must have a [Symbol.iterator]() metho
             ]
         });
     }
-    var D8e = `https://api.telegram.org`, O8e = /^https?:\/\/(?:t\.me|telegram\.me|telegram\.dog)\/add(?:stickers|emoji)\/([A-Za-z0-9_]+)/, k8e = (e)=>{
+    var E8e = `https://api.telegram.org`, D8e = /^https?:\/\/(?:t\.me|telegram\.me|telegram\.dog)\/add(?:stickers|emoji)\/([A-Za-z0-9_]+)/, O8e = (e)=>{
         let t = e.trim();
         if (!t) return null;
-        let n = t.match(O8e);
+        let n = t.match(D8e);
         return n ? n[1] : /^[A-Za-z0-9_]+$/.test(t) ? t : null;
-    }, A8e = class extends Error {
-    }, j8e = async (e, t, n)=>{
-        let r = await fetch(`${D8e}/bot${e}/${t}?${n}`), i = await r.json().catch(()=>null);
-        if (!r.ok || !i?.ok) throw new A8e(i?.description ?? `HTTP ${r.status}`);
+    }, k8e = class extends Error {
+    }, A8e = async (e, t, n)=>{
+        let r = await fetch(`${E8e}/bot${e}/${t}?${n}`), i = await r.json().catch(()=>null);
+        if (!r.ok || !i?.ok) throw new k8e(i?.description ?? `HTTP ${r.status}`);
         return i.result;
-    }, M8e = (e, t)=>{
+    }, j8e = (e, t)=>{
         let n = e.replace(/[^A-Za-z0-9_-]/g, ``);
         return n.length > 0 ? n : t;
-    }, N8e = async (e, t, n)=>{
-        let r = await j8e(e, `getStickerSet`, `name=${encodeURIComponent(t)}`), i = Array.isArray(r.stickers) ? r.stickers : [], a = i.filter((e)=>!e.is_animated && !e.is_video), o = i.filter((e)=>e.is_animated).length, s = i.filter((e)=>e.is_video && !e.is_animated).length, c = [], l = 0;
+    }, M8e = async (e, t, n)=>{
+        let r = await A8e(e, `getStickerSet`, `name=${encodeURIComponent(t)}`), i = Array.isArray(r.stickers) ? r.stickers : [], a = i.filter((e)=>!e.is_animated && !e.is_video), o = i.filter((e)=>e.is_animated).length, s = i.filter((e)=>e.is_video && !e.is_animated).length, c = [], l = 0;
         for(let r = 0; r < a.length; r += 1){
-            let i = a[r], o = await j8e(e, `getFile`, `file_id=${encodeURIComponent(i.file_id)}`);
+            let i = a[r], o = await A8e(e, `getFile`, `file_id=${encodeURIComponent(i.file_id)}`);
             if (o.file_path) {
-                let n = await fetch(`${D8e}/file/bot${e}/${o.file_path}`);
+                let n = await fetch(`${E8e}/file/bot${e}/${o.file_path}`);
                 if (n.ok) {
-                    let e = await n.blob(), a = M8e(i.emoji ?? ``, `${t}_${r + 1}`);
+                    let e = await n.blob(), a = j8e(i.emoji ?? ``, `${t}_${r + 1}`);
                     c.push(new File([
                         e
                     ], `${a}.webp`, {
@@ -157339,12 +157333,12 @@ In order to be iterable, non-array objects must have a [Symbol.iterator]() metho
             skippedAnimated: o,
             skippedVideo: s
         };
-    }, P8e = ()=>(e)=>{
+    }, N8e = ()=>(e)=>{
             let t = e.includes(y3.Sticker), n = e.includes(y3.Emoticon);
             return t && n ? `Both` : t ? `Sticker` : n ? `Emoji` : `Both`;
         };
-    function F8e({ selected: e, onChange: t }) {
-        let n = P8e(), r = n(e), i = (e)=>n(e) === r, a = (0, A.useMemo)(()=>[
+    function P8e({ selected: e, onChange: t }) {
+        let n = N8e(), r = n(e), i = (e)=>n(e) === r, a = (0, A.useMemo)(()=>[
                 [
                     y3.Emoticon
                 ],
@@ -157378,8 +157372,8 @@ In order to be iterable, non-array objects must have a [Symbol.iterator]() metho
                 }, n(e)))
         });
     }
-    function I8e({ usage: e, onChange: t, canEdit: n }) {
-        let r = P8e(), [i, a] = (0, A.useState)();
+    function F8e({ usage: e, onChange: t, canEdit: n }) {
+        let r = N8e(), [i, a] = (0, A.useState)();
         return (0, j.jsxs)(j.Fragment, {
             children: [
                 (0, j.jsx)(F, {
@@ -157417,7 +157411,7 @@ In order to be iterable, non-array objects must have a [Symbol.iterator]() metho
                             escapeDeactivates: mp
                         },
                         children: (0, j.jsx)(An, {
-                            children: (0, j.jsx)(F8e, {
+                            children: (0, j.jsx)(P8e, {
                                 selected: e,
                                 onChange: (e)=>{
                                     a(void 0), t(e);
@@ -157429,18 +157423,18 @@ In order to be iterable, non-array objects must have a [Symbol.iterator]() metho
             ]
         });
     }
-    var L8e = `_14rd4hb0 _1mqalmd1 _1mqalmd0`, R8e = `_14rd4hb1 _1mqalmd1 _1mqalmd0`, z8e = `_14rd4hb2 _1mqalmd1 _1mqalmd0`;
-    function B8e({ defaultShortcode: e, image: t, packUsage: n, useAuthentication: r, canEdit: i, onEdit: a, onDeleteToggle: o, deleted: s }) {
-        let c = J(), l = P8e();
+    var I8e = `_14rd4hb0 _1mqalmd1 _1mqalmd0`, L8e = `_14rd4hb1 _1mqalmd1 _1mqalmd0`, R8e = `_14rd4hb2 _1mqalmd1 _1mqalmd0`;
+    function z8e({ defaultShortcode: e, image: t, packUsage: n, useAuthentication: r, canEdit: i, onEdit: a, onDeleteToggle: o, deleted: s }) {
+        let c = J(), l = N8e();
         return (0, j.jsx)(H4, {
             before: (0, j.jsx)(`img`, {
-                className: L8e,
+                className: I8e,
                 src: oK(c, t.url, r) ?? ``,
                 alt: t.shortcode,
                 loading: `lazy`
             }),
             title: s ? (0, j.jsx)(`span`, {
-                className: R8e,
+                className: L8e,
                 children: t.shortcode
             }) : t.shortcode,
             description: (0, j.jsxs)(P, {
@@ -157493,24 +157487,24 @@ In order to be iterable, non-array objects must have a [Symbol.iterator]() metho
             }) : void 0
         });
     }
-    function V8e({ file: e, children: t }) {
+    function B8e({ file: e, children: t }) {
         let n = O7(e), r = (0, A.useMemo)(()=>m7(e), [
             e
         ]);
         return (0, j.jsx)(H4, {
             before: (0, j.jsx)(`img`, {
-                className: L8e,
+                className: I8e,
                 src: n,
                 alt: e.name
             }),
             children: t(r)
         });
     }
-    function H8e({ defaultShortcode: e, useAuthentication: t, packUsage: n, image: r, onCancel: i, onSave: a }) {
+    function V8e({ defaultShortcode: e, useAuthentication: t, packUsage: n, image: r, onCancel: i, onSave: a }) {
         let o = J(), s = r.usage ?? n, [c, l] = (0, A.useState)(s);
         return (0, j.jsx)(H4, {
             before: (0, j.jsx)(`img`, {
-                className: L8e,
+                className: I8e,
                 src: oK(o, r.url, t) ?? ``,
                 alt: r.shortcode,
                 loading: `lazy`
@@ -157539,7 +157533,7 @@ In order to be iterable, non-array objects must have a [Symbol.iterator]() metho
                 children: [
                     (0, j.jsxs)(P, {
                         direction: `Column`,
-                        className: z8e,
+                        className: R8e,
                         children: [
                             (0, j.jsx)(Dn, {
                                 before: (0, j.jsx)(z, {
@@ -157573,7 +157567,7 @@ In order to be iterable, non-array objects must have a [Symbol.iterator]() metho
                             (0, j.jsx)(P, {
                                 shrink: `No`,
                                 direction: `Column`,
-                                children: (0, j.jsx)(I8e, {
+                                children: (0, j.jsx)(F8e, {
                                     usage: c,
                                     onChange: l,
                                     canEdit: !0
@@ -157610,7 +157604,7 @@ In order to be iterable, non-array objects must have a [Symbol.iterator]() metho
             })
         });
     }
-    function U8e({ url: e, name: t }) {
+    function H8e({ url: e, name: t }) {
         return (0, j.jsx)(cn, {
             size: `500`,
             className: Sq({
@@ -157627,7 +157621,7 @@ In order to be iterable, non-array objects must have a [Symbol.iterator]() metho
             })
         });
     }
-    function W8e({ meta: e, canEdit: t, onEdit: n }) {
+    function U8e({ meta: e, canEdit: t, onEdit: n }) {
         let r = J(), i = FX(), a = e.avatar ? oK(r, e.avatar, i) ?? void 0 : void 0;
         return (0, j.jsxs)(P, {
             gap: `400`,
@@ -157678,7 +157672,7 @@ In order to be iterable, non-array objects must have a [Symbol.iterator]() metho
                 }),
                 (0, j.jsx)(P, {
                     shrink: `No`,
-                    children: (0, j.jsx)(U8e, {
+                    children: (0, j.jsx)(H8e, {
                         url: a,
                         name: e.name
                     })
@@ -157686,7 +157680,7 @@ In order to be iterable, non-array objects must have a [Symbol.iterator]() metho
             ]
         });
     }
-    function G8e({ meta: e, onCancel: t, onSave: n }) {
+    function W8e({ meta: e, onCancel: t, onSave: n }) {
         let r = J(), i = FX(), [a, o] = (0, A.useState)(e.avatar), s = a ? oK(r, a, i) ?? void 0 : void 0, [c, l] = (0, A.useState)(), u = O7(c), d = u ? a === e.avatar : !1, f = (0, A.useMemo)(()=>{
             if (c) return m7(c);
         }, [
@@ -157779,7 +157773,7 @@ In order to be iterable, non-array objects must have a [Symbol.iterator]() metho
                         }),
                         (0, j.jsx)(P, {
                             shrink: `No`,
-                            children: (0, j.jsx)(U8e, {
+                            children: (0, j.jsx)(H8e, {
                                 url: u ?? s,
                                 name: e.name
                             })
@@ -157850,7 +157844,7 @@ In order to be iterable, non-array objects must have a [Symbol.iterator]() metho
             ]
         });
     }
-    var K8e = $t(({ imagePack: e, canEdit: t, onUpdate: n, ...r }, i)=>{
+    var G8e = $t(({ imagePack: e, canEdit: t, onUpdate: n, ...r }, i)=>{
         let a = FX(), [o, s] = (0, A.useState)(!1), [c, l] = (0, A.useState)(), u = c ?? e.meta, d = (0, A.useMemo)(()=>Array.from(e.images.collection.values()), [
             e
         ]), [f, p] = (0, A.useState)([]), [m, h] = (0, A.useState)([]), [g, _] = (0, A.useState)(new Set), [v, y] = (0, A.useState)(new Map), [b, x] = (0, A.useState)(new Set), S = (0, A.useCallback)((t)=>e.images.collection.has(t) || m.find((e)=>e.shortcode === t) !== void 0 ? !0 : Array.from(v).find(([, e])=>e.shortcode === t) !== void 0, [
@@ -157870,7 +157864,7 @@ In order to be iterable, non-array objects must have a [Symbol.iterator]() metho
             S
         ]), !0), [w] = Y(X, `telegramBotToken`), [T, E] = (0, A.useState)(!1), [D, O] = (0, A.useState)(``), [k, ee] = (0, A.useState)(null), [te, ne] = (0, A.useState)(null), [re, ie] = (0, A.useState)(null), [ae, oe] = (0, A.useState)(!1), se = (0, A.useCallback)(async (e)=>{
             if (e.preventDefault(), ae) return;
-            let t = k8e(D);
+            let t = O8e(D);
             if (!t) {
                 ne(`Not a sticker link. Expected a t.me/addstickers/... link.`);
                 return;
@@ -157880,7 +157874,7 @@ In order to be iterable, non-array objects must have a [Symbol.iterator]() metho
                 total: 0
             });
             try {
-                let e = await N8e(w, t, (e, t)=>ee({
+                let e = await M8e(w, t, (e, t)=>ee({
                         done: e,
                         total: t
                     })), n = e.files.map((e)=>{
@@ -157987,14 +157981,14 @@ In order to be iterable, non-array objects must have a [Symbol.iterator]() metho
                 variant: b.has(e.shortcode) ? `Critical` : `SurfaceVariant`,
                 direction: `Column`,
                 gap: `400`,
-                children: g.has(e.shortcode) ? (0, j.jsx)(H8e, {
+                children: g.has(e.shortcode) ? (0, j.jsx)(V8e, {
                     defaultShortcode: e.shortcode,
                     image: v.get(e.shortcode) ?? e,
                     packUsage: u.usage,
                     useAuthentication: a,
                     onCancel: he,
                     onSave: ge
-                }) : (0, j.jsx)(B8e, {
+                }) : (0, j.jsx)(z8e, {
                     defaultShortcode: e.shortcode,
                     image: v.get(e.shortcode) ?? e,
                     packUsage: u.usage,
@@ -158086,11 +158080,11 @@ In order to be iterable, non-array objects must have a [Symbol.iterator]() metho
                             variant: `SurfaceVariant`,
                             direction: `Column`,
                             gap: `400`,
-                            children: o ? (0, j.jsx)(G8e, {
+                            children: o ? (0, j.jsx)(W8e, {
                                 meta: u,
                                 onCancel: le,
                                 onSave: ce
-                            }) : (0, j.jsx)(W8e, {
+                            }) : (0, j.jsx)(U8e, {
                                 meta: u,
                                 canEdit: t,
                                 onEdit: ()=>s(!0)
@@ -158106,7 +158100,7 @@ In order to be iterable, non-array objects must have a [Symbol.iterator]() metho
                             children: (0, j.jsx)(H4, {
                                 title: `Images Usage`,
                                 description: `Select how the images are being used: as emojis, as stickers, or as both.`,
-                                after: (0, j.jsx)(I8e, {
+                                after: (0, j.jsx)(F8e, {
                                     usage: u.usage,
                                     canEdit: t,
                                     onChange: ue
@@ -158233,7 +158227,7 @@ In order to be iterable, non-array objects must have a [Symbol.iterator]() metho
                                 variant: `SurfaceVariant`,
                                 direction: `Column`,
                                 gap: `400`,
-                                children: (0, j.jsx)(V8e, {
+                                children: (0, j.jsx)(B8e, {
                                     file: e,
                                     children: (e)=>(0, j.jsx)(k7, {
                                             uploadAtom: e,
@@ -158249,7 +158243,7 @@ In order to be iterable, non-array objects must have a [Symbol.iterator]() metho
             ]
         });
     });
-    function q8e({ room: e, stateKey: t }) {
+    function K8e({ room: e, stateKey: t }) {
         let n = J(), r = n.getUserId(), i = lX(e), a = KX(UX(e), i).stateEvent(q.PoniesRoomEmotes, r), o = (0, A.useMemo)(()=>new S3(Mr(4), {}, {
                 roomId: e.roomId,
                 stateKey: t
@@ -158263,13 +158257,13 @@ In order to be iterable, non-array objects must have a [Symbol.iterator]() metho
             n,
             s
         ]);
-        return (0, j.jsx)(K8e, {
+        return (0, j.jsx)(G8e, {
             imagePack: s,
             canEdit: a,
             onUpdate: c
         });
     }
-    function J8e() {
+    function q8e() {
         let e = J(), t = (0, A.useMemo)(()=>new S3(e.getUserId() ?? ``, {}, void 0), [
             e
         ]), n = D3(), r = (0, A.useCallback)(async (t)=>{
@@ -158277,13 +158271,13 @@ In order to be iterable, non-array objects must have a [Symbol.iterator]() metho
         }, [
             e
         ]);
-        return (0, j.jsx)(K8e, {
+        return (0, j.jsx)(G8e, {
             imagePack: n ?? t,
             canEdit: !0,
             onUpdate: r
         });
     }
-    function Y8e({ address: e, requestClose: t }) {
+    function J8e({ address: e, requestClose: t }) {
         let n = J(), r = e && n.getRoom(e.roomId);
         return (0, j.jsxs)(m1, {
             children: [
@@ -158332,17 +158326,17 @@ In order to be iterable, non-array objects must have a [Symbol.iterator]() metho
                         hideTrack: !0,
                         visibility: `Hover`,
                         children: (0, j.jsx)(g1, {
-                            children: r && e ? (0, j.jsx)(q8e, {
+                            children: r && e ? (0, j.jsx)(K8e, {
                                 room: r,
                                 stateKey: e.stateKey
-                            }) : (0, j.jsx)(J8e, {})
+                            }) : (0, j.jsx)(q8e, {})
                         })
                     })
                 })
             ]
         });
     }
-    function X8e() {
+    function Y8e() {
         let [e, t] = Y(X, `telegramBotToken`), [n, r] = (0, A.useState)(e);
         (0, A.useEffect)(()=>r(e), [
             e
@@ -158406,9 +158400,9 @@ In order to be iterable, non-array objects must have a [Symbol.iterator]() metho
             ]
         });
     }
-    function Z8e({ requestClose: e }) {
+    function X8e({ requestClose: e }) {
         let [t, n] = (0, A.useState)();
-        return t ? (0, j.jsx)(Y8e, {
+        return t ? (0, j.jsx)(J8e, {
             address: t.address,
             requestClose: ()=>{
                 n(void 0);
@@ -158455,13 +158449,13 @@ In order to be iterable, non-array objects must have a [Symbol.iterator]() metho
                                     direction: `Column`,
                                     gap: `700`,
                                     children: [
-                                        (0, j.jsx)(E8e, {
-                                            onViewPack: n
-                                        }),
                                         (0, j.jsx)(T8e, {
                                             onViewPack: n
                                         }),
-                                        (0, j.jsx)(X8e, {})
+                                        (0, j.jsx)(w8e, {
+                                            onViewPack: n
+                                        }),
+                                        (0, j.jsx)(Y8e, {})
                                     ]
                                 })
                             })
@@ -158484,7 +158478,7 @@ In order to be iterable, non-array objects must have a [Symbol.iterator]() metho
         get length() {
             return this.end - this.start;
         }
-    }, Q8e = class {
+    }, Z8e = class {
         constructor(e, t, n){
             this.textArea = t, this.operations = n, this.size = e, this.intentReg = /^\s*/, this.str = ``;
             for(let t = 0; t < e; t += 1)this.str += ` `;
@@ -158519,7 +158513,7 @@ In order to be iterable, non-array objects must have a [Symbol.iterator]() metho
             let t = `\n${this.lineIntent(e)}`, n = this.textArea.prevLine(e)?.end ?? 0, r = new k9(n, n, `none`), i = this.operations.insert(r, t);
             return new k9(i.end, i.end, `none`);
         }
-    }, $8e = class {
+    }, Q8e = class {
         constructor(e){
             this.getTarget = e;
         }
@@ -158549,7 +158543,7 @@ In order to be iterable, non-array objects must have a [Symbol.iterator]() metho
             let t = this.lineEndIndex(e) + 1;
             if (!(t > this.target.value.length)) return this.cursorLines(new k9(t, t, `none`));
         }
-    }, e5e = class {
+    }, $8e = class {
         constructor(e){
             this.getTarget = e;
         }
@@ -158570,7 +158564,7 @@ In order to be iterable, non-array objects must have a [Symbol.iterator]() metho
             let { value: n } = this.target;
             return this.target.value = `${n.substring(0, e.start)}${t}${n.substring(e.end)}`, new k9(e.start, e.start + t.length, e.direction);
         }
-    }, t5e = (e, t, n)=>(0, A.useCallback)((r)=>{
+    }, e5e = (e, t, n)=>(0, A.useCallback)((r)=>{
             let i = r.currentTarget;
             if (up(`tab`, r)) {
                 r.preventDefault();
@@ -158601,7 +158595,7 @@ In order to be iterable, non-array objects must have a [Symbol.iterator]() metho
             e,
             t,
             n
-        ]), n5e = (e, t)=>{
+        ]), t5e = (e, t)=>{
         let n = (0, A.useCallback)(()=>{
             let t = e.current;
             if (!t) throw Error(`TextArea element not found!`);
@@ -158609,16 +158603,16 @@ In order to be iterable, non-array objects must have a [Symbol.iterator]() metho
         }, [
             e
         ]), { textArea: r, operations: i, intent: a } = (0, A.useMemo)(()=>{
-            let e = new $8e(n), r = new e5e(n);
+            let e = new Q8e(n), r = new $8e(n);
             return {
                 textArea: e,
                 operations: r,
-                intent: new Q8e(t, e, r)
+                intent: new Z8e(t, e, r)
             };
         }, [
             n,
             t
-        ]), o = t5e(r, i, a);
+        ]), o = e5e(r, i, a);
         return {
             handleKeyDown: (e)=>{
                 if (o(e), up(`escape`, e)) {
@@ -158631,9 +158625,9 @@ In order to be iterable, non-array objects must have a [Symbol.iterator]() metho
             getTarget: n,
             operations: i
         };
-    }, r5e = 2;
-    function i5e({ type: e, defaultContent: t, submitChange: n, onCancel: r, onSave: i }) {
-        let a = cd(), o = (0, A.useRef)(null), [s, c] = (0, A.useState)(), { handleKeyDown: l, operations: u, getTarget: d } = n5e(o, r5e), [f, p] = V(n), m = f.status === B.Loading;
+    }, n5e = 2;
+    function r5e({ type: e, defaultContent: t, submitChange: n, onCancel: r, onSave: i }) {
+        let a = cd(), o = (0, A.useRef)(null), [s, c] = (0, A.useState)(), { handleKeyDown: l, operations: u, getTarget: d } = t5e(o, n5e), [f, p] = V(n), m = f.status === B.Loading;
         return (0, A.useEffect)(()=>{
             if (s) {
                 let e = SX(s) ?? 0, t = new k9(e, e, `none`);
@@ -158656,7 +158650,7 @@ In order to be iterable, non-array objects must have a [Symbol.iterator]() metho
                     c(e);
                     return;
                 }
-                c(void 0), !(!s || u === null || t === JSON.stringify(u, null, r5e)) && p(s, u).then(()=>{
+                c(void 0), !(!s || u === null || t === JSON.stringify(u, null, n5e)) && p(s, u).then(()=>{
                     a() && i({
                         type: s,
                         content: u
@@ -158781,7 +158775,7 @@ In order to be iterable, non-array objects must have a [Symbol.iterator]() metho
             ]
         });
     }
-    function a5e({ type: e, defaultContent: t, onEdit: n }) {
+    function i5e({ type: e, defaultContent: t, onEdit: n }) {
         return (0, j.jsxs)(P, {
             direction: `Column`,
             style: {
@@ -158855,7 +158849,7 @@ In order to be iterable, non-array objects must have a [Symbol.iterator]() metho
             ]
         });
     }
-    function o5e({ type: e, content: t, submitChange: n, requestClose: r }) {
+    function a5e({ type: e, content: t, submitChange: n, requestClose: r }) {
         let [i, a] = (0, A.useState)({
             type: e ?? ``,
             content: t ?? {}
@@ -158870,7 +158864,7 @@ In order to be iterable, non-array objects must have a [Symbol.iterator]() metho
             r
         ]), l = (0, A.useCallback)((e)=>{
             a(e), s(!1);
-        }, []), u = (0, A.useMemo)(()=>JSON.stringify(i.content, null, r5e), [
+        }, []), u = (0, A.useMemo)(()=>JSON.stringify(i.content, null, n5e), [
             i.content
         ]);
         return (0, j.jsxs)(m1, {
@@ -158917,13 +158911,13 @@ In order to be iterable, non-array objects must have a [Symbol.iterator]() metho
                 (0, j.jsx)(P, {
                     grow: `Yes`,
                     direction: `Column`,
-                    children: o ? (0, j.jsx)(i5e, {
+                    children: o ? (0, j.jsx)(r5e, {
                         type: i.type,
                         defaultContent: u,
                         submitChange: n,
                         onCancel: c,
                         onSave: l
-                    }) : (0, j.jsx)(a5e, {
+                    }) : (0, j.jsx)(i5e, {
                         type: i.type,
                         defaultContent: u,
                         onEdit: ()=>s(!0)
@@ -158932,7 +158926,7 @@ In order to be iterable, non-array objects must have a [Symbol.iterator]() metho
             ]
         });
     }
-    function s5e({ expand: e, onExpandToggle: t, onSelect: n }) {
+    function o5e({ expand: e, onExpandToggle: t, onSelect: n }) {
         let r = J(), [i, a] = (0, A.useState)(()=>Array.from(r.store.accountData.keys()));
         return Iq(r, (0, A.useCallback)(()=>{
             a(Array.from(r.store.accountData.keys()));
@@ -159042,14 +159036,14 @@ In order to be iterable, non-array objects must have a [Symbol.iterator]() metho
             ]
         });
     }
-    async function c5e(e) {
+    async function s5e(e) {
         if (pq()) try {
             await i(`set_capture_session`, {
                 active: e
             });
         } catch  {}
     }
-    function l5e() {
+    function c5e() {
         return typeof navigator > `u` || !navigator.mediaDevices?.getDisplayMedia ? pq() && SY() ? {
             supported: !1,
             reason: `Android cannot share a screen from inside the app.`
@@ -159060,7 +159054,7 @@ In order to be iterable, non-array objects must have a [Symbol.iterator]() metho
             supported: !0
         };
     }
-    var u5e = (e)=>e instanceof DOMException || e instanceof Error ? `${e.name}: ${e.message}` : String(e), d5e = (e)=>{
+    var l5e = (e)=>e instanceof DOMException || e instanceof Error ? `${e.name}: ${e.message}` : String(e), u5e = (e)=>{
         let t = e.getSettings();
         return [
             e.label || `<no label>`,
@@ -159070,7 +159064,7 @@ In order to be iterable, non-array objects must have a [Symbol.iterator]() metho
             t.noiseSuppression === void 0 ? void 0 : `noise=${t.noiseSuppression}`,
             t.autoGainControl === void 0 ? void 0 : `agc=${t.autoGainControl}`
         ].filter(Boolean).join(`, `);
-    }, f5e = ()=>[
+    }, d5e = ()=>[
             {
                 label: `User agent`,
                 value: navigator.userAgent
@@ -159107,7 +159101,7 @@ In order to be iterable, non-array objects must have a [Symbol.iterator]() metho
                 value: typeof WebAssembly == `object` ? `present` : `MISSING`,
                 ok: typeof WebAssembly == `object`
             }
-        ], p5e = ()=>typeof MediaRecorder > `u` ? [
+        ], f5e = ()=>typeof MediaRecorder > `u` ? [
             {
                 label: `MediaRecorder codecs`,
                 value: `MediaRecorder unavailable`,
@@ -159125,7 +159119,7 @@ In order to be iterable, non-array objects must have a [Symbol.iterator]() metho
                 value: t ? `supported` : `no`,
                 ok: t
             };
-        }), m5e = async ()=>{
+        }), p5e = async ()=>{
         if (!navigator.mediaDevices?.getUserMedia) return [
             {
                 label: `getUserMedia(audio)`,
@@ -159135,7 +159129,7 @@ In order to be iterable, non-array objects must have a [Symbol.iterator]() metho
         ];
         let e;
         try {
-            e = await fYe();
+            e = await dYe();
             let t = e.stream.getAudioTracks(), n = [
                 {
                     label: `getUserMedia(audio)`,
@@ -159144,7 +159138,7 @@ In order to be iterable, non-array objects must have a [Symbol.iterator]() metho
                 },
                 ...t.map((e, t)=>({
                         label: `Track ${t}`,
-                        value: d5e(e)
+                        value: u5e(e)
                     }))
             ], r = new AudioContext;
             return n.push({
@@ -159155,14 +159149,14 @@ In order to be iterable, non-array objects must have a [Symbol.iterator]() metho
             return [
                 {
                     label: `getUserMedia(audio)`,
-                    value: u5e(e),
+                    value: l5e(e),
                     ok: !1
                 }
             ];
         } finally{
             e?.release();
         }
-    }, h5e = async ()=>{
+    }, m5e = async ()=>{
         if (!navigator.mediaDevices?.enumerateDevices) return [
             {
                 label: `enumerateDevices`,
@@ -159187,13 +159181,13 @@ In order to be iterable, non-array objects must have a [Symbol.iterator]() metho
             return [
                 {
                     label: `enumerateDevices`,
-                    value: u5e(e),
+                    value: l5e(e),
                     ok: !1
                 }
             ];
         }
-    }, g5e = async ()=>{
-        let e = l5e();
+    }, h5e = async ()=>{
+        let e = c5e();
         if (!e.supported) return [
             {
                 label: `Screen capture`,
@@ -159203,7 +159197,7 @@ In order to be iterable, non-array objects must have a [Symbol.iterator]() metho
         ];
         let t;
         try {
-            await uYe(), t = await navigator.mediaDevices.getDisplayMedia({
+            await lYe(), t = await navigator.mediaDevices.getDisplayMedia({
                 video: !0
             });
             let e = t.getVideoTracks()[0];
@@ -159218,18 +159212,18 @@ In order to be iterable, non-array objects must have a [Symbol.iterator]() metho
             return [
                 {
                     label: `getDisplayMedia`,
-                    value: u5e(e),
+                    value: l5e(e),
                     ok: !1
                 }
             ];
         } finally{
             t?.getTracks().forEach((e)=>e.stop());
         }
-    }, _5e = (e)=>e.map(([e, t])=>`## ${e}\n${t.map((e)=>`- ${e.label}: ${e.value}`).join(`
+    }, g5e = (e)=>e.map(([e, t])=>`## ${e}\n${t.map((e)=>`- ${e.label}: ${e.value}`).join(`
 `)}`).join(`
 
 `);
-    function v5e({ result: e }) {
+    function _5e({ result: e }) {
         let t = e.ok === void 0 ? void 0 : e.ok ? M.Success.Main : M.Critical.Main;
         return (0, j.jsxs)(P, {
             gap: `200`,
@@ -159259,15 +159253,15 @@ In order to be iterable, non-array objects must have a [Symbol.iterator]() metho
             ]
         });
     }
-    function y5e() {
+    function v5e() {
         let [e, t] = (0, A.useState)([]), [n, r] = (0, A.useState)(!1), i = (0, A.useCallback)(async ()=>{
             r(!0);
             try {
-                let e = await m5e(), n = await h5e();
+                let e = await p5e(), n = await m5e();
                 t([
                     [
                         `Environment`,
-                        f5e()
+                        d5e()
                     ],
                     [
                         `Microphone`,
@@ -159279,7 +159273,7 @@ In order to be iterable, non-array objects must have a [Symbol.iterator]() metho
                     ],
                     [
                         `MediaRecorder codecs`,
-                        p5e()
+                        f5e()
                     ]
                 ]);
             } finally{
@@ -159288,7 +159282,7 @@ In order to be iterable, non-array objects must have a [Symbol.iterator]() metho
         }, []), a = (0, A.useCallback)(async ()=>{
             r(!0);
             try {
-                let e = await g5e();
+                let e = await h5e();
                 t((t)=>[
                         ...t.filter(([e])=>e !== `Screen capture`),
                         [
@@ -159402,14 +159396,14 @@ In order to be iterable, non-array objects must have a [Symbol.iterator]() metho
                                         size: `L400`,
                                         children: e
                                     }),
-                                    t.map((t)=>(0, j.jsx)(v5e, {
+                                    t.map((t)=>(0, j.jsx)(_5e, {
                                             result: t
                                         }, `${e}-${t.label}`))
                                 ]
                             }, e)),
                         (0, j.jsx)(P, {
                             children: (0, j.jsx)(F, {
-                                onClick: ()=>bX(_5e(e)),
+                                onClick: ()=>bX(g5e(e)),
                                 variant: `Secondary`,
                                 fill: `Soft`,
                                 size: `300`,
@@ -159426,7 +159420,7 @@ In order to be iterable, non-array objects must have a [Symbol.iterator]() metho
             ]
         });
     }
-    function b5e({ requestClose: e }) {
+    function y5e({ requestClose: e }) {
         let t = J(), [n, r] = Y(X, `developerTools`), [i, a] = (0, A.useState)(!1), [o, s] = (0, A.useState)(), c = (0, A.useCallback)(async (e, n)=>{
             await t.setAccountData(e, n);
         }, [
@@ -159520,8 +159514,8 @@ In order to be iterable, non-array objects must have a [Symbol.iterator]() metho
                                                 })
                                             ]
                                         }),
-                                        n && (0, j.jsx)(y5e, {}),
-                                        n && (0, j.jsx)(s5e, {
+                                        n && (0, j.jsx)(v5e, {}),
+                                        n && (0, j.jsx)(o5e, {
                                             expand: i,
                                             onExpandToggle: a,
                                             onSelect: s
@@ -159533,14 +159527,14 @@ In order to be iterable, non-array objects must have a [Symbol.iterator]() metho
                     })
                 })
             ]
-        }) : (0, j.jsx)(o5e, {
+        }) : (0, j.jsx)(a5e, {
             type: o ?? void 0,
             content: o ? t.getAccountData(o)?.getContent() : void 0,
             submitChange: c,
             requestClose: ()=>s(void 0)
         });
     }
-    var x5e = (e, t)=>{
+    var b5e = (e, t)=>{
         switch(e){
             case `checking`:
                 return {
@@ -159586,10 +159580,10 @@ In order to be iterable, non-array objects must have a [Symbol.iterator]() metho
                 };
         }
     };
-    function S5e({ requestClose: e }) {
+    function x5e({ requestClose: e }) {
         let t = J(), { status: n, update: r, error: i, checkForUpdate: a, downloadAndInstall: o } = dye({
             manual: !0
-        }), s = x5e(n, r);
+        }), s = b5e(n, r);
         return (0, j.jsxs)(m1, {
             children: [
                 (0, j.jsx)(h1, {
@@ -159969,7 +159963,7 @@ In order to be iterable, non-array objects must have a [Symbol.iterator]() metho
             ]
         });
     }
-    var C5e = [
+    var S5e = [
         C5.Messages,
         C5.Navigation,
         C5.Formatting,
@@ -159977,7 +159971,7 @@ In order to be iterable, non-array objects must have a [Symbol.iterator]() metho
         C5.Input,
         C5.Call
     ];
-    function w5e({ keys: e }) {
+    function C5e({ keys: e }) {
         return (0, j.jsx)(P, {
             gap: `100`,
             alignItems: `Center`,
@@ -160002,18 +159996,18 @@ In order to be iterable, non-array objects must have a [Symbol.iterator]() metho
                 }, t))
         });
     }
-    function T5e(e) {
+    function w5e(e) {
         if (e.key === `Control` || e.key === `Shift` || e.key === `Alt` || e.key === `Meta`) return null;
         let t = [];
         return (e.metaKey || e.ctrlKey) && t.push(`mod`), e.shiftKey && t.push(`shift`), e.altKey && t.push(`alt`), t.push(e.key.toLowerCase()), t.join(`+`);
     }
-    function E5e({ currentKey: e, onCapture: t }) {
+    function T5e({ currentKey: e, onCapture: t }) {
         let [n, r] = (0, A.useState)(!1), i = (0, A.useRef)(null);
         return (0, A.useEffect)(()=>{
             if (!n) return;
             let e = (e)=>{
                 e.preventDefault(), e.stopPropagation();
-                let n = T5e(e);
+                let n = w5e(e);
                 n && (t(n), r(!1));
             };
             return window.addEventListener(`keydown`, e, !0), ()=>window.removeEventListener(`keydown`, e, !0);
@@ -160037,12 +160031,12 @@ In order to be iterable, non-array objects must have a [Symbol.iterator]() metho
                     fontStyle: `italic`
                 },
                 children: `Press keys...`
-            }) : (0, j.jsx)(w5e, {
-                keys: _We(e)
+            }) : (0, j.jsx)(C5e, {
+                keys: gWe(e)
             })
         });
     }
-    function D5e({ requestClose: e }) {
+    function E5e({ requestClose: e }) {
         let [t, n] = Y(X, `keybinds`), r = (0, A.useCallback)((e, t)=>{
             n((n)=>({
                     ...n,
@@ -160124,7 +160118,7 @@ In order to be iterable, non-array objects must have a [Symbol.iterator]() metho
                                 children: (0, j.jsx)(P, {
                                     direction: `Column`,
                                     gap: `700`,
-                                    children: C5e.map((e)=>{
+                                    children: S5e.map((e)=>{
                                         let n = w5.filter((t)=>t.category === e);
                                         return n.length === 0 ? null : (0, j.jsxs)(P, {
                                             direction: `Column`,
@@ -160147,7 +160141,7 @@ In order to be iterable, non-array objects must have a [Symbol.iterator]() metho
                                                                 gap: `100`,
                                                                 alignItems: `Center`,
                                                                 children: [
-                                                                    (0, j.jsx)(E5e, {
+                                                                    (0, j.jsx)(T5e, {
                                                                         currentKey: n,
                                                                         onCapture: (t)=>r(e.id, t)
                                                                     }),
@@ -160178,9 +160172,9 @@ In order to be iterable, non-array objects must have a [Symbol.iterator]() metho
             ]
         });
     }
-    var O5e = function(e) {
+    var D5e = function(e) {
         return e[e.GeneralPage = 0] = `GeneralPage`, e[e.AccountPage = 1] = `AccountPage`, e[e.NotificationPage = 2] = `NotificationPage`, e[e.DevicesPage = 3] = `DevicesPage`, e[e.EmojisStickersPage = 4] = `EmojisStickersPage`, e[e.DeveloperToolsPage = 5] = `DeveloperToolsPage`, e[e.KeybindsPage = 6] = `KeybindsPage`, e[e.AboutPage = 7] = `AboutPage`, e;
-    }({}), k5e = ()=>{
+    }({}), O5e = ()=>{
         let e = vp() === _p.Mobile;
         return (0, A.useMemo)(()=>[
                 {
@@ -160229,15 +160223,15 @@ In order to be iterable, non-array objects must have a [Symbol.iterator]() metho
             e
         ]);
     };
-    function A5e({ initialPage: e, requestClose: t }) {
-        let n = J(), r = FX(), i = n.getUserId(), a = p9(i), o = a.displayName ?? KG(i) ?? i, s = a.avatarUrl ? oK(n, a.avatarUrl, r, 96, 96, `crop`) ?? void 0 : void 0, c = vp(), [l, u] = (0, A.useState)(()=>e || (c === _p.Mobile ? void 0 : 0)), d = k5e(), f = (0, A.useRef)(null), p = ()=>{
+    function k5e({ initialPage: e, requestClose: t }) {
+        let n = J(), r = FX(), i = n.getUserId(), a = p9(i), o = a.displayName ?? KG(i) ?? i, s = a.avatarUrl ? oK(n, a.avatarUrl, r, 96, 96, `crop`) ?? void 0 : void 0, c = vp(), [l, u] = (0, A.useState)(()=>e || (c === _p.Mobile ? void 0 : 0)), d = O5e(), f = (0, A.useRef)(null), p = ()=>{
             if (c === _p.Mobile) {
                 u(void 0);
                 return;
             }
             t();
         };
-        return $Qe(f, {
+        return QQe(f, {
             edge: `left`,
             anywhere: !0,
             threshold: 80,
@@ -160310,7 +160304,7 @@ In order to be iterable, non-array objects must have a [Symbol.iterator]() metho
                                     variant: `Background`,
                                     size: `300`,
                                     children: (0, j.jsx)(`div`, {
-                                        className: m4e,
+                                        className: p4e,
                                         children: d.map((e)=>(0, j.jsx)(kn, {
                                                 variant: `Background`,
                                                 radii: `400`,
@@ -160367,7 +160361,7 @@ In order to be iterable, non-array objects must have a [Symbol.iterator]() metho
                                                                     clickOutsideDeactivates: !0,
                                                                     escapeDeactivates: mp
                                                                 },
-                                                                children: (0, j.jsx)(f6e, {
+                                                                children: (0, j.jsx)(d6e, {
                                                                     handleClose: ()=>t(!1)
                                                                 })
                                                             })
@@ -160382,35 +160376,35 @@ In order to be iterable, non-array objects must have a [Symbol.iterator]() metho
                     ]
                 }),
                 children: [
-                    l === 0 && (0, j.jsx)(H4e, {
+                    l === 0 && (0, j.jsx)(V4e, {
                         requestClose: p
                     }),
-                    l === 1 && (0, j.jsx)(u3e, {
+                    l === 1 && (0, j.jsx)(l3e, {
                         requestClose: p
                     }),
-                    l === 2 && (0, j.jsx)(z3e, {
+                    l === 2 && (0, j.jsx)(R3e, {
                         requestClose: p
                     }),
-                    l === 3 && (0, j.jsx)(C8e, {
+                    l === 3 && (0, j.jsx)(S8e, {
                         requestClose: p
                     }),
-                    l === 4 && (0, j.jsx)(Z8e, {
+                    l === 4 && (0, j.jsx)(X8e, {
                         requestClose: p
                     }),
-                    l === 5 && (0, j.jsx)(b5e, {
+                    l === 5 && (0, j.jsx)(y5e, {
                         requestClose: p
                     }),
-                    l === 6 && (0, j.jsx)(D5e, {
+                    l === 6 && (0, j.jsx)(E5e, {
                         requestClose: p
                     }),
-                    l === 7 && (0, j.jsx)(S5e, {
+                    l === 7 && (0, j.jsx)(x5e, {
                         requestClose: p
                     })
                 ]
             })
         });
     }
-    function j5e() {
+    function A5e() {
         let e = J(), t = FX(), n = e.getUserId(), r = p9(n), [i, a] = (0, A.useState)(!1), o = r.displayName ?? KG(n) ?? n, s = r.avatarUrl ? oK(e, r.avatarUrl, t, 96, 96, `crop`) ?? void 0 : void 0, c = ()=>a(!0), l = ()=>a(!1);
         return (0, j.jsxs)(s9, {
             active: i,
@@ -160433,15 +160427,15 @@ In order to be iterable, non-array objects must have a [Symbol.iterator]() metho
                 }),
                 i && (0, j.jsx)(yp, {
                     requestClose: l,
-                    children: (0, j.jsx)(A5e, {
+                    children: (0, j.jsx)(k5e, {
                         requestClose: l
                     })
                 })
             ]
         });
     }
-    function M5e() {
-        let e = J(), t = e.getCrypto(), [n] = H3e(), [r, i] = W3e(n), a = T9(t, e.getSafeUserId(), r?.device_id) === w9.Unverified, o = U3e(i), s = d6e(t, e.getSafeUserId(), o), [c, l] = (0, A.useState)(!1), u = ()=>l(!1);
+    function j5e() {
+        let e = J(), t = e.getCrypto(), [n] = V3e(), [r, i] = U3e(n), a = T9(t, e.getSafeUserId(), r?.device_id) === w9.Unverified, o = H3e(i), s = u6e(t, e.getSafeUserId(), o), [c, l] = (0, A.useState)(!1), u = ()=>l(!1);
         return (0, j.jsxs)(j.Fragment, {
             children: [
                 (a || s !== void 0 && s > 0) && (0, j.jsxs)(s9, {
@@ -160483,19 +160477,19 @@ In order to be iterable, non-array objects must have a [Symbol.iterator]() metho
                 }),
                 c && (0, j.jsx)(yp, {
                     requestClose: u,
-                    children: (0, j.jsx)(A5e, {
-                        initialPage: O5e.DevicesPage,
+                    children: (0, j.jsx)(k5e, {
+                        initialPage: D5e.DevicesPage,
                         requestClose: u
                     })
                 })
             ]
         });
     }
-    function N5e() {
-        return s6e() ? (0, j.jsx)(M5e, {}) : null;
+    function M5e() {
+        return o6e() ? (0, j.jsx)(j5e, {}) : null;
     }
-    function P5e() {
-        let [e, t] = Ai(mqe), n = ()=>t(!0);
+    function N5e() {
+        let [e, t] = Ai(pqe), n = ()=>t(!0);
         return (0, j.jsx)(s9, {
             active: e,
             children: (0, j.jsx)(l9, {
@@ -160513,13 +160507,13 @@ In order to be iterable, non-array objects must have a [Symbol.iterator]() metho
             })
         });
     }
-    var F5e = ()=>!!Zs({
+    var P5e = ()=>!!Zs({
             path: Lhe(),
             caseSensitive: !0,
             end: !1
         });
-    function I5e() {
-        let e = F5e(), t = ec(), [n, r] = (0, A.useState)(), [i, a] = (0, A.useState)(!1), o = (e)=>{
+    function F5e() {
+        let e = P5e(), t = ec(), [n, r] = (0, A.useState)(), [i, a] = (0, A.useState)(!1), o = (e)=>{
             r(n ? void 0 : e.currentTarget.getBoundingClientRect());
         }, s = ()=>{
             t(Lhe()), r(void 0);
@@ -160638,10 +160632,10 @@ In order to be iterable, non-array objects must have a [Symbol.iterator]() metho
             })
         });
     }
-    function L5e() {
+    function I5e() {
         let e = (0, A.useRef)(null);
-        return (0, j.jsx)(k2e, {
-            children: (0, j.jsx)(M2e, {
+        return (0, j.jsx)(O2e, {
+            children: (0, j.jsx)(j2e, {
                 scrollable: (0, j.jsxs)(Xn, {
                     ref: e,
                     variant: `Background`,
@@ -160649,31 +160643,31 @@ In order to be iterable, non-array objects must have a [Symbol.iterator]() metho
                     children: [
                         (0, j.jsxs)(d9, {
                             children: [
-                                (0, j.jsx)(F2e, {}),
-                                (0, j.jsx)(L2e, {})
+                                (0, j.jsx)(P2e, {}),
+                                (0, j.jsx)(I2e, {})
                             ]
                         }),
-                        (0, j.jsx)(d4e, {
+                        (0, j.jsx)(u4e, {
                             scrollRef: e
                         }),
-                        (0, j.jsx)(N2e, {}),
+                        (0, j.jsx)(M2e, {}),
                         (0, j.jsxs)(d9, {
                             children: [
-                                (0, j.jsx)(p4e, {}),
-                                (0, j.jsx)(I5e, {})
+                                (0, j.jsx)(f4e, {}),
+                                (0, j.jsx)(F5e, {})
                             ]
                         })
                     ]
                 }),
                 sticky: (0, j.jsxs)(j.Fragment, {
                     children: [
-                        (0, j.jsx)(N2e, {}),
+                        (0, j.jsx)(M2e, {}),
                         (0, j.jsxs)(d9, {
                             children: [
-                                (0, j.jsx)(P5e, {}),
                                 (0, j.jsx)(N5e, {}),
-                                (0, j.jsx)(f4e, {}),
-                                (0, j.jsx)(j5e, {})
+                                (0, j.jsx)(M5e, {}),
+                                (0, j.jsx)(d4e, {}),
+                                (0, j.jsx)(A5e, {})
                             ]
                         })
                     ]
@@ -160681,7 +160675,7 @@ In order to be iterable, non-array objects must have a [Symbol.iterator]() metho
             })
         });
     }
-    function R5e({ children: e }) {
+    function L5e({ children: e }) {
         let t = vp(), n = Zs({
             path: Kd,
             caseSensitive: !0,
@@ -160711,11 +160705,11 @@ In order to be iterable, non-array objects must have a [Symbol.iterator]() metho
             children: t
         });
     }
-    var z5e, B5e = (e)=>{
-        z5e = e;
-    }, V5e = ()=>z5e;
-    function H5e() {
-        let e = J(), t = V5e(), n = t ? e.getRoom(t) : void 0;
+    var R5e, z5e = (e)=>{
+        R5e = e;
+    }, B5e = ()=>R5e;
+    function V5e() {
+        let e = J(), t = B5e(), n = t ? e.getRoom(t) : void 0;
         return n ? (0, j.jsx)(`div`, {
             "aria-hidden": !0,
             style: {
@@ -160727,7 +160721,7 @@ In order to be iterable, non-array objects must have a [Symbol.iterator]() metho
                 minHeight: 0,
                 pointerEvents: `none`
             },
-            children: (0, j.jsx)(Nqe, {
+            children: (0, j.jsx)(Mqe, {
                 children: (0, j.jsx)(j4, {
                     value: n,
                     children: (0, j.jsx)(U7, {})
@@ -160735,15 +160729,15 @@ In order to be iterable, non-array objects must have a [Symbol.iterator]() metho
             })
         }) : null;
     }
-    function U5e({ children: e }) {
+    function H5e({ children: e }) {
         let t = vp(), n = ec(), r = J(), i = (0, A.useRef)(null), a = PY(), o = Oi(Mq);
         (0, A.useEffect)(()=>{
-            a && B5e(a);
+            a && z5e(a);
         }, [
             a
         ]);
         let s = (0, A.useCallback)(()=>{
-            let e = a ?? V5e();
+            let e = a ?? B5e();
             if (e && r.getRoom(e)) {
                 let t = ZG(r, e);
                 return Array.from(o.values()).some((t)=>t.includes(e)) ? AK(t) : DK(t);
@@ -160764,7 +160758,7 @@ In order to be iterable, non-array objects must have a [Symbol.iterator]() metho
             o
         ]), c = (0, A.useCallback)(()=>s() !== null, [
             s
-        ]), { isTracking: l } = $Qe(i, {
+        ]), { isTracking: l } = QQe(i, {
             edge: `right`,
             anywhere: !0,
             threshold: 80,
@@ -160808,7 +160802,7 @@ In order to be iterable, non-array objects must have a [Symbol.iterator]() metho
                                 flexShrink: 0,
                                 display: `flex`
                             },
-                            children: (0, j.jsx)(L5e, {})
+                            children: (0, j.jsx)(I5e, {})
                         }),
                         (0, j.jsx)(`div`, {
                             "data-mobile-swipe-open": l ? `true` : void 0,
@@ -160826,8 +160820,8 @@ In order to be iterable, non-array objects must have a [Symbol.iterator]() metho
             children: e
         });
     }
-    var W5e = `openedSidebarFolder`, G5e = (e)=>{
-        let t = uq(`${W5e}${e}`, (e)=>{
+    var U5e = `openedSidebarFolder`, W5e = (e)=>{
+        let t = uq(`${U5e}${e}`, (e)=>{
             let t = cq(e, []);
             return new Set(t);
         }, (e, t)=>{
@@ -160844,32 +160838,32 @@ In order to be iterable, non-array objects must have a [Symbol.iterator]() metho
                 e.add(r.id);
             }));
         });
-    }, K5e = `callPreferences`, q5e = {
+    }, G5e = `callPreferences`, K5e = {
         microphone: !0,
         video: !1,
         sound: !0
-    }, J5e = (e)=>uq(`${K5e}${e}`, (e)=>cq(e, q5e), (e, t)=>{
+    }, q5e = (e)=>uq(`${G5e}${e}`, (e)=>cq(e, K5e), (e, t)=>{
             lq(e, t);
         });
-    function Y5e({ children: e }) {
+    function J5e({ children: e }) {
         let t = J().getUserId(), n = (0, A.useMemo)(()=>ywe(t), [
             t
-        ]), r = (0, A.useMemo)(()=>s$e(t), [
+        ]), r = (0, A.useMemo)(()=>o$e(t), [
             t
         ]), i = (0, A.useMemo)(()=>x_e(t), [
             t
-        ]), a = (0, A.useMemo)(()=>G5e(t), [
+        ]), a = (0, A.useMemo)(()=>W5e(t), [
             t
-        ]), o = (0, A.useMemo)(()=>J5e(t), [
+        ]), o = (0, A.useMemo)(()=>q5e(t), [
             t
         ]);
         return (0, j.jsx)(Rwe, {
             value: n,
-            children: (0, j.jsx)(S0e, {
+            children: (0, j.jsx)(x0e, {
                 value: r,
                 children: (0, j.jsx)(xwe, {
                     value: i,
-                    children: (0, j.jsx)(t4e, {
+                    children: (0, j.jsx)(e4e, {
                         value: a,
                         children: (0, j.jsx)(awe, {
                             value: o,
@@ -160880,7 +160874,7 @@ In order to be iterable, non-array objects must have a [Symbol.iterator]() metho
             })
         });
     }
-    var X5e = `data:image/svg+xml,%3csvg%20xmlns='http://www.w3.org/2000/svg'%20width='18'%20height='18'%20viewBox='0%200%2018%2018'%3e%3cimage%20width='18'%20height='18'%20href='data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABIAAAASCAMAAABhEH5lAAAABGdBTUEAALGPC/xhBQAAACBjSFJNAAB6JgAAgIQAAPoAAACA6AAAdTAAAOpgAAA6mAAAF3CculE8AAACglBMVEUAAABrcHtscnzEx9PP0d7Q0t/b3OqcoKy7wdi/wcr///9QRi81J2lANyagpLAYBgwFAgmVmqUbFA8RCxAJBgRrOFkYEQwgERoaEww3FikjGhEiCxgTDgkGAQMjISNcVVkpH05YQy4qH09xVDQGBAJYQSk1KBlqb3pscXzExtPHydbMztvO0N27wNjCyOAAAAE4OWlGRoI4NGogGz5MSWPMz9ZBOSeDdU2klF5iXm1aW6lDO347MW8cEzgyKh1bTzWMfFEyJl8hICjU1uOxtMEaBg0dDRA5Kms5NU7O0d2xtMAAAABIHyk4KmkVECeeoq4AAAAtK1ROPG0rIFABAAAAAAAwIxNTSm09LGo7IDpTLEQNCQdINSBUHj9lJ0oACQMZEgxGMyBcJTVJGS43FisgFw9RPCY/K0SBOkVRHiMUBhEJBQE1KR9zZF48LjwqHyBvLTNYISMAAAAAAAB8dHk4KmwbFCszEhEqEBFLRUhsY2hfUElkSzZ6bnZHOmc6K24kG0U6LB5OPS85MTMcFjIpH04fFzo/Lx1DMh8qHxMqHxN2dsBqaK63pXh6d6qJiMPTzt1qYphHPIhDOCWCdHSGhr3SzNpybaNIPYs7ISMsJhtnUE95T3h8UXdZU6BENYFsQ0Z9TUaDPUKJO0hvVZFPRpZAMHpjZLpoSXp8OUqSV1tzX4pgX7RHOYZbTVhaWqRiYrdXVJqOiZqsqL1gXaxDNYA9IlJQPiw/MzdAOltJQ3BXTFmCcGdaT39BMnlHK1ZiSC1XQCY8LSBKOjBnWVFwWUVXQjE/MT1vXVRBNS9WTEnd1tfUy81WR2aZjpWAbGaIc2vOxMXJv8RYSoJ4Z2b////BeBt1AAAAi3RSTlMAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABARAkJTkGDQU/gXxVORcidGSF7v7bQxmV9bwPCgEj0OYvKwIBjdsdAQhJ57ANAoPp97RPFND8qQYs6/CvJTnm+fmXPAhB4vyWuVsmBpzoLR4FG4iWwevo8T5f2T0vgD18jCke0kGuewAAAAFiS0dECmjQ9FYAAAAHdElNRQfqBQ0QNTjXlByxAAABE0lEQVQY02NgQABGdQ0mGJtZU4sFSLFq67CxQ4U4dPX0DQyNjE1MObkgItxm5haWVt091ja2PFBFvHb2Dr19/RMmTnJ0cnbhA4vxu7pNnjJ12vQZ7h6eXmAhAW+fmbNmz5k7b76vH4O/IFBEKCAwaMHCRYuXLF0WHCIMUiMSGha+fMXKVavXrI2IjBIFiniLRcesW79h46bNW7Zui42LFweKSSQkbt+xc9fuPXv37U9KTpEECkmlph04eOjwkaPHjqdnZGZJA4VksnNyT5w8dfrM2bz8gsIiWZD5csUl585fuHjpcmlZeYU3xPXylVXVNVdq6+obFBDB4q3Y2NTc0tqmhBRUyu0dXCoMKEC1s0sNxgYAOvlZLDbji6EAAAAldEVYdGRhdGU6Y3JlYXRlADIwMjYtMDUtMTNUMTY6NTI6MjgrMDA6MDDXC8W3AAAAJXRFWHRkYXRlOm1vZGlmeQAyMDI2LTA1LTEzVDE2OjUyOjI4KzAwOjAwplZ9CwAAABl0RVh0U29mdHdhcmUAQWRvYmUgSW1hZ2VSZWFkeXHJZTwAAAAASUVORK5CYII='/%3e%3c/svg%3e`, Z5e = `data:image/svg+xml,%3csvg%20xmlns='http://www.w3.org/2000/svg'%20width='18'%20height='18'%20viewBox='0%200%2018%2018'%3e%3cimage%20width='18'%20height='18'%20href='data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABIAAAASCAMAAABhEH5lAAAABGdBTUEAALGPC/xhBQAAACBjSFJNAAB6JgAAgIQAAPoAAACA6AAAdTAAAOpgAAA6mAAAF3CculE8AAACglBMVEUAAABrcHtscnzEx9PP0d7Q0t/b3OqcoKy7wdi/wcr///9QRi81J2lANyagpLAYBgwFAgmVmqUbFA8RCxAJBgRrOFkYEQwgERoaEww3FikjGhEiCxgTDgkGAQMjISNcVVkpH05YQy4qH09xVDQGBAJYQSk1KBlqb3pscXzExtPHydbMztvO0N27wNjCyOAAAAE4OWlGRoI4NGogGz5MSWPMz9ZBOSeDdU2klF5iXm1aW6lDO347MW8cEzgyKh1bTzWMfFEyJl8hICjU1uOxtMEaBg0dDRA5Kms5NU7O0d2xtMAAAABIHyk4KmkVECeeoq4AAAAtK1ROPG0rIFABAAAAAAAwIxNTSm09LGo7IDpTLEQNCQdINSBUHj9lJ0oACQMZEgxGMyBcJTVJGS43FisgFw9RPCY/K0SBOkVRHiMUBhEJBQE1KR9zZF48LjwqHyBvLTNYISMAAAAAAAB8dHk4KmwbFCszEhEqEBFLRUhsY2hfUElkSzZ6bnZHOmc6K24kG0U6LB5OPS85MTMcFjIpH04fFzo/Lx1DMh8qHxMqHxN2dsBqaK63pXh6d6qJiMPTzt1qYphHPIhDOCWCdHSGhr3SzNpybaNIPYs7ISMsJhtnUE95T3h8UXdZU6BENYFsQ0Z9TUaDPUKJO0hvVZFPRpZAMHpjZLpoSXp8OUqSV1tzX4pgX7RHOYZbTVhaWqRiYrdXVJqOiZqsqL1gXaxDNYA9IlJQPiw/MzdAOltJQ3BXTFmCcGdaT39BMnlHK1ZiSC1XQCY8LSBKOjBnWVFwWUVXQjE/MT1vXVRBNS9WTEnd1tfUy81WR2aZjpWAbGaIc2vOxMXJv8RYSoJ4Z2b////BeBt1AAAAi3RSTlMAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABARAkJTkGDQU/gXxVORcidGSF7v7bQxmV9bwPCgEj0OYvKwIBjdsdAQhJ57ANAoPp97RPFND8qQYs6/CvJTnm+fmXPAhB4vyWuVsmBpzoLR4FG4iWwevo8T5f2T0vgD18jCke0kGuewAAAAFiS0dECmjQ9FYAAAAHdElNRQfqBQ0QNTjXlByxAAABE0lEQVQY02NgQABGdQ0mGJtZU4sFSLFq67CxQ4U4dPX0DQyNjE1MObkgItxm5haWVt091ja2PFBFvHb2Dr19/RMmTnJ0cnbhA4vxu7pNnjJ12vQZ7h6eXmAhAW+fmbNmz5k7b76vH4O/IFBEKCAwaMHCRYuXLF0WHCIMUiMSGha+fMXKVavXrI2IjBIFiniLRcesW79h46bNW7Zui42LFweKSSQkbt+xc9fuPXv37U9KTpEECkmlph04eOjwkaPHjqdnZGZJA4VksnNyT5w8dfrM2bz8gsIiWZD5csUl585fuHjpcmlZeYU3xPXylVXVNVdq6+obFBDB4q3Y2NTc0tqmhBRUyu0dXCoMKEC1s0sNxgYAOvlZLDbji6EAAAAldEVYdGRhdGU6Y3JlYXRlADIwMjYtMDUtMTNUMTY6NTI6MjgrMDA6MDDXC8W3AAAAJXRFWHRkYXRlOm1vZGlmeQAyMDI2LTA1LTEzVDE2OjUyOjI4KzAwOjAwplZ9CwAAABl0RVh0U29mdHdhcmUAQWRvYmUgSW1hZ2VSZWFkeXHJZTwAAAAASUVORK5CYII='/%3e%3c/svg%3e`, Q5e = `/app/assets/notification-EtLMRd0T.ogg`, $5e = `/app/assets/invite-DROg5x7-.ogg`, e7e = (e, t)=>{
+    var Y5e = `data:image/svg+xml,%3csvg%20xmlns='http://www.w3.org/2000/svg'%20width='18'%20height='18'%20viewBox='0%200%2018%2018'%3e%3cimage%20width='18'%20height='18'%20href='data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABIAAAASCAMAAABhEH5lAAAABGdBTUEAALGPC/xhBQAAACBjSFJNAAB6JgAAgIQAAPoAAACA6AAAdTAAAOpgAAA6mAAAF3CculE8AAACglBMVEUAAABrcHtscnzEx9PP0d7Q0t/b3OqcoKy7wdi/wcr///9QRi81J2lANyagpLAYBgwFAgmVmqUbFA8RCxAJBgRrOFkYEQwgERoaEww3FikjGhEiCxgTDgkGAQMjISNcVVkpH05YQy4qH09xVDQGBAJYQSk1KBlqb3pscXzExtPHydbMztvO0N27wNjCyOAAAAE4OWlGRoI4NGogGz5MSWPMz9ZBOSeDdU2klF5iXm1aW6lDO347MW8cEzgyKh1bTzWMfFEyJl8hICjU1uOxtMEaBg0dDRA5Kms5NU7O0d2xtMAAAABIHyk4KmkVECeeoq4AAAAtK1ROPG0rIFABAAAAAAAwIxNTSm09LGo7IDpTLEQNCQdINSBUHj9lJ0oACQMZEgxGMyBcJTVJGS43FisgFw9RPCY/K0SBOkVRHiMUBhEJBQE1KR9zZF48LjwqHyBvLTNYISMAAAAAAAB8dHk4KmwbFCszEhEqEBFLRUhsY2hfUElkSzZ6bnZHOmc6K24kG0U6LB5OPS85MTMcFjIpH04fFzo/Lx1DMh8qHxMqHxN2dsBqaK63pXh6d6qJiMPTzt1qYphHPIhDOCWCdHSGhr3SzNpybaNIPYs7ISMsJhtnUE95T3h8UXdZU6BENYFsQ0Z9TUaDPUKJO0hvVZFPRpZAMHpjZLpoSXp8OUqSV1tzX4pgX7RHOYZbTVhaWqRiYrdXVJqOiZqsqL1gXaxDNYA9IlJQPiw/MzdAOltJQ3BXTFmCcGdaT39BMnlHK1ZiSC1XQCY8LSBKOjBnWVFwWUVXQjE/MT1vXVRBNS9WTEnd1tfUy81WR2aZjpWAbGaIc2vOxMXJv8RYSoJ4Z2b////BeBt1AAAAi3RSTlMAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABARAkJTkGDQU/gXxVORcidGSF7v7bQxmV9bwPCgEj0OYvKwIBjdsdAQhJ57ANAoPp97RPFND8qQYs6/CvJTnm+fmXPAhB4vyWuVsmBpzoLR4FG4iWwevo8T5f2T0vgD18jCke0kGuewAAAAFiS0dECmjQ9FYAAAAHdElNRQfqBQ0QNTjXlByxAAABE0lEQVQY02NgQABGdQ0mGJtZU4sFSLFq67CxQ4U4dPX0DQyNjE1MObkgItxm5haWVt091ja2PFBFvHb2Dr19/RMmTnJ0cnbhA4vxu7pNnjJ12vQZ7h6eXmAhAW+fmbNmz5k7b76vH4O/IFBEKCAwaMHCRYuXLF0WHCIMUiMSGha+fMXKVavXrI2IjBIFiniLRcesW79h46bNW7Zui42LFweKSSQkbt+xc9fuPXv37U9KTpEECkmlph04eOjwkaPHjqdnZGZJA4VksnNyT5w8dfrM2bz8gsIiWZD5csUl585fuHjpcmlZeYU3xPXylVXVNVdq6+obFBDB4q3Y2NTc0tqmhBRUyu0dXCoMKEC1s0sNxgYAOvlZLDbji6EAAAAldEVYdGRhdGU6Y3JlYXRlADIwMjYtMDUtMTNUMTY6NTI6MjgrMDA6MDDXC8W3AAAAJXRFWHRkYXRlOm1vZGlmeQAyMDI2LTA1LTEzVDE2OjUyOjI4KzAwOjAwplZ9CwAAABl0RVh0U29mdHdhcmUAQWRvYmUgSW1hZ2VSZWFkeXHJZTwAAAAASUVORK5CYII='/%3e%3c/svg%3e`, X5e = `data:image/svg+xml,%3csvg%20xmlns='http://www.w3.org/2000/svg'%20width='18'%20height='18'%20viewBox='0%200%2018%2018'%3e%3cimage%20width='18'%20height='18'%20href='data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABIAAAASCAMAAABhEH5lAAAABGdBTUEAALGPC/xhBQAAACBjSFJNAAB6JgAAgIQAAPoAAACA6AAAdTAAAOpgAAA6mAAAF3CculE8AAACglBMVEUAAABrcHtscnzEx9PP0d7Q0t/b3OqcoKy7wdi/wcr///9QRi81J2lANyagpLAYBgwFAgmVmqUbFA8RCxAJBgRrOFkYEQwgERoaEww3FikjGhEiCxgTDgkGAQMjISNcVVkpH05YQy4qH09xVDQGBAJYQSk1KBlqb3pscXzExtPHydbMztvO0N27wNjCyOAAAAE4OWlGRoI4NGogGz5MSWPMz9ZBOSeDdU2klF5iXm1aW6lDO347MW8cEzgyKh1bTzWMfFEyJl8hICjU1uOxtMEaBg0dDRA5Kms5NU7O0d2xtMAAAABIHyk4KmkVECeeoq4AAAAtK1ROPG0rIFABAAAAAAAwIxNTSm09LGo7IDpTLEQNCQdINSBUHj9lJ0oACQMZEgxGMyBcJTVJGS43FisgFw9RPCY/K0SBOkVRHiMUBhEJBQE1KR9zZF48LjwqHyBvLTNYISMAAAAAAAB8dHk4KmwbFCszEhEqEBFLRUhsY2hfUElkSzZ6bnZHOmc6K24kG0U6LB5OPS85MTMcFjIpH04fFzo/Lx1DMh8qHxMqHxN2dsBqaK63pXh6d6qJiMPTzt1qYphHPIhDOCWCdHSGhr3SzNpybaNIPYs7ISMsJhtnUE95T3h8UXdZU6BENYFsQ0Z9TUaDPUKJO0hvVZFPRpZAMHpjZLpoSXp8OUqSV1tzX4pgX7RHOYZbTVhaWqRiYrdXVJqOiZqsqL1gXaxDNYA9IlJQPiw/MzdAOltJQ3BXTFmCcGdaT39BMnlHK1ZiSC1XQCY8LSBKOjBnWVFwWUVXQjE/MT1vXVRBNS9WTEnd1tfUy81WR2aZjpWAbGaIc2vOxMXJv8RYSoJ4Z2b////BeBt1AAAAi3RSTlMAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABARAkJTkGDQU/gXxVORcidGSF7v7bQxmV9bwPCgEj0OYvKwIBjdsdAQhJ57ANAoPp97RPFND8qQYs6/CvJTnm+fmXPAhB4vyWuVsmBpzoLR4FG4iWwevo8T5f2T0vgD18jCke0kGuewAAAAFiS0dECmjQ9FYAAAAHdElNRQfqBQ0QNTjXlByxAAABE0lEQVQY02NgQABGdQ0mGJtZU4sFSLFq67CxQ4U4dPX0DQyNjE1MObkgItxm5haWVt091ja2PFBFvHb2Dr19/RMmTnJ0cnbhA4vxu7pNnjJ12vQZ7h6eXmAhAW+fmbNmz5k7b76vH4O/IFBEKCAwaMHCRYuXLF0WHCIMUiMSGha+fMXKVavXrI2IjBIFiniLRcesW79h46bNW7Zui42LFweKSSQkbt+xc9fuPXv37U9KTpEECkmlph04eOjwkaPHjqdnZGZJA4VksnNyT5w8dfrM2bz8gsIiWZD5csUl585fuHjpcmlZeYU3xPXylVXVNVdq6+obFBDB4q3Y2NTc0tqmhBRUyu0dXCoMKEC1s0sNxgYAOvlZLDbji6EAAAAldEVYdGRhdGU6Y3JlYXRlADIwMjYtMDUtMTNUMTY6NTI6MjgrMDA6MDDXC8W3AAAAJXRFWHRkYXRlOm1vZGlmeQAyMDI2LTA1LTEzVDE2OjUyOjI4KzAwOjAwplZ9CwAAABl0RVh0U29mdHdhcmUAQWRvYmUgSW1hZ2VSZWFkeXHJZTwAAAAASUVORK5CYII='/%3e%3c/svg%3e`, Z5e = `/app/assets/notification-EtLMRd0T.ogg`, Q5e = `/app/assets/invite-DROg5x7-.ogg`, $5e = (e, t)=>{
         let n = (0, A.useRef)(t);
         return (0, A.useEffect)(()=>{
             n.current = e;
@@ -160888,14 +160882,14 @@ In order to be iterable, non-array objects must have a [Symbol.iterator]() metho
             e
         ]), n.current;
     };
-    function t7e() {
+    function e7e() {
         let [e] = Y(X, `minimizeToTray`), t = (0, A.useRef)(e);
         t.current = e;
         let n = (0, A.useRef)(!1);
         (0, A.useEffect)(()=>{
             !pq() || n.current || (n.current = !0, (async ()=>{
                 let { TrayIcon: e } = await c(async ()=>{
-                    let { TrayIcon: e } = await import(`./tray-CjqVUGPY.js`).then(async (m)=>{
+                    let { TrayIcon: e } = await import(`./tray-DNzhZjFw.js`).then(async (m)=>{
                         await m.__tla;
                         return m;
                     });
@@ -160903,7 +160897,7 @@ In order to be iterable, non-array objects must have a [Symbol.iterator]() metho
                         TrayIcon: e
                     };
                 }, __vite__mapDeps([13,1])), { Menu: n } = await c(async ()=>{
-                    let { Menu: e } = await import(`./menu-Ckf4xwar.js`).then(async (m)=>{
+                    let { Menu: e } = await import(`./menu-9CWVQfJR.js`).then(async (m)=>{
                         await m.__tla;
                         return m;
                     });
@@ -160911,7 +160905,7 @@ In order to be iterable, non-array objects must have a [Symbol.iterator]() metho
                         Menu: e
                     };
                 }, __vite__mapDeps([14,1])), { defaultWindowIcon: r } = await c(async ()=>{
-                    let { defaultWindowIcon: e } = await import(`./app-4-QJJXPk.js`).then(async (m)=>{
+                    let { defaultWindowIcon: e } = await import(`./app-yLLu-pUV.js`).then(async (m)=>{
                         await m.__tla;
                         return m;
                     });
@@ -160919,7 +160913,7 @@ In order to be iterable, non-array objects must have a [Symbol.iterator]() metho
                         defaultWindowIcon: e
                     };
                 }, __vite__mapDeps([15,1])), { getCurrentWindow: i } = await c(async ()=>{
-                    let { getCurrentWindow: e } = await Promise.resolve().then(()=>s7e);
+                    let { getCurrentWindow: e } = await Promise.resolve().then(()=>o7e);
                     return {
                         getCurrentWindow: e
                     };
@@ -160964,7 +160958,7 @@ In order to be iterable, non-array objects must have a [Symbol.iterator]() metho
             })());
         }, []);
     }
-    var n7e = ()=>{
+    var t7e = ()=>{
         let [e] = Y(X, `contentProtection`);
         (0, A.useEffect)(()=>{
             pq() && i(`set_content_protection`, {
@@ -160974,7 +160968,7 @@ In order to be iterable, non-array objects must have a [Symbol.iterator]() metho
             e
         ]);
     };
-    function r7e() {
+    function n7e() {
         let e = (0, A.useRef)(typeof document > `u` || document.hasFocus());
         return (0, A.useEffect)(()=>{
             let t = ()=>{
@@ -160989,7 +160983,7 @@ In order to be iterable, non-array objects must have a [Symbol.iterator]() metho
             return pq() && (async ()=>{
                 try {
                     let { getCurrentWindow: t } = await c(async ()=>{
-                        let { getCurrentWindow: e } = await Promise.resolve().then(()=>s7e);
+                        let { getCurrentWindow: e } = await Promise.resolve().then(()=>o7e);
                         return {
                             getCurrentWindow: e
                         };
@@ -161005,8 +160999,8 @@ In order to be iterable, non-array objects must have a [Symbol.iterator]() metho
             };
         }, []), e;
     }
-    let i7e, M9, a7e;
-    i7e = class {
+    let r7e, M9, i7e;
+    r7e = class {
         constructor(...e){
             this.type = `Logical`, e.length === 1 ? `Logical` in e[0] ? (this.width = e[0].Logical.width, this.height = e[0].Logical.height) : (this.width = e[0].width, this.height = e[0].height) : (this.width = e[0], this.height = e[1]);
         }
@@ -161028,7 +161022,7 @@ In order to be iterable, non-array objects must have a [Symbol.iterator]() metho
             this.type = `Physical`, e.length === 1 ? `Physical` in e[0] ? (this.width = e[0].Physical.width, this.height = e[0].Physical.height) : (this.width = e[0].width, this.height = e[0].height) : (this.width = e[0], this.height = e[1]);
         }
         toLogical(e) {
-            return new i7e(this.width / e, this.height / e);
+            return new r7e(this.width / e, this.height / e);
         }
         [o]() {
             return {
@@ -161045,7 +161039,7 @@ In order to be iterable, non-array objects must have a [Symbol.iterator]() metho
             this.size = e;
         }
         toLogical(e) {
-            return this.size instanceof i7e ? this.size : this.size.toLogical(e);
+            return this.size instanceof r7e ? this.size : this.size.toLogical(e);
         }
         toPhysical(e) {
             return this.size instanceof j9 ? this.size : this.size.toPhysical(e);
@@ -161062,7 +161056,7 @@ In order to be iterable, non-array objects must have a [Symbol.iterator]() metho
             return this[o]();
         }
     };
-    a7e = class {
+    i7e = class {
         constructor(...e){
             this.type = `Logical`, e.length === 1 ? `Logical` in e[0] ? (this.x = e[0].Logical.x, this.y = e[0].Logical.y) : (this.x = e[0].x, this.y = e[0].y) : (this.x = e[0], this.y = e[1]);
         }
@@ -161084,7 +161078,7 @@ In order to be iterable, non-array objects must have a [Symbol.iterator]() metho
             this.type = `Physical`, e.length === 1 ? `Physical` in e[0] ? (this.x = e[0].Physical.x, this.y = e[0].Physical.y) : (this.x = e[0].x, this.y = e[0].y) : (this.x = e[0], this.y = e[1]);
         }
         toLogical(e) {
-            return new a7e(this.x / e, this.y / e);
+            return new i7e(this.x / e, this.y / e);
         }
         [o]() {
             return {
@@ -161101,7 +161095,7 @@ In order to be iterable, non-array objects must have a [Symbol.iterator]() metho
             this.position = e;
         }
         toLogical(e) {
-            return this.position instanceof a7e ? this.position : this.position.toLogical(e);
+            return this.position instanceof i7e ? this.position : this.position.toLogical(e);
         }
         toPhysical(e) {
             return this.position instanceof N9 ? this.position : this.position.toPhysical(e);
@@ -161118,7 +161112,7 @@ In order to be iterable, non-array objects must have a [Symbol.iterator]() metho
             return this[o]();
         }
     };
-    o7e = class e extends r {
+    a7e = class e extends r {
         constructor(e){
             super(e);
         }
@@ -161151,24 +161145,24 @@ In order to be iterable, non-array objects must have a [Symbol.iterator]() metho
         }
     };
     F9 = function(e) {
-        return e == null ? null : typeof e == `string` ? e : e instanceof o7e ? e.rid : e;
+        return e == null ? null : typeof e == `string` ? e : e instanceof a7e ? e.rid : e;
     };
-    var s7e = t({
-        CloseRequestedEvent: ()=>c7e,
-        Effect: ()=>m7e,
-        EffectState: ()=>h7e,
+    var o7e = t({
+        CloseRequestedEvent: ()=>s7e,
+        Effect: ()=>p7e,
+        EffectState: ()=>m7e,
         PhysicalPosition: ()=>N9,
         PhysicalSize: ()=>j9,
-        ProgressBarStatus: ()=>l7e,
+        ProgressBarStatus: ()=>c7e,
         UserAttentionType: ()=>I9,
-        Window: ()=>d7e,
+        Window: ()=>u7e,
         getAllWindows: ()=>R9,
         getCurrentWindow: ()=>L9
     }), I9;
     (function(e) {
         e[e.Critical = 1] = `Critical`, e[e.Informational = 2] = `Informational`;
     })(I9 ||= {});
-    var c7e = class {
+    var s7e = class {
         constructor(e){
             this._preventDefault = !1, this.event = e.event, this.id = e.id;
         }
@@ -161178,24 +161172,24 @@ In order to be iterable, non-array objects must have a [Symbol.iterator]() metho
         isPreventDefault() {
             return this._preventDefault;
         }
-    }, l7e;
+    }, c7e;
     (function(e) {
         e.None = `none`, e.Normal = `normal`, e.Indeterminate = `indeterminate`, e.Paused = `paused`, e.Error = `error`;
-    })(l7e ||= {});
+    })(c7e ||= {});
     function L9() {
-        return new d7e(window.__TAURI_INTERNALS__.metadata.currentWindow.label, {
+        return new u7e(window.__TAURI_INTERNALS__.metadata.currentWindow.label, {
             skip: !0
         });
     }
     async function R9() {
-        return i(`plugin:window|get_all_windows`).then((e)=>e.map((e)=>new d7e(e, {
+        return i(`plugin:window|get_all_windows`).then((e)=>e.map((e)=>new u7e(e, {
                     skip: !0
                 })));
     }
-    var u7e = [
+    var l7e = [
         `tauri://created`,
         `tauri://error`
-    ], d7e = class {
+    ], u7e = class {
         constructor(e, t = {}){
             this.label = e, this.listeners = Object.create(null), t?.skip || i(`plugin:window|create`, {
                 options: {
@@ -161241,7 +161235,7 @@ In order to be iterable, non-array objects must have a [Symbol.iterator]() metho
             });
         }
         async emit(e, t) {
-            if (u7e.includes(e)) {
+            if (l7e.includes(e)) {
                 for (let n of this.listeners[e] || [])n({
                     event: e,
                     id: -1,
@@ -161252,7 +161246,7 @@ In order to be iterable, non-array objects must have a [Symbol.iterator]() metho
             return u(e, t);
         }
         async emitTo(e, t, n) {
-            if (u7e.includes(t)) {
+            if (l7e.includes(t)) {
                 for (let e of this.listeners[t] || [])e({
                     event: t,
                     id: -1,
@@ -161263,7 +161257,7 @@ In order to be iterable, non-array objects must have a [Symbol.iterator]() metho
             return f(e, t, n);
         }
         _handleTauriEvent(e, t) {
-            return u7e.includes(e) ? (e in this.listeners ? this.listeners[e].push(t) : this.listeners[e] = [
+            return l7e.includes(e) ? (e in this.listeners ? this.listeners[e].push(t) : this.listeners[e] = [
                 t
             ], !0) : !1;
         }
@@ -161686,7 +161680,7 @@ In order to be iterable, non-array objects must have a [Symbol.iterator]() metho
         }
         async onCloseRequested(e) {
             return this.listen(p.WINDOW_CLOSE_REQUESTED, async (t)=>{
-                let n = new c7e(t);
+                let n = new s7e(t);
                 await e(n), n.isPreventDefault() || await this.destroy();
             });
         }
@@ -161751,29 +161745,29 @@ In order to be iterable, non-array objects must have a [Symbol.iterator]() metho
         async onThemeChanged(e) {
             return this.listen(p.WINDOW_THEME_CHANGED, e);
         }
-    }, f7e;
+    }, d7e;
     (function(e) {
         e.Disabled = `disabled`, e.Throttle = `throttle`, e.Suspend = `suspend`;
+    })(d7e ||= {});
+    var f7e;
+    (function(e) {
+        e.Default = `default`, e.FluentOverlay = `fluentOverlay`;
     })(f7e ||= {});
     var p7e;
     (function(e) {
-        e.Default = `default`, e.FluentOverlay = `fluentOverlay`;
+        e.AppearanceBased = `appearanceBased`, e.Light = `light`, e.Dark = `dark`, e.MediumLight = `mediumLight`, e.UltraDark = `ultraDark`, e.Titlebar = `titlebar`, e.Selection = `selection`, e.Menu = `menu`, e.Popover = `popover`, e.Sidebar = `sidebar`, e.HeaderView = `headerView`, e.Sheet = `sheet`, e.WindowBackground = `windowBackground`, e.HudWindow = `hudWindow`, e.FullScreenUI = `fullScreenUI`, e.Tooltip = `tooltip`, e.ContentBackground = `contentBackground`, e.UnderWindowBackground = `underWindowBackground`, e.UnderPageBackground = `underPageBackground`, e.Mica = `mica`, e.Blur = `blur`, e.Acrylic = `acrylic`, e.Tabbed = `tabbed`, e.TabbedDark = `tabbedDark`, e.TabbedLight = `tabbedLight`;
     })(p7e ||= {});
     var m7e;
     (function(e) {
-        e.AppearanceBased = `appearanceBased`, e.Light = `light`, e.Dark = `dark`, e.MediumLight = `mediumLight`, e.UltraDark = `ultraDark`, e.Titlebar = `titlebar`, e.Selection = `selection`, e.Menu = `menu`, e.Popover = `popover`, e.Sidebar = `sidebar`, e.HeaderView = `headerView`, e.Sheet = `sheet`, e.WindowBackground = `windowBackground`, e.HudWindow = `hudWindow`, e.FullScreenUI = `fullScreenUI`, e.Tooltip = `tooltip`, e.ContentBackground = `contentBackground`, e.UnderWindowBackground = `underWindowBackground`, e.UnderPageBackground = `underPageBackground`, e.Mica = `mica`, e.Blur = `blur`, e.Acrylic = `acrylic`, e.Tabbed = `tabbed`, e.TabbedDark = `tabbedDark`, e.TabbedLight = `tabbedLight`;
-    })(m7e ||= {});
-    var h7e;
-    (function(e) {
         e.FollowsWindowActiveState = `followsWindowActiveState`, e.Active = `active`, e.Inactive = `inactive`;
-    })(h7e ||= {});
-    var g7e = {
+    })(m7e ||= {});
+    var h7e = {
         roomid: `!`,
         r: `#`,
         u: `@`,
         user: `@`,
         room: `#`
-    }, _7e = (e)=>/^[!#@][^\s:]+:[^\s:/]+(?::\d+)?$/.test(e) && e.length <= 255, v7e = (e)=>e.startsWith(`$`) && e.length > 1 && e.length <= 255 && !/\s/.test(e), y7e = (e)=>{
+    }, g7e = (e)=>/^[!#@][^\s:]+:[^\s:/]+(?::\d+)?$/.test(e) && e.length <= 255, _7e = (e)=>e.startsWith(`$`) && e.length > 1 && e.length <= 255 && !/\s/.test(e), v7e = (e)=>{
         let t;
         try {
             t = new URL(e);
@@ -161783,10 +161777,10 @@ In order to be iterable, non-array objects must have a [Symbol.iterator]() metho
         if (t.protocol !== `matrix:`) return;
         let n = t.pathname.replace(/^\/+/, ``).split(`/`).filter((e)=>e !== ``);
         if (n.length < 2) return;
-        let [r, i, ...a] = n, o = g7e[r.toLowerCase()];
+        let [r, i, ...a] = n, o = h7e[r.toLowerCase()];
         if (!o) return;
         let s = decodeURIComponent(i), c = s.startsWith(o) ? s : `${o}${s}`;
-        if (!_7e(c)) return;
+        if (!g7e(c)) return;
         if (o === `@`) return {
             kind: `user`,
             userId: c
@@ -161794,7 +161788,7 @@ In order to be iterable, non-array objects must have a [Symbol.iterator]() metho
         let l = t.searchParams.getAll(`via`).filter((e)=>e !== `` && !/\s/.test(e)).slice(0, 10);
         if (a.length >= 2 && a[0].toLowerCase() === `e`) {
             let e = `$${decodeURIComponent(a[1]).replace(/^\$/, ``)}`;
-            if (v7e(e)) return {
+            if (_7e(e)) return {
                 kind: `room`,
                 roomIdOrAlias: c,
                 eventId: e,
@@ -161806,7 +161800,7 @@ In order to be iterable, non-array objects must have a [Symbol.iterator]() metho
             roomIdOrAlias: c,
             viaServers: l
         };
-    }, b7e = (e)=>{
+    }, y7e = (e)=>{
         let t;
         try {
             t = new URL(e);
@@ -161817,7 +161811,7 @@ In order to be iterable, non-array objects must have a [Symbol.iterator]() metho
         let n = t.hash.replace(/^#\/?/, ``);
         if (!n) return;
         let r = n.indexOf(`?`), i = r === -1 ? `` : n.slice(r + 1), [a, o] = (r === -1 ? n : n.slice(0, r)).split(`/`), s = decodeURIComponent(a);
-        if (!_7e(s)) return;
+        if (!g7e(s)) return;
         if (s.startsWith(`@`)) return {
             kind: `user`,
             userId: s
@@ -161825,7 +161819,7 @@ In order to be iterable, non-array objects must have a [Symbol.iterator]() metho
         let c = new URLSearchParams(i).getAll(`via`).filter((e)=>e !== `` && !/\s/.test(e)).slice(0, 10);
         if (o) {
             let e = decodeURIComponent(o);
-            if (v7e(e)) return {
+            if (_7e(e)) return {
                 kind: `room`,
                 roomIdOrAlias: s,
                 eventId: e,
@@ -161837,13 +161831,13 @@ In order to be iterable, non-array objects must have a [Symbol.iterator]() metho
             roomIdOrAlias: s,
             viaServers: c
         };
-    }, x7e = (e)=>{
+    }, b7e = (e)=>{
         let t = e.trim();
-        return t.toLowerCase().startsWith(`matrix:`) ? y7e(t) : b7e(t);
-    }, S7e = ()=>{
+        return t.toLowerCase().startsWith(`matrix:`) ? v7e(t) : y7e(t);
+    }, x7e = ()=>{
         let e = J(), t = ec(), { navigateRoom: n, navigateSpace: r } = T1();
         return (0, A.useCallback)((i)=>{
-            let a = x7e(i);
+            let a = b7e(i);
             if (!a) return !1;
             if (a.kind === `user`) {
                 let t = e.getRooms().find((e)=>e.getMyMembership() === `join` && e.getJoinedMemberCount() === 2 && e.getMember(a.userId));
@@ -161862,8 +161856,8 @@ In order to be iterable, non-array objects must have a [Symbol.iterator]() metho
             r
         ]);
     };
-    function C7e() {
-        let e = S7e();
+    function S7e() {
+        let e = x7e();
         return (0, A.useEffect)(()=>{
             let t = (t)=>{
                 if (t.button !== 0 || t.metaKey || t.ctrlKey || t.shiftKey || t.altKey) return;
@@ -161900,7 +161894,7 @@ In order to be iterable, non-array objects must have a [Symbol.iterator]() metho
             e
         ]), null;
     }
-    var w7e = /^@[^\s:]+:[^\s/]+$/, T7e = (e)=>{
+    var C7e = /^@[^\s:]+:[^\s/]+$/, w7e = (e)=>{
         let t;
         try {
             t = new URL(e);
@@ -161921,7 +161915,7 @@ In order to be iterable, non-array objects must have a [Symbol.iterator]() metho
         } catch  {
             return null;
         }
-        if (!w7e.test(r)) return null;
+        if (!C7e.test(r)) return null;
         let i = t.searchParams.get(`start`);
         return i === null ? {
             userId: r
@@ -161929,11 +161923,11 @@ In order to be iterable, non-array objects must have a [Symbol.iterator]() metho
             userId: r,
             payload: i
         } : null;
-    }, E7e = (e)=>e ? `/start ${e}` : `/start`, D7e = {
+    }, T7e = (e)=>e ? `/start ${e}` : `/start`, E7e = {
         padding: `0 ${N.space.S200} 0 ${N.space.S400}`,
         borderBottomWidth: N.borderWidth.B300
     };
-    function O7e() {
+    function D7e() {
         let e = J(), { navigateRoom: t } = T1(), [n, r] = (0, A.useState)(null), [i, a] = V((0, A.useCallback)(async (n)=>{
             let r = rK(e, n.userId)?.roomId;
             return r || (r = (await e.createRoom({
@@ -161948,13 +161942,13 @@ In order to be iterable, non-array objects must have a [Symbol.iterator]() metho
                 ]
             })).room_id, await aK(e, r, n.userId)), await e.sendMessage(r, {
                 msgtype: oR.Text,
-                body: E7e(n.payload)
+                body: T7e(n.payload)
             }), t(r), r;
         }, [
             e,
             t
         ])), o = (0, A.useCallback)((e)=>{
-            let t = T7e(e);
+            let t = w7e(e);
             return t ? (r(t), !0) : !1;
         }, []);
         (0, A.useEffect)(()=>{
@@ -162012,7 +162006,7 @@ In order to be iterable, non-array objects must have a [Symbol.iterator]() metho
                         variant: `Surface`,
                         children: [
                             (0, j.jsxs)(wn, {
-                                style: D7e,
+                                style: E7e,
                                 variant: `Surface`,
                                 size: `500`,
                                 children: [
@@ -162061,7 +162055,7 @@ In order to be iterable, non-array objects must have a [Symbol.iterator]() metho
                                             (0, j.jsx)(z, {
                                                 size: `T300`,
                                                 children: (0, j.jsx)(`code`, {
-                                                    children: E7e(n.payload)
+                                                    children: T7e(n.payload)
                                                 })
                                             })
                                         ]
@@ -162115,29 +162109,29 @@ In order to be iterable, non-array objects must have a [Symbol.iterator]() metho
             })
         });
     }
-    function k7e() {
+    function O7e() {
         let [e] = Y(X, `twitterEmoji`);
         return e ? document.documentElement.style.setProperty(`--font-emoji`, `Twemoji`) : document.documentElement.style.setProperty(`--font-emoji`, `Twemoji_DISABLED`), null;
     }
-    function A7e() {
+    function k7e() {
         let [e] = Y(X, `pageZoom`);
         return e === 100 ? document.documentElement.style.removeProperty(`font-size`) : document.documentElement.style.setProperty(`font-size`, `calc(1em * ${e / 100})`), null;
     }
-    function j7e() {
-        return t7e(), n7e(), null;
+    function A7e() {
+        return e7e(), t7e(), null;
     }
-    function M7e() {
+    function j7e() {
         let e = Oi(Yq);
         return (0, A.useEffect)(()=>{
             let t = !1, n = !1;
             e.forEach((e)=>{
                 e.total > 0 && (t = !0), e.highlight > 0 && (n = !0);
-            }), yxe(t ? n ? Z5e : X5e : Qd);
+            }), yxe(t ? n ? X5e : Y5e : Qd);
         }, [
             e
         ]), null;
     }
-    function N7e() {
+    function M7e() {
         let e = Oi(Yq);
         return (0, A.useEffect)(()=>{
             if (!pq()) return;
@@ -162161,8 +162155,8 @@ In order to be iterable, non-array objects must have a [Symbol.iterator]() metho
             e
         ]), null;
     }
-    function P7e() {
-        let e = (0, A.useRef)(null), t = Oi(kq), n = e7e(t.length, 0), r = J(), i = ec(), [a] = Y(X, `showNotifications`), [o] = Y(X, `isNotificationSounds`), s = (0, A.useCallback)((e)=>{
+    function N7e() {
+        let e = (0, A.useRef)(null), t = Oi(kq), n = $5e(t.length, 0), r = J(), i = ec(), [a] = Y(X, `showNotifications`), [o] = Y(X, `isNotificationSounds`), s = (0, A.useCallback)((e)=>{
             if (pq() && _q(`Invitation`, {
                 icon: Qd,
                 body: `You have ${e} new invitation request.`
@@ -162198,13 +162192,13 @@ In order to be iterable, non-array objects must have a [Symbol.iterator]() metho
                 display: `none`
             },
             children: (0, j.jsx)(`source`, {
-                src: $5e,
+                src: Q5e,
                 type: `audio/ogg`
             })
         });
     }
-    function F7e() {
-        let e = (0, A.useRef)(null), t = (0, A.useRef)(void 0), n = (0, A.useRef)(new Map), r = J(), i = FX(), [a] = Y(X, `showNotifications`), [o] = Y(X, `isNotificationSounds`), [s] = Y(X, `notificationContentMode`), c = ec(), { navigateRoom: l } = T1(), u = r7e(), d = VMe(), f = PY(), p = (0, A.useCallback)(({ senderName: e, roomAvatar: n, notificationBody: a, roomId: o, eventId: l })=>{
+    function P7e() {
+        let e = (0, A.useRef)(null), t = (0, A.useRef)(void 0), n = (0, A.useRef)(new Map), r = J(), i = FX(), [a] = Y(X, `showNotifications`), [o] = Y(X, `isNotificationSounds`), [s] = Y(X, `notificationContentMode`), c = ec(), { navigateRoom: l } = T1(), u = n7e(), d = VMe(), f = PY(), p = (0, A.useCallback)(({ senderName: e, roomAvatar: n, notificationBody: a, roomId: o, eventId: l })=>{
             let u = r.getAccessToken(), d = i && u ? `Bearer ${u}` : void 0;
             if (pq() && _q(e, {
                 icon: n,
@@ -162302,29 +162296,29 @@ In order to be iterable, non-array objects must have a [Symbol.iterator]() metho
                 display: `none`
             },
             children: (0, j.jsx)(`source`, {
-                src: Q5e,
+                src: Z5e,
                 type: `audio/ogg`
             })
         });
     }
-    function I7e({ children: e }) {
+    function F7e({ children: e }) {
         return (0, j.jsxs)(j.Fragment, {
             children: [
-                (0, j.jsx)(k7e, {}),
-                (0, j.jsx)(A7e, {}),
-                (0, j.jsx)(M7e, {}),
-                (0, j.jsx)(N7e, {}),
-                (0, j.jsx)(j7e, {}),
-                (0, j.jsx)(P7e, {}),
-                (0, j.jsx)(F7e, {}),
-                (0, j.jsx)(gqe, {}),
-                (0, j.jsx)(C7e, {}),
                 (0, j.jsx)(O7e, {}),
+                (0, j.jsx)(k7e, {}),
+                (0, j.jsx)(j7e, {}),
+                (0, j.jsx)(M7e, {}),
+                (0, j.jsx)(A7e, {}),
+                (0, j.jsx)(N7e, {}),
+                (0, j.jsx)(P7e, {}),
+                (0, j.jsx)(hqe, {}),
+                (0, j.jsx)(S7e, {}),
+                (0, j.jsx)(D7e, {}),
                 e
             ]
         });
     }
-    function L7e() {
+    function I7e() {
         let e = I$();
         return (0, A.useEffect)(()=>{
             document.body.className = ``, document.body.classList.add(Ct, wt), e === M$.Dark && document.body.classList.add(...P$.classNames), e === M$.Light && document.body.classList.add(...N$.classNames);
@@ -162332,7 +162326,7 @@ In order to be iterable, non-array objects must have a [Symbol.iterator]() metho
             e
         ]), null;
     }
-    function R7e({ children: e }) {
+    function L7e({ children: e }) {
         let t = GCe(), [n] = Y(X, `monochromeMode`);
         return (0, A.useEffect)(()=>{
             document.body.className = ``, document.body.classList.add(Ct, wt), document.body.classList.add(...t.classNames), n ? document.body.style.filter = `grayscale(1)` : document.body.style.filter = ``;
@@ -162344,7 +162338,7 @@ In order to be iterable, non-array objects must have a [Symbol.iterator]() metho
             children: e
         });
     }
-    var z9 = `_1aclz590`, z7e = (e)=>{
+    var z9 = `_1aclz590`, R7e = (e)=>{
         let t = oX(e, q.RoomCanonicalAlias)?.getContent();
         return [
             t?.alias,
@@ -162357,7 +162351,7 @@ In order to be iterable, non-array objects must have a [Symbol.iterator]() metho
                 t
             ])
         ];
-    }, B7e = (e)=>{
+    }, z7e = (e)=>{
         let t = J();
         return (0, A.useCallback)(async (n)=>{
             let r = vG(e, q.RoomCanonicalAlias)?.getContent(), i = [];
@@ -162373,7 +162367,7 @@ In order to be iterable, non-array objects must have a [Symbol.iterator]() metho
             t,
             e
         ]);
-    }, V7e = (e)=>{
+    }, B7e = (e)=>{
         let t = J();
         return {
             publishAliases: (0, A.useCallback)(async (n)=>{
@@ -162405,7 +162399,7 @@ In order to be iterable, non-array objects must have a [Symbol.iterator]() metho
                 e
             ])
         };
-    }, H7e = (e)=>{
+    }, V7e = (e)=>{
         let t = J(), n = cd(), [r, i] = V((0, A.useCallback)(async ()=>(await t.getLocalAliases(e)).aliases, [
             t,
             e
@@ -162433,8 +162427,8 @@ In order to be iterable, non-array objects must have a [Symbol.iterator]() metho
             ])
         };
     };
-    function U7e({ permissions: e }) {
-        let t = J(), n = M4(), r = e.stateEvent(q.RoomCanonicalAlias, t.getSafeUserId()), [i, a] = z7e(n), [o, s] = V(B7e(n)), c = o.status === B.Loading;
+    function H7e({ permissions: e }) {
+        let t = J(), n = M4(), r = e.stateEvent(q.RoomCanonicalAlias, t.getSafeUserId()), [i, a] = R7e(n), [o, s] = V(z7e(n)), c = o.status === B.Loading;
         return (0, j.jsxs)(C1, {
             className: z9,
             variant: `SurfaceVariant`,
@@ -162543,7 +162537,7 @@ In order to be iterable, non-array objects must have a [Symbol.iterator]() metho
             ]
         });
     }
-    function W7e({ addLocalAlias: e }) {
+    function U7e({ addLocalAlias: e }) {
         let t = GG(J().getSafeUserId()), n = cd(), [r, i] = V(e), a = r.status === B.Loading;
         return (0, j.jsxs)(P, {
             as: `form`,
@@ -162620,8 +162614,8 @@ In order to be iterable, non-array objects must have a [Symbol.iterator]() metho
             ]
         });
     }
-    function G7e({ localAliases: e, removeLocalAlias: t, canEditCanonical: n }) {
-        let r = M4(), i = cd(), [, a] = z7e(r), { publishAliases: o, unpublishAliases: s } = V7e(r), [c, l] = (0, A.useState)([]), u = c.find((e)=>a.includes(e)), d = (e)=>{
+    function W7e({ localAliases: e, removeLocalAlias: t, canEditCanonical: n }) {
+        let r = M4(), i = cd(), [, a] = R7e(r), { publishAliases: o, unpublishAliases: s } = B7e(r), [c, l] = (0, A.useState)([]), u = c.find((e)=>a.includes(e)), d = (e)=>{
             l((t)=>{
                 if (t.includes(e)) return t.filter((t)=>t !== e);
                 let n = [
@@ -162762,8 +162756,8 @@ In order to be iterable, non-array objects must have a [Symbol.iterator]() metho
             ]
         });
     }
-    function K7e({ permissions: e }) {
-        let t = J(), n = M4(), r = e.stateEvent(q.RoomCanonicalAlias, t.getSafeUserId()), [i, a] = (0, A.useState)(!1), { localAliasesState: o, addLocalAlias: s, removeLocalAlias: c } = H7e(n.roomId);
+    function G7e({ permissions: e }) {
+        let t = J(), n = M4(), r = e.stateEvent(q.RoomCanonicalAlias, t.getSafeUserId()), [i, a] = (0, A.useState)(!1), { localAliasesState: o, addLocalAlias: s, removeLocalAlias: c } = V7e(n.roomId);
         return (0, j.jsxs)(C1, {
             className: z9,
             variant: `SurfaceVariant`,
@@ -162820,7 +162814,7 @@ In order to be iterable, non-array objects must have a [Symbol.iterator]() metho
                                 size: `L400`,
                                 children: `No Addresses`
                             })
-                        }) : (0, j.jsx)(G7e, {
+                        }) : (0, j.jsx)(W7e, {
                             localAliases: o.data,
                             removeLocalAlias: c,
                             canEditCanonical: r
@@ -162837,17 +162831,17 @@ In order to be iterable, non-array objects must have a [Symbol.iterator]() metho
                         })
                     ]
                 }),
-                i && (0, j.jsx)(W7e, {
+                i && (0, j.jsx)(U7e, {
                     addLocalAlias: s
                 })
             ]
         });
     }
-    var q7e = `m.megolm.v1.aes-sha2`;
-    function J7e({ permissions: e }) {
-        let t = J(), n = M4(), r = e.stateEvent(q.RoomEncryption, t.getSafeUserId()), i = oX(n, q.RoomEncryption)?.getContent()?.algorithm === q7e, [a, o] = V((0, A.useCallback)(async ()=>{
+    var K7e = `m.megolm.v1.aes-sha2`;
+    function q7e({ permissions: e }) {
+        let t = J(), n = M4(), r = e.stateEvent(q.RoomEncryption, t.getSafeUserId()), i = oX(n, q.RoomEncryption)?.getContent()?.algorithm === K7e, [a, o] = V((0, A.useCallback)(async ()=>{
             await t.sendStateEvent(n.roomId, q.RoomEncryption, {
-                algorithm: q7e
+                algorithm: K7e
             });
         }, [
             t,
@@ -162967,19 +162961,19 @@ In order to be iterable, non-array objects must have a [Symbol.iterator]() metho
             })
         });
     }
-    var Y7e = ()=>(0, A.useMemo)(()=>({
+    var J7e = ()=>(0, A.useMemo)(()=>({
                 [tV.Invited]: `After Invite`,
                 [tV.Joined]: `After Join`,
                 [tV.Shared]: `All Messages`,
                 [tV.WorldReadable]: `All Messages (Guests)`
-            }), []), X7e = ()=>(0, A.useMemo)(()=>[
+            }), []), Y7e = ()=>(0, A.useMemo)(()=>[
                 tV.Shared,
                 tV.Invited,
                 tV.Joined,
                 tV.WorldReadable
             ], []);
-    function Z7e({ permissions: e }) {
-        let t = J(), n = M4(), r = e.stateEvent(q.RoomHistoryVisibility, t.getSafeUserId()), i = oX(n, q.RoomHistoryVisibility)?.getContent().history_visibility ?? tV.Shared, a = X7e(), o = Y7e(), [s, c] = (0, A.useState)(), l = (e)=>{
+    function X7e({ permissions: e }) {
+        let t = J(), n = M4(), r = e.stateEvent(q.RoomHistoryVisibility, t.getSafeUserId()), i = oX(n, q.RoomHistoryVisibility)?.getContent().history_visibility ?? tV.Shared, a = Y7e(), o = J7e(), [s, c] = (0, A.useState)(), l = (e)=>{
             c(e.currentTarget.getBoundingClientRect());
         }, [u, d] = V((0, A.useCallback)(async (e)=>{
             let r = {
@@ -163063,7 +163057,7 @@ In order to be iterable, non-array objects must have a [Symbol.iterator]() metho
             })
         });
     }
-    var Q7e = (e)=>(0, A.useMemo)(()=>({
+    var Z7e = (e)=>(0, A.useMemo)(()=>({
                 [QB.Invite]: AG(L, e, QB.Invite),
                 [QB.Knock]: AG(L, e, QB.Knock),
                 knock_restricted: AG(L, e, QB.Restricted),
@@ -163072,7 +163066,7 @@ In order to be iterable, non-array objects must have a [Symbol.iterator]() metho
                 [QB.Private]: AG(L, e, QB.Private)
             }), [
             e
-        ]), $7e = ()=>(0, A.useMemo)(()=>({
+        ]), Q7e = ()=>(0, A.useMemo)(()=>({
                 [QB.Invite]: `Invite Only`,
                 [QB.Knock]: `Knock & Invite`,
                 knock_restricted: `Space Members or Knock`,
@@ -163080,7 +163074,7 @@ In order to be iterable, non-array objects must have a [Symbol.iterator]() metho
                 [QB.Public]: `Public`,
                 [QB.Private]: `Invite Only`
             }), []);
-    function e9e({ icons: e, labels: t, rules: n, value: r, onChange: i, disabled: a, changing: o }) {
+    function $7e({ icons: e, labels: t, rules: n, value: r, onChange: i, disabled: a, changing: o }) {
         let [s, c] = (0, A.useState)(), l = (e)=>{
             c(e.currentTarget.getBoundingClientRect());
         }, u = (0, A.useCallback)((e)=>{
@@ -163157,7 +163151,7 @@ In order to be iterable, non-array objects must have a [Symbol.iterator]() metho
             })
         });
     }
-    function t9e({ permissions: e }) {
+    function e9e({ permissions: e }) {
         let t = J(), n = M4(), r = fK(n.getVersion()), i = dK(n.getVersion()), a = uK(n.getVersion()), o = Oi(Pq), s = HX(), c = Ebe(t, o), l = IY(jq, s?.roomId ?? ``, c), u = e.stateEvent(q.RoomJoinRules, t.getSafeUserId()), d = oX(n, q.RoomJoinRules)?.getContent()?.join_rule ?? QB.Invite, f = (0, A.useMemo)(()=>{
             let e = [
                 QB.Invite
@@ -163168,7 +163162,7 @@ In order to be iterable, non-array objects must have a [Symbol.iterator]() metho
             i,
             a,
             s
-        ]), p = Q7e(n.getType()), m = $7e(), [h, g] = V((0, A.useCallback)(async (e)=>{
+        ]), p = Z7e(n.getType()), m = Q7e(), [h, g] = V((0, A.useCallback)(async (e)=>{
             let r = [];
             if (e === QB.Restricted || e === `knock_restricted`) {
                 let e = o.get(n.roomId), t = yG(n, q.SpaceParent).map((e)=>e.getStateKey()).filter((e)=>typeof e == `string`).filter((t)=>e?.has(t));
@@ -163202,7 +163196,7 @@ In order to be iterable, non-array objects must have a [Symbol.iterator]() metho
             children: (0, j.jsx)(H4, {
                 title: n.isSpaceRoom() ? `Space Access` : `Room Access`,
                 description: n.isSpaceRoom() ? `Change how people can join the space.` : `Change how people can join the room.`,
-                after: (0, j.jsx)(e9e, {
+                after: (0, j.jsx)($7e, {
                     icons: p,
                     labels: m,
                     rules: f,
@@ -163221,7 +163215,7 @@ In order to be iterable, non-array objects must have a [Symbol.iterator]() metho
             })
         });
     }
-    function n9e({ canEditAvatar: e, canEditName: t, canEditTopic: n, avatar: r, name: i, topic: a, onClose: o }) {
+    function t9e({ canEditAvatar: e, canEditName: t, canEditTopic: n, avatar: r, name: i, topic: a, onClose: o }) {
         let s = M4(), c = J(), l = cd(), u = FX(), d = C$(s), [f, p] = (0, A.useState)(r), m = f ? oK(c, f, u) ?? void 0 : void 0, [h, g] = (0, A.useState)(), _ = O7(h) ? f === r : !1, v = (0, A.useMemo)(()=>{
             if (h) return m7(h);
         }, [
@@ -163421,7 +163415,7 @@ In order to be iterable, non-array objects must have a [Symbol.iterator]() metho
             ]
         });
     }
-    function r9e({ permissions: e }) {
+    function n9e({ permissions: e }) {
         let t = J(), n = FX(), r = M4(), i = b$(r, Oi(Mq).has(r.roomId)), a = x$(r), o = S$(r), s = C$(r), c = e.stateEvent(q.RoomAvatar, t.getSafeUserId()), l = e.stateEvent(q.RoomName, t.getSafeUserId()), u = e.stateEvent(q.RoomTopic, t.getSafeUserId()), d = c || l || u, f = i ? oK(t, i, n, 96, 96, `crop`) ?? void 0 : void 0, [p, m] = (0, A.useState)(!1), h = (0, A.useCallback)(()=>m(!1), []);
         return (0, j.jsxs)(P, {
             direction: `Column`,
@@ -163436,7 +163430,7 @@ In order to be iterable, non-array objects must have a [Symbol.iterator]() metho
                     variant: `SurfaceVariant`,
                     direction: `Column`,
                     gap: `400`,
-                    children: p ? (0, j.jsx)(n9e, {
+                    children: p ? (0, j.jsx)(t9e, {
                         canEditAvatar: c,
                         canEditName: l,
                         canEditTopic: u,
@@ -163515,7 +163509,7 @@ In order to be iterable, non-array objects must have a [Symbol.iterator]() metho
             ]
         });
     }
-    var i9e = (e)=>{
+    var r9e = (e)=>{
         let t = J(), [n, r] = V((0, A.useCallback)(async ()=>(await t.getRoomDirectoryVisibility(e)).visibility === XB.Public, [
             t,
             e
@@ -163535,8 +163529,8 @@ In order to be iterable, non-array objects must have a [Symbol.iterator]() metho
             ])
         };
     };
-    function a9e({ permissions: e }) {
-        let t = J(), n = M4(), r = e.stateEvent(q.RoomCanonicalAlias, t.getSafeUserId()), i = oX(n, q.RoomJoinRules)?.getContent()?.join_rule ?? QB.Invite, { visibilityState: a, setVisibility: o } = i9e(n.roomId), [s, c] = V(o), l = a.status === B.Loading || s.status === B.Loading, u = i === QB.Public || i === QB.Knock || i === `knock_restricted`;
+    function i9e({ permissions: e }) {
+        let t = J(), n = M4(), r = e.stateEvent(q.RoomCanonicalAlias, t.getSafeUserId()), i = oX(n, q.RoomJoinRules)?.getContent()?.join_rule ?? QB.Invite, { visibilityState: a, setVisibility: o } = r9e(n.roomId), [s, c] = V(o), l = a.status === B.Loading || s.status === B.Loading, u = i === QB.Public || i === QB.Knock || i === `knock_restricted`;
         return (0, j.jsx)(C1, {
             className: z9,
             variant: `SurfaceVariant`,
@@ -163578,7 +163572,7 @@ In order to be iterable, non-array objects must have a [Symbol.iterator]() metho
             })
         });
     }
-    function o9e({ requestClose: e }) {
+    function a9e({ requestClose: e }) {
         let t = J(), n = M4(), r = cd(), i = UX(n), a = yq()[`m.room_versions`], [o, s] = (0, A.useState)(a?.default ?? `1`);
         (0, A.useEffect)(()=>{
             s(a?.default ?? `1`);
@@ -163715,7 +163709,7 @@ In order to be iterable, non-array objects must have a [Symbol.iterator]() metho
             })
         });
     }
-    function s9e({ permissions: e, requestClose: t }) {
+    function o9e({ permissions: e, requestClose: t }) {
         let n = J(), r = M4(), { navigateRoom: i, navigateSpace: a } = T1(), o = oX(r, q.RoomCreate)?.getContent(), s = o?.room_version ?? `1`, c = o?.predecessor?.room_id, l = oX(r, q.RoomTombstone)?.getContent(), u = l?.replacement_room, d = e.stateEvent(q.RoomTombstone, n.getSafeUserId()), f = ()=>{
             u && (t(), r.isSpaceRoom() ? a(u) : i(u));
         }, p = ()=>{
@@ -163769,13 +163763,13 @@ In order to be iterable, non-array objects must have a [Symbol.iterator]() metho
                         })
                     ]
                 }),
-                children: m && (0, j.jsx)(o9e, {
+                children: m && (0, j.jsx)(a9e, {
                     requestClose: ()=>h(!1)
                 })
             })
         });
     }
-    function c9e({ requestClose: e }) {
+    function s9e({ requestClose: e }) {
         let t = M4(), n = lX(t), r = KX(UX(t), n);
         return (0, j.jsxs)(m1, {
             children: [
@@ -163818,7 +163812,7 @@ In order to be iterable, non-array objects must have a [Symbol.iterator]() metho
                                 direction: `Column`,
                                 gap: `700`,
                                 children: [
-                                    (0, j.jsx)(r9e, {
+                                    (0, j.jsx)(n9e, {
                                         permissions: r
                                     }),
                                     (0, j.jsxs)(P, {
@@ -163829,16 +163823,16 @@ In order to be iterable, non-array objects must have a [Symbol.iterator]() metho
                                                 size: `L400`,
                                                 children: `Options`
                                             }),
-                                            (0, j.jsx)(t9e, {
+                                            (0, j.jsx)(e9e, {
                                                 permissions: r
                                             }),
-                                            (0, j.jsx)(Z7e, {
+                                            (0, j.jsx)(X7e, {
                                                 permissions: r
                                             }),
-                                            (0, j.jsx)(J7e, {
+                                            (0, j.jsx)(q7e, {
                                                 permissions: r
                                             }),
-                                            (0, j.jsx)(a9e, {
+                                            (0, j.jsx)(i9e, {
                                                 permissions: r
                                             })
                                         ]
@@ -163851,10 +163845,10 @@ In order to be iterable, non-array objects must have a [Symbol.iterator]() metho
                                                 size: `L400`,
                                                 children: `Addresses`
                                             }),
-                                            (0, j.jsx)(U7e, {
+                                            (0, j.jsx)(H7e, {
                                                 permissions: r
                                             }),
-                                            (0, j.jsx)(K7e, {
+                                            (0, j.jsx)(G7e, {
                                                 permissions: r
                                             })
                                         ]
@@ -163867,7 +163861,7 @@ In order to be iterable, non-array objects must have a [Symbol.iterator]() metho
                                                 size: `L400`,
                                                 children: `Advanced Options`
                                             }),
-                                            (0, j.jsx)(s9e, {
+                                            (0, j.jsx)(o9e, {
                                                 permissions: r,
                                                 requestClose: e
                                             })
@@ -163881,10 +163875,10 @@ In order to be iterable, non-array objects must have a [Symbol.iterator]() metho
             ]
         });
     }
-    var l9e = `_1cx2qle0 _1mqalmd1 _1mqalmd0 _1bugis90 _1bugis91`, u9e = (e, t)=>PG(e, t.userId) ?? KG(t.userId) ?? t.userId, d9e = $t(({ as: e = `button`, mx: t, room: n, member: r, useAuthentication: i, after: a, ...o }, s)=>{
-        let c = u9e(n, r), l = KG(r.userId), u = r.getMxcAvatarUrl(), d = u ? t.mxcUrlToHttp(u, 100, 100, `crop`, void 0, !1, i) : void 0;
+    var c9e = `_1cx2qle0 _1mqalmd1 _1mqalmd0 _1bugis90 _1bugis91`, l9e = (e, t)=>PG(e, t.userId) ?? KG(t.userId) ?? t.userId, u9e = $t(({ as: e = `button`, mx: t, room: n, member: r, useAuthentication: i, after: a, ...o }, s)=>{
+        let c = l9e(n, r), l = KG(r.userId), u = r.getMxcAvatarUrl(), d = u ? t.mxcUrlToHttp(u, 100, 100, `crop`, void 0, !1, i) : void 0;
         return (0, j.jsxs)(e, {
-            className: l9e,
+            className: c9e,
             ...o,
             ref: s,
             children: [
@@ -163932,7 +163926,7 @@ In order to be iterable, non-array objects must have a [Symbol.iterator]() metho
                 a
             ]
         });
-    }), f9e = $t(({ as: e = `div`, fill: t, server: n, ...r }, i)=>(0, j.jsx)(fn, {
+    }), d9e = $t(({ as: e = `div`, fill: t, server: n, ...r }, i)=>(0, j.jsx)(fn, {
             as: e,
             variant: `Secondary`,
             fill: t,
@@ -163945,7 +163939,7 @@ In order to be iterable, non-array objects must have a [Symbol.iterator]() metho
                 truncate: !0,
                 children: n
             })
-        })), p9e = {
+        })), f9e = {
         limit: 1e3,
         matchOptions: {
             contain: !0
@@ -163953,14 +163947,14 @@ In order to be iterable, non-array objects must have a [Symbol.iterator]() metho
         normalizeOptions: {
             ignoreWhitespace: !1
         }
-    }, m9e = (e)=>KG(e) ?? e, h9e = (e, t)=>FG(e, t, m9e);
-    function g9e({ requestClose: e }) {
-        let t = J(), n = FX(), r = M4(), i = e5(t, r.roomId), a = i.length < r.getJoinedMemberCount(), o = l2(), s = s2(), c = HX(), l = lX(r), u = UX(r), d = D4(r, u, l), f = fX(l), [p, m] = (0, A.useState)(0), [h, g] = Y(X, `memberSortFilterIndex`), _ = qXe(p, KXe()), v = YXe(h, JXe()), y = XXe(u, f), b = (0, A.useRef)(null), x = (0, A.useRef)(null), S = (0, A.useRef)(null), C = (0, A.useMemo)(()=>Array.from(i).filter(_.filterFn).sort(v.sortFn).sort(y), [
+    }, p9e = (e)=>KG(e) ?? e, m9e = (e, t)=>FG(e, t, p9e);
+    function h9e({ requestClose: e }) {
+        let t = J(), n = FX(), r = M4(), i = e5(t, r.roomId), a = i.length < r.getJoinedMemberCount(), o = l2(), s = s2(), c = HX(), l = lX(r), u = UX(r), d = D4(r, u, l), f = fX(l), [p, m] = (0, A.useState)(0), [h, g] = Y(X, `memberSortFilterIndex`), _ = KXe(p, GXe()), v = JXe(h, qXe()), y = YXe(u, f), b = (0, A.useRef)(null), x = (0, A.useRef)(null), S = (0, A.useRef)(null), C = (0, A.useMemo)(()=>Array.from(i).filter(_.filterFn).sort(v.sortFn).sort(y), [
             i,
             _,
             v,
             y
-        ]), [w, T, E] = ZX(C, h9e, p9e);
+        ]), [w, T, E] = ZX(C, m9e, f9e);
         !w && x.current?.value && T(x.current.value);
         let D = uje(w?.items ?? C, d), O = TY({
             count: D.length,
@@ -164078,7 +164072,7 @@ In order to be iterable, non-array objects must have a [Symbol.iterator]() metho
                                                         position: `Bottom`,
                                                         align: `Start`,
                                                         offset: 4,
-                                                        content: (0, j.jsx)(ZXe, {
+                                                        content: (0, j.jsx)(XXe, {
                                                             selected: p,
                                                             onSelect: m,
                                                             requestClose: ()=>t(void 0)
@@ -164106,7 +164100,7 @@ In order to be iterable, non-array objects must have a [Symbol.iterator]() metho
                                                         position: `Bottom`,
                                                         align: `End`,
                                                         offset: 4,
-                                                        content: (0, j.jsx)(QXe, {
+                                                        content: (0, j.jsx)(ZXe, {
                                                             selected: h,
                                                             onSelect: g,
                                                             requestClose: ()=>t(void 0)
@@ -164177,7 +164171,7 @@ In order to be iterable, non-array objects must have a [Symbol.iterator]() metho
                                                         style: {
                                                             paddingTop: N.space.S200
                                                         },
-                                                        children: (0, j.jsx)(d9e, {
+                                                        children: (0, j.jsx)(u9e, {
                                                             "data-user-id": i.userId,
                                                             onClick: te,
                                                             "aria-pressed": s?.userId === i.userId,
@@ -164189,7 +164183,7 @@ In order to be iterable, non-array objects must have a [Symbol.iterator]() metho
                                                                 as: `span`,
                                                                 shrink: `No`,
                                                                 alignSelf: `End`,
-                                                                children: (0, j.jsx)(f9e, {
+                                                                children: (0, j.jsx)(d9e, {
                                                                     server: a,
                                                                     fill: `None`
                                                                 })
@@ -164222,7 +164216,7 @@ In order to be iterable, non-array objects must have a [Symbol.iterator]() metho
         });
     }
     var B9 = `_1lne79o0`;
-    function _9e({ packs: e, roomId: t }) {
+    function g9e({ packs: e, roomId: t }) {
         let n = J(), r = cd(), [i, a] = V((0, A.useCallback)(async (e, r)=>{
             let i = {
                 pack: {
@@ -164307,7 +164301,7 @@ In order to be iterable, non-array objects must have a [Symbol.iterator]() metho
             })
         });
     }
-    function v9e({ onViewPack: e }) {
+    function _9e({ onViewPack: e }) {
         let t = J(), n = FX(), r = M4(), i = cd(), a = lX(r), o = KX(UX(r), a).stateEvent(q.PoniesRoomEmotes, t.getSafeUserId()), s = oPe(r), c = (0, A.useMemo)(()=>s.filter((e)=>!e.deleted), [
             s
         ]), [l, u] = (0, A.useState)([]), d = l.length > 0, [f, p] = V((0, A.useCallback)(async ()=>{
@@ -164337,7 +164331,7 @@ In order to be iterable, non-array objects must have a [Symbol.iterator]() metho
                             size: `L400`,
                             children: `Packs`
                         }),
-                        o && (0, j.jsx)(_9e, {
+                        o && (0, j.jsx)(g9e, {
                             roomId: r.roomId,
                             packs: c
                         }),
@@ -164527,9 +164521,9 @@ In order to be iterable, non-array objects must have a [Symbol.iterator]() metho
             ]
         });
     }
-    function y9e({ requestClose: e }) {
+    function v9e({ requestClose: e }) {
         let [t, n] = (0, A.useState)();
-        return t ? (0, j.jsx)(Y8e, {
+        return t ? (0, j.jsx)(J8e, {
             address: t.address,
             requestClose: ()=>{
                 n(void 0);
@@ -164574,7 +164568,7 @@ In order to be iterable, non-array objects must have a [Symbol.iterator]() metho
                             children: (0, j.jsx)(P, {
                                 direction: `Column`,
                                 gap: `700`,
-                                children: (0, j.jsx)(v9e, {
+                                children: (0, j.jsx)(_9e, {
                                     onViewPack: n
                                 })
                             })
@@ -164584,7 +164578,7 @@ In order to be iterable, non-array objects must have a [Symbol.iterator]() metho
             ]
         });
     }
-    var b9e = ()=>(0, A.useMemo)(()=>[
+    var y9e = ()=>(0, A.useMemo)(()=>[
                 {
                     name: `Messages`,
                     items: [
@@ -164789,10 +164783,10 @@ In order to be iterable, non-array objects must have a [Symbol.iterator]() metho
                         }
                     ]
                 }
-            ], []), x9e = {
+            ], []), b9e = {
         user: !0
     };
-    function S9e({ powerLevels: e, permissionGroups: t, canEdit: n }) {
+    function x9e({ powerLevels: e, permissionGroups: t, canEdit: n }) {
         let r = J(), i = M4(), a = cd(), o = p2(i, e), s = (0, A.useMemo)(()=>Math.max(...f2(o)), [
             o
         ]), [c, l] = (0, A.useState)(new Map);
@@ -164830,7 +164824,7 @@ In order to be iterable, non-array objects must have a [Symbol.iterator]() metho
         return (0, j.jsxs)(j.Fragment, {
             children: [
                 (()=>{
-                    let t = pX(e, x9e), r = c.get(x9e) ?? t, i = m2(o, r), a = r !== t;
+                    let t = pX(e, b9e), r = c.get(b9e) ?? t, i = m2(o, r), a = r !== t;
                     return (0, j.jsxs)(P, {
                         direction: `Column`,
                         gap: `100`,
@@ -164850,7 +164844,7 @@ In order to be iterable, non-array objects must have a [Symbol.iterator]() metho
                                     after: (0, j.jsx)(qOe, {
                                         powerLevelTags: o,
                                         value: r,
-                                        onChange: (e)=>u(x9e, e, t),
+                                        onChange: (e)=>u(b9e, e, t),
                                         children: (e, t)=>(0, j.jsx)(xn, {
                                                 variant: a ? `Success` : `Secondary`,
                                                 outlined: a,
@@ -165009,7 +165003,7 @@ In order to be iterable, non-array objects must have a [Symbol.iterator]() metho
             ]
         });
     }
-    function C9e({ powerLevels: e, power: t, permissionGroups: n, children: r }) {
+    function S9e({ powerLevels: e, power: t, permissionGroups: n, children: r }) {
         let [i, a] = (0, A.useState)();
         return (0, j.jsx)(Gn, {
             anchor: i,
@@ -165078,7 +165072,7 @@ In order to be iterable, non-array objects must have a [Symbol.iterator]() metho
             }, !!i)
         });
     }
-    function w9e({ powerLevels: e, permissionGroups: t, onEdit: n }) {
+    function C9e({ powerLevels: e, permissionGroups: t, onEdit: n }) {
         let r = J(), i = FX(), a = M4(), o = p2(a, e), s = UX(a), c = _2(), l = c.icon && O4(r, i, c.icon);
         return (0, j.jsxs)(P, {
             direction: `Column`,
@@ -165152,7 +165146,7 @@ In order to be iterable, non-array objects must have a [Symbol.iterator]() metho
                                 wrap: `Wrap`,
                                 children: f2(o).map((n)=>{
                                     let a = o[n], s = a.icon && O4(r, i, a.icon);
-                                    return (0, j.jsx)(C9e, {
+                                    return (0, j.jsx)(S9e, {
                                         powerLevels: e,
                                         power: n,
                                         permissionGroups: t,
@@ -165194,7 +165188,7 @@ In order to be iterable, non-array objects must have a [Symbol.iterator]() metho
             return e;
         }).apply(this, arguments);
     }
-    function T9e(e, t) {
+    function w9e(e, t) {
         if (e == null) return {};
         var n, r, i = {}, a = Object.keys(e);
         for(r = 0; r < a.length; r++)t.indexOf(n = a[r]) >= 0 || (i[n] = e[n]);
@@ -165210,38 +165204,38 @@ In order to be iterable, non-array objects must have a [Symbol.iterator]() metho
         return t === void 0 && (t = 0), n === void 0 && (n = 1), e > n ? n : e < t ? t : e;
     }, W9 = function(e) {
         return `touches` in e;
-    }, E9e = function(e) {
+    }, T9e = function(e) {
         return e && e.ownerDocument.defaultView || self;
-    }, D9e = function(e, t, n) {
+    }, E9e = function(e, t, n) {
         var r = e.getBoundingClientRect(), i = W9(t) ? function(e, t) {
             for(var n = 0; n < e.length; n++)if (e[n].identifier === t) return e[n];
             return e[0];
         }(t.touches, n) : t;
         return {
-            left: U9((i.pageX - (r.left + E9e(e).pageXOffset)) / r.width),
-            top: U9((i.pageY - (r.top + E9e(e).pageYOffset)) / r.height)
+            left: U9((i.pageX - (r.left + T9e(e).pageXOffset)) / r.width),
+            top: U9((i.pageY - (r.top + T9e(e).pageYOffset)) / r.height)
         };
-    }, O9e = function(e) {
+    }, D9e = function(e) {
         !W9(e) && e.preventDefault();
-    }, k9e = A.memo(function(e) {
-        var t = e.onMove, n = e.onKey, r = e.onEnd, i = T9e(e, [
+    }, O9e = A.memo(function(e) {
+        var t = e.onMove, n = e.onKey, r = e.onEnd, i = w9e(e, [
             `onMove`,
             `onKey`,
             `onEnd`
         ]), a = (0, A.useRef)(null), o = H9(t), s = H9(n), c = H9(r), l = (0, A.useRef)(null), u = (0, A.useRef)(!1), d = (0, A.useMemo)(function() {
             var e = function(e) {
-                O9e(e), (W9(e) ? e.touches.length > 0 : e.buttons > 0) && a.current ? o(D9e(a.current, e, l.current)) : (n(!1), c());
+                D9e(e), (W9(e) ? e.touches.length > 0 : e.buttons > 0) && a.current ? o(E9e(a.current, e, l.current)) : (n(!1), c());
             }, t = function() {
                 n(!1), c();
             };
             function n(n) {
-                var r = u.current, i = E9e(a.current), o = n ? i.addEventListener : i.removeEventListener;
+                var r = u.current, i = T9e(a.current), o = n ? i.addEventListener : i.removeEventListener;
                 o(r ? `touchmove` : `mousemove`, e), o(r ? `touchend` : `mouseup`, t);
             }
             return [
                 function(e) {
                     var t = e.nativeEvent, r = a.current;
-                    if (r && (O9e(t), !function(e, t) {
+                    if (r && (D9e(t), !function(e, t) {
                         return t && !W9(e);
                     }(t, u.current) && r)) {
                         if (W9(t)) {
@@ -165249,7 +165243,7 @@ In order to be iterable, non-array objects must have a [Symbol.iterator]() metho
                             var i = t.changedTouches || [];
                             i.length && (l.current = i[0].identifier);
                         }
-                        r.focus(), o(D9e(r, t, l.current)), n(!0);
+                        r.focus(), o(E9e(r, t, l.current)), n(!0);
                     }
                 },
                 function(e) {
@@ -165284,10 +165278,10 @@ In order to be iterable, non-array objects must have a [Symbol.iterator]() metho
             tabIndex: 0,
             role: `slider`
         }));
-    }), A9e = function(e) {
+    }), k9e = function(e) {
         return e.filter(Boolean).join(` `);
-    }, j9e = function(e) {
-        var t = e.color, n = e.left, r = e.top, i = r === void 0 ? .5 : r, a = A9e([
+    }, A9e = function(e) {
+        var t = e.color, n = e.left, r = e.top, i = r === void 0 ? .5 : r, a = k9e([
             `react-colorful__pointer`,
             e.className
         ]);
@@ -165307,9 +165301,9 @@ In order to be iterable, non-array objects must have a [Symbol.iterator]() metho
         return t === void 0 && (t = 0), n === void 0 && (n = 10 ** t), Math.round(n * e) / n;
     };
     360 / (2 * Math.PI);
-    var M9e = function(e) {
-        return z9e(N9e(e));
-    }, N9e = function(e) {
+    var j9e = function(e) {
+        return R9e(M9e(e));
+    }, M9e = function(e) {
         return e[0] === `#` && (e = e.substring(1)), e.length < 6 ? {
             r: parseInt(e[0] + e[0], 16),
             g: parseInt(e[1] + e[1], 16),
@@ -165321,9 +165315,9 @@ In order to be iterable, non-array objects must have a [Symbol.iterator]() metho
             b: parseInt(e.substring(4, 6), 16),
             a: e.length === 8 ? G9(parseInt(e.substring(6, 8), 16) / 255, 2) : 1
         };
+    }, N9e = function(e) {
+        return L9e(I9e(e));
     }, P9e = function(e) {
-        return R9e(L9e(e));
-    }, F9e = function(e) {
         var t = e.s, n = e.v, r = e.a, i = (200 - t) * n / 100;
         return {
             h: G9(e.h),
@@ -165331,10 +165325,10 @@ In order to be iterable, non-array objects must have a [Symbol.iterator]() metho
             l: G9(i / 2),
             a: G9(r, 2)
         };
-    }, I9e = function(e) {
-        var t = F9e(e);
+    }, F9e = function(e) {
+        var t = P9e(e);
         return `hsl(` + t.h + `, ` + t.s + `%, ` + t.l + `%)`;
-    }, L9e = function(e) {
+    }, I9e = function(e) {
         var t = e.h, n = e.s, r = e.v, i = e.a;
         t = t / 360 * 6, n /= 100, r /= 100;
         var a = Math.floor(t), o = r * (1 - n), s = r * (1 - (t - a) * n), c = r * (1 - (1 - t + a) * n), l = a % 6;
@@ -165368,10 +165362,10 @@ In order to be iterable, non-array objects must have a [Symbol.iterator]() metho
     }, K9 = function(e) {
         var t = e.toString(16);
         return t.length < 2 ? `0` + t : t;
-    }, R9e = function(e) {
+    }, L9e = function(e) {
         var t = e.r, n = e.g, r = e.b, i = e.a, a = i < 1 ? K9(G9(255 * i)) : ``;
         return `#` + K9(t) + K9(n) + K9(r) + a;
-    }, z9e = function(e) {
+    }, R9e = function(e) {
         var t = e.r, n = e.g, r = e.b, i = e.a, a = Math.max(t, n, r), o = a - Math.min(t, n, r), s = o ? a === t ? (n - r) / o : a === n ? 2 + (r - t) / o : 4 + (t - n) / o : 0;
         return {
             h: G9(60 * (s < 0 ? s + 6 : s)),
@@ -165379,14 +165373,14 @@ In order to be iterable, non-array objects must have a [Symbol.iterator]() metho
             v: G9(a / 255 * 100),
             a: i
         };
-    }, B9e = A.memo(function(e) {
-        var t = e.hue, n = e.onChange, r = e.onChangeEnd, i = A9e([
+    }, z9e = A.memo(function(e) {
+        var t = e.hue, n = e.onChange, r = e.onChangeEnd, i = k9e([
             `react-colorful__hue`,
             e.className
         ]);
         return A.createElement(`div`, {
             className: i
-        }, A.createElement(k9e, {
+        }, A.createElement(O9e, {
             onMove: function(e) {
                 n({
                     h: 360 * e.left
@@ -165402,19 +165396,19 @@ In order to be iterable, non-array objects must have a [Symbol.iterator]() metho
             "aria-valuenow": G9(t),
             "aria-valuemax": `360`,
             "aria-valuemin": `0`
-        }, A.createElement(j9e, {
+        }, A.createElement(A9e, {
             className: `react-colorful__hue-pointer`,
             left: t / 360,
-            color: I9e({
+            color: F9e({
                 h: t,
                 s: 100,
                 v: 100,
                 a: 1
             })
         })));
-    }), V9e = A.memo(function(e) {
+    }), B9e = A.memo(function(e) {
         var t = e.hsva, n = e.onChange, r = e.onChangeEnd, i = {
-            backgroundColor: I9e({
+            backgroundColor: F9e({
                 h: t.h,
                 s: 100,
                 v: 100,
@@ -165424,7 +165418,7 @@ In order to be iterable, non-array objects must have a [Symbol.iterator]() metho
         return A.createElement(`div`, {
             className: `react-colorful__saturation`,
             style: i
-        }, A.createElement(k9e, {
+        }, A.createElement(O9e, {
             onMove: function(e) {
                 n({
                     s: 100 * e.left,
@@ -165440,20 +165434,20 @@ In order to be iterable, non-array objects must have a [Symbol.iterator]() metho
             onEnd: r,
             "aria-label": `Color`,
             "aria-valuetext": `Saturation ` + G9(t.s) + `%, Brightness ` + G9(t.v) + `%`
-        }, A.createElement(j9e, {
+        }, A.createElement(A9e, {
             className: `react-colorful__saturation-pointer`,
             top: 1 - t.v / 100,
             left: t.s / 100,
-            color: I9e(t)
+            color: F9e(t)
         })));
-    }), H9e = function(e, t) {
+    }), V9e = function(e, t) {
         if (e === t) return !0;
         for(var n in e)if (e[n] !== t[n]) return !1;
         return !0;
-    }, U9e = function(e, t) {
-        return e.toLowerCase() === t.toLowerCase() || H9e(N9e(e), N9e(t));
+    }, H9e = function(e, t) {
+        return e.toLowerCase() === t.toLowerCase() || V9e(M9e(e), M9e(t));
     };
-    function W9e(e, t, n, r) {
+    function U9e(e, t, n, r) {
         var i = H9(n), a = H9(r), o = (0, A.useState)(function() {
             return e.toHsva(t);
         }), s = o[0], c = o[1], l = (0, A.useRef)({
@@ -165473,7 +165467,7 @@ In order to be iterable, non-array objects must have a [Symbol.iterator]() metho
             e
         ]), (0, A.useEffect)(function() {
             var t;
-            H9e(s, l.current.hsva) || e.equal(t = e.fromHsva(s), l.current.color) || (l.current = {
+            V9e(s, l.current.hsva) || e.equal(t = e.fromHsva(s), l.current.color) || (l.current = {
                 hsva: s,
                 color: t
             }, i(t), u.current = !0);
@@ -165495,62 +165489,62 @@ In order to be iterable, non-array objects must have a [Symbol.iterator]() metho
             ])
         ];
     }
-    var G9e, K9e = typeof window < `u` ? A.useLayoutEffect : A.useEffect, q9e = function() {
-        return G9e || (typeof __webpack_nonce__ < `u` ? __webpack_nonce__ : void 0);
-    }, J9e = new Map, Y9e = function(e) {
-        K9e(function() {
+    var W9e, G9e = typeof window < `u` ? A.useLayoutEffect : A.useEffect, K9e = function() {
+        return W9e || (typeof __webpack_nonce__ < `u` ? __webpack_nonce__ : void 0);
+    }, q9e = new Map, J9e = function(e) {
+        G9e(function() {
             var t = e.current ? e.current.ownerDocument : document;
-            if (t !== void 0 && !J9e.has(t)) {
+            if (t !== void 0 && !q9e.has(t)) {
                 var n = t.createElement(`style`);
-                n.innerHTML = `.react-colorful{position:relative;display:flex;flex-direction:column;width:200px;height:200px;-webkit-user-select:none;-moz-user-select:none;-ms-user-select:none;user-select:none;cursor:default}.react-colorful__saturation{position:relative;flex-grow:1;border-color:transparent;border-bottom:12px solid #000;border-radius:8px 8px 0 0;background-image:linear-gradient(0deg,#000,transparent),linear-gradient(90deg,#fff,hsla(0,0%,100%,0))}.react-colorful__alpha-gradient,.react-colorful__pointer-fill{content:"";position:absolute;left:0;top:0;right:0;bottom:0;pointer-events:none;border-radius:inherit}.react-colorful__alpha-gradient,.react-colorful__saturation{box-shadow:inset 0 0 0 1px rgba(0,0,0,.05)}.react-colorful__alpha,.react-colorful__hue{position:relative;height:24px}.react-colorful__hue{background:linear-gradient(90deg,red 0,#ff0 17%,#0f0 33%,#0ff 50%,#00f 67%,#f0f 83%,red)}.react-colorful__last-control{border-radius:0 0 8px 8px}.react-colorful__interactive{position:absolute;left:0;top:0;right:0;bottom:0;border-radius:inherit;outline:none;touch-action:none}.react-colorful__pointer{position:absolute;z-index:1;box-sizing:border-box;width:28px;height:28px;transform:translate(-50%,-50%);background-color:#fff;border:2px solid #fff;border-radius:50%;box-shadow:0 2px 4px rgba(0,0,0,.2)}.react-colorful__interactive:focus .react-colorful__pointer{transform:translate(-50%,-50%) scale(1.1)}.react-colorful__alpha,.react-colorful__alpha-pointer{background-color:#fff;background-image:url('data:image/svg+xml;charset=utf-8,<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill-opacity=".05"><path d="M8 0h8v8H8zM0 8h8v8H0z"/></svg>')}.react-colorful__saturation-pointer{z-index:3}.react-colorful__hue-pointer{z-index:2}`, J9e.set(t, n);
-                var r = q9e();
+                n.innerHTML = `.react-colorful{position:relative;display:flex;flex-direction:column;width:200px;height:200px;-webkit-user-select:none;-moz-user-select:none;-ms-user-select:none;user-select:none;cursor:default}.react-colorful__saturation{position:relative;flex-grow:1;border-color:transparent;border-bottom:12px solid #000;border-radius:8px 8px 0 0;background-image:linear-gradient(0deg,#000,transparent),linear-gradient(90deg,#fff,hsla(0,0%,100%,0))}.react-colorful__alpha-gradient,.react-colorful__pointer-fill{content:"";position:absolute;left:0;top:0;right:0;bottom:0;pointer-events:none;border-radius:inherit}.react-colorful__alpha-gradient,.react-colorful__saturation{box-shadow:inset 0 0 0 1px rgba(0,0,0,.05)}.react-colorful__alpha,.react-colorful__hue{position:relative;height:24px}.react-colorful__hue{background:linear-gradient(90deg,red 0,#ff0 17%,#0f0 33%,#0ff 50%,#00f 67%,#f0f 83%,red)}.react-colorful__last-control{border-radius:0 0 8px 8px}.react-colorful__interactive{position:absolute;left:0;top:0;right:0;bottom:0;border-radius:inherit;outline:none;touch-action:none}.react-colorful__pointer{position:absolute;z-index:1;box-sizing:border-box;width:28px;height:28px;transform:translate(-50%,-50%);background-color:#fff;border:2px solid #fff;border-radius:50%;box-shadow:0 2px 4px rgba(0,0,0,.2)}.react-colorful__interactive:focus .react-colorful__pointer{transform:translate(-50%,-50%) scale(1.1)}.react-colorful__alpha,.react-colorful__alpha-pointer{background-color:#fff;background-image:url('data:image/svg+xml;charset=utf-8,<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill-opacity=".05"><path d="M8 0h8v8H8zM0 8h8v8H0z"/></svg>')}.react-colorful__saturation-pointer{z-index:3}.react-colorful__hue-pointer{z-index:2}`, q9e.set(t, n);
+                var r = K9e();
                 r && n.setAttribute(`nonce`, r), t.head.appendChild(n);
             }
         }, []);
-    }, X9e = function(e) {
-        var t = e.className, n = e.colorModel, r = e.color, i = r === void 0 ? n.defaultColor : r, a = e.onChange, o = e.onChangeEnd, s = T9e(e, [
+    }, Y9e = function(e) {
+        var t = e.className, n = e.colorModel, r = e.color, i = r === void 0 ? n.defaultColor : r, a = e.onChange, o = e.onChangeEnd, s = w9e(e, [
             `className`,
             `colorModel`,
             `color`,
             `onChange`,
             `onChangeEnd`
         ]), c = (0, A.useRef)(null);
-        Y9e(c);
-        var l = W9e(n, i, a, o), u = l[0], d = l[1], f = l[2], p = A9e([
+        J9e(c);
+        var l = U9e(n, i, a, o), u = l[0], d = l[1], f = l[2], p = k9e([
             `react-colorful`,
             t
         ]);
         return A.createElement(`div`, V9({}, s, {
             ref: c,
             className: p
-        }), A.createElement(V9e, {
+        }), A.createElement(B9e, {
             hsva: u,
             onChange: d,
             onChangeEnd: f
-        }), A.createElement(B9e, {
+        }), A.createElement(z9e, {
             hue: u.h,
             onChange: d,
             onChangeEnd: f,
             className: `react-colorful__last-control`
         }));
-    }, Z9e = {
+    }, X9e = {
         defaultColor: `000`,
-        toHsva: M9e,
+        toHsva: j9e,
         fromHsva: function(e) {
-            return P9e({
+            return N9e({
                 h: e.h,
                 s: e.s,
                 v: e.v,
                 a: 1
             });
         },
-        equal: U9e
-    }, Q9e = function(e) {
-        return A.createElement(X9e, V9({}, e, {
-            colorModel: Z9e
+        equal: H9e
+    }, Z9e = function(e) {
+        return A.createElement(Y9e, V9({}, e, {
+            colorModel: X9e
         }));
     };
-    function $9e({ picker: e, onRemove: t, children: n }) {
+    function Q9e({ picker: e, onRemove: t, children: n }) {
         let [r, i] = (0, A.useState)();
         return (0, j.jsx)(Gn, {
             anchor: r,
@@ -165593,8 +165587,8 @@ In order to be iterable, non-array objects must have a [Symbol.iterator]() metho
             }, !!r)
         });
     }
-    function eet({ maxPower: e, power: t, tag: n, onSave: r, onClose: i }) {
-        let a = J(), o = M4(), s = Oi(Pq), c = FX(), l = pK(o.getVersion()), u = pJe(o.roomId, s), [d, f] = (0, A.useState)(), p = T7(f, !1), [m, h] = (0, A.useState)(n?.color), [g, _] = (0, A.useState)(n?.icon), v = d && !g, y = g && O4(a, c, g), b = (0, A.useMemo)(()=>{
+    function $9e({ maxPower: e, power: t, tag: n, onSave: r, onClose: i }) {
+        let a = J(), o = M4(), s = Oi(Pq), c = FX(), l = pK(o.getVersion()), u = fJe(o.roomId, s), [d, f] = (0, A.useState)(), p = T7(f, !1), [m, h] = (0, A.useState)(n?.color), [g, _] = (0, A.useState)(n?.icon), v = d && !g, y = g && O4(a, c, g), b = (0, A.useMemo)(()=>{
             if (d) return m7(d);
         }, [
             d
@@ -165640,8 +165634,8 @@ In order to be iterable, non-array objects must have a [Symbol.iterator]() metho
                                     }),
                                     (0, j.jsx)(P, {
                                         gap: `200`,
-                                        children: (0, j.jsx)($9e, {
-                                            picker: (0, j.jsx)(Q9e, {
+                                        children: (0, j.jsx)(Q9e, {
+                                            picker: (0, j.jsx)(Z9e, {
                                                 color: m,
                                                 onChange: h
                                             }),
@@ -165847,7 +165841,7 @@ In order to be iterable, non-array objects must have a [Symbol.iterator]() metho
             ]
         });
     }
-    function tet({ powerLevels: e, requestClose: t }) {
+    function eet({ powerLevels: e, requestClose: t }) {
         let n = J(), r = FX(), i = M4(), a = cd(), [o, s] = (0, A.useMemo)(()=>{
             let t = BOe(e);
             return [
@@ -165954,7 +165948,7 @@ In order to be iterable, non-array objects must have a [Symbol.iterator]() metho
                                                         size: `L400`,
                                                         children: `Power Levels`
                                                     }),
-                                                    (0, j.jsx)(B0e, {})
+                                                    (0, j.jsx)(z0e, {})
                                                 ]
                                             }),
                                             (0, j.jsxs)(C1, {
@@ -165980,7 +165974,7 @@ In order to be iterable, non-array objects must have a [Symbol.iterator]() metho
                                                             })
                                                         })
                                                     }),
-                                                    p && (0, j.jsx)(eet, {
+                                                    p && (0, j.jsx)($9e, {
                                                         maxPower: s,
                                                         onSave: g,
                                                         onClose: ()=>m(!1)
@@ -165996,7 +165990,7 @@ In order to be iterable, non-array objects must have a [Symbol.iterator]() metho
                                                     gap: `400`,
                                                     children: (0, j.jsx)(HK, {
                                                         initial: !1,
-                                                        children: (n, r)=>n ? (0, j.jsx)(eet, {
+                                                        children: (n, r)=>n ? (0, j.jsx)($9e, {
                                                                 maxPower: s,
                                                                 power: e,
                                                                 tag: t,
@@ -166182,9 +166176,9 @@ In order to be iterable, non-array objects must have a [Symbol.iterator]() metho
             ]
         });
     }
-    function net({ requestClose: e }) {
-        let t = J(), n = M4(), r = lX(n), i = KX(UX(n), r), a = i.stateEvent(q.PowerLevelTags, t.getSafeUserId()), o = i.stateEvent(q.RoomPowerLevels, t.getSafeUserId()), s = b9e(), [c, l] = (0, A.useState)(!1);
-        return a && c ? (0, j.jsx)(tet, {
+    function tet({ requestClose: e }) {
+        let t = J(), n = M4(), r = lX(n), i = KX(UX(n), r), a = i.stateEvent(q.PowerLevelTags, t.getSafeUserId()), o = i.stateEvent(q.RoomPowerLevels, t.getSafeUserId()), s = y9e(), [c, l] = (0, A.useState)(!1);
+        return a && c ? (0, j.jsx)(eet, {
             powerLevels: r,
             requestClose: ()=>l(!1)
         }) : (0, j.jsxs)(m1, {
@@ -166228,14 +166222,14 @@ In order to be iterable, non-array objects must have a [Symbol.iterator]() metho
                                 direction: `Column`,
                                 gap: `700`,
                                 children: [
-                                    (0, j.jsx)(w9e, {
+                                    (0, j.jsx)(C9e, {
                                         powerLevels: r,
                                         onEdit: a ? ()=>{
                                             l(!0);
                                         } : void 0,
                                         permissionGroups: s
                                     }),
-                                    (0, j.jsx)(S9e, {
+                                    (0, j.jsx)(x9e, {
                                         canEdit: o,
                                         powerLevels: r,
                                         permissionGroups: s
@@ -166249,10 +166243,10 @@ In order to be iterable, non-array objects must have a [Symbol.iterator]() metho
         });
     }
     var q9 = 2;
-    function ret({ type: e, stateKey: t, content: n, requestClose: r }) {
+    function net({ type: e, stateKey: t, content: n, requestClose: r }) {
         let i = J(), a = M4(), o = cd(), s = (0, A.useMemo)(()=>JSON.stringify(n, void 0, q9), [
             n
-        ]), c = (0, A.useRef)(null), [l, u] = (0, A.useState)(), { handleKeyDown: d, operations: f, getTarget: p } = n5e(c, q9), [m, h] = V((0, A.useCallback)((n)=>i.sendStateEvent(a.roomId, e, n, t), [
+        ]), c = (0, A.useRef)(null), [l, u] = (0, A.useState)(), { handleKeyDown: d, operations: f, getTarget: p } = t5e(c, q9), [m, h] = V((0, A.useCallback)((n)=>i.sendStateEvent(a.roomId, e, n, t), [
             i,
             a,
             e,
@@ -166398,7 +166392,7 @@ In order to be iterable, non-array objects must have a [Symbol.iterator]() metho
             ]
         });
     }
-    function iet({ content: e, eventJSONStr: t, onEditContent: n }) {
+    function ret({ content: e, eventJSONStr: t, onEditContent: n }) {
         return (0, j.jsx)(P, {
             direction: `Column`,
             style: {
@@ -166458,7 +166452,7 @@ In order to be iterable, non-array objects must have a [Symbol.iterator]() metho
             })
         });
     }
-    function aet({ type: e, stateKey: t, requestClose: n }) {
+    function iet({ type: e, stateKey: t, requestClose: n }) {
         let r = J(), i = M4(), a = oX(i, e, t), [o, s] = (0, A.useState)(), c = lX(i), l = KX(UX(i), c).stateEvent(e, r.getSafeUserId()), u = (0, A.useMemo)(()=>a ? JSON.stringify(a.event, null, q9) : ``, [
             a
         ]), d = (0, A.useCallback)(()=>{
@@ -166508,12 +166502,12 @@ In order to be iterable, non-array objects must have a [Symbol.iterator]() metho
                 (0, j.jsx)(P, {
                     grow: `Yes`,
                     direction: `Column`,
-                    children: o ? (0, j.jsx)(ret, {
+                    children: o ? (0, j.jsx)(net, {
                         type: e,
                         stateKey: t,
                         content: o,
                         requestClose: d
-                    }) : (0, j.jsx)(iet, {
+                    }) : (0, j.jsx)(ret, {
                         content: a?.getContent() ?? {},
                         onEditContent: l ? s : void 0,
                         eventJSONStr: u
@@ -166522,9 +166516,9 @@ In order to be iterable, non-array objects must have a [Symbol.iterator]() metho
             ]
         });
     }
-    var oet = 2;
-    function set({ type: e, stateKey: t, requestClose: n }) {
-        let r = J(), i = M4(), a = cd(), o = typeof t == `string`, s = (0, A.useRef)(null), [c, l] = (0, A.useState)(), { handleKeyDown: u, operations: d, getTarget: f } = n5e(s, oet), [p, m] = V((0, A.useCallback)((e, t, n)=>typeof t == `string` ? r.sendStateEvent(i.roomId, e, n, t) : r.sendEvent(i.roomId, e, n), [
+    var aet = 2;
+    function oet({ type: e, stateKey: t, requestClose: n }) {
+        let r = J(), i = M4(), a = cd(), o = typeof t == `string`, s = (0, A.useRef)(null), [c, l] = (0, A.useState)(), { handleKeyDown: u, operations: d, getTarget: f } = t5e(s, aet), [p, m] = V((0, A.useCallback)((e, t, n)=>typeof t == `string` ? r.sendStateEvent(i.roomId, e, n, t) : r.sendEvent(i.roomId, e, n), [
             r,
             i
         ])), h = p.status === B.Loading;
@@ -166724,7 +166718,7 @@ In order to be iterable, non-array objects must have a [Symbol.iterator]() metho
             ]
         });
     }
-    var cet = (e)=>{
+    var set = (e)=>{
         let t = (0, A.useCallback)(()=>{
             let t = new Map;
             return Array.from(e.accountData.entries()).forEach(([e, n])=>{
@@ -166746,8 +166740,8 @@ In order to be iterable, non-array objects must have a [Symbol.iterator]() metho
             t
         ]), n;
     };
-    function uet({ requestClose: e }) {
-        let [t, n] = Y(X, `developerTools`), r = J(), i = M4(), a = rQe(i), o = cet(i), [s, c] = (0, A.useState)(!1), [l, u] = (0, A.useState)(), [d, f] = (0, A.useState)(), [p, m] = (0, A.useState)(), [h, g] = (0, A.useState)(!1), [_, v] = (0, A.useState)(), y = (0, A.useCallback)(()=>{
+    function cet({ requestClose: e }) {
+        let [t, n] = Y(X, `developerTools`), r = J(), i = M4(), a = nQe(i), o = set(i), [s, c] = (0, A.useState)(!1), [l, u] = (0, A.useState)(), [d, f] = (0, A.useState)(), [p, m] = (0, A.useState)(), [h, g] = (0, A.useState)(!1), [_, v] = (0, A.useState)(), y = (0, A.useCallback)(()=>{
             f(void 0), m(void 0), v(void 0);
         }, []), b = (0, A.useCallback)(async (e, t)=>{
             await r.setRoomAccountData(i.roomId, e, t);
@@ -166755,10 +166749,10 @@ In order to be iterable, non-array objects must have a [Symbol.iterator]() metho
             r,
             i.roomId
         ]);
-        return _ === void 0 ? p ? (0, j.jsx)(set, {
+        return _ === void 0 ? p ? (0, j.jsx)(oet, {
             ...p,
             requestClose: y
-        }) : d ? (0, j.jsx)(aet, {
+        }) : d ? (0, j.jsx)(iet, {
             ...d,
             requestClose: y
         }) : (0, j.jsxs)(m1, {
@@ -167142,14 +167136,14 @@ In order to be iterable, non-array objects must have a [Symbol.iterator]() metho
                     })
                 })
             ]
-        }) : (0, j.jsx)(o5e, {
+        }) : (0, j.jsx)(a5e, {
             type: _ ?? void 0,
             content: _ ? o.get(_) : void 0,
             submitChange: b,
             requestClose: y
         });
     }
-    var det = ()=>(0, A.useMemo)(()=>[
+    var uet = ()=>(0, A.useMemo)(()=>[
                 {
                     page: IX.GeneralPage,
                     name: `General`,
@@ -167176,8 +167170,8 @@ In order to be iterable, non-array objects must have a [Symbol.iterator]() metho
                     icon: L.Terminal
                 }
             ], []);
-    function fet({ initialPage: e, requestClose: t }) {
-        let n = M4(), r = J(), i = FX(), a = b$(n, Oi(Mq).has(n.roomId)), o = x$(n), s = C$(n), c = a ? oK(r, a, i, 96, 96, `crop`) ?? void 0 : void 0, l = vp(), [u, d] = (0, A.useState)(()=>e || (l === _p.Mobile ? void 0 : IX.GeneralPage)), f = det(), p = ()=>{
+    function det({ initialPage: e, requestClose: t }) {
+        let n = M4(), r = J(), i = FX(), a = b$(n, Oi(Mq).has(n.roomId)), o = x$(n), s = C$(n), c = a ? oK(r, a, i, 96, 96, `crop`) ?? void 0 : void 0, l = vp(), [u, d] = (0, A.useState)(()=>e || (l === _p.Mobile ? void 0 : IX.GeneralPage)), f = uet(), p = ()=>{
             if (l === _p.Mobile) {
                 d(void 0);
                 return;
@@ -167262,25 +167256,25 @@ In order to be iterable, non-array objects must have a [Symbol.iterator]() metho
                 ]
             }),
             children: [
-                u === IX.GeneralPage && (0, j.jsx)(c9e, {
+                u === IX.GeneralPage && (0, j.jsx)(s9e, {
                     requestClose: p
                 }),
-                u === IX.MembersPage && (0, j.jsx)(g9e, {
+                u === IX.MembersPage && (0, j.jsx)(h9e, {
                     requestClose: p
                 }),
-                u === IX.PermissionsPage && (0, j.jsx)(net, {
+                u === IX.PermissionsPage && (0, j.jsx)(tet, {
                     requestClose: p
                 }),
-                u === IX.EmojisStickersPage && (0, j.jsx)(y9e, {
+                u === IX.EmojisStickersPage && (0, j.jsx)(v9e, {
                     requestClose: p
                 }),
-                u === IX.DeveloperToolsPage && (0, j.jsx)(uet, {
+                u === IX.DeveloperToolsPage && (0, j.jsx)(cet, {
                     requestClose: p
                 })
             ]
         });
     }
-    function pet({ state: e }) {
+    function fet({ state: e }) {
         let { roomId: t, spaceId: n, page: r } = e, i = Mxe(), a = JX(qX()), o = a(t), s = n ? a(n) : void 0;
         return o ? (0, j.jsx)(yp, {
             requestClose: i,
@@ -167288,7 +167282,7 @@ In order to be iterable, non-array objects must have a [Symbol.iterator]() metho
                 value: s ?? null,
                 children: (0, j.jsx)(j4, {
                     value: o,
-                    children: (0, j.jsx)(fet, {
+                    children: (0, j.jsx)(det, {
                         initialPage: r,
                         requestClose: i
                     })
@@ -167296,20 +167290,20 @@ In order to be iterable, non-array objects must have a [Symbol.iterator]() metho
             })
         }) : null;
     }
-    function met() {
+    function pet() {
         let e = jxe();
-        return e ? (0, j.jsx)(pet, {
+        return e ? (0, j.jsx)(fet, {
             state: e
         }) : null;
     }
-    function het({ children: e }) {
+    function met({ children: e }) {
         let t = Kve();
         return (0, j.jsx)(Gve, {
             value: t,
             children: e
         });
     }
-    function get({ requestClose: e }) {
+    function het({ requestClose: e }) {
         let t = M4(), n = lX(t), r = KX(UX(t), n);
         return (0, j.jsxs)(m1, {
             children: [
@@ -167352,7 +167346,7 @@ In order to be iterable, non-array objects must have a [Symbol.iterator]() metho
                                 direction: `Column`,
                                 gap: `700`,
                                 children: [
-                                    (0, j.jsx)(r9e, {
+                                    (0, j.jsx)(n9e, {
                                         permissions: r
                                     }),
                                     (0, j.jsxs)(P, {
@@ -167363,10 +167357,10 @@ In order to be iterable, non-array objects must have a [Symbol.iterator]() metho
                                                 size: `L400`,
                                                 children: `Options`
                                             }),
-                                            (0, j.jsx)(t9e, {
+                                            (0, j.jsx)(e9e, {
                                                 permissions: r
                                             }),
-                                            (0, j.jsx)(a9e, {
+                                            (0, j.jsx)(i9e, {
                                                 permissions: r
                                             })
                                         ]
@@ -167379,10 +167373,10 @@ In order to be iterable, non-array objects must have a [Symbol.iterator]() metho
                                                 size: `L400`,
                                                 children: `Addresses`
                                             }),
-                                            (0, j.jsx)(U7e, {
+                                            (0, j.jsx)(H7e, {
                                                 permissions: r
                                             }),
-                                            (0, j.jsx)(K7e, {
+                                            (0, j.jsx)(G7e, {
                                                 permissions: r
                                             })
                                         ]
@@ -167395,7 +167389,7 @@ In order to be iterable, non-array objects must have a [Symbol.iterator]() metho
                                                 size: `L400`,
                                                 children: `Advanced Options`
                                             }),
-                                            (0, j.jsx)(s9e, {
+                                            (0, j.jsx)(o9e, {
                                                 permissions: r,
                                                 requestClose: e
                                             })
@@ -167409,7 +167403,7 @@ In order to be iterable, non-array objects must have a [Symbol.iterator]() metho
             ]
         });
     }
-    var _et = ()=>(0, A.useMemo)(()=>[
+    var get = ()=>(0, A.useMemo)(()=>[
                 {
                     name: `Manage`,
                     items: [
@@ -167544,9 +167538,9 @@ In order to be iterable, non-array objects must have a [Symbol.iterator]() metho
                     ]
                 }
             ], []);
-    function vet({ requestClose: e }) {
-        let t = J(), n = M4(), r = lX(n), i = KX(UX(n), r), a = i.stateEvent(q.PowerLevelTags, t.getSafeUserId()), o = i.stateEvent(q.RoomPowerLevels, t.getSafeUserId()), s = _et(), [c, l] = (0, A.useState)(!1);
-        return a && c ? (0, j.jsx)(tet, {
+    function _et({ requestClose: e }) {
+        let t = J(), n = M4(), r = lX(n), i = KX(UX(n), r), a = i.stateEvent(q.PowerLevelTags, t.getSafeUserId()), o = i.stateEvent(q.RoomPowerLevels, t.getSafeUserId()), s = get(), [c, l] = (0, A.useState)(!1);
+        return a && c ? (0, j.jsx)(eet, {
             powerLevels: r,
             requestClose: ()=>l(!1)
         }) : (0, j.jsxs)(m1, {
@@ -167590,14 +167584,14 @@ In order to be iterable, non-array objects must have a [Symbol.iterator]() metho
                                 direction: `Column`,
                                 gap: `700`,
                                 children: [
-                                    (0, j.jsx)(w9e, {
+                                    (0, j.jsx)(C9e, {
                                         powerLevels: r,
                                         onEdit: a ? ()=>{
                                             l(!0);
                                         } : void 0,
                                         permissionGroups: s
                                     }),
-                                    (0, j.jsx)(S9e, {
+                                    (0, j.jsx)(x9e, {
                                         canEdit: o,
                                         powerLevels: r,
                                         permissionGroups: s
@@ -167610,7 +167604,7 @@ In order to be iterable, non-array objects must have a [Symbol.iterator]() metho
             ]
         });
     }
-    var yet = ()=>(0, A.useMemo)(()=>[
+    var vet = ()=>(0, A.useMemo)(()=>[
                 {
                     page: e3.GeneralPage,
                     name: `General`,
@@ -167637,8 +167631,8 @@ In order to be iterable, non-array objects must have a [Symbol.iterator]() metho
                     icon: L.Terminal
                 }
             ], []);
-    function bet({ initialPage: e, requestClose: t }) {
-        let n = M4(), r = J(), i = FX(), a = b$(n, Oi(Mq).has(n.roomId)), o = x$(n), s = C$(n), c = a ? oK(r, a, i, 96, 96, `crop`) ?? void 0 : void 0, l = vp(), [u, d] = (0, A.useState)(()=>e || (l === _p.Mobile ? void 0 : e3.GeneralPage)), f = yet(), p = ()=>{
+    function yet({ initialPage: e, requestClose: t }) {
+        let n = M4(), r = J(), i = FX(), a = b$(n, Oi(Mq).has(n.roomId)), o = x$(n), s = C$(n), c = a ? oK(r, a, i, 96, 96, `crop`) ?? void 0 : void 0, l = vp(), [u, d] = (0, A.useState)(()=>e || (l === _p.Mobile ? void 0 : e3.GeneralPage)), f = vet(), p = ()=>{
             if (l === _p.Mobile) {
                 d(void 0);
                 return;
@@ -167723,25 +167717,25 @@ In order to be iterable, non-array objects must have a [Symbol.iterator]() metho
                 ]
             }),
             children: [
-                u === e3.GeneralPage && (0, j.jsx)(get, {
+                u === e3.GeneralPage && (0, j.jsx)(het, {
                     requestClose: p
                 }),
-                u === e3.MembersPage && (0, j.jsx)(g9e, {
+                u === e3.MembersPage && (0, j.jsx)(h9e, {
                     requestClose: p
                 }),
-                u === e3.PermissionsPage && (0, j.jsx)(vet, {
+                u === e3.PermissionsPage && (0, j.jsx)(_et, {
                     requestClose: p
                 }),
-                u === e3.EmojisStickersPage && (0, j.jsx)(y9e, {
+                u === e3.EmojisStickersPage && (0, j.jsx)(v9e, {
                     requestClose: p
                 }),
-                u === e3.DeveloperToolsPage && (0, j.jsx)(uet, {
+                u === e3.DeveloperToolsPage && (0, j.jsx)(cet, {
                     requestClose: p
                 })
             ]
         });
     }
-    function xet({ state: e }) {
+    function bet({ state: e }) {
         let { roomId: t, spaceId: n, page: r } = e, i = vMe(), a = JX(qX()), o = a(t), s = n && n !== t ? a(n) : void 0;
         return o ? (0, j.jsx)(yp, {
             requestClose: i,
@@ -167749,7 +167743,7 @@ In order to be iterable, non-array objects must have a [Symbol.iterator]() metho
                 value: s ?? null,
                 children: (0, j.jsx)(j4, {
                     value: o,
-                    children: (0, j.jsx)(bet, {
+                    children: (0, j.jsx)(yet, {
                         initialPage: r,
                         requestClose: i
                     })
@@ -167757,21 +167751,21 @@ In order to be iterable, non-array objects must have a [Symbol.iterator]() metho
             })
         }) : null;
     }
-    function Cet() {
+    function xet() {
         let e = _Me();
-        return e ? (0, j.jsx)(xet, {
+        return e ? (0, j.jsx)(bet, {
             state: e
         }) : null;
     }
-    var wet = `_1o9o3681`, Tet = `_1o9o3682`, Eet = `_1o9o3684`, Det = `_1o9o3685`, Oet = `_1o9o3686`, ket = `_1o9o3687`;
-    function Aet({ userId: e, avatarUrl: t, presence: n }) {
+    var Cet = `_1o9o3681`, wet = `_1o9o3682`, Tet = `_1o9o3684`, Eet = `_1o9o3685`, Det = `_1o9o3686`, Oet = `_1o9o3687`;
+    function ket({ userId: e, avatarUrl: t, presence: n }) {
         let [r, i] = (0, A.useState)();
         return (0, j.jsxs)(P, {
             direction: `Column`,
-            className: wet,
+            className: Cet,
             children: [
                 (0, j.jsx)(`div`, {
-                    className: Tet,
+                    className: wet,
                     style: {
                         backgroundColor: eX(e),
                         filter: t ? void 0 : `brightness(50%)`
@@ -167784,10 +167778,10 @@ In order to be iterable, non-array objects must have a [Symbol.iterator]() metho
                     })
                 }),
                 (0, j.jsxs)(`div`, {
-                    className: Eet,
+                    className: Tet,
                     children: [
                         (0, j.jsx)(Z$, {
-                            className: Det,
+                            className: Eet,
                             badge: n && (0, j.jsx)(X$, {
                                 presence: n.presence,
                                 status: n.status
@@ -167795,10 +167789,10 @@ In order to be iterable, non-array objects must have a [Symbol.iterator]() metho
                             children: (0, j.jsx)(cn, {
                                 as: t ? `button` : `div`,
                                 onClick: t ? ()=>i(t) : void 0,
-                                className: Oet,
+                                className: Det,
                                 size: `500`,
                                 children: (0, j.jsx)(a2, {
-                                    className: ket,
+                                    className: Oet,
                                     userId: e,
                                     src: t,
                                     alt: e,
@@ -167834,7 +167828,7 @@ In order to be iterable, non-array objects must have a [Symbol.iterator]() metho
             ]
         });
     }
-    function jet({ displayName: e, userId: t }) {
+    function Aet({ displayName: e, userId: t }) {
         let n = KG(t);
         return (0, j.jsxs)(P, {
             grow: `Yes`,
@@ -167869,13 +167863,13 @@ In order to be iterable, non-array objects must have a [Symbol.iterator]() metho
             ]
         });
     }
-    var Met = ()=>{
+    var jet = ()=>{
         let { unstable_features: e } = Ep();
         return !!(e?.[`uk.half-shot.msc2666`] || e?.[`uk.half-shot.msc2666.mutual_rooms`] || e?.[`uk.half-shot.msc2666.query_mutual_rooms`]);
-    }, Net = ()=>{
+    }, Met = ()=>{
         let { unstable_features: e, versions: t } = Ep();
         return !!(t.includes(`v1.19`) || e?.[`uk.half-shot.msc2666.query_mutual_rooms.stable`]);
-    }, Pet = async (e, t)=>{
+    }, Net = async (e, t)=>{
         let n = new Set, r;
         do {
             let i = await e.http.authedRequest(K.Get, `/mutual_rooms`, {
@@ -167887,8 +167881,8 @@ In order to be iterable, non-array objects must have a [Symbol.iterator]() metho
             i.joined.forEach((e)=>n.add(e)), r = i.next_batch;
         }while (typeof r == `string`);
         return Array.from(n);
-    }, Fet = (e)=>{
-        let t = J(), n = Met(), r = Net(), [i] = ud((0, A.useCallback)(()=>r ? Pet(t, e) : n ? t._unstable_getSharedRooms(e) : Promise.resolve([]), [
+    }, Pet = (e)=>{
+        let t = J(), n = jet(), r = Met(), [i] = ud((0, A.useCallback)(()=>r ? Net(t, e) : n ? t._unstable_getSharedRooms(e) : Promise.resolve([]), [
             t,
             e,
             n,
@@ -167896,7 +167890,7 @@ In order to be iterable, non-array objects must have a [Symbol.iterator]() metho
         ]));
         return i;
     };
-    function Iet({ server: e }) {
+    function Fet({ server: e }) {
         let t = GG(J().getSafeUserId()), n = ec(), r = c2(), [i, a] = a$(), [o, s] = (0, A.useState)(), c = (e)=>{
             s(e.currentTarget.getBoundingClientRect());
         }, l = ()=>s(void 0);
@@ -167993,7 +167987,7 @@ In order to be iterable, non-array objects must have a [Symbol.iterator]() metho
             })
         });
     }
-    function Let({ userId: e }) {
+    function Iet({ userId: e }) {
         let [t, n] = (0, A.useState)(), [r, i] = a$(), a = (e)=>{
             n(e.currentTarget.getBoundingClientRect());
         }, o = ()=>n(void 0);
@@ -168067,8 +168061,8 @@ In order to be iterable, non-array objects must have a [Symbol.iterator]() metho
             })
         });
     }
-    function Ret({ userId: e }) {
-        let t = J(), n = Net(), r = Met(), i = Fet(e);
+    function Let({ userId: e }) {
+        let t = J(), n = Met(), r = jet(), i = Pet(e);
         console.log(n, i);
         let { navigateRoom: a, navigateSpace: o } = T1(), s = c2(), c = B4(), l = FX(), u = JX(qX()), [d, f] = (0, A.useState)(), p = (e)=>{
             f(e.currentTarget.getBoundingClientRect());
@@ -168234,7 +168228,7 @@ In order to be iterable, non-array objects must have a [Symbol.iterator]() metho
             })
         });
     }
-    function zet() {
+    function Ret() {
         return (0, j.jsx)(z7, {
             style: {
                 padding: N.space.S200
@@ -168265,7 +168259,7 @@ In order to be iterable, non-array objects must have a [Symbol.iterator]() metho
             })
         });
     }
-    function Bet({ userId: e }) {
+    function zet({ userId: e }) {
         let t = J(), [n, r] = (0, A.useState)(), i = (e)=>{
             r(e.currentTarget.getBoundingClientRect());
         }, a = ()=>r(void 0), o = X5(), s = o.includes(e), [c, l] = V((0, A.useCallback)(async ()=>{
@@ -168335,7 +168329,7 @@ In order to be iterable, non-array objects must have a [Symbol.iterator]() metho
             })
         });
     }
-    var Vet = (e, t)=>({
+    var Bet = (e, t)=>({
             hasMorePower: (0, A.useCallback)((n, r)=>{
                 let i = e.has(n), a = e.has(r);
                 return i && a ? !1 : i ? !0 : !a && dX.user(t, n) > dX.user(t, r);
@@ -168344,7 +168338,7 @@ In order to be iterable, non-array objects must have a [Symbol.iterator]() metho
                 t
             ])
         });
-    function Het({ power: e, onCancel: t, onChange: n }) {
+    function Vet({ power: e, onCancel: t, onChange: n }) {
         return (0, j.jsx)(Ln, {
             open: !0,
             backdrop: (0, j.jsx)(Rn, {}),
@@ -168420,7 +168414,7 @@ In order to be iterable, non-array objects must have a [Symbol.iterator]() metho
             })
         });
     }
-    function Uet({ power: e, onCancel: t, onChange: n }) {
+    function Het({ power: e, onCancel: t, onChange: n }) {
         return (0, j.jsx)(Ln, {
             open: !0,
             backdrop: (0, j.jsx)(Rn, {}),
@@ -168496,8 +168490,8 @@ In order to be iterable, non-array objects must have a [Symbol.iterator]() metho
             })
         });
     }
-    function Wet({ userId: e }) {
-        let t = J(), n = M4(), r = HX(), i = FX(), a = RX(), o = n3(), s = lX(n), c = UX(n), l = KX(c, s), u = fX(s), { hasMorePower: d } = Vet(c, s), f = p2(n, s), p = D4(n, c, s), m = t.getSafeUserId(), h = l.stateEvent(q.RoomPowerLevels, m) && (m === e || d(m, e)), g = p(e), _ = g.icon && O4(t, i, g.icon), [v, y] = (0, A.useState)(), b = (e)=>{
+    function Uet({ userId: e }) {
+        let t = J(), n = M4(), r = HX(), i = FX(), a = RX(), o = n3(), s = lX(n), c = UX(n), l = KX(c, s), u = fX(s), { hasMorePower: d } = Bet(c, s), f = p2(n, s), p = D4(n, c, s), m = t.getSafeUserId(), h = l.stateEvent(q.RoomPowerLevels, m) && (m === e || d(m, e)), g = p(e), _ = g.icon && O4(t, i, g.icon), [v, y] = (0, A.useState)(), b = (e)=>{
             y(e.currentTarget.getBoundingClientRect());
         }, x = ()=>y(void 0), [S, C] = V((0, A.useCallback)(async (r)=>{
             await t.setPowerLevel(n.roomId, e, r);
@@ -168644,14 +168638,14 @@ In order to be iterable, non-array objects must have a [Symbol.iterator]() metho
                         })
                     })
                 }),
-                typeof E == `number` ? (0, j.jsx)(Het, {
+                typeof E == `number` ? (0, j.jsx)(Vet, {
                     power: E,
                     onCancel: ()=>D(void 0),
                     onChange: (e)=>{
                         D(void 0), C(e);
                     }
                 }) : null,
-                typeof O == `number` ? (0, j.jsx)(Uet, {
+                typeof O == `number` ? (0, j.jsx)(Het, {
                     power: O,
                     onCancel: ()=>k(void 0),
                     onChange: (e)=>{
@@ -168661,7 +168655,7 @@ In order to be iterable, non-array objects must have a [Symbol.iterator]() metho
             ]
         });
     }
-    function Get({ reason: e, kickedBy: t, ts: n }) {
+    function Wet({ reason: e, kickedBy: t, ts: n }) {
         let [r] = Y(X, `hour24Clock`), [i] = Y(X, `dateFormatString`), a = n ? v0(n, r) : void 0, o = n ? y0(n, i) : void 0;
         return (0, j.jsx)(z7, {
             style: {
@@ -168723,7 +168717,7 @@ In order to be iterable, non-array objects must have a [Symbol.iterator]() metho
             })
         });
     }
-    function Ket({ userId: e, reason: t, canUnban: n, bannedBy: r, ts: i }) {
+    function Get({ userId: e, reason: t, canUnban: n, bannedBy: r, ts: i }) {
         let a = J(), o = M4(), [s] = Y(X, `hour24Clock`), [c] = Y(X, `dateFormatString`), l = i ? v0(i, s) : void 0, u = i ? y0(i, c) : void 0, [d, f] = V((0, A.useCallback)(async ()=>{
             await a.unban(o.roomId, e);
         }, [
@@ -168817,7 +168811,7 @@ In order to be iterable, non-array objects must have a [Symbol.iterator]() metho
             })
         });
     }
-    function qet({ userId: e, reason: t, canKick: n, invitedBy: r, ts: i }) {
+    function Ket({ userId: e, reason: t, canKick: n, invitedBy: r, ts: i }) {
         let a = J(), o = M4(), [s] = Y(X, `hour24Clock`), [c] = Y(X, `dateFormatString`), l = i ? v0(i, s) : void 0, u = i ? y0(i, c) : void 0, [d, f] = V((0, A.useCallback)(async ()=>{
             await a.kick(o.roomId, e);
         }, [
@@ -168913,7 +168907,7 @@ In order to be iterable, non-array objects must have a [Symbol.iterator]() metho
             })
         });
     }
-    function Jet({ userId: e, canKick: t, canBan: n, canInvite: r }) {
+    function qet({ userId: e, canKick: t, canBan: n, canInvite: r }) {
         let i = J(), a = M4(), o = (0, A.useRef)(null), s = (0, A.useCallback)(()=>{
             let e = o.current?.value.trim() || void 0;
             return o.current && (o.current.value = ``), e;
@@ -169074,7 +169068,7 @@ In order to be iterable, non-array objects must have a [Symbol.iterator]() metho
             })
         });
     }
-    var Yet = (e, t)=>{
+    var Jet = (e, t)=>{
         let n = e.getMember(t), [r, i] = (0, A.useState)(()=>n?.membership ?? BU.Leave);
         return (0, A.useEffect)(()=>{
             let r = (n, r)=>{
@@ -169089,7 +169083,7 @@ In order to be iterable, non-array objects must have a [Symbol.iterator]() metho
             t
         ]), r;
     };
-    function Xet() {
+    function Yet() {
         let e = J(), t = FX(), n = M4(), r = HX(), i = RX(), a = n3(), [o, s] = (0, A.useState)(), c = _2(), l = c.icon && O4(e, t, c.icon), u = (e)=>{
             s(e.currentTarget.getBoundingClientRect());
         }, d = ()=>s(void 0);
@@ -169152,12 +169146,12 @@ In order to be iterable, non-array objects must have a [Symbol.iterator]() metho
             })
         });
     }
-    function Zet({ userId: e }) {
-        let t = J(), n = FX(), r = ec(), i = c2(), a = X5().includes(e), o = M4(), s = lX(o), c = UX(o), l = KX(c, s), { hasMorePower: u } = Vet(c, s), d = t.getSafeUserId(), f = c.has(e), p = l.action(`kick`, d) && u(d, e), m = l.action(`ban`, d) && u(d, e), h = l.action(`ban`, d), g = l.action(`invite`, d), _ = o.getMember(e), v = Yet(o, e), y = GG(e), b = PG(o, e), x = IG(o, e), S = (x && oK(t, x, n)) ?? void 0, C = Y$(e);
+    function Xet({ userId: e }) {
+        let t = J(), n = FX(), r = ec(), i = c2(), a = X5().includes(e), o = M4(), s = lX(o), c = UX(o), l = KX(c, s), { hasMorePower: u } = Bet(c, s), d = t.getSafeUserId(), f = c.has(e), p = l.action(`kick`, d) && u(d, e), m = l.action(`ban`, d) && u(d, e), h = l.action(`ban`, d), g = l.action(`invite`, d), _ = o.getMember(e), v = Jet(o, e), y = GG(e), b = PG(o, e), x = IG(o, e), S = (x && oK(t, x, n)) ?? void 0, C = Y$(e);
         return (0, j.jsxs)(P, {
             direction: `Column`,
             children: [
-                (0, j.jsx)(Aet, {
+                (0, j.jsx)(ket, {
                     userId: e,
                     avatarUrl: S,
                     presence: C && C.lastActiveTs !== 0 ? C : void 0
@@ -169177,7 +169171,7 @@ In order to be iterable, non-array objects must have a [Symbol.iterator]() metho
                                     gap: `400`,
                                     alignItems: `Start`,
                                     children: [
-                                        (0, j.jsx)(jet, {
+                                        (0, j.jsx)(Aet, {
                                             displayName: b,
                                             userId: e
                                         }),
@@ -169213,46 +169207,46 @@ In order to be iterable, non-array objects must have a [Symbol.iterator]() metho
                                     gap: `200`,
                                     wrap: `Wrap`,
                                     children: [
-                                        y && (0, j.jsx)(Iet, {
+                                        y && (0, j.jsx)(Fet, {
                                             server: y
                                         }),
-                                        (0, j.jsx)(Let, {
+                                        (0, j.jsx)(Iet, {
                                             userId: e
                                         }),
-                                        f ? (0, j.jsx)(Xet, {}) : (0, j.jsx)(Wet, {
+                                        f ? (0, j.jsx)(Yet, {}) : (0, j.jsx)(Uet, {
                                             userId: e
                                         }),
-                                        e !== d && (0, j.jsx)(Ret, {
+                                        e !== d && (0, j.jsx)(Let, {
                                             userId: e
                                         }),
-                                        e !== d && (0, j.jsx)(Bet, {
+                                        e !== d && (0, j.jsx)(zet, {
                                             userId: e
                                         })
                                     ]
                                 })
                             ]
                         }),
-                        a && (0, j.jsx)(zet, {}),
-                        _ && v === BU.Ban && (0, j.jsx)(Ket, {
+                        a && (0, j.jsx)(Ret, {}),
+                        _ && v === BU.Ban && (0, j.jsx)(Get, {
                             userId: e,
                             reason: _.events.member?.getContent().reason,
                             canUnban: h,
                             bannedBy: _.events.member?.getSender(),
                             ts: _.events.member?.getTs()
                         }),
-                        _ && v === BU.Leave && _.events.member && _.events.member.getSender() !== e && (0, j.jsx)(Get, {
+                        _ && v === BU.Leave && _.events.member && _.events.member.getSender() !== e && (0, j.jsx)(Wet, {
                             reason: _.events.member?.getContent().reason,
                             kickedBy: _.events.member?.getSender(),
                             ts: _.events.member?.getTs()
                         }),
-                        _ && v === BU.Invite && (0, j.jsx)(qet, {
+                        _ && v === BU.Invite && (0, j.jsx)(Ket, {
                             userId: e,
                             reason: _.events.member?.getContent().reason,
                             canKick: p,
                             invitedBy: _.events.member?.getSender(),
                             ts: _.events.member?.getTs()
                         }),
-                        (0, j.jsx)(Jet, {
+                        (0, j.jsx)(qet, {
                             userId: e,
                             canInvite: g && v === BU.Leave,
                             canKick: p && v === BU.Join,
@@ -169263,7 +169257,7 @@ In order to be iterable, non-array objects must have a [Symbol.iterator]() metho
             ]
         });
     }
-    function Qet({ state: e }) {
+    function Zet({ state: e }) {
         let { roomId: t, spaceId: n, userId: r, cords: i, position: a } = e, o = JX(qX()), s = o(t), c = n ? o(n) : void 0, l = c2();
         return s ? (0, j.jsx)(Gn, {
             anchor: i,
@@ -169284,7 +169278,7 @@ In order to be iterable, non-array objects must have a [Symbol.iterator]() metho
                         value: c ?? null,
                         children: (0, j.jsx)(j4, {
                             value: s,
-                            children: (0, j.jsx)(Zet, {
+                            children: (0, j.jsx)(Xet, {
                                 userId: r
                             })
                         })
@@ -169293,13 +169287,13 @@ In order to be iterable, non-array objects must have a [Symbol.iterator]() metho
             })
         }) : null;
     }
-    function $et() {
+    function Qet() {
         let e = s2();
-        return e ? (0, j.jsx)(Qet, {
+        return e ? (0, j.jsx)(Zet, {
             state: e
         }) : null;
     }
-    function ett({ value: e, onSelect: t, disabled: n, getIcon: r }) {
+    function $et({ value: e, onSelect: t, disabled: n, getIcon: r }) {
         return (0, j.jsxs)(P, {
             shrink: `No`,
             direction: `Column`,
@@ -169383,7 +169377,7 @@ In order to be iterable, non-array objects must have a [Symbol.iterator]() metho
                                     truncate: !0,
                                     children: `- Live audio and video conversations.`
                                 }),
-                                (0, j.jsx)(B0e, {})
+                                (0, j.jsx)(z0e, {})
                             ]
                         })
                     })
@@ -169391,11 +169385,11 @@ In order to be iterable, non-array objects must have a [Symbol.iterator]() metho
             ]
         });
     }
-    var ttt = (e, t)=>{
+    var ett = (e, t)=>{
         let n = t === U4.VoiceRoom, r = QB.Public;
         return e === W4.Restricted && (r = QB.Restricted), e === W4.Private && (r = QB.Knock), AG(L, n ? HU.Call : void 0, r);
-    }, ntt = (e)=>e === U4.VoiceRoom ? L.VolumeHigh : L.Hash;
-    function rtt({ defaultAccess: e, defaultType: t, space: n, onCreate: r }) {
+    }, ttt = (e)=>e === U4.VoiceRoom ? L.VolumeHigh : L.Hash;
+    function ntt({ defaultAccess: e, defaultType: t, space: n, onCreate: r }) {
         let i = J(), a = cd(), o = yq()[`m.room_versions`], [s, c] = (0, A.useState)(o?.default ?? `1`);
         (0, A.useEffect)(()=>{
             c(o?.default ?? `1`);
@@ -169444,11 +169438,11 @@ In order to be iterable, non-array objects must have a [Symbol.iterator]() metho
                             size: `L400`,
                             children: `Type`
                         }),
-                        (0, j.jsx)(ett, {
+                        (0, j.jsx)($et, {
                             value: u,
                             onSelect: d,
                             disabled: re,
-                            getIcon: ntt
+                            getIcon: ttt
                         })
                     ]
                 }),
@@ -169465,7 +169459,7 @@ In order to be iterable, non-array objects must have a [Symbol.iterator]() metho
                             onSelect: p,
                             canRestrict: l,
                             disabled: re,
-                            getIcon: (e)=>ttt(e, u)
+                            getIcon: (e)=>ett(e, u)
                         })
                     ]
                 }),
@@ -169482,7 +169476,7 @@ In order to be iterable, non-array objects must have a [Symbol.iterator]() metho
                             required: !0,
                             before: (0, j.jsx)(I, {
                                 size: `100`,
-                                src: ttt(f, u)
+                                src: ett(f, u)
                             }),
                             name: `nameInput`,
                             autoFocus: !0,
@@ -169675,8 +169669,8 @@ In order to be iterable, non-array objects must have a [Symbol.iterator]() metho
             ]
         });
     }
-    function itt({ state: e }) {
-        let { spaceId: t, type: n } = e, r = M0e(), i = JX(qX()), a = t ? i(t) : void 0;
+    function rtt({ state: e }) {
+        let { spaceId: t, type: n } = e, r = j0e(), i = JX(qX()), a = t ? i(t) : void 0;
         return (0, j.jsx)(BX, {
             value: a ?? null,
             children: (0, j.jsx)(Ln, {
@@ -169733,7 +169727,7 @@ In order to be iterable, non-array objects must have a [Symbol.iterator]() metho
                                             },
                                             direction: `Column`,
                                             gap: `500`,
-                                            children: (0, j.jsx)(rtt, {
+                                            children: (0, j.jsx)(ntt, {
                                                 space: a,
                                                 onCreate: r,
                                                 defaultType: n
@@ -169748,13 +169742,13 @@ In order to be iterable, non-array objects must have a [Symbol.iterator]() metho
             })
         });
     }
-    function att() {
-        let e = j0e();
-        return e ? (0, j.jsx)(itt, {
+    function itt() {
+        let e = A0e();
+        return e ? (0, j.jsx)(rtt, {
             state: e
         }) : null;
     }
-    function ott() {
+    function att() {
         let e = vp(), { navigateRoom: t } = T1();
         return (0, j.jsxs)(m1, {
             children: [
@@ -169795,7 +169789,7 @@ In order to be iterable, non-array objects must have a [Symbol.iterator]() metho
                                                 title: `Create Room`,
                                                 subTitle: `Build a Room for Real-Time Conversations.`
                                             }),
-                                            (0, j.jsx)(rtt, {
+                                            (0, j.jsx)(ntt, {
                                                 onCreate: t
                                             })
                                         ]
@@ -169808,8 +169802,8 @@ In order to be iterable, non-array objects must have a [Symbol.iterator]() metho
             ]
         });
     }
-    var stt = (e)=>e === W4.Private ? L.SpaceLock : e === W4.Restricted ? L.Space : L.SpaceGlobe;
-    function ctt({ defaultAccess: e, space: t, onCreate: n }) {
+    var ott = (e)=>e === W4.Private ? L.SpaceLock : e === W4.Restricted ? L.Space : L.SpaceGlobe;
+    function stt({ defaultAccess: e, space: t, onCreate: n }) {
         let r = J(), i = cd(), a = yq()[`m.room_versions`], [o, s] = (0, A.useState)(a?.default ?? `1`);
         (0, A.useEffect)(()=>{
             s(a?.default ?? `1`);
@@ -169860,7 +169854,7 @@ In order to be iterable, non-array objects must have a [Symbol.iterator]() metho
                             onSelect: u,
                             canRestrict: c,
                             disabled: O,
-                            getIcon: stt
+                            getIcon: ott
                         })
                     ]
                 }),
@@ -169877,7 +169871,7 @@ In order to be iterable, non-array objects must have a [Symbol.iterator]() metho
                             required: !0,
                             before: (0, j.jsx)(I, {
                                 size: `100`,
-                                src: stt(l)
+                                src: ott(l)
                             }),
                             name: `nameInput`,
                             autoFocus: !0,
@@ -170048,8 +170042,8 @@ In order to be iterable, non-array objects must have a [Symbol.iterator]() metho
             ]
         });
     }
-    function ltt({ state: e }) {
-        let { spaceId: t } = e, n = I0e(), r = JX(qX()), i = t ? r(t) : void 0;
+    function ctt({ state: e }) {
+        let { spaceId: t } = e, n = F0e(), r = JX(qX()), i = t ? r(t) : void 0;
         return (0, j.jsx)(BX, {
             value: i ?? null,
             children: (0, j.jsx)(Ln, {
@@ -170107,7 +170101,7 @@ In order to be iterable, non-array objects must have a [Symbol.iterator]() metho
                                             },
                                             direction: `Column`,
                                             gap: `500`,
-                                            children: (0, j.jsx)(ctt, {
+                                            children: (0, j.jsx)(stt, {
                                                 space: i,
                                                 onCreate: n
                                             })
@@ -170121,13 +170115,13 @@ In order to be iterable, non-array objects must have a [Symbol.iterator]() metho
             })
         });
     }
-    function utt() {
-        let e = F0e();
-        return e ? (0, j.jsx)(ltt, {
+    function ltt() {
+        let e = P0e();
+        return e ? (0, j.jsx)(ctt, {
             state: e
         }) : null;
     }
-    function dtt() {
+    function utt() {
         let { navigateSpace: e } = T1();
         return (0, j.jsx)(m1, {
             children: (0, j.jsx)(P, {
@@ -170150,7 +170144,7 @@ In order to be iterable, non-array objects must have a [Symbol.iterator]() metho
                                             title: `Create Space`,
                                             subTitle: `Build a space for your community.`
                                         }),
-                                        (0, j.jsx)(ctt, {
+                                        (0, j.jsx)(stt, {
                                             onCreate: e
                                         })
                                     ]
@@ -170162,7 +170156,7 @@ In order to be iterable, non-array objects must have a [Symbol.iterator]() metho
             })
         });
     }
-    var ftt = (e, t)=>{
+    var dtt = (e, t)=>{
         let [n, r] = (0, A.useState)(t);
         return {
             index: n,
@@ -170188,11 +170182,11 @@ In order to be iterable, non-array objects must have a [Symbol.iterator]() metho
                 t
             ])
         };
-    }, ptt = (e)=>{
+    }, ftt = (e)=>{
         if (e === `#`) return `#`;
         if (e === `*`) return `*`;
         if (e === `@`) return `@`;
-    }, mtt = (e, t, n, r)=>{
+    }, ptt = (e, t, n, r)=>{
         let i = J();
         return (0, A.useMemo)(()=>e === `*` ? r : e === `@` ? [
                 ...n
@@ -170208,10 +170202,10 @@ In order to be iterable, non-array objects must have a [Symbol.iterator]() metho
             r,
             e
         ]);
-    }, htt = (e, t, n)=>{
+    }, mtt = (e, t, n)=>{
         let r = t(e);
         return r && iK(r, n);
-    }, gtt = (e, t, n, r)=>(0, A.useMemo)(()=>e === void 0 ? [
+    }, htt = (e, t, n, r)=>(0, A.useMemo)(()=>e === void 0 ? [
                 ...t,
                 ...n,
                 ...r
@@ -170220,7 +170214,7 @@ In order to be iterable, non-array objects must have a [Symbol.iterator]() metho
             r,
             n,
             e
-        ]), _tt = {
+        ]), gtt = {
         matchOptions: {
             contain: !0
         },
@@ -170228,11 +170222,11 @@ In order to be iterable, non-array objects must have a [Symbol.iterator]() metho
             ignoreWhitespace: !1
         }
     };
-    function vtt({ requestClose: e }) {
-        let t = J(), n = FX(), r = (0, A.useRef)(null), i = (0, A.useRef)(null), { navigateRoom: a, navigateSpace: o } = T1(), s = Oi(Yq), [c, l] = (0, A.useState)(), u = JX(qX()), d = Oi(Pq), f = RY(t, jq, d), p = Oi(Mq), m = zY(t, jq, p), h = LY(t, jq), g = BY(t, jq, p), _ = mtt(c, m, g, h), [v, y, b] = ZX(gtt(c, m, g, h), (0, A.useCallback)((e)=>{
+    function _tt({ requestClose: e }) {
+        let t = J(), n = FX(), r = (0, A.useRef)(null), i = (0, A.useRef)(null), { navigateRoom: a, navigateSpace: o } = T1(), s = Oi(Yq), [c, l] = (0, A.useState)(), u = JX(qX()), d = Oi(Pq), f = RY(t, jq, d), p = Oi(Mq), m = zY(t, jq, p), h = LY(t, jq), g = BY(t, jq, p), _ = ptt(c, m, g, h), [v, y, b] = ZX(htt(c, m, g, h), (0, A.useCallback)((e)=>{
             let n = u(e)?.name ?? e;
             if (p.has(e)) {
-                let r = htt(e, u, t.getSafeUserId()), i = r && KG(r);
+                let r = mtt(e, u, t.getSafeUserId()), i = r && KG(r);
                 if (i) return [
                     n,
                     i
@@ -170243,11 +170237,11 @@ In order to be iterable, non-array objects must have a [Symbol.iterator]() metho
             u,
             p,
             t
-        ]), _tt), x = v ? v.items : _, S = ftt(x.length, 0), C = v?.query ? f$(v.query.split(` `)) : void 0, w = (t, n)=>{
+        ]), gtt), x = v ? v.items : _, S = dtt(x.length, 0), C = v?.query ? f$(v.query.split(` `)) : void 0, w = (t, n)=>{
             n ? o(t) : a(t), e();
         }, T = (e)=>{
             S.reset();
-            let t = e.currentTarget.value.trim(), n = t.match(/^[#@*]/)?.[0], r = typeof n == `string` && ptt(n);
+            let t = e.currentTarget.value.trim(), n = t.match(/^[#@*]/)?.[0], r = typeof n == `string` && ftt(n);
             if (r ? (t = t.slice(1), l(r)) : l(void 0), t === ``) {
                 b();
                 return;
@@ -170353,7 +170347,7 @@ In order to be iterable, non-array objects must have a [Symbol.iterator]() metho
                                             children: x.map((e, r)=>{
                                                 let i = u(e);
                                                 if (!i) return null;
-                                                let a = p.has(e), o = a && htt(e, u, t.getSafeUserId()), c = o && KG(o), l = o && GG(o), m = wG(d, e), h = m && f.filter((e)=>m.has(e)), g = h && UG(t, e, h), _ = d.get(e), v = _ && UG(t, e, Array.from(_)), y = s.get(e);
+                                                let a = p.has(e), o = a && mtt(e, u, t.getSafeUserId()), c = o && KG(o), l = o && GG(o), m = wG(d, e), h = m && f.filter((e)=>m.has(e)), g = h && UG(t, e, h), _ = d.get(e), v = _ && UG(t, e, Array.from(_)), y = s.get(e);
                                                 return (0, j.jsx)(kn, {
                                                     as: `button`,
                                                     "data-focus-index": r,
@@ -170491,8 +170485,8 @@ In order to be iterable, non-array objects must have a [Symbol.iterator]() metho
             })
         });
     }
-    function ytt() {
-        let [e, t] = Ai(mqe);
+    function vtt() {
+        let [e, t] = Ai(pqe);
         return h7(window, (0, A.useCallback)((n)=>{
             if (up(`mod+k`, n)) {
                 if (n.preventDefault(), e) {
@@ -170506,11 +170500,11 @@ In order to be iterable, non-array objects must have a [Symbol.iterator]() metho
         }, [
             e,
             t
-        ])), e && (0, j.jsx)(vtt, {
+        ])), e && (0, j.jsx)(_tt, {
             requestClose: ()=>t(!1)
         });
     }
-    var btt = [
+    var ytt = [
         C5.Messages,
         C5.Navigation,
         C5.Formatting,
@@ -170518,7 +170512,7 @@ In order to be iterable, non-array objects must have a [Symbol.iterator]() metho
         C5.Input,
         C5.Call
     ];
-    function xtt({ keys: e }) {
+    function btt({ keys: e }) {
         return (0, j.jsx)(P, {
             gap: `100`,
             alignItems: `Center`,
@@ -170543,9 +170537,9 @@ In order to be iterable, non-array objects must have a [Symbol.iterator]() metho
                 }, t))
         });
     }
-    function Stt({ requestClose: e }) {
+    function xtt({ requestClose: e }) {
         let [t] = Y(X, `keybinds`), n = xY() ? S5.Command : `Ctrl`, r = (0, A.useRef)(null), i = new Map;
-        for (let e of btt)i.set(e, []);
+        for (let e of ytt)i.set(e, []);
         for (let e of w5){
             let n = t[e.id] ?? e.defaultKeys;
             i.get(e.category)?.push({
@@ -170591,7 +170585,7 @@ In order to be iterable, non-array objects must have a [Symbol.iterator]() metho
                                         (0, j.jsx)(P, {
                                             gap: `200`,
                                             alignItems: `Center`,
-                                            children: (0, j.jsx)(xtt, {
+                                            children: (0, j.jsx)(btt, {
                                                 keys: [
                                                     n,
                                                     `/`
@@ -170612,7 +170606,7 @@ In order to be iterable, non-array objects must have a [Symbol.iterator]() metho
                                         },
                                         direction: `Column`,
                                         gap: `500`,
-                                        children: btt.map((e)=>{
+                                        children: ytt.map((e)=>{
                                             let t = i.get(e);
                                             return !t || t.length === 0 ? null : (0, j.jsxs)(P, {
                                                 direction: `Column`,
@@ -170651,8 +170645,8 @@ In order to be iterable, non-array objects must have a [Symbol.iterator]() metho
                                                                             children: e.description
                                                                         })
                                                                     }),
-                                                                    (0, j.jsx)(xtt, {
-                                                                        keys: _We(e.keys)
+                                                                    (0, j.jsx)(btt, {
+                                                                        keys: gWe(e.keys)
                                                                     })
                                                                 ]
                                                             }, e.id))
@@ -170669,16 +170663,16 @@ In order to be iterable, non-array objects must have a [Symbol.iterator]() metho
             })
         });
     }
-    function Ctt() {
-        let [e, t] = Ai(hWe), n = (0, A.useCallback)(()=>t(!1), [
+    function Stt() {
+        let [e, t] = Ai(mWe), n = (0, A.useCallback)(()=>t(!1), [
             t
         ]);
-        return e ? (0, j.jsx)(Stt, {
+        return e ? (0, j.jsx)(xtt, {
             requestClose: n
         }) : null;
     }
-    var wtt = `q1kz0e0`, Ttt = `q1kz0e1`, Ett = `q1kz0e2`, Dtt = `q1kz0e3`;
-    function Ott({ count: e, room: t, members: n }) {
+    var Ctt = `q1kz0e0`, wtt = `q1kz0e1`, Ttt = `q1kz0e2`, Ett = `q1kz0e3`;
+    function Dtt({ count: e, room: t, members: n }) {
         let r = J(), i = FX(), a = l2(), [o, s] = (0, A.useState)();
         return (0, j.jsx)(Gn, {
             anchor: o,
@@ -170765,7 +170759,7 @@ In order to be iterable, non-array objects must have a [Symbol.iterator]() metho
                     s(e.currentTarget.getBoundingClientRect());
                 },
                 children: (0, j.jsxs)(z, {
-                    className: wtt,
+                    className: Ctt,
                     as: `span`,
                     size: `L400`,
                     truncate: !0,
@@ -170777,7 +170771,7 @@ In order to be iterable, non-array objects must have a [Symbol.iterator]() metho
             })
         });
     }
-    function ktt({ room: e }) {
+    function Ott({ room: e }) {
         let t = J(), n = x$(e), r = Oi(Pq), i = RY(t, jq, r), a = Oi(Mq).has(e.roomId), o = JX(qX()), s = wG(r, e.roomId), c = s && i.filter((e)=>s.has(e)), l = c && UG(t, e.roomId, c), { navigateRoom: u } = T1();
         return (0, j.jsx)(xn, {
             variant: `Background`,
@@ -170819,10 +170813,10 @@ In order to be iterable, non-array objects must have a [Symbol.iterator]() metho
             variant: `Background`,
             size: `300`,
             direction: `Vertical`,
-            className: Ett
+            className: Ttt
         });
     }
-    function Att({ enabled: e, onToggle: t, disabled: n }) {
+    function ktt({ enabled: e, onToggle: t, disabled: n }) {
         let [r, i] = V(t), a = r.status === B.Loading;
         return (0, j.jsx)(mr, {
             position: `Top`,
@@ -170849,7 +170843,7 @@ In order to be iterable, non-array objects must have a [Symbol.iterator]() metho
                 })
         });
     }
-    function jtt({ enabled: e, onToggle: t, disabled: n }) {
+    function Att({ enabled: e, onToggle: t, disabled: n }) {
         return (0, j.jsx)(mr, {
             position: `Top`,
             tooltip: (0, j.jsx)(fr, {
@@ -170875,7 +170869,7 @@ In order to be iterable, non-array objects must have a [Symbol.iterator]() metho
                 })
         });
     }
-    function Mtt({ enabled: e, onToggle: t, disabled: n }) {
+    function jtt({ enabled: e, onToggle: t, disabled: n }) {
         let [r, i] = V(t), a = r.status === B.Loading;
         return (0, j.jsx)(mr, {
             position: `Top`,
@@ -170902,7 +170896,7 @@ In order to be iterable, non-array objects must have a [Symbol.iterator]() metho
                 })
         });
     }
-    function Ntt({ enabled: e, onToggle: t, disabled: n }) {
+    function Mtt({ enabled: e, onToggle: t, disabled: n }) {
         return (0, j.jsx)(mr, {
             position: `Top`,
             tooltip: (0, j.jsx)(fr, {
@@ -170928,7 +170922,7 @@ In order to be iterable, non-array objects must have a [Symbol.iterator]() metho
                 })
         });
     }
-    function Ptt({ callEmbed: e, compact: t, callJoined: n }) {
+    function Ntt({ callEmbed: e, compact: t, callJoined: n }) {
         let { microphone: r, video: i, sound: a, screenshare: o } = ICe(e.control), s = ki(z$), c = (0, A.useCallback)(()=>e.control.toggleMicrophone(), [
             e
         ]), l = (0, A.useCallback)(()=>e.control.toggleVideo(), [
@@ -170945,23 +170939,23 @@ In order to be iterable, non-array objects must have a [Symbol.iterator]() metho
                     alignItems: `Inherit`,
                     gap: `200`,
                     children: [
-                        (0, j.jsx)(Att, {
+                        (0, j.jsx)(ktt, {
                             enabled: r,
                             onToggle: c,
                             disabled: !n
                         }),
-                        (0, j.jsx)(jtt, {
+                        (0, j.jsx)(Att, {
                             enabled: a,
                             onToggle: ()=>e.control.toggleSound(),
                             disabled: !n
                         }),
                         !t && (0, j.jsx)(J9, {}),
-                        (0, j.jsx)(Mtt, {
+                        (0, j.jsx)(jtt, {
                             enabled: i,
                             onToggle: l,
                             disabled: !n
                         }),
-                        !t && (0, j.jsx)(Ntt, {
+                        !t && (0, j.jsx)(Mtt, {
                             enabled: o,
                             onToggle: ()=>e.control.toggleScreenshare(),
                             disabled: !n
@@ -171000,7 +170994,7 @@ In order to be iterable, non-array objects must have a [Symbol.iterator]() metho
             ]
         });
     }
-    var Ftt = xq({
+    var Ptt = xq({
         defaultClassName: `_1uu0zpn0`,
         variantClassNames: {
             size: {
@@ -171025,16 +171019,16 @@ In order to be iterable, non-array objects must have a [Symbol.iterator]() metho
             variant: `Surface`
         },
         compoundVariants: []
-    }), Itt = $t(({ size: e, variant: t, className: n, ...r }, i)=>(0, j.jsx)(cn, {
+    }), Ftt = $t(({ size: e, variant: t, className: n, ...r }, i)=>(0, j.jsx)(cn, {
             size: e,
-            className: (0, bt.default)(Ftt({
+            className: (0, bt.default)(Ptt({
                 size: e,
                 variant: t
             }), n),
             ...r,
             ref: i
         }));
-    function Ltt({ room: e, members: t, speakers: n, max: r = 6 }) {
+    function Itt({ room: e, members: t, speakers: n, max: r = 6 }) {
         let i = J(), a = FX(), o = l2(), s = t.slice(0, r), c = r && t.length > r ? t.length - r : 0;
         return (0, j.jsxs)(P, {
             alignItems: `Center`,
@@ -171043,8 +171037,8 @@ In order to be iterable, non-array objects must have a [Symbol.iterator]() metho
                     let { userId: r } = t;
                     if (!r) return null;
                     let s = PG(e, r) ?? KG(r) ?? r, c = IG(e, r), l = c ? oK(i, c, a, 96, 96) ?? void 0 : void 0;
-                    return (0, j.jsx)(Itt, {
-                        className: n.has(t.sender) ? Dtt : void 0,
+                    return (0, j.jsx)(Ftt, {
+                        className: n.has(t.sender) ? Ett : void 0,
                         title: s,
                         as: `button`,
                         variant: `Background`,
@@ -171076,7 +171070,7 @@ In order to be iterable, non-array objects must have a [Symbol.iterator]() metho
             ]
         });
     }
-    var Rtt = (e, t, n)=>{
+    var Ltt = (e, t, n)=>{
         let r = (0, A.useMemo)(()=>new MutationObserver(e), [
             e
         ]);
@@ -171092,14 +171086,14 @@ In order to be iterable, non-array objects must have a [Symbol.iterator]() metho
             t,
             n
         ]), r;
-    }, ztt = (e)=>{
+    }, Rtt = (e)=>{
         let [t, n] = (0, A.useState)(new Set), r = E$(w$(e.room)), i = U$(e), a = (0, A.useMemo)(()=>{
             if (r && i) return e.document?.querySelectorAll(`[data-video-fit]`);
         }, [
             e,
             r,
             i
-        ]), o = Rtt((0, A.useCallback)((t)=>{
+        ]), o = Ltt((0, A.useCallback)((t)=>{
             let r = new Set;
             t.forEach((t)=>{
                 if (t.type !== `attributes`) return;
@@ -171126,7 +171120,7 @@ In order to be iterable, non-array objects must have a [Symbol.iterator]() metho
             o
         ]), t;
     };
-    function Btt({ room: e, speakers: t }) {
+    function ztt({ room: e, speakers: t }) {
         let n = Array.from(t).map((t)=>PG(e, t) ?? KG(t) ?? t);
         return (0, j.jsxs)(P, {
             alignItems: `Center`,
@@ -171255,10 +171249,10 @@ In order to be iterable, non-array objects must have a [Symbol.iterator]() metho
             ]
         });
     }
-    function Vtt({ callEmbed: e }) {
-        let { room: t } = e, n = E$(w$(t)), r = _te(), i = U$(e), a = ztt(e), o = r === _p.Mobile, s = i && n.length > 0;
+    function Btt({ callEmbed: e }) {
+        let { room: t } = e, n = E$(w$(t)), r = _te(), i = U$(e), a = Rtt(e), o = r === _p.Mobile, s = i && n.length > 0;
         return (0, j.jsxs)(P, {
-            className: (0, bt.default)(Ttt, Sq({
+            className: (0, bt.default)(wtt, Sq({
                 variant: `Background`
             })),
             shrink: `No`,
@@ -171273,7 +171267,7 @@ In order to be iterable, non-array objects must have a [Symbol.iterator]() metho
                     children: [
                         s ? (0, j.jsx)(P, {
                             shrink: `No`,
-                            children: (0, j.jsx)(Ott, {
+                            children: (0, j.jsx)(Dtt, {
                                 count: n.length,
                                 room: t,
                                 members: n
@@ -171288,7 +171282,7 @@ In order to be iterable, non-array objects must have a [Symbol.iterator]() metho
                             gap: `Inherit`,
                             children: !o && (0, j.jsxs)(j.Fragment, {
                                 children: [
-                                    (0, j.jsx)(ktt, {
+                                    (0, j.jsx)(Ott, {
                                         room: t
                                     }),
                                     a.size > 0 && (0, j.jsxs)(j.Fragment, {
@@ -171297,7 +171291,7 @@ In order to be iterable, non-array objects must have a [Symbol.iterator]() metho
                                             (0, j.jsx)(`span`, {
                                                 "data-spacing-node": !0
                                             }),
-                                            (0, j.jsx)(Btt, {
+                                            (0, j.jsx)(ztt, {
                                                 room: t,
                                                 speakers: a
                                             })
@@ -171308,7 +171302,7 @@ In order to be iterable, non-array objects must have a [Symbol.iterator]() metho
                         }),
                         s && (0, j.jsx)(P, {
                             shrink: `No`,
-                            children: (0, j.jsx)(Ltt, {
+                            children: (0, j.jsx)(Itt, {
                                 room: t,
                                 members: n,
                                 speakers: a
@@ -171324,11 +171318,11 @@ In order to be iterable, non-array objects must have a [Symbol.iterator]() metho
                     children: [
                         o && (0, j.jsx)(P, {
                             grow: `Yes`,
-                            children: (0, j.jsx)(ktt, {
+                            children: (0, j.jsx)(Ott, {
                                 room: t
                             })
                         }),
-                        (0, j.jsx)(Ptt, {
+                        (0, j.jsx)(Ntt, {
                             callJoined: i,
                             compact: o,
                             callEmbed: e
@@ -171338,14 +171332,14 @@ In order to be iterable, non-array objects must have a [Symbol.iterator]() metho
             ]
         });
     }
-    function Htt() {
+    function Vtt() {
         let e = V$(), t = PY(), n = vp();
-        return !e || n === _p.Mobile && e.roomId === t ? null : (0, j.jsx)(Vtt, {
+        return !e || n === _p.Mobile && e.roomId === t ? null : (0, j.jsx)(Btt, {
             callEmbed: e
         });
     }
-    var Utt = `/app/assets/call-H6UnaODb.ogg`, Wtt = `_9rmubx4`;
-    function Gtt({ dm: e, info: t, onIgnore: n, onAnswer: r, onReject: i }) {
+    var Htt = `/app/assets/call-H6UnaODb.ogg`, Utt = `_9rmubx4`;
+    function Wtt({ dm: e, info: t, onIgnore: n, onAnswer: r, onReject: i }) {
         let a = J(), o = FX(), s = W$(), c = Q$(), l = s && c, { room: u } = t, d = (0, A.useRef)(null), f = x$(u), p = b$(u, e), m = p ? oK(a, p, o, 96, 96, `crop`) ?? void 0 : void 0;
         T$(w$(u), (0, A.useCallback)((e)=>{
             e.length === 0 && n();
@@ -171398,7 +171392,7 @@ In order to be iterable, non-array objects must have a [Symbol.iterator]() metho
                                                     shrink: `No`,
                                                     children: (0, j.jsx)(cn, {
                                                         size: `500`,
-                                                        className: Wtt,
+                                                        className: Utt,
                                                         children: (0, j.jsx)(tX, {
                                                             roomId: u.roomId,
                                                             src: m,
@@ -171510,14 +171504,14 @@ In order to be iterable, non-array objects must have a [Symbol.iterator]() metho
                         display: `none`
                     },
                     children: (0, j.jsx)(`source`, {
-                        src: Utt,
+                        src: Htt,
                         type: `audio/ogg`
                     })
                 })
             ]
         });
     }
-    function Ktt({ callEmbed: e, joined: t }) {
+    function Gtt({ callEmbed: e, joined: t }) {
         let n = J(), r = Oi(Mq), { navigateRoom: i } = T1(), [a, o] = (0, A.useState)(), s = a ? r.has(a.room.roomId) : !1, c = H$(s), l = (0, A.useCallback)(async (e, t, r, i, a)=>{
             if (e.getRelation()?.rel_type !== aR.Reference || t?.isCallRoom() || (e.isEncrypted() && (e.isBeingDecrypted() || await e.attemptDecryption(n.getCrypto()), await e.getDecryptionPromise()), !t || e.getType() !== G.RTCNotification || e.getSender() === n.getSafeUserId() || !a.liveEvent)) return;
             let s = e.getSender(), c = e.getContent(), l = c.sender_ts - e.getTs() > 2e4 ? e.getTs() : c.sender_ts, u = Math.min(c.lifetime, 12e4), d = c.notification_type, f = (e.getRelation()?.rel_type === aR.Reference ? e.getRelation() : void 0)?.event_id, p = c[`m.mentions`]?.room || c[`m.mentions`]?.user_ids?.includes(n.getSafeUserId());
@@ -171564,7 +171558,7 @@ In order to be iterable, non-array objects must have a [Symbol.iterator]() metho
             c,
             i
         ]);
-        return a && e?.roomId === a.room.roomId ? null : !t && a ? (0, j.jsx)(Gtt, {
+        return a && e?.roomId === a.room.roomId ? null : !t && a ? (0, j.jsx)(Wtt, {
             dm: s,
             info: a,
             onIgnore: u,
@@ -171572,7 +171566,7 @@ In order to be iterable, non-array objects must have a [Symbol.iterator]() metho
             onReject: d
         }) : null;
     }
-    function qtt({ embed: e }) {
+    function Ktt({ embed: e }) {
         let t = ki(z$);
         return twe(e), nwe(e), ewe(e, (0, A.useCallback)(()=>{
             t(void 0);
@@ -171582,11 +171576,11 @@ In order to be iterable, non-array objects must have a [Symbol.iterator]() metho
                 Eq(!1);
             }), []), null;
     }
-    function Jtt({ children: e }) {
+    function qtt({ children: e }) {
         let t = Oi(z$), n = (0, A.useRef)(null), r = U$(t);
         (0, A.useEffect)(()=>{
-            if (t) return c5e(!0), ()=>{
-                c5e(!1);
+            if (t) return s5e(!0), ()=>{
+                s5e(!1);
             };
         }, [
             t
@@ -171595,13 +171589,13 @@ In order to be iterable, non-array objects must have a [Symbol.iterator]() metho
         return (0, j.jsxs)(YCe, {
             value: t,
             children: [
-                t && (0, j.jsx)(qtt, {
+                t && (0, j.jsx)(Ktt, {
                     embed: t
                 }),
                 (0, j.jsxs)(ZCe, {
                     value: n,
                     children: [
-                        (0, j.jsx)(Ktt, {
+                        (0, j.jsx)(Gtt, {
                             callEmbed: t,
                             joined: r
                         }),
@@ -171623,7 +171617,7 @@ In order to be iterable, non-array objects must have a [Symbol.iterator]() metho
             ]
         });
     }
-    function Ytt() {
+    function Jtt() {
         return (0, j.jsx)(yd, {
             children: (0, j.jsx)(nr, {
                 variant: `Secondary`,
@@ -171631,13 +171625,13 @@ In order to be iterable, non-array objects must have a [Symbol.iterator]() metho
             })
         });
     }
-    var Xtt = (e, t)=>{
+    var Ytt = (e, t)=>{
         let { hashRouter: n } = e, r = t === _p.Mobile, i = zc((0, j.jsxs)(Ic, {
-            HydrateFallback: Ytt,
+            HydrateFallback: Jtt,
             children: [
                 (0, j.jsx)(Ic, {
                     index: !0,
-                    element: (0, j.jsx)(Ytt, {}),
+                    element: (0, j.jsx)(Jtt, {}),
                     loader: ()=>{
                         if (BK()) return Ha(wK());
                         let e = Nhe(Mhe(), window.location.href);
@@ -171649,7 +171643,7 @@ In order to be iterable, non-array objects must have a [Symbol.iterator]() metho
                     element: (0, j.jsxs)(j.Fragment, {
                         children: [
                             (0, j.jsx)(hfe, {}),
-                            (0, j.jsx)(L7e, {})
+                            (0, j.jsx)(I7e, {})
                         ]
                     }),
                     children: [
@@ -171675,33 +171669,33 @@ In order to be iterable, non-array objects must have a [Symbol.iterator]() metho
                         }
                         return null;
                     },
-                    element: (0, j.jsx)(R7e, {
+                    element: (0, j.jsx)(L7e, {
                         children: (0, j.jsx)(Fve, {
-                            children: (0, j.jsx)(Y5e, {
-                                children: (0, j.jsx)(het, {
+                            children: (0, j.jsx)(J5e, {
+                                children: (0, j.jsx)(met, {
                                     children: (0, j.jsx)(uye, {
-                                        children: (0, j.jsxs)(I7e, {
+                                        children: (0, j.jsxs)(F7e, {
                                             children: [
-                                                (0, j.jsxs)(Jtt, {
+                                                (0, j.jsxs)(qtt, {
                                                     children: [
                                                         (0, j.jsx)(Kye, {
-                                                            nav: (0, j.jsx)(R5e, {
-                                                                children: (0, j.jsx)(L5e, {})
+                                                            nav: (0, j.jsx)(L5e, {
+                                                                children: (0, j.jsx)(I5e, {})
                                                             }),
                                                             children: (0, j.jsx)(Fc, {})
                                                         }),
-                                                        (0, j.jsx)(Htt, {})
+                                                        (0, j.jsx)(Vtt, {})
                                                     ]
                                                 }),
-                                                (0, j.jsx)(ytt, {}),
-                                                (0, j.jsx)(Ctt, {}),
-                                                (0, j.jsx)($et, {}),
-                                                (0, j.jsx)(att, {}),
-                                                (0, j.jsx)(utt, {}),
-                                                (0, j.jsx)(met, {}),
-                                                (0, j.jsx)(Cet, {}),
-                                                (0, j.jsx)(H6e, {}),
-                                                (0, j.jsx)(x8e, {})
+                                                (0, j.jsx)(vtt, {}),
+                                                (0, j.jsx)(Stt, {}),
+                                                (0, j.jsx)(Qet, {}),
+                                                (0, j.jsx)(itt, {}),
+                                                (0, j.jsx)(ltt, {}),
+                                                (0, j.jsx)(pet, {}),
+                                                (0, j.jsx)(xet, {}),
+                                                (0, j.jsx)(V6e, {}),
+                                                (0, j.jsx)(b8e, {})
                                             ]
                                         })
                                     })
@@ -171716,7 +171710,7 @@ In order to be iterable, non-array objects must have a [Symbol.iterator]() metho
                                 resizableNav: !0,
                                 nav: (0, j.jsx)(A9, {
                                     path: Fd,
-                                    children: (0, j.jsx)(U5e, {
+                                    children: (0, j.jsx)(H5e, {
                                         children: (0, j.jsx)(Uwe, {})
                                     })
                                 }),
@@ -171725,11 +171719,11 @@ In order to be iterable, non-array objects must have a [Symbol.iterator]() metho
                             children: [
                                 (0, j.jsx)(Ic, {
                                     index: !0,
-                                    element: r ? (0, j.jsx)(H5e, {}) : (0, j.jsx)(o9, {})
+                                    element: r ? (0, j.jsx)(V5e, {}) : (0, j.jsx)(o9, {})
                                 }),
                                 (0, j.jsx)(Ic, {
                                     path: Ad,
-                                    element: (0, j.jsx)(ott, {})
+                                    element: (0, j.jsx)(att, {})
                                 }),
                                 (0, j.jsx)(Ic, {
                                     path: jd,
@@ -171755,7 +171749,7 @@ In order to be iterable, non-array objects must have a [Symbol.iterator]() metho
                                 resizableNav: !0,
                                 nav: (0, j.jsx)(A9, {
                                     path: zd,
-                                    children: (0, j.jsx)(U5e, {
+                                    children: (0, j.jsx)(H5e, {
                                         children: (0, j.jsx)(Yje, {})
                                     })
                                 }),
@@ -171764,7 +171758,7 @@ In order to be iterable, non-array objects must have a [Symbol.iterator]() metho
                             children: [
                                 (0, j.jsx)(Ic, {
                                     index: !0,
-                                    element: r ? (0, j.jsx)(H5e, {}) : (0, j.jsx)(o9, {})
+                                    element: r ? (0, j.jsx)(V5e, {}) : (0, j.jsx)(o9, {})
                                 }),
                                 (0, j.jsx)(Ic, {
                                     path: Ad,
@@ -171785,7 +171779,7 @@ In order to be iterable, non-array objects must have a [Symbol.iterator]() metho
                                     resizableNav: !0,
                                     nav: (0, j.jsx)(A9, {
                                         path: Vd,
-                                        children: (0, j.jsx)(U5e, {
+                                        children: (0, j.jsx)(H5e, {
                                             children: (0, j.jsx)(SMe, {})
                                         })
                                     }),
@@ -171803,7 +171797,7 @@ In order to be iterable, non-array objects must have a [Symbol.iterator]() metho
                                 }),
                                 (0, j.jsx)(Ic, {
                                     path: Md,
-                                    element: (0, j.jsx)(l2e, {})
+                                    element: (0, j.jsx)(c2e, {})
                                 }),
                                 (0, j.jsx)(Ic, {
                                     path: Nd,
@@ -171845,7 +171839,7 @@ In order to be iterable, non-array objects must have a [Symbol.iterator]() metho
                         }),
                         (0, j.jsx)(Ic, {
                             path: qd,
-                            element: (0, j.jsx)(dtt, {})
+                            element: (0, j.jsx)(utt, {})
                         }),
                         (0, j.jsxs)(Ic, {
                             path: Xd,
@@ -171865,14 +171859,14 @@ In order to be iterable, non-array objects must have a [Symbol.iterator]() metho
                                 }),
                                 (0, j.jsx)(Ic, {
                                     path: Jd,
-                                    element: (0, j.jsx)(e$e, {
-                                        children: (0, j.jsx)(PGe, {})
+                                    element: (0, j.jsx)($Qe, {
+                                        children: (0, j.jsx)(NGe, {})
                                     })
                                 }),
                                 (0, j.jsx)(Ic, {
                                     path: Yd,
-                                    element: (0, j.jsx)(e$e, {
-                                        children: (0, j.jsx)(JGe, {})
+                                    element: (0, j.jsx)($Qe, {
+                                        children: (0, j.jsx)(qGe, {})
                                     })
                                 })
                             ]
@@ -171893,7 +171887,7 @@ In order to be iterable, non-array objects must have a [Symbol.iterator]() metho
             basename: `/app/`
         });
     };
-    function Ztt() {
+    function Xtt() {
         (0, A.useEffect)(()=>{
             let e = window.visualViewport;
             if (!e) return;
@@ -171905,10 +171899,10 @@ In order to be iterable, non-array objects must have a [Symbol.iterator]() metho
             };
         }, []);
     }
-    var Qtt = new Gu;
-    function $tt() {
+    var Ztt = new Gu;
+    function Qtt() {
         let e = _te();
-        hGe(), IJe(), LJe(), Ztt();
+        mGe(), FJe(), IJe(), Xtt();
         let t = document.getElementById(`portalContainer`) ?? void 0;
         return (0, j.jsx)(ur, {
             value: t,
@@ -171929,11 +171923,11 @@ In order to be iterable, non-array objects must have a [Symbol.iterator]() metho
                                 children: (t)=>(0, j.jsx)(Iee, {
                                         value: t,
                                         children: (0, j.jsxs)(Mee, {
-                                            client: Qtt,
+                                            client: Ztt,
                                             children: [
                                                 (0, j.jsx)(Si, {
                                                     children: (0, j.jsx)(Rl, {
-                                                        router: Xtt(t, e)
+                                                        router: Ytt(t, e)
                                                     })
                                                 }),
                                                 (0, j.jsx)(Pee, {
@@ -171949,7 +171943,7 @@ In order to be iterable, non-array objects must have a [Symbol.iterator]() metho
             })
         });
     }
-    function ent() {
+    function $tt() {
         let e = (e)=>{
             let t = e.target.closest(`a[href^="blob:"]`);
             if (!t) return;
@@ -171961,13 +171955,13 @@ In order to be iterable, non-array objects must have a [Symbol.iterator]() metho
         };
         return document.addEventListener(`click`, e, !0), ()=>document.removeEventListener(`click`, e, !0);
     }
-    var { slice: tnt, forEach: nnt } = [];
-    function rnt(e) {
-        return nnt.call(tnt.call(arguments, 1), (t)=>{
+    var { slice: ent, forEach: tnt } = [];
+    function nnt(e) {
+        return tnt.call(ent.call(arguments, 1), (t)=>{
             if (t) for(let n in t)e[n] === void 0 && (e[n] = t[n]);
         }), e;
     }
-    function int(e) {
+    function rnt(e) {
         return typeof e == `string` && [
             /<\s*script.*?>/i,
             /<\s*\/\s*script\s*>/i,
@@ -171984,7 +171978,7 @@ In order to be iterable, non-array objects must have a [Symbol.iterator]() metho
             /innerHTML/i
         ].some((t)=>t.test(e));
     }
-    var ant = /^[\u0009\u0020-\u007e\u0080-\u00ff]+$/, ont = function(e, t) {
+    var int = /^[\u0009\u0020-\u007e\u0080-\u00ff]+$/, ant = function(e, t) {
         let n = arguments.length > 2 && arguments[2] !== void 0 ? arguments[2] : {
             path: `/`
         }, r = `${e}=${encodeURIComponent(t)}`;
@@ -171994,11 +171988,11 @@ In order to be iterable, non-array objects must have a [Symbol.iterator]() metho
             r += `; Max-Age=${Math.floor(e)}`;
         }
         if (n.domain) {
-            if (!ant.test(n.domain)) throw TypeError(`option domain is invalid`);
+            if (!int.test(n.domain)) throw TypeError(`option domain is invalid`);
             r += `; Domain=${n.domain}`;
         }
         if (n.path) {
-            if (!ant.test(n.path)) throw TypeError(`option path is invalid`);
+            if (!int.test(n.path)) throw TypeError(`option path is invalid`);
             r += `; Path=${n.path}`;
         }
         if (n.expires) {
@@ -172022,13 +172016,13 @@ In order to be iterable, non-array objects must have a [Symbol.iterator]() metho
                 throw TypeError(`option sameSite is invalid`);
         }
         return n.partitioned && (r += `; Partitioned`), r;
-    }, snt = {
+    }, ont = {
         create (e, t, n, r) {
             let i = arguments.length > 4 && arguments[4] !== void 0 ? arguments[4] : {
                 path: `/`,
                 sameSite: `strict`
             };
-            n && (i.expires = new Date, i.expires.setTime(i.expires.getTime() + n * 60 * 1e3)), r && (i.domain = r), document.cookie = ont(e, t, i);
+            n && (i.expires = new Date, i.expires.setTime(i.expires.getTime() + n * 60 * 1e3)), r && (i.domain = r), document.cookie = ant(e, t, i);
         },
         read (e) {
             let t = `${e}=`, n = document.cookie.split(`;`);
@@ -172042,17 +172036,17 @@ In order to be iterable, non-array objects must have a [Symbol.iterator]() metho
         remove (e, t) {
             this.create(e, ``, -1, t);
         }
-    }, cnt = {
+    }, snt = {
         name: `cookie`,
         lookup (e) {
             let { lookupCookie: t } = e;
-            if (t && typeof document < `u`) return snt.read(t) || void 0;
+            if (t && typeof document < `u`) return ont.read(t) || void 0;
         },
         cacheUserLanguage (e, t) {
             let { lookupCookie: n, cookieMinutes: r, cookieDomain: i, cookieOptions: a } = t;
-            n && typeof document < `u` && snt.create(n, e, r, i, a);
+            n && typeof document < `u` && ont.create(n, e, r, i, a);
         }
-    }, lnt = {
+    }, cnt = {
         name: `querystring`,
         lookup (e) {
             let { lookupQuerystring: t } = e, n;
@@ -172067,7 +172061,7 @@ In order to be iterable, non-array objects must have a [Symbol.iterator]() metho
             }
             return n;
         }
-    }, unt = {
+    }, lnt = {
         name: `hash`,
         lookup (e) {
             let { lookupHash: t, lookupFromHashIndex: n } = e, r;
@@ -172091,7 +172085,7 @@ In order to be iterable, non-array objects must have a [Symbol.iterator]() metho
             }
             return r;
         }
-    }, Y9 = null, dnt = ()=>{
+    }, Y9 = null, unt = ()=>{
         if (Y9 !== null) return Y9;
         try {
             if (Y9 = typeof window < `u` && window.localStorage !== null, !Y9) return !1;
@@ -172101,17 +172095,17 @@ In order to be iterable, non-array objects must have a [Symbol.iterator]() metho
             Y9 = !1;
         }
         return Y9;
-    }, fnt = {
+    }, dnt = {
         name: `localStorage`,
         lookup (e) {
             let { lookupLocalStorage: t } = e;
-            if (t && dnt()) return window.localStorage.getItem(t) || void 0;
+            if (t && unt()) return window.localStorage.getItem(t) || void 0;
         },
         cacheUserLanguage (e, t) {
             let { lookupLocalStorage: n } = t;
-            n && dnt() && window.localStorage.setItem(n, e);
+            n && unt() && window.localStorage.setItem(n, e);
         }
-    }, X9 = null, pnt = ()=>{
+    }, X9 = null, fnt = ()=>{
         if (X9 !== null) return X9;
         try {
             if (X9 = typeof window < `u` && window.sessionStorage !== null, !X9) return !1;
@@ -172121,17 +172115,17 @@ In order to be iterable, non-array objects must have a [Symbol.iterator]() metho
             X9 = !1;
         }
         return X9;
-    }, mnt = {
+    }, pnt = {
         name: `sessionStorage`,
         lookup (e) {
             let { lookupSessionStorage: t } = e;
-            if (t && pnt()) return window.sessionStorage.getItem(t) || void 0;
+            if (t && fnt()) return window.sessionStorage.getItem(t) || void 0;
         },
         cacheUserLanguage (e, t) {
             let { lookupSessionStorage: n } = t;
-            n && pnt() && window.sessionStorage.setItem(n, e);
+            n && fnt() && window.sessionStorage.setItem(n, e);
         }
-    }, hnt = {
+    }, mnt = {
         name: `navigator`,
         lookup (e) {
             let t = [];
@@ -172142,13 +172136,13 @@ In order to be iterable, non-array objects must have a [Symbol.iterator]() metho
             }
             return t.length > 0 ? t : void 0;
         }
-    }, gnt = {
+    }, hnt = {
         name: `htmlTag`,
         lookup (e) {
             let { htmlTag: t } = e, n, r = t || (typeof document < `u` ? document.documentElement : null);
             return r && typeof r.getAttribute == `function` && (n = r.getAttribute(`lang`)), n;
         }
-    }, _nt = {
+    }, gnt = {
         name: `path`,
         lookup (e) {
             let { lookupFromPathIndex: t } = e;
@@ -172156,17 +172150,17 @@ In order to be iterable, non-array objects must have a [Symbol.iterator]() metho
             let n = window.location.pathname.match(/\/([a-zA-Z-]*)/g);
             if (Array.isArray(n)) return n[typeof t == `number` ? t : 0]?.replace(`/`, ``);
         }
-    }, vnt = {
+    }, _nt = {
         name: `subdomain`,
         lookup (e) {
             let { lookupFromSubdomainIndex: t } = e, n = typeof t == `number` ? t + 1 : 1, r = typeof window < `u` && window.location?.hostname?.match(/^(\w{2,5})\.(([a-z0-9-]{1,63}\.[a-z]{2,6})|localhost)/i);
             if (r) return r[n];
         }
-    }, ynt = !1;
+    }, vnt = !1;
     try {
-        document.cookie, ynt = !0;
+        document.cookie, vnt = !0;
     } catch  {}
-    var bnt = [
+    var ynt = [
         `querystring`,
         `cookie`,
         `localStorage`,
@@ -172174,9 +172168,9 @@ In order to be iterable, non-array objects must have a [Symbol.iterator]() metho
         `navigator`,
         `htmlTag`
     ];
-    ynt || bnt.splice(1, 1);
-    var xnt = ()=>({
-            order: bnt,
+    vnt || ynt.splice(1, 1);
+    var bnt = ()=>({
+            order: ynt,
             lookupQuerystring: `lng`,
             lookupCookie: `i18next`,
             lookupLocalStorage: `i18nextLng`,
@@ -172188,7 +172182,7 @@ In order to be iterable, non-array objects must have a [Symbol.iterator]() metho
                 `cimode`
             ],
             convertDetectedLanguage: (e)=>e
-        }), Snt = class {
+        }), xnt = class {
         constructor(e){
             let t = arguments.length > 1 && arguments[1] !== void 0 ? arguments[1] : {};
             this.type = `languageDetector`, this.detectors = {}, this.init(e, t);
@@ -172197,7 +172191,7 @@ In order to be iterable, non-array objects must have a [Symbol.iterator]() metho
             let e = arguments.length > 0 && arguments[0] !== void 0 ? arguments[0] : {
                 languageUtils: {}
             }, t = arguments.length > 1 && arguments[1] !== void 0 ? arguments[1] : {}, n = arguments.length > 2 && arguments[2] !== void 0 ? arguments[2] : {};
-            this.services = e, this.options = rnt(t, this.options || {}, xnt()), typeof this.options.convertDetectedLanguage == `string` && this.options.convertDetectedLanguage.indexOf(`15897`) > -1 && (this.options.convertDetectedLanguage = (e)=>e.replace(`-`, `_`)), this.options.lookupFromUrlIndex && (this.options.lookupFromPathIndex = this.options.lookupFromUrlIndex), this.i18nOptions = n, this.addDetector(cnt), this.addDetector(lnt), this.addDetector(fnt), this.addDetector(mnt), this.addDetector(hnt), this.addDetector(gnt), this.addDetector(_nt), this.addDetector(vnt), this.addDetector(unt);
+            this.services = e, this.options = nnt(t, this.options || {}, bnt()), typeof this.options.convertDetectedLanguage == `string` && this.options.convertDetectedLanguage.indexOf(`15897`) > -1 && (this.options.convertDetectedLanguage = (e)=>e.replace(`-`, `_`)), this.options.lookupFromUrlIndex && (this.options.lookupFromPathIndex = this.options.lookupFromUrlIndex), this.i18nOptions = n, this.addDetector(snt), this.addDetector(cnt), this.addDetector(dnt), this.addDetector(pnt), this.addDetector(mnt), this.addDetector(hnt), this.addDetector(gnt), this.addDetector(_nt), this.addDetector(lnt);
         }
         addDetector(e) {
             return this.detectors[e.name] = e, this;
@@ -172211,7 +172205,7 @@ In order to be iterable, non-array objects must have a [Symbol.iterator]() metho
                         n
                     ]), n && (t = t.concat(n));
                 }
-            }), t = t.filter((e)=>e != null && !int(e)).map((e)=>this.options.convertDetectedLanguage(e)), this.services && this.services.languageUtils && this.services.languageUtils.getBestMatchFromCodes ? t : t.length > 0 ? t[0] : null;
+            }), t = t.filter((e)=>e != null && !rnt(e)).map((e)=>this.options.convertDetectedLanguage(e)), this.services && this.services.languageUtils && this.services.languageUtils.getBestMatchFromCodes ? t : t.length > 0 ? t[0] : null;
         }
         cacheUserLanguage(e) {
             let t = arguments.length > 1 && arguments[1] !== void 0 ? arguments[1] : this.options.caches;
@@ -172220,31 +172214,31 @@ In order to be iterable, non-array objects must have a [Symbol.iterator]() metho
             }));
         }
     };
-    Snt.type = `languageDetector`;
-    var Cnt = [];
-    Cnt.forEach, Cnt.slice;
-    var wnt = [
+    xnt.type = `languageDetector`;
+    var Snt = [];
+    Snt.forEach, Snt.slice;
+    var Cnt = [
         `__proto__`,
         `constructor`,
         `prototype`
     ];
+    function wnt(e) {
+        return !(typeof e != `string` || e.length === 0 || e.length > 128 || Cnt.indexOf(e) > -1 || e.indexOf(`..`) > -1 || e.indexOf(`\\`) > -1 || /[?#%\s@]/.test(e) || /[\x00-\x1F\x7F]/.test(e));
+    }
     function Tnt(e) {
-        return !(typeof e != `string` || e.length === 0 || e.length > 128 || wnt.indexOf(e) > -1 || e.indexOf(`..`) > -1 || e.indexOf(`\\`) > -1 || /[?#%\s@]/.test(e) || /[\x00-\x1F\x7F]/.test(e));
+        return !(!wnt(e) || e.indexOf(`/`) > -1);
     }
     function Ent(e) {
-        return !(!Tnt(e) || e.indexOf(`/`) > -1);
+        return wnt(e);
     }
-    function Dnt(e) {
-        return Tnt(e);
-    }
-    var Ont = {
-        lng: Ent,
-        ns: Dnt
+    var Dnt = {
+        lng: Tnt,
+        ns: Ent
     };
     function Z9(e) {
         return typeof e == `string` ? e.replace(/[\r\n\x00-\x1F\x7F]/g, ` `) : e;
     }
-    function knt(e) {
+    function Ont(e) {
         if (typeof e != `string` || e.length === 0) return e;
         try {
             let t = new URL(e);
@@ -172253,23 +172247,23 @@ In order to be iterable, non-array objects must have a [Symbol.iterator]() metho
             return e.replace(/(\/\/)[^/@\s]+@/g, `$1`);
         }
     }
-    function Ant() {
+    function knt() {
         return typeof XMLHttpRequest == `function` || typeof XMLHttpRequest == `object`;
     }
-    function jnt(e) {
+    function Ant(e) {
         return !!e && typeof e.then == `function`;
     }
-    function Mnt(e) {
-        return jnt(e) ? e : Promise.resolve(e);
+    function jnt(e) {
+        return Ant(e) ? e : Promise.resolve(e);
     }
-    var Nnt = /\{\{(.+?)\}\}/g;
-    function Pnt(e, t) {
-        let n = !1, r = e.replace(Nnt, (e, r)=>{
+    var Mnt = /\{\{(.+?)\}\}/g;
+    function Nnt(e, t) {
+        let n = !1, r = e.replace(Mnt, (e, r)=>{
             let i = r.trim();
-            if (wnt.indexOf(i) > -1) return e;
+            if (Cnt.indexOf(i) > -1) return e;
             let a = t[i];
             if (a == null) return e;
-            let o = Ont[i] || Ent, s = String(a).split(`+`);
+            let o = Dnt[i] || Tnt, s = String(a).split(`+`);
             for (let t of s)if (!o(t)) return n = !0, e;
             return s.join(`+`);
         });
@@ -172277,19 +172271,19 @@ In order to be iterable, non-array objects must have a [Symbol.iterator]() metho
     }
     var Q9 = typeof globalThis < `u` ? globalThis : typeof global < `u` ? global : typeof window < `u` ? window : void 0, $9;
     typeof fetch == `function` ? $9 = fetch : Q9 && typeof Q9.fetch == `function` && ($9 = Q9.fetch);
-    var Fnt = Ant() && Q9 ? Q9.XMLHttpRequest : void 0, Int = typeof ActiveXObject == `function` && Q9 ? Q9.ActiveXObject : void 0, Lnt = [
+    var Pnt = knt() && Q9 ? Q9.XMLHttpRequest : void 0, Fnt = typeof ActiveXObject == `function` && Q9 ? Q9.ActiveXObject : void 0, Int = [
         `__proto__`,
         `constructor`,
         `prototype`
-    ], Rnt = (e, t)=>{
+    ], Lnt = (e, t)=>{
         if (t && typeof t == `object`) {
             let n = ``;
-            for (let e of Object.keys(t))Lnt.indexOf(e) > -1 || (n += `&` + encodeURIComponent(e) + `=` + encodeURIComponent(t[e]));
+            for (let e of Object.keys(t))Int.indexOf(e) > -1 || (n += `&` + encodeURIComponent(e) + `=` + encodeURIComponent(t[e]));
             if (!n) return e;
             e = e + (e.indexOf(`?`) === -1 ? `?` : `&`) + n.slice(1);
         }
         return e;
-    }, znt = (e, t, n, r)=>{
+    }, Rnt = (e, t, n, r)=>{
         let i = (e)=>{
             if (!e.ok) return n(e.statusText || `Error`, {
                 status: e.status
@@ -172309,8 +172303,8 @@ In order to be iterable, non-array objects must have a [Symbol.iterator]() metho
             }
         }
         typeof fetch == `function` ? fetch(e, t).then(i).catch(n) : $9(e, t).then(i).catch(n);
-    }, Bnt = (e, t, n, r)=>{
-        e.queryStringParams && (t = Rnt(t, e.queryStringParams));
+    }, znt = (e, t, n, r)=>{
+        e.queryStringParams && (t = Lnt(t, e.queryStringParams));
         let i = {
             ...typeof e.customHeaders == `function` ? e.customHeaders() : e.customHeaders
         };
@@ -172322,24 +172316,24 @@ In order to be iterable, non-array objects must have a [Symbol.iterator]() metho
             ...e._omitFetchOptions ? {} : a
         }, s = typeof e.alternateFetch == `function` && e.alternateFetch.length >= 1 ? e.alternateFetch : void 0;
         try {
-            znt(t, o, r, s);
+            Rnt(t, o, r, s);
         } catch (n) {
             if (!a || Object.keys(a).length === 0 || !n.message || n.message.indexOf(`not implemented`) < 0) return r(n);
             try {
                 Object.keys(a).forEach((e)=>{
                     delete o[e];
-                }), znt(t, o, r, s), e._omitFetchOptions = !0;
+                }), Rnt(t, o, r, s), e._omitFetchOptions = !0;
             } catch (e) {
                 r(e);
             }
         }
-    }, Vnt = (e, t, n, r)=>{
-        n && typeof n == `object` && (n = Rnt(``, n).slice(1)), e.queryStringParams && (t = Rnt(t, e.queryStringParams));
+    }, Bnt = (e, t, n, r)=>{
+        n && typeof n == `object` && (n = Lnt(``, n).slice(1)), e.queryStringParams && (t = Lnt(t, e.queryStringParams));
         try {
-            let i = Fnt ? new Fnt : new Int(`MSXML2.XMLHTTP.3.0`);
+            let i = Pnt ? new Pnt : new Fnt(`MSXML2.XMLHTTP.3.0`);
             i.open(n ? `POST` : `GET`, t, 1), e.crossDomain || i.setRequestHeader(`X-Requested-With`, `XMLHttpRequest`), i.withCredentials = !!e.withCredentials, n && i.setRequestHeader(`Content-Type`, `application/x-www-form-urlencoded`), i.overrideMimeType && i.overrideMimeType(`application/json`);
             let a = e.customHeaders;
-            if (a = typeof a == `function` ? a() : a, a) for (let e of Object.keys(a))Lnt.indexOf(e) > -1 || i.setRequestHeader(e, a[e]);
+            if (a = typeof a == `function` ? a() : a, a) for (let e of Object.keys(a))Int.indexOf(e) > -1 || i.setRequestHeader(e, a[e]);
             i.onreadystatechange = ()=>{
                 i.readyState > 3 && r(i.status >= 400 ? i.statusText : null, {
                     status: i.status,
@@ -172349,11 +172343,11 @@ In order to be iterable, non-array objects must have a [Symbol.iterator]() metho
         } catch (e) {
             console && console.log(e);
         }
-    }, Hnt = (e, t, n, r)=>{
-        if (typeof n == `function` && (r = n, n = void 0), r ||= (()=>{}), $9 && t.indexOf(`file:`) !== 0) return Bnt(e, t, n, r);
-        if (Ant() || typeof ActiveXObject == `function`) return Vnt(e, t, n, r);
+    }, Vnt = (e, t, n, r)=>{
+        if (typeof n == `function` && (r = n, n = void 0), r ||= (()=>{}), $9 && t.indexOf(`file:`) !== 0) return znt(e, t, n, r);
+        if (knt() || typeof ActiveXObject == `function`) return Bnt(e, t, n, r);
         r(Error(`No fetch and no xhr implementation found!`));
-    }, Unt = ()=>({
+    }, Hnt = ()=>({
             loadPath: `/locales/{{lng}}/{{ns}}.json`,
             addPath: `/locales/add/{{lng}}/{{ns}}`,
             parse: (e)=>JSON.parse(e),
@@ -172362,7 +172356,7 @@ In order to be iterable, non-array objects must have a [Symbol.iterator]() metho
                     [t]: n || ``
                 }),
             parseLoadPayload: (e, t)=>void 0,
-            request: Hnt,
+            request: Vnt,
             reloadInterval: typeof window < `u` ? !1 : 36e5,
             customHeaders: {},
             queryStringParams: {},
@@ -172374,13 +172368,13 @@ In order to be iterable, non-array objects must have a [Symbol.iterator]() metho
                 credentials: `same-origin`,
                 cache: `default`
             }
-        }), Wnt = class {
+        }), Unt = class {
         constructor(e, t = {}, n = {}){
             this.services = e, this.options = t, this.allOptions = n, this.type = `backend`, this.init(e, t, n);
         }
         init(e, t = {}, n = {}) {
             if (this.services = e, this.options = {
-                ...Unt(),
+                ...Hnt(),
                 ...this.options || {},
                 ...t
             }, this.allOptions = n, this.services && this.options.reloadInterval) {
@@ -172400,9 +172394,9 @@ In order to be iterable, non-array objects must have a [Symbol.iterator]() metho
         }
         _readAny(e, t, n, r, i) {
             let a = this.options.loadPath;
-            typeof this.options.loadPath == `function` && (a = this.options.loadPath(e, n)), a = Mnt(a), a.then((a)=>{
+            typeof this.options.loadPath == `function` && (a = this.options.loadPath(e, n)), a = jnt(a), a.then((a)=>{
                 if (!a) return i(null, {});
-                let o = Pnt(a, {
+                let o = Nnt(a, {
                     lng: e.join(`+`),
                     ns: n.join(`+`)
                 });
@@ -172418,7 +172412,7 @@ In order to be iterable, non-array objects must have a [Symbol.iterator]() metho
                 n
             ] : n, a = typeof r == `string` ? [
                 r
-            ] : r, o = this.options.parseLoadPayload(i, a), s = Z9(knt(e));
+            ] : r, o = this.options.parseLoadPayload(i, a), s = Z9(Ont(e));
             this.options.request(this.options, e, o, (e, i)=>{
                 if (i && (i.status >= 500 && i.status < 600 || !i.status)) return t(`failed loading ` + s + `; status code: ` + i.status, !0);
                 if (i && i.status >= 400 && i.status < 500) return t(`failed loading ` + s + `; status code: ` + i.status, !1);
@@ -172451,7 +172445,7 @@ In order to be iterable, non-array objects must have a [Symbol.iterator]() metho
             e.forEach((n)=>{
                 let r = this.options.addPath;
                 typeof this.options.addPath == `function` && (r = this.options.addPath(n, t));
-                let l = Pnt(r, {
+                let l = Nnt(r, {
                     lng: n,
                     ns: t
                 });
@@ -172481,7 +172475,7 @@ In order to be iterable, non-array objects must have a [Symbol.iterator]() metho
             });
         }
     };
-    Wnt.type = `backend`, s7.use(Wnt).use(Snt).use($Ke).init({
+    Unt.type = `backend`, s7.use(Unt).use(xnt).use(QKe).init({
         debug: !1,
         fallbackLng: `en`,
         interpolation: {
@@ -172492,15 +172486,15 @@ In order to be iterable, non-array objects must have a [Symbol.iterator]() metho
             loadPath: `${kr(`/app/`)}/public/locales/{{lng}}.json`
         }
     }), ht(), document.body.classList.add(Ct, wt);
-    var Gnt = `cinny:chunk-reload-at`, Knt = 3e4;
+    var Wnt = `cinny:chunk-reload-at`, Gnt = 3e4;
     if (window.addEventListener(`vite:preloadError`, (e)=>{
         let t = 0;
         try {
-            t = Number(sessionStorage.getItem(Gnt) ?? 0);
+            t = Number(sessionStorage.getItem(Wnt) ?? 0);
         } catch  {}
-        if (!(Date.now() - t < Knt)) {
+        if (!(Date.now() - t < Gnt)) {
             try {
-                sessionStorage.setItem(Gnt, String(Date.now()));
+                sessionStorage.setItem(Wnt, String(Date.now()));
             } catch  {
                 return;
             }
@@ -172531,7 +172525,7 @@ In order to be iterable, non-array objects must have a [Symbol.iterator]() metho
             console.error(`Root container element not found!`);
             return;
         }
-        (0, x.createRoot)(e).render((0, j.jsx)($tt, {}));
-    })(), ent();
+        (0, x.createRoot)(e).render((0, j.jsx)(Qtt, {}));
+    })(), $tt();
 })();
-export { wie as $, Mce as A, _z as B, Bce as C, zce as D, CV as E, eB as F, oR as G, UR as H, $z as I, Jie as J, lR as K, Zz as L, _V as M, yV as N, SV as O, tV as P, DL as Q, Oz as R, Lce as S, Uce as T, vR as U, K as V, G as W, ZL as X, tR as Y, YL as Z, Jce as _, P9 as a, _ as at, Ice as b, xCe as c, _de as d, FL as et, mU as f, Xce as g, dle as h, j9 as i, vt as it, vV as j, Fce as k, dG as l, WH as m, F9 as n, H as nt, qQe as o, KH as p, iR as q, N9 as r, kp as rt, SDe as s, o7e as t, U as tt, jU as u, Rce as v, Hce as w, Wce as x, Vce as y, Ez as z, __tla };
+export { wie as $, Mce as A, _z as B, Bce as C, zce as D, CV as E, eB as F, oR as G, UR as H, $z as I, Jie as J, lR as K, Zz as L, _V as M, yV as N, SV as O, tV as P, DL as Q, Oz as R, Lce as S, Uce as T, vR as U, K as V, G as W, ZL as X, tR as Y, YL as Z, Jce as _, P9 as a, _ as at, Ice as b, xCe as c, _de as d, FL as et, mU as f, Xce as g, dle as h, j9 as i, vt as it, vV as j, Fce as k, dG as l, WH as m, F9 as n, H as nt, KQe as o, KH as p, iR as q, N9 as r, kp as rt, SDe as s, a7e as t, U as tt, jU as u, Rce as v, Hce as w, Wce as x, Vce as y, Ez as z, __tla };
