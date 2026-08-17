@@ -1,10 +1,10 @@
 {
  "version": 1,
- "generated_at": "2026-08-16T04:55:09.112Z",
+ "generated_at": "2026-08-17T05:03:03.657Z",
  "refresh_interval_hours": 24,
  "counts": {
-  "total": 1136,
-  "open_registration": 1114,
+  "total": 1134,
+  "open_registration": 1112,
   "merged_from_multiple_sources": 19
  },
  "sources": [
@@ -13,7 +13,7 @@
    "url": "https://wiki.asra.gr/en:public_servers",
    "ok": true,
    "stale": false,
-   "count": 1087
+   "count": 1085
   },
   {
    "id": "joinmatrix",
@@ -30,7 +30,7 @@
    "count": 35,
    "error": "fetch failed",
    "cached_at": "2026-08-11T00:41:06.160Z",
-   "cache_age_days": 5
+   "cache_age_days": 6
   }
  ],
  "servers": [
@@ -72,6 +72,22 @@
    ]
   },
   {
+   "name": "3dns.eu",
+   "client_domain": "messenger.3dns.eu",
+   "software": "Synapse",
+   "version": "1.159.0rc1",
+   "last_check": "2026-08-14T11:34:25.000Z",
+   "registration": {
+    "open": true
+   },
+   "sources": [
+    "asra"
+   ],
+   "aliases": [
+    "matrix.3dns.eu"
+   ]
+  },
+  {
    "name": "3x19.com",
    "client_domain": "3x19.com",
    "software": "Synapse",
@@ -87,7 +103,7 @@
   {
    "name": "3zi.ru",
    "client_domain": "3zi.ru",
-   "last_check": "2026-08-07T02:45:45.000Z",
+   "last_check": "2026-08-16T11:50:28.000Z",
    "registration": {
     "open": true
    },
@@ -203,6 +219,17 @@
    "software": "Synapse",
    "version": "1.132.0",
    "last_check": "2026-08-14T19:45:54.000Z",
+   "registration": {
+    "open": true
+   },
+   "sources": [
+    "asra"
+   ]
+  },
+  {
+   "name": "admint.club",
+   "client_domain": "admint.club",
+   "last_check": "2026-08-16T12:44:48.000Z",
    "registration": {
     "open": true
    },
@@ -397,7 +424,7 @@
    "client_domain": "matrix.anomalous.dev",
    "software": "Synapse",
    "version": "1.151.0",
-   "last_check": "2026-08-07T09:33:17.000Z",
+   "last_check": "2026-08-16T18:51:36.000Z",
    "registration": {
     "open": true
    },
@@ -699,7 +726,7 @@
    "client_domain": "matrix.avocadosfrommexi.co",
    "software": "Synapse",
    "version": "1.148.0",
-   "last_check": "2026-08-07T18:10:09.000Z",
+   "last_check": "2026-08-17T03:09:14.000Z",
    "registration": {
     "open": true
    },
@@ -723,7 +750,7 @@
    "client_domain": "axessible.dev",
    "software": "Synapse",
    "version": "1.151.0",
-   "last_check": "2026-08-07T13:16:27.000Z",
+   "last_check": "2026-08-16T22:35:52.000Z",
    "registration": {
     "open": true
    },
@@ -1015,7 +1042,7 @@
    "client_domain": "matrix.boldcloud.no",
    "software": "Synapse",
    "version": "1.87.0",
-   "last_check": "2026-08-07T08:26:47.000Z",
+   "last_check": "2026-08-16T17:42:46.000Z",
    "registration": {
     "open": true
    },
@@ -1074,7 +1101,7 @@
   {
    "name": "brianmorrison.com",
    "client_domain": "brianmorrison.com",
-   "last_check": "2026-08-07T05:11:45.000Z",
+   "last_check": "2026-08-16T14:18:10.000Z",
    "registration": {
     "open": true
    },
@@ -1406,17 +1433,6 @@
    ]
   },
   {
-   "name": "chat.danilo.tech",
-   "client_domain": "chat.danilo.tech",
-   "last_check": "2026-08-07T11:20:35.000Z",
-   "registration": {
-    "open": true
-   },
-   "sources": [
-    "asra"
-   ]
-  },
-  {
    "name": "chat.dilim.io",
    "client_domain": "chat.dilim.io",
    "software": "Synapse",
@@ -1680,7 +1696,7 @@
    "client_domain": "chat.minerva-archive.org",
    "software": "Synapse",
    "version": "1.156.0",
-   "last_check": "2026-08-07T04:41:18.000Z",
+   "last_check": "2026-08-16T13:45:49.000Z",
    "registration": {
     "open": true
    },
@@ -1693,7 +1709,7 @@
    "client_domain": "chat.netfog.de",
    "software": "Synapse",
    "version": "1.118.0",
-   "last_check": "2026-08-07T08:26:49.000Z",
+   "last_check": "2026-08-16T17:42:48.000Z",
    "registration": {
     "open": true
    },
@@ -2062,7 +2078,7 @@
    "client_domain": "chat.cloud.olac.eu",
    "software": "Conduit",
    "version": "0.10.11",
-   "last_check": "2026-08-07T13:36:04.000Z",
+   "last_check": "2026-08-16T22:54:28.000Z",
    "registration": {
     "open": true
    },
@@ -2318,7 +2334,7 @@
    "client_domain": "cryptolab.gtisc.gatech.edu",
    "software": "Synapse",
    "version": "1.49.2",
-   "last_check": "2026-08-07T13:12:42.000Z",
+   "last_check": "2026-08-16T22:32:31.000Z",
    "registration": {
     "open": true
    },
@@ -2809,7 +2825,7 @@
   {
    "name": "dimension.chat",
    "client_domain": "dimension.chat",
-   "last_check": "2026-08-07T06:03:06.000Z",
+   "last_check": "2026-08-16T15:12:12.000Z",
    "registration": {
     "open": true
    },
@@ -2886,19 +2902,6 @@
    "software": "Synapse",
    "version": "1.139.2",
    "last_check": "2026-08-14T16:58:26.000Z",
-   "registration": {
-    "open": true
-   },
-   "sources": [
-    "asra"
-   ]
-  },
-  {
-   "name": "docsbunker.duckdns.org",
-   "client_domain": "docsbunker.duckdns.org",
-   "software": "Synapse",
-   "version": "1.147.1",
-   "last_check": "2026-08-07T05:01:01.000Z",
    "registration": {
     "open": true
    },
@@ -3389,7 +3392,7 @@
    "client_domain": "matrix.f2a.space",
    "software": "Synapse",
    "version": "1.158.0",
-   "last_check": "2026-08-07T06:16:49.000Z",
+   "last_check": "2026-08-16T15:26:31.000Z",
    "registration": {
     "open": true
    },
@@ -3966,7 +3969,7 @@
   {
    "name": "gayonly.ch",
    "client_domain": "gayonly.ch",
-   "last_check": "2026-08-06T23:52:22.000Z",
+   "last_check": "2026-08-16T08:57:19.000Z",
    "registration": {
     "open": true
    },
@@ -4005,7 +4008,7 @@
    "client_domain": "matrix.gemeinsam.jetzt",
    "software": "Synapse",
    "version": "1.158.0",
-   "last_check": "2026-08-14T00:01:19.000Z",
+   "last_check": "2026-08-14T17:02:18.000Z",
    "registration": {
     "open": true,
     "vanilla": true,
@@ -4227,7 +4230,7 @@
    "client_domain": "matrix.greensteps.cn",
    "software": "Synapse",
    "version": "1.153.0",
-   "last_check": "2026-08-07T19:35:21.000Z",
+   "last_check": "2026-08-17T04:31:22.000Z",
    "registration": {
     "open": true
    },
@@ -4251,7 +4254,7 @@
    "client_domain": "matrix.grin.hu",
    "software": "Synapse",
    "version": "1.146.0",
-   "last_check": "2026-08-15T22:44:43.000Z",
+   "last_check": "2026-08-14T22:59:13.000Z",
    "registration": {
     "open": true,
     "vanilla": true,
@@ -4806,7 +4809,7 @@
   {
    "name": "host171.ik.w-hs.de",
    "client_domain": "host171.ik.w-hs.de",
-   "last_check": "2026-08-07T01:06:27.000Z",
+   "last_check": "2026-08-16T10:11:20.000Z",
    "registration": {
     "open": true
    },
@@ -4949,17 +4952,6 @@
    ]
   },
   {
-   "name": "iasp.ph",
-   "client_domain": "iasp.ph",
-   "last_check": "2026-08-07T02:12:51.000Z",
-   "registration": {
-    "open": true
-   },
-   "sources": [
-    "asra"
-   ]
-  },
-  {
    "name": "idc.md",
    "client_domain": "matrix.idc.md",
    "software": "Synapse",
@@ -5027,7 +5019,7 @@
    "client_domain": "im.vrpnet.org",
    "software": "Synapse",
    "version": "1.158.0",
-   "last_check": "2026-08-06T21:00:30.000Z",
+   "last_check": "2026-08-16T05:59:34.000Z",
    "registration": {
     "open": true
    },
@@ -5468,7 +5460,7 @@
   {
    "name": "kenxengineering.com",
    "client_domain": "kenxengineering.com",
-   "last_check": "2026-08-07T15:15:27.000Z",
+   "last_check": "2026-08-17T00:27:47.000Z",
    "registration": {
     "open": true
    },
@@ -5719,7 +5711,7 @@
    "client_domain": "matrix.lambanet.cc",
    "software": "Synapse",
    "version": "1.146.0",
-   "last_check": "2026-08-07T11:14:34.000Z",
+   "last_check": "2026-08-16T20:40:17.000Z",
    "registration": {
     "open": true
    },
@@ -5770,8 +5762,8 @@
    "name": "layova.dev",
    "client_domain": "matrix.layova.dev",
    "software": "Synapse",
-   "version": "1.157.2",
-   "last_check": "2026-08-07T03:53:41.000Z",
+   "version": "1.158.0",
+   "last_check": "2026-08-16T12:57:31.000Z",
    "registration": {
     "open": true
    },
@@ -6295,7 +6287,7 @@
   {
    "name": "mastodon.org.uk",
    "client_domain": "mastodon.org.uk",
-   "last_check": "2026-08-07T12:12:56.000Z",
+   "last_check": "2026-08-16T21:37:19.000Z",
    "registration": {
     "open": true
    },
@@ -6330,7 +6322,7 @@
   {
    "name": "mat.wastaken.xyz",
    "client_domain": "mat.wastaken.xyz",
-   "last_check": "2026-08-07T19:55:45.000Z",
+   "last_check": "2026-08-17T04:51:48.000Z",
    "registration": {
     "open": true
    },
@@ -6343,28 +6335,12 @@
    "client_domain": "matrix.0x09.de",
    "software": "Synapse",
    "version": "1.150.0",
-   "last_check": "2026-08-07T19:49:43.000Z",
+   "last_check": "2026-08-17T04:46:03.000Z",
    "registration": {
     "open": true
    },
    "sources": [
     "asra"
-   ]
-  },
-  {
-   "name": "matrix.3dns.eu",
-   "client_domain": "messenger.3dns.eu",
-   "software": "Synapse",
-   "version": "1.158.0rc1",
-   "last_check": "2026-08-13T17:04:28.000Z",
-   "registration": {
-    "open": true
-   },
-   "sources": [
-    "asra"
-   ],
-   "aliases": [
-    "3dns.eu"
    ]
   },
   {
@@ -6819,7 +6795,7 @@
    "client_domain": "matrix.bavaria-group.ru",
    "software": "Synapse",
    "version": "1.100.0",
-   "last_check": "2026-08-07T08:57:46.000Z",
+   "last_check": "2026-08-16T18:15:08.000Z",
    "registration": {
     "open": true
    },
@@ -6830,7 +6806,7 @@
   {
    "name": "matrix.bbronz.net",
    "client_domain": "matrix.bbronz.net",
-   "last_check": "2026-08-07T03:49:42.000Z",
+   "last_check": "2026-08-16T12:53:35.000Z",
    "registration": {
     "open": true
    },
@@ -6924,7 +6900,7 @@
    "client_domain": "matrix.bmops.org",
    "software": "Synapse",
    "version": "1.141.0",
-   "last_check": "2026-08-07T11:05:40.000Z",
+   "last_check": "2026-08-16T20:31:34.000Z",
    "registration": {
     "open": true
    },
@@ -7168,8 +7144,8 @@
    "name": "matrix.cheesesnakes.net",
    "client_domain": "matrix.cheesesnakes.net",
    "software": "Synapse",
-   "version": "1.156.0",
-   "last_check": "2026-08-07T01:23:14.000Z",
+   "version": "1.158.0",
+   "last_check": "2026-08-16T10:28:43.000Z",
    "registration": {
     "open": true
    },
@@ -7439,7 +7415,7 @@
    "client_domain": "matrix.dstwre.sh",
    "software": "Synapse",
    "version": "1.157.2",
-   "last_check": "2026-08-07T00:25:50.000Z",
+   "last_check": "2026-08-16T09:29:19.000Z",
    "registration": {
     "open": true
    },
@@ -7637,7 +7613,7 @@
   {
    "name": "matrix.eternitytech.fun",
    "client_domain": "matrix.eternitytech.fun",
-   "last_check": "2026-08-07T04:39:39.000Z",
+   "last_check": "2026-08-16T13:44:00.000Z",
    "registration": {
     "open": true
    },
@@ -7794,8 +7770,8 @@
    "name": "matrix.freejolitos.com",
    "client_domain": "matrix.freejolitos.com",
    "software": "Synapse",
-   "version": "1.152.0",
-   "last_check": "2026-08-07T18:40:49.000Z",
+   "version": "1.158.0",
+   "last_check": "2026-08-17T03:38:13.000Z",
    "registration": {
     "open": true
    },
@@ -7808,7 +7784,7 @@
    "client_domain": "matrix.fregram.com",
    "software": "Synapse",
    "version": "1.123.0",
-   "last_check": "2026-08-07T20:01:19.000Z",
+   "last_check": "2026-08-17T04:57:15.000Z",
    "registration": {
     "open": true
    },
@@ -7986,7 +7962,7 @@
    "client_domain": "matrix.hiabuto.net",
    "software": "Synapse",
    "version": "1.156.0",
-   "last_check": "2026-08-07T18:46:49.000Z",
+   "last_check": "2026-08-17T03:44:19.000Z",
    "registration": {
     "open": true
    },
@@ -8062,7 +8038,7 @@
    "client_domain": "matrix.inline.de",
    "software": "Synapse",
    "version": "1.124.0",
-   "last_check": "2026-08-07T00:22:33.000Z",
+   "last_check": "2026-08-16T09:26:22.000Z",
    "registration": {
     "open": true
    },
@@ -8245,7 +8221,7 @@
    "client_domain": "matrix.jq.mk",
    "software": "Synapse",
    "version": "1.152.0",
-   "last_check": "2026-08-06T21:10:38.000Z",
+   "last_check": "2026-08-16T06:11:09.000Z",
    "registration": {
     "open": true
    },
@@ -8514,7 +8490,7 @@
    "client_domain": "matrix.lolloandr.com",
    "software": "Synapse",
    "version": "1.147.1",
-   "last_check": "2026-08-07T11:04:43.000Z",
+   "last_check": "2026-08-16T20:30:37.000Z",
    "registration": {
     "open": true
    },
@@ -8842,7 +8818,7 @@
    "client_domain": "matrix.mxhdr.net",
    "software": "Synapse",
    "version": "1.158.0",
-   "last_check": "2026-08-07T10:14:27.000Z",
+   "last_check": "2026-08-16T19:37:45.000Z",
    "registration": {
     "open": true
    },
@@ -8885,6 +8861,22 @@
    },
    "sources": [
     "asra"
+   ]
+  },
+  {
+   "name": "matrix.myserver.cz",
+   "client_domain": "matrix.myserver.cz",
+   "software": "Synapse",
+   "version": "1.151.0",
+   "last_check": "2026-08-08T05:27:01.000Z",
+   "registration": {
+    "open": true
+   },
+   "sources": [
+    "asra"
+   ],
+   "aliases": [
+    "myserver.cz"
    ]
   },
   {
@@ -9032,6 +9024,22 @@
    },
    "sources": [
     "asra"
+   ]
+  },
+  {
+   "name": "matrix.nzcow.com",
+   "client_domain": "matrix.nzcow.com",
+   "software": "Synapse",
+   "version": "1.157.2",
+   "last_check": "2026-08-13T01:37:59.000Z",
+   "registration": {
+    "open": true
+   },
+   "sources": [
+    "asra"
+   ],
+   "aliases": [
+    "nzcow.com"
    ]
   },
   {
@@ -9194,7 +9202,7 @@
    "client_domain": "matrix.paul-lukashuber.de",
    "software": "Synapse",
    "version": "1.121.1",
-   "last_check": "2026-08-07T03:29:09.000Z",
+   "last_check": "2026-08-16T12:33:33.000Z",
    "registration": {
     "open": true
    },
@@ -9517,7 +9525,7 @@
    "client_domain": "matrix.reiners.io",
    "software": "Synapse",
    "version": "1.144.0",
-   "last_check": "2026-08-07T00:09:57.000Z",
+   "last_check": "2026-08-16T09:14:38.000Z",
    "registration": {
     "open": true
    },
@@ -9701,6 +9709,25 @@
    },
    "sources": [
     "asra"
+   ]
+  },
+  {
+   "name": "matrix.sibnsk.net",
+   "client_domain": "matrix.sibnsk.net",
+   "registration": {
+    "open": true,
+    "captcha": true,
+    "recaptcha": true,
+    "hcaptcha": false,
+    "email_required": false
+   },
+   "privacy": {
+    "tor_friendly": true,
+    "cloudflare": false,
+    "similarweb_rank": 8911689
+   },
+   "sources": [
+    "privacydev"
    ]
   },
   {
@@ -10025,7 +10052,7 @@
    "client_domain": "matrix.tjaardflix.de",
    "software": "Synapse",
    "version": "1.158.0",
-   "last_check": "2026-08-07T19:51:01.000Z",
+   "last_check": "2026-08-17T04:47:15.000Z",
    "registration": {
     "open": true
    },
@@ -10051,6 +10078,22 @@
    },
    "sources": [
     "privacydev"
+   ]
+  },
+  {
+   "name": "matrix.tomkoreny.com",
+   "client_domain": "matrix.tomkoreny.com",
+   "software": "Tuwunel",
+   "version": "1.8.3",
+   "last_check": "2026-08-08T15:07:45.000Z",
+   "registration": {
+    "open": true
+   },
+   "sources": [
+    "asra"
+   ],
+   "aliases": [
+    "tomkoreny.com"
    ]
   },
   {
@@ -10629,7 +10672,7 @@
    "client_domain": "chat.mechsploitation.org",
    "software": "Synapse",
    "version": "1.147.0",
-   "last_check": "2026-08-07T10:56:02.000Z",
+   "last_check": "2026-08-16T20:21:51.000Z",
    "registration": {
     "open": true
    },
@@ -10642,7 +10685,7 @@
    "client_domain": "meet.inboxsys.net",
    "software": "Synapse",
    "version": "1.158.0",
-   "last_check": "2026-08-07T02:24:48.000Z",
+   "last_check": "2026-08-16T11:29:50.000Z",
    "registration": {
     "open": true
    },
@@ -10916,7 +10959,7 @@
    "client_domain": "mtrx.beatsnet.com",
    "software": "Synapse",
    "version": "1.138.0",
-   "last_check": "2026-08-07T08:29:44.000Z",
+   "last_check": "2026-08-16T17:45:51.000Z",
    "registration": {
     "open": true
    },
@@ -11032,22 +11075,6 @@
    },
    "sources": [
     "asra"
-   ]
-  },
-  {
-   "name": "myserver.cz",
-   "client_domain": "matrix.myserver.cz",
-   "software": "Synapse",
-   "version": "1.151.0",
-   "last_check": "2026-08-14T21:47:50.000Z",
-   "registration": {
-    "open": true
-   },
-   "sources": [
-    "asra"
-   ],
-   "aliases": [
-    "matrix.myserver.cz"
    ]
   },
   {
@@ -11275,7 +11302,7 @@
    "client_domain": "nicahabla.com",
    "software": "Synapse",
    "version": "1.115.0",
-   "last_check": "2026-08-07T15:33:26.000Z",
+   "last_check": "2026-08-17T00:45:00.000Z",
    "registration": {
     "open": true
    },
@@ -11525,22 +11552,6 @@
    ]
   },
   {
-   "name": "nzcow.com",
-   "client_domain": "matrix.nzcow.com",
-   "software": "Synapse",
-   "version": "1.157.2",
-   "last_check": "2026-08-14T22:19:28.000Z",
-   "registration": {
-    "open": true
-   },
-   "sources": [
-    "asra"
-   ],
-   "aliases": [
-    "matrix.nzcow.com"
-   ]
-  },
-  {
    "name": "oblak.be",
    "client_domain": "matrix.oblak.be",
    "software": "Synapse",
@@ -11662,7 +11673,7 @@
   {
    "name": "open-lab.dev",
    "client_domain": "open-lab.dev",
-   "last_check": "2026-08-07T07:39:41.000Z",
+   "last_check": "2026-08-16T16:52:27.000Z",
    "registration": {
     "open": true
    },
@@ -11688,7 +11699,7 @@
    "client_domain": "opsflo.io",
    "software": "Synapse",
    "version": "1.157.1",
-   "last_check": "2026-08-07T10:18:20.000Z",
+   "last_check": "2026-08-16T19:41:53.000Z",
    "registration": {
     "open": true
    },
@@ -11723,7 +11734,7 @@
    "client_domain": "matrix.otepoti.dev",
    "software": "Synapse",
    "version": "1.72.0",
-   "last_check": "2026-08-07T15:33:47.000Z",
+   "last_check": "2026-08-17T00:45:22.000Z",
    "registration": {
     "open": true
    },
@@ -11734,7 +11745,7 @@
   {
    "name": "other.li",
    "client_domain": "other.li",
-   "last_check": "2026-08-07T17:24:16.000Z",
+   "last_check": "2026-08-17T02:26:29.000Z",
    "registration": {
     "open": true
    },
@@ -11968,7 +11979,7 @@
   {
    "name": "pixelfed.cz",
    "client_domain": "pixelfed.cz",
-   "last_check": "2026-08-07T08:58:39.000Z",
+   "last_check": "2026-08-16T18:16:01.000Z",
    "registration": {
     "open": true
    },
@@ -12186,7 +12197,7 @@
   },
   {
    "name": "private.coffee",
-   "client_domain": "private.coffee",
+   "client_domain": "matrix.private.coffee",
    "software": "Synapse",
    "version": "1.157.2",
    "registration": {
@@ -12209,7 +12220,7 @@
    },
    "ipv6": true,
    "sliding_sync": true,
-   "online_status": 0,
+   "online_status": 2,
    "ver_status": 2,
    "room_directory": -1,
    "sources": [
@@ -12388,7 +12399,7 @@
   {
    "name": "quarteredcircle.net",
    "client_domain": "quarteredcircle.net",
-   "last_check": "2026-08-15T04:13:57.000Z",
+   "last_check": "2026-08-12T23:26:11.000Z",
    "registration": {
     "open": true
    },
@@ -12467,7 +12478,7 @@
   {
    "name": "randomblend.com",
    "client_domain": "matrix.randomblend.com",
-   "last_check": "2026-08-07T03:47:34.000Z",
+   "last_check": "2026-08-16T12:51:18.000Z",
    "registration": {
     "open": true
    },
@@ -12491,7 +12502,7 @@
   {
    "name": "rayca.st",
    "client_domain": "rayca.st",
-   "last_check": "2026-08-07T04:39:50.000Z",
+   "last_check": "2026-08-16T13:44:12.000Z",
    "registration": {
     "open": true
    },
@@ -12578,7 +12589,7 @@
    "client_domain": "red.labor4.ch",
    "software": "Synapse",
    "version": "1.155.0",
-   "last_check": "2026-08-07T18:58:16.000Z",
+   "last_check": "2026-08-17T03:55:07.000Z",
    "registration": {
     "open": true
    },
@@ -12928,7 +12939,7 @@
   {
    "name": "saved.video",
    "client_domain": "saved.video",
-   "last_check": "2026-08-07T02:49:54.000Z",
+   "last_check": "2026-08-16T11:54:26.000Z",
    "registration": {
     "open": true
    },
@@ -13351,33 +13362,6 @@
    ]
   },
   {
-   "name": "sibnsk.net",
-   "client_domain": "matrix.sibnsk.net",
-   "registration": {
-    "open": true,
-    "captcha": true,
-    "recaptcha": true,
-    "hcaptcha": false,
-    "email_required": false
-   },
-   "privacy": {
-    "tor_friendly": true,
-    "cloudflare": false,
-    "similarweb_rank": 8911689
-   },
-   "sources": [
-    "privacydev"
-   ],
-   "aliases": [
-    "matrix.sibnsk.net"
-   ],
-   "link_evidence": {
-    "linked_to": "sibnsk.net",
-    "method": "well-known",
-    "detail": "https://sibnsk.net/.well-known/matrix/client → matrix.sibnsk.net"
-   }
-  },
-  {
    "name": "sigterm.uk",
    "client_domain": "sigterm.uk",
    "last_check": "2026-08-11T11:37:40.000Z",
@@ -13598,7 +13582,7 @@
   {
    "name": "solaris.distran.org",
    "client_domain": "solaris.distran.org",
-   "last_check": "2026-08-07T02:48:57.000Z",
+   "last_check": "2026-08-16T11:53:28.000Z",
    "registration": {
     "open": true
    },
@@ -13633,7 +13617,7 @@
   {
    "name": "soykaf.org",
    "client_domain": "soykaf.org",
-   "last_check": "2026-08-06T22:46:58.000Z",
+   "last_check": "2026-08-16T07:50:27.000Z",
    "registration": {
     "open": true
    },
@@ -13744,7 +13728,7 @@
    "client_domain": "matrix.straub-cosmetics.de",
    "software": "Synapse",
    "version": "1.112.0",
-   "last_check": "2026-08-07T02:49:55.000Z",
+   "last_check": "2026-08-16T11:54:27.000Z",
    "registration": {
     "open": true
    },
@@ -13766,7 +13750,7 @@
   {
    "name": "strootje.com",
    "client_domain": "strootje.com",
-   "last_check": "2026-08-07T01:44:14.000Z",
+   "last_check": "2026-08-16T10:51:00.000Z",
    "registration": {
     "open": true
    },
@@ -14003,7 +13987,7 @@
    "client_domain": "synapse.xytes.net",
    "software": "Synapse",
    "version": "1.150.0",
-   "last_check": "2026-08-07T06:48:26.000Z",
+   "last_check": "2026-08-16T16:00:41.000Z",
    "registration": {
     "open": true
    },
@@ -14329,7 +14313,7 @@
    "client_domain": "matrix.themossymouse.com",
    "software": "Synapse",
    "version": "1.153.0",
-   "last_check": "2026-08-07T04:14:47.000Z",
+   "last_check": "2026-08-16T13:18:38.000Z",
    "registration": {
     "open": true
    },
@@ -14389,7 +14373,7 @@
    "name": "thursdaycouncil.org",
    "client_domain": "continuwuity.thursdaycouncil.org",
    "software": "continuwuity",
-   "version": "26.8.0-alpha.1 (cefb2ed)",
+   "version": "26.8.0-alpha.1 (a148174)",
    "registration": {
     "open": false,
     "vanilla": false,
@@ -14463,22 +14447,6 @@
    ]
   },
   {
-   "name": "tomkoreny.com",
-   "client_domain": "matrix.tomkoreny.com",
-   "software": "Tuwunel",
-   "version": "1.8.3",
-   "last_check": "2026-08-14T19:31:53.000Z",
-   "registration": {
-    "open": true
-   },
-   "sources": [
-    "asra"
-   ],
-   "aliases": [
-    "matrix.tomkoreny.com"
-   ]
-  },
-  {
    "name": "tonibot.ddns.net",
    "client_domain": "tonibot.ddns.net",
    "software": "ejabberd/mod_matrix_gw",
@@ -14542,7 +14510,7 @@
   {
    "name": "transfem.social",
    "client_domain": "transfem.social",
-   "last_check": "2026-08-07T01:05:42.000Z",
+   "last_check": "2026-08-16T10:10:30.000Z",
    "registration": {
     "open": true
    },
@@ -14608,7 +14576,7 @@
   {
    "name": "trivernis.net",
    "client_domain": "trivernis.net",
-   "last_check": "2026-08-07T19:29:57.000Z",
+   "last_check": "2026-08-17T04:26:06.000Z",
    "registration": {
     "open": true
    },
@@ -14921,7 +14889,7 @@
   {
    "name": "vn-rtmessaging.rtcenter.org",
    "client_domain": "vn-rtmessaging.rtcenter.org",
-   "last_check": "2026-08-07T11:40:00.000Z",
+   "last_check": "2026-08-16T21:05:11.000Z",
    "registration": {
     "open": true
    },
@@ -14945,7 +14913,7 @@
   {
    "name": "w3.to",
    "client_domain": "matrix.w3.to",
-   "last_check": "2026-08-07T12:49:27.000Z",
+   "last_check": "2026-08-16T22:10:15.000Z",
    "registration": {
     "open": true
    },
