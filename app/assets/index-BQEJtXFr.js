@@ -1,4 +1,4 @@
-const __vite__mapDeps=(i,m=__vite__mapDeps,d=(m.f||(m.f=["assets/rust-crypto-gRj--5Y7.js","assets/core-_Ucixcrw.js","assets/dist-js-CdlOU3MH.js","assets/event-DZ_2zhRa.js","assets/dist-js-Cf_142iW.js","assets/dist-js-C1KiuPTJ.js","assets/dist-js-DW1NRSq6.js","assets/katex-DPICzPDf.css","assets/ReactPrism-BgIZEJhx.js","assets/ReactPrism-CLcyLdmD.css","assets/pdf-DRV-pPvh.js","assets/preload-helper-kNmmqUCw.js","assets/maplibre-gl-DSnsEFKn.css","assets/tray-hI5cGxnd.js","assets/menu-DgMrIHX3.js","assets/app-Co4S4zRq.js","assets/dist-js-Dk8uUWKd.js"])))=>i.map(i=>d[i]);
+const __vite__mapDeps=(i,m=__vite__mapDeps,d=(m.f||(m.f=["assets/rust-crypto-CRylCC4B.js","assets/core-_Ucixcrw.js","assets/dist-js-CdlOU3MH.js","assets/event-DZ_2zhRa.js","assets/dist-js-Cf_142iW.js","assets/dist-js-C1KiuPTJ.js","assets/dist-js-DW1NRSq6.js","assets/katex-DPICzPDf.css","assets/ReactPrism-D_fyEXqd.js","assets/ReactPrism-CLcyLdmD.css","assets/pdf-BfYLamtj.js","assets/preload-helper-kNmmqUCw.js","assets/maplibre-gl-DSnsEFKn.css","assets/tray-D3ka1uKj.js","assets/menu-DoJvY4V-.js","assets/app-CxU-oqry.js","assets/dist-js-Dk8uUWKd.js"])))=>i.map(i=>d[i]);
 import { d as e, f as t, i as n, m as r, n as i, o as a, p as o, r as s, u as c } from "./core-_Ucixcrw.js";
 import { t as l } from "./preload-helper-kNmmqUCw.js";
 import { a as u, n as d, o as f, r as p, t as m } from "./event-DZ_2zhRa.js";
@@ -25429,7 +25429,7 @@ In order to be iterable, non-array objects must have a [Symbol.iterator]() metho
         ɖ: ()=>`d̨`,
         ɗ: ()=>`d̔`,
         ə: ()=>`ǝ`,
-        ɚ: ()=>Sg,
+        ɚ: ()=>Dre,
         ɛ: ()=>`ꞓ`,
         ɠ: ()=>`g̔`,
         ɡ: ()=>`g`,
@@ -25728,16 +25728,16 @@ In order to be iterable, non-array objects must have a [Symbol.iterator]() metho
         ڒ: ()=>vy,
         ژ: ()=>hy,
         ڞ: ()=>Wb,
-        ڟ: ()=>Mre,
-        ڤ: ()=>Iie,
+        ڟ: ()=>jre,
+        ڤ: ()=>Fie,
         ڧ: ()=>`ف`,
-        ڨ: ()=>Vie,
+        ڨ: ()=>Bie,
         ک: ()=>`ك`,
         ڪ: ()=>`ك`,
-        ڭ: ()=>nae,
-        ڴ: ()=>kae,
-        ڵ: ()=>jae,
-        ڷ: ()=>Aae,
+        ڭ: ()=>tae,
+        ڴ: ()=>Oae,
+        ڵ: ()=>Aae,
+        ڷ: ()=>kae,
         ں: ()=>`ى`,
         ڻ: ()=>YS,
         ڽ: ()=>hC,
@@ -25762,7 +25762,7 @@ In order to be iterable, non-array objects must have a [Symbol.iterator]() metho
         ݑ: ()=>__,
         ݖ: ()=>yC,
         ݢ: ()=>`ڬ`,
-        ݣ: ()=>sae,
+        ݣ: ()=>oae,
         ݧ: ()=>`ݔ`,
         ݨ: ()=>Jx,
         ݩ: ()=>Yx,
@@ -25775,8 +25775,8 @@ In order to be iterable, non-array objects must have a [Symbol.iterator]() metho
         ߵ: ()=>`'`,
         ߺ: ()=>`_`,
         ࢡ: ()=>y_,
-        ࢤ: ()=>Hie,
-        ࢧ: ()=>foe,
+        ࢤ: ()=>Vie,
+        ࢧ: ()=>doe,
         ࢨ: ()=>CC,
         ࢩ: ()=>`ݔ`,
         ࢮ: ()=>ly,
@@ -26260,7 +26260,7 @@ In order to be iterable, non-array objects must have a [Symbol.iterator]() metho
         ᑾ: ()=>`·b`,
         ᑿ: ()=>`b·`,
         ᒀ: ()=>Rm,
-        ᒁ: ()=>Dre,
+        ᒁ: ()=>Sg,
         ᒅ: ()=>VE,
         ᒆ: ()=>`P'`,
         ᒇ: ()=>`d'`,
@@ -27589,10 +27589,10 @@ In order to be iterable, non-array objects must have a [Symbol.iterator]() metho
         ﭧ: ()=>qS,
         ﭨ: ()=>GS,
         ﭩ: ()=>KS,
-        ﭪ: ()=>Bie,
-        ﭫ: ()=>zie,
-        ﭬ: ()=>Lie,
-        ﭭ: ()=>Rie,
+        ﭪ: ()=>zie,
+        ﭫ: ()=>Rie,
+        ﭬ: ()=>Iie,
+        ﭭ: ()=>Lie,
         ﭮ: ()=>`ڦ`,
         ﭯ: ()=>`ڦ`,
         ﭰ: ()=>`ڦ`,
@@ -27661,10 +27661,10 @@ In order to be iterable, non-array objects must have a [Symbol.iterator]() metho
         ﮯ: ()=>`ى`,
         ﮰ: ()=>`ۓ`,
         ﮱ: ()=>`ۓ`,
-        ﯓ: ()=>oae,
-        ﯔ: ()=>aae,
-        ﯕ: ()=>rae,
-        ﯖ: ()=>iae,
+        ﯓ: ()=>aae,
+        ﯔ: ()=>iae,
+        ﯕ: ()=>nae,
+        ﯖ: ()=>rae,
         ﯗ: ()=>DS,
         ﯘ: ()=>ES,
         ﯙ: ()=>AS,
@@ -27744,38 +27744,38 @@ In order to be iterable, non-array objects must have a [Symbol.iterator]() metho
         ﰣ: ()=>hx,
         ﰤ: ()=>yx,
         ﰥ: ()=>Tx,
-        ﰦ: ()=>Pre,
-        ﰧ: ()=>Lre,
-        ﰨ: ()=>Jre,
-        ﰩ: ()=>Xre,
-        ﰪ: ()=>tie,
-        ﰫ: ()=>die,
-        ﰬ: ()=>pie,
-        ﰭ: ()=>Sie,
-        ﰮ: ()=>wie,
-        ﰯ: ()=>Eie,
-        ﰰ: ()=>Aie,
-        ﰱ: ()=>Nie,
-        ﰲ: ()=>Fie,
-        ﰳ: ()=>Wie,
-        ﰴ: ()=>qie,
-        ﰵ: ()=>$ie,
-        ﰶ: ()=>tae,
+        ﰦ: ()=>Nre,
+        ﰧ: ()=>Ire,
+        ﰨ: ()=>qre,
+        ﰩ: ()=>Yre,
+        ﰪ: ()=>eie,
+        ﰫ: ()=>uie,
+        ﰬ: ()=>fie,
+        ﰭ: ()=>xie,
+        ﰮ: ()=>Cie,
+        ﰯ: ()=>Tie,
+        ﰰ: ()=>kie,
+        ﰱ: ()=>Mie,
+        ﰲ: ()=>Pie,
+        ﰳ: ()=>Uie,
+        ﰴ: ()=>Kie,
+        ﰵ: ()=>Qie,
+        ﰶ: ()=>eae,
         ﰷ: ()=>`كl`,
-        ﰸ: ()=>lae,
-        ﰹ: ()=>dae,
-        ﰺ: ()=>pae,
-        ﰻ: ()=>_ae,
-        ﰼ: ()=>xae,
-        ﰽ: ()=>Eae,
-        ﰾ: ()=>Oae,
-        ﰿ: ()=>zae,
-        ﱀ: ()=>Kae,
-        ﱁ: ()=>Qae,
-        ﱂ: ()=>ioe,
-        ﱃ: ()=>loe,
-        ﱄ: ()=>doe,
-        ﱅ: ()=>Ex,
+        ﰸ: ()=>cae,
+        ﰹ: ()=>uae,
+        ﰺ: ()=>fae,
+        ﰻ: ()=>gae,
+        ﰼ: ()=>bae,
+        ﰽ: ()=>Tae,
+        ﰾ: ()=>Dae,
+        ﰿ: ()=>Rae,
+        ﱀ: ()=>Gae,
+        ﱁ: ()=>Zae,
+        ﱂ: ()=>roe,
+        ﱃ: ()=>coe,
+        ﱄ: ()=>uoe,
+        ﱅ: ()=>poe,
         ﱆ: ()=>Mx,
         ﱇ: ()=>Rx,
         ﱈ: ()=>Wx,
@@ -27830,18 +27830,18 @@ In order to be iterable, non-array objects must have a [Symbol.iterator]() metho
         ﱹ: ()=>Bw,
         ﱺ: ()=>Gw,
         ﱻ: ()=>qw,
-        ﱼ: ()=>Mie,
-        ﱽ: ()=>Pie,
-        ﱾ: ()=>Qie,
-        ﱿ: ()=>eae,
+        ﱼ: ()=>jie,
+        ﱽ: ()=>Nie,
+        ﱾ: ()=>Zie,
+        ﱿ: ()=>$ie,
         ﲀ: ()=>`كl`,
-        ﲁ: ()=>gae,
-        ﲂ: ()=>bae,
-        ﲃ: ()=>Tae,
-        ﲄ: ()=>Dae,
-        ﲅ: ()=>roe,
-        ﲆ: ()=>coe,
-        ﲇ: ()=>uoe,
+        ﲁ: ()=>hae,
+        ﲂ: ()=>yae,
+        ﲃ: ()=>wae,
+        ﲄ: ()=>Eae,
+        ﲅ: ()=>noe,
+        ﲆ: ()=>soe,
+        ﲇ: ()=>loe,
         ﲈ: ()=>`مl`,
         ﲉ: ()=>Ux,
         ﲊ: ()=>lS,
@@ -27890,29 +27890,29 @@ In order to be iterable, non-array objects must have a [Symbol.iterator]() metho
         ﲵ: ()=>mx,
         ﲶ: ()=>vx,
         ﲷ: ()=>wx,
-        ﲸ: ()=>Nre,
-        ﲹ: ()=>Kre,
-        ﲺ: ()=>Yre,
-        ﲻ: ()=>eie,
-        ﲼ: ()=>uie,
-        ﲽ: ()=>fie,
-        ﲾ: ()=>xie,
-        ﲿ: ()=>Cie,
-        ﳀ: ()=>Tie,
-        ﳁ: ()=>kie,
-        ﳂ: ()=>Uie,
-        ﳃ: ()=>Kie,
-        ﳄ: ()=>cae,
-        ﳅ: ()=>uae,
-        ﳆ: ()=>fae,
-        ﳇ: ()=>mae,
-        ﳈ: ()=>vae,
-        ﳉ: ()=>Rae,
-        ﳊ: ()=>Gae,
-        ﳋ: ()=>Zae,
-        ﳌ: ()=>toe,
+        ﲸ: ()=>Mre,
+        ﲹ: ()=>Gre,
+        ﲺ: ()=>Jre,
+        ﲻ: ()=>$re,
+        ﲼ: ()=>lie,
+        ﲽ: ()=>die,
+        ﲾ: ()=>bie,
+        ﲿ: ()=>Sie,
+        ﳀ: ()=>wie,
+        ﳁ: ()=>Oie,
+        ﳂ: ()=>Hie,
+        ﳃ: ()=>Gie,
+        ﳄ: ()=>sae,
+        ﳅ: ()=>lae,
+        ﳆ: ()=>dae,
+        ﳇ: ()=>pae,
+        ﳈ: ()=>_ae,
+        ﳉ: ()=>Lae,
+        ﳊ: ()=>Wae,
+        ﳋ: ()=>Xae,
+        ﳌ: ()=>eoe,
         ﳍ: ()=>`لo`,
-        ﳎ: ()=>poe,
+        ﳎ: ()=>foe,
         ﳏ: ()=>jx,
         ﳐ: ()=>Lx,
         ﳑ: ()=>Hx,
@@ -27941,9 +27941,9 @@ In order to be iterable, non-array objects must have a [Symbol.iterator]() metho
         ﳨ: ()=>`سo`,
         ﳩ: ()=>wb,
         ﳪ: ()=>zy,
-        ﳫ: ()=>hae,
-        ﳬ: ()=>yae,
-        ﳭ: ()=>noe,
+        ﳫ: ()=>mae,
+        ﳬ: ()=>vae,
+        ﳭ: ()=>toe,
         ﳮ: ()=>fS,
         ﳯ: ()=>`نo`,
         ﳰ: ()=>kw,
@@ -27951,12 +27951,12 @@ In order to be iterable, non-array objects must have a [Symbol.iterator]() metho
         ﳲ: ()=>Am,
         ﳳ: ()=>Mm,
         ﳴ: ()=>Pm,
-        ﳵ: ()=>Ure,
-        ﳶ: ()=>Gre,
-        ﳷ: ()=>sie,
-        ﳸ: ()=>lie,
-        ﳹ: ()=>vie,
-        ﳺ: ()=>bie,
+        ﳵ: ()=>Hre,
+        ﳶ: ()=>Wre,
+        ﳷ: ()=>oie,
+        ﳸ: ()=>cie,
+        ﳹ: ()=>_ie,
+        ﳺ: ()=>yie,
         ﳻ: ()=>Lb,
         ﳼ: ()=>zb,
         ﳽ: ()=>Vb,
@@ -27969,8 +27969,8 @@ In order to be iterable, non-array objects must have a [Symbol.iterator]() metho
         ﴄ: ()=>ty,
         ﴅ: ()=>lx,
         ﴆ: ()=>dx,
-        ﴇ: ()=>kre,
-        ﴈ: ()=>jre,
+        ﴇ: ()=>Ore,
+        ﴈ: ()=>Are,
         ﴉ: ()=>Ky,
         ﴊ: ()=>nb,
         ﴋ: ()=>pb,
@@ -27979,12 +27979,12 @@ In order to be iterable, non-array objects must have a [Symbol.iterator]() metho
         ﴎ: ()=>_b,
         ﴏ: ()=>$b,
         ﴐ: ()=>Cx,
-        ﴑ: ()=>Hre,
-        ﴒ: ()=>Wre,
-        ﴓ: ()=>oie,
-        ﴔ: ()=>cie,
-        ﴕ: ()=>_ie,
-        ﴖ: ()=>yie,
+        ﴑ: ()=>Vre,
+        ﴒ: ()=>Ure,
+        ﴓ: ()=>aie,
+        ﴔ: ()=>sie,
+        ﴕ: ()=>gie,
+        ﴖ: ()=>vie,
         ﴗ: ()=>Ib,
         ﴘ: ()=>Rb,
         ﴙ: ()=>Bb,
@@ -27997,8 +27997,8 @@ In order to be iterable, non-array objects must have a [Symbol.iterator]() metho
         ﴠ: ()=>ey,
         ﴡ: ()=>cx,
         ﴢ: ()=>ux,
-        ﴣ: ()=>Ore,
-        ﴤ: ()=>Are,
+        ﴣ: ()=>Ex,
+        ﴤ: ()=>kre,
         ﴥ: ()=>Gy,
         ﴦ: ()=>tb,
         ﴧ: ()=>fb,
@@ -28013,15 +28013,15 @@ In order to be iterable, non-array objects must have a [Symbol.iterator]() metho
         ﴰ: ()=>Cb,
         ﴱ: ()=>`سo`,
         ﴲ: ()=>Ry,
-        ﴳ: ()=>Fre,
+        ﴳ: ()=>Pre,
         ﴴ: ()=>Vy,
         ﴵ: ()=>Zy,
         ﴶ: ()=>cb,
         ﴷ: ()=>Wy,
         ﴸ: ()=>eb,
         ﴹ: ()=>db,
-        ﴺ: ()=>Ire,
-        ﴻ: ()=>qre,
+        ﴺ: ()=>Fre,
+        ﴻ: ()=>Kre,
         ﴼ: ()=>`l̋`,
         ﴽ: ()=>`l̋`,
         ﵐ: ()=>U_,
@@ -28057,30 +28057,30 @@ In order to be iterable, non-array objects must have a [Symbol.iterator]() metho
         ﵮ: ()=>gx,
         ﵯ: ()=>xx,
         ﵰ: ()=>bx,
-        ﵱ: ()=>zre,
-        ﵲ: ()=>Rre,
-        ﵳ: ()=>Bre,
-        ﵴ: ()=>Vre,
-        ﵵ: ()=>Qre,
-        ﵶ: ()=>rie,
-        ﵷ: ()=>nie,
-        ﵸ: ()=>iie,
-        ﵹ: ()=>mie,
-        ﵺ: ()=>gie,
-        ﵻ: ()=>hie,
-        ﵼ: ()=>Oie,
-        ﵽ: ()=>Die,
-        ﵾ: ()=>Yie,
-        ﵿ: ()=>Xie,
-        ﶀ: ()=>Jae,
-        ﶁ: ()=>Xae,
-        ﶂ: ()=>Yae,
-        ﶃ: ()=>Bae,
-        ﶄ: ()=>Vae,
-        ﶅ: ()=>eoe,
-        ﶆ: ()=>$ae,
-        ﶇ: ()=>ooe,
-        ﶈ: ()=>aoe,
+        ﵱ: ()=>Rre,
+        ﵲ: ()=>Lre,
+        ﵳ: ()=>zre,
+        ﵴ: ()=>Bre,
+        ﵵ: ()=>Zre,
+        ﵶ: ()=>nie,
+        ﵷ: ()=>tie,
+        ﵸ: ()=>rie,
+        ﵹ: ()=>pie,
+        ﵺ: ()=>hie,
+        ﵻ: ()=>mie,
+        ﵼ: ()=>Die,
+        ﵽ: ()=>Eie,
+        ﵾ: ()=>Jie,
+        ﵿ: ()=>Yie,
+        ﶀ: ()=>qae,
+        ﶁ: ()=>Yae,
+        ﶂ: ()=>Jae,
+        ﶃ: ()=>zae,
+        ﶄ: ()=>Bae,
+        ﶅ: ()=>$ae,
+        ﶆ: ()=>Qae,
+        ﶇ: ()=>aoe,
+        ﶈ: ()=>ioe,
         ﶉ: ()=>Nx,
         ﶊ: ()=>Px,
         ﶋ: ()=>Ix,
@@ -28114,42 +28114,42 @@ In order to be iterable, non-array objects must have a [Symbol.iterator]() metho
         ﶩ: ()=>Xb,
         ﶪ: ()=>ob,
         ﶫ: ()=>_x,
-        ﶬ: ()=>Wae,
-        ﶭ: ()=>soe,
+        ﶬ: ()=>Uae,
+        ﶭ: ()=>ooe,
         ﶮ: ()=>xw,
         ﶯ: ()=>vw,
         ﶰ: ()=>Rw,
         ﶱ: ()=>Gx,
-        ﶲ: ()=>Zie,
+        ﶲ: ()=>Xie,
         ﶳ: ()=>oS,
-        ﶴ: ()=>Jie,
-        ﶵ: ()=>qae,
-        ﶶ: ()=>aie,
-        ﶷ: ()=>wae,
+        ﶴ: ()=>qie,
+        ﶵ: ()=>Kae,
+        ﶶ: ()=>iie,
+        ﶷ: ()=>Cae,
         ﶸ: ()=>Xx,
         ﶹ: ()=>Vx,
-        ﶺ: ()=>Hae,
-        ﶻ: ()=>Cae,
-        ﶼ: ()=>Uae,
+        ﶺ: ()=>Vae,
+        ﶻ: ()=>Sae,
+        ﶼ: ()=>Hae,
         ﶽ: ()=>Zx,
         ﶾ: ()=>xv,
         ﶿ: ()=>Rv,
         ﷀ: ()=>Ax,
-        ﷁ: ()=>jie,
+        ﷁ: ()=>Aie,
         ﷂ: ()=>w_,
-        ﷃ: ()=>Sae,
-        ﷄ: ()=>Zre,
+        ﷃ: ()=>xae,
+        ﷄ: ()=>Xre,
         ﷅ: ()=>ox,
         ﷆ: ()=>hb,
         ﷇ: ()=>tS,
         ﷰ: ()=>nx,
-        ﷱ: ()=>Gie,
+        ﷱ: ()=>Wie,
         ﷲ: ()=>Ag,
         ﷳ: ()=>kg,
         ﷴ: ()=>Fx,
         ﷵ: ()=>ex,
         ﷶ: ()=>Cy,
-        ﷷ: ()=>$re,
+        ﷷ: ()=>Qre,
         ﷸ: ()=>US,
         ﷹ: ()=>tx,
         ﷺ: ()=>rx,
@@ -28271,12 +28271,12 @@ In order to be iterable, non-array objects must have a [Symbol.iterator]() metho
         ﻲ: ()=>`ى`,
         ﻳ: ()=>`ى`,
         ﻴ: ()=>`ى`,
-        ﻵ: ()=>Lae,
-        ﻶ: ()=>Iae,
-        ﻷ: ()=>Fae,
-        ﻸ: ()=>Pae,
-        ﻹ: ()=>Nae,
-        ﻺ: ()=>Mae,
+        ﻵ: ()=>Iae,
+        ﻶ: ()=>Fae,
+        ﻷ: ()=>Pae,
+        ﻸ: ()=>Nae,
+        ﻹ: ()=>Mae,
+        ﻺ: ()=>jae,
         ﻻ: ()=>`لl`,
         ﻼ: ()=>`لl`,
         Ａ: ()=>`A`,
@@ -30115,8 +30115,8 @@ In order to be iterable, non-array objects must have a [Symbol.iterator]() metho
         鼖: ()=>`鼖`,
         鼻: ()=>`鼻`,
         𪘀: ()=>DI
-    }), Om, km, Am, jm, Mm, Nm, Pm, Fm, Im, Lm, Rm, zm, Bm, Vm, Hm, Um, Wm, Gm, Km, qm, Jm, Ym, Xm, Zm, Qm, $m, eh, th, nh, rh, ih, ah, oh, sh, ch, lh, uh, dh, fh, ph, mh, hh, gh, _h, vh, yh, bh, xh, Sh, Ch, wh, Th, Eh, Dh, Oh, kh, Ah, jh, Mh, Nh, Ph, Fh, Ih, Lh, Rh, zh, Bh, Vh, Hh, Uh, Wh, Gh, Kh, qh, Jh, Yh, Xh, Zh, Qh, $h, eg, tg, ng, rg, ig, ag, og, sg, cg, lg, ug, dg, fg, pg, mg, hg, gg, _g, vg, yg, bg, xg, Dre, Sg, Cg, wg, Tg, Eg, Dg, Og, kg, Ag, jg, Mg, Ng, Pg, Fg, Ig, Lg, Rg, zg, Bg, Vg, Hg, Ug, Wg, Gg, Kg, qg, Jg, Yg, Xg, Zg, Qg, $g, e_, t_, n_, r_, i_, a_, o_, s_, c_, l_, u_, d_, f_, p_, m_, h_, g_, __, v_, y_, b_, x_, S_, C_, w_, T_, E_, D_, O_, k_, A_, j_, M_, N_, P_, F_, I_, L_, R_, z_, B_, V_, H_, U_, W_, G_, K_, q_, J_, Y_, X_, Z_, Q_, $_, ev, tv, nv, rv, iv, av, ov, sv, cv, lv, uv, dv, fv, pv, mv, hv, gv, _v, vv, yv, bv, xv, Sv, Cv, wv, Tv, Ev, Dv, Ov, kv, Av, jv, Mv, Nv, Pv, Fv, Iv, Lv, Rv, zv, Bv, Vv, Hv, Uv, Wv, Gv, Kv, qv, Jv, Yv, Xv, Zv, Qv, $v, ey, ty, ny, ry, iy, ay, oy, sy, cy, ly, uy, dy, fy, py, my, hy, gy, _y, vy, yy, by, xy, Sy, Cy, wy, Ty, Ey, Dy, Oy, ky, Ay, jy, My, Ny, Py, Fy, Iy, Ly, Ry, zy, By, Vy, Hy, Uy, Wy, Gy, Ky, qy, Jy, Yy, Xy, Zy, Qy, $y, eb, tb, nb, rb, ib, ab, ob, sb, cb, lb, ub, db, fb, pb, mb, hb, gb, _b, vb, yb, bb, xb, Sb, Cb, wb, Tb, Eb, Db, Ob, kb, Ab, jb, Mb, Nb, Pb, Fb, Ib, Lb, Rb, zb, Bb, Vb, Hb, Ub, Wb, Gb, Kb, qb, Jb, Yb, Xb, Zb, Qb, $b, ex, tx, nx, rx, ix, ax, ox, sx, cx, lx, ux, dx, fx, px, mx, hx, gx, _x, vx, yx, bx, xx, Sx, Cx, wx, Tx, Ore, kre, Are, jre, Mre, Nre, Pre, Fre, Ire, Lre, Rre, zre, Bre, Vre, Hre, Ure, Wre, Gre, Kre, qre, Jre, Yre, Xre, Zre, Qre, $re, eie, tie, nie, rie, iie, aie, oie, sie, cie, lie, uie, die, fie, pie, mie, hie, gie, _ie, vie, yie, bie, xie, Sie, Cie, wie, Tie, Eie, Die, Oie, kie, Aie, jie, Mie, Nie, Pie, Fie, Iie, Lie, Rie, zie, Bie, Vie, Hie, Uie, Wie, Gie, Kie, qie, Jie, Yie, Xie, Zie, Qie, $ie, eae, tae, nae, rae, iae, aae, oae, sae, cae, lae, uae, dae, fae, pae, mae, hae, gae, _ae, vae, yae, bae, xae, Sae, Cae, wae, Tae, Eae, Dae, Oae, kae, Aae, jae, Mae, Nae, Pae, Fae, Iae, Lae, Rae, zae, Bae, Vae, Hae, Uae, Wae, Gae, Kae, qae, Jae, Yae, Xae, Zae, Qae, $ae, eoe, toe, noe, roe, ioe, aoe, ooe, soe, coe, loe, uoe, doe, foe, poe, Ex, Dx, Ox, kx, Ax, jx, Mx, Nx, Px, Fx, Ix, Lx, Rx, zx, Bx, Vx, Hx, Ux, Wx, Gx, Kx, qx, Jx, Yx, Xx, Zx, Qx, $x, eS, tS, nS, rS, iS, aS, oS, sS, cS, lS, uS, dS, fS, pS, mS, hS, gS, _S, vS, yS, bS, xS, SS, CS, wS, TS, ES, DS, OS, kS, AS, jS, MS, NS, PS, FS, IS, LS, RS, zS, BS, VS, HS, US, WS, GS, KS, qS, JS, YS, XS, ZS, QS, $S, eC, tC, nC, rC, iC, aC, oC, sC, cC, lC, uC, dC, fC, pC, mC, hC, gC, _C, vC, yC, bC, xC, SC, CC, wC, TC, EC, DC, OC, kC, AC, jC, MC, NC, PC, FC, IC, LC, RC, zC, BC, VC, HC, UC, WC, GC, KC, qC, JC, YC, XC, ZC, QC, $C, ew, tw, nw, rw, iw, aw, ow, sw, cw, lw, uw, dw, fw, pw, mw, hw, gw, _w, vw, yw, bw, xw, Sw, Cw, ww, Tw, Ew, Dw, Ow, kw, Aw, jw, Mw, Nw, Pw, Fw, Iw, Lw, Rw, zw, Bw, Vw, Hw, Uw, Ww, Gw, Kw, qw, Jw, Yw, Xw, Zw, Qw, $w, eT, tT, nT, rT, iT, aT, oT, sT, cT, lT, uT, dT, fT, pT, mT, hT, gT, _T, vT, yT, bT, xT, ST, CT, wT, TT, ET, DT, OT, kT, AT, jT, MT, NT, PT, FT, IT, LT, RT, zT, BT, VT, HT, UT, WT, GT, KT, qT, JT, YT, XT, ZT, QT, $T, eE, tE, nE, rE, iE, aE, oE, sE, cE, lE, uE, dE, fE, pE, mE, hE, gE, _E, vE, yE, bE, xE, SE, CE, wE, TE, EE, DE, OE, kE, AE, jE, ME, NE, PE, FE, IE, LE, RE, zE, BE, VE, HE, UE, WE, GE, KE, qE, JE, YE, XE, ZE, QE, $E, eD, tD, nD, rD, iD, aD, oD, sD, cD, lD, uD, dD, fD, pD, mD, hD, gD, _D, vD, yD, bD, xD, SD, CD, wD, TD, ED, DD, OD, kD, AD, jD, MD, ND, PD, FD, ID, LD, RD, zD, BD, VD, HD, UD, WD, GD, moe, hoe, goe, _oe, voe, yoe, boe, xoe, Soe, Coe, woe, Toe, Eoe, Doe, Ooe, koe, Aoe, joe, Moe, Noe, Poe, Foe, Ioe, Loe, Roe, zoe, Boe, Voe, Hoe, Uoe, Woe, Goe, Koe, qoe, Joe, Yoe, Xoe, Zoe, Qoe, $oe, ese, tse, nse, rse, ise, ase, ose, sse, cse, lse, use, dse, fse, pse, mse, hse, gse, _se, vse, KD, qD, JD, YD, XD, ZD, QD, $D, eO, tO, nO, rO, iO, aO, oO, sO, cO, lO, uO, dO, fO, pO, mO, hO, gO, _O, vO, yO, bO, xO, SO, CO, wO, TO, EO, DO, OO, kO, AO, jO, MO, NO, PO, FO, IO, LO, RO, zO, BO, VO, HO, UO, WO, GO, KO, qO, JO, YO, XO, ZO, QO, $O, ek, tk, nk, rk, ik, ak, ok, sk, ck, lk, uk, dk, fk, pk, mk, hk, gk, _k, vk, yk, bk, xk, Sk, Ck, wk, Tk, Ek, Dk, Ok, kk, Ak, jk, Mk, Nk, Pk, Fk, Ik, Lk, Rk, zk, Bk, Vk, Hk, Uk, Wk, Gk, Kk, qk, Jk, Yk, Xk, Zk, Qk, $k, eA, tA, nA, rA, iA, aA, oA, sA, cA, lA, uA, dA, fA, pA, mA, hA, gA, _A, vA, yA, bA, xA, SA, CA, wA, TA, EA, DA, OA, kA, AA, jA, MA, NA, PA, FA, IA, LA, RA, zA, BA, VA, HA, UA, WA, GA, KA, qA, JA, YA, XA, ZA, QA, $A, ej, tj, nj, rj, ij, aj, oj, sj, cj, lj, uj, dj, fj, pj, mj, hj, gj, _j, vj, yj, bj, xj, Sj, Cj, wj, Tj, Ej, Dj, Oj, kj, Aj, jj, Mj, Nj, Pj, Fj, Ij, Lj, Rj, zj, Bj, Vj, Hj, Uj, Wj, Gj, Kj, qj, Jj, Yj, Xj, Zj, Qj, $j, eM, tM, nM, rM, iM, aM, oM, sM, cM, lM, uM, dM, fM, pM, mM, hM, gM, _M, vM, yM, bM, xM, SM, CM, wM, TM, EM, DM, OM, kM, AM, jM, MM, NM, PM, FM, IM, LM, RM, zM, BM, VM, HM, UM, WM, GM, KM, qM, JM, YM, XM, ZM, QM, $M, eN, tN, nN, rN, iN, aN, oN, sN, cN, lN, uN, dN, fN, pN, mN, hN, gN, _N, vN, yN, bN, xN, SN, CN, wN, TN, EN, DN, ON, kN, AN, jN, MN, NN, PN, FN, IN, LN, RN, zN, BN, VN, HN, UN, WN, GN, KN, qN, JN, YN, XN, ZN, QN, $N, eP, tP, nP, rP, iP, aP, oP, sP, cP, lP, uP, dP, fP, pP, mP, hP, gP, _P, vP, yP, bP, xP, SP, CP, wP, TP, EP, DP, OP, kP, AP, jP, MP, NP, PP, FP, IP, LP, RP, zP, BP, VP, HP, UP, WP, GP, KP, qP, JP, YP, XP, ZP, QP, $P, eF, tF, nF, rF, iF, aF, oF, sF, cF, lF, uF, dF, fF, pF, mF, hF, gF, _F, vF, yF, bF, xF, SF, CF, wF, TF, EF, DF, OF, kF, AF, jF, MF, NF, PF, FF, IF, LF, RF, zF, BF, VF, HF, UF, WF, GF, KF, qF, JF, YF, XF, ZF, QF, $F, eI, tI, nI, rI, iI, aI, oI, sI, cI, lI, uI, dI, fI, pI, mI, hI, gI, _I, vI, yI, bI, xI, SI, CI, wI, TI, EI, DI, yse, bse = e((()=>{
-        Om = `ﹲّ`, km = `ﹴّ`, Am = `ﹷّ`, jm = `ﹶّ`, Mm = `ﹹّ`, Nm = `ﹸّ`, Pm = `ﹻّ`, Fm = `ﹺّ`, Im = `ﹼٰ`, Lm = `···`, Rm = `·ḃ`, zm = `·Ʌ`, Bm = `·Γ`, Vm = `·Δ`, Hm = `·Ո`, Um = `·ᐁ`, Wm = `·ᐄ`, Gm = `·ᐅ`, Km = `·ᐆ`, qm = `·ᐊ`, Jm = `·ᐋ`, Ym = `·ᐲ`, Xm = `·ᐴ`, Zm = `·ᐹ`, Qm = `·ᑏ`, $m = `·ᑐ`, eh = `·ᑐ`, th = `·ᑑ`, nh = `·ᑕ`, rh = `·ᑖ`, ih = `·ᑫ`, ah = `·ᑮ`, oh = `·ᑰ`, sh = `·ᒉ`, ch = `·ᒋ`, lh = `·ᒌ`, uh = `·ᒎ`, dh = `·ᒐ`, fh = `·ᒑ`, ph = `·ᒣ`, mh = `·ᒦ`, hh = `·ᒧ`, gh = `·ᒨ`, _h = `·ᒫ`, vh = `·ᓀ`, yh = `·ᓂ`, bh = `·ᓃ`, xh = `·ᓄ`, Sh = `·ᓅ`, Ch = `·ᓇ`, wh = `·ᓈ`, Th = `·ᓓ`, Eh = `·ᓕ`, Dh = `·ᓖ`, Oh = `·ᓗ`, kh = `·ᓘ`, Ah = `·ᓚ`, jh = `·ᓛ`, Mh = `·ᓭ`, Nh = `·ᓯ`, Ph = `·ᓰ`, Fh = `·ᓱ`, Ih = `·ᓲ`, Lh = `·ᓴ`, Rh = `·ᓵ`, zh = `·ᔐ`, Bh = `·ᔑ`, Vh = `·ᔒ`, Hh = `·ᔓ`, Uh = `·ᔔ`, Wh = `·ᔕ`, Gh = `·ᔖ`, Kh = `·ᔨ`, qh = `·ᔩ`, Jh = `·ᔪ`, Yh = `·ᔫ`, Xh = `·ᔭ`, Zh = `·ᔮ`, Qh = `·ᕃ`, $h = `·ᕆ`, eg = `·ᕇ`, tg = `·ᕈ`, ng = `·ᕉ`, rg = `·ᕋ`, ig = `·ᕌ`, ag = `·ᕚ`, og = `·ᕧ`, sg = `·ᢱ`, cg = `·ᢴ`, lg = `·ᢸ`, ug = `·ᣀ`, dg = `ˉbi`, fg = `∂̵`, pg = `ーー`, mg = `ーᅡ`, hg = `ーᅥ`, gg = `ーᅥ丨`, _g = `ーᅩ`, vg = `ーᅮ`, yg = `ー丨`, bg = `ー丨`, xg = `ー丨ᅮ`, Dre = `ḃ·`, Sg = `ǝ˞`, Cg = `ǝo̸`, wg = `ǝo̵`, Tg = `ɜ̦`, Eg = `ʜ̩`, Dg = `ʜ̦`, Og = `ʜ̦`, kg = `lكبر`, Ag = `lللّٰo`, jg = `Ó̸`, Mg = `oᴇ`, Ng = `oمج`, Pg = `oمم`, Fg = `oരo`, Ig = `oာ`, Lg = `ɔ̸`, Rg = `ĸ̩`, zg = `ĸ̵`, Bg = `rn̦`, Vg = `rn̴`, Hg = `ɾ̴`, Ug = `ᴛ̩`, Wg = `ʊ̵`, Gg = `viii`, Kg = `Vlll`, qg = `Ʌ̦`, Jg = `Ʌ·`, Yg = `w҆҇`, Xg = `ʍ̦`, Zg = `Γ̵`, Qg = `Γ·`, $g = `Δ·`, e_ = `Δᐠ`, t_ = `ж̩`, n_ = `Ж̩`, r_ = `Ѝ̦`, i_ = `й̦`, a_ = `л̦`, o_ = `Ѡ҆҇`, s_ = `Ѡ·`, c_ = `Ҽ̨`, l_ = `եւ`, u_ = `մե`, d_ = `մի`, f_ = `մխ`, p_ = `մն`, m_ = `Ո·`, h_ = `վն`, g_ = `אל`, __ = `بۛ`, v_ = `بۢ`, y_ = `بٔ`, b_ = `بج`, x_ = `بج`, S_ = `بح`, C_ = `بح`, w_ = `بحى`, T_ = `بخ`, E_ = `بخ`, D_ = `بخ`, O_ = `بخ`, k_ = `بخى`, A_ = `بر`, j_ = `بز`, M_ = `بم`, N_ = `بم`, P_ = `بم`, F_ = `بم`, I_ = `بن`, L_ = `بى`, R_ = `بى`, z_ = `بى`, B_ = `بى`, V_ = `تج`, H_ = `تج`, U_ = `تجم`, W_ = `تجى`, G_ = `تجى`, K_ = `تح`, q_ = `تح`, J_ = `تحج`, Y_ = `تحج`, X_ = `تحم`, Z_ = `تخ`, Q_ = `تخ`, $_ = `تخم`, ev = `تخى`, tv = `تخى`, nv = `تر`, rv = `تز`, iv = `تم`, av = `تم`, ov = `تم`, sv = `تم`, cv = `تمج`, lv = `تمح`, uv = `تمخ`, dv = `تمى`, fv = `تمى`, pv = `تن`, mv = `تى`, hv = `تى`, gv = `تى`, _v = `تى`, vv = `جح`, yv = `جح`, bv = `جحى`, xv = `جحى`, Sv = `جل جلlلo`, Cv = `جم`, wv = `جم`, Tv = `جمح`, Ev = `جمح`, Dv = `جمى`, Ov = `جمى`, kv = `جى`, Av = `جى`, jv = `جى`, Mv = `جى`, Nv = `حۛ`, Pv = `حٔ`, Fv = `حٔ`, Iv = `حج`, Lv = `حج`, Rv = `حجى`, zv = `حم`, Bv = `حم`, Vv = `حمى`, Hv = `حمى`, Uv = `حى`, Wv = `حى`, Gv = `حى`, Kv = `حى`, qv = `خج`, Jv = `خج`, Yv = `خح`, Xv = `خم`, Zv = `خم`, Qv = `خى`, $v = `خى`, ey = `خى`, ty = `خى`, ny = `دؕ`, ry = `دؕ`, iy = `دؕ`, ay = `دۛ`, oy = `دۛ`, sy = `دۛ`, cy = `د̂`, ly = `د̤̣`, uy = `ذٰ`, dy = `ڊؕ`, fy = `رؕ`, py = `رؕ`, my = `رؕ`, hy = `رۛ`, gy = `رۛ`, _y = `رۛ`, vy = `ر̆`, yy = `ر̆̇`, by = `ر̂`, xy = `رٔ`, Sy = `رٰ`, Cy = `رسول`, wy = `ز̂`, Ty = `ڗؕ`, Ey = `سۛ`, Dy = `سۛ`, Oy = `سۛ`, ky = `سۛ`, Ay = `سۛ`, jy = `سۛ`, My = `سۛ`, Ny = `سۛ`, Py = `سۛ`, Fy = `سۛ`, Iy = `سۛ`, Ly = `س̂`, Ry = `سۛo`, zy = `سۛo`, By = `سج`, Vy = `سج`, Hy = `سج`, Uy = `سۛج`, Wy = `سۛج`, Gy = `سۛج`, Ky = `سۛج`, qy = `سجح`, Jy = `سجى`, Yy = `سۛجى`, Xy = `سح`, Zy = `سح`, Qy = `سح`, $y = `سۛح`, eb = `سۛح`, tb = `سۛح`, nb = `سۛح`, rb = `سحج`, ib = `سۛحم`, ab = `سۛحم`, ob = `سۛحى`, sb = `سخ`, cb = `سخ`, lb = `سخ`, ub = `سۛخ`, db = `سۛخ`, fb = `سۛخ`, pb = `سۛخ`, mb = `سخى`, hb = `سخى`, gb = `سر`, _b = `سر`, vb = `سۛر`, yb = `سۛر`, bb = `سم`, xb = `سم`, Sb = `سم`, Cb = `سۛم`, wb = `سۛم`, Tb = `سۛم`, Eb = `سۛم`, Db = `سمج`, Ob = `سمح`, kb = `سمح`, Ab = `سۛمخ`, jb = `سۛمخ`, Mb = `سمم`, Nb = `سمم`, Pb = `سۛمم`, Fb = `سۛمم`, Ib = `سى`, Lb = `سى`, Rb = `سى`, zb = `سى`, Bb = `سۛى`, Vb = `سۛى`, Hb = `سۛى`, Ub = `سۛى`, Wb = `صۛ`, Gb = `ص̤̣`, Kb = `صح`, qb = `صح`, Jb = `صحح`, Yb = `صحح`, Xb = `صحى`, Zb = `صخ`, Qb = `صر`, $b = `صر`, ex = `صلعم`, tx = `صلى`, nx = `صلى`, rx = `صلى lللo علىo وسلم`, ix = `صم`, ax = `صم`, ox = `صمم`, sx = `صمم`, cx = `صى`, lx = `صى`, ux = `صى`, dx = `صى`, fx = `ضج`, px = `ضج`, mx = `ضح`, hx = `ضح`, gx = `ضحى`, _x = `ضحى`, vx = `ضخ`, yx = `ضخ`, bx = `ضخم`, xx = `ضخم`, Sx = `ضر`, Cx = `ضر`, wx = `ضم`, Tx = `ضم`, Ore = `ضى`, kre = `ضى`, Are = `ضى`, jre = `ضى`, Mre = `طۛ`, Nre = `طح`, Pre = `طح`, Fre = `طم`, Ire = `طم`, Lre = `طم`, Rre = `طمح`, zre = `طمح`, Bre = `طمم`, Vre = `طمى`, Hre = `طى`, Ure = `طى`, Wre = `طى`, Gre = `طى`, Kre = `ظم`, qre = `ظم`, Jre = `ظم`, Yre = `عج`, Xre = `عج`, Zre = `عجم`, Qre = `عجم`, $re = `علىo`, eie = `عم`, tie = `عم`, nie = `عمم`, rie = `عمم`, iie = `عمى`, aie = `عمى`, oie = `عى`, sie = `عى`, cie = `عى`, lie = `عى`, uie = `غج`, die = `غج`, fie = `غم`, pie = `غم`, mie = `غمم`, hie = `غمى`, gie = `غمى`, _ie = `غى`, vie = `غى`, yie = `غى`, bie = `غى`, xie = `فج`, Sie = `فج`, Cie = `فح`, wie = `فح`, Tie = `فخ`, Eie = `فخ`, Die = `فخم`, Oie = `فخم`, kie = `فم`, Aie = `فم`, jie = `فمى`, Mie = `فى`, Nie = `فى`, Pie = `فى`, Fie = `فى`, Iie = `ڡۛ`, Lie = `ڡۛ`, Rie = `ڡۛ`, zie = `ڡۛ`, Bie = `ڡۛ`, Vie = `ڡۛ`, Hie = `ڢۛ`, Uie = `قح`, Wie = `قح`, Gie = `قلى`, Kie = `قم`, qie = `قم`, Jie = `قمح`, Yie = `قمح`, Xie = `قمم`, Zie = `قمى`, Qie = `قى`, $ie = `قى`, eae = `قى`, tae = `قى`, nae = `كۛ`, rae = `كۛ`, iae = `كۛ`, aae = `كۛ`, oae = `كۛ`, sae = `كۛ`, cae = `كج`, lae = `كج`, uae = `كح`, dae = `كح`, fae = `كخ`, pae = `كخ`, mae = `كل`, hae = `كل`, gae = `كل`, _ae = `كل`, vae = `كم`, yae = `كم`, bae = `كم`, xae = `كم`, Sae = `كمم`, Cae = `كمم`, wae = `كمى`, Tae = `كى`, Eae = `كى`, Dae = `كى`, Oae = `كى`, kae = `گۛ`, Aae = `لۛ`, jae = `ل̆`, Mae = `لlٕ`, Nae = `لlٕ`, Pae = `لlٴ`, Fae = `لlٴ`, Iae = `لآ`, Lae = `لآ`, Rae = `لج`, zae = `لج`, Bae = `لجج`, Vae = `لجج`, Hae = `لجم`, Uae = `لجم`, Wae = `لجى`, Gae = `لح`, Kae = `لح`, qae = `لحم`, Jae = `لحم`, Yae = `لحى`, Xae = `لحى`, Zae = `لخ`, Qae = `لخ`, $ae = `لخم`, eoe = `لخم`, toe = `لم`, noe = `لم`, roe = `لم`, ioe = `لم`, aoe = `لمح`, ooe = `لمح`, soe = `لمى`, coe = `لى`, loe = `لى`, uoe = `لى`, doe = `لى`, foe = `مۛ`, poe = `مج`, Ex = `مج`, Dx = `مجح`, Ox = `مجخ`, kx = `مجم`, Ax = `مجى`, jx = `مح`, Mx = `مح`, Nx = `محج`, Px = `محم`, Fx = `محمد`, Ix = `محى`, Lx = `مخ`, Rx = `مخ`, zx = `مخج`, Bx = `مخم`, Vx = `مخى`, Hx = `مم`, Ux = `مم`, Wx = `مم`, Gx = `ممى`, Kx = `مى`, qx = `مى`, Jx = `نؕ`, Yx = `ن̆`, Xx = `نجح`, Zx = `نجح`, Qx = `نجم`, $x = `نجم`, eS = `نجى`, tS = `نجى`, nS = `نح`, rS = `نح`, iS = `نحم`, aS = `نحى`, oS = `نحى`, sS = `نخ`, cS = `نخ`, lS = `نر`, uS = `نز`, dS = `نم`, fS = `نم`, pS = `نم`, mS = `نم`, hS = `نمى`, gS = `نمى`, _S = `نن`, vS = `نى`, yS = `نى`, bS = `نى`, xS = `نى`, SS = `وۛ`, CS = `وۛ`, wS = `وۛ`, TS = `و̓`, ES = `و̓`, DS = `و̓`, OS = `و̆`, kS = `و̆`, AS = `و̆`, jS = `و̂`, MS = `و̂`, NS = `و̂`, PS = `وٰ`, FS = `وٰ`, IS = `وٰ`, LS = `وٴ`, RS = `وٴ`, zS = `وٴ`, BS = `وٴ`, VS = `و̓ٴ`, HS = `و̓ٴ`, US = `وسلم`, WS = `ىؕ`, GS = `ىؕ`, KS = `ىؕ`, qS = `ىؕ`, JS = `ىؕ`, YS = `ىؕ`, XS = `ىؕ`, ZS = `ىؕ`, QS = `ىؕ`, $S = `ىؕ`, eC = `ىۛ`, tC = `ىۛ`, nC = `ىۛ`, rC = `ىۛ`, iC = `ىۛ`, aC = `ىۛ`, oC = `ىۛ`, sC = `ىۛ`, cC = `ىۛ`, lC = `ىۛ`, uC = `ىۛ`, dC = `ىۛ`, fC = `ىۛ`, pC = `ىۛ`, mC = `ىۛ`, hC = `ىۛ`, gC = `ىۛ`, _C = `ىۛ`, vC = `ىۛۢ`, yC = `ى̆`, bC = `ى̆`, xC = `ى̆̇`, SC = `ى̂`, CC = `ىٔ`, wC = `ىٰ`, TC = `ىٰ`, EC = `ىۛo`, DC = `ىٴ`, OC = `ىٴ`, kC = `ىٴ`, AC = `ىٴ`, jC = `ىٴ`, MC = `ىٴ`, NC = `ىٴl`, PC = `ىٴl`, FC = `ىٴo`, IC = `ىٴo`, LC = `ىٴo`, RC = `ىٴo`, zC = `ىٴٻ`, BC = `ىٴٻ`, VC = `ىٴٻ`, HC = `ىٴج`, UC = `ىٴج`, WC = `ىٴح`, GC = `ىٴح`, KC = `ىٴخ`, qC = `ىٴر`, JC = `ىٴز`, YC = `ىٴم`, XC = `ىٴم`, ZC = `ىٴم`, QC = `ىٴم`, $C = `ىٴن`, ew = `ىٴو`, tw = `ىٴو`, nw = `ىٴو̓`, rw = `ىٴو̓`, iw = `ىٴو̆`, aw = `ىٴو̆`, ow = `ىٴوٰ`, sw = `ىٴوٰ`, cw = `ىٴى`, lw = `ىٴى`, uw = `ىٴى`, dw = `ىٴى`, fw = `ىٴى`, pw = `ىٴى`, mw = `ىٴى`, hw = `ىج`, gw = `ىج`, _w = `ىۛج`, vw = `ىجى`, yw = `ىح`, bw = `ىح`, xw = `ىحى`, Sw = `ىخ`, Cw = `ىخ`, ww = `ىر`, Tw = `ىۛر`, Ew = `ىز`, Dw = `ىۛز`, Ow = `ىم`, kw = `ىم`, Aw = `ىم`, jw = `ىم`, Mw = `ىۛم`, Nw = `ىۛم`, Pw = `ىۛم`, Fw = `ىۛم`, Iw = `ىمم`, Lw = `ىمم`, Rw = `ىمى`, zw = `ىن`, Bw = `ىۛن`, Vw = `ىى`, Hw = `ىى`, Uw = `ىى`, Ww = `ىى`, Gw = `ىۛى`, Kw = `ىۛى`, qw = `ىۛى`, Jw = `ىۛى`, Yw = `अा`, Xw = `अाॆ`, Zw = `अाे`, Qw = `अाै`, $w = `अॆ`, eT = `अॉ`, tT = `एॅ`, nT = `एॆ`, rT = `एे`, iT = `र्इ`, aT = `অা`, oT = `ঋৃ`, sT = `ঋৃ`, cT = `ੳੁ`, lT = `ੳੂ`, uT = `ਅਾ`, dT = `ਅੈ`, fT = `ਅੌ`, pT = `ੲਿ`, mT = `ੲੀ`, hT = `ੲੇ`, gT = `અા`, _T = `અાૅ`, vT = `અાે`, yT = `અાૈ`, bT = `અૅ`, xT = `અે`, ST = `અૈ`, CT = `ଅା`, wT = `உள`, TT = `உൗ`, ET = `டி`, DT = `ఋా`, OT = `ఌా`, kT = `ఒౌ`, AT = `ఒౌ`, jT = `ఒౕ`, MT = `ఒౕ`, NT = `డ̣`, PT = `ధּ`, FT = `బ̣`, IT = `రּ`, LT = `వ̣`, RT = `వా`, zT = `వు`, BT = `ಌಾ`, VT = `ഇൗ`, HT = `എെ`, UT = `ഒാ`, WT = `ഒൗ`, GT = `നു`, KT = `നു`, qT = `ന്`, JT = `ര്`, YT = `𑐴𑑂𑐒`, XT = `𑐴𑑂𑐘`, ZT = `𑐴𑑂𑐣`, QT = `𑐴𑑂𑐩`, $T = `𑐴𑑂𑐬`, eE = `𑐴𑑂𑐮`, tE = `𑖂`, nE = `𑖂`, rE = `𑖃`, iE = `𑖄`, aE = `̊า`, oE = `เเ`, sE = `ຫນ`, cE = `ຫມ`, lE = `̊າ`, uE = `ཨོཾ`, dE = `ဂှ`, fE = `ဂာ`, pE = `ဃှ`, mE = `ပှ`, hE = `ပာ`, gE = `ပာှ`, _E = `ၽှ`, vE = `သြ`, yE = `သြော်`, bE = `ᐁ·`, xE = `ᐁᐠ`, SE = `ᐄ·`, CE = `ᐅ·`, wE = `ᐅᐠ`, TE = `ᐆ·`, EE = `ᐊ·`, DE = `ᐊᐠ`, OE = `ᐋ·`, kE = `ᐞᣟ`, AE = `ᐲ·`, jE = `ᐴ·`, ME = `ᐹ·`, NE = `ᑏ·`, PE = `ᑐ·`, FE = `ᑐ'`, IE = `ᑑ·`, LE = `ᑕ·`, RE = `ᑕ'`, zE = `ᑖ·`, BE = `ᑫ·`, VE = `ᑫ'`, HE = `ᑮ·`, UE = `ᑰ·`, WE = `ᒉ·`, GE = `ᒋ·`, KE = `ᒌ·`, qE = `ᒎ·`, JE = `ᒐ·`, YE = `ᒑ·`, XE = `ᒣ·`, ZE = `ᒦ·`, QE = `ᒧ·`, $E = `ᒨ·`, eD = `ᒫ·`, tD = `ᓀ·`, nD = `ᓂ·`, rD = `ᓃ·`, iD = `ᓄ·`, aD = `ᓅ·`, oD = `ᓇ·`, sD = `ᓈ·`, cD = `ᓓ·`, lD = `ᓕ·`, uD = `ᓖ·`, dD = `ᓗ·`, fD = `ᓘ·`, pD = `ᓚ·`, mD = `ᓛ·`, hD = `ᓭ·`, gD = `ᓯ·`, _D = `ᓰ·`, vD = `ᓱ·`, yD = `ᓲ·`, bD = `ᓴ·`, xD = `ᓵ·`, SD = `ᔋ<`, CD = `ᔋb`, wD = `ᔋᑕ`, TD = `ᔋᒐ`, ED = `ᔐ·`, DD = `ᔑ·`, OD = `ᔒ·`, kD = `ᔓ·`, AD = `ᔔ·`, jD = `ᔕ·`, MD = `ᔖ·`, ND = `ᔨ·`, PD = `ᔩ·`, FD = `ᔪ·`, ID = `ᔫ·`, LD = `ᔭ·`, RD = `ᔮ·`, zD = `ᕃ·`, BD = `ᕌ·`, VD = `ᕐb`, HD = `ᕐḃ`, UD = `ᕐd`, WD = `ᕐP`, GD = `ᕐᑫ`, moe = `ᕐᑬ`, hoe = `ᕐᑮ`, goe = `ᕐᑰ`, _oe = `ᕐᒃ`, voe = `ᕚ·`, yoe = `ᕞ·`, boe = `ᕦ·`, xoe = `ᕧ·`, Soe = `ᕫ·`, Coe = `ᖆ·`, woe = `ᖕJ`, Toe = `ᖕᒉ`, Eoe = `ᖕᒊ`, Doe = `ᖕᒋ`, Ooe = `ᖕᒌ`, koe = `ᖕᒎ`, Aoe = `ᖕᒐ`, joe = `ᖕᒑ`, Moe = `ᖖJ`, Noe = `ᖖᒋ`, Poe = `ᖖᒌ`, Foe = `ᖖᒎ`, Ioe = `ᖖᒐ`, Loe = `ᖖᒑ`, Roe = `ᖗ·`, zoe = `ᖧ·`, Boe = `ᖨ·`, Voe = `ᖩ·`, Hoe = `ᖪ·`, Uoe = `ᖫ·`, Woe = `ᖬ·`, Goe = `ᖭ·`, Koe = `ᗴ·`, qoe = `ᘛ·`, Joe = `ᣟᐞ`, Yoe = `ᄀᄀ`, Xoe = `ᄀᄀ`, Zoe = `ᄀᄀ`, Qoe = `ᄀᄂ`, $oe = `ᄀᄃ`, ese = `ᄀᄅ`, tse = `ᄀᄇ`, nse = `ᄀᄉ`, rse = `ᄀᄉ`, ise = `ᄀᄉᄀ`, ase = `ᄀᄎ`, ose = `ᄀᄏ`, sse = `ᄀᄒ`, cse = `ᄂᄀ`, lse = `ᄂᄀ`, use = `ᄂᄂ`, dse = `ᄂᄂ`, fse = `ᄂᄂ`, pse = `ᄂᄃ`, mse = `ᄂᄃ`, hse = `ᄂᄃ`, gse = `ᄂᄅ`, _se = `ᄂᄇ`, vse = `ᄂᄉ`, KD = `ᄂᄉ`, qD = `ᄂᄉ`, JD = `ᄂᄌ`, YD = `ᄂᄌ`, XD = `ᄂᄌ`, ZD = `ᄂᄎ`, QD = `ᄂᄐ`, $D = `ᄂᄒ`, eO = `ᄂᄒ`, tO = `ᄂᄒ`, nO = `ᄂᅀ`, rO = `ᄂᅀ`, iO = `ᄃᄀ`, aO = `ᄃᄀ`, oO = `ᄃᄃ`, sO = `ᄃᄃ`, cO = `ᄃᄃ`, lO = `ᄃᄃᄇ`, uO = `ᄃᄅ`, dO = `ᄃᄅ`, fO = `ᄃᄆ`, pO = `ᄃᄇ`, mO = `ᄃᄇ`, hO = `ᄃᄉ`, gO = `ᄃᄉ`, _O = `ᄃᄉᄀ`, vO = `ᄃᄌ`, yO = `ᄃᄌ`, bO = `ᄃᄎ`, xO = `ᄃᄐ`, SO = `ᄅᄀ`, CO = `ᄅᄀ`, wO = `ᄅᄀ`, TO = `ᄅᄀᄀ`, EO = `ᄅᄀᄀ`, DO = `ᄅᄀᄉ`, OO = `ᄅᄀᄉ`, kO = `ᄅᄀᄒ`, AO = `ᄅᄂ`, jO = `ᄅᄂ`, MO = `ᄅᄃ`, NO = `ᄅᄃ`, PO = `ᄅᄃ`, FO = `ᄅᄃᄃ`, IO = `ᄅᄃᄒ`, LO = `ᄅᄅ`, RO = `ᄅᄅ`, zO = `ᄅᄅᄏ`, BO = `ᄅᄆ`, VO = `ᄅᄆ`, HO = `ᄅᄆ`, UO = `ᄅᄆᄀ`, WO = `ᄅᄆᄉ`, GO = `ᄅᄆᄒ`, KO = `ᄅᄇ`, qO = `ᄅᄇ`, JO = `ᄅᄇ`, YO = `ᄅᄇᄃ`, XO = `ᄅᄇᄇ`, ZO = `ᄅᄇᄉ`, QO = `ᄅᄇᄉ`, $O = `ᄅᄇᄋ`, ek = `ᄅᄇᄋ`, tk = `ᄅᄇᄑ`, nk = `ᄅᄇᄒ`, rk = `ᄅᄉ`, ik = `ᄅᄉ`, ak = `ᄅᄉ`, ok = `ᄅᄉᄉ`, sk = `ᄅᄋ`, ck = `ᄅᄋ`, lk = `ᄅᄌ`, uk = `ᄅᄏ`, dk = `ᄅᄏ`, fk = `ᄅᄐ`, pk = `ᄅᄐ`, mk = `ᄅᄑ`, hk = `ᄅᄑ`, gk = `ᄅᄒ`, _k = `ᄅᄒ`, vk = `ᄅᄒ`, yk = `ᄅᄒ`, bk = `ᄅᄒ`, xk = `ᄅᅀ`, Sk = `ᄅᅀ`, Ck = `ᄅᅌ`, wk = `ᄅᅙ`, Tk = `ᄅᅙ`, Ek = `ᄅᅙᄒ`, Dk = `ᄆᄀ`, Ok = `ᄆᄀ`, kk = `ᄆᄂ`, Ak = `ᄆᄂᄂ`, jk = `ᄆᄃ`, Mk = `ᄆᄅ`, Nk = `ᄆᄆ`, Pk = `ᄆᄇ`, Fk = `ᄆᄇ`, Ik = `ᄆᄇ`, Lk = `ᄆᄇᄉ`, Rk = `ᄆᄉ`, zk = `ᄆᄉ`, Bk = `ᄆᄉ`, Vk = `ᄆᄉᄉ`, Hk = `ᄆᄋ`, Uk = `ᄆᄋ`, Wk = `ᄆᄋ`, Gk = `ᄆᄌ`, Kk = `ᄆᄎ`, qk = `ᄆᄒ`, Jk = `ᄆᅀ`, Yk = `ᄆᅀ`, Xk = `ᄇᄀ`, Zk = `ᄇᄀ`, Qk = `ᄇᄂ`, $k = `ᄇᄃ`, eA = `ᄇᄃ`, tA = `ᄇᄃ`, nA = `ᄇᄅ`, rA = `ᄇᄅᄑ`, iA = `ᄇᄆ`, aA = `ᄇᄇ`, oA = `ᄇᄇ`, sA = `ᄇᄇ`, cA = `ᄇᄇᄋ`, lA = `ᄇᄇᄋ`, uA = `ᄇᄉ`, dA = `ᄇᄉ`, fA = `ᄇᄉ`, pA = `ᄇᄉᄀ`, mA = `ᄇᄉᄀ`, hA = `ᄇᄉᄃ`, gA = `ᄇᄉᄃ`, _A = `ᄇᄉᄃ`, vA = `ᄇᄉᄇ`, yA = `ᄇᄉᄉ`, bA = `ᄇᄉᄌ`, xA = `ᄇᄉᄐ`, SA = `ᄇᄋ`, CA = `ᄇᄋ`, wA = `ᄇᄋ`, TA = `ᄇᄌ`, EA = `ᄇᄌ`, DA = `ᄇᄌ`, OA = `ᄇᄎ`, kA = `ᄇᄎ`, AA = `ᄇᄏ`, jA = `ᄇᄐ`, MA = `ᄇᄐ`, NA = `ᄇᄑ`, PA = `ᄇᄑ`, FA = `ᄇᄒ`, IA = `ᄇᄒ`, LA = `ᄉᄀ`, RA = `ᄉᄀ`, zA = `ᄉᄀ`, BA = `ᄉᄂ`, VA = `ᄉᄂ`, HA = `ᄉᄃ`, UA = `ᄉᄃ`, WA = `ᄉᄃ`, GA = `ᄉᄅ`, KA = `ᄉᄅ`, qA = `ᄉᄆ`, JA = `ᄉᄆ`, YA = `ᄉᄇ`, XA = `ᄉᄇ`, ZA = `ᄉᄇ`, QA = `ᄉᄇᄀ`, $A = `ᄉᄇᄋ`, ej = `ᄉᄉ`, tj = `ᄉᄉ`, nj = `ᄉᄉ`, rj = `ᄉᄉᄀ`, ij = `ᄉᄉᄃ`, aj = `ᄉᄉᄇ`, oj = `ᄉᄉᄉ`, sj = `ᄉᄋ`, cj = `ᄉᄌ`, lj = `ᄉᄌ`, uj = `ᄉᄌ`, dj = `ᄉᄎ`, fj = `ᄉᄎ`, pj = `ᄉᄏ`, mj = `ᄉᄐ`, hj = `ᄉᄐ`, gj = `ᄉᄑ`, _j = `ᄉᅀ`, vj = `ᄋᄀ`, yj = `ᄋᄀ`, bj = `ᄋᄀᄀ`, xj = `ᄋᄃ`, Sj = `ᄋᄅ`, Cj = `ᄋᄆ`, wj = `ᄋᄇ`, Tj = `ᄋᄉ`, Ej = `ᄋᄉ`, Dj = `ᄋᄉ`, Oj = `ᄋᄋ`, kj = `ᄋᄋ`, Aj = `ᄋᄋ`, jj = `ᄋᄌ`, Mj = `ᄋᄎ`, Nj = `ᄋᄏ`, Pj = `ᄋᄐ`, Fj = `ᄋᄑ`, Ij = `ᄋᄒ`, Lj = `ᄋᅀ`, Rj = `ᄋᅀ`, zj = `ᄋᅀ`, Bj = `ᄌᄇ`, Vj = `ᄌᄇᄇ`, Hj = `ᄌᄋ`, Uj = `ᄌᄌ`, Wj = `ᄌᄌ`, Gj = `ᄌᄌ`, Kj = `ᄌᄌᄒ`, qj = `ᄎᄏ`, Jj = `ᄎᄒ`, Yj = `ᄐᄐ`, Xj = `ᄑᄇ`, Zj = `ᄑᄇ`, Qj = `ᄑᄉ`, $j = `ᄑᄋ`, eM = `ᄑᄋ`, tM = `ᄑᄋ`, nM = `ᄑᄐ`, rM = `ᄑᄒ`, iM = `ᄒᄂ`, aM = `ᄒᄅ`, oM = `ᄒᄆ`, sM = `ᄒᄇ`, cM = `ᄒᄉ`, lM = `ᄒᄒ`, uM = `ᄒᄒ`, dM = `ᄼᄼ`, fM = `ᄾᄾ`, pM = `ᅀᄇ`, mM = `ᅀᄇᄋ`, hM = `ᅌᄆ`, gM = `ᅌᄒ`, _M = `ᅎᅎ`, vM = `ᅐᅐ`, yM = `ᅙᅙ`, bM = `ᅡー`, xM = `ᅡᅩ`, SM = `ᅡᅮ`, CM = `ᅡ丨`, wM = `ᅡ丨`, TM = `ᅣᅩ`, EM = `ᅣᅭ`, DM = `ᅣᅮ`, OM = `ᅣ丨`, kM = `ᅣ丨`, AM = `ᅥー`, jM = `ᅥᅩ`, MM = `ᅥᅮ`, NM = `ᅥ丨`, PM = `ᅥ丨`, FM = `ᅧᅣ`, IM = `ᅧᅩ`, LM = `ᅧᅮ`, RM = `ᅧ丨`, zM = `ᅧ丨`, BM = `ᅩᅡ`, VM = `ᅩᅡ`, HM = `ᅩᅡ丨`, UM = `ᅩᅡ丨`, WM = `ᅩᅣ`, GM = `ᅩᅣ丨`, KM = `ᅩᅥ`, qM = `ᅩᅥ丨`, JM = `ᅩᅧ`, YM = `ᅩᅧ丨`, XM = `ᅩᅩ`, ZM = `ᅩᅩ丨`, QM = `ᅩᅮ`, $M = `ᅩ丨`, eN = `ᅩ丨`, tN = `ᅭᅡ`, nN = `ᅭᅡ丨`, rN = `ᅭᅣ`, iN = `ᅭᅣ`, aN = `ᅭᅣ`, oN = `ᅭᅣ丨`, sN = `ᅭᅣ丨`, cN = `ᅭᅥ`, lN = `ᅭᅩ`, uN = `ᅭ丨`, dN = `ᅭ丨`, fN = `ᅮᅡ`, pN = `ᅮᅡ丨`, mN = `ᅮᅥ`, hN = `ᅮᅥ`, gN = `ᅮᅥー`, _N = `ᅮᅥ丨`, vN = `ᅮᅥ丨`, yN = `ᅮᅧ`, bN = `ᅮᅧ丨`, xN = `ᅮᅮ`, SN = `ᅮ丨`, CN = `ᅮ丨`, wN = `ᅮ丨丨`, TN = `ᅲᅡ`, EN = `ᅲᅡ丨`, DN = `ᅲᅥ`, ON = `ᅲᅥ丨`, kN = `ᅲᅧ`, AN = `ᅲᅧ`, jN = `ᅲᅧ丨`, MN = `ᅲᅧ丨`, NN = `ᅲᅩ`, PN = `ᅲᅮ`, FN = `ᅲ丨`, IN = `ᅲ丨`, LN = `ᆞᅡ`, RN = `ᆞᅥ`, zN = `ᆞᅥ丨`, BN = `ᆞᅮ`, VN = `ᆞᆞ`, HN = `ᆞ丨`, UN = `ᆞ丨`, WN = `𑫥𑫯`, GN = `𑫥𑫥`, KN = `𑫥𑫥𑫯`, qN = `𑫥𑫥𑫰`, JN = `𑫥𑫰`, YN = `𑫳𑫯`, XN = `𑫳𑫳`, ZN = `𑫳𑫳𑫯`, QN = `𑫳𑫳𑫰`, $N = `𑫳𑫰`, eP = `𑫫𑫯`, tP = `𑫫𑫫`, nP = `𑫫𑫫𑫯`, rP = `𐊨`, iP = `𐐺`, aP = `𐐒`, oP = `𐎂`, sP = `𐎓`, cP = `𐎚`, lP = `𐦞`, uP = `丨ー`, dP = `丨ᅡ`, fP = `丨ᅣ`, pP = `丨ᅣᅩ`, mP = `丨ᅣ丨`, hP = `丨ᅧ`, gP = `丨ᅧ丨`, _P = `丨ᅩ`, vP = `丨ᅩ丨`, yP = `丨ᅭ`, bP = `丨ᅮ`, xP = `丨ᅲ`, SP = `丨ᆞ`, CP = `丨丨`, wP = `𠄢`, TP = `𠔜`, EP = `𠔥`, DP = `𠕋`, OP = `𠘺`, kP = `𠠄`, AP = `𠣞`, jP = `𠨬`, MP = `𠭣`, NP = `𡓤`, PP = `𡚨`, FP = `𡛪`, IP = `𡧈`, LP = `𡬘`, RP = `𡴋`, zP = `𡷤`, BP = `𡷦`, VP = `𢆃`, HP = `𢆟`, UP = `𢌱`, WP = `𢌱`, GP = `𢛔`, KP = `𢡄`, qP = `𢡊`, JP = `𢬌`, YP = `𢯱`, XP = `𣀊`, ZP = `𣊸`, QP = `𣍟`, $P = `𣎓`, eF = `𣎜`, tF = `𣏃`, nF = `𣏕`, rF = `𣑭`, iF = `𣚣`, aF = `𣢧`, oF = `𣪍`, sF = `𣫺`, cF = `𣲼`, lF = `𣴞`, uF = `𣻑`, dF = `𣽞`, fF = `𣾎`, pF = `𤉣`, mF = `𤋮`, hF = `𤎫`, gF = `𤘈`, _F = `𤜵`, vF = `𤠔`, yF = `𤰶`, bF = `𤲒`, xF = `𤾡`, SF = `𤾸`, CF = `𥁄`, wF = `𥃲`, TF = `𥃳`, EF = `𥄙`, DF = `𥄳`, OF = `𥉉`, kF = `𥐝`, AF = `𥘦`, jF = `𥚚`, MF = `𥛅`, NF = `𥥼`, PF = `𥪧`, FF = `𥪧`, IF = `𥮫`, LF = `𥲀`, RF = `𥳐`, zF = `𥾆`, BF = `𦇚`, VF = `𦈨`, HF = `𦉇`, UF = `𦋙`, WF = `𦌾`, GF = `𦓚`, KF = `𦔣`, qF = `𦖨`, JF = `𦞧`, YF = `𦞵`, XF = `𦬼`, ZF = `𦰶`, QF = `𦳕`, $F = `𦵫`, eI = `𦼬`, tI = `𦾱`, nI = `𧃒`, rI = `𧏊`, iI = `𧙧`, aI = `𧢮`, oI = `𧥦`, sI = `𧲨`, cI = `𧻓`, lI = `𧼯`, uI = `𨗒`, dI = `𨗭`, fI = `𨜮`, pI = `𨯺`, mI = `𨵷`, hI = `𩅅`, gI = `𩇟`, _I = `𩈚`, vI = `𩐊`, yI = `𩒖`, bI = `𩖶`, xI = `𩬰`, SI = `𪃎`, CI = `𪄅`, wI = `𪈎`, TI = `𪊑`, EI = `𪎒`, DI = `𪘀`, yse = {
+    }), Om, km, Am, jm, Mm, Nm, Pm, Fm, Im, Lm, Rm, zm, Bm, Vm, Hm, Um, Wm, Gm, Km, qm, Jm, Ym, Xm, Zm, Qm, $m, eh, th, nh, rh, ih, ah, oh, sh, ch, lh, uh, dh, fh, ph, mh, hh, gh, _h, vh, yh, bh, xh, Sh, Ch, wh, Th, Eh, Dh, Oh, kh, Ah, jh, Mh, Nh, Ph, Fh, Ih, Lh, Rh, zh, Bh, Vh, Hh, Uh, Wh, Gh, Kh, qh, Jh, Yh, Xh, Zh, Qh, $h, eg, tg, ng, rg, ig, ag, og, sg, cg, lg, ug, dg, fg, pg, mg, hg, gg, _g, vg, yg, bg, xg, Sg, Dre, Cg, wg, Tg, Eg, Dg, Og, kg, Ag, jg, Mg, Ng, Pg, Fg, Ig, Lg, Rg, zg, Bg, Vg, Hg, Ug, Wg, Gg, Kg, qg, Jg, Yg, Xg, Zg, Qg, $g, e_, t_, n_, r_, i_, a_, o_, s_, c_, l_, u_, d_, f_, p_, m_, h_, g_, __, v_, y_, b_, x_, S_, C_, w_, T_, E_, D_, O_, k_, A_, j_, M_, N_, P_, F_, I_, L_, R_, z_, B_, V_, H_, U_, W_, G_, K_, q_, J_, Y_, X_, Z_, Q_, $_, ev, tv, nv, rv, iv, av, ov, sv, cv, lv, uv, dv, fv, pv, mv, hv, gv, _v, vv, yv, bv, xv, Sv, Cv, wv, Tv, Ev, Dv, Ov, kv, Av, jv, Mv, Nv, Pv, Fv, Iv, Lv, Rv, zv, Bv, Vv, Hv, Uv, Wv, Gv, Kv, qv, Jv, Yv, Xv, Zv, Qv, $v, ey, ty, ny, ry, iy, ay, oy, sy, cy, ly, uy, dy, fy, py, my, hy, gy, _y, vy, yy, by, xy, Sy, Cy, wy, Ty, Ey, Dy, Oy, ky, Ay, jy, My, Ny, Py, Fy, Iy, Ly, Ry, zy, By, Vy, Hy, Uy, Wy, Gy, Ky, qy, Jy, Yy, Xy, Zy, Qy, $y, eb, tb, nb, rb, ib, ab, ob, sb, cb, lb, ub, db, fb, pb, mb, hb, gb, _b, vb, yb, bb, xb, Sb, Cb, wb, Tb, Eb, Db, Ob, kb, Ab, jb, Mb, Nb, Pb, Fb, Ib, Lb, Rb, zb, Bb, Vb, Hb, Ub, Wb, Gb, Kb, qb, Jb, Yb, Xb, Zb, Qb, $b, ex, tx, nx, rx, ix, ax, ox, sx, cx, lx, ux, dx, fx, px, mx, hx, gx, _x, vx, yx, bx, xx, Sx, Cx, wx, Tx, Ex, Ore, kre, Are, jre, Mre, Nre, Pre, Fre, Ire, Lre, Rre, zre, Bre, Vre, Hre, Ure, Wre, Gre, Kre, qre, Jre, Yre, Xre, Zre, Qre, $re, eie, tie, nie, rie, iie, aie, oie, sie, cie, lie, uie, die, fie, pie, mie, hie, gie, _ie, vie, yie, bie, xie, Sie, Cie, wie, Tie, Eie, Die, Oie, kie, Aie, jie, Mie, Nie, Pie, Fie, Iie, Lie, Rie, zie, Bie, Vie, Hie, Uie, Wie, Gie, Kie, qie, Jie, Yie, Xie, Zie, Qie, $ie, eae, tae, nae, rae, iae, aae, oae, sae, cae, lae, uae, dae, fae, pae, mae, hae, gae, _ae, vae, yae, bae, xae, Sae, Cae, wae, Tae, Eae, Dae, Oae, kae, Aae, jae, Mae, Nae, Pae, Fae, Iae, Lae, Rae, zae, Bae, Vae, Hae, Uae, Wae, Gae, Kae, qae, Jae, Yae, Xae, Zae, Qae, $ae, eoe, toe, noe, roe, ioe, aoe, ooe, soe, coe, loe, uoe, doe, foe, poe, Dx, Ox, kx, Ax, jx, Mx, Nx, Px, Fx, Ix, Lx, Rx, zx, Bx, Vx, Hx, Ux, Wx, Gx, Kx, qx, Jx, Yx, Xx, Zx, Qx, $x, eS, tS, nS, rS, iS, aS, oS, sS, cS, lS, uS, dS, fS, pS, mS, hS, gS, _S, vS, yS, bS, xS, SS, CS, wS, TS, ES, DS, OS, kS, AS, jS, MS, NS, PS, FS, IS, LS, RS, zS, BS, VS, HS, US, WS, GS, KS, qS, JS, YS, XS, ZS, QS, $S, eC, tC, nC, rC, iC, aC, oC, sC, cC, lC, uC, dC, fC, pC, mC, hC, gC, _C, vC, yC, bC, xC, SC, CC, wC, TC, EC, DC, OC, kC, AC, jC, MC, NC, PC, FC, IC, LC, RC, zC, BC, VC, HC, UC, WC, GC, KC, qC, JC, YC, XC, ZC, QC, $C, ew, tw, nw, rw, iw, aw, ow, sw, cw, lw, uw, dw, fw, pw, mw, hw, gw, _w, vw, yw, bw, xw, Sw, Cw, ww, Tw, Ew, Dw, Ow, kw, Aw, jw, Mw, Nw, Pw, Fw, Iw, Lw, Rw, zw, Bw, Vw, Hw, Uw, Ww, Gw, Kw, qw, Jw, Yw, Xw, Zw, Qw, $w, eT, tT, nT, rT, iT, aT, oT, sT, cT, lT, uT, dT, fT, pT, mT, hT, gT, _T, vT, yT, bT, xT, ST, CT, wT, TT, ET, DT, OT, kT, AT, jT, MT, NT, PT, FT, IT, LT, RT, zT, BT, VT, HT, UT, WT, GT, KT, qT, JT, YT, XT, ZT, QT, $T, eE, tE, nE, rE, iE, aE, oE, sE, cE, lE, uE, dE, fE, pE, mE, hE, gE, _E, vE, yE, bE, xE, SE, CE, wE, TE, EE, DE, OE, kE, AE, jE, ME, NE, PE, FE, IE, LE, RE, zE, BE, VE, HE, UE, WE, GE, KE, qE, JE, YE, XE, ZE, QE, $E, eD, tD, nD, rD, iD, aD, oD, sD, cD, lD, uD, dD, fD, pD, mD, hD, gD, _D, vD, yD, bD, xD, SD, CD, wD, TD, ED, DD, OD, kD, AD, jD, MD, ND, PD, FD, ID, LD, RD, zD, BD, VD, HD, UD, WD, GD, moe, hoe, goe, _oe, voe, yoe, boe, xoe, Soe, Coe, woe, Toe, Eoe, Doe, Ooe, koe, Aoe, joe, Moe, Noe, Poe, Foe, Ioe, Loe, Roe, zoe, Boe, Voe, Hoe, Uoe, Woe, Goe, Koe, qoe, Joe, Yoe, Xoe, Zoe, Qoe, $oe, ese, tse, nse, rse, ise, ase, ose, sse, cse, lse, use, dse, fse, pse, mse, hse, gse, _se, vse, KD, qD, JD, YD, XD, ZD, QD, $D, eO, tO, nO, rO, iO, aO, oO, sO, cO, lO, uO, dO, fO, pO, mO, hO, gO, _O, vO, yO, bO, xO, SO, CO, wO, TO, EO, DO, OO, kO, AO, jO, MO, NO, PO, FO, IO, LO, RO, zO, BO, VO, HO, UO, WO, GO, KO, qO, JO, YO, XO, ZO, QO, $O, ek, tk, nk, rk, ik, ak, ok, sk, ck, lk, uk, dk, fk, pk, mk, hk, gk, _k, vk, yk, bk, xk, Sk, Ck, wk, Tk, Ek, Dk, Ok, kk, Ak, jk, Mk, Nk, Pk, Fk, Ik, Lk, Rk, zk, Bk, Vk, Hk, Uk, Wk, Gk, Kk, qk, Jk, Yk, Xk, Zk, Qk, $k, eA, tA, nA, rA, iA, aA, oA, sA, cA, lA, uA, dA, fA, pA, mA, hA, gA, _A, vA, yA, bA, xA, SA, CA, wA, TA, EA, DA, OA, kA, AA, jA, MA, NA, PA, FA, IA, LA, RA, zA, BA, VA, HA, UA, WA, GA, KA, qA, JA, YA, XA, ZA, QA, $A, ej, tj, nj, rj, ij, aj, oj, sj, cj, lj, uj, dj, fj, pj, mj, hj, gj, _j, vj, yj, bj, xj, Sj, Cj, wj, Tj, Ej, Dj, Oj, kj, Aj, jj, Mj, Nj, Pj, Fj, Ij, Lj, Rj, zj, Bj, Vj, Hj, Uj, Wj, Gj, Kj, qj, Jj, Yj, Xj, Zj, Qj, $j, eM, tM, nM, rM, iM, aM, oM, sM, cM, lM, uM, dM, fM, pM, mM, hM, gM, _M, vM, yM, bM, xM, SM, CM, wM, TM, EM, DM, OM, kM, AM, jM, MM, NM, PM, FM, IM, LM, RM, zM, BM, VM, HM, UM, WM, GM, KM, qM, JM, YM, XM, ZM, QM, $M, eN, tN, nN, rN, iN, aN, oN, sN, cN, lN, uN, dN, fN, pN, mN, hN, gN, _N, vN, yN, bN, xN, SN, CN, wN, TN, EN, DN, ON, kN, AN, jN, MN, NN, PN, FN, IN, LN, RN, zN, BN, VN, HN, UN, WN, GN, KN, qN, JN, YN, XN, ZN, QN, $N, eP, tP, nP, rP, iP, aP, oP, sP, cP, lP, uP, dP, fP, pP, mP, hP, gP, _P, vP, yP, bP, xP, SP, CP, wP, TP, EP, DP, OP, kP, AP, jP, MP, NP, PP, FP, IP, LP, RP, zP, BP, VP, HP, UP, WP, GP, KP, qP, JP, YP, XP, ZP, QP, $P, eF, tF, nF, rF, iF, aF, oF, sF, cF, lF, uF, dF, fF, pF, mF, hF, gF, _F, vF, yF, bF, xF, SF, CF, wF, TF, EF, DF, OF, kF, AF, jF, MF, NF, PF, FF, IF, LF, RF, zF, BF, VF, HF, UF, WF, GF, KF, qF, JF, YF, XF, ZF, QF, $F, eI, tI, nI, rI, iI, aI, oI, sI, cI, lI, uI, dI, fI, pI, mI, hI, gI, _I, vI, yI, bI, xI, SI, CI, wI, TI, EI, DI, yse, bse = e((()=>{
+        Om = `ﹲّ`, km = `ﹴّ`, Am = `ﹷّ`, jm = `ﹶّ`, Mm = `ﹹّ`, Nm = `ﹸّ`, Pm = `ﹻّ`, Fm = `ﹺّ`, Im = `ﹼٰ`, Lm = `···`, Rm = `·ḃ`, zm = `·Ʌ`, Bm = `·Γ`, Vm = `·Δ`, Hm = `·Ո`, Um = `·ᐁ`, Wm = `·ᐄ`, Gm = `·ᐅ`, Km = `·ᐆ`, qm = `·ᐊ`, Jm = `·ᐋ`, Ym = `·ᐲ`, Xm = `·ᐴ`, Zm = `·ᐹ`, Qm = `·ᑏ`, $m = `·ᑐ`, eh = `·ᑐ`, th = `·ᑑ`, nh = `·ᑕ`, rh = `·ᑖ`, ih = `·ᑫ`, ah = `·ᑮ`, oh = `·ᑰ`, sh = `·ᒉ`, ch = `·ᒋ`, lh = `·ᒌ`, uh = `·ᒎ`, dh = `·ᒐ`, fh = `·ᒑ`, ph = `·ᒣ`, mh = `·ᒦ`, hh = `·ᒧ`, gh = `·ᒨ`, _h = `·ᒫ`, vh = `·ᓀ`, yh = `·ᓂ`, bh = `·ᓃ`, xh = `·ᓄ`, Sh = `·ᓅ`, Ch = `·ᓇ`, wh = `·ᓈ`, Th = `·ᓓ`, Eh = `·ᓕ`, Dh = `·ᓖ`, Oh = `·ᓗ`, kh = `·ᓘ`, Ah = `·ᓚ`, jh = `·ᓛ`, Mh = `·ᓭ`, Nh = `·ᓯ`, Ph = `·ᓰ`, Fh = `·ᓱ`, Ih = `·ᓲ`, Lh = `·ᓴ`, Rh = `·ᓵ`, zh = `·ᔐ`, Bh = `·ᔑ`, Vh = `·ᔒ`, Hh = `·ᔓ`, Uh = `·ᔔ`, Wh = `·ᔕ`, Gh = `·ᔖ`, Kh = `·ᔨ`, qh = `·ᔩ`, Jh = `·ᔪ`, Yh = `·ᔫ`, Xh = `·ᔭ`, Zh = `·ᔮ`, Qh = `·ᕃ`, $h = `·ᕆ`, eg = `·ᕇ`, tg = `·ᕈ`, ng = `·ᕉ`, rg = `·ᕋ`, ig = `·ᕌ`, ag = `·ᕚ`, og = `·ᕧ`, sg = `·ᢱ`, cg = `·ᢴ`, lg = `·ᢸ`, ug = `·ᣀ`, dg = `ˉbi`, fg = `∂̵`, pg = `ーー`, mg = `ーᅡ`, hg = `ーᅥ`, gg = `ーᅥ丨`, _g = `ーᅩ`, vg = `ーᅮ`, yg = `ー丨`, bg = `ー丨`, xg = `ー丨ᅮ`, Sg = `ḃ·`, Dre = `ǝ˞`, Cg = `ǝo̸`, wg = `ǝo̵`, Tg = `ɜ̦`, Eg = `ʜ̩`, Dg = `ʜ̦`, Og = `ʜ̦`, kg = `lكبر`, Ag = `lللّٰo`, jg = `Ó̸`, Mg = `oᴇ`, Ng = `oمج`, Pg = `oمم`, Fg = `oരo`, Ig = `oာ`, Lg = `ɔ̸`, Rg = `ĸ̩`, zg = `ĸ̵`, Bg = `rn̦`, Vg = `rn̴`, Hg = `ɾ̴`, Ug = `ᴛ̩`, Wg = `ʊ̵`, Gg = `viii`, Kg = `Vlll`, qg = `Ʌ̦`, Jg = `Ʌ·`, Yg = `w҆҇`, Xg = `ʍ̦`, Zg = `Γ̵`, Qg = `Γ·`, $g = `Δ·`, e_ = `Δᐠ`, t_ = `ж̩`, n_ = `Ж̩`, r_ = `Ѝ̦`, i_ = `й̦`, a_ = `л̦`, o_ = `Ѡ҆҇`, s_ = `Ѡ·`, c_ = `Ҽ̨`, l_ = `եւ`, u_ = `մե`, d_ = `մի`, f_ = `մխ`, p_ = `մն`, m_ = `Ո·`, h_ = `վն`, g_ = `אל`, __ = `بۛ`, v_ = `بۢ`, y_ = `بٔ`, b_ = `بج`, x_ = `بج`, S_ = `بح`, C_ = `بح`, w_ = `بحى`, T_ = `بخ`, E_ = `بخ`, D_ = `بخ`, O_ = `بخ`, k_ = `بخى`, A_ = `بر`, j_ = `بز`, M_ = `بم`, N_ = `بم`, P_ = `بم`, F_ = `بم`, I_ = `بن`, L_ = `بى`, R_ = `بى`, z_ = `بى`, B_ = `بى`, V_ = `تج`, H_ = `تج`, U_ = `تجم`, W_ = `تجى`, G_ = `تجى`, K_ = `تح`, q_ = `تح`, J_ = `تحج`, Y_ = `تحج`, X_ = `تحم`, Z_ = `تخ`, Q_ = `تخ`, $_ = `تخم`, ev = `تخى`, tv = `تخى`, nv = `تر`, rv = `تز`, iv = `تم`, av = `تم`, ov = `تم`, sv = `تم`, cv = `تمج`, lv = `تمح`, uv = `تمخ`, dv = `تمى`, fv = `تمى`, pv = `تن`, mv = `تى`, hv = `تى`, gv = `تى`, _v = `تى`, vv = `جح`, yv = `جح`, bv = `جحى`, xv = `جحى`, Sv = `جل جلlلo`, Cv = `جم`, wv = `جم`, Tv = `جمح`, Ev = `جمح`, Dv = `جمى`, Ov = `جمى`, kv = `جى`, Av = `جى`, jv = `جى`, Mv = `جى`, Nv = `حۛ`, Pv = `حٔ`, Fv = `حٔ`, Iv = `حج`, Lv = `حج`, Rv = `حجى`, zv = `حم`, Bv = `حم`, Vv = `حمى`, Hv = `حمى`, Uv = `حى`, Wv = `حى`, Gv = `حى`, Kv = `حى`, qv = `خج`, Jv = `خج`, Yv = `خح`, Xv = `خم`, Zv = `خم`, Qv = `خى`, $v = `خى`, ey = `خى`, ty = `خى`, ny = `دؕ`, ry = `دؕ`, iy = `دؕ`, ay = `دۛ`, oy = `دۛ`, sy = `دۛ`, cy = `د̂`, ly = `د̤̣`, uy = `ذٰ`, dy = `ڊؕ`, fy = `رؕ`, py = `رؕ`, my = `رؕ`, hy = `رۛ`, gy = `رۛ`, _y = `رۛ`, vy = `ر̆`, yy = `ر̆̇`, by = `ر̂`, xy = `رٔ`, Sy = `رٰ`, Cy = `رسول`, wy = `ز̂`, Ty = `ڗؕ`, Ey = `سۛ`, Dy = `سۛ`, Oy = `سۛ`, ky = `سۛ`, Ay = `سۛ`, jy = `سۛ`, My = `سۛ`, Ny = `سۛ`, Py = `سۛ`, Fy = `سۛ`, Iy = `سۛ`, Ly = `س̂`, Ry = `سۛo`, zy = `سۛo`, By = `سج`, Vy = `سج`, Hy = `سج`, Uy = `سۛج`, Wy = `سۛج`, Gy = `سۛج`, Ky = `سۛج`, qy = `سجح`, Jy = `سجى`, Yy = `سۛجى`, Xy = `سح`, Zy = `سح`, Qy = `سح`, $y = `سۛح`, eb = `سۛح`, tb = `سۛح`, nb = `سۛح`, rb = `سحج`, ib = `سۛحم`, ab = `سۛحم`, ob = `سۛحى`, sb = `سخ`, cb = `سخ`, lb = `سخ`, ub = `سۛخ`, db = `سۛخ`, fb = `سۛخ`, pb = `سۛخ`, mb = `سخى`, hb = `سخى`, gb = `سر`, _b = `سر`, vb = `سۛر`, yb = `سۛر`, bb = `سم`, xb = `سم`, Sb = `سم`, Cb = `سۛم`, wb = `سۛم`, Tb = `سۛم`, Eb = `سۛم`, Db = `سمج`, Ob = `سمح`, kb = `سمح`, Ab = `سۛمخ`, jb = `سۛمخ`, Mb = `سمم`, Nb = `سمم`, Pb = `سۛمم`, Fb = `سۛمم`, Ib = `سى`, Lb = `سى`, Rb = `سى`, zb = `سى`, Bb = `سۛى`, Vb = `سۛى`, Hb = `سۛى`, Ub = `سۛى`, Wb = `صۛ`, Gb = `ص̤̣`, Kb = `صح`, qb = `صح`, Jb = `صحح`, Yb = `صحح`, Xb = `صحى`, Zb = `صخ`, Qb = `صر`, $b = `صر`, ex = `صلعم`, tx = `صلى`, nx = `صلى`, rx = `صلى lللo علىo وسلم`, ix = `صم`, ax = `صم`, ox = `صمم`, sx = `صمم`, cx = `صى`, lx = `صى`, ux = `صى`, dx = `صى`, fx = `ضج`, px = `ضج`, mx = `ضح`, hx = `ضح`, gx = `ضحى`, _x = `ضحى`, vx = `ضخ`, yx = `ضخ`, bx = `ضخم`, xx = `ضخم`, Sx = `ضر`, Cx = `ضر`, wx = `ضم`, Tx = `ضم`, Ex = `ضى`, Ore = `ضى`, kre = `ضى`, Are = `ضى`, jre = `طۛ`, Mre = `طح`, Nre = `طح`, Pre = `طم`, Fre = `طم`, Ire = `طم`, Lre = `طمح`, Rre = `طمح`, zre = `طمم`, Bre = `طمى`, Vre = `طى`, Hre = `طى`, Ure = `طى`, Wre = `طى`, Gre = `ظم`, Kre = `ظم`, qre = `ظم`, Jre = `عج`, Yre = `عج`, Xre = `عجم`, Zre = `عجم`, Qre = `علىo`, $re = `عم`, eie = `عم`, tie = `عمم`, nie = `عمم`, rie = `عمى`, iie = `عمى`, aie = `عى`, oie = `عى`, sie = `عى`, cie = `عى`, lie = `غج`, uie = `غج`, die = `غم`, fie = `غم`, pie = `غمم`, mie = `غمى`, hie = `غمى`, gie = `غى`, _ie = `غى`, vie = `غى`, yie = `غى`, bie = `فج`, xie = `فج`, Sie = `فح`, Cie = `فح`, wie = `فخ`, Tie = `فخ`, Eie = `فخم`, Die = `فخم`, Oie = `فم`, kie = `فم`, Aie = `فمى`, jie = `فى`, Mie = `فى`, Nie = `فى`, Pie = `فى`, Fie = `ڡۛ`, Iie = `ڡۛ`, Lie = `ڡۛ`, Rie = `ڡۛ`, zie = `ڡۛ`, Bie = `ڡۛ`, Vie = `ڢۛ`, Hie = `قح`, Uie = `قح`, Wie = `قلى`, Gie = `قم`, Kie = `قم`, qie = `قمح`, Jie = `قمح`, Yie = `قمم`, Xie = `قمى`, Zie = `قى`, Qie = `قى`, $ie = `قى`, eae = `قى`, tae = `كۛ`, nae = `كۛ`, rae = `كۛ`, iae = `كۛ`, aae = `كۛ`, oae = `كۛ`, sae = `كج`, cae = `كج`, lae = `كح`, uae = `كح`, dae = `كخ`, fae = `كخ`, pae = `كل`, mae = `كل`, hae = `كل`, gae = `كل`, _ae = `كم`, vae = `كم`, yae = `كم`, bae = `كم`, xae = `كمم`, Sae = `كمم`, Cae = `كمى`, wae = `كى`, Tae = `كى`, Eae = `كى`, Dae = `كى`, Oae = `گۛ`, kae = `لۛ`, Aae = `ل̆`, jae = `لlٕ`, Mae = `لlٕ`, Nae = `لlٴ`, Pae = `لlٴ`, Fae = `لآ`, Iae = `لآ`, Lae = `لج`, Rae = `لج`, zae = `لجج`, Bae = `لجج`, Vae = `لجم`, Hae = `لجم`, Uae = `لجى`, Wae = `لح`, Gae = `لح`, Kae = `لحم`, qae = `لحم`, Jae = `لحى`, Yae = `لحى`, Xae = `لخ`, Zae = `لخ`, Qae = `لخم`, $ae = `لخم`, eoe = `لم`, toe = `لم`, noe = `لم`, roe = `لم`, ioe = `لمح`, aoe = `لمح`, ooe = `لمى`, soe = `لى`, coe = `لى`, loe = `لى`, uoe = `لى`, doe = `مۛ`, foe = `مج`, poe = `مج`, Dx = `مجح`, Ox = `مجخ`, kx = `مجم`, Ax = `مجى`, jx = `مح`, Mx = `مح`, Nx = `محج`, Px = `محم`, Fx = `محمد`, Ix = `محى`, Lx = `مخ`, Rx = `مخ`, zx = `مخج`, Bx = `مخم`, Vx = `مخى`, Hx = `مم`, Ux = `مم`, Wx = `مم`, Gx = `ممى`, Kx = `مى`, qx = `مى`, Jx = `نؕ`, Yx = `ن̆`, Xx = `نجح`, Zx = `نجح`, Qx = `نجم`, $x = `نجم`, eS = `نجى`, tS = `نجى`, nS = `نح`, rS = `نح`, iS = `نحم`, aS = `نحى`, oS = `نحى`, sS = `نخ`, cS = `نخ`, lS = `نر`, uS = `نز`, dS = `نم`, fS = `نم`, pS = `نم`, mS = `نم`, hS = `نمى`, gS = `نمى`, _S = `نن`, vS = `نى`, yS = `نى`, bS = `نى`, xS = `نى`, SS = `وۛ`, CS = `وۛ`, wS = `وۛ`, TS = `و̓`, ES = `و̓`, DS = `و̓`, OS = `و̆`, kS = `و̆`, AS = `و̆`, jS = `و̂`, MS = `و̂`, NS = `و̂`, PS = `وٰ`, FS = `وٰ`, IS = `وٰ`, LS = `وٴ`, RS = `وٴ`, zS = `وٴ`, BS = `وٴ`, VS = `و̓ٴ`, HS = `و̓ٴ`, US = `وسلم`, WS = `ىؕ`, GS = `ىؕ`, KS = `ىؕ`, qS = `ىؕ`, JS = `ىؕ`, YS = `ىؕ`, XS = `ىؕ`, ZS = `ىؕ`, QS = `ىؕ`, $S = `ىؕ`, eC = `ىۛ`, tC = `ىۛ`, nC = `ىۛ`, rC = `ىۛ`, iC = `ىۛ`, aC = `ىۛ`, oC = `ىۛ`, sC = `ىۛ`, cC = `ىۛ`, lC = `ىۛ`, uC = `ىۛ`, dC = `ىۛ`, fC = `ىۛ`, pC = `ىۛ`, mC = `ىۛ`, hC = `ىۛ`, gC = `ىۛ`, _C = `ىۛ`, vC = `ىۛۢ`, yC = `ى̆`, bC = `ى̆`, xC = `ى̆̇`, SC = `ى̂`, CC = `ىٔ`, wC = `ىٰ`, TC = `ىٰ`, EC = `ىۛo`, DC = `ىٴ`, OC = `ىٴ`, kC = `ىٴ`, AC = `ىٴ`, jC = `ىٴ`, MC = `ىٴ`, NC = `ىٴl`, PC = `ىٴl`, FC = `ىٴo`, IC = `ىٴo`, LC = `ىٴo`, RC = `ىٴo`, zC = `ىٴٻ`, BC = `ىٴٻ`, VC = `ىٴٻ`, HC = `ىٴج`, UC = `ىٴج`, WC = `ىٴح`, GC = `ىٴح`, KC = `ىٴخ`, qC = `ىٴر`, JC = `ىٴز`, YC = `ىٴم`, XC = `ىٴم`, ZC = `ىٴم`, QC = `ىٴم`, $C = `ىٴن`, ew = `ىٴو`, tw = `ىٴو`, nw = `ىٴو̓`, rw = `ىٴو̓`, iw = `ىٴو̆`, aw = `ىٴو̆`, ow = `ىٴوٰ`, sw = `ىٴوٰ`, cw = `ىٴى`, lw = `ىٴى`, uw = `ىٴى`, dw = `ىٴى`, fw = `ىٴى`, pw = `ىٴى`, mw = `ىٴى`, hw = `ىج`, gw = `ىج`, _w = `ىۛج`, vw = `ىجى`, yw = `ىح`, bw = `ىح`, xw = `ىحى`, Sw = `ىخ`, Cw = `ىخ`, ww = `ىر`, Tw = `ىۛر`, Ew = `ىز`, Dw = `ىۛز`, Ow = `ىم`, kw = `ىم`, Aw = `ىم`, jw = `ىم`, Mw = `ىۛم`, Nw = `ىۛم`, Pw = `ىۛم`, Fw = `ىۛم`, Iw = `ىمم`, Lw = `ىمم`, Rw = `ىمى`, zw = `ىن`, Bw = `ىۛن`, Vw = `ىى`, Hw = `ىى`, Uw = `ىى`, Ww = `ىى`, Gw = `ىۛى`, Kw = `ىۛى`, qw = `ىۛى`, Jw = `ىۛى`, Yw = `अा`, Xw = `अाॆ`, Zw = `अाे`, Qw = `अाै`, $w = `अॆ`, eT = `अॉ`, tT = `एॅ`, nT = `एॆ`, rT = `एे`, iT = `र्इ`, aT = `অা`, oT = `ঋৃ`, sT = `ঋৃ`, cT = `ੳੁ`, lT = `ੳੂ`, uT = `ਅਾ`, dT = `ਅੈ`, fT = `ਅੌ`, pT = `ੲਿ`, mT = `ੲੀ`, hT = `ੲੇ`, gT = `અા`, _T = `અાૅ`, vT = `અાે`, yT = `અાૈ`, bT = `અૅ`, xT = `અે`, ST = `અૈ`, CT = `ଅା`, wT = `உள`, TT = `உൗ`, ET = `டி`, DT = `ఋా`, OT = `ఌా`, kT = `ఒౌ`, AT = `ఒౌ`, jT = `ఒౕ`, MT = `ఒౕ`, NT = `డ̣`, PT = `ధּ`, FT = `బ̣`, IT = `రּ`, LT = `వ̣`, RT = `వా`, zT = `వు`, BT = `ಌಾ`, VT = `ഇൗ`, HT = `എെ`, UT = `ഒാ`, WT = `ഒൗ`, GT = `നു`, KT = `നു`, qT = `ന്`, JT = `ര്`, YT = `𑐴𑑂𑐒`, XT = `𑐴𑑂𑐘`, ZT = `𑐴𑑂𑐣`, QT = `𑐴𑑂𑐩`, $T = `𑐴𑑂𑐬`, eE = `𑐴𑑂𑐮`, tE = `𑖂`, nE = `𑖂`, rE = `𑖃`, iE = `𑖄`, aE = `̊า`, oE = `เเ`, sE = `ຫນ`, cE = `ຫມ`, lE = `̊າ`, uE = `ཨོཾ`, dE = `ဂှ`, fE = `ဂာ`, pE = `ဃှ`, mE = `ပှ`, hE = `ပာ`, gE = `ပာှ`, _E = `ၽှ`, vE = `သြ`, yE = `သြော်`, bE = `ᐁ·`, xE = `ᐁᐠ`, SE = `ᐄ·`, CE = `ᐅ·`, wE = `ᐅᐠ`, TE = `ᐆ·`, EE = `ᐊ·`, DE = `ᐊᐠ`, OE = `ᐋ·`, kE = `ᐞᣟ`, AE = `ᐲ·`, jE = `ᐴ·`, ME = `ᐹ·`, NE = `ᑏ·`, PE = `ᑐ·`, FE = `ᑐ'`, IE = `ᑑ·`, LE = `ᑕ·`, RE = `ᑕ'`, zE = `ᑖ·`, BE = `ᑫ·`, VE = `ᑫ'`, HE = `ᑮ·`, UE = `ᑰ·`, WE = `ᒉ·`, GE = `ᒋ·`, KE = `ᒌ·`, qE = `ᒎ·`, JE = `ᒐ·`, YE = `ᒑ·`, XE = `ᒣ·`, ZE = `ᒦ·`, QE = `ᒧ·`, $E = `ᒨ·`, eD = `ᒫ·`, tD = `ᓀ·`, nD = `ᓂ·`, rD = `ᓃ·`, iD = `ᓄ·`, aD = `ᓅ·`, oD = `ᓇ·`, sD = `ᓈ·`, cD = `ᓓ·`, lD = `ᓕ·`, uD = `ᓖ·`, dD = `ᓗ·`, fD = `ᓘ·`, pD = `ᓚ·`, mD = `ᓛ·`, hD = `ᓭ·`, gD = `ᓯ·`, _D = `ᓰ·`, vD = `ᓱ·`, yD = `ᓲ·`, bD = `ᓴ·`, xD = `ᓵ·`, SD = `ᔋ<`, CD = `ᔋb`, wD = `ᔋᑕ`, TD = `ᔋᒐ`, ED = `ᔐ·`, DD = `ᔑ·`, OD = `ᔒ·`, kD = `ᔓ·`, AD = `ᔔ·`, jD = `ᔕ·`, MD = `ᔖ·`, ND = `ᔨ·`, PD = `ᔩ·`, FD = `ᔪ·`, ID = `ᔫ·`, LD = `ᔭ·`, RD = `ᔮ·`, zD = `ᕃ·`, BD = `ᕌ·`, VD = `ᕐb`, HD = `ᕐḃ`, UD = `ᕐd`, WD = `ᕐP`, GD = `ᕐᑫ`, moe = `ᕐᑬ`, hoe = `ᕐᑮ`, goe = `ᕐᑰ`, _oe = `ᕐᒃ`, voe = `ᕚ·`, yoe = `ᕞ·`, boe = `ᕦ·`, xoe = `ᕧ·`, Soe = `ᕫ·`, Coe = `ᖆ·`, woe = `ᖕJ`, Toe = `ᖕᒉ`, Eoe = `ᖕᒊ`, Doe = `ᖕᒋ`, Ooe = `ᖕᒌ`, koe = `ᖕᒎ`, Aoe = `ᖕᒐ`, joe = `ᖕᒑ`, Moe = `ᖖJ`, Noe = `ᖖᒋ`, Poe = `ᖖᒌ`, Foe = `ᖖᒎ`, Ioe = `ᖖᒐ`, Loe = `ᖖᒑ`, Roe = `ᖗ·`, zoe = `ᖧ·`, Boe = `ᖨ·`, Voe = `ᖩ·`, Hoe = `ᖪ·`, Uoe = `ᖫ·`, Woe = `ᖬ·`, Goe = `ᖭ·`, Koe = `ᗴ·`, qoe = `ᘛ·`, Joe = `ᣟᐞ`, Yoe = `ᄀᄀ`, Xoe = `ᄀᄀ`, Zoe = `ᄀᄀ`, Qoe = `ᄀᄂ`, $oe = `ᄀᄃ`, ese = `ᄀᄅ`, tse = `ᄀᄇ`, nse = `ᄀᄉ`, rse = `ᄀᄉ`, ise = `ᄀᄉᄀ`, ase = `ᄀᄎ`, ose = `ᄀᄏ`, sse = `ᄀᄒ`, cse = `ᄂᄀ`, lse = `ᄂᄀ`, use = `ᄂᄂ`, dse = `ᄂᄂ`, fse = `ᄂᄂ`, pse = `ᄂᄃ`, mse = `ᄂᄃ`, hse = `ᄂᄃ`, gse = `ᄂᄅ`, _se = `ᄂᄇ`, vse = `ᄂᄉ`, KD = `ᄂᄉ`, qD = `ᄂᄉ`, JD = `ᄂᄌ`, YD = `ᄂᄌ`, XD = `ᄂᄌ`, ZD = `ᄂᄎ`, QD = `ᄂᄐ`, $D = `ᄂᄒ`, eO = `ᄂᄒ`, tO = `ᄂᄒ`, nO = `ᄂᅀ`, rO = `ᄂᅀ`, iO = `ᄃᄀ`, aO = `ᄃᄀ`, oO = `ᄃᄃ`, sO = `ᄃᄃ`, cO = `ᄃᄃ`, lO = `ᄃᄃᄇ`, uO = `ᄃᄅ`, dO = `ᄃᄅ`, fO = `ᄃᄆ`, pO = `ᄃᄇ`, mO = `ᄃᄇ`, hO = `ᄃᄉ`, gO = `ᄃᄉ`, _O = `ᄃᄉᄀ`, vO = `ᄃᄌ`, yO = `ᄃᄌ`, bO = `ᄃᄎ`, xO = `ᄃᄐ`, SO = `ᄅᄀ`, CO = `ᄅᄀ`, wO = `ᄅᄀ`, TO = `ᄅᄀᄀ`, EO = `ᄅᄀᄀ`, DO = `ᄅᄀᄉ`, OO = `ᄅᄀᄉ`, kO = `ᄅᄀᄒ`, AO = `ᄅᄂ`, jO = `ᄅᄂ`, MO = `ᄅᄃ`, NO = `ᄅᄃ`, PO = `ᄅᄃ`, FO = `ᄅᄃᄃ`, IO = `ᄅᄃᄒ`, LO = `ᄅᄅ`, RO = `ᄅᄅ`, zO = `ᄅᄅᄏ`, BO = `ᄅᄆ`, VO = `ᄅᄆ`, HO = `ᄅᄆ`, UO = `ᄅᄆᄀ`, WO = `ᄅᄆᄉ`, GO = `ᄅᄆᄒ`, KO = `ᄅᄇ`, qO = `ᄅᄇ`, JO = `ᄅᄇ`, YO = `ᄅᄇᄃ`, XO = `ᄅᄇᄇ`, ZO = `ᄅᄇᄉ`, QO = `ᄅᄇᄉ`, $O = `ᄅᄇᄋ`, ek = `ᄅᄇᄋ`, tk = `ᄅᄇᄑ`, nk = `ᄅᄇᄒ`, rk = `ᄅᄉ`, ik = `ᄅᄉ`, ak = `ᄅᄉ`, ok = `ᄅᄉᄉ`, sk = `ᄅᄋ`, ck = `ᄅᄋ`, lk = `ᄅᄌ`, uk = `ᄅᄏ`, dk = `ᄅᄏ`, fk = `ᄅᄐ`, pk = `ᄅᄐ`, mk = `ᄅᄑ`, hk = `ᄅᄑ`, gk = `ᄅᄒ`, _k = `ᄅᄒ`, vk = `ᄅᄒ`, yk = `ᄅᄒ`, bk = `ᄅᄒ`, xk = `ᄅᅀ`, Sk = `ᄅᅀ`, Ck = `ᄅᅌ`, wk = `ᄅᅙ`, Tk = `ᄅᅙ`, Ek = `ᄅᅙᄒ`, Dk = `ᄆᄀ`, Ok = `ᄆᄀ`, kk = `ᄆᄂ`, Ak = `ᄆᄂᄂ`, jk = `ᄆᄃ`, Mk = `ᄆᄅ`, Nk = `ᄆᄆ`, Pk = `ᄆᄇ`, Fk = `ᄆᄇ`, Ik = `ᄆᄇ`, Lk = `ᄆᄇᄉ`, Rk = `ᄆᄉ`, zk = `ᄆᄉ`, Bk = `ᄆᄉ`, Vk = `ᄆᄉᄉ`, Hk = `ᄆᄋ`, Uk = `ᄆᄋ`, Wk = `ᄆᄋ`, Gk = `ᄆᄌ`, Kk = `ᄆᄎ`, qk = `ᄆᄒ`, Jk = `ᄆᅀ`, Yk = `ᄆᅀ`, Xk = `ᄇᄀ`, Zk = `ᄇᄀ`, Qk = `ᄇᄂ`, $k = `ᄇᄃ`, eA = `ᄇᄃ`, tA = `ᄇᄃ`, nA = `ᄇᄅ`, rA = `ᄇᄅᄑ`, iA = `ᄇᄆ`, aA = `ᄇᄇ`, oA = `ᄇᄇ`, sA = `ᄇᄇ`, cA = `ᄇᄇᄋ`, lA = `ᄇᄇᄋ`, uA = `ᄇᄉ`, dA = `ᄇᄉ`, fA = `ᄇᄉ`, pA = `ᄇᄉᄀ`, mA = `ᄇᄉᄀ`, hA = `ᄇᄉᄃ`, gA = `ᄇᄉᄃ`, _A = `ᄇᄉᄃ`, vA = `ᄇᄉᄇ`, yA = `ᄇᄉᄉ`, bA = `ᄇᄉᄌ`, xA = `ᄇᄉᄐ`, SA = `ᄇᄋ`, CA = `ᄇᄋ`, wA = `ᄇᄋ`, TA = `ᄇᄌ`, EA = `ᄇᄌ`, DA = `ᄇᄌ`, OA = `ᄇᄎ`, kA = `ᄇᄎ`, AA = `ᄇᄏ`, jA = `ᄇᄐ`, MA = `ᄇᄐ`, NA = `ᄇᄑ`, PA = `ᄇᄑ`, FA = `ᄇᄒ`, IA = `ᄇᄒ`, LA = `ᄉᄀ`, RA = `ᄉᄀ`, zA = `ᄉᄀ`, BA = `ᄉᄂ`, VA = `ᄉᄂ`, HA = `ᄉᄃ`, UA = `ᄉᄃ`, WA = `ᄉᄃ`, GA = `ᄉᄅ`, KA = `ᄉᄅ`, qA = `ᄉᄆ`, JA = `ᄉᄆ`, YA = `ᄉᄇ`, XA = `ᄉᄇ`, ZA = `ᄉᄇ`, QA = `ᄉᄇᄀ`, $A = `ᄉᄇᄋ`, ej = `ᄉᄉ`, tj = `ᄉᄉ`, nj = `ᄉᄉ`, rj = `ᄉᄉᄀ`, ij = `ᄉᄉᄃ`, aj = `ᄉᄉᄇ`, oj = `ᄉᄉᄉ`, sj = `ᄉᄋ`, cj = `ᄉᄌ`, lj = `ᄉᄌ`, uj = `ᄉᄌ`, dj = `ᄉᄎ`, fj = `ᄉᄎ`, pj = `ᄉᄏ`, mj = `ᄉᄐ`, hj = `ᄉᄐ`, gj = `ᄉᄑ`, _j = `ᄉᅀ`, vj = `ᄋᄀ`, yj = `ᄋᄀ`, bj = `ᄋᄀᄀ`, xj = `ᄋᄃ`, Sj = `ᄋᄅ`, Cj = `ᄋᄆ`, wj = `ᄋᄇ`, Tj = `ᄋᄉ`, Ej = `ᄋᄉ`, Dj = `ᄋᄉ`, Oj = `ᄋᄋ`, kj = `ᄋᄋ`, Aj = `ᄋᄋ`, jj = `ᄋᄌ`, Mj = `ᄋᄎ`, Nj = `ᄋᄏ`, Pj = `ᄋᄐ`, Fj = `ᄋᄑ`, Ij = `ᄋᄒ`, Lj = `ᄋᅀ`, Rj = `ᄋᅀ`, zj = `ᄋᅀ`, Bj = `ᄌᄇ`, Vj = `ᄌᄇᄇ`, Hj = `ᄌᄋ`, Uj = `ᄌᄌ`, Wj = `ᄌᄌ`, Gj = `ᄌᄌ`, Kj = `ᄌᄌᄒ`, qj = `ᄎᄏ`, Jj = `ᄎᄒ`, Yj = `ᄐᄐ`, Xj = `ᄑᄇ`, Zj = `ᄑᄇ`, Qj = `ᄑᄉ`, $j = `ᄑᄋ`, eM = `ᄑᄋ`, tM = `ᄑᄋ`, nM = `ᄑᄐ`, rM = `ᄑᄒ`, iM = `ᄒᄂ`, aM = `ᄒᄅ`, oM = `ᄒᄆ`, sM = `ᄒᄇ`, cM = `ᄒᄉ`, lM = `ᄒᄒ`, uM = `ᄒᄒ`, dM = `ᄼᄼ`, fM = `ᄾᄾ`, pM = `ᅀᄇ`, mM = `ᅀᄇᄋ`, hM = `ᅌᄆ`, gM = `ᅌᄒ`, _M = `ᅎᅎ`, vM = `ᅐᅐ`, yM = `ᅙᅙ`, bM = `ᅡー`, xM = `ᅡᅩ`, SM = `ᅡᅮ`, CM = `ᅡ丨`, wM = `ᅡ丨`, TM = `ᅣᅩ`, EM = `ᅣᅭ`, DM = `ᅣᅮ`, OM = `ᅣ丨`, kM = `ᅣ丨`, AM = `ᅥー`, jM = `ᅥᅩ`, MM = `ᅥᅮ`, NM = `ᅥ丨`, PM = `ᅥ丨`, FM = `ᅧᅣ`, IM = `ᅧᅩ`, LM = `ᅧᅮ`, RM = `ᅧ丨`, zM = `ᅧ丨`, BM = `ᅩᅡ`, VM = `ᅩᅡ`, HM = `ᅩᅡ丨`, UM = `ᅩᅡ丨`, WM = `ᅩᅣ`, GM = `ᅩᅣ丨`, KM = `ᅩᅥ`, qM = `ᅩᅥ丨`, JM = `ᅩᅧ`, YM = `ᅩᅧ丨`, XM = `ᅩᅩ`, ZM = `ᅩᅩ丨`, QM = `ᅩᅮ`, $M = `ᅩ丨`, eN = `ᅩ丨`, tN = `ᅭᅡ`, nN = `ᅭᅡ丨`, rN = `ᅭᅣ`, iN = `ᅭᅣ`, aN = `ᅭᅣ`, oN = `ᅭᅣ丨`, sN = `ᅭᅣ丨`, cN = `ᅭᅥ`, lN = `ᅭᅩ`, uN = `ᅭ丨`, dN = `ᅭ丨`, fN = `ᅮᅡ`, pN = `ᅮᅡ丨`, mN = `ᅮᅥ`, hN = `ᅮᅥ`, gN = `ᅮᅥー`, _N = `ᅮᅥ丨`, vN = `ᅮᅥ丨`, yN = `ᅮᅧ`, bN = `ᅮᅧ丨`, xN = `ᅮᅮ`, SN = `ᅮ丨`, CN = `ᅮ丨`, wN = `ᅮ丨丨`, TN = `ᅲᅡ`, EN = `ᅲᅡ丨`, DN = `ᅲᅥ`, ON = `ᅲᅥ丨`, kN = `ᅲᅧ`, AN = `ᅲᅧ`, jN = `ᅲᅧ丨`, MN = `ᅲᅧ丨`, NN = `ᅲᅩ`, PN = `ᅲᅮ`, FN = `ᅲ丨`, IN = `ᅲ丨`, LN = `ᆞᅡ`, RN = `ᆞᅥ`, zN = `ᆞᅥ丨`, BN = `ᆞᅮ`, VN = `ᆞᆞ`, HN = `ᆞ丨`, UN = `ᆞ丨`, WN = `𑫥𑫯`, GN = `𑫥𑫥`, KN = `𑫥𑫥𑫯`, qN = `𑫥𑫥𑫰`, JN = `𑫥𑫰`, YN = `𑫳𑫯`, XN = `𑫳𑫳`, ZN = `𑫳𑫳𑫯`, QN = `𑫳𑫳𑫰`, $N = `𑫳𑫰`, eP = `𑫫𑫯`, tP = `𑫫𑫫`, nP = `𑫫𑫫𑫯`, rP = `𐊨`, iP = `𐐺`, aP = `𐐒`, oP = `𐎂`, sP = `𐎓`, cP = `𐎚`, lP = `𐦞`, uP = `丨ー`, dP = `丨ᅡ`, fP = `丨ᅣ`, pP = `丨ᅣᅩ`, mP = `丨ᅣ丨`, hP = `丨ᅧ`, gP = `丨ᅧ丨`, _P = `丨ᅩ`, vP = `丨ᅩ丨`, yP = `丨ᅭ`, bP = `丨ᅮ`, xP = `丨ᅲ`, SP = `丨ᆞ`, CP = `丨丨`, wP = `𠄢`, TP = `𠔜`, EP = `𠔥`, DP = `𠕋`, OP = `𠘺`, kP = `𠠄`, AP = `𠣞`, jP = `𠨬`, MP = `𠭣`, NP = `𡓤`, PP = `𡚨`, FP = `𡛪`, IP = `𡧈`, LP = `𡬘`, RP = `𡴋`, zP = `𡷤`, BP = `𡷦`, VP = `𢆃`, HP = `𢆟`, UP = `𢌱`, WP = `𢌱`, GP = `𢛔`, KP = `𢡄`, qP = `𢡊`, JP = `𢬌`, YP = `𢯱`, XP = `𣀊`, ZP = `𣊸`, QP = `𣍟`, $P = `𣎓`, eF = `𣎜`, tF = `𣏃`, nF = `𣏕`, rF = `𣑭`, iF = `𣚣`, aF = `𣢧`, oF = `𣪍`, sF = `𣫺`, cF = `𣲼`, lF = `𣴞`, uF = `𣻑`, dF = `𣽞`, fF = `𣾎`, pF = `𤉣`, mF = `𤋮`, hF = `𤎫`, gF = `𤘈`, _F = `𤜵`, vF = `𤠔`, yF = `𤰶`, bF = `𤲒`, xF = `𤾡`, SF = `𤾸`, CF = `𥁄`, wF = `𥃲`, TF = `𥃳`, EF = `𥄙`, DF = `𥄳`, OF = `𥉉`, kF = `𥐝`, AF = `𥘦`, jF = `𥚚`, MF = `𥛅`, NF = `𥥼`, PF = `𥪧`, FF = `𥪧`, IF = `𥮫`, LF = `𥲀`, RF = `𥳐`, zF = `𥾆`, BF = `𦇚`, VF = `𦈨`, HF = `𦉇`, UF = `𦋙`, WF = `𦌾`, GF = `𦓚`, KF = `𦔣`, qF = `𦖨`, JF = `𦞧`, YF = `𦞵`, XF = `𦬼`, ZF = `𦰶`, QF = `𦳕`, $F = `𦵫`, eI = `𦼬`, tI = `𦾱`, nI = `𧃒`, rI = `𧏊`, iI = `𧙧`, aI = `𧢮`, oI = `𧥦`, sI = `𧲨`, cI = `𧻓`, lI = `𧼯`, uI = `𨗒`, dI = `𨗭`, fI = `𨜮`, pI = `𨯺`, mI = `𨵷`, hI = `𩅅`, gI = `𩇟`, _I = `𩈚`, vI = `𩐊`, yI = `𩒖`, bI = `𩖶`, xI = `𩬰`, SI = `𪃎`, CI = `𪄅`, wI = `𪈎`, TI = `𪊑`, EI = `𪎒`, DI = `𪘀`, yse = {
             0: `O`,
             1: `l`,
             "֭": `֖`,
@@ -31312,7 +31312,7 @@ In order to be iterable, non-array objects must have a [Symbol.iterator]() metho
             ѣ: `b̵`,
             Ѣ: `b̵`,
             ᑿ: `b·`,
-            ᒁ: Dre,
+            ᒁ: Sg,
             ᒈ: `b'`,
             Ы: `bl`,
             в: `ʙ`,
@@ -31531,7 +31531,7 @@ In order to be iterable, non-array objects must have a [Symbol.iterator]() metho
             "∃": `Ǝ`,
             ⴺ: `Ǝ`,
             ꓱ: `Ǝ`,
-            ɚ: Sg,
+            ɚ: Dre,
             ᴔ: `ǝo`,
             ꭁ: Cg,
             ꭂ: wg,
@@ -33698,10 +33698,10 @@ In order to be iterable, non-array objects must have a [Symbol.iterator]() metho
             ﴐ: Cx,
             ﲷ: wx,
             ﰥ: Tx,
-            ﴣ: Ore,
-            ﴇ: kre,
-            ﴤ: Are,
-            ﴈ: jre,
+            ﴣ: Ex,
+            ﴇ: Ore,
+            ﴤ: kre,
+            ﴈ: Are,
             "𐋨": `ط`,
             𞸈: `ط`,
             𞹨: `ط`,
@@ -33711,20 +33711,20 @@ In order to be iterable, non-array objects must have a [Symbol.iterator]() metho
             ﻄ: `ط`,
             ﻂ: `ط`,
             ﻁ: `ط`,
-            ڟ: Mre,
-            ﲸ: Nre,
-            ﰦ: Pre,
-            ﴳ: Fre,
-            ﴺ: Ire,
-            ﰧ: Lre,
-            ﵲ: Rre,
-            ﵱ: zre,
-            ﵳ: Bre,
-            ﵴ: Vre,
-            ﴑ: Hre,
-            ﳵ: Ure,
-            ﴒ: Wre,
-            ﳶ: Gre,
+            ڟ: jre,
+            ﲸ: Mre,
+            ﰦ: Nre,
+            ﴳ: Pre,
+            ﴺ: Fre,
+            ﰧ: Ire,
+            ﵲ: Lre,
+            ﵱ: Rre,
+            ﵳ: zre,
+            ﵴ: Bre,
+            ﴑ: Vre,
+            ﳵ: Hre,
+            ﴒ: Ure,
+            ﳶ: Wre,
             𞸚: `ظ`,
             𞹺: `ظ`,
             𞺚: `ظ`,
@@ -33733,9 +33733,9 @@ In order to be iterable, non-array objects must have a [Symbol.iterator]() metho
             ﻈ: `ظ`,
             ﻆ: `ظ`,
             ﻅ: `ظ`,
-            ﲹ: Kre,
-            ﴻ: qre,
-            ﰨ: Jre,
+            ﲹ: Gre,
+            ﴻ: Kre,
+            ﰨ: qre,
             "؏": `ع`,
             𞸏: `ع`,
             𞸯: `ع`,
@@ -33747,21 +33747,21 @@ In order to be iterable, non-array objects must have a [Symbol.iterator]() metho
             ﻌ: `ع`,
             ﻊ: `ع`,
             ﻉ: `ع`,
-            ﲺ: Yre,
-            ﰩ: Xre,
-            ﷄ: Zre,
-            ﵵ: Qre,
-            ﷷ: $re,
-            ﲻ: eie,
-            ﰪ: tie,
-            ﵷ: nie,
-            ﵶ: rie,
-            ﵸ: iie,
-            ﶶ: aie,
-            ﴓ: oie,
-            ﳷ: sie,
-            ﴔ: cie,
-            ﳸ: lie,
+            ﲺ: Jre,
+            ﰩ: Yre,
+            ﷄ: Xre,
+            ﵵ: Zre,
+            ﷷ: Qre,
+            ﲻ: $re,
+            ﰪ: eie,
+            ﵷ: tie,
+            ﵶ: nie,
+            ﵸ: rie,
+            ﶶ: iie,
+            ﴓ: aie,
+            ﳷ: oie,
+            ﴔ: sie,
+            ﳸ: cie,
             𞸛: `غ`,
             𞸻: `غ`,
             𞹛: `غ`,
@@ -33772,17 +33772,17 @@ In order to be iterable, non-array objects must have a [Symbol.iterator]() metho
             ﻐ: `غ`,
             ﻎ: `غ`,
             ﻍ: `غ`,
-            ﲼ: uie,
-            ﰫ: die,
-            ﲽ: fie,
-            ﰬ: pie,
-            ﵹ: mie,
-            ﵻ: hie,
-            ﵺ: gie,
-            ﴕ: _ie,
-            ﳹ: vie,
-            ﴖ: yie,
-            ﳺ: bie,
+            ﲼ: lie,
+            ﰫ: uie,
+            ﲽ: die,
+            ﰬ: fie,
+            ﵹ: pie,
+            ﵻ: mie,
+            ﵺ: hie,
+            ﴕ: gie,
+            ﳹ: _ie,
+            ﴖ: vie,
+            ﳺ: yie,
             𞸐: `ف`,
             𞸰: `ف`,
             𞹰: `ف`,
@@ -33793,21 +33793,21 @@ In order to be iterable, non-array objects must have a [Symbol.iterator]() metho
             ﻒ: `ف`,
             ﻑ: `ف`,
             ڧ: `ف`,
-            ﲾ: xie,
-            ﰭ: Sie,
-            ﲿ: Cie,
-            ﰮ: wie,
-            ﳀ: Tie,
-            ﰯ: Eie,
-            ﵽ: Die,
-            ﵼ: Oie,
-            ﳁ: kie,
-            ﰰ: Aie,
-            ﷁ: jie,
-            ﱼ: Mie,
-            ﰱ: Nie,
-            ﱽ: Pie,
-            ﰲ: Fie,
+            ﲾ: bie,
+            ﰭ: xie,
+            ﲿ: Sie,
+            ﰮ: Cie,
+            ﳀ: wie,
+            ﰯ: Tie,
+            ﵽ: Eie,
+            ﵼ: Die,
+            ﳁ: Oie,
+            ﰰ: kie,
+            ﷁ: Aie,
+            ﱼ: jie,
+            ﰱ: Mie,
+            ﱽ: Nie,
+            ﰲ: Pie,
             𞸞: `ڡ`,
             𞹾: `ڡ`,
             ࢻ: `ڡ`,
@@ -33815,13 +33815,13 @@ In order to be iterable, non-array objects must have a [Symbol.iterator]() metho
             𞸟: `ڡ`,
             𞹟: `ڡ`,
             ࢼ: `ڡ`,
-            ڤ: Iie,
-            ﭬ: Lie,
-            ﭭ: Rie,
-            ﭫ: zie,
-            ﭪ: Bie,
-            ڨ: Vie,
-            ࢤ: Hie,
+            ڤ: Fie,
+            ﭬ: Iie,
+            ﭭ: Lie,
+            ﭫ: Rie,
+            ﭪ: zie,
+            ڨ: Bie,
+            ࢤ: Vie,
             ﭰ: `ڦ`,
             ﭱ: `ڦ`,
             ﭯ: `ڦ`,
@@ -33836,19 +33836,19 @@ In order to be iterable, non-array objects must have a [Symbol.iterator]() metho
             ﻘ: `ق`,
             ﻖ: `ق`,
             ﻕ: `ق`,
-            ﳂ: Uie,
-            ﰳ: Wie,
-            ﷱ: Gie,
-            ﳃ: Kie,
-            ﰴ: qie,
-            ﶴ: Jie,
-            ﵾ: Yie,
-            ﵿ: Xie,
-            ﶲ: Zie,
-            ﱾ: Qie,
-            ﰵ: $ie,
-            ﱿ: eae,
-            ﰶ: tae,
+            ﳂ: Hie,
+            ﰳ: Uie,
+            ﷱ: Wie,
+            ﳃ: Gie,
+            ﰴ: Kie,
+            ﶴ: qie,
+            ﵾ: Jie,
+            ﵿ: Yie,
+            ﶲ: Xie,
+            ﱾ: Zie,
+            ﰵ: Qie,
+            ﱿ: $ie,
+            ﰶ: eae,
             𞸊: `ك`,
             𞸪: `ك`,
             𞹪: `ك`,
@@ -33862,42 +33862,42 @@ In order to be iterable, non-array objects must have a [Symbol.iterator]() metho
             ﮏ: `ك`,
             ﮎ: `ك`,
             ڪ: `ك`,
-            ڭ: nae,
-            ﯕ: rae,
-            ﯖ: iae,
-            ﯔ: aae,
-            ﯓ: oae,
-            ݣ: sae,
+            ڭ: tae,
+            ﯕ: nae,
+            ﯖ: rae,
+            ﯔ: iae,
+            ﯓ: aae,
+            ݣ: oae,
             ﲀ: `كl`,
             ﰷ: `كl`,
-            ﳄ: cae,
-            ﰸ: lae,
-            ﳅ: uae,
-            ﰹ: dae,
-            ﳆ: fae,
-            ﰺ: pae,
-            ﳇ: mae,
-            ﳫ: hae,
-            ﲁ: gae,
-            ﰻ: _ae,
-            ﳈ: vae,
-            ﳬ: yae,
-            ﲂ: bae,
-            ﰼ: xae,
-            ﷃ: Sae,
-            ﶻ: Cae,
-            ﶷ: wae,
-            ﲃ: Tae,
-            ﰽ: Eae,
-            ﲄ: Dae,
-            ﰾ: Oae,
+            ﳄ: sae,
+            ﰸ: cae,
+            ﳅ: lae,
+            ﰹ: uae,
+            ﳆ: dae,
+            ﰺ: fae,
+            ﳇ: pae,
+            ﳫ: mae,
+            ﲁ: hae,
+            ﰻ: gae,
+            ﳈ: _ae,
+            ﳬ: vae,
+            ﲂ: yae,
+            ﰼ: bae,
+            ﷃ: xae,
+            ﶻ: Sae,
+            ﶷ: Cae,
+            ﲃ: wae,
+            ﰽ: Tae,
+            ﲄ: Eae,
+            ﰾ: Dae,
             ݢ: `ڬ`,
             ﮔ: `گ`,
             ﮕ: `گ`,
             ﮓ: `گ`,
             ﮒ: `گ`,
             ࢰ: `گ`,
-            ڴ: kae,
+            ڴ: Oae,
             ﮜ: `ڱ`,
             ﮝ: `ڱ`,
             ﮛ: `ڱ`,
@@ -33915,45 +33915,45 @@ In order to be iterable, non-array objects must have a [Symbol.iterator]() metho
             ﻠ: `ل`,
             ﻞ: `ل`,
             ﻝ: `ل`,
-            ڷ: Aae,
-            ڵ: jae,
+            ڷ: kae,
+            ڵ: Aae,
             ﻼ: `لl`,
             ﻻ: `لl`,
-            ﻺ: Mae,
-            ﻹ: Nae,
-            ﻸ: Pae,
-            ﻷ: Fae,
+            ﻺ: jae,
+            ﻹ: Mae,
+            ﻸ: Nae,
+            ﻷ: Pae,
             ﳍ: `لo`,
-            ﻶ: Iae,
-            ﻵ: Lae,
-            ﳉ: Rae,
-            ﰿ: zae,
-            ﶃ: Bae,
-            ﶄ: Vae,
-            ﶺ: Hae,
-            ﶼ: Uae,
-            ﶬ: Wae,
-            ﳊ: Gae,
-            ﱀ: Kae,
-            ﶵ: qae,
-            ﶀ: Jae,
-            ﶂ: Yae,
-            ﶁ: Xae,
-            ﳋ: Zae,
-            ﱁ: Qae,
-            ﶆ: $ae,
-            ﶅ: eoe,
-            ﳌ: toe,
-            ﳭ: noe,
-            ﲅ: roe,
-            ﱂ: ioe,
-            ﶈ: aoe,
-            ﶇ: ooe,
-            ﶭ: soe,
-            ﲆ: coe,
-            ﱃ: loe,
-            ﲇ: uoe,
-            ﱄ: doe,
+            ﻶ: Fae,
+            ﻵ: Iae,
+            ﳉ: Lae,
+            ﰿ: Rae,
+            ﶃ: zae,
+            ﶄ: Bae,
+            ﶺ: Vae,
+            ﶼ: Hae,
+            ﶬ: Uae,
+            ﳊ: Wae,
+            ﱀ: Gae,
+            ﶵ: Kae,
+            ﶀ: qae,
+            ﶂ: Jae,
+            ﶁ: Yae,
+            ﳋ: Xae,
+            ﱁ: Zae,
+            ﶆ: Qae,
+            ﶅ: $ae,
+            ﳌ: eoe,
+            ﳭ: toe,
+            ﲅ: noe,
+            ﱂ: roe,
+            ﶈ: ioe,
+            ﶇ: aoe,
+            ﶭ: ooe,
+            ﲆ: soe,
+            ﱃ: coe,
+            ﲇ: loe,
+            ﱄ: uoe,
             𞸌: `م`,
             𞸬: `م`,
             𞹬: `م`,
@@ -33963,11 +33963,11 @@ In order to be iterable, non-array objects must have a [Symbol.iterator]() metho
             ﻤ: `م`,
             ﻢ: `م`,
             ﻡ: `م`,
-            ࢧ: foe,
+            ࢧ: doe,
             "۾": `م͈`,
             ﲈ: `مl`,
-            ﳎ: poe,
-            ﱅ: Ex,
+            ﳎ: foe,
+            ﱅ: poe,
             ﶌ: Dx,
             ﶒ: Ox,
             ﶍ: kx,
@@ -53005,7 +53005,7 @@ Date.now: "${Date.now()}`);
                 var i = t.getDeviceId();
                 if (i === null) throw Error(`Cannot enable encryption on MatrixClient with unknown deviceId: ensure deviceId is passed in createClient().`);
                 t.logger.debug(`Downloading Rust crypto library`);
-                var a = yield (yield l(()=>import(`./rust-crypto-gRj--5Y7.js`).then(async (m)=>{
+                var a = yield (yield l(()=>import(`./rust-crypto-CRylCC4B.js`).then(async (m)=>{
                         await m.__tla;
                         return m;
                     }), __vite__mapDeps([0,1]))).initRustCrypto({
@@ -113788,7 +113788,7 @@ https://www.w3ctech.com/topic/2226`));
             return;
         }
     };
-    nNe = (0, A.lazy)(()=>l(()=>import(`./ReactPrism-BgIZEJhx.js`).then(async (m)=>{
+    nNe = (0, A.lazy)(()=>l(()=>import(`./ReactPrism-D_fyEXqd.js`).then(async (m)=>{
                 await m.__tla;
                 return m;
             }), __vite__mapDeps([8,1,9])));
@@ -115507,7 +115507,7 @@ https://www.w3ctech.com/topic/2226`));
             let { value: n } = this.target;
             return this.target.value = `${n.substring(0, e.start)}${t}${n.substring(e.end)}`, new N1(e.start, e.start + t.length, e.direction);
         }
-    }, dPe = `_1v145rl0 _1mqalmd1 _1mqalmd0`, fPe = `_1v145rl1 _1mqalmd1 _1mqalmd0`, pPe = `_1v145rl2 _1mqalmd1 _1mqalmd0`, mPe = `_1v145rl3 _1mqalmd1 _1mqalmd0`, hPe = `_1v145rl4`, gPe = (0, A.lazy)(()=>l(()=>import(`./ReactPrism-BgIZEJhx.js`).then(async (m)=>{
+    }, dPe = `_1v145rl0 _1mqalmd1 _1mqalmd0`, fPe = `_1v145rl1 _1mqalmd1 _1mqalmd0`, pPe = `_1v145rl2 _1mqalmd1 _1mqalmd0`, mPe = `_1v145rl3 _1mqalmd1 _1mqalmd0`, hPe = `_1v145rl4`, gPe = (0, A.lazy)(()=>l(()=>import(`./ReactPrism-D_fyEXqd.js`).then(async (m)=>{
                 await m.__tla;
                 return m;
             }), __vite__mapDeps([8,1,9]))), P1 = (0, A.forwardRef)(({ text: e, langName: t, size: n, className: r, ...i }, a)=>(0, j.jsx)(R, {
@@ -124723,7 +124723,7 @@ https://www.w3ctech.com/topic/2226`));
                         await m.__tla;
                         return m;
                     }), []),
-                l(()=>import(`./tauri-hls-loader-B0KZzr3A.js`).then(async (m)=>{
+                l(()=>import(`./tauri-hls-loader-BWjP6D1l.js`).then(async (m)=>{
                         await m.__tla;
                         return m;
                     }), [])
@@ -125873,7 +125873,7 @@ https://www.w3ctech.com/topic/2226`));
             })
         });
     }), uBe = `ty6xms0 _1mqalmd1 _1mqalmd0`, dBe = `ty6xms1 _1mqalmd1 _1mqalmd0`, A4 = ()=>Ha(`/app/`), fBe = ()=>ip((0, A.useCallback)(async ()=>{
-            let e = await l(()=>import(`./pdf-DRV-pPvh.js`).then(async (m)=>{
+            let e = await l(()=>import(`./pdf-BfYLamtj.js`).then(async (m)=>{
                     await m.__tla;
                     return m;
                 }), __vite__mapDeps([10,11]));
@@ -167479,7 +167479,7 @@ In order to be iterable, non-array objects must have a [Symbol.iterator]() metho
         let n = parseInt(t[1], 10), r = parseInt(t[2], 10) - 1, i = t[3];
         return r < 0 || r > 11 ? e : `${n} ${xat[r]} ${i}`;
     }
-    var Cat = '# Changelog\n\nUser-facing changes per commit. Most recent at the top.\n\n## 17.08.2026\n\n- `0956b9d` Fixed **Prinny failing to start** with "Server versions are not provided!". Introduced the same day by the notification-avatar caching: it asked about your homeserver\'s capabilities from a place in the app that is set up *before* that information exists, and the error took the whole client down to a blank error page rather than being contained. It now runs from a point where the connection is already established.\n\n- `570934d` Fixed **the same new message being flagged twice** when unread chats are shown as avatars in the left rail. The chat\'s own avatar lit up and so did Home, a few pixels apart, for one message. Home now leaves it to the avatar, which is the more useful of the two because it tells you *who*.\n- `570934d` Fixed **the local-time hover flickering** when you held the pointer on a timestamp. The two versions of the text are different lengths, so swapping them resized the thing you were pointing at out from under the pointer, which ended the hover, which put it back — several times a second while you held perfectly still. The timestamp now reserves room for both, so nothing moves.\n- `570934d` Improved **what that hover actually says**. It was a bare time with no am/pm and nothing to say whose clock it was. It now follows your 12/24-hour setting like every other timestamp, and names the place — "07:40 AM Chicago" rather than "07:40".\n- `570934d` Fixed **double-click to reply doing nothing** when you double-clicked the message itself. It was deliberately ignoring the text, on the reasoning that double-clicking words means "select this word" — but the text is the part you aim at, so the feature only worked on the empty space beside a message and looked broken. It now works anywhere on the message; the word still gets selected as well, and the switch to turn it off is where it always was.\n\n- `0ed87bd` Fixed **the Windows taskbar button barely flashing** for a new message. It was asking Windows for the wrong kind of alert — one that blinks the button exactly four times and then goes quiet, so unless you happened to be looking at the taskbar in that second, nothing appeared to have happened at all. It now stays lit until you actually bring Prinny to the front, the way Discord does. Nothing flashes while you are already reading.\n\n- `6ab2314` Fixed **the Android back gesture closing Prinny** instead of going back. Swiping back or pressing Back quit the app from anywhere — including from a room you had just opened — so the only way back to your chat list was the on-screen controls. It now steps back through where you have been, and only leaves the app once there is nowhere left to go. One thing it still cannot dismiss is the Settings dialog, which isn\'t a place you navigated to; Back there moves the screen behind it instead.\n\n- `bfe1dcf` `e2a6624` Added **the sender\'s picture to Android notifications** that arrive while the app is closed. Those are posted by the app\'s Android half, which runs with no account and no connection of its own, so it had no way to fetch anyone\'s avatar and showed none. Pictures are now saved while the app is running and looked up by who sent the message, so nothing has to be downloaded — or signed in — at the moment a notification arrives. Someone messaging you for the very first time while the app is shut will still have no picture until the app next runs.\n- `bfe1dcf` `e2a6624` Fixed **your phone notifying you about messages you already read on another device**, and leaving them sitting in the notification shade afterwards. When you read a room somewhere else, your server sends a message saying "nothing unread here anymore" — Prinny was treating that as a new message and posting **New message** for it, so reading on the desktop actually *created* a notification on your phone. It now clears that room\'s notification instead.\n\n- `67c9298` Added **the sender\'s local time on a timestamp**. Hover the time on someone\'s message and it becomes the time it was on *their* clock when they sent it, for as long as you\'re pointing at it. It answers the thing a timestamp cannot in a room spread across the world — a reply at 03:40 their time means something different from a slow one. If the time difference lands the message on another day where they are, the date is shown too, because "08:30" under a message dated yesterday would just be wrong. Only works for people who have set their time zone in Settings → Account, and nothing changes on hover for anyone who hasn\'t. Your own time zone is set in the same place.\n- `2b09da0` Added **"Default Inbox Tab"** to Settings → General → Layout, and fixed the Inbox ignoring it. Opening the Inbox went wherever you had left it last time, remembered from before any of this existed — so it kept landing on Notifications no matter what the default was meant to be, and there were three separate ways in (the sidebar, the top bar, and the address itself) that each decided for themselves. They now all ask the same setting, and the setting decides rather than being overruled by where you happened to be last. It defaults to All.\n- `67c9298` Changed **the Inbox to open on All** rather than Notifications, now that All exists and contains both.\n- `fe18690` Added **an "All" filter to Invites, and made it the default**. Invites are sorted into Primary, Public and Spam by guesswork — do you share a room with the sender, does anything look like spam, has the sender been banned somewhere you are — and the page used to open on Primary only. An invite the guess put in either of the other two was not just further down, it was nowhere, unless you knew to go and look. The three groups are still shown separately, with Spam still behind its warning, so nothing arrives without the context that says what it is; empty groups are simply skipped.\n- `fe18690` Added **an "All" inbox** alongside Notifications and Invites, showing both on one page with invites at the top. Invites and Notifications were each half an inbox, so whichever you opened, the other half was somewhere you had to remember to check.\n- `fe18690` Fixed **invitations showing up as `m.room.member` event in your notifications**. That is the raw name of the thing an invite is made of, and it was being printed because nothing had been written to describe it — the notification that most needed to explain itself was the one explaining least. It now reads the same way an invite reads in a room\'s timeline, and it handles the neighbouring cases too, like someone accepting a request to join.\n- `fe18690` Added **`/status`** for setting your status message from the composer — the one that follows you everywhere and shows next to your name, the same box as Settings → Account → Status. Not to be confused with the room topic. `/status` on its own clears it, which is otherwise something you have to open Settings to do.\n- `44af202` `824cbd8` Fixed **ntfy users being quietly routed through a stranger\'s server**. Notifications are delivered to your phone by way of a "gateway", and the app works out which one to use by asking your push server whether it can act as one. That question was being asked in a way a browser is not allowed to hear the answer to — ntfy.sh replies correctly, but without the header a browser requires before it will let the app read the reply — so the answer was thrown away unread and Prinny fell back to the shared public gateway run by the UnifiedPush project. Notifications still arrived, which is why this went unnoticed, but it meant every message notification took a detour through a third party — carrying the sender and the message text for any room that is not encrypted. The question is now asked by the app itself rather than through the browser, so ntfy answers for its own gateway and your notifications go straight there.\n- `b624a17` Added **"Register pusher" to the Push Delivery panel**, which says what your homeserver actually replied instead of leaving you with a red mark and no reason. Registering with your server is the last step of setting up notifications and the easiest one to get stuck on, and until now a refusal was written to a log you cannot open from a phone — so a distributor handing over an address we will not use, a server turning the registration down, and the attempt never being made all looked exactly the same. The panel now also shows **which push gateway is in use**, because it is picked for you and is not always the obvious one: it is chosen by asking your push server whether it speaks Matrix, and ntfy.sh does not answer that question in a way the app is allowed to read, so ntfy users are quietly routed through the public UnifiedPush gateway instead. It works, but it puts a third party in the path of your notifications, and you should be able to see that rather than have to guess at it.\n- `98a0ae0` Removed **the "Check for Updates" button on Android**, where it never did anything. Android updates itself — Prinny checks on startup, downloads the new version and asks you to install it — so the button had nothing to do, and tapping it left it sitting there still saying "Check for Updates". It is still there on desktop, where it is the thing that applies an update. \n- `98a0ae0` Changed **the swipe-back in Settings to start from the left edge**, the way Android\'s own back gesture does. It used to trigger on a sideways drag begun anywhere on the screen, which is fine in a chat but wrong in Settings: the page is full of switches and sliders, so nudging one sideways could throw you off the page you were trying to adjust. Chats and the main screen keep the swipe-from-anywhere behaviour.\n- `949b169` Added **a status line under each chat in the sidebar**. A direct message now shows what the other person is up to beneath their name — what they are listening to or playing if they are broadcasting that, and otherwise the status message they set. The activity wins when there is one, because a chat list is read for what someone is doing *now*, while a status message often sits unchanged for weeks. The member list is deliberately unchanged: there the status still wins and the activity shows as the small icon in front of it. Rows do not get taller — the space was already being reserved.\n- `949b169` Changed **where the sender\'s `@name:server.com` sits when you hover a message**. It now goes hard against the right edge, tucked *under* the reply and reaction buttons instead of standing to their left, so it no longer takes a strip out of the line beside them. On phones it is gone entirely: it is there for a mouse pointer, and a touch screen has none, so it could only ever turn up as a stray box after a long-press.\n- `c6e0a64` `a026e6e` Added **a Push Delivery panel** to Settings → Notifications on Android, which says which part of push is broken instead of leaving you to guess. Background notifications here need a separate distributor app on your phone (ntfy, Sunup, NextPush — there is no Google push in this client) and a registration held by your homeserver, and every possible break in that chain used to look exactly the same from the outside: notifications simply did not arrive. The panel checks each step on its own — whether a distributor is installed, whether one is selected, whether it has actually answered, whether an address was issued, whether your homeserver is sending to *that* address, and whether Android is letting Prinny post at all — and tells you what to do about the one that failed. **Re-register** also doubles as the way to pick a distributor.\n- `a026e6e` Fixed **Prinny forgetting its push address every time it was closed**. The address lived only in memory, and a messaging app\'s process is shut down by Android constantly — so every launch found nothing, reported nothing, and went back to the distributor to be told the very address it had just discarded. It is now remembered properly. Re-registering also no longer throws away a working address before asking for a new one, which used to leave the app with nothing at all if that request was slow or failed.\n- `c6e0a64` Fixed **notifications stopping for good after your distributor changed its address**. Your homeserver was left holding the old one and kept sending there — to nobody — while a fresh registration piled up alongside it rather than replacing it, because the address is the very thing that identifies a registration. Retired ones are now cleared out. Only Prinny\'s own are touched; registrations belonging to your other apps and devices are left alone.\n\n## 16.08.2026\n\n- `c91e1d2` Fixed **Android notifications never arriving**, and it was not the part anyone had been looking at. Prinny asks the shell to do the Android-only work — register for push, keep the connection alive in the background, post the notification — and every one of those requests was being refused before it got anywhere, because the app never granted itself permission to make them. So no push was ever registered with your homeserver, meaning the server had nothing to send to, and the carefully-written code that turns a push into a notification had never once run. The same refusal silently disabled **notification avatars, the taskbar unread badge, drag-and-drop file sending, link previews, Discord rich presence and Twitter/X media** on desktop, each of which quietly fell back to doing nothing or doing less.\n- `9beda76` Fixed **Android notifications going nowhere even once they arrive**: tapping one did not open the room, a rotated push address was never re-registered, and an incoming push never nudged the app to sync. All three listened on the wrong channel — the shell delivers these to a per-plugin subscription, not the app-wide one they were waiting on.\n- `9beda76` Fixed **Prinny never asking for Android\'s notification permission**. It was only ever requested from Settings → Notifications → Enable, so unless you went looking for that switch, Android silently discarded every notification the app posted — while notifications from *downloads* kept working, because those are posted by Android itself and need no permission from us. It is now asked for on first run, once.\n- `c91e1d2` Fixed **the attachment button doing nothing on Android**. Adding mic and camera support for calls replaced a piece of the WebView the app does not own, and the file picker lived in the part that got replaced — so every attach button, and every avatar or sticker upload, opened no picker at all and reported no error. That piece is now wrapped rather than replaced, which also brings back JavaScript dialogs, the location prompt and WebView logging.\n- `c91e1d2` Fixed **two identical "Messages" entries** in Android\'s notification settings. Messages received in the background used a different channel from the rest, so silencing the one you could see left the other one ringing.\n- `9beda76` Improved **what Prinny says when Android push cannot be set up**. A device with no UnifiedPush distributor installed (ntfy, Sunup, NextPush) now says so, and says that background notifications will not arrive until one is — there is no Google-push path in this client, so that app is required. A distributor that refuses the registration is now reported too, instead of being dropped in silence.\n- `7190544` Changed **where the sender\'s address shows up** on a run of messages from one person. It is now drawn once, on the first message of the run — beside the name and the time, where the sender is actually identified — instead of on every message, which labelled the same person over and over. Hovering *any* message of the run brings it up, so pointing at the fifth message in a row still answers "who sent this?" without you having to find the top of the group.\n- `dbd3e7f` Fixed **push notifications arriving with a blank generic icon** instead of the Prinny one. The app asked the browser for an icon at a path that does not exist in the built app, and the browser quietly substituted its own rather than reporting anything. The icons listed for installing Prinny as an app were stale in the same way. Both now work whether you use prinny.app or host it yourself.\n- `25bf6a3` Added **sharing into Prinny from Android\'s share sheet**. Pick Prinny when sharing a link, some text or files from another app, choose the room, and it lands in the composer with everything attached. Nothing is sent automatically — you still see it and press send, and a share that arrives while Prinny is closed is kept and shown once it has started up.\n- `d4cf7e1` Added **proper Hacker News link previews**, built from HN\'s own data: the story title, who posted it, the score, the comment count, and a link straight to the discussion. HN publishes nothing for a preview to read, so cards for it used to come out with the site\'s navigation strip ("new | past | comments | ask | show…") as the description. Off by default with the other link integrations — Settings → General. Also fixed **thumbnails being requested over and over** after the server had already refused them once.\n- `b2d1039` Fixed **link previews of a URL nobody sent**. A link containing spaces was cut at the first one, so the preview was of a shortened address that leads nowhere — and an audio or video file linked that way never got its player, it fell back to a dead generic card. Links written as `<…>` or as text pointing somewhere else failed the same way. Previews now follow the actual link in the message.\n- `326cc50` Fixed **the sender\'s address drifting about** on a run of messages from one person. Hovering a message shows the full `@name:server.com` at its right; on the first message of the run it sat hard against the edge and on every message after it 152px short of it, so the label jumped sideways as you moved down the group. The one that looked right was the wrong one — it was tucked under the hover toolbar with the tops of its letters cut off. Both now sit in the same place, clear of the toolbar.\n- `abad72a` Added **marking a room unread** — right-click a room in the list, *Mark as Unread*. The unread dot comes back so you remember to return to it, and unlike a local flag it follows you to your other devices and to other Matrix apps, because it uses the standard way of recording that rather than a Prinny-only one. Flags set from another app show up here too, including the older key Element used for years. Reading the room clears it. The option is greyed out on the room you are currently looking at, because that room marks itself read again the moment you scroll it — better to grey it out than to let it quietly undo itself.\n- `abad72a` Fixed **your recently-used emoji not following you to other Matrix apps**. Prinny only ever wrote Element\'s private key for that list, so nothing else could see it; it now writes the standard one as well and reads whichever is there. The two store the list in genuinely different shapes, which is why this was not simply a rename. The Recent row is also now in *recent* order — it had been sorting by how often you had used an emoji, so a face you used once this morning sat behind one you used a lot last year.\n- `abad72a` Added **telling other apps when a picture you send is animated**. Without that flag the app at the other end cannot know a GIF, animated WebP or APNG moves until it has downloaded the whole thing, and asking a server for a small preview of one gets a single frozen frame back. Prinny now inspects the actual file rather than trusting the file extension, so a `.webp` that happens to be a still is not announced as a GIF — and where it genuinely cannot tell, it says nothing rather than guessing. Covers pictures, stickers, and images you add to a sticker set.\n- `abad72a` Added **a time zone on your profile** — Settings → Profile → *Time Zone*, with a *Detect* button and type-ahead over every zone your device knows. Other people then see the local time where you are on your profile card, ticking while it is open. Leave it empty to show nothing, which is how it starts.\n- `e2d971e` Changed **the Windows installer**. It now carries Prinny artwork — the mascot and wordmark down the side of the welcome page, a header on every page, and the app icon on the installer file itself — and the footer no longer advertises the toolkit that built it. The separate `.msi` download is gone. Nothing ever used it: updates have only ever gone through the `.exe`, it still wore upstream Prinny\'s blue-and-bird artwork, and its way of updating replaces the Start Menu shortcut, which quietly breaks a pinned taskbar icon and, because Windows ties notifications to that shortcut, stops desktop notifications arriving at all.\n\n## 15.08.2026\n\n- `67c01fe` Fixed **videos and GIFs playing in a clunky custom player**. A video had a **Watch** button you had to press before anything happened, then downloaded the whole file before it could start, and once going it looped forever with the length and file size stamped over the corner — sensible for a GIF, odd for an hour-long clip. Video now uses the player your browser provides, the same way voice messages already did, and only fetches what it needs to start. **GIFs are told apart from videos properly** for the first time: one sent from the GIF picker loops silently with no player bar, and a video gets ordinary controls and waits for you. If your device refuses to autoplay a GIF, controls appear so you can still start it.\n- `67c01fe` Fixed **notifications never arriving on Android**. The app was registering for push with your homeserver in a way the server has to refuse, so no notification was ever set up and nothing was ever sent — which looked like the app not supporting notifications at all. It now finds the right address for whichever push app you use (ntfy, Sunup and the rest), which is the step other clients do and this one skipped. If it still fails, it now says so clearly instead of leaving one hidden line in a log nobody can read.\n- `67c01fe` Fixed **the cursor landing before a `/command`** after picking it from the list, instead of after it. Mentions and emoji shortcuts had the same fault. This is also the likeliest cause of **text coming out backwards** as you typed: with the cursor stuck before what you just inserted, every letter goes in at the same spot and the word builds up in reverse.\n- `67c01fe` Fixed **read receipts sitting past the end of a message**. Replying to something longer than your reply pushed the little avatars out to where the quoted message ended, floating well past the message they belong to. They now sit at the end of the message itself, on its last line.\n- `67c01fe` Removed **the empty strip down the right of every message**. It was reserved for the buttons that appear when you hover, but it was also being reserved on phones, which never show those buttons — so the narrowest screens were giving up the most width for nothing, and it was why the **new messages** line stopped short of the edge. The buttons now sit over the end of the message when you hover it, and messages use the full width.\n- `67c01fe` Fixed **the hovered timestamp on grouped messages** sitting too high and too far from the message, and **the little clock on a message still sending** riding above the timestamp beside it.\n- `67c01fe` Fixed **emoji that your device has no picture for** being offered in the picker anyway, where they showed as an empty box — and then arrived as an empty box for whoever you sent them to. The newest handful (orca, distorted face, fingerprint, face with bags under eyes and a few more) are hidden until your system can actually draw them, and reappear on their own once it can.\n- `d6129bf` Fixed **the chat list showing up empty while the app was connecting**, and staying empty until you reloaded the page. The list draws only the rows that fit on screen, which means it has to find the panel it scrolls inside — and it was looking a fraction too early, before the browser had finished attaching it. Getting nothing back, it drew no rows at all. It never looked again, so the list stayed blank; anything that happened to redraw it afterwards fixed it, which is why it came right on a busy account and stuck on a quiet one that had just finished its first sync. Introduced a day ago, when the room and chat lists were merged into one shared list.\n- `d6129bf` Fixed **the same fault in message search**, where it has been hiding since long before this client was forked — results only appear once you type, and typing was enough to shake it loose.\n- `166d537` Fixed **selecting a message by dragging from the right of it**, which highlighted the message from its left edge instead of following your cursor. This is the third go at it and the first that was actually tested against the bug rather than reasoned about: the row of buttons that appears when you hover a message floats just above that message, which puts it over the blank right-hand end of the message *above* it — and pressing on a button cannot put a cursor in text, so the browser started the selection at the beginning of the message instead of where you pressed. Short messages failed every time, because a one-line message is shorter than that strip of buttons is tall and so its whole right-hand end sits underneath; longer messages only lost their first line. Pressing there no longer starts a selection in the wrong place, and every button in the strip still works. The two earlier attempts had moved the reserved space around on the theory that the buttons were covering text — they were not, they were catching the press — so this one costs no width.\n- `166d537` Added **someone\'s status next to their avatar**, as a thought bubble, when you open their profile. It was only ever visible in your own profile preview in Settings before.\n- `166d537` Added **About Me to the profile you see when you click someone**. Their biography was already there but unlabelled and easy to miss; it now looks the same as it does in Settings, because both are now drawn by the same code.\n- `166d537` Fixed **the profile preview in Settings not matching the profile everyone else sees**. It was a separate copy of the same card that had drifted out of step — different spacing under the banner, a different avatar treatment, and a plain colour where the real card shows a blurred version of your avatar. It is now the real card, so what you see while editing is what other people get.\n- `166d537` Fixed **opening someone\'s avatar showing it in a small boxed window**. Every other image in the app opens in the full-screen viewer with zoom and download; avatars were the one exception, wrapped in a dialog that shrank them. They now open like everything else.\n- `166d537` Added **the time of a message in the space where its avatar would be**, when you hover it. Messages grouped under one name have no timestamp of their own — the one at the top belongs to the first message of the group — so there was no way to tell when any of the others were sent without opening something.\n- `166d537` Removed **the GIF button from the message box**. GIFs are a tab on the same panel the sticker and emoji buttons already open, so the button was a third way to open one panel on one of its tabs. Nothing is lost: the tab is still there, still controlled by the same *GIF picker* setting in Settings → General.\n- `166d537` Changed **Piped**, which is what plays YouTube links without YouTube watching you: it is now **on by default** and set to `piped.gmach.online`. The instance list is down to that and `piped.private.coffee` — the rest were bare IP addresses and unencrypted addresses that a browser refuses to load anyway, so they only ever worked in the desktop app and mostly made the list look longer than it was.\n- `166d537` Fixed **long lists sometimes rendering in the wrong place** when a list did not start at the very top of the area it scrolls in. The measurement that corrects for this could never run at all — it looked for the scrolling container a moment before the browser had finished attaching it, treated that as nothing to do, and never looked again.\n\n> **Not yet tested by anyone:** everything above except the selection fix has been\n> built and checked but not actually clicked. The profile changes are the ones that\n> move things around on screen, so those are worth a look first.\n\n- `5fa7b32` Added **a Discord-shaped layout, in five separate switches** — Settings → General. **Unified sidebar** puts your rooms and your direct messages in one list under Home instead of two tabs. **Direct message buttons** puts your chats as avatar buttons on the left-hand rail, next to your spaces. **Top bar** runs a strip across the top of the window and moves the inbox into it. **Profile in top bar** moves your name, avatar and the settings button up there too. **Rooms space** makes Rooms its own entry on the rail, leaving Home to your chats. Every one of them is off to begin with, and turning any of them off puts things back exactly as they were. Links never break when you flip one: a chat you bookmarked, the room you had open when you closed the app, and a link somebody sent you all keep working whichever layout you are in. Pinned chats and *Show unread only* work the same in every one of these lists, because there is now only one list — the same one, shown in different places.\n- `5fa7b32` Added **dragging rooms into the order you want**. Grab a room in the list and drop it where it should go. Your order is yours alone — nobody else in the room sees it — and it follows you to your other devices, kept separately for each space. The old sort-order picker is gone: it was a choice between three orders nobody wanted, and this replaces it.\n- `5fa7b32` Added **a GIF picker**, off by default — Settings → General → *GIF picker*. It adds a GIF tab to the emoji board and a button by the attach icon, with categories and a search box. **Favourite a GIF** from the picker or straight from a GIF somebody sent, and your favourites follow you to your other devices.\n- `5fa7b32` Added **pronouns, a profile banner and a biography** to profiles, yours and everyone else\'s. Settings → Profile edits all three and shows you a live preview of the card other people see. The banner has its own crop tool. These need a homeserver that supports extended profiles; on one that does not, nothing appears and nothing breaks — which is itself a fix, because an unsupported homeserver used to blank out the name and avatar as well.\n- `5fa7b32` Added **rich presence** — what someone is listening to or playing, on their profile card, off by default (Settings → General → *Show rich presence*). Album art and links in it always ask before opening and show you the real address, since whoever published it wrote the label. On the desktop app there is also **publishing your own** (Settings → Account), which listens for Spotify, games and anything else that talks to Discord and shares it as your status. See the note at the bottom of this entry — the desktop half has never been run yet.\n- `5fa7b32` Added **a status line under people\'s names** in the member list, so their status message shows next to who they are rather than only on their profile.\n- `5fa7b32` Changed **clicking someone\'s name in a message** — it opens their profile instead of dropping a @mention into whatever you were typing. Their profile card is also tidier: the homeserver sits inline rather than on its own line, the actions are condensed, and you can start a direct message from the card and type the first one straight into it.\n- `5fa7b32` Added **double-clicking a message to reply to it**. Double-clicking to select a word still selects a word, and double-clicking a link or a button still does what it always did.\n- `5fa7b32` Added **copying several messages as a clean transcript**. Select a run of messages and copy: you get names and text, not the surrounding furniture.\n- `5fa7b32` Added **auto-replacing emoji shortcodes** as you type — `:sob:` becomes 😭 — off by default (Settings → General). It works in the message box and when editing a message.\n- `5fa7b32` Added **low animation mode**, off by default. GIFs and videos hold still until you hover them, and the typing dots stop bouncing. For anyone who finds a busy room exhausting, or is paying for the battery.\n- `5fa7b32` Added **auto-embedding media links from hosts you trust**. A bare link to a video file plays inline instead of sitting there as a link, but only for hosts on a list you write yourself (Settings → General) and only for actual video files. The match is exact, so putting `example.com` on the list does not also trust `example.com.somebody-else.net`.\n- `5fa7b32` Added **auto-joining every room in a space**, off by default — globally in Settings, or for one space in that space\'s settings, subspaces included. Joining the space then gets you everything in it instead of a list to work through by hand.\n- `5fa7b32` Added **an "only verified sessions" switch** for encryption (Settings → Sessions). With it on, your messages are not sent to devices you have not verified.\n- `5fa7b32` Added **a notification menu on a space** — set every room in it to the same notification setting in one go, rather than one room at a time.\n- `5fa7b32` Added **reset notifications to defaults**, a single action in Settings → Notifications for when the per-room settings have got away from you. Nothing else was removed; the granular controls are all still there.\n- `5fa7b32` Added **downloading an emoji or sticker set as a zip**, and renamed **packs** to **sets** throughout, which is what everything else calls them.\n- `5fa7b32` Added **leaving every room in a space when you leave the space** — a checkbox on the leave dialog, unticked to begin with, so leaving a space still only leaves the space unless you say otherwise.\n- `5fa7b32` Changed **search results** to group by room, with the messages either side of each hit and the sender\'s name and avatar, so a result reads like a conversation rather than a line of text. Several things about search were also simply wrong: the number of results was the number on this page rather than the total, loading more could drop or duplicate hits, results in encrypted rooms were mislabelled, and a failure printed the raw error at you instead of saying what went wrong.\n- `5fa7b32` Changed **the jump-to-room menu (Ctrl/Cmd-K)** so it no longer offers you the room you are already in.\n- `5fa7b32` Changed **the call banner**: it shows how long the call has been running, who is in it under the room\'s entry in the list, and a badge on the space so you can see there is a call in a space you are not looking at.\n- `5fa7b32` Changed **the image crop tool**, which previously had an Apply button that did nothing at all — it is a working crop tool now, used for avatars and the new profile banners.\n- `5fa7b32` Fixed **images in the timeline being cropped**. A picture that was not the shape of the space it was given had its edges cut off rather than being fitted into it.\n- `5fa7b32` Fixed **not being able to scrub through a voice message or a video**. Dragging the progress bar restarted from the beginning or did nothing, because the request for "just this part of the file" was being thrown away and the whole file sent instead — every time, for every seek.\n- `5fa7b32` Fixed **replies being silently dropped when you attach a picture or a file**. Replying and then attaching sent the attachment as an ordinary message with no reply on it, and nothing said so. Stickers had the same fault.\n- `5fa7b32` Fixed **a message that failed to send looking exactly like one that sent**. Messages now dim while they are on their way, and one that did not make it says so with **Retry** and **Remove** next to it.\n- `5fa7b32` Fixed **the timeline scrolling away from the bottom on its own** while images and embeds finished loading. It was deciding whether to follow new messages based on where the scroll had been a second earlier.\n- `5fa7b32` Fixed **clicking a notification in the browser dumping you in the inbox** instead of the message it was about. The desktop app already went to the right place; only the browser did not.\n- `5fa7b32` Fixed **the keyboard closing after every message on a phone**, so a run of short replies no longer means reopening it each time.\n- `5fa7b32` Fixed **notifications not saying where they came from**. The room and space are in the title now, and each room\'s notifications replace each other instead of stacking up.\n- `5fa7b32` Added **telling you when your browser refuses the app storage it needs** — a private window with storage blocked, or a disk that is full — instead of failing in ways that look like unrelated bugs.\n- `5fa7b32` Added **checking what software your homeserver runs** at startup (Synapse, Conduit, and so on), used to avoid asking a server for things it does not have. If the check fails it is treated as unknown and nothing changes.\n- `5fa7b32` Changed **the icons** throughout the app to a single consistent set.\n- `5fa7b32` Fixed **long lists rendering blank in the wrong place** when a list did not start at the very top of what it scrolls in. Nothing in the app hit this before; the new unified sidebar, which stacks two lists in one scroll, would have.\n\n> **Not yet tested by anyone:** the five layout switches above have been built and\n> checked but never actually clicked in a browser, and **publishing** your rich\n> presence to the desktop app has never been run at all — the piece that talks to\n> Discord compiles but has not yet spoken to it. Both are expected to need a round\n> of fixing. Everything else in this entry has been through the usual checks.\n\n## 14.08.2026\n\n- `d883df6` Fixed **images and avatars failing to load with a "Missing access token" error**, sometimes for a whole session, sometimes coming back only after switching to another chat and back. Images are fetched by a small helper the app installs in your browser, because a picture cannot carry your login with it the way an ordinary request can — and that helper was not always being told who you are. Three separate ways it could be left in the dark are fixed: it was never told on the very first load after it was installed or updated; it was never told again once it took over; and if it asked and the answer was slow, it gave up and then kept waiting on that same dead question for every image afterwards, so the whole session stayed broken. Reloading with **Ctrl+Shift+R** was its own version of this — that kind of reload deliberately bypasses the helper, and it had no way to take over again, so every image failed until an ordinary reload. It now asks to take over. Downloads that *can* carry your login — files, voice messages, images in encrypted rooms — now do so themselves, so they no longer depend on the helper at all.\n- `d883df6` Fixed **not being able to reach the buttons that appear when you hover a message**. Moving towards them meant leaving the message, and they vanished before the pointer arrived. Yesterday\'s fix for dragging a selection from the right of a message moved that row of buttons *outside* the message to get it off the message above — but the buttons are only drawn while the message under your pointer is the one they belong to, so putting them outside meant crossing a dead gap to reach them. The space they sit in is now part of the message itself: they are still clear of the message above, so selections still start where you press, and the highlight when you hover now extends all the way under the buttons.\n- `d883df6` Added **pinning a chat to the top of the list**. Right-click a direct message or a room in Home and choose **Pin to Top**. Pinned chats sort above everything else and stay visible even with *Show unread only* switched on, which is the point — a filter that hid the chats you deliberately pinned would defeat it. Pins are stored the same way **Element** stores Favourites, so a chat pinned here is already a favourite there and vice versa, with nothing to set up on either side. Rooms inside a space are not pinnable: that list follows the space\'s own order, so a pin would have nowhere to go.\n- `d883df6` Fixed **the arrow next to CHATS and the *Show unread only* menu option doing the same thing to each other\'s confusion**. The arrow never collapsed anything — it filtered the list down to unread chats, exactly like the menu option, but with a separate on/off state of its own, so the menu could say unread-only was off while the list showed only unread chats. Direct Messages and Home have only ever had one section each, so the arrow is gone from both and the menu option is now the only filter. Home did not have that option before and now does. Spaces keep their arrows, since they have real sections to collapse.\n- `d883df6` Added **the right-click menu to search results**. Right-clicking a message you found in search gave the browser\'s own menu instead of Prinny\'s. You now get Open in Room, Forward, Edit History, Copy Link, Pin, Delete, Report and — with developer tools on — View Source. Reply, react and edit are not there: they need the message open in its conversation, which is what **Open in Room** is for.\n\n## 13.08.2026\n\n- `2f11ee8` Fixed **selecting a short message by dragging from the right of it**. Starting the drag in the empty space to the right of a one-line message grabbed the text from the far left instead of from where you pressed. The row of buttons that appears when you hover a message is pinned 30px above itself, so it was floating over the message *above* — and a one-line message is shorter than that strip of buttons, so the whole right-hand end of it was covered. Pressing there pressed a button rather than the text, and with nothing to anchor to the selection jumped to the start of the line. Messages now leave room for that button row instead of letting it sit on top of the message above, so the whole width of a message is grabbable again. Long messages were never affected — they are tall enough that the strip only covers a corner. Phones and tablets are unchanged: they never show the buttons, so they keep the full width.\n- `2f11ee8` Changed **how a @name looks**. Mentions were drawn as a boxed pill with a border, which was a lot of furniture in the middle of a sentence — most noticeably in the message box while you were still typing. A mention is now just text in that person\'s own colour, the same one their name has in the conversation. Mentions of **you** still stand out, in the same green as before but without the box, so you can still tell at a glance when a message is aimed at you.\n\n- `8c6b26a` Fixed **registration failing on homeservers that use hCaptcha**, if you self-host with the Docker image. The security policy the container serves never allowed hCaptcha\'s script, so the captcha box stayed blank and sign-up could not be completed — with nothing but a blocked-resource line in the console to say why. The policy shipped to self-hosters via `webapp-release` already allowed it; only the Docker one lagged behind. Nothing to change on your side beyond pulling a new image.\n- `8c6b26a` Removed **a pile of dead build machinery** from both repositories — the Netlify deploy (unconfigured here, and never once run), a contributor-agreement bot pointing at upstream\'s paperwork, issue and discussion templates for issue trackers that are switched off, a second dependency-update bot that was never installed, and two checks that went red on every automated dependency update while gating nothing. A permanently red build hides a genuinely broken one, so this is worth more than the tidiness. The checks that do work — the pull-request build, the type check and the Docker image check — are kept, and the Docker one is repaired so it still fires when the base image is updated.\n\n- `6ac7769` Fixed **X/Twitter links making a pointless request that always failed**. Posts from x.com are drawn by the client itself, but the homeserver was still asked to fetch a preview for the same link — an answer that got thrown away unread, and one X never gives out anyway: it serves a placeholder ("Post / X", a stock image, no text) to anything that is not a browser, and refuses many servers outright, which is where the `502 Got error 403` in the console came from. Nothing was broken at your homeserver\'s end. The request is now made only if the client-side fetch fails, which is the case where the ordinary preview card is what you see.\n- `6ac7769` Fixed **a pile of console errors on every start**. Failed link previews logged an "Uncaught (in promise)" stack trace for a failure already handled; a homeserver without OIDC logged "Configured OIDC OP does not support required functions" as an error even though that is the normal answer; a busy account tripped "MaxListenersExceededWarning: 51 RoomState.events listeners" because every room-related hook registered its own listener (now one shared listener, so the count no longer grows with your room list — and the client stops walking a fifty-entry list on every state change); and the web app logged five blocked mixed-content requests probing YouTube (Piped) instances it could never have loaded over https.\n- `46b469d` Fixed **not being able to type or send in a thread**. With a thread open in the side panel, one of the two message boxes stopped working: clicking it put the cursor there, but nothing you typed appeared and Enter and the send button did nothing. Both boxes were being built from the same shared blank document, and the editor library tracks its position by that document, so whichever box drew last took ownership and the other one could no longer work out where the cursor was. Each box now gets its own. Room and thread composers work at the same time, and drafts still stay separate.\n- `46b469d` Fixed **code blocks that start on the same line as the ```**. Typing ``` and pasting several lines after it — the usual way to paste code — produced literal backticks instead of a code block, because the fence had to be alone on its line and the closing ``` had to be on a line of its own. All four Discord forms now work: ` ```code``` `, ` ```lang ` then the code, code starting right after the opening ```, and the closing ``` at the end of the last line. A language is still picked up when the fence is followed by a single word (` ```js `), and anything else on that line is treated as code.\n- `d971afd` Added **`piped.gmach.online`** to the instance list — a real domain with a valid certificate (verified working), so the web app has a second instance that actually loads, not just a bare IP.\n- `d08c6cc` Added **a Piped instance picker with automatic failover**. Instead of one hardcoded instance, YouTube embeds now choose from a list — Settings → General → *Piped instance* lets you pick one or leave it on **Auto**, which probes the list and uses the first that responds. (On the web app, `http://` instances are blocked as mixed content and only work in the desktop app; Auto skips unreachable ones for you.)\n- `90eef8a` Fixed **code formatting to match Discord**. A single-line ` ```code``` ` now renders as a code block instead of showing literal backticks, and inline code accepts double backticks (` ``a`b`` `) so you can put a backtick inside. The rest of the formatting — **bold**, *italic*, `__underline__`, `~~strike~~`, `||spoiler||` — was already Discord-compatible.\n- `30112a4` Fixed **`-` bullet lists turning into numbered lists**. A list written with `-` (or `+`) was sent as an ordered `<ol>` — numbered even in the raw Matrix source. All of `-`, `*` and `+` are now bullet lists, matching every other Matrix/Markdown client.\n- `30112a4` Fixed **the thread panel\'s avatar filling its whole column**. The sender avatar now sits in a fixed-size box like it does in the main timeline.\n- `61e9b8a` Fixed **images and voice messages that failed to load** ("Mismatched SHA-256 digest" in the console). When the app\'s access token was refreshed, the service worker kept sending the old one for media, so every image/voice note silently failed until a reload. The worker now notices the rejection, refreshes its token and retries, and media download failures report the real error instead of a misleading digest mismatch.\n- `61e9b8a` Fixed **a member list flooding the console** with a repeated "event not found" 404 and an EventEmitter memory-leak warning in rooms with many people. Presence now uses a single shared subscription instead of one per member, and the pinned-message banner no longer requests an empty event id.\n- `61e9b8a` Fixed **stray React Router and fullscreen warnings** on load — the landing route now shows a loading splash while it redirects, and video embeds no longer double up the fullscreen permission.\n- `2d0d32d` Added **an update button in Settings → About**, next to Source Code. It tells you what it is doing — checking, downloading, or that you are up to date — and when an update is waiting it installs it, rather than sending you looking for the banner.\n- `2d0d32d` Fixed **the update banner telling you to "tap" on a desktop**. It now says tap or click to match the device you are actually using. The banner text is also centred properly instead of sitting off to one side.\n- `842520e` Changed **where the web client\'s source lives**: the repository is now `coffeegrind123/prinny` instead of `coffeegrind123/cinny`, matching the name of the app. If you self-host by cloning the `webapp-release` branch, your existing copy keeps updating — GitHub forwards the old address — but the address to use from now on is `https://github.com/coffeegrind123/prinny.git`.\n- `260e107` Fixed **the in-app updater reporting that no update was available for your platform**, on every desktop install. The published update file listed no platforms at all, so each client failed with "None of the fallback platforms were found". The builds themselves were fine — signed and uploaded correctly — but the step that writes that file runs seconds after they finish, and GitHub had not started serving the freshly uploaded signatures yet, so it recorded every platform as missing and reported success. It now retries those downloads, and refuses to publish an update file that would disable updating rather than quietly shipping one.\n- `40b72fa` Added **buttons under bot messages**. A bot can now put real buttons on what it sends — press one and it acts, with a spinner on the button until it answers back and a note if it never does. Buttons can also open a link, copy something to your clipboard, or fill the composer for you. A link button always asks first and shows the site it genuinely goes to, because the wording on a button is written by whoever sent it and the address is not. Destructive buttons look destructive. If you would rather not have buttons at all, Settings → General → Show Bot Buttons turns them off and you get the plain numbered list instead — which is also what people on other Matrix clients see, so a conversation with a bot works the same for everyone in the room.\n- `40b72fa` Added **a bot\'s commands to the `/` menu**. Bots can publish what they understand, so typing `/` lists their commands and descriptions alongside the client\'s own, with the bot\'s name beside each one. A new button by the attach icon opens the same list, and it only appears in rooms where a bot has actually published something. Where two bots offer the same command, picking one addresses it properly so they do not both answer.\n- `40b72fa` Added **quick-reply buttons above the composer**. A bot can offer a set of ready answers; pressing one sends it as an ordinary message. They stay put across a reload and follow you to your other devices, and a bot can clear them or ask you for one specific thing with the composer already pointed at its question.\n- `40b72fa` Added **a BOT tag** next to the name of any account that has published bot commands in a room, in both the conversation and the member list.\n- `40b72fa` Fixed **commands meant for a bot being silently swallowed**. Typing any `/command` this client did not itself recognise cleared the composer and sent nothing at all, with no error — so bot commands simply never arrived. They are now sent as written.\n- `0ec210e` Added **links that open a chat with a bot**, the equivalent of a `t.me` link. Following one opens a direct message and sends its opening command, after asking you first and showing exactly which account and exactly what will be sent.\n\n## 12.08.2026\n\n- `1b99127` Fixed **GIFs and videos in Twitter/X posts not playing at all**. They loaded as an empty box or a dead frame while ordinary GIF links played fine. Twitter\'s video servers refuse any request that says which page it came from, and the setting meant to strip that does nothing on a video — it only exists for pictures, which is exactly why pictures were unaffected. The file is now fetched separately, without that header, and handed to the player. This also means a Twitter clip that previously failed inside the desktop app now has a second way to load rather than showing an error.\n- `1b99127` Fixed **voice messages sitting in a grey box** with a "Voice message" label above them and a download button beside the player. All three were repeating what the player already gives you — it has its own background, and its menu already offers Download. Just the player now.\n- `1b99127` Fixed **long lists in dialogs not scrolling**. The Files dialog, poll history, widgets, edit history, forwarding, export and add-to-space all cut their list off at the bottom edge with no scrollbar and no way to reach the rest.\n- `1b99127` Fixed **the Add Email Address box in Settings still being narrower** than the identity-server one beside it.\n- `805df93` Added **draggable dividers between the columns**. The room list on the left and the member list, thread panel and call chat on the right can all be resized by dragging the line beside them. Double-click a divider to put it back. Widths are remembered, scale with your zoom setting, and are capped so two wide columns cannot squeeze the conversation out. Keyboard: focus a divider and use the arrow keys, Shift+arrow to move faster, Home/End for the extremes, Enter to reset.\n- `3f54ed7` Fixed **selecting text that starts on a link**. Dragging from a link towards the left selected nothing and the highlight jumped somewhere else entirely, because the browser was starting to drag the link rather than select the text. Links in messages are no longer draggable; they are still clickable and copyable.\n- `3f54ed7` Fixed **input boxes in Settings being narrower than the rest and a darker colour**, most visibly the add-email-address field beside the display-name one. The same fault affected the identity-server field, the account-deletion confirmation, the poll answer fields and the server-browser search.\n- `3f54ed7` Fixed **voice messages**, which now play in the audio player your system provides instead of a custom one. The old player could not draw a progress bar for the format voice notes are actually sent in — its own seek bar had nothing to measure against — and it decoded every clip in the background just to draw a waveform, whether or not you ever pressed play.\n- `3f54ed7` Fixed **dialogs being taller than their contents**, such as the widgets dialog, which drew a full-height panel with a large empty band under a short list.\n- `3f54ed7` Moved **creating a poll and sharing your location** out of the composer to the `/poll` and `/location` commands, freeing the buttons beside the attach icon. `/location` only appears when your homeserver actually provides a map server — before, it opened a picker with nothing to aim at.\n- `4a4c58c` Fixed **GIFs not playing when you link one**. A linked GIF showed a single frozen frame, because the preview picture came from the server\'s thumbnailer and a thumbnail of an animation is one still image. GIFs now play, whether the link is the GIF file itself, a Tenor or Giphy page, or a post that contains one.\n- `4a4c58c` Fixed **GIFs in Twitter/X posts** showing a play button that had to be pressed, instead of looping on their own.\n- `4a4c58c` Fixed **GIFs in Bluesky posts** showing only a still thumbnail. Bluesky attaches a GIF as a link rather than as media, so there was nothing to play. They now loop, and use a version around fifty times smaller than the one Bluesky points at — fetched from Tenor directly, so reading a GIF no longer tells Bluesky\'s servers you looked at it.\n- `4a4c58c` Fixed **a GIF that could not be started at all** on Linux and Android. Both refuse to start video on their own, and a looping GIF has no play button by design, so it sat there as a dead picture. If playback is refused, controls now appear. Click a playing GIF to pause it.\n- `4a4c58c` Fixed **image links producing no preview** when the server could not fetch one, and **`og:image`-based video and audio players** that were permanently broken on pages advertising media they do not actually serve — those now show a picture and a link instead of a dead player.\n- `93001c0` Fixed **the Android build failing to release**. `matrix:` links tapped in another app also never reached the client on Android; the app registered itself as the handler but nothing was reading the link.\n- `b3946e0` Added **voice messages**. Press the microphone in the composer, review what you recorded, then send it. They arrive with a waveform and a duration in Element and other clients, and voice notes from those clients now show as a proper player here instead of an anonymous file. Recording stops and releases the microphone when you cancel, switch rooms or close the app.\n- `b3946e0` Added **a thread panel**. Threads could be started before but never read — replies landed loose in the conversation and there was nowhere to open. A message that started a thread now shows how many replies it has and opens them in a panel beside the room, or full screen on a phone. Replies still appear in the main conversation as well, so nothing has disappeared.\n- `b3946e0` Added **polls**. Create one from the composer, vote, and end it when you are done. Polls sent from other clients used to show as "unsupported content" and now work properly. A poll set to hide its results shows nothing at all until it ends, not even to you.\n- `b3946e0` Added **forwarding a message** to one or more rooms, from the message menu.\n- `b3946e0` Added **edit history** on messages that have been edited, fetched from the server so it works for edits made before you opened the app.\n- `b3946e0` Added **a pinned-message banner** above the composer, so a pin is visible without opening the room menu. Dismissing it hides only that pin; pinning something new brings it back.\n- `b3946e0` Added **approving people who ask to join**. Setting a room to "ask to join" used to be a trap: requests arrived with nothing to show them, so people waited on a room that looked like it had ignored them.\n- `b3946e0` Added **exporting a conversation** as HTML, plain text or JSON, with attachments bundled alongside it. Also added **a file list** for the room, so you can find that PDF without scrolling for it.\n- `b3946e0` Added **sharing a location**, either where you are or a pin you drop, and **live location sharing** for 15 minutes, an hour or eight hours. While you are sharing, a banner stays on screen that cannot be dismissed — only stopped. Maps are off until you turn them on, because drawing one tells whoever serves the map tiles where you are looking.\n- `b3946e0` Added **widgets**. Room widgets can be opened, added and removed, and each one asks before it is allowed to read or send anything, item by item. Widgets never get the microphone, the camera or your Matrix identity, and one served from the same address as the app itself is refused outright.\n- `b3946e0` Added **changing your password, adding and removing email addresses, and closing your account** in Settings. Changing a password previously meant logging out and using the reset flow, which needed access to the email on the account.\n- `b3946e0` Added **privacy settings**: block all incoming invites, choose when media previews load, and hide avatars in invitations from strangers.\n- `b3946e0` Added **thirteen more slash commands**, including `/nick`, `/topic`, `/roomname`, `/myavatar`, `/whois`, `/query`, `/plain`, `/html` and `/rainbow`.\n- `b3946e0` Added **chat effects** — `/confetti`, `/fireworks`, `/snowfall`, `/rainfall` and `/hearts`, which also fire when someone sends the matching emoji. Skipped entirely if your system asks for reduced motion.\n- `b3946e0` Added **LaTeX rendering** for maths in messages, off by default.\n- `b3946e0` Added **microphone settings** — choose an input device and turn echo cancellation, noise suppression and gain control on or off. Used by voice messages and calls alike.\n- `b3946e0` Fixed **audio attachments being sent without a duration**, which made them show as unknown-length in every other client.\n- `f96ddb0` Fixed **the microphone never working on Linux**. The window\'s browser engine ships with capture switched off and silently refuses any request nothing is listening for, so recording and call audio could not have worked on that build. Screen sharing from a call is covered too.\n- `f96ddb0` Fixed **the app being killed on macOS the first time it touched the microphone or camera**, instead of asking for permission.\n- `f96ddb0` Added **opening `matrix:` links**, both inside the app and from other programs, on all four platforms. They previously did nothing at all when clicked.\n- `f96ddb0` Added **starting at login**, launching minimized to the tray. Related: a window closed to the tray no longer comes back invisible the next time you start the app by hand.\n- `f96ddb0` Added **hiding the window from screenshots and screen recordings**, in Settings. Works on Windows and macOS; most Linux desktops ignore it.\n- `f96ddb0` Added **spell checking on Linux**, which the window\'s browser engine leaves off by default, using the languages from your own system settings.\n\n## 11.08.2026\n\n- `451148f` Fixed **the icon bar on the left not moving with the swipe on mobile**. It stayed put while the conversation list slid, then appeared or disappeared abruptly at the end, shifting everything sideways. It now slides away together with the list, and the chat opens at the full width of the screen without jumping.\n- `bcb92f0` Improved **message search filling in as it goes**. It used to sit blank while it worked, then stop at the first match it found — so a single recent hit looked like the whole answer and older messages only turned up if you scrolled. Results now arrive a few at a time and keep coming until there is a proper list of them.\n- `bcb92f0` Improved **the settings menu on phones**, spacing the entries out and making each one a larger touch target so neighbouring rows are harder to hit by accident.\n- `bcb92f0` Added **link previews in encrypted rooms by default**. Note this asks your homeserver to fetch the link, which it cannot otherwise see inside an encrypted message — the setting turns it back off.\n- `bcb92f0` Improved **where the Telegram sticker import setting lives**, moving it from General to Emojis & Stickers, next to the packs it applies to.\n- `7679ea5` Improved **swiping toward a chat on mobile**, which now uncovers the conversation as you swipe, the same way swiping out of a chat reveals the list behind it. Previously there was nothing on the other side and the chat only appeared once the swipe finished. Rooms revealed this way are not marked as read — only opening one does that.\n- `7679ea5` Improved **search being the same everywhere**. The search button used to lead to two different screens depending on the window size, and the one on phones could only search messages. There is now a single search, and it finds both people and messages on every device.\n- `7679ea5` Fixed **the settings menu sitting against the top of the screen on mobile**, leaving a large gap below. The list is now centred vertically; the logout button stays where it was.\n- `fe3fdd7` Fixed **swiping back toward a chat looking broken on mobile**. The conversation list went transparent mid-swipe, leaving just the room names floating over nothing. It now slides as one solid page, matching the swipe in the other direction.\n- `fe3fdd7` Improved **the people sidebar search box**, which now spans the full width of the sidebar instead of being squeezed next to the close button. The sidebar also gained a "People" heading.\n- `fe3fdd7` Fixed **the search screen being too wide on small phones**, where it could be pushed past the edge of the screen and scroll sideways.\n- `fe3fdd7` Improved **settings layout**, centring each settings page in the available space rather than letting it hug the left edge — matching how the rest of the app already lays out its pages.\n- `c6a0111` Added **importing Telegram sticker packs**. Open any image pack you can edit, choose "Import from Telegram", and paste a `t.me/addstickers/...` link — its stickers are downloaded and added to the pack. Animated and video stickers are skipped and counted, since packs can only show still images. This needs a Telegram bot token, set once in Settings → General: Telegram publishes sticker packs nowhere else, so there is no way to import without one. Creating a bot with @BotFather takes a moment and is free, and the token is kept on your device only — never sent to your homeserver.\n- `15bd574` Fixed **the attach button doing nothing on Android**. Tapping `+` in the composer, or using the upload shortcut, opened no file picker and gave no error. The file type it asked for was written in a form Android rejects, so the system found nothing able to handle the request and silently gave up. Other pickers in the app — profile picture, sticker pack image — were unaffected and kept working, which is why this looked like an attachments-only problem.\n- `985f7b9` Improved **third-party code once more**, replacing six small packages with equivalent code kept in this project — number formatting, keyboard shortcut matching, file downloads, image placeholders and error handling. The two with any real logic were checked against the packages they replace over tens of thousands of generated cases with no behaviour difference, including on macOS, where the shortcut key differs.\n- `19bad2e` Improved **third-party code in the client further**, removing two packages that nothing used and twelve more from the desktop shell that were never imported by anything. Together with the earlier commit-hook removal today, the web client now resolves 801 packages instead of 950.\n- `db9bb8d` Fixed **the web app at prinny.app/app failing to load with "Failed to load"**, usually right as you signed in. A tab left open while a new version was published kept asking for pieces of the old version that no longer exist on the server; the sign-in step is what requested one first, so the app appeared to break specifically at login. Such a tab now notices and refreshes itself onto the current version instead of dying. If it happens again before this update reaches you, a hard refresh clears it.\n- `db9bb8d` Fixed **the web app not being installable to your home screen or desktop**. Its app manifest was requested from the wrong address on prinny.app/app and always came back missing, so browsers saw no installable app.\n- `5989652` Improved **the amount of third-party code that goes into a build**, down from 950 packages to 803. A commit-hook stack inherited from upstream — husky, lint-staged and commitizen — was fully commented out and could not run, so removing it costs nothing and takes 147 packages out of the supply chain. Leftover upstream project files (code of conduct, contributing guide, sample reverse-proxy configs for a different project\'s name) and a version-stamping script that had been superseded were removed at the same time.\n- `b3341b9` Fixed **ending up with several copies of Prinny running on Windows**, and the pinned taskbar shortcut appearing to do nothing. Closing to the tray hides the window, so the app looked shut down and each new launch started another client. Launching again now restores and focuses the one already running — from the shortcut, the taskbar pin or the Start menu — and a pinned Prinny shares one taskbar button with the running window instead of showing two.\n- `3a1e9bb` Improved **what happens on a server that will not let apps complete sign-up**. Some servers require a step they keep to their own website. Instead of a blank error page, the app now says so plainly and links that server\'s actual sign-up page, so you can create the account there and come straight back to sign in.\n- `258978b` Added **support for servers that use hCaptcha**. Some homeservers run hCaptcha while still presenting it as the standard captcha step, and the app was drawing Google\'s box with an hCaptcha key — which can never be solved, so registration on those servers was impossible. The right captcha is now shown for each.\n- `258978b` Fixed **being turned away from servers with an unfamiliar sign-up step**. Anything the app does not handle itself — a phone-number check, a captcha provider it does not recognise, something a server invented — now opens the server\'s own sign-up page in a second window; finish there and you are brought straight back. Previously this said "this application does not support registration on this homeserver" and stopped.\n- `94a3982` Added **a directory of public Matrix servers**, replacing the matrixrooms.info room feed. Around 1,150 servers, merged and deduplicated every day from three independent lists (asra.gr, joinmatrix.org, privacydev.net). Explore now offers "Browse public servers" — pick any server and read its own public room directory, instead of one third party\'s view of which rooms are worth seeing.\n- `94a3982` Improved **choosing a homeserver when signing in or registering**. The field now completes as you type, the way a browser address bar does: type `tchn` and it fills in `tchncs.de` with the rest selected, so carrying on typing simply overwrites it. The magnifier beside the field opens the full directory, searchable by name, software, country or hosting provider, and filterable by open registration, captcha, email requirement and Tor friendliness.\n- `94a3982` Fixed **the server list being unreadable in a browser**. None of the three upstream lists allow cross-origin requests, so the web version could not have fetched them at all. The merge now happens once a day on prinny.app and every version — desktop, Android and web — reads the same prepared file. Self-hosters can point `publicServersUrl` at their own copy.\n- `8bf8ba9` Fixed **the release pipeline silently skipping a build**. Two pushes close together left one release half-built and the second push produced no build at all — the second run cancelled the first *after* it had already created the release and uploaded three platforms, then declined to build anything itself because that release now existed. Builds queue instead of cancelling, the version number now accounts for a release that has been drafted but not yet tagged, and a build can be re-run by hand without inventing a commit.\n- `86d4a10` Fixed **nothing watching the app\'s dependencies for security patches**. The configuration said one bot handled them; that bot was never installed, and the approval step it waited on could not exist because the repository has issues turned off. So no patch was ever proposed, which is how 22 known-vulnerable packages piled up. Dependency alerts and automatic security updates are now switched on for both repositories, with a bot that needs no extra setup.\n- `86d4a10` Improved **download size**: the bundled video-call widget was shipping 18 MB of debug source maps that no user ever loads. Total download drops from 63 MB to 45 MB.\n- `86d4a10` Fixed **desktop shell shipping five unused system integrations**. Clipboard, file-system, shell-command, HTTP and dialog plugins were compiled into every build but granted no permission and called by nothing — dead code that also pinned an XML parser with two denial-of-service advisories. Removed. Copying text is unaffected; it uses the browser API.\n- `86d4a10` Fixed **known-vulnerable Rust libraries in the desktop shell**, including two certificate-validation bugs in the TLS stack (`rustls-webpki` — name constraints wrongly accepted for URI and wildcard certificates) and a remote memory-exhaustion bug in the QUIC networking layer.\n- `a4600e5` Fixed **an image attachment being able to open attacker-written content inside the app**. A sender chooses the `mimetype` on a picture they send, and the image and sticker renderers passed that value straight through when building the local media object — so a picture could declare itself as HTML, and the image viewer\'s "open in browser" button would then open it as a page running with the app\'s own permissions. Images and stickers are now restricted to real picture formats, and that button refuses anything that is not an ordinary web link.\n- `a4600e5` Fixed **push notifications trusting everything the push server sent**. The service worker displayed whatever text arrived and handed the room identifier it was given straight to the app\'s navigation. Notification text is now length-limited and stripped of control characters, and the room and event identifiers must look like real Matrix identifiers before anything is shown or opened. This matters more now that pushes carry real message content.\n- `a4600e5` Fixed **a code block in a message being able to freeze the client**. Syntax highlighting ran on the main thread with no size limit, and the sender picks the language from 287 options. Measured across every grammar we ship, the cost grows with the square of the length: `javascript` on a plain run of letters takes **4.1 s at 32 000 characters and 40 s at 100 000**, and `scss` reaches **8.6 s and 84 s**. Code blocks over 4 096 characters now render in full but without colours (worst case ~130 ms). This also fixes an honest large paste hanging the app.\n- `a4600e5` Fixed **an emoji shortcode being able to break out of the HTML it is written into** when a message is edited and re-sent. Every neighbouring field was escaped; this one was not.\n- `a4600e5` Fixed **all 22 known-vulnerable dependencies, 10 of them high severity — now zero**. The important one is the PDF renderer (`pdfjs-dist` 5.7.284 → 6.2.108), where a malicious PDF could run JavaScript in the app, in a client that renders PDFs strangers send you. Also the router (open redirect and XSS), the user-agent parser (a hang on a crafted string), and `lodash` — the only vulnerable package that actually reached the shipped app. The PDF upgrade is a major version: it needed code changes, and the new renderer fetches WebAssembly decoders at runtime that were not previously bundled, without which **scanned documents would have rendered blank with no error** — those are now shipped. Verified in a real browser that PDFs still render and the app still starts.\n- `a4600e5` **Self-hosters: the Docker image now listens on port 8080, not 80**, because it no longer runs as root. Change the container side of your port mapping (`-p 80:80` → `-p 80:8080`) and any Compose or Kubernetes manifest that names port 80. README updated.\n- `c0b94a6` **Android: reinstall required once.** Release APKs are now signed with a new key, because the previous signing key had been committed to the public repository and anyone could sign an APK your phone would accept as a Prinny update. Android refuses an update signed by a different key, so this build will not install over your current one — **uninstall Prinny and install this APK fresh**. In-app updates work normally again afterwards. Sorry for the one-time hassle; there is no way to rotate a leaked signing key without it.\n- `c0b94a6` Fixed **Android notifications only arriving while the app was open**. The push receiver decided who should show a notification by checking whether the app\'s plugin object existed — but that flag is set on first launch and never cleared, so every push was handed to the WebView, and Android suspends WebView JavaScript the moment the app leaves the screen. Nothing rendered. The receiver now checks whether the app is genuinely on screen (`MainActivity.isAppInForeground`) and posts the notification from native code when it is not, so notifications arrive with the app closed. Notifications also show the real sender and message with `BigTextStyle`, get **one notification per room** instead of all rooms overwriting a single entry, and tapping one opens the right room. Encrypted rooms show "New message" — the server cannot read them, which is the encryption working.\n- `c0b94a6` Fixed the **Android in-app updater installing an APK without checking it**. `UpdateChecker` parsed the published `sha256` and then never used it, and staged the download in shared public storage under a predictable name where another app could replace it. It now verifies the SHA-256 before prompting (deleting the file on mismatch), stages in app-private storage, requires an `https` GitHub host, and registers its download receiver as `RECEIVER_NOT_EXPORTED`.\n- `c0b94a6` Fixed **embedded web content being able to turn on your microphone and camera**. The Android WebView permission handler granted capture based only on whether the app held the OS permission, never checking which origin asked — so any third-party iframe (a link preview, an embed) could obtain mic and camera silently once you had made one call. Capture is now restricted to the app\'s own origin, and page scripts can no longer flip the microphone foreground-service type on their own.\n- `c0b94a6` Fixed **a single message being able to freeze the client**. The jumbo-emoji check used a nested-quantifier regex whose cost doubled every ~2.5 characters: a message of ~70 colons locked the render thread for minutes, and the event persisted so reopening the room re-froze it. Measured 55 colons: **3.7 s → 0.14 ms**, and flat at 1000. The URL matcher\'s variable-length lookbehind was quadratic on long messages (**853 ms → 0.8 ms** on 40 000 characters), and an empty search term could spin the highlighter forever — a double space in the room switcher was enough. `utils/regex.ts`, `utils/findAndReplace.ts`, `plugins/react-custom-html-parser.tsx`.\n- `c0b94a6` Fixed **links and embeds handing arbitrary URL schemes to the operating system**. On desktop, a link opening a new window is passed to the OS URL opener, so a homeserver-supplied or message-supplied `file:`, UNC or app-protocol URL invoked a local handler. All such URLs are now validated as `http(s)` at the point of use (new `utils/safeUrl.ts`), `ftp:` and `magnet:` are no longer accepted in message links, and the native side enforces its own scheme allowlist.\n- `c0b94a6` Fixed **login credentials being sendable to the wrong server**. The homeserver allowlist was checked against the name you typed while the login request went to the `base_url` that server\'s own `.well-known` returned, which was never re-checked; and an `http://` prefix in a `/login/:server` link survived into the credential request. Discovery now forces `https`, the route parameter must be a bare hostname, and the allowlist is re-applied to the discovered URL.\n- `c0b94a6` Added a **"Hide message content"** notification setting (Settings → Notifications) so system notifications can show only the sender. Decrypted message text otherwise goes into the OS notification store, where other software on the device may read it.\n- `c0b94a6` Added a **Bluesky post embeds** toggle and made every third-party embed state plainly that enabling it sends the link and your IP address to that service. Bluesky previews previously fetched from `public.api.bsky.app` with no setting at all. Link previews for **encrypted** rooms are now off by default — asking the server to preview a URL from a message it cannot read hands it that URL.\n- `c0b94a6` Improved **rendering safety for hostile room state and media**: power-level tag icons can no longer be an arbitrary URL that beacons every viewer\'s IP on each render, attachment dimensions are clamped, download filenames are sanitised, blob MIME types can no longer be declared as active content, and megolm key-file import bounds its key-derivation work.\n- `c0b94a6` Improved **desktop native hardening**: the app now refuses to start if another process already holds its frontend port (that port grants native permissions, so whoever answers on it inherits them), the SSRF guards cover 0.0.0.0/8 and IPv4-in-IPv6 encodings, redirects are re-validated per hop, downloads are size-capped, and drag-drop file access is consumed once instead of lasting the whole session. The permission grant to the page dropped filesystem, HTTP, dialog, clipboard, shell and global-shortcut access, none of which the client uses.\n- `c0b94a6` Improved **self-hosting and build security**: every shipped nginx/Caddy/Netlify config now sets a Content-Security-Policy and related headers (verified in a real browser, including WebAssembly crypto and the bundled call widget), production source maps are no longer published, the Docker image runs unprivileged (**publish `-p 80:8080` now**), the web root no longer exposes `.git`, and CI pins its actions, drops install scripts, and stops packaging its own credentials into the source archive.\n\n## 10.08.2026\n\n- `22f0979` Updated **sanitize-html to 2.17.6** — a security release for the HTML sanitizer every incoming message body passes through. Upstream cinny `90837f7`.\n- `3ef594f8` Upgraded the **in-app call stack to element-call 0.20.1** (from 0.19.3) and **matrix-js-sdk to 41.7.0**. Fixes the **call settings and reaction buttons doing nothing** — element-call moved its settings button to a new `data-testid` and our control layer was still walking `previousElementSibling` off the leave button, so it was clicking the wrong nodes. **Screenshare and spotlight buttons now update their state**, the **mic/video buttons disable while a toggle is in flight** (instead of letting you desync them with fast clicks), and **incoming-call popups no longer appear for voice rooms**. `plugins/call/CallControl.ts`, `CallEmbedProvider.tsx`, `call-status/CallControl.tsx`, `call/CallControls.tsx`, `call/Controls.tsx`, `call/PrescreenControls.tsx`. Upstream cinny `e379714`.\n- `aba72c2` Fixed **"Manage devices" opening a dead page** on homeservers that have moved to the stable spec — account management now uses the stable MSC2965 action names instead of the unstable `org.matrix.msc2965.*` ones. `useAccountManagement.ts`. Upstream cinny `a9245c8`.\n- `03ad4e7` Fixed **long space names and descriptions overflowing the lobby header** instead of truncating. `LobbyHero.css.tsx`, `page/style.css.ts`. Upstream cinny `762e99a`.\n- `69fc00c` Updated **folds to 2.7.1** (the UI component library). Upstream cinny `730a748`.\n\n## 07.06.2026\n\n- `c9ca749` Unified **people + message search into the members drawer** — the search box moved into the drawer header and the **"N Members"** title moved down beside the Filter/Sort chips. One box now drives both: matching members filter the list instantly, and a new **Messages** section below shows matching messages (with a "Search older messages" button to page deeper). The standalone search icon and search panel are gone on desktop; mobile/tablet keep the search overlay since there\'s no drawer there. New `RoomMessageResults.tsx` renders the inline results for encrypted (local scan) and unencrypted (server) rooms alike. `MembersDrawer.tsx`, `Room.tsx`, `RoomViewHeader.tsx`.\n- `c9ca749` Made **encrypted-room search much faster** — back-paginated events are now decrypted **in parallel** instead of one-at-a-time (the per-event serial decrypt was the bottleneck), and each page back-paginates a bounded number of rounds before returning, so as-you-type search stays responsive and deeper history loads on demand. `useClientRoomSearch.ts`.\n- `ba1c6b1` Fixed **encrypted-room search returning no results** — the client-side scan (`useClientRoomSearch.ts`) walked the *entire* room history (up to 50k events / hundreds of back-pagination round-trips) before returning even one match, so for any encrypted room with real history the search just sat on loading skeletons and never showed anything. It now streams: it scans the already-synced history and back-paginates only far enough to fill the requested page, returning matches immediately and resuming pagination on demand as you scroll. Dense terms appear almost instantly; "no results" is only shown once history is genuinely exhausted (still bounded at 50k events).\n\n## 06.06.2026\n\n- `36a04bf` Made **all link-preview embeds 2x larger** — the card max-width went 216→432px and the image/video height caps doubled (300→600, 320→640), so YouTube, Twitter/X, Bluesky and generic embeds all render bigger (everything inside is width:100% of the card, so it scales proportionally). `UrlPreview.css.tsx`.\n- `36a04bf` Fixed **multi-image Twitter/X embeds stacking vertically** — they now render in a 2-column grid (side by side), matching the Bluesky layout. `UrlPreviewCard.tsx`.\n- `36a04bf` Repurposed the embed **"Show all" button for long descriptions** — removed the old og: metadata dump that lived behind it; now a description over 100 words shows the first 100 with a Show all / Show less toggle, and shorter ones show in full. `UrlPreviewCard.tsx`.\n- `36a04bf` Replaced the custom **audio-attachment player with native HTML `<audio controls>`** — encrypted/authenticated media is fetched to a blob first, plain media streams directly. `AudioContent.tsx`, `RenderMessageContent.tsx`.\n- `36a04bf` Fixed a **softlock when swiping right in Settings on mobile** — the swipe slid the container fully off-screen (via `commitOffset`) expecting a route change to unmount it, but Settings navigates subpage→menu in place, so it stayed stuck off-screen. Settings now snaps back instead. `Settings.tsx`.\n- `36a04bf` Fixed **swiping back into the last conversation on mobile** — `MobileSwipeOpen` remounts on every in/out transition (so its `useState` last-room reset to nothing) and its fallback link selector matched no real path. The last-opened room is now remembered across remounts and the fallback targets the top room in the list. `MobileSwipeOpen.tsx`.\n- `36a04bf` Fixed the **Inbox page layout on mobile** — Notifications/Invites rendered in normal flow, so the absolute nav backdrop painted over them. They\'re now wrapped in `MobileSwipeBack` (an opaque z-index:1 layer, like rooms), which fixes the stacking and adds the swipe-back gesture. `Router.tsx`.\n- `36a04bf` Made the **mobile UI 15% larger** — bumped the root font-size to 115% under 640px; folds sizes everything in rem, so fonts/spacing/icons/controls scale together. `index.css`.\n- `36a04bf` Made the **Settings menu items full-width and centered on mobile**. `Settings.tsx`, `settings/styles.css.ts`.\n- `36a04bf` Colored the **mobile safe-area insets** (notch / home-indicator bars) with the themed grey surface instead of black. `SafeArea.css.ts`, `index.css`.\n- `5eb6249` Added **message search in end-to-end encrypted rooms** — the room search button is no longer hidden in encrypted rooms, and a new client-side search (`useClientRoomSearch.ts`) runs there instead of the server. Since the homeserver only holds ciphertext, it back-paginates and decrypts the local timeline (bounded at 50k events), matches message bodies (phrase, falling back to all-words), and returns the same paginated/virtualized result shape as the server path so `RoomSearch` uses either interchangeably. Encrypted rooms show a notice that search runs locally over history synced to this device. Non-encrypted rooms still use server-side `mx.search`.\n- `5eb6249` Fixed reacting to a message scrolling the timeline to the most recent message — a reaction is an `m.reaction` live event "sent by you", so the Scroll-to-Bottom-on-Send path (and the at-bottom auto-scroll) yanked the viewport to the live edge. `RoomTimeline.tsx` now gates both scroll paths on `isLiveDisplayEvent` (skips reactions, edits and redactions, mirroring the render filter); the range still advances so reactions render in place without moving the view.\n- `5eb6249` Moved the **cancel-reply (✕) button to the right** of the reply preview, nearer the send controls, so dismissing a reply needs less mouse travel. An invisible spacer keeps the message you\'re replying to aligned with the text input below (`RoomInput.tsx`).\n- `5eb6249` Improved the **desktop update toast** — clicking it (or its "Open" action) now downloads and installs the update directly, the same as the banner\'s Update button. The toast is tagged `kind: \'update\'` and routed by a dedicated listener so it no longer falls through the message-click → room-navigation path (`useUpdateCheck.ts`, `desktop-notifications.ts`).\n- `5eb6249` Improved the connecting screen — it now shows **Connecting to `<homeserver>`…** instead of a bare "Connecting…", so you can see which server is being reached (`SyncStatus.tsx`).\n- `5eb6249` Fixed **presence dots not appearing** until a live presence event arrived — `useUserPresence` now syncs immediately from whatever the store already holds (the peer\'s `User` object is often created lazily after first render), handles an empty user id, and avoids a stale `undefined` that hid the badge.\n\n## 30.05.2026\n\n- `605d9de` Added **client-side link-preview fallback** (Settings → General, desktop/mobile app only, **default off**) — when your homeserver\'s `preview_url` can\'t generate a link card (commonly a `504` because the target site blocks Synapse\'s non-browser User-Agent), the app now fetches the page itself with a real Chrome UA and parses its OG/Twitter meta tags locally. New Rust `fetch_og_preview` IPC command fetches server-side (bypassing CORS) but keeps every SSRF guard from the media proxy — scheme check, post-DNS private/loopback/link-local/CGNAT/cloud-metadata rejection, DNS pinning against rebinding, per-hop redirect re-vetting (auto-redirects disabled), and a 512 KiB response cap — and, unlike `fetch_remote_bytes`, accepts any *public* host since a generic preview can point anywhere. `UrlPreviewCard.tsx` falls back to it only after the homeserver preview errors, and renders a direct `https` `og:image` straight through (homeserver previews use `mxc://`). Skipped for Twitter/X, Bluesky, YouTube and direct-audio URLs, which already render without the homeserver.\n- `8e99e44` Hardened the desktop media proxy against SSRF — the Rust `fetch_remote_bytes` IPC command (used for Twitter/X and Bluesky video/images) now requires `http`/`https`, restricts the host to a `twimg.com`/`bsky.app` allowlist, resolves DNS and **rejects any private/loopback/link-local/CGNAT/cloud-metadata (`169.254.169.254`) address**, pins the vetted IP on the request to defeat DNS-rebinding, and only follows redirects that stay on the allowlist. Previously it fetched any URL server-side, bypassing CORS.\n- `8e99e44` Fixed the notification-icon cacher leaking the Matrix access token — `cache_notification_icon` now forwards the `Authorization` header **only** when the avatar URL is under the logged-in homeserver\'s `/_matrix/` media endpoint (origin + path validated against `mx.baseUrl`); every other URL is fetched with no credentials and SSRF-guarded.\n- `8e99e44` Hardened `read_dropped_file` — it now reads **only** paths the user actually drag-dropped onto the window (captured from the native drag-drop event), so an injected script can no longer read arbitrary files such as `/etc/passwd`.\n- `8e99e44` Removed the unused `shell:allow-execute` / `shell:allow-open` desktop capabilities (arbitrary process spawn from the webview — nothing in the app used them), tightened the CSP `script-src` to drop remote `http:`/`https:` origins (keeps `unsafe-eval` for the crypto WASM), and scoped the Android `FileProvider` from the whole external-storage/cache roots down to just `Download/` (the only dir the updater APK uses).\n- `8e99e44` Added a non-blocking `security-audit` CI job (npm production-dependency audit gated at critical; `high` + `cargo audit` advisory) and applied `npm audit fix` for the `@octokit/*` ReDoS advisories in the release tooling.\n- `66a3bab` Fixed the Android in-app updater never installing — every release was CI-signed with a **freshly generated random keystore**, so Android rejected each update with "App not installed" (`INSTALL_FAILED_UPDATE_INCOMPATIBLE`: signatures don\'t match the installed app). The APK downloaded but could never install over the previous build, even after granting "install unknown apps." CI now signs every release with a **stable committed key** (`prinny-ci.keystore`), with an optional `ANDROID_KEYSTORE_BASE64` secret override. Existing users need ONE manual reinstall to land on the stable key; after that, in-app updates work.\n- `d9aca00` Added **in-conversation message search** — a search button in the room header (right side, by the call icons) now opens a right-side results panel instead of navigating away. Server-side `mx.search` scoped to the current room, paginated and virtualized (`@tanstack/react-query` infinite query + `@tanstack/react-virtual`) for long histories; click a result to jump to that message in the timeline. Works on web, desktop (side panel), and mobile/tablet (full-screen overlay that closes on result tap). Unavailable in end-to-end encrypted rooms (server can\'t index encrypted messages) — shows a notice.\n- `d9aca00` Added **presence/status bubbles inside the chat and the room header** — message avatars now show the sender\'s online/idle/offline dot (matching the members panel and DM list), and DM headers show the other user\'s presence next to their name.\n- `d9aca00` Made **URL-preview embeds/videos ~50% smaller** (Discord-like) — the preview card max width dropped 432→216px and video height is capped at 320px, so portrait clips render around 180×320 instead of filling the message column. `UrlPreview.css.tsx` + loading-placeholder caps in `UrlPreviewCard.tsx`.\n- `f29c063` Added a **Scroll to Bottom on Send** setting (Settings → General → Editor, on by default) — when you send a message while scrolled up in a room, the timeline now jumps back to the live edge so your own message scrolls into view. Implemented in `useLiveEventArrive` (`RoomTimeline.tsx`): a live event whose sender is the current user resets the timeline via `getInitialTimeline` and triggers `scrollToBottom`, reusing the `handleJumpToLatest` path. Gated on the sender being us, so other people\'s messages never yank the viewport.\n- `38f0d1c` Fixed `:3` (and other single-char emoticons like `:p`, `:D`, `:o`) triggering the emoji autocomplete and auto-replacing on Enter — the `EMOTICON_QUERY_RE` shortcode trigger in `getAutocompleteQuery` matched any run of word characters after `:`, including a single one. Tightened to `[a-zA-Z0-9_+-]{2,}` so the picker only opens once there are at least two characters after the `:` (Discord parity); `:12` → `:1234:` still completes.\n- `32c880f` Fixed emoji/mention autocomplete arrow-key selection — pressing Up/Down moved the highlight (via the focus-trap) but Enter/Tab always inserted the *top* item and the caret jumped to the start of the composer. A window-level capture handler in `EmoticonAutocomplete`, `UserMentionAutocomplete`, `RoomMentionAutocomplete` and `CommandAutocomplete` was hardcoded to commit index 0. Each menu item now carries a `data-autocomplete-index`, and Enter/Tab click the focused item (reusing the mouse-click path, so the selected emoji/mention inserts and the cursor stays put); falls back to the first result when focus is still in the editor.\n- `32c880f` Fixed typing `:)` (and other punctuation smileys) auto-inserting an unrelated emoji on Enter — the emoji shortcode trigger matched any non-space text after `:`. `getAutocompleteQuery` now only treats `:` as an emoji query when the following text matches `[a-zA-Z0-9_+-]` (real shortcodes like `+1`, `e-mail`), so `:)`, `:(`, etc. send as literal text.\n- `32c880f` Improved Element-style read receipts for users without an avatar — the bare grey initial (which read like a stray newline glyph) is now centred inside a circle tinted with the user\'s `colorMXID` placeholder colour, matching how `UserAvatar` renders avatar fallbacks.\n- `32c880f` Fixed Alt+Up / Alt+Down not moving between DMs — outside a space the handler fell through to "all non-space rooms", so in the Direct Messages list it jumped to arbitrary non-DM rooms. It now matches the open sidebar: space → that space\'s rooms, Direct → DMs only, Home → orphan rooms.\n- `32c880f` Added `Ctrl+?` (Ctrl+Shift+/) as a second shortcut to toggle the keyboard-shortcuts panel, alongside the existing rebindable `Ctrl+/` (Discord parity; `Cmd+Shift+/` on macOS).\n- `c32d959` Fixed calls dropping — backported upstream\'s call-drop fix (#2954). Membership counting in `useCall`, `useCallEmbed` and `CallEmbedProvider` was using the experimental slot-based `MatrixRTCSession.sessionMembershipsForSlot()` API (carried over from an earlier backport), which could miss active participants and tear the call down. Reverted to the stable synchronous `rtcSession.memberships`, restoring reliable "call ongoing" detection and incoming-call dismissal.\n\n## 19.05.2026\n\n- `5694870` Fixed Android updater re-downloading every launch and never installing — `UpdateChecker.kt` now (1) checks for an existing APK on disk and a previously-enqueued DownloadManager job before queueing a fresh download, so a downloaded-but-uninstalled APK is reused instead of re-pulled; (2) registers a `BroadcastReceiver` for `ACTION_DOWNLOAD_COMPLETE` and fires the install intent itself with a FileProvider `content://` URI — DownloadManager\'s built-in tap-the-notification handler still generates a `file://` URI that crashes Android 7+ with `FileUriExposedException`, which was the silent failure when the user tried to install; (3) cleans up stale APKs once the new version is the installed one; (4) targets `Context.RECEIVER_EXPORTED` on Android 14+ so the dynamic receiver actually fires; (5) auto-prompts install at most once per cold start when the APK is already downloaded, so a dismissed dialog isn\'t re-shown on every relaunch.\n- `aa75417` Fixed update banner overflow on mobile — the size-300 action Button (32px tall) was poking out below a banner that auto-sized to the text height (~36px) and the Box didn\'t always stretch to the parent column, so the banner ended where the text ended and the button sat half-outside. Added explicit `width: 100%`, `min-height: 48px`, and `flex-shrink: 0` to the shared container style; the inner text Box got `min-width: 0` + `truncate` so long messages ellipsis instead of pushing the button out horizontally.\n- `fff19fa` Fixed mobile swipe gestures and modal layout — `useSwipeGesture` now refuses to engage when there is no navigation target (empty Home no longer follows the finger to nowhere); `MobileSwipeOpen` resolves the target as selected → last → first-rendered room link, so swiping in the DM tab opens the most-recent conversation; commit animates the foreground fully off-screen instead of snapping back, and `MobileFriendlyPageNav` now renders the page-nav as an absolute backdrop behind the room view on mobile sub-routes so swipe-back reveals the actual nav underneath. `Settings` modal supports left→right swipe as "X" (subpage → menu list → close) and on mobile no longer collapses to a tiny top-left island — `Modal500` explicitly flexes the content column and `interactive-widget=resizes-content` + new `useKeyboardInset` hook keep the chat input above the on-screen keyboard without leaving a gap of safe-area padding hovering over the keyboard.\n- `380ca1a` Fixed Element-style read receipts duplicating across many old messages — `useElementReadReceipts` was memoizing once per Message instance and never invalidating, so as receipts moved forward older mounted Messages kept showing the indicator at their original position. Now subscribes to `RoomEvent.Receipt` and `RoomEvent.Timeline` and rebuilds the receipt map consistently across every Message.\n- `380ca1a` Made message hover effect more subtle — `selected` background (when the right-click menu / emoji board / reaction picker is anchored on a message) was using `Surface.ContainerActive`, the same intensity the theme reserves for pressed states. Demoted to `Surface.ContainerHover` and added a faint hover tint at the same tone so plain hover and right-click feel continuous.\n- `f3e6d88` Improved multi-link embeds — multiple URL preview cards in one message now stack vertically (Discord-style) on every viewport. Previously the desktop layout was a horizontal scroller; the column layout was mobile-only.\n- `f3e6d88` Improved embed image rendering — tiny favicon-style images (`og:image:width` ≤ 96 AND `og:image:height` ≤ 96) are no longer rendered as the embed\'s main image. The text-only card (title / description / siteName) still shows. Article hero shots / post media render as before.\n\n## 18.05.2026\n\n- `9c481ba` Improved mobile layout — nav pane (Home / Direct / Search / Inbox indices) now stretches to the full viewport on mobile via inline `width: 100%` override on `PageNav` so the changelog-side empty-state doesn\'t leave whitespace.\n- `9c481ba` Improved mobile settings modal — fills viewport (`100vw` × `100dvh`), square corners, safe-area-inset padding so notch/home-bar don\'t obscure controls. Keybinds tab hidden on mobile (physical-keyboard only).\n- `9c481ba` Fixed `body { height: 100% }` keyboard breakage — switched to `100dvh` with `100%` fallback so the on-screen keyboard pushes the layout up instead of leaving inputs hidden behind it.\n- `9c481ba` Fixed gallery tap-out reopening viewer — overlay\'s `onDeactivate` now plants a transparent full-screen blocker for 350ms that swallows the next pointerdown/click, preventing the tap from bubbling through to the underlying message image.\n- `9c481ba` Mobile image viewer: tap-to-zoom replaced with pinch-to-zoom — two-finger gesture tracks distance ratio from initial pinch and scales accordingly (bounds 0.1×–5× matching the +/- buttons). Single-tap zoom kept on desktop where double-firing isn\'t an issue.\n- `47f158f` Followed up on draft-release fix — passed `draft: true` to all softprops/action-gh-release uploads (was defaulting to false and flipping the release to published on the first upload, defeating the whole point of staging as a draft); dropped the versioned `prinny-webapp-vX.Y.Z.zip` variant since the release tag already versions it and every other platform asset is single-named.\n- `ec98378` Fixed release-pipeline window where `/latest/download/*.apk` 404\'d during Android cross-compile — releases now stay drafts until every platform build (windows + linux + macos + android + webapp-zip + archive) has uploaded its artifacts, then publish atomically. Old versioned releases are deleted after publish, not before, so the previous tag stays "latest" until the new one is fully assembled.\n- `2b24087` Added README download link for the web client zip — `prinny-webapp.zip` is now uploaded with a stable filename alongside the versioned one so `releases/latest/download/prinny-webapp.zip` resolves.\n- `d047dd6` Added platform notification for update banner — `useUpdateCheck` fires `sendDesktopNotification` the first time each new version becomes available; deduped per-version so a dismissed banner doesn\'t re-notify on repeat polls. Android Tauri skipped (UpdateChecker.kt\'s own DownloadManager notification covers it).\n- `09cc5ee` Added web client dist zip to GitHub releases — new `webapp-zip` job in prinny-client\'s `build.yml` attaches `prinny-webapp-vX.Y.Z.zip` (rebrand + `npm run build` output) to every release for self-hosters who\'d rather download than `git pull`.\n- `6932b32` Replaced welcome splash with bundled changelog viewer — empty-state screen now reads `cinny/CHANGELOG.md` baked in at build time (Vite `?raw` import) and renders the latest dated bullets, links each SHA to the cinny commit page.\n- `0a803b4` Added Web Push for background notifications — service worker `push`/`notificationclick` handlers, Matrix HTTP pusher with VAPID public key from `config.json`. Falls back to foreground `window.Notification` when no gateway configured. Also flipped `usePiped` default to `false` so YouTube links resolve through youtube.com unless opted in.\n- `5abc142` Fixed Slate "Cannot resolve a DOM node" crash on message edit with emoji — new `safeFocusEditor` wrapper falls back to deselect + DOM focus when the selection is stale after autocomplete close.\n- `2afe5a1` Fixed Ctrl+/ keybinds modal silently closing itself — two window listeners cancelled each other in one tick; removed the duplicate so the toggle actually fires.\n- `2afe5a1` Fixed soundcloak embeds spamming 502s — skip homeserver `preview_url` for direct-audio URLs since it rejects `audio/mpeg`.\n- `2afe5a1` Fixed fullscreen button greyed out on YouTube iframe — `allow="fullscreen"` was overridden by the rest of the permissions policy.\n- `2afe5a1` Improved composer layout — attachment button moves to left of editor, send to the right (Discord-style).\n- `2afe5a1` Improved mobile gallery — title bar relocates to the bottom on mobile, both rows span full viewport width.\n- `2afe5a1` Improved mobile swipe gestures — follows the finger via transform with a 180ms ease-out settle on release; right-edge forward-swipe now returns to the last-visited DM.\n- `2afe5a1` Fixed double notifications on web — `sendDesktopNotification` was firing alongside an explicit `new Notification` with click handler.\n- `1180ddb` Added auto-bump-cinny workflow — reactive `repository_dispatch` from cinny\'s publish-webapp keeps prinny-client\'s submodule pointer current within ~30s of every cinny push.\n- `0a803b4` Added Web self-host download row to README — `git clone -b webapp-release https://github.com/coffeegrind123/cinny.git /usr/share/webapps/prinny` for self-hosters.\n- `4461ea0` Fixed Android updater re-downloading APK on every launch — `tauri.properties` was missing so `versionName` defaulted to `"1.0"`; `bump-version.mjs` now writes it explicitly with both versionName + versionCode.\n\n## 17.05.2026\n\n- `15a60e9` Added webapp-release publish workflow — built dist auto-publishes to the `webapp-release` branch of `coffeegrind123/cinny` on every push to `desktop-notifications`. Self-hosters install with `git clone` + `git pull`, no `npm` at deploy time.\n- `8a50134` Fixed standalone webapp build — version imports in `AuthFooter.tsx` and `WelcomePage.tsx` were going 5 directories up (which only resolves when cinny is nested under prinny-client). Switched to 4-up so both build contexts work.\n\n[End of changelog. Earlier history lives in git log.]\n', wat = `https://github.com/coffeegrind123/prinny-client/releases`, Tat = `https://github.com/coffeegrind123/prinny/commit/`;
+    var Cat = '# Changelog\n\nUser-facing changes per commit. Most recent at the top.\n\n## 18.08.2026\n\n- `79bead6` Added **a proper error screen** for the kind of failure that takes the whole app down. Until now that landed on the router\'s own developer page — "Unexpected Application Error!", a minified stack, and a note addressed to whoever wrote the app — which is where yesterday\'s "Server versions are not provided!" crash left you: nothing to do about it, no way back, and nothing to say it was even Prinny. It now explains itself, keeps the technical detail behind a fold for when it is worth reporting, and offers **Reload**, plus **Reset app data and sign out** for a failure that comes back on every launch.\n- `79bead6` Added **a build check for the mistake behind that crash** — a part of the app asking for something that is only set up by the very thing asking. It passes type-checking and linting and shows itself only at runtime, as the entire client replaced by an error page on startup, which is exactly how it reached a release. The build now refuses it and names the component, the hook and the missing piece.\n\n## 17.08.2026\n\n- `0956b9d` Fixed **Prinny failing to start** with "Server versions are not provided!". Introduced the same day by the notification-avatar caching: it asked about your homeserver\'s capabilities from a place in the app that is set up *before* that information exists, and the error took the whole client down to a blank error page rather than being contained. It now runs from a point where the connection is already established.\n\n- `570934d` Fixed **the same new message being flagged twice** when unread chats are shown as avatars in the left rail. The chat\'s own avatar lit up and so did Home, a few pixels apart, for one message. Home now leaves it to the avatar, which is the more useful of the two because it tells you *who*.\n- `570934d` Fixed **the local-time hover flickering** when you held the pointer on a timestamp. The two versions of the text are different lengths, so swapping them resized the thing you were pointing at out from under the pointer, which ended the hover, which put it back — several times a second while you held perfectly still. The timestamp now reserves room for both, so nothing moves.\n- `570934d` Improved **what that hover actually says**. It was a bare time with no am/pm and nothing to say whose clock it was. It now follows your 12/24-hour setting like every other timestamp, and names the place — "07:40 AM Chicago" rather than "07:40".\n- `570934d` Fixed **double-click to reply doing nothing** when you double-clicked the message itself. It was deliberately ignoring the text, on the reasoning that double-clicking words means "select this word" — but the text is the part you aim at, so the feature only worked on the empty space beside a message and looked broken. It now works anywhere on the message; the word still gets selected as well, and the switch to turn it off is where it always was.\n\n- `0ed87bd` Fixed **the Windows taskbar button barely flashing** for a new message. It was asking Windows for the wrong kind of alert — one that blinks the button exactly four times and then goes quiet, so unless you happened to be looking at the taskbar in that second, nothing appeared to have happened at all. It now stays lit until you actually bring Prinny to the front, the way Discord does. Nothing flashes while you are already reading.\n\n- `6ab2314` Fixed **the Android back gesture closing Prinny** instead of going back. Swiping back or pressing Back quit the app from anywhere — including from a room you had just opened — so the only way back to your chat list was the on-screen controls. It now steps back through where you have been, and only leaves the app once there is nowhere left to go. One thing it still cannot dismiss is the Settings dialog, which isn\'t a place you navigated to; Back there moves the screen behind it instead.\n\n- `bfe1dcf` `e2a6624` Added **the sender\'s picture to Android notifications** that arrive while the app is closed. Those are posted by the app\'s Android half, which runs with no account and no connection of its own, so it had no way to fetch anyone\'s avatar and showed none. Pictures are now saved while the app is running and looked up by who sent the message, so nothing has to be downloaded — or signed in — at the moment a notification arrives. Someone messaging you for the very first time while the app is shut will still have no picture until the app next runs.\n- `bfe1dcf` `e2a6624` Fixed **your phone notifying you about messages you already read on another device**, and leaving them sitting in the notification shade afterwards. When you read a room somewhere else, your server sends a message saying "nothing unread here anymore" — Prinny was treating that as a new message and posting **New message** for it, so reading on the desktop actually *created* a notification on your phone. It now clears that room\'s notification instead.\n\n- `67c9298` Added **the sender\'s local time on a timestamp**. Hover the time on someone\'s message and it becomes the time it was on *their* clock when they sent it, for as long as you\'re pointing at it. It answers the thing a timestamp cannot in a room spread across the world — a reply at 03:40 their time means something different from a slow one. If the time difference lands the message on another day where they are, the date is shown too, because "08:30" under a message dated yesterday would just be wrong. Only works for people who have set their time zone in Settings → Account, and nothing changes on hover for anyone who hasn\'t. Your own time zone is set in the same place.\n- `2b09da0` Added **"Default Inbox Tab"** to Settings → General → Layout, and fixed the Inbox ignoring it. Opening the Inbox went wherever you had left it last time, remembered from before any of this existed — so it kept landing on Notifications no matter what the default was meant to be, and there were three separate ways in (the sidebar, the top bar, and the address itself) that each decided for themselves. They now all ask the same setting, and the setting decides rather than being overruled by where you happened to be last. It defaults to All.\n- `67c9298` Changed **the Inbox to open on All** rather than Notifications, now that All exists and contains both.\n- `fe18690` Added **an "All" filter to Invites, and made it the default**. Invites are sorted into Primary, Public and Spam by guesswork — do you share a room with the sender, does anything look like spam, has the sender been banned somewhere you are — and the page used to open on Primary only. An invite the guess put in either of the other two was not just further down, it was nowhere, unless you knew to go and look. The three groups are still shown separately, with Spam still behind its warning, so nothing arrives without the context that says what it is; empty groups are simply skipped.\n- `fe18690` Added **an "All" inbox** alongside Notifications and Invites, showing both on one page with invites at the top. Invites and Notifications were each half an inbox, so whichever you opened, the other half was somewhere you had to remember to check.\n- `fe18690` Fixed **invitations showing up as `m.room.member` event in your notifications**. That is the raw name of the thing an invite is made of, and it was being printed because nothing had been written to describe it — the notification that most needed to explain itself was the one explaining least. It now reads the same way an invite reads in a room\'s timeline, and it handles the neighbouring cases too, like someone accepting a request to join.\n- `fe18690` Added **`/status`** for setting your status message from the composer — the one that follows you everywhere and shows next to your name, the same box as Settings → Account → Status. Not to be confused with the room topic. `/status` on its own clears it, which is otherwise something you have to open Settings to do.\n- `44af202` `824cbd8` Fixed **ntfy users being quietly routed through a stranger\'s server**. Notifications are delivered to your phone by way of a "gateway", and the app works out which one to use by asking your push server whether it can act as one. That question was being asked in a way a browser is not allowed to hear the answer to — ntfy.sh replies correctly, but without the header a browser requires before it will let the app read the reply — so the answer was thrown away unread and Prinny fell back to the shared public gateway run by the UnifiedPush project. Notifications still arrived, which is why this went unnoticed, but it meant every message notification took a detour through a third party — carrying the sender and the message text for any room that is not encrypted. The question is now asked by the app itself rather than through the browser, so ntfy answers for its own gateway and your notifications go straight there.\n- `b624a17` Added **"Register pusher" to the Push Delivery panel**, which says what your homeserver actually replied instead of leaving you with a red mark and no reason. Registering with your server is the last step of setting up notifications and the easiest one to get stuck on, and until now a refusal was written to a log you cannot open from a phone — so a distributor handing over an address we will not use, a server turning the registration down, and the attempt never being made all looked exactly the same. The panel now also shows **which push gateway is in use**, because it is picked for you and is not always the obvious one: it is chosen by asking your push server whether it speaks Matrix, and ntfy.sh does not answer that question in a way the app is allowed to read, so ntfy users are quietly routed through the public UnifiedPush gateway instead. It works, but it puts a third party in the path of your notifications, and you should be able to see that rather than have to guess at it.\n- `98a0ae0` Removed **the "Check for Updates" button on Android**, where it never did anything. Android updates itself — Prinny checks on startup, downloads the new version and asks you to install it — so the button had nothing to do, and tapping it left it sitting there still saying "Check for Updates". It is still there on desktop, where it is the thing that applies an update. \n- `98a0ae0` Changed **the swipe-back in Settings to start from the left edge**, the way Android\'s own back gesture does. It used to trigger on a sideways drag begun anywhere on the screen, which is fine in a chat but wrong in Settings: the page is full of switches and sliders, so nudging one sideways could throw you off the page you were trying to adjust. Chats and the main screen keep the swipe-from-anywhere behaviour.\n- `949b169` Added **a status line under each chat in the sidebar**. A direct message now shows what the other person is up to beneath their name — what they are listening to or playing if they are broadcasting that, and otherwise the status message they set. The activity wins when there is one, because a chat list is read for what someone is doing *now*, while a status message often sits unchanged for weeks. The member list is deliberately unchanged: there the status still wins and the activity shows as the small icon in front of it. Rows do not get taller — the space was already being reserved.\n- `949b169` Changed **where the sender\'s `@name:server.com` sits when you hover a message**. It now goes hard against the right edge, tucked *under* the reply and reaction buttons instead of standing to their left, so it no longer takes a strip out of the line beside them. On phones it is gone entirely: it is there for a mouse pointer, and a touch screen has none, so it could only ever turn up as a stray box after a long-press.\n- `c6e0a64` `a026e6e` Added **a Push Delivery panel** to Settings → Notifications on Android, which says which part of push is broken instead of leaving you to guess. Background notifications here need a separate distributor app on your phone (ntfy, Sunup, NextPush — there is no Google push in this client) and a registration held by your homeserver, and every possible break in that chain used to look exactly the same from the outside: notifications simply did not arrive. The panel checks each step on its own — whether a distributor is installed, whether one is selected, whether it has actually answered, whether an address was issued, whether your homeserver is sending to *that* address, and whether Android is letting Prinny post at all — and tells you what to do about the one that failed. **Re-register** also doubles as the way to pick a distributor.\n- `a026e6e` Fixed **Prinny forgetting its push address every time it was closed**. The address lived only in memory, and a messaging app\'s process is shut down by Android constantly — so every launch found nothing, reported nothing, and went back to the distributor to be told the very address it had just discarded. It is now remembered properly. Re-registering also no longer throws away a working address before asking for a new one, which used to leave the app with nothing at all if that request was slow or failed.\n- `c6e0a64` Fixed **notifications stopping for good after your distributor changed its address**. Your homeserver was left holding the old one and kept sending there — to nobody — while a fresh registration piled up alongside it rather than replacing it, because the address is the very thing that identifies a registration. Retired ones are now cleared out. Only Prinny\'s own are touched; registrations belonging to your other apps and devices are left alone.\n\n## 16.08.2026\n\n- `c91e1d2` Fixed **Android notifications never arriving**, and it was not the part anyone had been looking at. Prinny asks the shell to do the Android-only work — register for push, keep the connection alive in the background, post the notification — and every one of those requests was being refused before it got anywhere, because the app never granted itself permission to make them. So no push was ever registered with your homeserver, meaning the server had nothing to send to, and the carefully-written code that turns a push into a notification had never once run. The same refusal silently disabled **notification avatars, the taskbar unread badge, drag-and-drop file sending, link previews, Discord rich presence and Twitter/X media** on desktop, each of which quietly fell back to doing nothing or doing less.\n- `9beda76` Fixed **Android notifications going nowhere even once they arrive**: tapping one did not open the room, a rotated push address was never re-registered, and an incoming push never nudged the app to sync. All three listened on the wrong channel — the shell delivers these to a per-plugin subscription, not the app-wide one they were waiting on.\n- `9beda76` Fixed **Prinny never asking for Android\'s notification permission**. It was only ever requested from Settings → Notifications → Enable, so unless you went looking for that switch, Android silently discarded every notification the app posted — while notifications from *downloads* kept working, because those are posted by Android itself and need no permission from us. It is now asked for on first run, once.\n- `c91e1d2` Fixed **the attachment button doing nothing on Android**. Adding mic and camera support for calls replaced a piece of the WebView the app does not own, and the file picker lived in the part that got replaced — so every attach button, and every avatar or sticker upload, opened no picker at all and reported no error. That piece is now wrapped rather than replaced, which also brings back JavaScript dialogs, the location prompt and WebView logging.\n- `c91e1d2` Fixed **two identical "Messages" entries** in Android\'s notification settings. Messages received in the background used a different channel from the rest, so silencing the one you could see left the other one ringing.\n- `9beda76` Improved **what Prinny says when Android push cannot be set up**. A device with no UnifiedPush distributor installed (ntfy, Sunup, NextPush) now says so, and says that background notifications will not arrive until one is — there is no Google-push path in this client, so that app is required. A distributor that refuses the registration is now reported too, instead of being dropped in silence.\n- `7190544` Changed **where the sender\'s address shows up** on a run of messages from one person. It is now drawn once, on the first message of the run — beside the name and the time, where the sender is actually identified — instead of on every message, which labelled the same person over and over. Hovering *any* message of the run brings it up, so pointing at the fifth message in a row still answers "who sent this?" without you having to find the top of the group.\n- `dbd3e7f` Fixed **push notifications arriving with a blank generic icon** instead of the Prinny one. The app asked the browser for an icon at a path that does not exist in the built app, and the browser quietly substituted its own rather than reporting anything. The icons listed for installing Prinny as an app were stale in the same way. Both now work whether you use prinny.app or host it yourself.\n- `25bf6a3` Added **sharing into Prinny from Android\'s share sheet**. Pick Prinny when sharing a link, some text or files from another app, choose the room, and it lands in the composer with everything attached. Nothing is sent automatically — you still see it and press send, and a share that arrives while Prinny is closed is kept and shown once it has started up.\n- `d4cf7e1` Added **proper Hacker News link previews**, built from HN\'s own data: the story title, who posted it, the score, the comment count, and a link straight to the discussion. HN publishes nothing for a preview to read, so cards for it used to come out with the site\'s navigation strip ("new | past | comments | ask | show…") as the description. Off by default with the other link integrations — Settings → General. Also fixed **thumbnails being requested over and over** after the server had already refused them once.\n- `b2d1039` Fixed **link previews of a URL nobody sent**. A link containing spaces was cut at the first one, so the preview was of a shortened address that leads nowhere — and an audio or video file linked that way never got its player, it fell back to a dead generic card. Links written as `<…>` or as text pointing somewhere else failed the same way. Previews now follow the actual link in the message.\n- `326cc50` Fixed **the sender\'s address drifting about** on a run of messages from one person. Hovering a message shows the full `@name:server.com` at its right; on the first message of the run it sat hard against the edge and on every message after it 152px short of it, so the label jumped sideways as you moved down the group. The one that looked right was the wrong one — it was tucked under the hover toolbar with the tops of its letters cut off. Both now sit in the same place, clear of the toolbar.\n- `abad72a` Added **marking a room unread** — right-click a room in the list, *Mark as Unread*. The unread dot comes back so you remember to return to it, and unlike a local flag it follows you to your other devices and to other Matrix apps, because it uses the standard way of recording that rather than a Prinny-only one. Flags set from another app show up here too, including the older key Element used for years. Reading the room clears it. The option is greyed out on the room you are currently looking at, because that room marks itself read again the moment you scroll it — better to grey it out than to let it quietly undo itself.\n- `abad72a` Fixed **your recently-used emoji not following you to other Matrix apps**. Prinny only ever wrote Element\'s private key for that list, so nothing else could see it; it now writes the standard one as well and reads whichever is there. The two store the list in genuinely different shapes, which is why this was not simply a rename. The Recent row is also now in *recent* order — it had been sorting by how often you had used an emoji, so a face you used once this morning sat behind one you used a lot last year.\n- `abad72a` Added **telling other apps when a picture you send is animated**. Without that flag the app at the other end cannot know a GIF, animated WebP or APNG moves until it has downloaded the whole thing, and asking a server for a small preview of one gets a single frozen frame back. Prinny now inspects the actual file rather than trusting the file extension, so a `.webp` that happens to be a still is not announced as a GIF — and where it genuinely cannot tell, it says nothing rather than guessing. Covers pictures, stickers, and images you add to a sticker set.\n- `abad72a` Added **a time zone on your profile** — Settings → Profile → *Time Zone*, with a *Detect* button and type-ahead over every zone your device knows. Other people then see the local time where you are on your profile card, ticking while it is open. Leave it empty to show nothing, which is how it starts.\n- `e2d971e` Changed **the Windows installer**. It now carries Prinny artwork — the mascot and wordmark down the side of the welcome page, a header on every page, and the app icon on the installer file itself — and the footer no longer advertises the toolkit that built it. The separate `.msi` download is gone. Nothing ever used it: updates have only ever gone through the `.exe`, it still wore upstream Prinny\'s blue-and-bird artwork, and its way of updating replaces the Start Menu shortcut, which quietly breaks a pinned taskbar icon and, because Windows ties notifications to that shortcut, stops desktop notifications arriving at all.\n\n## 15.08.2026\n\n- `67c01fe` Fixed **videos and GIFs playing in a clunky custom player**. A video had a **Watch** button you had to press before anything happened, then downloaded the whole file before it could start, and once going it looped forever with the length and file size stamped over the corner — sensible for a GIF, odd for an hour-long clip. Video now uses the player your browser provides, the same way voice messages already did, and only fetches what it needs to start. **GIFs are told apart from videos properly** for the first time: one sent from the GIF picker loops silently with no player bar, and a video gets ordinary controls and waits for you. If your device refuses to autoplay a GIF, controls appear so you can still start it.\n- `67c01fe` Fixed **notifications never arriving on Android**. The app was registering for push with your homeserver in a way the server has to refuse, so no notification was ever set up and nothing was ever sent — which looked like the app not supporting notifications at all. It now finds the right address for whichever push app you use (ntfy, Sunup and the rest), which is the step other clients do and this one skipped. If it still fails, it now says so clearly instead of leaving one hidden line in a log nobody can read.\n- `67c01fe` Fixed **the cursor landing before a `/command`** after picking it from the list, instead of after it. Mentions and emoji shortcuts had the same fault. This is also the likeliest cause of **text coming out backwards** as you typed: with the cursor stuck before what you just inserted, every letter goes in at the same spot and the word builds up in reverse.\n- `67c01fe` Fixed **read receipts sitting past the end of a message**. Replying to something longer than your reply pushed the little avatars out to where the quoted message ended, floating well past the message they belong to. They now sit at the end of the message itself, on its last line.\n- `67c01fe` Removed **the empty strip down the right of every message**. It was reserved for the buttons that appear when you hover, but it was also being reserved on phones, which never show those buttons — so the narrowest screens were giving up the most width for nothing, and it was why the **new messages** line stopped short of the edge. The buttons now sit over the end of the message when you hover it, and messages use the full width.\n- `67c01fe` Fixed **the hovered timestamp on grouped messages** sitting too high and too far from the message, and **the little clock on a message still sending** riding above the timestamp beside it.\n- `67c01fe` Fixed **emoji that your device has no picture for** being offered in the picker anyway, where they showed as an empty box — and then arrived as an empty box for whoever you sent them to. The newest handful (orca, distorted face, fingerprint, face with bags under eyes and a few more) are hidden until your system can actually draw them, and reappear on their own once it can.\n- `d6129bf` Fixed **the chat list showing up empty while the app was connecting**, and staying empty until you reloaded the page. The list draws only the rows that fit on screen, which means it has to find the panel it scrolls inside — and it was looking a fraction too early, before the browser had finished attaching it. Getting nothing back, it drew no rows at all. It never looked again, so the list stayed blank; anything that happened to redraw it afterwards fixed it, which is why it came right on a busy account and stuck on a quiet one that had just finished its first sync. Introduced a day ago, when the room and chat lists were merged into one shared list.\n- `d6129bf` Fixed **the same fault in message search**, where it has been hiding since long before this client was forked — results only appear once you type, and typing was enough to shake it loose.\n- `166d537` Fixed **selecting a message by dragging from the right of it**, which highlighted the message from its left edge instead of following your cursor. This is the third go at it and the first that was actually tested against the bug rather than reasoned about: the row of buttons that appears when you hover a message floats just above that message, which puts it over the blank right-hand end of the message *above* it — and pressing on a button cannot put a cursor in text, so the browser started the selection at the beginning of the message instead of where you pressed. Short messages failed every time, because a one-line message is shorter than that strip of buttons is tall and so its whole right-hand end sits underneath; longer messages only lost their first line. Pressing there no longer starts a selection in the wrong place, and every button in the strip still works. The two earlier attempts had moved the reserved space around on the theory that the buttons were covering text — they were not, they were catching the press — so this one costs no width.\n- `166d537` Added **someone\'s status next to their avatar**, as a thought bubble, when you open their profile. It was only ever visible in your own profile preview in Settings before.\n- `166d537` Added **About Me to the profile you see when you click someone**. Their biography was already there but unlabelled and easy to miss; it now looks the same as it does in Settings, because both are now drawn by the same code.\n- `166d537` Fixed **the profile preview in Settings not matching the profile everyone else sees**. It was a separate copy of the same card that had drifted out of step — different spacing under the banner, a different avatar treatment, and a plain colour where the real card shows a blurred version of your avatar. It is now the real card, so what you see while editing is what other people get.\n- `166d537` Fixed **opening someone\'s avatar showing it in a small boxed window**. Every other image in the app opens in the full-screen viewer with zoom and download; avatars were the one exception, wrapped in a dialog that shrank them. They now open like everything else.\n- `166d537` Added **the time of a message in the space where its avatar would be**, when you hover it. Messages grouped under one name have no timestamp of their own — the one at the top belongs to the first message of the group — so there was no way to tell when any of the others were sent without opening something.\n- `166d537` Removed **the GIF button from the message box**. GIFs are a tab on the same panel the sticker and emoji buttons already open, so the button was a third way to open one panel on one of its tabs. Nothing is lost: the tab is still there, still controlled by the same *GIF picker* setting in Settings → General.\n- `166d537` Changed **Piped**, which is what plays YouTube links without YouTube watching you: it is now **on by default** and set to `piped.gmach.online`. The instance list is down to that and `piped.private.coffee` — the rest were bare IP addresses and unencrypted addresses that a browser refuses to load anyway, so they only ever worked in the desktop app and mostly made the list look longer than it was.\n- `166d537` Fixed **long lists sometimes rendering in the wrong place** when a list did not start at the very top of the area it scrolls in. The measurement that corrects for this could never run at all — it looked for the scrolling container a moment before the browser had finished attaching it, treated that as nothing to do, and never looked again.\n\n> **Not yet tested by anyone:** everything above except the selection fix has been\n> built and checked but not actually clicked. The profile changes are the ones that\n> move things around on screen, so those are worth a look first.\n\n- `5fa7b32` Added **a Discord-shaped layout, in five separate switches** — Settings → General. **Unified sidebar** puts your rooms and your direct messages in one list under Home instead of two tabs. **Direct message buttons** puts your chats as avatar buttons on the left-hand rail, next to your spaces. **Top bar** runs a strip across the top of the window and moves the inbox into it. **Profile in top bar** moves your name, avatar and the settings button up there too. **Rooms space** makes Rooms its own entry on the rail, leaving Home to your chats. Every one of them is off to begin with, and turning any of them off puts things back exactly as they were. Links never break when you flip one: a chat you bookmarked, the room you had open when you closed the app, and a link somebody sent you all keep working whichever layout you are in. Pinned chats and *Show unread only* work the same in every one of these lists, because there is now only one list — the same one, shown in different places.\n- `5fa7b32` Added **dragging rooms into the order you want**. Grab a room in the list and drop it where it should go. Your order is yours alone — nobody else in the room sees it — and it follows you to your other devices, kept separately for each space. The old sort-order picker is gone: it was a choice between three orders nobody wanted, and this replaces it.\n- `5fa7b32` Added **a GIF picker**, off by default — Settings → General → *GIF picker*. It adds a GIF tab to the emoji board and a button by the attach icon, with categories and a search box. **Favourite a GIF** from the picker or straight from a GIF somebody sent, and your favourites follow you to your other devices.\n- `5fa7b32` Added **pronouns, a profile banner and a biography** to profiles, yours and everyone else\'s. Settings → Profile edits all three and shows you a live preview of the card other people see. The banner has its own crop tool. These need a homeserver that supports extended profiles; on one that does not, nothing appears and nothing breaks — which is itself a fix, because an unsupported homeserver used to blank out the name and avatar as well.\n- `5fa7b32` Added **rich presence** — what someone is listening to or playing, on their profile card, off by default (Settings → General → *Show rich presence*). Album art and links in it always ask before opening and show you the real address, since whoever published it wrote the label. On the desktop app there is also **publishing your own** (Settings → Account), which listens for Spotify, games and anything else that talks to Discord and shares it as your status. See the note at the bottom of this entry — the desktop half has never been run yet.\n- `5fa7b32` Added **a status line under people\'s names** in the member list, so their status message shows next to who they are rather than only on their profile.\n- `5fa7b32` Changed **clicking someone\'s name in a message** — it opens their profile instead of dropping a @mention into whatever you were typing. Their profile card is also tidier: the homeserver sits inline rather than on its own line, the actions are condensed, and you can start a direct message from the card and type the first one straight into it.\n- `5fa7b32` Added **double-clicking a message to reply to it**. Double-clicking to select a word still selects a word, and double-clicking a link or a button still does what it always did.\n- `5fa7b32` Added **copying several messages as a clean transcript**. Select a run of messages and copy: you get names and text, not the surrounding furniture.\n- `5fa7b32` Added **auto-replacing emoji shortcodes** as you type — `:sob:` becomes 😭 — off by default (Settings → General). It works in the message box and when editing a message.\n- `5fa7b32` Added **low animation mode**, off by default. GIFs and videos hold still until you hover them, and the typing dots stop bouncing. For anyone who finds a busy room exhausting, or is paying for the battery.\n- `5fa7b32` Added **auto-embedding media links from hosts you trust**. A bare link to a video file plays inline instead of sitting there as a link, but only for hosts on a list you write yourself (Settings → General) and only for actual video files. The match is exact, so putting `example.com` on the list does not also trust `example.com.somebody-else.net`.\n- `5fa7b32` Added **auto-joining every room in a space**, off by default — globally in Settings, or for one space in that space\'s settings, subspaces included. Joining the space then gets you everything in it instead of a list to work through by hand.\n- `5fa7b32` Added **an "only verified sessions" switch** for encryption (Settings → Sessions). With it on, your messages are not sent to devices you have not verified.\n- `5fa7b32` Added **a notification menu on a space** — set every room in it to the same notification setting in one go, rather than one room at a time.\n- `5fa7b32` Added **reset notifications to defaults**, a single action in Settings → Notifications for when the per-room settings have got away from you. Nothing else was removed; the granular controls are all still there.\n- `5fa7b32` Added **downloading an emoji or sticker set as a zip**, and renamed **packs** to **sets** throughout, which is what everything else calls them.\n- `5fa7b32` Added **leaving every room in a space when you leave the space** — a checkbox on the leave dialog, unticked to begin with, so leaving a space still only leaves the space unless you say otherwise.\n- `5fa7b32` Changed **search results** to group by room, with the messages either side of each hit and the sender\'s name and avatar, so a result reads like a conversation rather than a line of text. Several things about search were also simply wrong: the number of results was the number on this page rather than the total, loading more could drop or duplicate hits, results in encrypted rooms were mislabelled, and a failure printed the raw error at you instead of saying what went wrong.\n- `5fa7b32` Changed **the jump-to-room menu (Ctrl/Cmd-K)** so it no longer offers you the room you are already in.\n- `5fa7b32` Changed **the call banner**: it shows how long the call has been running, who is in it under the room\'s entry in the list, and a badge on the space so you can see there is a call in a space you are not looking at.\n- `5fa7b32` Changed **the image crop tool**, which previously had an Apply button that did nothing at all — it is a working crop tool now, used for avatars and the new profile banners.\n- `5fa7b32` Fixed **images in the timeline being cropped**. A picture that was not the shape of the space it was given had its edges cut off rather than being fitted into it.\n- `5fa7b32` Fixed **not being able to scrub through a voice message or a video**. Dragging the progress bar restarted from the beginning or did nothing, because the request for "just this part of the file" was being thrown away and the whole file sent instead — every time, for every seek.\n- `5fa7b32` Fixed **replies being silently dropped when you attach a picture or a file**. Replying and then attaching sent the attachment as an ordinary message with no reply on it, and nothing said so. Stickers had the same fault.\n- `5fa7b32` Fixed **a message that failed to send looking exactly like one that sent**. Messages now dim while they are on their way, and one that did not make it says so with **Retry** and **Remove** next to it.\n- `5fa7b32` Fixed **the timeline scrolling away from the bottom on its own** while images and embeds finished loading. It was deciding whether to follow new messages based on where the scroll had been a second earlier.\n- `5fa7b32` Fixed **clicking a notification in the browser dumping you in the inbox** instead of the message it was about. The desktop app already went to the right place; only the browser did not.\n- `5fa7b32` Fixed **the keyboard closing after every message on a phone**, so a run of short replies no longer means reopening it each time.\n- `5fa7b32` Fixed **notifications not saying where they came from**. The room and space are in the title now, and each room\'s notifications replace each other instead of stacking up.\n- `5fa7b32` Added **telling you when your browser refuses the app storage it needs** — a private window with storage blocked, or a disk that is full — instead of failing in ways that look like unrelated bugs.\n- `5fa7b32` Added **checking what software your homeserver runs** at startup (Synapse, Conduit, and so on), used to avoid asking a server for things it does not have. If the check fails it is treated as unknown and nothing changes.\n- `5fa7b32` Changed **the icons** throughout the app to a single consistent set.\n- `5fa7b32` Fixed **long lists rendering blank in the wrong place** when a list did not start at the very top of what it scrolls in. Nothing in the app hit this before; the new unified sidebar, which stacks two lists in one scroll, would have.\n\n> **Not yet tested by anyone:** the five layout switches above have been built and\n> checked but never actually clicked in a browser, and **publishing** your rich\n> presence to the desktop app has never been run at all — the piece that talks to\n> Discord compiles but has not yet spoken to it. Both are expected to need a round\n> of fixing. Everything else in this entry has been through the usual checks.\n\n## 14.08.2026\n\n- `d883df6` Fixed **images and avatars failing to load with a "Missing access token" error**, sometimes for a whole session, sometimes coming back only after switching to another chat and back. Images are fetched by a small helper the app installs in your browser, because a picture cannot carry your login with it the way an ordinary request can — and that helper was not always being told who you are. Three separate ways it could be left in the dark are fixed: it was never told on the very first load after it was installed or updated; it was never told again once it took over; and if it asked and the answer was slow, it gave up and then kept waiting on that same dead question for every image afterwards, so the whole session stayed broken. Reloading with **Ctrl+Shift+R** was its own version of this — that kind of reload deliberately bypasses the helper, and it had no way to take over again, so every image failed until an ordinary reload. It now asks to take over. Downloads that *can* carry your login — files, voice messages, images in encrypted rooms — now do so themselves, so they no longer depend on the helper at all.\n- `d883df6` Fixed **not being able to reach the buttons that appear when you hover a message**. Moving towards them meant leaving the message, and they vanished before the pointer arrived. Yesterday\'s fix for dragging a selection from the right of a message moved that row of buttons *outside* the message to get it off the message above — but the buttons are only drawn while the message under your pointer is the one they belong to, so putting them outside meant crossing a dead gap to reach them. The space they sit in is now part of the message itself: they are still clear of the message above, so selections still start where you press, and the highlight when you hover now extends all the way under the buttons.\n- `d883df6` Added **pinning a chat to the top of the list**. Right-click a direct message or a room in Home and choose **Pin to Top**. Pinned chats sort above everything else and stay visible even with *Show unread only* switched on, which is the point — a filter that hid the chats you deliberately pinned would defeat it. Pins are stored the same way **Element** stores Favourites, so a chat pinned here is already a favourite there and vice versa, with nothing to set up on either side. Rooms inside a space are not pinnable: that list follows the space\'s own order, so a pin would have nowhere to go.\n- `d883df6` Fixed **the arrow next to CHATS and the *Show unread only* menu option doing the same thing to each other\'s confusion**. The arrow never collapsed anything — it filtered the list down to unread chats, exactly like the menu option, but with a separate on/off state of its own, so the menu could say unread-only was off while the list showed only unread chats. Direct Messages and Home have only ever had one section each, so the arrow is gone from both and the menu option is now the only filter. Home did not have that option before and now does. Spaces keep their arrows, since they have real sections to collapse.\n- `d883df6` Added **the right-click menu to search results**. Right-clicking a message you found in search gave the browser\'s own menu instead of Prinny\'s. You now get Open in Room, Forward, Edit History, Copy Link, Pin, Delete, Report and — with developer tools on — View Source. Reply, react and edit are not there: they need the message open in its conversation, which is what **Open in Room** is for.\n\n## 13.08.2026\n\n- `2f11ee8` Fixed **selecting a short message by dragging from the right of it**. Starting the drag in the empty space to the right of a one-line message grabbed the text from the far left instead of from where you pressed. The row of buttons that appears when you hover a message is pinned 30px above itself, so it was floating over the message *above* — and a one-line message is shorter than that strip of buttons, so the whole right-hand end of it was covered. Pressing there pressed a button rather than the text, and with nothing to anchor to the selection jumped to the start of the line. Messages now leave room for that button row instead of letting it sit on top of the message above, so the whole width of a message is grabbable again. Long messages were never affected — they are tall enough that the strip only covers a corner. Phones and tablets are unchanged: they never show the buttons, so they keep the full width.\n- `2f11ee8` Changed **how a @name looks**. Mentions were drawn as a boxed pill with a border, which was a lot of furniture in the middle of a sentence — most noticeably in the message box while you were still typing. A mention is now just text in that person\'s own colour, the same one their name has in the conversation. Mentions of **you** still stand out, in the same green as before but without the box, so you can still tell at a glance when a message is aimed at you.\n\n- `8c6b26a` Fixed **registration failing on homeservers that use hCaptcha**, if you self-host with the Docker image. The security policy the container serves never allowed hCaptcha\'s script, so the captcha box stayed blank and sign-up could not be completed — with nothing but a blocked-resource line in the console to say why. The policy shipped to self-hosters via `webapp-release` already allowed it; only the Docker one lagged behind. Nothing to change on your side beyond pulling a new image.\n- `8c6b26a` Removed **a pile of dead build machinery** from both repositories — the Netlify deploy (unconfigured here, and never once run), a contributor-agreement bot pointing at upstream\'s paperwork, issue and discussion templates for issue trackers that are switched off, a second dependency-update bot that was never installed, and two checks that went red on every automated dependency update while gating nothing. A permanently red build hides a genuinely broken one, so this is worth more than the tidiness. The checks that do work — the pull-request build, the type check and the Docker image check — are kept, and the Docker one is repaired so it still fires when the base image is updated.\n\n- `6ac7769` Fixed **X/Twitter links making a pointless request that always failed**. Posts from x.com are drawn by the client itself, but the homeserver was still asked to fetch a preview for the same link — an answer that got thrown away unread, and one X never gives out anyway: it serves a placeholder ("Post / X", a stock image, no text) to anything that is not a browser, and refuses many servers outright, which is where the `502 Got error 403` in the console came from. Nothing was broken at your homeserver\'s end. The request is now made only if the client-side fetch fails, which is the case where the ordinary preview card is what you see.\n- `6ac7769` Fixed **a pile of console errors on every start**. Failed link previews logged an "Uncaught (in promise)" stack trace for a failure already handled; a homeserver without OIDC logged "Configured OIDC OP does not support required functions" as an error even though that is the normal answer; a busy account tripped "MaxListenersExceededWarning: 51 RoomState.events listeners" because every room-related hook registered its own listener (now one shared listener, so the count no longer grows with your room list — and the client stops walking a fifty-entry list on every state change); and the web app logged five blocked mixed-content requests probing YouTube (Piped) instances it could never have loaded over https.\n- `46b469d` Fixed **not being able to type or send in a thread**. With a thread open in the side panel, one of the two message boxes stopped working: clicking it put the cursor there, but nothing you typed appeared and Enter and the send button did nothing. Both boxes were being built from the same shared blank document, and the editor library tracks its position by that document, so whichever box drew last took ownership and the other one could no longer work out where the cursor was. Each box now gets its own. Room and thread composers work at the same time, and drafts still stay separate.\n- `46b469d` Fixed **code blocks that start on the same line as the ```**. Typing ``` and pasting several lines after it — the usual way to paste code — produced literal backticks instead of a code block, because the fence had to be alone on its line and the closing ``` had to be on a line of its own. All four Discord forms now work: ` ```code``` `, ` ```lang ` then the code, code starting right after the opening ```, and the closing ``` at the end of the last line. A language is still picked up when the fence is followed by a single word (` ```js `), and anything else on that line is treated as code.\n- `d971afd` Added **`piped.gmach.online`** to the instance list — a real domain with a valid certificate (verified working), so the web app has a second instance that actually loads, not just a bare IP.\n- `d08c6cc` Added **a Piped instance picker with automatic failover**. Instead of one hardcoded instance, YouTube embeds now choose from a list — Settings → General → *Piped instance* lets you pick one or leave it on **Auto**, which probes the list and uses the first that responds. (On the web app, `http://` instances are blocked as mixed content and only work in the desktop app; Auto skips unreachable ones for you.)\n- `90eef8a` Fixed **code formatting to match Discord**. A single-line ` ```code``` ` now renders as a code block instead of showing literal backticks, and inline code accepts double backticks (` ``a`b`` `) so you can put a backtick inside. The rest of the formatting — **bold**, *italic*, `__underline__`, `~~strike~~`, `||spoiler||` — was already Discord-compatible.\n- `30112a4` Fixed **`-` bullet lists turning into numbered lists**. A list written with `-` (or `+`) was sent as an ordered `<ol>` — numbered even in the raw Matrix source. All of `-`, `*` and `+` are now bullet lists, matching every other Matrix/Markdown client.\n- `30112a4` Fixed **the thread panel\'s avatar filling its whole column**. The sender avatar now sits in a fixed-size box like it does in the main timeline.\n- `61e9b8a` Fixed **images and voice messages that failed to load** ("Mismatched SHA-256 digest" in the console). When the app\'s access token was refreshed, the service worker kept sending the old one for media, so every image/voice note silently failed until a reload. The worker now notices the rejection, refreshes its token and retries, and media download failures report the real error instead of a misleading digest mismatch.\n- `61e9b8a` Fixed **a member list flooding the console** with a repeated "event not found" 404 and an EventEmitter memory-leak warning in rooms with many people. Presence now uses a single shared subscription instead of one per member, and the pinned-message banner no longer requests an empty event id.\n- `61e9b8a` Fixed **stray React Router and fullscreen warnings** on load — the landing route now shows a loading splash while it redirects, and video embeds no longer double up the fullscreen permission.\n- `2d0d32d` Added **an update button in Settings → About**, next to Source Code. It tells you what it is doing — checking, downloading, or that you are up to date — and when an update is waiting it installs it, rather than sending you looking for the banner.\n- `2d0d32d` Fixed **the update banner telling you to "tap" on a desktop**. It now says tap or click to match the device you are actually using. The banner text is also centred properly instead of sitting off to one side.\n- `842520e` Changed **where the web client\'s source lives**: the repository is now `coffeegrind123/prinny` instead of `coffeegrind123/cinny`, matching the name of the app. If you self-host by cloning the `webapp-release` branch, your existing copy keeps updating — GitHub forwards the old address — but the address to use from now on is `https://github.com/coffeegrind123/prinny.git`.\n- `260e107` Fixed **the in-app updater reporting that no update was available for your platform**, on every desktop install. The published update file listed no platforms at all, so each client failed with "None of the fallback platforms were found". The builds themselves were fine — signed and uploaded correctly — but the step that writes that file runs seconds after they finish, and GitHub had not started serving the freshly uploaded signatures yet, so it recorded every platform as missing and reported success. It now retries those downloads, and refuses to publish an update file that would disable updating rather than quietly shipping one.\n- `40b72fa` Added **buttons under bot messages**. A bot can now put real buttons on what it sends — press one and it acts, with a spinner on the button until it answers back and a note if it never does. Buttons can also open a link, copy something to your clipboard, or fill the composer for you. A link button always asks first and shows the site it genuinely goes to, because the wording on a button is written by whoever sent it and the address is not. Destructive buttons look destructive. If you would rather not have buttons at all, Settings → General → Show Bot Buttons turns them off and you get the plain numbered list instead — which is also what people on other Matrix clients see, so a conversation with a bot works the same for everyone in the room.\n- `40b72fa` Added **a bot\'s commands to the `/` menu**. Bots can publish what they understand, so typing `/` lists their commands and descriptions alongside the client\'s own, with the bot\'s name beside each one. A new button by the attach icon opens the same list, and it only appears in rooms where a bot has actually published something. Where two bots offer the same command, picking one addresses it properly so they do not both answer.\n- `40b72fa` Added **quick-reply buttons above the composer**. A bot can offer a set of ready answers; pressing one sends it as an ordinary message. They stay put across a reload and follow you to your other devices, and a bot can clear them or ask you for one specific thing with the composer already pointed at its question.\n- `40b72fa` Added **a BOT tag** next to the name of any account that has published bot commands in a room, in both the conversation and the member list.\n- `40b72fa` Fixed **commands meant for a bot being silently swallowed**. Typing any `/command` this client did not itself recognise cleared the composer and sent nothing at all, with no error — so bot commands simply never arrived. They are now sent as written.\n- `0ec210e` Added **links that open a chat with a bot**, the equivalent of a `t.me` link. Following one opens a direct message and sends its opening command, after asking you first and showing exactly which account and exactly what will be sent.\n\n## 12.08.2026\n\n- `1b99127` Fixed **GIFs and videos in Twitter/X posts not playing at all**. They loaded as an empty box or a dead frame while ordinary GIF links played fine. Twitter\'s video servers refuse any request that says which page it came from, and the setting meant to strip that does nothing on a video — it only exists for pictures, which is exactly why pictures were unaffected. The file is now fetched separately, without that header, and handed to the player. This also means a Twitter clip that previously failed inside the desktop app now has a second way to load rather than showing an error.\n- `1b99127` Fixed **voice messages sitting in a grey box** with a "Voice message" label above them and a download button beside the player. All three were repeating what the player already gives you — it has its own background, and its menu already offers Download. Just the player now.\n- `1b99127` Fixed **long lists in dialogs not scrolling**. The Files dialog, poll history, widgets, edit history, forwarding, export and add-to-space all cut their list off at the bottom edge with no scrollbar and no way to reach the rest.\n- `1b99127` Fixed **the Add Email Address box in Settings still being narrower** than the identity-server one beside it.\n- `805df93` Added **draggable dividers between the columns**. The room list on the left and the member list, thread panel and call chat on the right can all be resized by dragging the line beside them. Double-click a divider to put it back. Widths are remembered, scale with your zoom setting, and are capped so two wide columns cannot squeeze the conversation out. Keyboard: focus a divider and use the arrow keys, Shift+arrow to move faster, Home/End for the extremes, Enter to reset.\n- `3f54ed7` Fixed **selecting text that starts on a link**. Dragging from a link towards the left selected nothing and the highlight jumped somewhere else entirely, because the browser was starting to drag the link rather than select the text. Links in messages are no longer draggable; they are still clickable and copyable.\n- `3f54ed7` Fixed **input boxes in Settings being narrower than the rest and a darker colour**, most visibly the add-email-address field beside the display-name one. The same fault affected the identity-server field, the account-deletion confirmation, the poll answer fields and the server-browser search.\n- `3f54ed7` Fixed **voice messages**, which now play in the audio player your system provides instead of a custom one. The old player could not draw a progress bar for the format voice notes are actually sent in — its own seek bar had nothing to measure against — and it decoded every clip in the background just to draw a waveform, whether or not you ever pressed play.\n- `3f54ed7` Fixed **dialogs being taller than their contents**, such as the widgets dialog, which drew a full-height panel with a large empty band under a short list.\n- `3f54ed7` Moved **creating a poll and sharing your location** out of the composer to the `/poll` and `/location` commands, freeing the buttons beside the attach icon. `/location` only appears when your homeserver actually provides a map server — before, it opened a picker with nothing to aim at.\n- `4a4c58c` Fixed **GIFs not playing when you link one**. A linked GIF showed a single frozen frame, because the preview picture came from the server\'s thumbnailer and a thumbnail of an animation is one still image. GIFs now play, whether the link is the GIF file itself, a Tenor or Giphy page, or a post that contains one.\n- `4a4c58c` Fixed **GIFs in Twitter/X posts** showing a play button that had to be pressed, instead of looping on their own.\n- `4a4c58c` Fixed **GIFs in Bluesky posts** showing only a still thumbnail. Bluesky attaches a GIF as a link rather than as media, so there was nothing to play. They now loop, and use a version around fifty times smaller than the one Bluesky points at — fetched from Tenor directly, so reading a GIF no longer tells Bluesky\'s servers you looked at it.\n- `4a4c58c` Fixed **a GIF that could not be started at all** on Linux and Android. Both refuse to start video on their own, and a looping GIF has no play button by design, so it sat there as a dead picture. If playback is refused, controls now appear. Click a playing GIF to pause it.\n- `4a4c58c` Fixed **image links producing no preview** when the server could not fetch one, and **`og:image`-based video and audio players** that were permanently broken on pages advertising media they do not actually serve — those now show a picture and a link instead of a dead player.\n- `93001c0` Fixed **the Android build failing to release**. `matrix:` links tapped in another app also never reached the client on Android; the app registered itself as the handler but nothing was reading the link.\n- `b3946e0` Added **voice messages**. Press the microphone in the composer, review what you recorded, then send it. They arrive with a waveform and a duration in Element and other clients, and voice notes from those clients now show as a proper player here instead of an anonymous file. Recording stops and releases the microphone when you cancel, switch rooms or close the app.\n- `b3946e0` Added **a thread panel**. Threads could be started before but never read — replies landed loose in the conversation and there was nowhere to open. A message that started a thread now shows how many replies it has and opens them in a panel beside the room, or full screen on a phone. Replies still appear in the main conversation as well, so nothing has disappeared.\n- `b3946e0` Added **polls**. Create one from the composer, vote, and end it when you are done. Polls sent from other clients used to show as "unsupported content" and now work properly. A poll set to hide its results shows nothing at all until it ends, not even to you.\n- `b3946e0` Added **forwarding a message** to one or more rooms, from the message menu.\n- `b3946e0` Added **edit history** on messages that have been edited, fetched from the server so it works for edits made before you opened the app.\n- `b3946e0` Added **a pinned-message banner** above the composer, so a pin is visible without opening the room menu. Dismissing it hides only that pin; pinning something new brings it back.\n- `b3946e0` Added **approving people who ask to join**. Setting a room to "ask to join" used to be a trap: requests arrived with nothing to show them, so people waited on a room that looked like it had ignored them.\n- `b3946e0` Added **exporting a conversation** as HTML, plain text or JSON, with attachments bundled alongside it. Also added **a file list** for the room, so you can find that PDF without scrolling for it.\n- `b3946e0` Added **sharing a location**, either where you are or a pin you drop, and **live location sharing** for 15 minutes, an hour or eight hours. While you are sharing, a banner stays on screen that cannot be dismissed — only stopped. Maps are off until you turn them on, because drawing one tells whoever serves the map tiles where you are looking.\n- `b3946e0` Added **widgets**. Room widgets can be opened, added and removed, and each one asks before it is allowed to read or send anything, item by item. Widgets never get the microphone, the camera or your Matrix identity, and one served from the same address as the app itself is refused outright.\n- `b3946e0` Added **changing your password, adding and removing email addresses, and closing your account** in Settings. Changing a password previously meant logging out and using the reset flow, which needed access to the email on the account.\n- `b3946e0` Added **privacy settings**: block all incoming invites, choose when media previews load, and hide avatars in invitations from strangers.\n- `b3946e0` Added **thirteen more slash commands**, including `/nick`, `/topic`, `/roomname`, `/myavatar`, `/whois`, `/query`, `/plain`, `/html` and `/rainbow`.\n- `b3946e0` Added **chat effects** — `/confetti`, `/fireworks`, `/snowfall`, `/rainfall` and `/hearts`, which also fire when someone sends the matching emoji. Skipped entirely if your system asks for reduced motion.\n- `b3946e0` Added **LaTeX rendering** for maths in messages, off by default.\n- `b3946e0` Added **microphone settings** — choose an input device and turn echo cancellation, noise suppression and gain control on or off. Used by voice messages and calls alike.\n- `b3946e0` Fixed **audio attachments being sent without a duration**, which made them show as unknown-length in every other client.\n- `f96ddb0` Fixed **the microphone never working on Linux**. The window\'s browser engine ships with capture switched off and silently refuses any request nothing is listening for, so recording and call audio could not have worked on that build. Screen sharing from a call is covered too.\n- `f96ddb0` Fixed **the app being killed on macOS the first time it touched the microphone or camera**, instead of asking for permission.\n- `f96ddb0` Added **opening `matrix:` links**, both inside the app and from other programs, on all four platforms. They previously did nothing at all when clicked.\n- `f96ddb0` Added **starting at login**, launching minimized to the tray. Related: a window closed to the tray no longer comes back invisible the next time you start the app by hand.\n- `f96ddb0` Added **hiding the window from screenshots and screen recordings**, in Settings. Works on Windows and macOS; most Linux desktops ignore it.\n- `f96ddb0` Added **spell checking on Linux**, which the window\'s browser engine leaves off by default, using the languages from your own system settings.\n\n## 11.08.2026\n\n- `451148f` Fixed **the icon bar on the left not moving with the swipe on mobile**. It stayed put while the conversation list slid, then appeared or disappeared abruptly at the end, shifting everything sideways. It now slides away together with the list, and the chat opens at the full width of the screen without jumping.\n- `bcb92f0` Improved **message search filling in as it goes**. It used to sit blank while it worked, then stop at the first match it found — so a single recent hit looked like the whole answer and older messages only turned up if you scrolled. Results now arrive a few at a time and keep coming until there is a proper list of them.\n- `bcb92f0` Improved **the settings menu on phones**, spacing the entries out and making each one a larger touch target so neighbouring rows are harder to hit by accident.\n- `bcb92f0` Added **link previews in encrypted rooms by default**. Note this asks your homeserver to fetch the link, which it cannot otherwise see inside an encrypted message — the setting turns it back off.\n- `bcb92f0` Improved **where the Telegram sticker import setting lives**, moving it from General to Emojis & Stickers, next to the packs it applies to.\n- `7679ea5` Improved **swiping toward a chat on mobile**, which now uncovers the conversation as you swipe, the same way swiping out of a chat reveals the list behind it. Previously there was nothing on the other side and the chat only appeared once the swipe finished. Rooms revealed this way are not marked as read — only opening one does that.\n- `7679ea5` Improved **search being the same everywhere**. The search button used to lead to two different screens depending on the window size, and the one on phones could only search messages. There is now a single search, and it finds both people and messages on every device.\n- `7679ea5` Fixed **the settings menu sitting against the top of the screen on mobile**, leaving a large gap below. The list is now centred vertically; the logout button stays where it was.\n- `fe3fdd7` Fixed **swiping back toward a chat looking broken on mobile**. The conversation list went transparent mid-swipe, leaving just the room names floating over nothing. It now slides as one solid page, matching the swipe in the other direction.\n- `fe3fdd7` Improved **the people sidebar search box**, which now spans the full width of the sidebar instead of being squeezed next to the close button. The sidebar also gained a "People" heading.\n- `fe3fdd7` Fixed **the search screen being too wide on small phones**, where it could be pushed past the edge of the screen and scroll sideways.\n- `fe3fdd7` Improved **settings layout**, centring each settings page in the available space rather than letting it hug the left edge — matching how the rest of the app already lays out its pages.\n- `c6a0111` Added **importing Telegram sticker packs**. Open any image pack you can edit, choose "Import from Telegram", and paste a `t.me/addstickers/...` link — its stickers are downloaded and added to the pack. Animated and video stickers are skipped and counted, since packs can only show still images. This needs a Telegram bot token, set once in Settings → General: Telegram publishes sticker packs nowhere else, so there is no way to import without one. Creating a bot with @BotFather takes a moment and is free, and the token is kept on your device only — never sent to your homeserver.\n- `15bd574` Fixed **the attach button doing nothing on Android**. Tapping `+` in the composer, or using the upload shortcut, opened no file picker and gave no error. The file type it asked for was written in a form Android rejects, so the system found nothing able to handle the request and silently gave up. Other pickers in the app — profile picture, sticker pack image — were unaffected and kept working, which is why this looked like an attachments-only problem.\n- `985f7b9` Improved **third-party code once more**, replacing six small packages with equivalent code kept in this project — number formatting, keyboard shortcut matching, file downloads, image placeholders and error handling. The two with any real logic were checked against the packages they replace over tens of thousands of generated cases with no behaviour difference, including on macOS, where the shortcut key differs.\n- `19bad2e` Improved **third-party code in the client further**, removing two packages that nothing used and twelve more from the desktop shell that were never imported by anything. Together with the earlier commit-hook removal today, the web client now resolves 801 packages instead of 950.\n- `db9bb8d` Fixed **the web app at prinny.app/app failing to load with "Failed to load"**, usually right as you signed in. A tab left open while a new version was published kept asking for pieces of the old version that no longer exist on the server; the sign-in step is what requested one first, so the app appeared to break specifically at login. Such a tab now notices and refreshes itself onto the current version instead of dying. If it happens again before this update reaches you, a hard refresh clears it.\n- `db9bb8d` Fixed **the web app not being installable to your home screen or desktop**. Its app manifest was requested from the wrong address on prinny.app/app and always came back missing, so browsers saw no installable app.\n- `5989652` Improved **the amount of third-party code that goes into a build**, down from 950 packages to 803. A commit-hook stack inherited from upstream — husky, lint-staged and commitizen — was fully commented out and could not run, so removing it costs nothing and takes 147 packages out of the supply chain. Leftover upstream project files (code of conduct, contributing guide, sample reverse-proxy configs for a different project\'s name) and a version-stamping script that had been superseded were removed at the same time.\n- `b3341b9` Fixed **ending up with several copies of Prinny running on Windows**, and the pinned taskbar shortcut appearing to do nothing. Closing to the tray hides the window, so the app looked shut down and each new launch started another client. Launching again now restores and focuses the one already running — from the shortcut, the taskbar pin or the Start menu — and a pinned Prinny shares one taskbar button with the running window instead of showing two.\n- `3a1e9bb` Improved **what happens on a server that will not let apps complete sign-up**. Some servers require a step they keep to their own website. Instead of a blank error page, the app now says so plainly and links that server\'s actual sign-up page, so you can create the account there and come straight back to sign in.\n- `258978b` Added **support for servers that use hCaptcha**. Some homeservers run hCaptcha while still presenting it as the standard captcha step, and the app was drawing Google\'s box with an hCaptcha key — which can never be solved, so registration on those servers was impossible. The right captcha is now shown for each.\n- `258978b` Fixed **being turned away from servers with an unfamiliar sign-up step**. Anything the app does not handle itself — a phone-number check, a captcha provider it does not recognise, something a server invented — now opens the server\'s own sign-up page in a second window; finish there and you are brought straight back. Previously this said "this application does not support registration on this homeserver" and stopped.\n- `94a3982` Added **a directory of public Matrix servers**, replacing the matrixrooms.info room feed. Around 1,150 servers, merged and deduplicated every day from three independent lists (asra.gr, joinmatrix.org, privacydev.net). Explore now offers "Browse public servers" — pick any server and read its own public room directory, instead of one third party\'s view of which rooms are worth seeing.\n- `94a3982` Improved **choosing a homeserver when signing in or registering**. The field now completes as you type, the way a browser address bar does: type `tchn` and it fills in `tchncs.de` with the rest selected, so carrying on typing simply overwrites it. The magnifier beside the field opens the full directory, searchable by name, software, country or hosting provider, and filterable by open registration, captcha, email requirement and Tor friendliness.\n- `94a3982` Fixed **the server list being unreadable in a browser**. None of the three upstream lists allow cross-origin requests, so the web version could not have fetched them at all. The merge now happens once a day on prinny.app and every version — desktop, Android and web — reads the same prepared file. Self-hosters can point `publicServersUrl` at their own copy.\n- `8bf8ba9` Fixed **the release pipeline silently skipping a build**. Two pushes close together left one release half-built and the second push produced no build at all — the second run cancelled the first *after* it had already created the release and uploaded three platforms, then declined to build anything itself because that release now existed. Builds queue instead of cancelling, the version number now accounts for a release that has been drafted but not yet tagged, and a build can be re-run by hand without inventing a commit.\n- `86d4a10` Fixed **nothing watching the app\'s dependencies for security patches**. The configuration said one bot handled them; that bot was never installed, and the approval step it waited on could not exist because the repository has issues turned off. So no patch was ever proposed, which is how 22 known-vulnerable packages piled up. Dependency alerts and automatic security updates are now switched on for both repositories, with a bot that needs no extra setup.\n- `86d4a10` Improved **download size**: the bundled video-call widget was shipping 18 MB of debug source maps that no user ever loads. Total download drops from 63 MB to 45 MB.\n- `86d4a10` Fixed **desktop shell shipping five unused system integrations**. Clipboard, file-system, shell-command, HTTP and dialog plugins were compiled into every build but granted no permission and called by nothing — dead code that also pinned an XML parser with two denial-of-service advisories. Removed. Copying text is unaffected; it uses the browser API.\n- `86d4a10` Fixed **known-vulnerable Rust libraries in the desktop shell**, including two certificate-validation bugs in the TLS stack (`rustls-webpki` — name constraints wrongly accepted for URI and wildcard certificates) and a remote memory-exhaustion bug in the QUIC networking layer.\n- `a4600e5` Fixed **an image attachment being able to open attacker-written content inside the app**. A sender chooses the `mimetype` on a picture they send, and the image and sticker renderers passed that value straight through when building the local media object — so a picture could declare itself as HTML, and the image viewer\'s "open in browser" button would then open it as a page running with the app\'s own permissions. Images and stickers are now restricted to real picture formats, and that button refuses anything that is not an ordinary web link.\n- `a4600e5` Fixed **push notifications trusting everything the push server sent**. The service worker displayed whatever text arrived and handed the room identifier it was given straight to the app\'s navigation. Notification text is now length-limited and stripped of control characters, and the room and event identifiers must look like real Matrix identifiers before anything is shown or opened. This matters more now that pushes carry real message content.\n- `a4600e5` Fixed **a code block in a message being able to freeze the client**. Syntax highlighting ran on the main thread with no size limit, and the sender picks the language from 287 options. Measured across every grammar we ship, the cost grows with the square of the length: `javascript` on a plain run of letters takes **4.1 s at 32 000 characters and 40 s at 100 000**, and `scss` reaches **8.6 s and 84 s**. Code blocks over 4 096 characters now render in full but without colours (worst case ~130 ms). This also fixes an honest large paste hanging the app.\n- `a4600e5` Fixed **an emoji shortcode being able to break out of the HTML it is written into** when a message is edited and re-sent. Every neighbouring field was escaped; this one was not.\n- `a4600e5` Fixed **all 22 known-vulnerable dependencies, 10 of them high severity — now zero**. The important one is the PDF renderer (`pdfjs-dist` 5.7.284 → 6.2.108), where a malicious PDF could run JavaScript in the app, in a client that renders PDFs strangers send you. Also the router (open redirect and XSS), the user-agent parser (a hang on a crafted string), and `lodash` — the only vulnerable package that actually reached the shipped app. The PDF upgrade is a major version: it needed code changes, and the new renderer fetches WebAssembly decoders at runtime that were not previously bundled, without which **scanned documents would have rendered blank with no error** — those are now shipped. Verified in a real browser that PDFs still render and the app still starts.\n- `a4600e5` **Self-hosters: the Docker image now listens on port 8080, not 80**, because it no longer runs as root. Change the container side of your port mapping (`-p 80:80` → `-p 80:8080`) and any Compose or Kubernetes manifest that names port 80. README updated.\n- `c0b94a6` **Android: reinstall required once.** Release APKs are now signed with a new key, because the previous signing key had been committed to the public repository and anyone could sign an APK your phone would accept as a Prinny update. Android refuses an update signed by a different key, so this build will not install over your current one — **uninstall Prinny and install this APK fresh**. In-app updates work normally again afterwards. Sorry for the one-time hassle; there is no way to rotate a leaked signing key without it.\n- `c0b94a6` Fixed **Android notifications only arriving while the app was open**. The push receiver decided who should show a notification by checking whether the app\'s plugin object existed — but that flag is set on first launch and never cleared, so every push was handed to the WebView, and Android suspends WebView JavaScript the moment the app leaves the screen. Nothing rendered. The receiver now checks whether the app is genuinely on screen (`MainActivity.isAppInForeground`) and posts the notification from native code when it is not, so notifications arrive with the app closed. Notifications also show the real sender and message with `BigTextStyle`, get **one notification per room** instead of all rooms overwriting a single entry, and tapping one opens the right room. Encrypted rooms show "New message" — the server cannot read them, which is the encryption working.\n- `c0b94a6` Fixed the **Android in-app updater installing an APK without checking it**. `UpdateChecker` parsed the published `sha256` and then never used it, and staged the download in shared public storage under a predictable name where another app could replace it. It now verifies the SHA-256 before prompting (deleting the file on mismatch), stages in app-private storage, requires an `https` GitHub host, and registers its download receiver as `RECEIVER_NOT_EXPORTED`.\n- `c0b94a6` Fixed **embedded web content being able to turn on your microphone and camera**. The Android WebView permission handler granted capture based only on whether the app held the OS permission, never checking which origin asked — so any third-party iframe (a link preview, an embed) could obtain mic and camera silently once you had made one call. Capture is now restricted to the app\'s own origin, and page scripts can no longer flip the microphone foreground-service type on their own.\n- `c0b94a6` Fixed **a single message being able to freeze the client**. The jumbo-emoji check used a nested-quantifier regex whose cost doubled every ~2.5 characters: a message of ~70 colons locked the render thread for minutes, and the event persisted so reopening the room re-froze it. Measured 55 colons: **3.7 s → 0.14 ms**, and flat at 1000. The URL matcher\'s variable-length lookbehind was quadratic on long messages (**853 ms → 0.8 ms** on 40 000 characters), and an empty search term could spin the highlighter forever — a double space in the room switcher was enough. `utils/regex.ts`, `utils/findAndReplace.ts`, `plugins/react-custom-html-parser.tsx`.\n- `c0b94a6` Fixed **links and embeds handing arbitrary URL schemes to the operating system**. On desktop, a link opening a new window is passed to the OS URL opener, so a homeserver-supplied or message-supplied `file:`, UNC or app-protocol URL invoked a local handler. All such URLs are now validated as `http(s)` at the point of use (new `utils/safeUrl.ts`), `ftp:` and `magnet:` are no longer accepted in message links, and the native side enforces its own scheme allowlist.\n- `c0b94a6` Fixed **login credentials being sendable to the wrong server**. The homeserver allowlist was checked against the name you typed while the login request went to the `base_url` that server\'s own `.well-known` returned, which was never re-checked; and an `http://` prefix in a `/login/:server` link survived into the credential request. Discovery now forces `https`, the route parameter must be a bare hostname, and the allowlist is re-applied to the discovered URL.\n- `c0b94a6` Added a **"Hide message content"** notification setting (Settings → Notifications) so system notifications can show only the sender. Decrypted message text otherwise goes into the OS notification store, where other software on the device may read it.\n- `c0b94a6` Added a **Bluesky post embeds** toggle and made every third-party embed state plainly that enabling it sends the link and your IP address to that service. Bluesky previews previously fetched from `public.api.bsky.app` with no setting at all. Link previews for **encrypted** rooms are now off by default — asking the server to preview a URL from a message it cannot read hands it that URL.\n- `c0b94a6` Improved **rendering safety for hostile room state and media**: power-level tag icons can no longer be an arbitrary URL that beacons every viewer\'s IP on each render, attachment dimensions are clamped, download filenames are sanitised, blob MIME types can no longer be declared as active content, and megolm key-file import bounds its key-derivation work.\n- `c0b94a6` Improved **desktop native hardening**: the app now refuses to start if another process already holds its frontend port (that port grants native permissions, so whoever answers on it inherits them), the SSRF guards cover 0.0.0.0/8 and IPv4-in-IPv6 encodings, redirects are re-validated per hop, downloads are size-capped, and drag-drop file access is consumed once instead of lasting the whole session. The permission grant to the page dropped filesystem, HTTP, dialog, clipboard, shell and global-shortcut access, none of which the client uses.\n- `c0b94a6` Improved **self-hosting and build security**: every shipped nginx/Caddy/Netlify config now sets a Content-Security-Policy and related headers (verified in a real browser, including WebAssembly crypto and the bundled call widget), production source maps are no longer published, the Docker image runs unprivileged (**publish `-p 80:8080` now**), the web root no longer exposes `.git`, and CI pins its actions, drops install scripts, and stops packaging its own credentials into the source archive.\n\n## 10.08.2026\n\n- `22f0979` Updated **sanitize-html to 2.17.6** — a security release for the HTML sanitizer every incoming message body passes through. Upstream cinny `90837f7`.\n- `3ef594f8` Upgraded the **in-app call stack to element-call 0.20.1** (from 0.19.3) and **matrix-js-sdk to 41.7.0**. Fixes the **call settings and reaction buttons doing nothing** — element-call moved its settings button to a new `data-testid` and our control layer was still walking `previousElementSibling` off the leave button, so it was clicking the wrong nodes. **Screenshare and spotlight buttons now update their state**, the **mic/video buttons disable while a toggle is in flight** (instead of letting you desync them with fast clicks), and **incoming-call popups no longer appear for voice rooms**. `plugins/call/CallControl.ts`, `CallEmbedProvider.tsx`, `call-status/CallControl.tsx`, `call/CallControls.tsx`, `call/Controls.tsx`, `call/PrescreenControls.tsx`. Upstream cinny `e379714`.\n- `aba72c2` Fixed **"Manage devices" opening a dead page** on homeservers that have moved to the stable spec — account management now uses the stable MSC2965 action names instead of the unstable `org.matrix.msc2965.*` ones. `useAccountManagement.ts`. Upstream cinny `a9245c8`.\n- `03ad4e7` Fixed **long space names and descriptions overflowing the lobby header** instead of truncating. `LobbyHero.css.tsx`, `page/style.css.ts`. Upstream cinny `762e99a`.\n- `69fc00c` Updated **folds to 2.7.1** (the UI component library). Upstream cinny `730a748`.\n\n## 07.06.2026\n\n- `c9ca749` Unified **people + message search into the members drawer** — the search box moved into the drawer header and the **"N Members"** title moved down beside the Filter/Sort chips. One box now drives both: matching members filter the list instantly, and a new **Messages** section below shows matching messages (with a "Search older messages" button to page deeper). The standalone search icon and search panel are gone on desktop; mobile/tablet keep the search overlay since there\'s no drawer there. New `RoomMessageResults.tsx` renders the inline results for encrypted (local scan) and unencrypted (server) rooms alike. `MembersDrawer.tsx`, `Room.tsx`, `RoomViewHeader.tsx`.\n- `c9ca749` Made **encrypted-room search much faster** — back-paginated events are now decrypted **in parallel** instead of one-at-a-time (the per-event serial decrypt was the bottleneck), and each page back-paginates a bounded number of rounds before returning, so as-you-type search stays responsive and deeper history loads on demand. `useClientRoomSearch.ts`.\n- `ba1c6b1` Fixed **encrypted-room search returning no results** — the client-side scan (`useClientRoomSearch.ts`) walked the *entire* room history (up to 50k events / hundreds of back-pagination round-trips) before returning even one match, so for any encrypted room with real history the search just sat on loading skeletons and never showed anything. It now streams: it scans the already-synced history and back-paginates only far enough to fill the requested page, returning matches immediately and resuming pagination on demand as you scroll. Dense terms appear almost instantly; "no results" is only shown once history is genuinely exhausted (still bounded at 50k events).\n\n## 06.06.2026\n\n- `36a04bf` Made **all link-preview embeds 2x larger** — the card max-width went 216→432px and the image/video height caps doubled (300→600, 320→640), so YouTube, Twitter/X, Bluesky and generic embeds all render bigger (everything inside is width:100% of the card, so it scales proportionally). `UrlPreview.css.tsx`.\n- `36a04bf` Fixed **multi-image Twitter/X embeds stacking vertically** — they now render in a 2-column grid (side by side), matching the Bluesky layout. `UrlPreviewCard.tsx`.\n- `36a04bf` Repurposed the embed **"Show all" button for long descriptions** — removed the old og: metadata dump that lived behind it; now a description over 100 words shows the first 100 with a Show all / Show less toggle, and shorter ones show in full. `UrlPreviewCard.tsx`.\n- `36a04bf` Replaced the custom **audio-attachment player with native HTML `<audio controls>`** — encrypted/authenticated media is fetched to a blob first, plain media streams directly. `AudioContent.tsx`, `RenderMessageContent.tsx`.\n- `36a04bf` Fixed a **softlock when swiping right in Settings on mobile** — the swipe slid the container fully off-screen (via `commitOffset`) expecting a route change to unmount it, but Settings navigates subpage→menu in place, so it stayed stuck off-screen. Settings now snaps back instead. `Settings.tsx`.\n- `36a04bf` Fixed **swiping back into the last conversation on mobile** — `MobileSwipeOpen` remounts on every in/out transition (so its `useState` last-room reset to nothing) and its fallback link selector matched no real path. The last-opened room is now remembered across remounts and the fallback targets the top room in the list. `MobileSwipeOpen.tsx`.\n- `36a04bf` Fixed the **Inbox page layout on mobile** — Notifications/Invites rendered in normal flow, so the absolute nav backdrop painted over them. They\'re now wrapped in `MobileSwipeBack` (an opaque z-index:1 layer, like rooms), which fixes the stacking and adds the swipe-back gesture. `Router.tsx`.\n- `36a04bf` Made the **mobile UI 15% larger** — bumped the root font-size to 115% under 640px; folds sizes everything in rem, so fonts/spacing/icons/controls scale together. `index.css`.\n- `36a04bf` Made the **Settings menu items full-width and centered on mobile**. `Settings.tsx`, `settings/styles.css.ts`.\n- `36a04bf` Colored the **mobile safe-area insets** (notch / home-indicator bars) with the themed grey surface instead of black. `SafeArea.css.ts`, `index.css`.\n- `5eb6249` Added **message search in end-to-end encrypted rooms** — the room search button is no longer hidden in encrypted rooms, and a new client-side search (`useClientRoomSearch.ts`) runs there instead of the server. Since the homeserver only holds ciphertext, it back-paginates and decrypts the local timeline (bounded at 50k events), matches message bodies (phrase, falling back to all-words), and returns the same paginated/virtualized result shape as the server path so `RoomSearch` uses either interchangeably. Encrypted rooms show a notice that search runs locally over history synced to this device. Non-encrypted rooms still use server-side `mx.search`.\n- `5eb6249` Fixed reacting to a message scrolling the timeline to the most recent message — a reaction is an `m.reaction` live event "sent by you", so the Scroll-to-Bottom-on-Send path (and the at-bottom auto-scroll) yanked the viewport to the live edge. `RoomTimeline.tsx` now gates both scroll paths on `isLiveDisplayEvent` (skips reactions, edits and redactions, mirroring the render filter); the range still advances so reactions render in place without moving the view.\n- `5eb6249` Moved the **cancel-reply (✕) button to the right** of the reply preview, nearer the send controls, so dismissing a reply needs less mouse travel. An invisible spacer keeps the message you\'re replying to aligned with the text input below (`RoomInput.tsx`).\n- `5eb6249` Improved the **desktop update toast** — clicking it (or its "Open" action) now downloads and installs the update directly, the same as the banner\'s Update button. The toast is tagged `kind: \'update\'` and routed by a dedicated listener so it no longer falls through the message-click → room-navigation path (`useUpdateCheck.ts`, `desktop-notifications.ts`).\n- `5eb6249` Improved the connecting screen — it now shows **Connecting to `<homeserver>`…** instead of a bare "Connecting…", so you can see which server is being reached (`SyncStatus.tsx`).\n- `5eb6249` Fixed **presence dots not appearing** until a live presence event arrived — `useUserPresence` now syncs immediately from whatever the store already holds (the peer\'s `User` object is often created lazily after first render), handles an empty user id, and avoids a stale `undefined` that hid the badge.\n\n## 30.05.2026\n\n- `605d9de` Added **client-side link-preview fallback** (Settings → General, desktop/mobile app only, **default off**) — when your homeserver\'s `preview_url` can\'t generate a link card (commonly a `504` because the target site blocks Synapse\'s non-browser User-Agent), the app now fetches the page itself with a real Chrome UA and parses its OG/Twitter meta tags locally. New Rust `fetch_og_preview` IPC command fetches server-side (bypassing CORS) but keeps every SSRF guard from the media proxy — scheme check, post-DNS private/loopback/link-local/CGNAT/cloud-metadata rejection, DNS pinning against rebinding, per-hop redirect re-vetting (auto-redirects disabled), and a 512 KiB response cap — and, unlike `fetch_remote_bytes`, accepts any *public* host since a generic preview can point anywhere. `UrlPreviewCard.tsx` falls back to it only after the homeserver preview errors, and renders a direct `https` `og:image` straight through (homeserver previews use `mxc://`). Skipped for Twitter/X, Bluesky, YouTube and direct-audio URLs, which already render without the homeserver.\n- `8e99e44` Hardened the desktop media proxy against SSRF — the Rust `fetch_remote_bytes` IPC command (used for Twitter/X and Bluesky video/images) now requires `http`/`https`, restricts the host to a `twimg.com`/`bsky.app` allowlist, resolves DNS and **rejects any private/loopback/link-local/CGNAT/cloud-metadata (`169.254.169.254`) address**, pins the vetted IP on the request to defeat DNS-rebinding, and only follows redirects that stay on the allowlist. Previously it fetched any URL server-side, bypassing CORS.\n- `8e99e44` Fixed the notification-icon cacher leaking the Matrix access token — `cache_notification_icon` now forwards the `Authorization` header **only** when the avatar URL is under the logged-in homeserver\'s `/_matrix/` media endpoint (origin + path validated against `mx.baseUrl`); every other URL is fetched with no credentials and SSRF-guarded.\n- `8e99e44` Hardened `read_dropped_file` — it now reads **only** paths the user actually drag-dropped onto the window (captured from the native drag-drop event), so an injected script can no longer read arbitrary files such as `/etc/passwd`.\n- `8e99e44` Removed the unused `shell:allow-execute` / `shell:allow-open` desktop capabilities (arbitrary process spawn from the webview — nothing in the app used them), tightened the CSP `script-src` to drop remote `http:`/`https:` origins (keeps `unsafe-eval` for the crypto WASM), and scoped the Android `FileProvider` from the whole external-storage/cache roots down to just `Download/` (the only dir the updater APK uses).\n- `8e99e44` Added a non-blocking `security-audit` CI job (npm production-dependency audit gated at critical; `high` + `cargo audit` advisory) and applied `npm audit fix` for the `@octokit/*` ReDoS advisories in the release tooling.\n- `66a3bab` Fixed the Android in-app updater never installing — every release was CI-signed with a **freshly generated random keystore**, so Android rejected each update with "App not installed" (`INSTALL_FAILED_UPDATE_INCOMPATIBLE`: signatures don\'t match the installed app). The APK downloaded but could never install over the previous build, even after granting "install unknown apps." CI now signs every release with a **stable committed key** (`prinny-ci.keystore`), with an optional `ANDROID_KEYSTORE_BASE64` secret override. Existing users need ONE manual reinstall to land on the stable key; after that, in-app updates work.\n- `d9aca00` Added **in-conversation message search** — a search button in the room header (right side, by the call icons) now opens a right-side results panel instead of navigating away. Server-side `mx.search` scoped to the current room, paginated and virtualized (`@tanstack/react-query` infinite query + `@tanstack/react-virtual`) for long histories; click a result to jump to that message in the timeline. Works on web, desktop (side panel), and mobile/tablet (full-screen overlay that closes on result tap). Unavailable in end-to-end encrypted rooms (server can\'t index encrypted messages) — shows a notice.\n- `d9aca00` Added **presence/status bubbles inside the chat and the room header** — message avatars now show the sender\'s online/idle/offline dot (matching the members panel and DM list), and DM headers show the other user\'s presence next to their name.\n- `d9aca00` Made **URL-preview embeds/videos ~50% smaller** (Discord-like) — the preview card max width dropped 432→216px and video height is capped at 320px, so portrait clips render around 180×320 instead of filling the message column. `UrlPreview.css.tsx` + loading-placeholder caps in `UrlPreviewCard.tsx`.\n- `f29c063` Added a **Scroll to Bottom on Send** setting (Settings → General → Editor, on by default) — when you send a message while scrolled up in a room, the timeline now jumps back to the live edge so your own message scrolls into view. Implemented in `useLiveEventArrive` (`RoomTimeline.tsx`): a live event whose sender is the current user resets the timeline via `getInitialTimeline` and triggers `scrollToBottom`, reusing the `handleJumpToLatest` path. Gated on the sender being us, so other people\'s messages never yank the viewport.\n- `38f0d1c` Fixed `:3` (and other single-char emoticons like `:p`, `:D`, `:o`) triggering the emoji autocomplete and auto-replacing on Enter — the `EMOTICON_QUERY_RE` shortcode trigger in `getAutocompleteQuery` matched any run of word characters after `:`, including a single one. Tightened to `[a-zA-Z0-9_+-]{2,}` so the picker only opens once there are at least two characters after the `:` (Discord parity); `:12` → `:1234:` still completes.\n- `32c880f` Fixed emoji/mention autocomplete arrow-key selection — pressing Up/Down moved the highlight (via the focus-trap) but Enter/Tab always inserted the *top* item and the caret jumped to the start of the composer. A window-level capture handler in `EmoticonAutocomplete`, `UserMentionAutocomplete`, `RoomMentionAutocomplete` and `CommandAutocomplete` was hardcoded to commit index 0. Each menu item now carries a `data-autocomplete-index`, and Enter/Tab click the focused item (reusing the mouse-click path, so the selected emoji/mention inserts and the cursor stays put); falls back to the first result when focus is still in the editor.\n- `32c880f` Fixed typing `:)` (and other punctuation smileys) auto-inserting an unrelated emoji on Enter — the emoji shortcode trigger matched any non-space text after `:`. `getAutocompleteQuery` now only treats `:` as an emoji query when the following text matches `[a-zA-Z0-9_+-]` (real shortcodes like `+1`, `e-mail`), so `:)`, `:(`, etc. send as literal text.\n- `32c880f` Improved Element-style read receipts for users without an avatar — the bare grey initial (which read like a stray newline glyph) is now centred inside a circle tinted with the user\'s `colorMXID` placeholder colour, matching how `UserAvatar` renders avatar fallbacks.\n- `32c880f` Fixed Alt+Up / Alt+Down not moving between DMs — outside a space the handler fell through to "all non-space rooms", so in the Direct Messages list it jumped to arbitrary non-DM rooms. It now matches the open sidebar: space → that space\'s rooms, Direct → DMs only, Home → orphan rooms.\n- `32c880f` Added `Ctrl+?` (Ctrl+Shift+/) as a second shortcut to toggle the keyboard-shortcuts panel, alongside the existing rebindable `Ctrl+/` (Discord parity; `Cmd+Shift+/` on macOS).\n- `c32d959` Fixed calls dropping — backported upstream\'s call-drop fix (#2954). Membership counting in `useCall`, `useCallEmbed` and `CallEmbedProvider` was using the experimental slot-based `MatrixRTCSession.sessionMembershipsForSlot()` API (carried over from an earlier backport), which could miss active participants and tear the call down. Reverted to the stable synchronous `rtcSession.memberships`, restoring reliable "call ongoing" detection and incoming-call dismissal.\n\n## 19.05.2026\n\n- `5694870` Fixed Android updater re-downloading every launch and never installing — `UpdateChecker.kt` now (1) checks for an existing APK on disk and a previously-enqueued DownloadManager job before queueing a fresh download, so a downloaded-but-uninstalled APK is reused instead of re-pulled; (2) registers a `BroadcastReceiver` for `ACTION_DOWNLOAD_COMPLETE` and fires the install intent itself with a FileProvider `content://` URI — DownloadManager\'s built-in tap-the-notification handler still generates a `file://` URI that crashes Android 7+ with `FileUriExposedException`, which was the silent failure when the user tried to install; (3) cleans up stale APKs once the new version is the installed one; (4) targets `Context.RECEIVER_EXPORTED` on Android 14+ so the dynamic receiver actually fires; (5) auto-prompts install at most once per cold start when the APK is already downloaded, so a dismissed dialog isn\'t re-shown on every relaunch.\n- `aa75417` Fixed update banner overflow on mobile — the size-300 action Button (32px tall) was poking out below a banner that auto-sized to the text height (~36px) and the Box didn\'t always stretch to the parent column, so the banner ended where the text ended and the button sat half-outside. Added explicit `width: 100%`, `min-height: 48px`, and `flex-shrink: 0` to the shared container style; the inner text Box got `min-width: 0` + `truncate` so long messages ellipsis instead of pushing the button out horizontally.\n- `fff19fa` Fixed mobile swipe gestures and modal layout — `useSwipeGesture` now refuses to engage when there is no navigation target (empty Home no longer follows the finger to nowhere); `MobileSwipeOpen` resolves the target as selected → last → first-rendered room link, so swiping in the DM tab opens the most-recent conversation; commit animates the foreground fully off-screen instead of snapping back, and `MobileFriendlyPageNav` now renders the page-nav as an absolute backdrop behind the room view on mobile sub-routes so swipe-back reveals the actual nav underneath. `Settings` modal supports left→right swipe as "X" (subpage → menu list → close) and on mobile no longer collapses to a tiny top-left island — `Modal500` explicitly flexes the content column and `interactive-widget=resizes-content` + new `useKeyboardInset` hook keep the chat input above the on-screen keyboard without leaving a gap of safe-area padding hovering over the keyboard.\n- `380ca1a` Fixed Element-style read receipts duplicating across many old messages — `useElementReadReceipts` was memoizing once per Message instance and never invalidating, so as receipts moved forward older mounted Messages kept showing the indicator at their original position. Now subscribes to `RoomEvent.Receipt` and `RoomEvent.Timeline` and rebuilds the receipt map consistently across every Message.\n- `380ca1a` Made message hover effect more subtle — `selected` background (when the right-click menu / emoji board / reaction picker is anchored on a message) was using `Surface.ContainerActive`, the same intensity the theme reserves for pressed states. Demoted to `Surface.ContainerHover` and added a faint hover tint at the same tone so plain hover and right-click feel continuous.\n- `f3e6d88` Improved multi-link embeds — multiple URL preview cards in one message now stack vertically (Discord-style) on every viewport. Previously the desktop layout was a horizontal scroller; the column layout was mobile-only.\n- `f3e6d88` Improved embed image rendering — tiny favicon-style images (`og:image:width` ≤ 96 AND `og:image:height` ≤ 96) are no longer rendered as the embed\'s main image. The text-only card (title / description / siteName) still shows. Article hero shots / post media render as before.\n\n## 18.05.2026\n\n- `9c481ba` Improved mobile layout — nav pane (Home / Direct / Search / Inbox indices) now stretches to the full viewport on mobile via inline `width: 100%` override on `PageNav` so the changelog-side empty-state doesn\'t leave whitespace.\n- `9c481ba` Improved mobile settings modal — fills viewport (`100vw` × `100dvh`), square corners, safe-area-inset padding so notch/home-bar don\'t obscure controls. Keybinds tab hidden on mobile (physical-keyboard only).\n- `9c481ba` Fixed `body { height: 100% }` keyboard breakage — switched to `100dvh` with `100%` fallback so the on-screen keyboard pushes the layout up instead of leaving inputs hidden behind it.\n- `9c481ba` Fixed gallery tap-out reopening viewer — overlay\'s `onDeactivate` now plants a transparent full-screen blocker for 350ms that swallows the next pointerdown/click, preventing the tap from bubbling through to the underlying message image.\n- `9c481ba` Mobile image viewer: tap-to-zoom replaced with pinch-to-zoom — two-finger gesture tracks distance ratio from initial pinch and scales accordingly (bounds 0.1×–5× matching the +/- buttons). Single-tap zoom kept on desktop where double-firing isn\'t an issue.\n- `47f158f` Followed up on draft-release fix — passed `draft: true` to all softprops/action-gh-release uploads (was defaulting to false and flipping the release to published on the first upload, defeating the whole point of staging as a draft); dropped the versioned `prinny-webapp-vX.Y.Z.zip` variant since the release tag already versions it and every other platform asset is single-named.\n- `ec98378` Fixed release-pipeline window where `/latest/download/*.apk` 404\'d during Android cross-compile — releases now stay drafts until every platform build (windows + linux + macos + android + webapp-zip + archive) has uploaded its artifacts, then publish atomically. Old versioned releases are deleted after publish, not before, so the previous tag stays "latest" until the new one is fully assembled.\n- `2b24087` Added README download link for the web client zip — `prinny-webapp.zip` is now uploaded with a stable filename alongside the versioned one so `releases/latest/download/prinny-webapp.zip` resolves.\n- `d047dd6` Added platform notification for update banner — `useUpdateCheck` fires `sendDesktopNotification` the first time each new version becomes available; deduped per-version so a dismissed banner doesn\'t re-notify on repeat polls. Android Tauri skipped (UpdateChecker.kt\'s own DownloadManager notification covers it).\n- `09cc5ee` Added web client dist zip to GitHub releases — new `webapp-zip` job in prinny-client\'s `build.yml` attaches `prinny-webapp-vX.Y.Z.zip` (rebrand + `npm run build` output) to every release for self-hosters who\'d rather download than `git pull`.\n- `6932b32` Replaced welcome splash with bundled changelog viewer — empty-state screen now reads `cinny/CHANGELOG.md` baked in at build time (Vite `?raw` import) and renders the latest dated bullets, links each SHA to the cinny commit page.\n- `0a803b4` Added Web Push for background notifications — service worker `push`/`notificationclick` handlers, Matrix HTTP pusher with VAPID public key from `config.json`. Falls back to foreground `window.Notification` when no gateway configured. Also flipped `usePiped` default to `false` so YouTube links resolve through youtube.com unless opted in.\n- `5abc142` Fixed Slate "Cannot resolve a DOM node" crash on message edit with emoji — new `safeFocusEditor` wrapper falls back to deselect + DOM focus when the selection is stale after autocomplete close.\n- `2afe5a1` Fixed Ctrl+/ keybinds modal silently closing itself — two window listeners cancelled each other in one tick; removed the duplicate so the toggle actually fires.\n- `2afe5a1` Fixed soundcloak embeds spamming 502s — skip homeserver `preview_url` for direct-audio URLs since it rejects `audio/mpeg`.\n- `2afe5a1` Fixed fullscreen button greyed out on YouTube iframe — `allow="fullscreen"` was overridden by the rest of the permissions policy.\n- `2afe5a1` Improved composer layout — attachment button moves to left of editor, send to the right (Discord-style).\n- `2afe5a1` Improved mobile gallery — title bar relocates to the bottom on mobile, both rows span full viewport width.\n- `2afe5a1` Improved mobile swipe gestures — follows the finger via transform with a 180ms ease-out settle on release; right-edge forward-swipe now returns to the last-visited DM.\n- `2afe5a1` Fixed double notifications on web — `sendDesktopNotification` was firing alongside an explicit `new Notification` with click handler.\n- `1180ddb` Added auto-bump-cinny workflow — reactive `repository_dispatch` from cinny\'s publish-webapp keeps prinny-client\'s submodule pointer current within ~30s of every cinny push.\n- `0a803b4` Added Web self-host download row to README — `git clone -b webapp-release https://github.com/coffeegrind123/cinny.git /usr/share/webapps/prinny` for self-hosters.\n- `4461ea0` Fixed Android updater re-downloading APK on every launch — `tauri.properties` was missing so `versionName` defaulted to `"1.0"`; `bump-version.mjs` now writes it explicitly with both versionName + versionCode.\n\n## 17.05.2026\n\n- `15a60e9` Added webapp-release publish workflow — built dist auto-publishes to the `webapp-release` branch of `coffeegrind123/cinny` on every push to `desktop-notifications`. Self-hosters install with `git clone` + `git pull`, no `npm` at deploy time.\n- `8a50134` Fixed standalone webapp build — version imports in `AuthFooter.tsx` and `WelcomePage.tsx` were going 5 directories up (which only resolves when cinny is nested under prinny-client). Switched to 4-up so both build contexts work.\n\n[End of changelog. Earlier history lives in git log.]\n', wat = `https://github.com/coffeegrind123/prinny-client/releases`, Tat = `https://github.com/coffeegrind123/prinny/commit/`;
     function Eat({ children: e }) {
         return (0, j.jsx)(`span`, {
             style: {
@@ -169581,7 +169581,7 @@ In order to be iterable, non-array objects must have a [Symbol.iterator]() metho
         (0, A.useEffect)(()=>{
             !LK() || n.current || (n.current = !0, (async ()=>{
                 let { TrayIcon: e } = await l(async ()=>{
-                    let { TrayIcon: e } = await import(`./tray-hI5cGxnd.js`).then(async (m)=>{
+                    let { TrayIcon: e } = await import(`./tray-D3ka1uKj.js`).then(async (m)=>{
                         await m.__tla;
                         return m;
                     });
@@ -169589,7 +169589,7 @@ In order to be iterable, non-array objects must have a [Symbol.iterator]() metho
                         TrayIcon: e
                     };
                 }, __vite__mapDeps([13,1])), { Menu: n } = await l(async ()=>{
-                    let { Menu: e } = await import(`./menu-DgMrIHX3.js`).then(async (m)=>{
+                    let { Menu: e } = await import(`./menu-DoJvY4V-.js`).then(async (m)=>{
                         await m.__tla;
                         return m;
                     });
@@ -169597,7 +169597,7 @@ In order to be iterable, non-array objects must have a [Symbol.iterator]() metho
                         Menu: e
                     };
                 }, __vite__mapDeps([14,1])), { defaultWindowIcon: r } = await l(async ()=>{
-                    let { defaultWindowIcon: e } = await import(`./app-Co4S4zRq.js`).then(async (m)=>{
+                    let { defaultWindowIcon: e } = await import(`./app-CxU-oqry.js`).then(async (m)=>{
                         await m.__tla;
                         return m;
                     });
@@ -180690,6 +180690,100 @@ In order to be iterable, non-array objects must have a [Symbol.iterator]() metho
         });
     }
     function udt() {
+        let e = ku();
+        console.error(`Route error:`, e);
+        let t;
+        t = tc(e) ? `${e.status} ${e.statusText}` : e instanceof Error ? e.message : typeof e == `string` ? e : `Unknown error`;
+        let n = e instanceof Error ? e.stack : void 0;
+        return (0, j.jsx)(cp, {
+            children: (0, j.jsx)(P, {
+                direction: `Column`,
+                grow: `Yes`,
+                alignItems: `Center`,
+                justifyContent: `Center`,
+                gap: `400`,
+                children: (0, j.jsx)(Tn, {
+                    children: (0, j.jsxs)(P, {
+                        direction: `Column`,
+                        gap: `400`,
+                        style: {
+                            padding: N.space.S400
+                        },
+                        children: [
+                            (0, j.jsxs)(P, {
+                                direction: `Column`,
+                                gap: `100`,
+                                children: [
+                                    (0, j.jsx)(R, {
+                                        size: `H4`,
+                                        children: `Something went wrong`
+                                    }),
+                                    (0, j.jsx)(R, {
+                                        size: `T300`,
+                                        priority: `400`,
+                                        children: `Prinny hit an error it could not recover from. Reloading fixes most of these.`
+                                    })
+                                ]
+                            }),
+                            (0, j.jsx)(R, {
+                                size: `T200`,
+                                priority: `300`,
+                                children: t
+                            }),
+                            n && (0, j.jsxs)(`details`, {
+                                children: [
+                                    (0, j.jsx)(`summary`, {
+                                        children: (0, j.jsx)(R, {
+                                            as: `span`,
+                                            size: `T200`,
+                                            priority: `300`,
+                                            children: `Technical details`
+                                        })
+                                    }),
+                                    (0, j.jsx)(P, {
+                                        style: {
+                                            marginTop: N.space.S200,
+                                            maxHeight: Dt(200),
+                                            overflow: `auto`
+                                        },
+                                        children: (0, j.jsx)(R, {
+                                            as: `pre`,
+                                            size: `T200`,
+                                            priority: `300`,
+                                            style: {
+                                                whiteSpace: `pre-wrap`
+                                            },
+                                            children: n
+                                        })
+                                    })
+                                ]
+                            }),
+                            (0, j.jsx)(F, {
+                                variant: `Primary`,
+                                onClick: ()=>window.location.reload(),
+                                children: (0, j.jsx)(R, {
+                                    as: `span`,
+                                    size: `B400`,
+                                    children: `Reload`
+                                })
+                            }),
+                            (0, j.jsx)(F, {
+                                variant: `Critical`,
+                                fill: `Soft`,
+                                onClick: ()=>Uxe(),
+                                children: (0, j.jsx)(R, {
+                                    as: `span`,
+                                    size: `B400`,
+                                    children: `Reset app data and sign out`
+                                })
+                            })
+                        ]
+                    })
+                })
+            })
+        });
+    }
+    function ddt() {
         return (0, j.jsx)(cp, {
             children: (0, j.jsx)(ir, {
                 variant: `Secondary`,
@@ -180697,20 +180791,21 @@ In order to be iterable, non-array objects must have a [Symbol.iterator]() metho
             })
         });
     }
-    function ddt() {
+    function fdt() {
         let e = vY();
         return (0, j.jsx)(Gu, {
             to: e,
             replace: !0
         });
     }
-    var fdt = (e, t)=>{
+    var pdt = (e, t)=>{
         let { hashRouter: n } = e, r = t === pm.Mobile, i = Xu((0, j.jsxs)(qu, {
-            HydrateFallback: udt,
+            HydrateFallback: ddt,
+            errorElement: (0, j.jsx)(udt, {}),
             children: [
                 (0, j.jsx)(qu, {
                     index: !0,
-                    element: (0, j.jsx)(udt, {}),
+                    element: (0, j.jsx)(ddt, {}),
                     loader: ()=>{
                         if (uK()) return Qs(KG());
                         let e = tye(eye(), window.location.href);
@@ -180972,7 +181067,7 @@ In order to be iterable, non-array objects must have a [Symbol.iterator]() metho
                             children: [
                                 r ? null : (0, j.jsx)(qu, {
                                     index: !0,
-                                    element: (0, j.jsx)(ddt, {})
+                                    element: (0, j.jsx)(fdt, {})
                                 }),
                                 (0, j.jsx)(qu, {
                                     path: Xte,
@@ -181010,7 +181105,7 @@ In order to be iterable, non-array objects must have a [Symbol.iterator]() metho
             basename: `/app/`
         });
     };
-    function pdt() {
+    function mdt() {
         (0, A.useEffect)(()=>{
             let e = window.visualViewport;
             if (!e) return;
@@ -181022,10 +181117,10 @@ In order to be iterable, non-array objects must have a [Symbol.iterator]() metho
             };
         }, []);
     }
-    var mdt = new Jf;
-    function hdt() {
+    var hdt = new Jf;
+    function gdt() {
         let e = Qne();
-        D2e(), p7e(), m7e(), pdt();
+        D2e(), p7e(), m7e(), mdt();
         let t = document.getElementById(`portalContainer`) ?? void 0;
         return (0, j.jsx)(dr, {
             value: t,
@@ -181046,11 +181141,11 @@ In order to be iterable, non-array objects must have a [Symbol.iterator]() metho
                                 children: (t)=>(0, j.jsx)(mte, {
                                         value: t,
                                         children: (0, j.jsxs)(Zf, {
-                                            client: mdt,
+                                            client: hdt,
                                             children: [
                                                 (0, j.jsx)(Eee, {
                                                     children: (0, j.jsx)(qee, {
-                                                        router: fdt(t, e)
+                                                        router: pdt(t, e)
                                                     })
                                                 }),
                                                 (0, j.jsx)(ute, {
@@ -181066,7 +181161,7 @@ In order to be iterable, non-array objects must have a [Symbol.iterator]() metho
             })
         });
     }
-    function gdt() {
+    function _dt() {
         let e = (e)=>{
             let t = e.target.closest(`a[href^="blob:"]`);
             if (!t) return;
@@ -181078,13 +181173,13 @@ In order to be iterable, non-array objects must have a [Symbol.iterator]() metho
         };
         return document.addEventListener(`click`, e, !0), ()=>document.removeEventListener(`click`, e, !0);
     }
-    var { slice: _dt, forEach: vdt } = [];
-    function ydt(e) {
-        return vdt.call(_dt.call(arguments, 1), (t)=>{
+    var { slice: vdt, forEach: ydt } = [];
+    function bdt(e) {
+        return ydt.call(vdt.call(arguments, 1), (t)=>{
             if (t) for(let n in t)e[n] === void 0 && (e[n] = t[n]);
         }), e;
     }
-    function bdt(e) {
+    function xdt(e) {
         return typeof e == `string` && [
             /<\s*script.*?>/i,
             /<\s*\/\s*script\s*>/i,
@@ -181101,7 +181196,7 @@ In order to be iterable, non-array objects must have a [Symbol.iterator]() metho
             /innerHTML/i
         ].some((t)=>t.test(e));
     }
-    var xdt = /^[\u0009\u0020-\u007e\u0080-\u00ff]+$/, Sdt = function(e, t) {
+    var Sdt = /^[\u0009\u0020-\u007e\u0080-\u00ff]+$/, Cdt = function(e, t) {
         let n = arguments.length > 2 && arguments[2] !== void 0 ? arguments[2] : {
             path: `/`
         }, r = `${e}=${encodeURIComponent(t)}`;
@@ -181111,11 +181206,11 @@ In order to be iterable, non-array objects must have a [Symbol.iterator]() metho
             r += `; Max-Age=${Math.floor(e)}`;
         }
         if (n.domain) {
-            if (!xdt.test(n.domain)) throw TypeError(`option domain is invalid`);
+            if (!Sdt.test(n.domain)) throw TypeError(`option domain is invalid`);
             r += `; Domain=${n.domain}`;
         }
         if (n.path) {
-            if (!xdt.test(n.path)) throw TypeError(`option path is invalid`);
+            if (!Sdt.test(n.path)) throw TypeError(`option path is invalid`);
             r += `; Path=${n.path}`;
         }
         if (n.expires) {
@@ -181139,13 +181234,13 @@ In order to be iterable, non-array objects must have a [Symbol.iterator]() metho
                 throw TypeError(`option sameSite is invalid`);
         }
         return n.partitioned && (r += `; Partitioned`), r;
-    }, Cdt = {
+    }, wdt = {
         create (e, t, n, r) {
             let i = arguments.length > 4 && arguments[4] !== void 0 ? arguments[4] : {
                 path: `/`,
                 sameSite: `strict`
             };
-            n && (i.expires = new Date, i.expires.setTime(i.expires.getTime() + n * 60 * 1e3)), r && (i.domain = r), document.cookie = Sdt(e, t, i);
+            n && (i.expires = new Date, i.expires.setTime(i.expires.getTime() + n * 60 * 1e3)), r && (i.domain = r), document.cookie = Cdt(e, t, i);
         },
         read (e) {
             let t = `${e}=`, n = document.cookie.split(`;`);
@@ -181159,17 +181254,17 @@ In order to be iterable, non-array objects must have a [Symbol.iterator]() metho
         remove (e, t) {
             this.create(e, ``, -1, t);
         }
-    }, wdt = {
+    }, Tdt = {
         name: `cookie`,
         lookup (e) {
             let { lookupCookie: t } = e;
-            if (t && typeof document < `u`) return Cdt.read(t) || void 0;
+            if (t && typeof document < `u`) return wdt.read(t) || void 0;
         },
         cacheUserLanguage (e, t) {
             let { lookupCookie: n, cookieMinutes: r, cookieDomain: i, cookieOptions: a } = t;
-            n && typeof document < `u` && Cdt.create(n, e, r, i, a);
+            n && typeof document < `u` && wdt.create(n, e, r, i, a);
         }
-    }, Tdt = {
+    }, Edt = {
         name: `querystring`,
         lookup (e) {
             let { lookupQuerystring: t } = e, n;
@@ -181184,7 +181279,7 @@ In order to be iterable, non-array objects must have a [Symbol.iterator]() metho
             }
             return n;
         }
-    }, Edt = {
+    }, Ddt = {
         name: `hash`,
         lookup (e) {
             let { lookupHash: t, lookupFromHashIndex: n } = e, r;
@@ -181208,7 +181303,7 @@ In order to be iterable, non-array objects must have a [Symbol.iterator]() metho
             }
             return r;
         }
-    }, Y9 = null, Ddt = ()=>{
+    }, Y9 = null, Odt = ()=>{
         if (Y9 !== null) return Y9;
         try {
             if (Y9 = typeof window < `u` && window.localStorage !== null, !Y9) return !1;
@@ -181218,17 +181313,17 @@ In order to be iterable, non-array objects must have a [Symbol.iterator]() metho
             Y9 = !1;
         }
         return Y9;
-    }, Odt = {
+    }, kdt = {
         name: `localStorage`,
         lookup (e) {
             let { lookupLocalStorage: t } = e;
-            if (t && Ddt()) return window.localStorage.getItem(t) || void 0;
+            if (t && Odt()) return window.localStorage.getItem(t) || void 0;
         },
         cacheUserLanguage (e, t) {
             let { lookupLocalStorage: n } = t;
-            n && Ddt() && window.localStorage.setItem(n, e);
+            n && Odt() && window.localStorage.setItem(n, e);
         }
-    }, X9 = null, kdt = ()=>{
+    }, X9 = null, Adt = ()=>{
         if (X9 !== null) return X9;
         try {
             if (X9 = typeof window < `u` && window.sessionStorage !== null, !X9) return !1;
@@ -181238,17 +181333,17 @@ In order to be iterable, non-array objects must have a [Symbol.iterator]() metho
             X9 = !1;
         }
         return X9;
-    }, Adt = {
+    }, jdt = {
         name: `sessionStorage`,
         lookup (e) {
             let { lookupSessionStorage: t } = e;
-            if (t && kdt()) return window.sessionStorage.getItem(t) || void 0;
+            if (t && Adt()) return window.sessionStorage.getItem(t) || void 0;
         },
         cacheUserLanguage (e, t) {
             let { lookupSessionStorage: n } = t;
-            n && kdt() && window.sessionStorage.setItem(n, e);
+            n && Adt() && window.sessionStorage.setItem(n, e);
         }
-    }, jdt = {
+    }, Mdt = {
         name: `navigator`,
         lookup (e) {
             let t = [];
@@ -181259,13 +181354,13 @@ In order to be iterable, non-array objects must have a [Symbol.iterator]() metho
             }
             return t.length > 0 ? t : void 0;
         }
-    }, Mdt = {
+    }, Ndt = {
         name: `htmlTag`,
         lookup (e) {
             let { htmlTag: t } = e, n, r = t || (typeof document < `u` ? document.documentElement : null);
             return r && typeof r.getAttribute == `function` && (n = r.getAttribute(`lang`)), n;
         }
-    }, Ndt = {
+    }, Pdt = {
         name: `path`,
         lookup (e) {
             let { lookupFromPathIndex: t } = e;
@@ -181273,17 +181368,17 @@ In order to be iterable, non-array objects must have a [Symbol.iterator]() metho
             let n = window.location.pathname.match(/\/([a-zA-Z-]*)/g);
             if (Array.isArray(n)) return n[typeof t == `number` ? t : 0]?.replace(`/`, ``);
         }
-    }, Pdt = {
+    }, Fdt = {
         name: `subdomain`,
         lookup (e) {
             let { lookupFromSubdomainIndex: t } = e, n = typeof t == `number` ? t + 1 : 1, r = typeof window < `u` && window.location?.hostname?.match(/^(\w{2,5})\.(([a-z0-9-]{1,63}\.[a-z]{2,6})|localhost)/i);
             if (r) return r[n];
         }
-    }, Fdt = !1;
+    }, Idt = !1;
     try {
-        document.cookie, Fdt = !0;
+        document.cookie, Idt = !0;
     } catch  {}
-    var Idt = [
+    var Ldt = [
         `querystring`,
         `cookie`,
         `localStorage`,
@@ -181291,9 +181386,9 @@ In order to be iterable, non-array objects must have a [Symbol.iterator]() metho
         `navigator`,
         `htmlTag`
     ];
-    Fdt || Idt.splice(1, 1);
-    var Ldt = ()=>({
-            order: Idt,
+    Idt || Ldt.splice(1, 1);
+    var Rdt = ()=>({
+            order: Ldt,
             lookupQuerystring: `lng`,
             lookupCookie: `i18next`,
             lookupLocalStorage: `i18nextLng`,
@@ -181305,7 +181400,7 @@ In order to be iterable, non-array objects must have a [Symbol.iterator]() metho
                 `cimode`
             ],
             convertDetectedLanguage: (e)=>e
-        }), Rdt = class {
+        }), zdt = class {
         constructor(e){
             let t = arguments.length > 1 && arguments[1] !== void 0 ? arguments[1] : {};
             this.type = `languageDetector`, this.detectors = {}, this.init(e, t);
@@ -181314,7 +181409,7 @@ In order to be iterable, non-array objects must have a [Symbol.iterator]() metho
             let e = arguments.length > 0 && arguments[0] !== void 0 ? arguments[0] : {
                 languageUtils: {}
             }, t = arguments.length > 1 && arguments[1] !== void 0 ? arguments[1] : {}, n = arguments.length > 2 && arguments[2] !== void 0 ? arguments[2] : {};
-            this.services = e, this.options = ydt(t, this.options || {}, Ldt()), typeof this.options.convertDetectedLanguage == `string` && this.options.convertDetectedLanguage.indexOf(`15897`) > -1 && (this.options.convertDetectedLanguage = (e)=>e.replace(`-`, `_`)), this.options.lookupFromUrlIndex && (this.options.lookupFromPathIndex = this.options.lookupFromUrlIndex), this.i18nOptions = n, this.addDetector(wdt), this.addDetector(Tdt), this.addDetector(Odt), this.addDetector(Adt), this.addDetector(jdt), this.addDetector(Mdt), this.addDetector(Ndt), this.addDetector(Pdt), this.addDetector(Edt);
+            this.services = e, this.options = bdt(t, this.options || {}, Rdt()), typeof this.options.convertDetectedLanguage == `string` && this.options.convertDetectedLanguage.indexOf(`15897`) > -1 && (this.options.convertDetectedLanguage = (e)=>e.replace(`-`, `_`)), this.options.lookupFromUrlIndex && (this.options.lookupFromPathIndex = this.options.lookupFromUrlIndex), this.i18nOptions = n, this.addDetector(Tdt), this.addDetector(Edt), this.addDetector(kdt), this.addDetector(jdt), this.addDetector(Mdt), this.addDetector(Ndt), this.addDetector(Pdt), this.addDetector(Fdt), this.addDetector(Ddt);
         }
         addDetector(e) {
             return this.detectors[e.name] = e, this;
@@ -181328,7 +181423,7 @@ In order to be iterable, non-array objects must have a [Symbol.iterator]() metho
                         n
                     ]), n && (t = t.concat(n));
                 }
-            }), t = t.filter((e)=>e != null && !bdt(e)).map((e)=>this.options.convertDetectedLanguage(e)), this.services && this.services.languageUtils && this.services.languageUtils.getBestMatchFromCodes ? t : t.length > 0 ? t[0] : null;
+            }), t = t.filter((e)=>e != null && !xdt(e)).map((e)=>this.options.convertDetectedLanguage(e)), this.services && this.services.languageUtils && this.services.languageUtils.getBestMatchFromCodes ? t : t.length > 0 ? t[0] : null;
         }
         cacheUserLanguage(e) {
             let t = arguments.length > 1 && arguments[1] !== void 0 ? arguments[1] : this.options.caches;
@@ -181337,31 +181432,31 @@ In order to be iterable, non-array objects must have a [Symbol.iterator]() metho
             }));
         }
     };
-    Rdt.type = `languageDetector`;
-    var zdt = [];
-    zdt.forEach, zdt.slice;
-    var Bdt = [
+    zdt.type = `languageDetector`;
+    var Bdt = [];
+    Bdt.forEach, Bdt.slice;
+    var Vdt = [
         `__proto__`,
         `constructor`,
         `prototype`
     ];
-    function Vdt(e) {
-        return !(typeof e != `string` || e.length === 0 || e.length > 128 || Bdt.indexOf(e) > -1 || e.indexOf(`..`) > -1 || e.indexOf(`\\`) > -1 || /[?#%\s@]/.test(e) || /[\x00-\x1F\x7F]/.test(e));
-    }
     function Hdt(e) {
-        return !(!Vdt(e) || e.indexOf(`/`) > -1);
+        return !(typeof e != `string` || e.length === 0 || e.length > 128 || Vdt.indexOf(e) > -1 || e.indexOf(`..`) > -1 || e.indexOf(`\\`) > -1 || /[?#%\s@]/.test(e) || /[\x00-\x1F\x7F]/.test(e));
     }
     function Udt(e) {
-        return Vdt(e);
+        return !(!Hdt(e) || e.indexOf(`/`) > -1);
     }
-    var Wdt = {
-        lng: Hdt,
-        ns: Udt
+    function Wdt(e) {
+        return Hdt(e);
+    }
+    var Gdt = {
+        lng: Udt,
+        ns: Wdt
     };
     function Z9(e) {
         return typeof e == `string` ? e.replace(/[\r\n\x00-\x1F\x7F]/g, ` `) : e;
     }
-    function Gdt(e) {
+    function Kdt(e) {
         if (typeof e != `string` || e.length === 0) return e;
         try {
             let t = new URL(e);
@@ -181370,23 +181465,23 @@ In order to be iterable, non-array objects must have a [Symbol.iterator]() metho
             return e.replace(/(\/\/)[^/@\s]+@/g, `$1`);
         }
     }
-    function Kdt() {
+    function qdt() {
         return typeof XMLHttpRequest == `function` || typeof XMLHttpRequest == `object`;
     }
-    function qdt(e) {
+    function Jdt(e) {
         return !!e && typeof e.then == `function`;
     }
-    function Jdt(e) {
-        return qdt(e) ? e : Promise.resolve(e);
+    function Ydt(e) {
+        return Jdt(e) ? e : Promise.resolve(e);
     }
-    var Ydt = /\{\{(.+?)\}\}/g;
-    function Xdt(e, t) {
-        let n = !1, r = e.replace(Ydt, (e, r)=>{
+    var Xdt = /\{\{(.+?)\}\}/g;
+    function Zdt(e, t) {
+        let n = !1, r = e.replace(Xdt, (e, r)=>{
             let i = r.trim();
-            if (Bdt.indexOf(i) > -1) return e;
+            if (Vdt.indexOf(i) > -1) return e;
             let a = t[i];
             if (a == null) return e;
-            let o = Wdt[i] || Hdt, s = String(a).split(`+`);
+            let o = Gdt[i] || Udt, s = String(a).split(`+`);
             for (let t of s)if (!o(t)) return n = !0, e;
             return s.join(`+`);
         });
@@ -181394,19 +181489,19 @@ In order to be iterable, non-array objects must have a [Symbol.iterator]() metho
     }
     var Q9 = typeof globalThis < `u` ? globalThis : typeof global < `u` ? global : typeof window < `u` ? window : void 0, $9;
     typeof fetch == `function` ? $9 = fetch : Q9 && typeof Q9.fetch == `function` && ($9 = Q9.fetch);
-    var Zdt = Kdt() && Q9 ? Q9.XMLHttpRequest : void 0, Qdt = typeof ActiveXObject == `function` && Q9 ? Q9.ActiveXObject : void 0, $dt = [
+    var Qdt = qdt() && Q9 ? Q9.XMLHttpRequest : void 0, $dt = typeof ActiveXObject == `function` && Q9 ? Q9.ActiveXObject : void 0, eft = [
         `__proto__`,
         `constructor`,
         `prototype`
-    ], eft = (e, t)=>{
+    ], tft = (e, t)=>{
         if (t && typeof t == `object`) {
             let n = ``;
-            for (let e of Object.keys(t))$dt.indexOf(e) > -1 || (n += `&` + encodeURIComponent(e) + `=` + encodeURIComponent(t[e]));
+            for (let e of Object.keys(t))eft.indexOf(e) > -1 || (n += `&` + encodeURIComponent(e) + `=` + encodeURIComponent(t[e]));
             if (!n) return e;
             e = e + (e.indexOf(`?`) === -1 ? `?` : `&`) + n.slice(1);
         }
         return e;
-    }, tft = (e, t, n, r)=>{
+    }, nft = (e, t, n, r)=>{
         let i = (e)=>{
             if (!e.ok) return n(e.statusText || `Error`, {
                 status: e.status
@@ -181426,8 +181521,8 @@ In order to be iterable, non-array objects must have a [Symbol.iterator]() metho
             }
         }
         typeof fetch == `function` ? fetch(e, t).then(i).catch(n) : $9(e, t).then(i).catch(n);
-    }, nft = (e, t, n, r)=>{
-        e.queryStringParams && (t = eft(t, e.queryStringParams));
+    }, rft = (e, t, n, r)=>{
+        e.queryStringParams && (t = tft(t, e.queryStringParams));
         let i = {
             ...typeof e.customHeaders == `function` ? e.customHeaders() : e.customHeaders
         };
@@ -181439,24 +181534,24 @@ In order to be iterable, non-array objects must have a [Symbol.iterator]() metho
             ...e._omitFetchOptions ? {} : a
         }, s = typeof e.alternateFetch == `function` && e.alternateFetch.length >= 1 ? e.alternateFetch : void 0;
         try {
-            tft(t, o, r, s);
+            nft(t, o, r, s);
         } catch (n) {
             if (!a || Object.keys(a).length === 0 || !n.message || n.message.indexOf(`not implemented`) < 0) return r(n);
             try {
                 Object.keys(a).forEach((e)=>{
                     delete o[e];
-                }), tft(t, o, r, s), e._omitFetchOptions = !0;
+                }), nft(t, o, r, s), e._omitFetchOptions = !0;
             } catch (e) {
                 r(e);
             }
         }
-    }, rft = (e, t, n, r)=>{
-        n && typeof n == `object` && (n = eft(``, n).slice(1)), e.queryStringParams && (t = eft(t, e.queryStringParams));
+    }, ift = (e, t, n, r)=>{
+        n && typeof n == `object` && (n = tft(``, n).slice(1)), e.queryStringParams && (t = tft(t, e.queryStringParams));
         try {
-            let i = Zdt ? new Zdt : new Qdt(`MSXML2.XMLHTTP.3.0`);
+            let i = Qdt ? new Qdt : new $dt(`MSXML2.XMLHTTP.3.0`);
             i.open(n ? `POST` : `GET`, t, 1), e.crossDomain || i.setRequestHeader(`X-Requested-With`, `XMLHttpRequest`), i.withCredentials = !!e.withCredentials, n && i.setRequestHeader(`Content-Type`, `application/x-www-form-urlencoded`), i.overrideMimeType && i.overrideMimeType(`application/json`);
             let a = e.customHeaders;
-            if (a = typeof a == `function` ? a() : a, a) for (let e of Object.keys(a))$dt.indexOf(e) > -1 || i.setRequestHeader(e, a[e]);
+            if (a = typeof a == `function` ? a() : a, a) for (let e of Object.keys(a))eft.indexOf(e) > -1 || i.setRequestHeader(e, a[e]);
             i.onreadystatechange = ()=>{
                 i.readyState > 3 && r(i.status >= 400 ? i.statusText : null, {
                     status: i.status,
@@ -181466,11 +181561,11 @@ In order to be iterable, non-array objects must have a [Symbol.iterator]() metho
         } catch (e) {
             console && console.log(e);
         }
-    }, ift = (e, t, n, r)=>{
-        if (typeof n == `function` && (r = n, n = void 0), r ||= (()=>{}), $9 && t.indexOf(`file:`) !== 0) return nft(e, t, n, r);
-        if (Kdt() || typeof ActiveXObject == `function`) return rft(e, t, n, r);
+    }, aft = (e, t, n, r)=>{
+        if (typeof n == `function` && (r = n, n = void 0), r ||= (()=>{}), $9 && t.indexOf(`file:`) !== 0) return rft(e, t, n, r);
+        if (qdt() || typeof ActiveXObject == `function`) return ift(e, t, n, r);
         r(Error(`No fetch and no xhr implementation found!`));
-    }, aft = ()=>({
+    }, oft = ()=>({
             loadPath: `/locales/{{lng}}/{{ns}}.json`,
             addPath: `/locales/add/{{lng}}/{{ns}}`,
             parse: (e)=>JSON.parse(e),
@@ -181479,7 +181574,7 @@ In order to be iterable, non-array objects must have a [Symbol.iterator]() metho
                     [t]: n || ``
                 }),
             parseLoadPayload: (e, t)=>void 0,
-            request: ift,
+            request: aft,
             reloadInterval: typeof window < `u` ? !1 : 36e5,
             customHeaders: {},
             queryStringParams: {},
@@ -181491,13 +181586,13 @@ In order to be iterable, non-array objects must have a [Symbol.iterator]() metho
                 credentials: `same-origin`,
                 cache: `default`
             }
-        }), oft = class {
+        }), sft = class {
         constructor(e, t = {}, n = {}){
             this.services = e, this.options = t, this.allOptions = n, this.type = `backend`, this.init(e, t, n);
         }
         init(e, t = {}, n = {}) {
             if (this.services = e, this.options = {
-                ...aft(),
+                ...oft(),
                 ...this.options || {},
                 ...t
             }, this.allOptions = n, this.services && this.options.reloadInterval) {
@@ -181517,9 +181612,9 @@ In order to be iterable, non-array objects must have a [Symbol.iterator]() metho
         }
         _readAny(e, t, n, r, i) {
             let a = this.options.loadPath;
-            typeof this.options.loadPath == `function` && (a = this.options.loadPath(e, n)), a = Jdt(a), a.then((a)=>{
+            typeof this.options.loadPath == `function` && (a = this.options.loadPath(e, n)), a = Ydt(a), a.then((a)=>{
                 if (!a) return i(null, {});
-                let o = Xdt(a, {
+                let o = Zdt(a, {
                     lng: e.join(`+`),
                     ns: n.join(`+`)
                 });
@@ -181535,7 +181630,7 @@ In order to be iterable, non-array objects must have a [Symbol.iterator]() metho
                 n
             ] : n, a = typeof r == `string` ? [
                 r
-            ] : r, o = this.options.parseLoadPayload(i, a), s = Z9(Gdt(e));
+            ] : r, o = this.options.parseLoadPayload(i, a), s = Z9(Kdt(e));
             this.options.request(this.options, e, o, (e, i)=>{
                 if (i && (i.status >= 500 && i.status < 600 || !i.status)) return t(`failed loading ` + s + `; status code: ` + i.status, !0);
                 if (i && i.status >= 400 && i.status < 500) return t(`failed loading ` + s + `; status code: ` + i.status, !1);
@@ -181568,7 +181663,7 @@ In order to be iterable, non-array objects must have a [Symbol.iterator]() metho
             e.forEach((n)=>{
                 let r = this.options.addPath;
                 typeof this.options.addPath == `function` && (r = this.options.addPath(n, t));
-                let l = Xdt(r, {
+                let l = Zdt(r, {
                     lng: n,
                     ns: t
                 });
@@ -181598,7 +181693,7 @@ In order to be iterable, non-array objects must have a [Symbol.iterator]() metho
             });
         }
     };
-    oft.type = `backend`, k7.use(oft).use(Rdt).use(F8e).init({
+    sft.type = `backend`, k7.use(sft).use(zdt).use(F8e).init({
         debug: !1,
         fallbackLng: `en`,
         interpolation: {
@@ -181609,15 +181704,15 @@ In order to be iterable, non-array objects must have a [Symbol.iterator]() metho
             loadPath: `${Ha(`/app/`)}/public/locales/{{lng}}.json`
         }
     }), gt(), document.body.classList.add(wt, Tt);
-    var sft = `cinny:chunk-reload-at`, cft = 3e4;
+    var cft = `cinny:chunk-reload-at`, lft = 3e4;
     if (window.addEventListener(`vite:preloadError`, (e)=>{
         let t = 0;
         try {
-            t = Number(sessionStorage.getItem(sft) ?? 0);
+            t = Number(sessionStorage.getItem(cft) ?? 0);
         } catch  {}
-        if (!(Date.now() - t < cft)) {
+        if (!(Date.now() - t < lft)) {
             try {
-                sessionStorage.setItem(sft, String(Date.now()));
+                sessionStorage.setItem(cft, String(Date.now()));
             } catch  {
                 return;
             }
@@ -181650,7 +181745,7 @@ In order to be iterable, non-array objects must have a [Symbol.iterator]() metho
             console.error(`Root container element not found!`);
             return;
         }
-        (0, S.createRoot)(e).render((0, j.jsx)(hdt, {}));
-    })(), gdt();
+        (0, S.createRoot)(e).render((0, j.jsx)(gdt, {}));
+    })(), _dt();
 })();
 export { Hse as $, Xde as A, NR as B, rfe as C, nfe as D, VB as E, gz as F, xL as G, iR as H, hz as I, fce as J, wL as K, pz as L, NB as M, FB as N, RB as O, _B as P, HI as Q, WR as R, zB as S, ofe as T, NL as U, jR as V, W, fL as X, gL as Y, uL as Z, dfe as _, P9 as a, v as at, efe as b, Mke as c, Nme as d, XI as et, NH as f, pfe as g, Dfe as h, j9 as i, yt as it, PB as j, $de as k, NW as l, lH as m, F9 as n, V as nt, Lze as o, dH as p, yL as q, N9 as r, Em as rt, QMe as s, yst as t, H as tt, XH as u, BB as v, afe as w, sfe as x, ife as y, HR as z, __tla };
