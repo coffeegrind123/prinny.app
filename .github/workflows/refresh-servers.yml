@@ -37,9 +37,28 @@ jobs:
         with:
           node-version: '22'
 
-      # No dependencies — the script uses only the Node standard library.
+      # privacydev.net drops TCP from GitHub's egress addresses (measured: every
+      # attempt of every run timing out at 10.5s for 21 days, while the same
+      # request from a non-cloud IP returns 200 in 0.7s). The script retries
+      # through this proxy when a direct connection cannot be had. Same secret
+      # the tennisnews scraper uses; without it every fetch is simply direct.
+      - name: Mask proxy components
+        if: env.UPSTREAM_PROXY != ''
+        run: |
+          echo "::add-mask::$(echo "$UPSTREAM_PROXY" | sed -n 's|.*@\(.*\):.*|\1|p')"
+          echo "::add-mask::$(echo "$UPSTREAM_PROXY" | sed -n 's|.*:\([0-9]*\)$|\1|p')"
+          echo "::add-mask::$(echo "$UPSTREAM_PROXY" | sed -n 's|.*://\(.*\):.*@.*|\1|p')"
+          echo "::add-mask::$(echo "$UPSTREAM_PROXY" | sed -n 's|.*://.*:\(.*\)@.*|\1|p')"
+        env:
+          UPSTREAM_PROXY: ${{ secrets.UPSTREAM_PROXY }}
+
+      # No npm dependencies — the script uses only the Node standard library,
+      # plus curl (preinstalled on every runner) for the proxy route, which
+      # Node 22's fetch cannot do on its own.
       - name: Build merged server list
         run: node scripts/build-servers.mjs
+        env:
+          PRINNY_HTTP_PROXY: ${{ secrets.UPSTREAM_PROXY }}
 
       - name: Validate output before publishing
         run: node scripts/validate-servers.mjs
@@ -57,3 +76,11 @@ jobs:
           COUNT=$(node -p "require('./api/servers.json').counts.total")
           git commit -m "Refresh server list — ${COUNT} servers [skip ci]"
           git push
+
+      # Deliberately AFTER the push: a source that has served nothing but cache
+      # for days is a real problem, but the fresh data from the sources that DO
+      # work should still ship. Publishing first and going red second is what
+      # gives us both. Before this existed, privacydev aged 21 days across 21
+      # consecutive green runs with nobody any the wiser.
+      - name: Freshness gate
+        run: node scripts/validate-servers.mjs --freshness-gate

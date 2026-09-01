@@ -1,10 +1,10 @@
 {
  "version": 1,
- "generated_at": "2026-09-01T09:29:12.315Z",
+ "generated_at": "2026-09-01T09:51:25.170Z",
  "refresh_interval_hours": 24,
  "counts": {
-  "total": 1124,
-  "open_registration": 1102,
+  "total": 1125,
+  "open_registration": 1103,
   "merged_from_multiple_sources": 18
  },
  "sources": [
@@ -13,7 +13,7 @@
    "url": "https://wiki.asra.gr/en:public_servers",
    "ok": true,
    "stale": false,
-   "count": 1075
+   "count": 1076
   },
   {
    "id": "joinmatrix",
@@ -25,12 +25,9 @@
   {
    "id": "privacydev",
    "url": "https://www.privacydev.net/matrix_instances.csv",
-   "ok": false,
-   "stale": true,
-   "count": 35,
-   "error": "fetch failed",
-   "cached_at": "2026-08-11T00:41:06.160Z",
-   "cache_age_days": 21
+   "ok": true,
+   "stale": false,
+   "count": 35
   }
  ],
  "servers": [
@@ -381,6 +378,19 @@
    "name": "amalgam.cc",
    "client_domain": "amalgam.cc",
    "last_check": "2026-08-23T23:43:04.000Z",
+   "registration": {
+    "open": true
+   },
+   "sources": [
+    "asra"
+   ]
+  },
+  {
+   "name": "amauryjoly.fr",
+   "client_domain": "matrix.amauryjoly.fr",
+   "software": "Synapse",
+   "version": "1.153.0",
+   "last_check": "2026-09-01T09:26:04.000Z",
    "registration": {
     "open": true
    },
@@ -2687,7 +2697,7 @@
    "client_domain": "matrix.dewrito.net",
    "software": "Synapse",
    "version": "1.159.0",
-   "last_check": "2026-08-31T02:47:00.000Z",
+   "last_check": "2026-08-24T03:54:26.000Z",
    "registration": {
     "open": true,
     "vanilla": true,
@@ -4101,6 +4111,22 @@
    },
    "sources": [
     "asra"
+   ]
+  },
+  {
+   "name": "grin.hu",
+   "client_domain": "matrix.grin.hu",
+   "software": "Synapse",
+   "version": "1.146.0",
+   "last_check": "2026-08-24T07:32:20.000Z",
+   "registration": {
+    "open": true
+   },
+   "sources": [
+    "asra"
+   ],
+   "aliases": [
+    "matrix.grin.hu"
    ]
   },
   {
@@ -7668,22 +7694,6 @@
    ]
   },
   {
-   "name": "matrix.grin.hu",
-   "client_domain": "matrix.grin.hu",
-   "software": "Synapse",
-   "version": "1.146.0",
-   "last_check": "2026-08-25T06:03:14.000Z",
-   "registration": {
-    "open": true
-   },
-   "sources": [
-    "asra"
-   ],
-   "aliases": [
-    "grin.hu"
-   ]
-  },
-  {
    "name": "matrix.groet-infra.nl",
    "client_domain": "matrix.groet-infra.nl",
    "software": "Synapse",
@@ -8703,6 +8713,22 @@
    ]
   },
   {
+   "name": "matrix.myserver.cz",
+   "client_domain": "matrix.myserver.cz",
+   "software": "Synapse",
+   "version": "1.151.0",
+   "last_check": "2026-08-26T22:30:41.000Z",
+   "registration": {
+    "open": true
+   },
+   "sources": [
+    "asra"
+   ],
+   "aliases": [
+    "myserver.cz"
+   ]
+  },
+  {
    "name": "matrix.nachtalb.io",
    "client_domain": "matrix.nachtalb.io",
    "registration": {
@@ -8834,22 +8860,6 @@
    },
    "sources": [
     "asra"
-   ]
-  },
-  {
-   "name": "matrix.nzcow.com",
-   "client_domain": "matrix.nzcow.com",
-   "software": "Synapse",
-   "version": "1.157.2",
-   "last_check": "2026-08-31T19:21:34.000Z",
-   "registration": {
-    "open": true
-   },
-   "sources": [
-    "asra"
-   ],
-   "aliases": [
-    "nzcow.com"
    ]
   },
   {
@@ -10380,6 +10390,22 @@
    ]
   },
   {
+   "name": "matrixchat.org",
+   "client_domain": "matrixchat.org",
+   "software": "Synapse",
+   "version": "1.159.0",
+   "last_check": "2026-08-23T21:31:49.000Z",
+   "registration": {
+    "open": true
+   },
+   "sources": [
+    "asra"
+   ],
+   "aliases": [
+    "obco.pro"
+   ]
+  },
+  {
    "name": "matrixserver.rnsworth.com",
    "client_domain": "matrixserver.rnsworth.com",
    "last_check": "2026-08-31T12:25:38.000Z",
@@ -10879,22 +10905,6 @@
    ]
   },
   {
-   "name": "myserver.cz",
-   "client_domain": "matrix.myserver.cz",
-   "software": "Synapse",
-   "version": "1.151.0",
-   "last_check": "2026-08-24T06:20:41.000Z",
-   "registration": {
-    "open": true
-   },
-   "sources": [
-    "asra"
-   ],
-   "aliases": [
-    "matrix.myserver.cz"
-   ]
-  },
-  {
    "name": "nang.zom.im",
    "client_domain": "nang.zom.im",
    "last_check": "2026-08-23T18:41:43.000Z",
@@ -11384,11 +11394,11 @@
    ]
   },
   {
-   "name": "obco.pro",
-   "client_domain": "matrixchat.org",
+   "name": "nzcow.com",
+   "client_domain": "matrix.nzcow.com",
    "software": "Synapse",
-   "version": "1.159.0",
-   "last_check": "2026-08-24T04:15:43.000Z",
+   "version": "1.157.2",
+   "last_check": "2026-08-24T06:52:54.000Z",
    "registration": {
     "open": true
    },
@@ -11396,7 +11406,7 @@
     "asra"
    ],
    "aliases": [
-    "matrixchat.org"
+    "matrix.nzcow.com"
    ]
   },
   {

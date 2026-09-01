@@ -32,6 +32,26 @@
  * merge happens here, daily, and every client — web, desktop, Android — reads
  * one same-origin-friendly JSON file.
  *
+ * WHY THERE IS A PROXY ROUTE
+ * --------------------------
+ * privacydev.net drops TCP from GitHub Actions' egress addresses. Measured,
+ * not assumed:
+ *
+ *   · every attempt of every scheduled run failed after 10.5s, to the
+ *     half-second, across 21 consecutive days (2026-08-11 onwards). 10s is
+ *     undici's default connect timeout — a SYN with no SYN-ACK, not a slow
+ *     server, not TLS, not DNS, and not an HTTP status.
+ *   · the identical request (same URL, same user-agent, same accept header)
+ *     from a non-cloud address returns 200 with the full CSV in 0.7s. That is
+ *     the control that makes the negative result mean something.
+ *   · asra.gr and joinmatrix.org were fetched live in those same runs, so it
+ *     is that host, not the runner's network.
+ *
+ * The run stayed green throughout: the cache fallback did its job and the
+ * source silently aged to 21 days. Hence both halves of the fix — a second
+ * egress to actually get the file, and an alarm so a source that stops
+ * refreshing cannot age quietly again.
+ *
  * A NOTE ON THE asra.gr POSTGRES DSN
  * ----------------------------------
  * The wiki page embeds a `<sql db="pgsql://...">` tag whose credentials are
@@ -43,10 +63,16 @@
  * published, intended-for-consumption surface. Parse that.
  */
 
-import { readFile, writeFile, mkdir } from 'node:fs/promises';
+import { readFile, writeFile, mkdir, rm } from 'node:fs/promises';
 import { existsSync } from 'node:fs';
+import { execFile } from 'node:child_process';
+import { randomUUID } from 'node:crypto';
+import { tmpdir } from 'node:os';
 import path from 'node:path';
+import { promisify } from 'node:util';
 import { fileURLToPath } from 'node:url';
+
+const execFileAsync = promisify(execFile);
 
 const ROOT = path.resolve(path.dirname(fileURLToPath(import.meta.url)), '..');
 const API_DIR = path.join(ROOT, 'api');
@@ -67,22 +93,52 @@ const SOURCES = {
 const USER_AGENT =
   'prinny.app-server-list/1.0 (+https://github.com/coffeegrind123/prinny.app; daily merge of public Matrix server lists)';
 
-// Generous on purpose. privacydev.net is simply slow to serve this file at
-// times (and occasionally down), and 30s was cutting it off mid-download —
-// which then showed up to users as a "could not be reached" banner even though
-// nothing was actually wrong beyond it taking its time. CI has the minutes to
-// spare; a slow success beats a fast fallback to cache.
+// Bounds a slow *body*, not a dead connection. Worth being explicit about,
+// because it was raised to 120s on the theory that privacydev.net was merely
+// slow and that turned out to bound nothing at all: undici applies its own
+// 10s connect timeout, and an AbortController deadline can only fire after a
+// socket exists. Every privacydev failure measured to 10.5s — the connect
+// timeout, not this one. Keep it generous for genuinely slow bodies; do not
+// expect it to influence a connect that never completes.
 const FETCH_TIMEOUT_MS = 120_000;
 const WELLKNOWN_TIMEOUT_MS = 8_000;
 const WELLKNOWN_CONCURRENCY = 8;
 
-// privacydev.net in particular will start dropping TCP connections outright
-// after a handful of requests from one address (observed: `connect=0.000000s`
-// on curl for minutes at a time, having served the file happily moments
-// before). A transient connect failure is therefore expected, not exceptional
-// — retry with backoff before falling back to cache.
+// A direct connect failure is worth retrying — an upstream can drop a
+// connection for a minute and come back. It is NOT worth retrying five times
+// when a working proxy is configured, because the failure we actually see is
+// an egress block, and no amount of backoff moves an egress block. Burn two
+// attempts to catch the transient case, then change route.
 const FETCH_RETRIES = 5;
+const FETCH_RETRIES_WITH_PROXY = 2;
 const FETCH_BACKOFF_MS = 15_000;
+
+// Egress of last resort. Same residential proxy the tennisnews scraper uses
+// (its UPSTREAM_PROXY secret); the workflow passes it in as PRINNY_HTTP_PROXY.
+// Unset locally and in any fork without the secret, in which case every fetch
+// is direct and behaviour is exactly as it was before.
+const HTTP_PROXY =
+  process.env.PRINNY_HTTP_PROXY ||
+  process.env.HTTPS_PROXY ||
+  process.env.https_proxy ||
+  '';
+// Skip the direct attempt entirely. For testing the proxy path, and usable as
+// an ops switch if an upstream ever blocks us permanently enough to be worth
+// not waiting on.
+const PROXY_ONLY = process.env.PRINNY_PROXY_ONLY === '1';
+const PROXY_RETRIES = 3;
+// A residential exit is a shared address and gets a fair share of one-off
+// resets; retry quickly rather than with the direct route's long backoff.
+const PROXY_BACKOFF_MS = 5_000;
+// Proxy connect budget. Residential exits are slow to establish; the direct
+// route's implicit 10s is too tight for one.
+const PROXY_CONNECT_TIMEOUT_S = 30;
+
+// How long a cached source may go without a live refresh before the run is
+// worth a red tick rather than a line in a log nobody reads. Three days is
+// two missed crons plus slack — well short of the 21 days privacydev spent
+// silently stale before anyone noticed.
+const STALE_ALARM_DAYS = 3;
 
 // ---------------------------------------------------------------------------
 // small helpers
@@ -92,6 +148,32 @@ const log = (...args) => console.log('[servers]', ...args);
 const warn = (...args) => console.warn('[servers] WARN', ...args);
 
 const sleep = (ms) => new Promise((resolve) => setTimeout(resolve, ms));
+
+// GitHub Actions annotations. Outside CI these are just prefixed lines.
+const annotate = (level, msg) => console.log(`::${level}::${msg}`);
+
+/**
+ * undici reports every transport failure as the same three characters —
+ * `fetch failed` — and hides what actually happened in `err.cause`. Logging
+ * only `err.message` is what let a hard egress block read as "the site is
+ * down" for three weeks. Unwrap the chain.
+ */
+function describeError(err) {
+  if (!err) return 'unknown error';
+  const parts = [];
+  for (let e = err, depth = 0; e && depth < 4; e = e.cause, depth += 1) {
+    const code = e.code ? ` ${e.code}` : '';
+    const msg = e.message || String(e);
+    const text = `${e.name || 'Error'}${code}: ${msg}`;
+    if (!parts.includes(text)) parts.push(text);
+  }
+  return redactProxy(parts.join(' <- '));
+}
+
+/** Never let proxy credentials reach a log line, an error or api/servers.json. */
+function redactProxy(text) {
+  return String(text).replace(/\/\/[^/@\s]+@/g, '//***@');
+}
 
 async function fetchOnce(url, { timeout = FETCH_TIMEOUT_MS, accept } = {}) {
   const controller = new AbortController();
@@ -112,23 +194,123 @@ async function fetchOnce(url, { timeout = FETCH_TIMEOUT_MS, accept } = {}) {
   }
 }
 
-async function fetchText(url, { retries = FETCH_RETRIES, ...opts } = {}) {
-  let lastErr;
-  for (let attempt = 1; attempt <= retries; attempt += 1) {
+/**
+ * Same request, different egress, via curl's HTTP proxy support.
+ *
+ * Node 22 has no supported way to point `fetch` at a proxy: `ProxyAgent` lives
+ * in undici, which ships *inside* Node but is not exported from any `node:`
+ * module, and Node's own `NODE_USE_ENV_PROXY` landed after 22. Shelling out to
+ * curl keeps this script free of npm dependencies (the property the workflow
+ * relies on to run with no install step) and buys far better diagnostics
+ * besides: curl distinguishes "cannot reach proxy" from "proxy refused auth"
+ * from "origin timed out", where `fetch` says only `fetch failed`.
+ */
+async function fetchViaProxy(url, { timeout = FETCH_TIMEOUT_MS, accept } = {}) {
+  const bodyFile = path.join(tmpdir(), `prinny-fetch-${randomUUID()}`);
+  const args = [
+    '--silent',
+    '--show-error',
+    '--location',
+    '--max-redirs',
+    '5',
+    '--proxy',
+    HTTP_PROXY,
+    '--connect-timeout',
+    String(PROXY_CONNECT_TIMEOUT_S),
+    '--max-time',
+    String(Math.ceil(timeout / 1000)),
+    '--user-agent',
+    USER_AGENT,
+    ...(accept ? ['--header', `accept: ${accept}`] : []),
+    '--output',
+    bodyFile,
+    '--write-out',
+    '%{http_code}',
+    url,
+  ];
+  try {
+    let stdout;
     try {
-      return await fetchOnce(url, opts);
+      ({ stdout } = await execFileAsync('curl', args, { maxBuffer: 64 * 1024 * 1024 }));
     } catch (err) {
-      lastErr = err;
-      // A 4xx is a real answer — retrying will not change it.
+      // curl's own failure (exit code + stderr), which may quote the proxy URL.
+      const detail = redactProxy((err.stderr || err.message || '').trim().split('\n')[0]);
+      throw new Error(`curl exit ${err.code ?? '?'}${detail ? `: ${detail}` : ''}`);
+    }
+    const status = Number.parseInt(stdout.trim(), 10);
+    if (!Number.isFinite(status)) throw new Error('proxy: no status from curl');
+    if (status < 200 || status >= 300) throw new Error(`HTTP ${status}`);
+    return await readFile(bodyFile, 'utf8');
+  } finally {
+    await rm(bodyFile, { force: true });
+  }
+}
+
+/**
+ * Fetch with retries, falling back to the proxy route when the direct one
+ * cannot get an answer at all.
+ *
+ * Returns { text, via } so the caller can record which egress actually worked
+ * — the thing that would have made the privacydev outage obvious on day one.
+ */
+async function fetchTextVia(url, { retries, proxyFallback = true, ...opts } = {}) {
+  const useProxy = proxyFallback && Boolean(HTTP_PROXY);
+  const directRetries = retries ?? (useProxy ? FETCH_RETRIES_WITH_PROXY : FETCH_RETRIES);
+  const skipDirect = useProxy && PROXY_ONLY;
+  let lastErr = new Error('PRINNY_PROXY_ONLY=1 — direct route not attempted');
+
+  if (!skipDirect) {
+    for (let attempt = 1; attempt <= directRetries; attempt += 1) {
+      try {
+        return { text: await fetchOnce(url, opts), via: 'direct' };
+      } catch (err) {
+        lastErr = err;
+        // A 4xx is a real answer — retrying will not change it, and neither
+        // will another exit IP.
+        if (/^HTTP 4\d\d$/.test(err.message)) throw err;
+        if (attempt < directRetries) {
+          const wait = FETCH_BACKOFF_MS * attempt;
+          warn(
+            `${url} attempt ${attempt}/${directRetries} failed ` +
+              `(${describeError(err)}); retrying in ${wait}ms`,
+          );
+          await sleep(wait);
+        }
+      }
+    }
+  }
+
+  if (!useProxy) throw lastErr;
+
+  if (skipDirect) log(`${url}: PRINNY_PROXY_ONLY=1 — going straight to the proxy`);
+  else warn(`${url}: direct route failed (${describeError(lastErr)}) — trying proxy`);
+  let proxyErr;
+  for (let attempt = 1; attempt <= PROXY_RETRIES; attempt += 1) {
+    try {
+      const text = await fetchViaProxy(url, opts);
+      log(`${url}: proxy route succeeded on attempt ${attempt}`);
+      return { text, via: 'proxy' };
+    } catch (err) {
+      proxyErr = err;
       if (/^HTTP 4\d\d$/.test(err.message)) break;
-      if (attempt < retries) {
-        const wait = FETCH_BACKOFF_MS * attempt;
-        warn(`${url} attempt ${attempt}/${retries} failed (${err.message}); retrying in ${wait}ms`);
+      if (attempt < PROXY_RETRIES) {
+        const wait = PROXY_BACKOFF_MS * attempt;
+        warn(
+          `${url} proxy attempt ${attempt}/${PROXY_RETRIES} failed ` +
+            `(${describeError(err)}); retrying in ${wait}ms`,
+        );
         await sleep(wait);
       }
     }
   }
-  throw lastErr;
+  throw new Error(
+    `both routes failed — direct: ${describeError(lastErr)}; ` +
+      `proxy: ${describeError(proxyErr)}`,
+  );
+}
+
+async function fetchText(url, opts = {}) {
+  return (await fetchTextVia(url, opts)).text;
 }
 
 /**
@@ -417,22 +599,27 @@ async function loadSource(id, parse, { accept } = {}) {
   const cacheFile = path.join(CACHE_DIR, `${id}.json`);
   try {
     const override = localOverride(id);
-    const text = override
-      ? await readFile(override, 'utf8').then((t) => {
-          log(`${id}: reading local override ${override}`);
-          return t;
-        })
-      : await fetchText(SOURCES[id], { accept });
+    let text;
+    let via = 'local';
+    if (override) {
+      log(`${id}: reading local override ${override}`);
+      text = await readFile(override, 'utf8');
+    } else {
+      ({ text, via } = await fetchTextVia(SOURCES[id], { accept }));
+    }
     const data = parse(text);
     await mkdir(CACHE_DIR, { recursive: true });
     await writeFile(
       cacheFile,
-      JSON.stringify({ fetched_at: new Date().toISOString(), data }, null, 0),
+      JSON.stringify({ fetched_at: new Date().toISOString(), via, data }, null, 0),
     );
-    log(`${id}: ${data.length} entries (live)`);
-    return { id, url: SOURCES[id], ok: true, stale: false, count: data.length, data };
+    log(`${id}: ${data.length} entries (live, via ${via})`);
+    return { id, url: SOURCES[id], ok: true, stale: false, via, count: data.length, data };
   } catch (err) {
-    warn(`${id}: fetch/parse failed — ${err.message}`);
+    // describeError, not err.message: undici's `fetch failed` says nothing,
+    // and "which layer failed" is the whole diagnosis.
+    const detail = describeError(err);
+    warn(`${id}: fetch/parse failed — ${detail}`);
     if (existsSync(cacheFile)) {
       try {
         const cached = JSON.parse(await readFile(cacheFile, 'utf8'));
@@ -442,7 +629,7 @@ async function loadSource(id, parse, { accept } = {}) {
           url: SOURCES[id],
           ok: false,
           stale: true,
-          error: err.message,
+          error: detail,
           fetched_at: cached.fetched_at,
           count: cached.data.length,
           data: cached.data,
@@ -451,7 +638,7 @@ async function loadSource(id, parse, { accept } = {}) {
         warn(`${id}: cache unreadable — ${cacheErr.message}`);
       }
     }
-    return { id, url: SOURCES[id], ok: false, stale: true, error: err.message, count: 0, data: [] };
+    return { id, url: SOURCES[id], ok: false, stale: true, error: detail, count: 0, data: [] };
   }
 }
 
@@ -512,6 +699,10 @@ async function resolveWellKnown(domain) {
       timeout: WELLKNOWN_TIMEOUT_MS,
       accept: 'application/json',
       retries: 1,
+      // Dozens of hosts, most of which legitimately serve nothing. Sending
+      // that through a metered residential exit would cost real bandwidth to
+      // learn nothing, and these lookups are not the ones being blocked.
+      proxyFallback: false,
     });
     const data = JSON.parse(text);
     const base = data?.['m.homeserver']?.base_url;
@@ -793,6 +984,10 @@ async function main() {
       ok: s.ok,
       stale: s.stale,
       count: s.count,
+      // Which egress actually served this. A source that only ever answers
+      // `via: "proxy"` is a source whose upstream has blocked CI outright —
+      // worth seeing in the published file rather than only in a run log.
+      ...(s.via && s.via !== 'direct' ? { via: s.via } : {}),
       ...(s.error ? { error: s.error } : {}),
       ...(s.fetched_at ? { cached_at: s.fetched_at } : {}),
       // Age of the cached copy, so consumers can tell a one-off blip from a
@@ -817,7 +1012,24 @@ async function main() {
       `(${openCount} open registration, ${multi} merged from >1 source)`,
   );
   for (const s of payload.sources) {
-    log(`  ${s.id.padEnd(11)} ok=${s.ok} count=${s.count}${s.stale ? ' STALE' : ''}`);
+    log(
+      `  ${s.id.padEnd(11)} ok=${s.ok} count=${s.count}` +
+        `${s.via ? ` via=${s.via}` : ''}${s.stale ? ' STALE' : ''}`,
+    );
+  }
+
+  // Staleness is tolerable — that is what the cache is for — but only for a
+  // while. privacydev sat stale for 21 consecutive green runs because nothing
+  // ever escalated. Annotate, so a prolonged outage is visible on the run
+  // itself; the workflow's health gate turns it red after the data is safely
+  // published.
+  for (const s of payload.sources) {
+    if (!s.stale) continue;
+    const age = s.cache_age_days;
+    const how = Number.isFinite(age) ? `${age}d old` : 'no cache at all';
+    const msg = `source ${s.id} is stale (${how}) — ${s.error ?? 'no error recorded'}`;
+    if (Number.isFinite(age) && age >= STALE_ALARM_DAYS) annotate('error', msg);
+    else annotate('warning', msg);
   }
 }
 

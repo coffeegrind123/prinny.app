@@ -29,6 +29,20 @@ const MIN_OPEN_REGISTRATION = 400;
 // come and go, but not by a third overnight.
 const MAX_SHRINK_RATIO = 0.33;
 const MAX_AGE_HOURS = 48;
+// How long a source may serve nothing but cache before it stops being a blip.
+// Only enforced under --freshness-gate (see below); as a publish gate it would
+// do the opposite of its job, freezing the whole API over one dead upstream.
+const MAX_STALE_DAYS = 3;
+
+// Two modes, one script:
+//   (default)          publish gate — runs BEFORE the commit, must not fail on
+//                      a stale source, because publishing cached data beats
+//                      publishing nothing.
+//   --freshness-gate   health gate  — runs AFTER the push, and turns the run
+//                      red when a source has been stale for days. privacydev
+//                      spent 21 days stale across 21 green runs; that is the
+//                      hole this closes.
+const FRESHNESS_GATE = process.argv.includes('--freshness-gate');
 
 const errors = [];
 const warnings = [];
@@ -71,8 +85,19 @@ for (const id of ['asra', 'joinmatrix', 'privacydev']) {
     continue;
   }
   // A stale source is tolerable — that is what the cache is for — but it must
-  // be visible in the logs rather than passing silently.
-  if (s.stale) warn(`source ${id} is STALE (${s.error ?? 'no error given'}), serving cache`);
+  // be visible in the logs rather than passing silently, and it must stop
+  // being tolerable once it has gone on for days.
+  if (s.stale) {
+    const age = s.cache_age_days;
+    const msg =
+      `source ${id} is STALE (${Number.isFinite(age) ? `${age}d` : 'no cache'}, ` +
+      `${s.error ?? 'no error given'}), serving cache`;
+    if (FRESHNESS_GATE && Number.isFinite(age) && age >= MAX_STALE_DAYS) {
+      fail(`${msg} — past the ${MAX_STALE_DAYS}d freshness limit`);
+    } else {
+      warn(msg);
+    }
+  }
   if (s.count === 0) warn(`source ${id} contributed 0 entries`);
 }
 if ((data.sources ?? []).every((s) => s.stale)) fail('every source is stale — nothing fresh at all');
@@ -139,11 +164,15 @@ for (const w of warnings) console.warn(`[validate] WARN ${w}`);
 
 if (errors.length) {
   for (const e of errors) console.error(`[validate] FAIL ${e}`);
-  console.error(`[validate] ${errors.length} error(s) — not publishing`);
+  console.error(
+    `[validate] ${errors.length} error(s) — ` +
+      `${FRESHNESS_GATE ? 'data was published, but this run is unhealthy' : 'not publishing'}`,
+  );
   process.exit(1);
 }
 
 console.log(
-  `[validate] OK — ${total} servers, ${open} with open registration, ` +
+  `[validate] OK${FRESHNESS_GATE ? ' (freshness gate)' : ''} — ${total} servers, ` +
+  `${open} with open registration, ` +
     `${data.counts.merged_from_multiple_sources} merged from >1 source`,
 );
