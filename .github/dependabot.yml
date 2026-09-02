@@ -1,0 +1,21 @@
+# Docs: <https://docs.github.com/en/code-security/supply-chain-security/keeping-your-dependencies-updated-automatically/customizing-dependency-updates>
+#
+# Added 2026-09-02. This repo has no package manifest — the site is static and
+# `scripts/*.mjs` import only Node builtins — so there is no `npm` ecosystem to
+# declare. What it does have is `refresh-servers.yml`, whose actions were
+# pinned to floating major tags (`actions/checkout@v4`, `actions/setup-node@v4`)
+# three majors behind current, in the one repo of the five with nothing
+# watching it. A mutable tag is also a supply-chain surface: whoever controls
+# the tag controls what runs in CI. Both are now pinned by commit SHA, and this
+# file keeps them moving.
+
+version: 2
+updates:
+  - package-ecosystem: github-actions
+    directory: /
+    schedule:
+      interval: weekly
+      day: "tuesday"
+      time: "01:00"
+      timezone: "Europe/Helsinki"
+    open-pull-requests-limit: 5
