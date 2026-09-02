@@ -803,8 +803,13 @@
           (data.sources || []).forEach(function (src) {
             var card = text('div', 'source');
             var link = text('a', null, src.id);
-            if (safeUrl(src.url)) {
-              link.href = src.url;
+            // Assign what safeUrl returned, not what came in — the same shape
+            // the two other href sites here use. Checking one value and
+            // assigning another is how a validated-then-discarded guard turns
+            // into no guard at all the next time either side is edited.
+            var srcUrl = safeUrl(src.url);
+            if (srcUrl) {
+              link.href = srcUrl;
               link.rel = 'noopener noreferrer';
               link.target = '_blank';
             }
