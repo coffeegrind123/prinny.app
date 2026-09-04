@@ -42,9 +42,18 @@ jobs:
       # request from a non-cloud IP returns 200 in 0.7s). The script retries
       # through this proxy when a direct connection cannot be had. Same secret
       # the tennisnews scraper uses; without it every fetch is simply direct.
+      # The emptiness check lives inside `run`, NOT in an `if:`. A step's own
+      # step-level `env:` is not in scope for its `if:` expression, so
+      # `if: env.UPSTREAM_PROXY != ''` reads as empty and skips forever - which
+      # is exactly what happened here, leaving the proxy host and port unmasked
+      # in public logs. publish-webapp.yml documents the same trap.
       - name: Mask proxy components
-        if: env.UPSTREAM_PROXY != ''
         run: |
+          set -euo pipefail
+          if [ -z "${UPSTREAM_PROXY:-}" ]; then
+            echo "UPSTREAM_PROXY not set - nothing to mask"
+            exit 0
+          fi
           echo "::add-mask::$(echo "$UPSTREAM_PROXY" | sed -n 's|.*@\(.*\):.*|\1|p')"
           echo "::add-mask::$(echo "$UPSTREAM_PROXY" | sed -n 's|.*:\([0-9]*\)$|\1|p')"
           echo "::add-mask::$(echo "$UPSTREAM_PROXY" | sed -n 's|.*://\(.*\):.*@.*|\1|p')"

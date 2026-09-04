@@ -170,9 +170,45 @@ function describeError(err) {
   return redactProxy(parts.join(' <- '));
 }
 
-/** Never let proxy credentials reach a log line, an error or api/servers.json. */
+/**
+ * Never let proxy credentials OR the proxy endpoint reach a log line, an error
+ * or api/servers.json.
+ *
+ * The endpoint half matters because the workflow's `::add-mask::` step was
+ * guarded by `if: env.UPSTREAM_PROXY != ''` while UPSTREAM_PROXY was defined in
+ * that same step's own `env:` - which is not in scope for its own `if:` - so the
+ * step never ran, and GitHub's whole-value masking does not cover the bare host
+ * or port. Redaction is keyed on the CONFIGURED proxy rather than on "anything
+ * that looks like a URL", so ordinary upstream URLs stay readable in the logs;
+ * blanket URL redaction would have made a failed fetch impossible to diagnose.
+ */
+const PROXY_ENDPOINT_PATTERNS = (() => {
+  if (!HTTP_PROXY) return [];
+  const out = new Set();
+  const esc = (v) => v.replace(/[.*+?^${}()|[\]\\]/g, '\\$&');
+  try {
+    const u = new URL(HTTP_PROXY);
+    if (u.hostname) {
+      out.add(esc(u.hostname));
+      if (u.port) out.add(esc(`${u.hostname}:${u.port}`));
+    }
+    if (u.username) out.add(esc(u.username));
+    if (u.password) out.add(esc(u.password));
+  } catch {
+    // Not a parseable URL - fall back to eliding the literal value.
+  }
+  out.add(esc(HTTP_PROXY));
+  // Longest first, so `host:port` is replaced before the bare `host`.
+  return [...out]
+    .filter(Boolean)
+    .sort((a, b) => b.length - a.length)
+    .map((v) => new RegExp(v, 'gi'));
+})();
+
 function redactProxy(text) {
-  return String(text).replace(/\/\/[^/@\s]+@/g, '//***@');
+  let out = String(text).replace(/\/\/[^/@\s]+@/g, '//***@');
+  for (const re of PROXY_ENDPOINT_PATTERNS) out = out.replace(re, '***');
+  return out;
 }
 
 async function fetchOnce(url, { timeout = FETCH_TIMEOUT_MS, accept } = {}) {
@@ -399,17 +435,28 @@ const HTML_ENTITIES = {
   hellip: '…',
 };
 
+// A numeric character reference is only convertible when it names a real
+// code point. `Number.isFinite` is not that test: String.fromCodePoint throws
+// RangeError for anything above U+10FFFF and for the surrogate range, so
+// `&#x110000;` on an upstream page used to throw out of this callback, out of
+// stripTags, out of the source parser, and cost the whole source its refresh
+// while the cache kept serving a list that looked current.
+function codePointOrNull(code) {
+  if (!Number.isInteger(code)) return null;
+  if (code < 0 || code > 0x10ffff) return null;
+  if (code >= 0xd800 && code <= 0xdfff) return null;
+  return String.fromCodePoint(code);
+}
+
 function decodeEntities(s) {
   return s.replace(/&(#x?[0-9a-f]+|[a-z0-9#]+);/gi, (m, ent) => {
     const key = ent.toLowerCase();
     if (HTML_ENTITIES[key]) return HTML_ENTITIES[key];
     if (key.startsWith('#x')) {
-      const code = parseInt(key.slice(2), 16);
-      return Number.isFinite(code) ? String.fromCodePoint(code) : m;
+      return codePointOrNull(parseInt(key.slice(2), 16)) ?? m;
     }
     if (key.startsWith('#')) {
-      const code = parseInt(key.slice(1), 10);
-      return Number.isFinite(code) ? String.fromCodePoint(code) : m;
+      return codePointOrNull(parseInt(key.slice(1), 10)) ?? m;
     }
     return m;
   });
