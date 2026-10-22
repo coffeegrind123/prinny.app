@@ -1,6 +1,6 @@
 {
  "version": 1,
- "generated_at": "2026-10-21T09:24:00.970Z",
+ "generated_at": "2026-10-22T09:26:51.144Z",
  "refresh_interval_hours": 24,
  "counts": {
   "total": 1089,
@@ -11,9 +11,12 @@
   {
    "id": "asra",
    "url": "https://wiki.asra.gr/en:public_servers",
-   "ok": true,
-   "stale": false,
-   "count": 1037
+   "ok": false,
+   "stale": true,
+   "count": 1037,
+   "error": "Error: both routes failed — direct: TypeError: fetch failed <- AggregateError ECONNREFUSED: AggregateError; proxy: Error: curl exit 35: curl: (35) OpenSSL SSL_connect: SSL_ERROR_SYSCALL in connection to wiki.asra.gr:443",
+   "cached_at": "2026-10-21T09:23:33.398Z",
+   "cache_age_days": 1
   },
   {
    "id": "joinmatrix",
@@ -751,7 +754,7 @@
    },
    "ipv6": true,
    "sliding_sync": true,
-   "online_status": 0,
+   "online_status": 2,
    "ver_status": 2,
    "room_directory": 39,
    "sources": [
@@ -3192,7 +3195,7 @@
    "ipv6": false,
    "sliding_sync": true,
    "online_status": 2,
-   "ver_status": 1,
+   "ver_status": 2,
    "room_directory": -1,
    "sources": [
     "asra",
@@ -3906,9 +3909,9 @@
    },
    "ipv6": false,
    "sliding_sync": true,
-   "online_status": 2,
+   "online_status": 0,
    "ver_status": 1,
-   "room_directory": 84,
+   "room_directory": -1,
    "sources": [
     "asra",
     "joinmatrix"
@@ -4245,7 +4248,7 @@
   },
   {
    "name": "hadoly.fr",
-   "client_domain": "matrix.hadoly.fr",
+   "client_domain": "hadoly.fr",
    "software": "Synapse",
    "version": "1.163.0",
    "registration": {
@@ -4270,7 +4273,7 @@
    },
    "ipv6": true,
    "sliding_sync": true,
-   "online_status": 2,
+   "online_status": 0,
    "ver_status": 2,
    "room_directory": -1,
    "sources": [
@@ -10773,7 +10776,7 @@
    "name": "nhjkl.com",
    "client_domain": "nhjkl.com",
    "software": "Synapse",
-   "version": "1.163.0",
+   "version": "1.164.0rc1",
    "registration": {
     "open": false,
     "vanilla": false,
@@ -11067,7 +11070,7 @@
    "name": "oblak.be",
    "client_domain": "matrix.oblak.be",
    "software": "Synapse",
-   "version": "1.162.0",
+   "version": "1.163.0",
    "registration": {
     "open": true,
     "vanilla": false,
@@ -11821,7 +11824,7 @@
    "name": "pub.solar",
    "client_domain": "matrix.pub.solar",
    "software": "Synapse",
-   "version": "1.162.0",
+   "version": "1.163.0",
    "registration": {
     "open": false,
     "vanilla": false,
@@ -12180,7 +12183,7 @@
    "name": "rollenspiel.chat",
    "client_domain": "rollenspiel.chat",
    "software": "Synapse",
-   "version": "1.162.0",
+   "version": "1.163.0",
    "registration": {
     "open": true,
     "vanilla": false,
@@ -13588,7 +13591,7 @@
    "sliding_sync": false,
    "online_status": 2,
    "ver_status": 2,
-   "room_directory": 1575,
+   "room_directory": 1576,
    "sources": [
     "joinmatrix",
     "privacydev"
