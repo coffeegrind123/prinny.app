@@ -1,6 +1,6 @@
 {
  "version": 1,
- "generated_at": "2026-10-22T09:26:51.144Z",
+ "generated_at": "2026-10-23T09:23:46.806Z",
  "refresh_interval_hours": 24,
  "counts": {
   "total": 1089,
@@ -14,9 +14,9 @@
    "ok": false,
    "stale": true,
    "count": 1037,
-   "error": "Error: both routes failed — direct: TypeError: fetch failed <- AggregateError ECONNREFUSED: AggregateError; proxy: Error: curl exit 35: curl: (35) OpenSSL SSL_connect: SSL_ERROR_SYSCALL in connection to wiki.asra.gr:443",
+   "error": "Error: both routes failed — direct: Error: HTTP 502; proxy: Error: HTTP 502",
    "cached_at": "2026-10-21T09:23:33.398Z",
-   "cache_age_days": 1
+   "cache_age_days": 2
   },
   {
    "id": "joinmatrix",
@@ -756,7 +756,7 @@
    "sliding_sync": true,
    "online_status": 2,
    "ver_status": 2,
-   "room_directory": 39,
+   "room_directory": 42,
    "sources": [
     "joinmatrix"
    ]
@@ -3909,9 +3909,9 @@
    },
    "ipv6": false,
    "sliding_sync": true,
-   "online_status": 0,
+   "online_status": 2,
    "ver_status": 1,
-   "room_directory": -1,
+   "room_directory": 84,
    "sources": [
     "asra",
     "joinmatrix"
@@ -4248,7 +4248,7 @@
   },
   {
    "name": "hadoly.fr",
-   "client_domain": "hadoly.fr",
+   "client_domain": "matrix.hadoly.fr",
    "software": "Synapse",
    "version": "1.163.0",
    "registration": {
@@ -4273,7 +4273,7 @@
    },
    "ipv6": true,
    "sliding_sync": true,
-   "online_status": 0,
+   "online_status": 2,
    "ver_status": 2,
    "room_directory": -1,
    "sources": [
@@ -10020,6 +10020,25 @@
    ]
   },
   {
+   "name": "matrix.yatrix.org",
+   "client_domain": "matrix.yatrix.org",
+   "registration": {
+    "open": true,
+    "captcha": false,
+    "recaptcha": false,
+    "hcaptcha": false,
+    "email_required": true
+   },
+   "privacy": {
+    "tor_friendly": true,
+    "cloudflare": false,
+    "similarweb_rank": 19138039
+   },
+   "sources": [
+    "privacydev"
+   ]
+  },
+  {
    "name": "matrix.zuul.no",
    "client_domain": "matrix.zuul.no",
    "software": "Synapse",
@@ -12953,7 +12972,7 @@
    "ipv6": false,
    "online_status": 2,
    "ver_status": 2,
-   "room_directory": 20,
+   "room_directory": 21,
    "sources": [
     "joinmatrix"
    ]
@@ -13591,7 +13610,7 @@
    "sliding_sync": false,
    "online_status": 2,
    "ver_status": 2,
-   "room_directory": 1576,
+   "room_directory": 1575,
    "sources": [
     "joinmatrix",
     "privacydev"
@@ -14643,33 +14662,6 @@
    "sources": [
     "asra"
    ]
-  },
-  {
-   "name": "yatrix.org",
-   "client_domain": "matrix.yatrix.org",
-   "registration": {
-    "open": true,
-    "captcha": false,
-    "recaptcha": false,
-    "hcaptcha": false,
-    "email_required": true
-   },
-   "privacy": {
-    "tor_friendly": true,
-    "cloudflare": false,
-    "similarweb_rank": 19138039
-   },
-   "sources": [
-    "privacydev"
-   ],
-   "aliases": [
-    "matrix.yatrix.org"
-   ],
-   "link_evidence": {
-    "linked_to": "yatrix.org",
-    "method": "well-known",
-    "detail": "https://yatrix.org/.well-known/matrix/client → matrix.yatrix.org"
-   }
   },
   {
    "name": "yona.lu",
