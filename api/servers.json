@@ -1,6 +1,6 @@
 {
  "version": 1,
- "generated_at": "2026-10-23T09:23:46.806Z",
+ "generated_at": "2026-10-24T08:54:45.601Z",
  "refresh_interval_hours": 24,
  "counts": {
   "total": 1089,
@@ -731,7 +731,7 @@
    "name": "bark.lgbt",
    "client_domain": "synapse.bark.lgbt",
    "software": "Synapse",
-   "version": "1.163.0",
+   "version": "1.163.1",
    "registration": {
     "open": false,
     "vanilla": false,
@@ -756,7 +756,7 @@
    "sliding_sync": true,
    "online_status": 2,
    "ver_status": 2,
-   "room_directory": 42,
+   "room_directory": 43,
    "sources": [
     "joinmatrix"
    ]
@@ -3243,7 +3243,7 @@
    "name": "fachschaften.org",
    "client_domain": "matrix.fachschaften.org",
    "software": "Synapse",
-   "version": "1.163.0",
+   "version": "1.163.1",
    "registration": {
     "open": false,
     "vanilla": false,
@@ -3627,7 +3627,7 @@
    "name": "fsfe.org",
    "client_domain": "matrix.fsfe.org",
    "software": "Synapse",
-   "version": "1.162.0",
+   "version": "1.163.0",
    "registration": {
     "open": false,
     "vanilla": false,
@@ -10020,25 +10020,6 @@
    ]
   },
   {
-   "name": "matrix.yatrix.org",
-   "client_domain": "matrix.yatrix.org",
-   "registration": {
-    "open": true,
-    "captcha": false,
-    "recaptcha": false,
-    "hcaptcha": false,
-    "email_required": true
-   },
-   "privacy": {
-    "tor_friendly": true,
-    "cloudflare": false,
-    "similarweb_rank": 19138039
-   },
-   "sources": [
-    "privacydev"
-   ]
-  },
-  {
    "name": "matrix.zuul.no",
    "client_domain": "matrix.zuul.no",
    "software": "Synapse",
@@ -10917,7 +10898,7 @@
    "name": "nope.chat",
    "client_domain": "nope.chat",
    "software": "Synapse",
-   "version": "1.163.0",
+   "version": "1.163.1",
    "registration": {
     "open": true,
     "vanilla": false,
@@ -11089,7 +11070,7 @@
    "name": "oblak.be",
    "client_domain": "matrix.oblak.be",
    "software": "Synapse",
-   "version": "1.163.0",
+   "version": "1.163.1",
    "registration": {
     "open": true,
     "vanilla": false,
@@ -11704,7 +11685,7 @@
    "name": "private.coffee",
    "client_domain": "matrix.private.coffee",
    "software": "Synapse",
-   "version": "1.163.0",
+   "version": "1.163.1",
    "registration": {
     "open": false,
     "vanilla": false,
@@ -11799,7 +11780,7 @@
    "name": "proxymana.net",
    "client_domain": "matrix.proxymana.net",
    "software": "Synapse",
-   "version": "1.163.0",
+   "version": "1.163.1",
    "registration": {
     "open": false,
     "vanilla": false,
@@ -13610,7 +13591,7 @@
    "sliding_sync": false,
    "online_status": 2,
    "ver_status": 2,
-   "room_directory": 1575,
+   "room_directory": 1576,
    "sources": [
     "joinmatrix",
     "privacydev"
@@ -14662,6 +14643,33 @@
    "sources": [
     "asra"
    ]
+  },
+  {
+   "name": "yatrix.org",
+   "client_domain": "matrix.yatrix.org",
+   "registration": {
+    "open": true,
+    "captcha": false,
+    "recaptcha": false,
+    "hcaptcha": false,
+    "email_required": true
+   },
+   "privacy": {
+    "tor_friendly": true,
+    "cloudflare": false,
+    "similarweb_rank": 19138039
+   },
+   "sources": [
+    "privacydev"
+   ],
+   "aliases": [
+    "matrix.yatrix.org"
+   ],
+   "link_evidence": {
+    "linked_to": "yatrix.org",
+    "method": "well-known",
+    "detail": "https://yatrix.org/.well-known/matrix/client → matrix.yatrix.org"
+   }
   },
   {
    "name": "yona.lu",
