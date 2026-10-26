@@ -1,6 +1,6 @@
 {
  "version": 1,
- "generated_at": "2026-10-25T09:11:33.657Z",
+ "generated_at": "2026-10-26T10:11:36.150Z",
  "refresh_interval_hours": 24,
  "counts": {
   "total": 1089,
@@ -16,7 +16,7 @@
    "count": 1037,
    "error": "Error: both routes failed — direct: Error: HTTP 502; proxy: Error: HTTP 502",
    "cached_at": "2026-10-21T09:23:33.398Z",
-   "cache_age_days": 3
+   "cache_age_days": 5
   },
   {
    "id": "joinmatrix",
@@ -3313,7 +3313,7 @@
    "name": "federated.nexus",
    "client_domain": "matrix.federated.nexus",
    "software": "continuwuity",
-   "version": "26.9.1 (2f93711)",
+   "version": "26.9.1 (40a2f92)",
    "registration": {
     "open": false,
     "vanilla": false,
@@ -13787,7 +13787,7 @@
    "name": "thursdaycouncil.org",
    "client_domain": "continuwuity.thursdaycouncil.org",
    "software": "continuwuity",
-   "version": "26.9.1 (9c27441)",
+   "version": "26.9.1 (ef13785)",
    "registration": {
     "open": false,
     "vanilla": false,
