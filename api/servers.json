@@ -1,6 +1,6 @@
 {
  "version": 1,
- "generated_at": "2026-10-26T10:11:36.150Z",
+ "generated_at": "2026-10-27T09:51:11.402Z",
  "refresh_interval_hours": 24,
  "counts": {
   "total": 1089,
@@ -16,7 +16,7 @@
    "count": 1037,
    "error": "Error: both routes failed — direct: Error: HTTP 502; proxy: Error: HTTP 502",
    "cached_at": "2026-10-21T09:23:33.398Z",
-   "cache_age_days": 5
+   "cache_age_days": 6
   },
   {
    "id": "joinmatrix",
@@ -731,7 +731,7 @@
    "name": "bark.lgbt",
    "client_domain": "synapse.bark.lgbt",
    "software": "Synapse",
-   "version": "1.163.1",
+   "version": "1.163.2",
    "registration": {
     "open": false,
     "vanilla": false,
@@ -2644,7 +2644,7 @@
    },
    "ipv6": false,
    "sliding_sync": true,
-   "online_status": 2,
+   "online_status": 0,
    "ver_status": 2,
    "room_directory": -1,
    "sources": [
@@ -10898,7 +10898,7 @@
    "name": "nope.chat",
    "client_domain": "nope.chat",
    "software": "Synapse",
-   "version": "1.163.1",
+   "version": "1.163.2",
    "registration": {
     "open": true,
     "vanilla": false,
@@ -10935,7 +10935,7 @@
    "name": "norge.chat",
    "client_domain": "matrix.norge.chat",
    "software": "Synapse",
-   "version": "1.163.0",
+   "version": "1.163.2",
    "registration": {
     "open": false,
     "vanilla": false,
@@ -11070,7 +11070,7 @@
    "name": "oblak.be",
    "client_domain": "matrix.oblak.be",
    "software": "Synapse",
-   "version": "1.163.1",
+   "version": "1.163.2",
    "registration": {
     "open": true,
     "vanilla": false,
@@ -11409,7 +11409,7 @@
    "name": "pikaviestin.fi",
    "client_domain": "matrix.pikaviestin.fi",
    "software": "Synapse",
-   "version": "1.159.0",
+   "version": "1.163.2",
    "registration": {
     "open": false,
     "vanilla": false,
@@ -11435,7 +11435,7 @@
    "ipv6": true,
    "sliding_sync": true,
    "online_status": 2,
-   "ver_status": 1,
+   "ver_status": 2,
    "room_directory": -1,
    "sources": [
     "joinmatrix"
@@ -13555,7 +13555,7 @@
    "name": "tchncs.de",
    "client_domain": "matrix.tchncs.de",
    "software": "Synapse",
-   "version": "1.163.0",
+   "version": "1.163.2",
    "registration": {
     "open": true,
     "vanilla": false,
@@ -13591,7 +13591,7 @@
    "sliding_sync": false,
    "online_status": 2,
    "ver_status": 2,
-   "room_directory": 1575,
+   "room_directory": 1576,
    "sources": [
     "joinmatrix",
     "privacydev"
@@ -13787,7 +13787,7 @@
    "name": "thursdaycouncil.org",
    "client_domain": "continuwuity.thursdaycouncil.org",
    "software": "continuwuity",
-   "version": "26.9.1 (ef13785)",
+   "version": "26.9.1 (81c62c4)",
    "registration": {
     "open": false,
     "vanilla": false,
