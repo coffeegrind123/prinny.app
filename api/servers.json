@@ -1,6 +1,6 @@
 {
  "version": 1,
- "generated_at": "2026-10-27T09:51:11.402Z",
+ "generated_at": "2026-10-28T10:37:38.476Z",
  "refresh_interval_hours": 24,
  "counts": {
   "total": 1089,
@@ -16,7 +16,7 @@
    "count": 1037,
    "error": "Error: both routes failed — direct: Error: HTTP 502; proxy: Error: HTTP 502",
    "cached_at": "2026-10-21T09:23:33.398Z",
-   "cache_age_days": 6
+   "cache_age_days": 7
   },
   {
    "id": "joinmatrix",
@@ -2644,7 +2644,7 @@
    },
    "ipv6": false,
    "sliding_sync": true,
-   "online_status": 0,
+   "online_status": 2,
    "ver_status": 2,
    "room_directory": -1,
    "sources": [
@@ -2964,7 +2964,7 @@
    "sliding_sync": true,
    "online_status": 2,
    "ver_status": 2,
-   "room_directory": 5,
+   "room_directory": 7,
    "sources": [
     "asra",
     "joinmatrix"
@@ -3243,7 +3243,7 @@
    "name": "fachschaften.org",
    "client_domain": "matrix.fachschaften.org",
    "software": "Synapse",
-   "version": "1.163.2",
+   "version": "1.164.0",
    "registration": {
     "open": false,
     "vanilla": false,
@@ -12183,7 +12183,7 @@
    "name": "rollenspiel.chat",
    "client_domain": "rollenspiel.chat",
    "software": "Synapse",
-   "version": "1.163.0",
+   "version": "1.163.2",
    "registration": {
     "open": true,
     "vanilla": false,
@@ -13591,7 +13591,7 @@
    "sliding_sync": false,
    "online_status": 2,
    "ver_status": 2,
-   "room_directory": 1576,
+   "room_directory": 1579,
    "sources": [
     "joinmatrix",
     "privacydev"
