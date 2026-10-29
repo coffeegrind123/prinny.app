@@ -1,6 +1,6 @@
 {
  "version": 1,
- "generated_at": "2026-10-28T10:37:38.476Z",
+ "generated_at": "2026-10-29T10:55:59.368Z",
  "refresh_interval_hours": 24,
  "counts": {
   "total": 1089,
@@ -16,7 +16,7 @@
    "count": 1037,
    "error": "Error: both routes failed — direct: Error: HTTP 502; proxy: Error: HTTP 502",
    "cached_at": "2026-10-21T09:23:33.398Z",
-   "cache_age_days": 7
+   "cache_age_days": 8
   },
   {
    "id": "joinmatrix",
@@ -1180,7 +1180,7 @@
    "name": "catgirl.cloud",
    "client_domain": "matrix.catgirl.cloud",
    "software": "Synapse",
-   "version": "1.162.0",
+   "version": "1.163.0",
    "registration": {
     "open": true,
     "vanilla": false,
@@ -3498,7 +3498,7 @@
    "name": "frei.chat",
    "client_domain": "matrix.frei.chat",
    "software": "Synapse",
-   "version": "1.163.2",
+   "version": "1.164.0",
    "registration": {
     "open": false,
     "vanilla": false,
@@ -10776,7 +10776,7 @@
    "name": "nhjkl.com",
    "client_domain": "nhjkl.com",
    "software": "Synapse",
-   "version": "1.164.0rc1",
+   "version": "1.164.1",
    "registration": {
     "open": false,
     "vanilla": false,
@@ -11685,7 +11685,7 @@
    "name": "private.coffee",
    "client_domain": "matrix.private.coffee",
    "software": "Synapse",
-   "version": "1.163.1",
+   "version": "1.164.0",
    "registration": {
     "open": false,
     "vanilla": false,
@@ -11780,7 +11780,7 @@
    "name": "proxymana.net",
    "client_domain": "matrix.proxymana.net",
    "software": "Synapse",
-   "version": "1.163.2",
+   "version": "1.164.0",
    "registration": {
     "open": false,
     "vanilla": false,
@@ -11906,7 +11906,7 @@
    "name": "quassel.io",
    "client_domain": "matrix.quassel.io",
    "software": "Synapse",
-   "version": "1.162.0",
+   "version": "1.164.0",
    "registration": {
     "open": true,
     "vanilla": false,
@@ -13591,7 +13591,7 @@
    "sliding_sync": false,
    "online_status": 2,
    "ver_status": 2,
-   "room_directory": 1579,
+   "room_directory": 1580,
    "sources": [
     "joinmatrix",
     "privacydev"
@@ -13787,7 +13787,7 @@
    "name": "thursdaycouncil.org",
    "client_domain": "continuwuity.thursdaycouncil.org",
    "software": "continuwuity",
-   "version": "26.9.1 (81c62c4)",
+   "version": "26.9.1 (be5c940)",
    "registration": {
     "open": false,
     "vanilla": false,
