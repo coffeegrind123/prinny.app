@@ -1,6 +1,6 @@
 {
  "version": 1,
- "generated_at": "2026-10-29T10:55:59.368Z",
+ "generated_at": "2026-10-30T10:54:26.904Z",
  "refresh_interval_hours": 24,
  "counts": {
   "total": 1089,
@@ -16,7 +16,7 @@
    "count": 1037,
    "error": "Error: both routes failed — direct: Error: HTTP 502; proxy: Error: HTTP 502",
    "cached_at": "2026-10-21T09:23:33.398Z",
-   "cache_age_days": 8
+   "cache_age_days": 9
   },
   {
    "id": "joinmatrix",
@@ -28,10 +28,12 @@
   {
    "id": "privacydev",
    "url": "https://www.privacydev.net/matrix_instances.csv",
-   "ok": true,
-   "stale": false,
+   "ok": false,
+   "stale": true,
    "count": 35,
-   "via": "proxy"
+   "error": "Error: both routes failed — direct: TypeError: fetch failed <- ConnectTimeoutError UND_ERR_CONNECT_TIMEOUT: Connect Timeout Error (attempted address: www.privacydev.net:443, timeout: 10000ms); proxy: Error: curl exit 60: curl: (60) SSL certificate problem: certificate has expired",
+   "cached_at": "2026-10-29T10:55:37.495Z",
+   "cache_age_days": 0
   }
  ],
  "servers": [
