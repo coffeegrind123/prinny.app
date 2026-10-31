@@ -1,6 +1,6 @@
 {
  "version": 1,
- "generated_at": "2026-10-30T10:54:26.904Z",
+ "generated_at": "2026-10-31T10:26:11.625Z",
  "refresh_interval_hours": 24,
  "counts": {
   "total": 1089,
@@ -16,7 +16,7 @@
    "count": 1037,
    "error": "Error: both routes failed — direct: Error: HTTP 502; proxy: Error: HTTP 502",
    "cached_at": "2026-10-21T09:23:33.398Z",
-   "cache_age_days": 9
+   "cache_age_days": 10
   },
   {
    "id": "joinmatrix",
@@ -33,7 +33,7 @@
    "count": 35,
    "error": "Error: both routes failed — direct: TypeError: fetch failed <- ConnectTimeoutError UND_ERR_CONNECT_TIMEOUT: Connect Timeout Error (attempted address: www.privacydev.net:443, timeout: 10000ms); proxy: Error: curl exit 60: curl: (60) SSL certificate problem: certificate has expired",
    "cached_at": "2026-10-29T10:55:37.495Z",
-   "cache_age_days": 0
+   "cache_age_days": 1
   }
  ],
  "servers": [
@@ -733,7 +733,7 @@
    "name": "bark.lgbt",
    "client_domain": "synapse.bark.lgbt",
    "software": "Synapse",
-   "version": "1.163.2",
+   "version": "1.164.1",
    "registration": {
     "open": false,
     "vanilla": false,
@@ -2103,7 +2103,7 @@
    "name": "converser.eu",
    "client_domain": "converser.eu",
    "software": "Synapse",
-   "version": "1.160.0",
+   "version": "1.164.1",
    "registration": {
     "open": true,
     "vanilla": false,
@@ -2124,7 +2124,7 @@
    "ipv6": true,
    "sliding_sync": true,
    "online_status": 2,
-   "ver_status": 1,
+   "ver_status": 2,
    "room_directory": -1,
    "sources": [
     "joinmatrix"
@@ -2374,7 +2374,7 @@
    "ipv6": false,
    "sliding_sync": true,
    "online_status": 2,
-   "ver_status": 1,
+   "ver_status": 0,
    "room_directory": -1,
    "sources": [
     "joinmatrix"
@@ -2606,7 +2606,7 @@
    "ipv6": true,
    "sliding_sync": true,
    "online_status": 2,
-   "ver_status": 1,
+   "ver_status": 0,
    "room_directory": -1,
    "sources": [
     "joinmatrix"
@@ -3315,7 +3315,7 @@
    "name": "federated.nexus",
    "client_domain": "matrix.federated.nexus",
    "software": "continuwuity",
-   "version": "26.9.1 (40a2f92)",
+   "version": "26.9.1 (cb27a20)",
    "registration": {
     "open": false,
     "vanilla": false,
@@ -3500,7 +3500,7 @@
    "name": "frei.chat",
    "client_domain": "matrix.frei.chat",
    "software": "Synapse",
-   "version": "1.164.0",
+   "version": "1.164.1",
    "registration": {
     "open": false,
     "vanilla": false,
@@ -3911,9 +3911,9 @@
    },
    "ipv6": false,
    "sliding_sync": true,
-   "online_status": 2,
+   "online_status": 0,
    "ver_status": 1,
-   "room_directory": 84,
+   "room_directory": -1,
    "sources": [
     "asra",
     "joinmatrix"
@@ -4747,7 +4747,7 @@
    "ipv6": true,
    "sliding_sync": true,
    "online_status": 2,
-   "ver_status": 1,
+   "ver_status": 0,
    "room_directory": 8,
    "sources": [
     "joinmatrix"
@@ -10900,7 +10900,7 @@
    "name": "nope.chat",
    "client_domain": "nope.chat",
    "software": "Synapse",
-   "version": "1.163.2",
+   "version": "1.164.1",
    "registration": {
     "open": true,
     "vanilla": false,
@@ -11782,7 +11782,7 @@
    "name": "proxymana.net",
    "client_domain": "matrix.proxymana.net",
    "software": "Synapse",
-   "version": "1.164.0",
+   "version": "1.164.1",
    "registration": {
     "open": false,
     "vanilla": false,
@@ -11826,7 +11826,7 @@
    "name": "pub.solar",
    "client_domain": "matrix.pub.solar",
    "software": "Synapse",
-   "version": "1.163.0",
+   "version": "1.163.2",
    "registration": {
     "open": false,
     "vanilla": false,
@@ -13593,7 +13593,7 @@
    "sliding_sync": false,
    "online_status": 2,
    "ver_status": 2,
-   "room_directory": 1580,
+   "room_directory": 1582,
    "sources": [
     "joinmatrix",
     "privacydev"
@@ -13694,7 +13694,7 @@
    "ipv6": false,
    "sliding_sync": true,
    "online_status": 2,
-   "ver_status": 1,
+   "ver_status": 0,
    "room_directory": 116,
    "sources": [
     "joinmatrix"
@@ -13789,7 +13789,7 @@
    "name": "thursdaycouncil.org",
    "client_domain": "continuwuity.thursdaycouncil.org",
    "software": "continuwuity",
-   "version": "26.9.1 (be5c940)",
+   "version": "26.9.1 (7358712)",
    "registration": {
     "open": false,
     "vanilla": false,
