@@ -1,6 +1,6 @@
 {
  "version": 1,
- "generated_at": "2026-10-31T10:26:11.625Z",
+ "generated_at": "2026-11-01T11:18:52.177Z",
  "refresh_interval_hours": 24,
  "counts": {
   "total": 1089,
@@ -16,7 +16,7 @@
    "count": 1037,
    "error": "Error: both routes failed — direct: Error: HTTP 502; proxy: Error: HTTP 502",
    "cached_at": "2026-10-21T09:23:33.398Z",
-   "cache_age_days": 10
+   "cache_age_days": 11
   },
   {
    "id": "joinmatrix",
@@ -28,12 +28,10 @@
   {
    "id": "privacydev",
    "url": "https://www.privacydev.net/matrix_instances.csv",
-   "ok": false,
-   "stale": true,
+   "ok": true,
+   "stale": false,
    "count": 35,
-   "error": "Error: both routes failed — direct: TypeError: fetch failed <- ConnectTimeoutError UND_ERR_CONNECT_TIMEOUT: Connect Timeout Error (attempted address: www.privacydev.net:443, timeout: 10000ms); proxy: Error: curl exit 60: curl: (60) SSL certificate problem: certificate has expired",
-   "cached_at": "2026-10-29T10:55:37.495Z",
-   "cache_age_days": 1
+   "via": "proxy"
   }
  ],
  "servers": [
@@ -3315,7 +3313,7 @@
    "name": "federated.nexus",
    "client_domain": "matrix.federated.nexus",
    "software": "continuwuity",
-   "version": "26.9.1 (cb27a20)",
+   "version": "26.9.1 (abf8f87)",
    "registration": {
     "open": false,
     "vanilla": false,
@@ -10937,7 +10935,7 @@
    "name": "norge.chat",
    "client_domain": "matrix.norge.chat",
    "software": "Synapse",
-   "version": "1.163.2",
+   "version": "1.164.1",
    "registration": {
     "open": false,
     "vanilla": false,
@@ -13789,7 +13787,7 @@
    "name": "thursdaycouncil.org",
    "client_domain": "continuwuity.thursdaycouncil.org",
    "software": "continuwuity",
-   "version": "26.9.1 (7358712)",
+   "version": "26.9.1 (cb27a20)",
    "registration": {
     "open": false,
     "vanilla": false,
