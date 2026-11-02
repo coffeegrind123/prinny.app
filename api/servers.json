@@ -1,6 +1,6 @@
 {
  "version": 1,
- "generated_at": "2026-11-01T11:18:52.177Z",
+ "generated_at": "2026-11-02T12:29:55.515Z",
  "refresh_interval_hours": 24,
  "counts": {
   "total": 1089,
@@ -16,7 +16,7 @@
    "count": 1037,
    "error": "Error: both routes failed — direct: Error: HTTP 502; proxy: Error: HTTP 502",
    "cached_at": "2026-10-21T09:23:33.398Z",
-   "cache_age_days": 11
+   "cache_age_days": 12
   },
   {
    "id": "joinmatrix",
@@ -726,6 +726,33 @@
    "sources": [
     "asra"
    ]
+  },
+  {
+   "name": "badstuebner.biz",
+   "client_domain": "matrix.badstuebner.biz",
+   "registration": {
+    "open": true,
+    "captcha": true,
+    "recaptcha": true,
+    "hcaptcha": false,
+    "email_required": false
+   },
+   "privacy": {
+    "tor_friendly": true,
+    "cloudflare": false,
+    "similarweb_rank": 19774767
+   },
+   "sources": [
+    "privacydev"
+   ],
+   "aliases": [
+    "matrix.badstuebner.biz"
+   ],
+   "link_evidence": {
+    "linked_to": "badstuebner.biz",
+    "method": "well-known",
+    "detail": "https://badstuebner.biz/.well-known/matrix/client → matrix.badstuebner.biz"
+   }
   },
   {
    "name": "bark.lgbt",
@@ -3243,7 +3270,7 @@
    "name": "fachschaften.org",
    "client_domain": "matrix.fachschaften.org",
    "software": "Synapse",
-   "version": "1.164.0",
+   "version": "1.164.1",
    "registration": {
     "open": false,
     "vanilla": false,
@@ -3909,9 +3936,9 @@
    },
    "ipv6": false,
    "sliding_sync": true,
-   "online_status": 0,
+   "online_status": 2,
    "ver_status": 1,
-   "room_directory": -1,
+   "room_directory": 84,
    "sources": [
     "asra",
     "joinmatrix"
@@ -6404,25 +6431,6 @@
    },
    "sources": [
     "asra"
-   ]
-  },
-  {
-   "name": "matrix.badstuebner.biz",
-   "client_domain": "matrix.badstuebner.biz",
-   "registration": {
-    "open": true,
-    "captcha": true,
-    "recaptcha": true,
-    "hcaptcha": false,
-    "email_required": false
-   },
-   "privacy": {
-    "tor_friendly": true,
-    "cloudflare": false,
-    "similarweb_rank": 19774767
-   },
-   "sources": [
-    "privacydev"
    ]
   },
   {
@@ -12953,7 +12961,7 @@
    "ipv6": false,
    "online_status": 2,
    "ver_status": 2,
-   "room_directory": 21,
+   "room_directory": 22,
    "sources": [
     "joinmatrix"
    ]
@@ -13591,7 +13599,7 @@
    "sliding_sync": false,
    "online_status": 2,
    "ver_status": 2,
-   "room_directory": 1582,
+   "room_directory": 1585,
    "sources": [
     "joinmatrix",
     "privacydev"
@@ -13787,7 +13795,7 @@
    "name": "thursdaycouncil.org",
    "client_domain": "continuwuity.thursdaycouncil.org",
    "software": "continuwuity",
-   "version": "26.9.1 (cb27a20)",
+   "version": "26.9.1 (abf8f87)",
    "registration": {
     "open": false,
     "vanilla": false,
