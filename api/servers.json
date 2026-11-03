@@ -1,6 +1,6 @@
 {
  "version": 1,
- "generated_at": "2026-11-02T12:29:55.515Z",
+ "generated_at": "2026-11-03T11:59:05.509Z",
  "refresh_interval_hours": 24,
  "counts": {
   "total": 1089,
@@ -14,9 +14,9 @@
    "ok": false,
    "stale": true,
    "count": 1037,
-   "error": "Error: both routes failed — direct: Error: HTTP 502; proxy: Error: HTTP 502",
+   "error": "Error: both routes failed — direct: Error: HTTP 502; proxy: Error: curl exit 56: curl: (56) CONNECT tunnel failed, response 403",
    "cached_at": "2026-10-21T09:23:33.398Z",
-   "cache_age_days": 12
+   "cache_age_days": 13
   },
   {
    "id": "joinmatrix",
@@ -28,10 +28,12 @@
   {
    "id": "privacydev",
    "url": "https://www.privacydev.net/matrix_instances.csv",
-   "ok": true,
-   "stale": false,
+   "ok": false,
+   "stale": true,
    "count": 35,
-   "via": "proxy"
+   "error": "Error: both routes failed — direct: TypeError: fetch failed <- ConnectTimeoutError UND_ERR_CONNECT_TIMEOUT: Connect Timeout Error (attempted address: www.privacydev.net:443, timeout: 10000ms); proxy: Error: curl exit 56: curl: (56) CONNECT tunnel failed, response 403",
+   "cached_at": "2026-11-02T12:29:43.296Z",
+   "cache_age_days": 0
   }
  ],
  "servers": [
@@ -3340,7 +3342,7 @@
    "name": "federated.nexus",
    "client_domain": "matrix.federated.nexus",
    "software": "continuwuity",
-   "version": "26.9.1 (abf8f87)",
+   "version": "26.9.1 (ddbdd1e)",
    "registration": {
     "open": false,
     "vanilla": false,
@@ -10784,7 +10786,7 @@
    "name": "nhjkl.com",
    "client_domain": "nhjkl.com",
    "software": "Synapse",
-   "version": "1.164.1",
+   "version": "1.164.2",
    "registration": {
     "open": false,
     "vanilla": false,
@@ -13563,7 +13565,7 @@
    "name": "tchncs.de",
    "client_domain": "matrix.tchncs.de",
    "software": "Synapse",
-   "version": "1.163.2",
+   "version": "1.164.2",
    "registration": {
     "open": true,
     "vanilla": false,
@@ -13599,7 +13601,7 @@
    "sliding_sync": false,
    "online_status": 2,
    "ver_status": 2,
-   "room_directory": 1585,
+   "room_directory": 1587,
    "sources": [
     "joinmatrix",
     "privacydev"
@@ -13795,7 +13797,7 @@
    "name": "thursdaycouncil.org",
    "client_domain": "continuwuity.thursdaycouncil.org",
    "software": "continuwuity",
-   "version": "26.9.1 (abf8f87)",
+   "version": "26.9.1 (ddbdd1e)",
    "registration": {
     "open": false,
     "vanilla": false,
