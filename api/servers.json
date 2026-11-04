@@ -1,6 +1,6 @@
 {
  "version": 1,
- "generated_at": "2026-11-03T11:59:05.509Z",
+ "generated_at": "2026-11-04T12:12:31.447Z",
  "refresh_interval_hours": 24,
  "counts": {
   "total": 1089,
@@ -16,7 +16,7 @@
    "count": 1037,
    "error": "Error: both routes failed — direct: Error: HTTP 502; proxy: Error: curl exit 56: curl: (56) CONNECT tunnel failed, response 403",
    "cached_at": "2026-10-21T09:23:33.398Z",
-   "cache_age_days": 13
+   "cache_age_days": 14
   },
   {
    "id": "joinmatrix",
@@ -33,7 +33,7 @@
    "count": 35,
    "error": "Error: both routes failed — direct: TypeError: fetch failed <- ConnectTimeoutError UND_ERR_CONNECT_TIMEOUT: Connect Timeout Error (attempted address: www.privacydev.net:443, timeout: 10000ms); proxy: Error: curl exit 56: curl: (56) CONNECT tunnel failed, response 403",
    "cached_at": "2026-11-02T12:29:43.296Z",
-   "cache_age_days": 0
+   "cache_age_days": 1
   }
  ],
  "servers": [
@@ -760,7 +760,7 @@
    "name": "bark.lgbt",
    "client_domain": "synapse.bark.lgbt",
    "software": "Synapse",
-   "version": "1.164.1",
+   "version": "1.164.2",
    "registration": {
     "open": false,
     "vanilla": false,
@@ -3527,7 +3527,7 @@
    "name": "frei.chat",
    "client_domain": "matrix.frei.chat",
    "software": "Synapse",
-   "version": "1.164.1",
+   "version": "1.164.2",
    "registration": {
     "open": false,
     "vanilla": false,
@@ -4908,7 +4908,7 @@
    },
    "ipv6": true,
    "sliding_sync": true,
-   "online_status": 2,
+   "online_status": 0,
    "ver_status": 2,
    "room_directory": -1,
    "sources": [
@@ -11790,7 +11790,7 @@
    "name": "proxymana.net",
    "client_domain": "matrix.proxymana.net",
    "software": "Synapse",
-   "version": "1.164.1",
+   "version": "1.164.2",
    "registration": {
     "open": false,
     "vanilla": false,
@@ -13601,7 +13601,7 @@
    "sliding_sync": false,
    "online_status": 2,
    "ver_status": 2,
-   "room_directory": 1587,
+   "room_directory": 1586,
    "sources": [
     "joinmatrix",
     "privacydev"
@@ -13797,7 +13797,7 @@
    "name": "thursdaycouncil.org",
    "client_domain": "continuwuity.thursdaycouncil.org",
    "software": "continuwuity",
-   "version": "26.9.1 (ddbdd1e)",
+   "version": "26.9.1 (d8229a7)",
    "registration": {
     "open": false,
     "vanilla": false,
