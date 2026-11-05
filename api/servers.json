@@ -1,6 +1,6 @@
 {
  "version": 1,
- "generated_at": "2026-11-04T12:12:31.447Z",
+ "generated_at": "2026-11-05T12:25:34.216Z",
  "refresh_interval_hours": 24,
  "counts": {
   "total": 1089,
@@ -16,7 +16,7 @@
    "count": 1037,
    "error": "Error: both routes failed — direct: Error: HTTP 502; proxy: Error: curl exit 56: curl: (56) CONNECT tunnel failed, response 403",
    "cached_at": "2026-10-21T09:23:33.398Z",
-   "cache_age_days": 14
+   "cache_age_days": 15
   },
   {
    "id": "joinmatrix",
@@ -33,7 +33,7 @@
    "count": 35,
    "error": "Error: both routes failed — direct: TypeError: fetch failed <- ConnectTimeoutError UND_ERR_CONNECT_TIMEOUT: Connect Timeout Error (attempted address: www.privacydev.net:443, timeout: 10000ms); proxy: Error: curl exit 56: curl: (56) CONNECT tunnel failed, response 403",
    "cached_at": "2026-11-02T12:29:43.296Z",
-   "cache_age_days": 1
+   "cache_age_days": 2
   }
  ],
  "servers": [
@@ -3366,7 +3366,7 @@
    "sliding_sync": true,
    "online_status": 2,
    "ver_status": 2,
-   "room_directory": 4,
+   "room_directory": 5,
    "sources": [
     "joinmatrix"
    ]
@@ -4908,7 +4908,7 @@
    },
    "ipv6": true,
    "sliding_sync": true,
-   "online_status": 0,
+   "online_status": 2,
    "ver_status": 2,
    "room_directory": -1,
    "sources": [
@@ -10501,7 +10501,7 @@
    "name": "mtux.nl",
    "client_domain": "mtux.nl",
    "software": "Synapse",
-   "version": "1.163.0",
+   "version": "1.164.2",
    "registration": {
     "open": false,
     "vanilla": false,
@@ -12939,7 +12939,7 @@
    "name": "sk.community",
    "client_domain": "matrix.sk.community",
    "software": "Synapse",
-   "version": "1.163.0",
+   "version": "1.164.2",
    "registration": {
     "open": true,
     "vanilla": false,
@@ -13681,7 +13681,7 @@
    "name": "the-apothecary.club",
    "client_domain": "the-apothecary.club",
    "software": "Synapse",
-   "version": "1.146.0",
+   "version": "1.163.0",
    "registration": {
     "open": false,
     "vanilla": false,
@@ -13702,7 +13702,7 @@
    "ipv6": false,
    "sliding_sync": true,
    "online_status": 2,
-   "ver_status": 0,
+   "ver_status": 2,
    "room_directory": 116,
    "sources": [
     "joinmatrix"
@@ -13797,7 +13797,7 @@
    "name": "thursdaycouncil.org",
    "client_domain": "continuwuity.thursdaycouncil.org",
    "software": "continuwuity",
-   "version": "26.9.1 (d8229a7)",
+   "version": "26.9.1 (0727d56)",
    "registration": {
     "open": false,
     "vanilla": false,
