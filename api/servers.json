@@ -1,6 +1,6 @@
 {
  "version": 1,
- "generated_at": "2026-11-05T12:25:34.216Z",
+ "generated_at": "2026-11-06T12:09:50.503Z",
  "refresh_interval_hours": 24,
  "counts": {
   "total": 1089,
@@ -16,7 +16,7 @@
    "count": 1037,
    "error": "Error: both routes failed — direct: Error: HTTP 502; proxy: Error: curl exit 56: curl: (56) CONNECT tunnel failed, response 403",
    "cached_at": "2026-10-21T09:23:33.398Z",
-   "cache_age_days": 15
+   "cache_age_days": 16
   },
   {
    "id": "joinmatrix",
@@ -33,7 +33,7 @@
    "count": 35,
    "error": "Error: both routes failed — direct: TypeError: fetch failed <- ConnectTimeoutError UND_ERR_CONNECT_TIMEOUT: Connect Timeout Error (attempted address: www.privacydev.net:443, timeout: 10000ms); proxy: Error: curl exit 56: curl: (56) CONNECT tunnel failed, response 403",
    "cached_at": "2026-11-02T12:29:43.296Z",
-   "cache_age_days": 2
+   "cache_age_days": 3
   }
  ],
  "servers": [
@@ -3342,7 +3342,7 @@
    "name": "federated.nexus",
    "client_domain": "matrix.federated.nexus",
    "software": "continuwuity",
-   "version": "26.9.1 (ddbdd1e)",
+   "version": "26.9.1 (af0f177)",
    "registration": {
     "open": false,
     "vanilla": false,
@@ -5938,7 +5938,7 @@
    "name": "magdeburg.jetzt",
    "client_domain": "chat.magdeburg.jetzt",
    "software": "Synapse",
-   "version": "1.162.0",
+   "version": "1.164.2",
    "registration": {
     "open": true,
     "vanilla": false,
@@ -10786,7 +10786,7 @@
    "name": "nhjkl.com",
    "client_domain": "nhjkl.com",
    "software": "Synapse",
-   "version": "1.164.2",
+   "version": "1.165.0rc1",
    "registration": {
     "open": false,
     "vanilla": false,
@@ -11695,7 +11695,7 @@
    "name": "private.coffee",
    "client_domain": "matrix.private.coffee",
    "software": "Synapse",
-   "version": "1.164.0",
+   "version": "1.164.2",
    "registration": {
     "open": false,
     "vanilla": false,
@@ -13797,7 +13797,7 @@
    "name": "thursdaycouncil.org",
    "client_domain": "continuwuity.thursdaycouncil.org",
    "software": "continuwuity",
-   "version": "26.9.1 (0727d56)",
+   "version": "26.9.1 (db86d42)",
    "registration": {
     "open": false,
     "vanilla": false,
