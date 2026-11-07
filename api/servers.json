@@ -1,6 +1,6 @@
 {
  "version": 1,
- "generated_at": "2026-11-06T12:09:50.503Z",
+ "generated_at": "2026-11-07T11:06:47.614Z",
  "refresh_interval_hours": 24,
  "counts": {
   "total": 1089,
@@ -16,7 +16,7 @@
    "count": 1037,
    "error": "Error: both routes failed — direct: Error: HTTP 502; proxy: Error: curl exit 56: curl: (56) CONNECT tunnel failed, response 403",
    "cached_at": "2026-10-21T09:23:33.398Z",
-   "cache_age_days": 16
+   "cache_age_days": 17
   },
   {
    "id": "joinmatrix",
@@ -33,7 +33,7 @@
    "count": 35,
    "error": "Error: both routes failed — direct: TypeError: fetch failed <- ConnectTimeoutError UND_ERR_CONNECT_TIMEOUT: Connect Timeout Error (attempted address: www.privacydev.net:443, timeout: 10000ms); proxy: Error: curl exit 56: curl: (56) CONNECT tunnel failed, response 403",
    "cached_at": "2026-11-02T12:29:43.296Z",
-   "cache_age_days": 3
+   "cache_age_days": 4
   }
  ],
  "servers": [
@@ -3342,7 +3342,7 @@
    "name": "federated.nexus",
    "client_domain": "matrix.federated.nexus",
    "software": "continuwuity",
-   "version": "26.9.1 (af0f177)",
+   "version": "26.9.1 (85aab72)",
    "registration": {
     "open": false,
     "vanilla": false,
@@ -10908,7 +10908,7 @@
    "name": "nope.chat",
    "client_domain": "nope.chat",
    "software": "Synapse",
-   "version": "1.164.1",
+   "version": "1.164.2",
    "registration": {
     "open": true,
     "vanilla": false,
@@ -11080,7 +11080,7 @@
    "name": "oblak.be",
    "client_domain": "matrix.oblak.be",
    "software": "Synapse",
-   "version": "1.163.2",
+   "version": "1.164.2",
    "registration": {
     "open": true,
     "vanilla": false,
@@ -11834,7 +11834,7 @@
    "name": "pub.solar",
    "client_domain": "matrix.pub.solar",
    "software": "Synapse",
-   "version": "1.163.2",
+   "version": "1.164.2",
    "registration": {
     "open": false,
     "vanilla": false,
@@ -13797,7 +13797,7 @@
    "name": "thursdaycouncil.org",
    "client_domain": "continuwuity.thursdaycouncil.org",
    "software": "continuwuity",
-   "version": "26.9.1 (db86d42)",
+   "version": "26.9.1 (8c720e5)",
    "registration": {
     "open": false,
     "vanilla": false,
