@@ -1,6 +1,6 @@
 {
  "version": 1,
- "generated_at": "2026-11-07T11:06:47.614Z",
+ "generated_at": "2026-11-08T11:19:43.138Z",
  "refresh_interval_hours": 24,
  "counts": {
   "total": 1089,
@@ -16,7 +16,7 @@
    "count": 1037,
    "error": "Error: both routes failed — direct: Error: HTTP 502; proxy: Error: curl exit 56: curl: (56) CONNECT tunnel failed, response 403",
    "cached_at": "2026-10-21T09:23:33.398Z",
-   "cache_age_days": 17
+   "cache_age_days": 18
   },
   {
    "id": "joinmatrix",
@@ -33,7 +33,7 @@
    "count": 35,
    "error": "Error: both routes failed — direct: TypeError: fetch failed <- ConnectTimeoutError UND_ERR_CONNECT_TIMEOUT: Connect Timeout Error (attempted address: www.privacydev.net:443, timeout: 10000ms); proxy: Error: curl exit 56: curl: (56) CONNECT tunnel failed, response 403",
    "cached_at": "2026-11-02T12:29:43.296Z",
-   "cache_age_days": 4
+   "cache_age_days": 5
   }
  ],
  "servers": [
@@ -3342,7 +3342,7 @@
    "name": "federated.nexus",
    "client_domain": "matrix.federated.nexus",
    "software": "continuwuity",
-   "version": "26.9.1 (85aab72)",
+   "version": "26.9.1 (35813f5)",
    "registration": {
     "open": false,
     "vanilla": false,
@@ -3860,7 +3860,7 @@
    },
    "ipv6": false,
    "sliding_sync": true,
-   "online_status": 2,
+   "online_status": 0,
    "ver_status": 2,
    "room_directory": 20,
    "sources": [
@@ -3983,7 +3983,7 @@
   },
   {
    "name": "gnulinux.club",
-   "client_domain": "matrix.gnulinux.club",
+   "client_domain": "gnulinux.club",
    "software": "Synapse",
    "version": "1.162.0",
    "last_check": "2026-10-14T23:41:26.000Z",
@@ -4011,7 +4011,7 @@
    },
    "ipv6": true,
    "sliding_sync": true,
-   "online_status": 2,
+   "online_status": 0,
    "ver_status": 2,
    "room_directory": 2,
    "sources": [
@@ -5217,7 +5217,7 @@
    "name": "jonasled.de",
    "client_domain": "matrix.jonasled.de",
    "software": "Synapse",
-   "version": "1.163.1",
+   "version": "1.164.2",
    "registration": {
     "open": true,
     "vanilla": false,
@@ -13797,7 +13797,7 @@
    "name": "thursdaycouncil.org",
    "client_domain": "continuwuity.thursdaycouncil.org",
    "software": "continuwuity",
-   "version": "26.9.1 (8c720e5)",
+   "version": "26.9.1 (02aed4f)",
    "registration": {
     "open": false,
     "vanilla": false,
