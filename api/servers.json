@@ -1,6 +1,6 @@
 {
  "version": 1,
- "generated_at": "2026-11-08T11:19:43.138Z",
+ "generated_at": "2026-11-09T12:56:19.409Z",
  "refresh_interval_hours": 24,
  "counts": {
   "total": 1089,
@@ -16,7 +16,7 @@
    "count": 1037,
    "error": "Error: both routes failed — direct: Error: HTTP 502; proxy: Error: curl exit 56: curl: (56) CONNECT tunnel failed, response 403",
    "cached_at": "2026-10-21T09:23:33.398Z",
-   "cache_age_days": 18
+   "cache_age_days": 19
   },
   {
    "id": "joinmatrix",
@@ -33,7 +33,7 @@
    "count": 35,
    "error": "Error: both routes failed — direct: TypeError: fetch failed <- ConnectTimeoutError UND_ERR_CONNECT_TIMEOUT: Connect Timeout Error (attempted address: www.privacydev.net:443, timeout: 10000ms); proxy: Error: curl exit 56: curl: (56) CONNECT tunnel failed, response 403",
    "cached_at": "2026-11-02T12:29:43.296Z",
-   "cache_age_days": 5
+   "cache_age_days": 7
   }
  ],
  "servers": [
@@ -3272,7 +3272,7 @@
    "name": "fachschaften.org",
    "client_domain": "matrix.fachschaften.org",
    "software": "Synapse",
-   "version": "1.164.1",
+   "version": "1.164.2",
    "registration": {
     "open": false,
     "vanilla": false,
@@ -3574,7 +3574,7 @@
    "name": "freiburg.social",
    "client_domain": "matrix.freiburg.social",
    "software": "Synapse",
-   "version": "1.160.0",
+   "version": "1.164.2",
    "registration": {
     "open": false,
     "vanilla": false,
@@ -3607,7 +3607,7 @@
    "ipv6": false,
    "sliding_sync": true,
    "online_status": 2,
-   "ver_status": 1,
+   "ver_status": 2,
    "room_directory": -1,
    "sources": [
     "joinmatrix",
@@ -3860,7 +3860,7 @@
    },
    "ipv6": false,
    "sliding_sync": true,
-   "online_status": 0,
+   "online_status": 2,
    "ver_status": 2,
    "room_directory": 20,
    "sources": [
@@ -13601,7 +13601,7 @@
    "sliding_sync": false,
    "online_status": 2,
    "ver_status": 2,
-   "room_directory": 1586,
+   "room_directory": 1587,
    "sources": [
     "joinmatrix",
     "privacydev"
