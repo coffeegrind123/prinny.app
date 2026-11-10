@@ -1,6 +1,6 @@
 {
  "version": 1,
- "generated_at": "2026-11-09T12:56:19.409Z",
+ "generated_at": "2026-11-10T09:49:38.694Z",
  "refresh_interval_hours": 24,
  "counts": {
   "total": 1089,
@@ -16,7 +16,7 @@
    "count": 1037,
    "error": "Error: both routes failed — direct: Error: HTTP 502; proxy: Error: curl exit 56: curl: (56) CONNECT tunnel failed, response 403",
    "cached_at": "2026-10-21T09:23:33.398Z",
-   "cache_age_days": 19
+   "cache_age_days": 20
   },
   {
    "id": "joinmatrix",
@@ -10945,7 +10945,7 @@
    "name": "norge.chat",
    "client_domain": "matrix.norge.chat",
    "software": "Synapse",
-   "version": "1.164.1",
+   "version": "1.164.2",
    "registration": {
     "open": false,
     "vanilla": false,
@@ -13797,7 +13797,7 @@
    "name": "thursdaycouncil.org",
    "client_domain": "continuwuity.thursdaycouncil.org",
    "software": "continuwuity",
-   "version": "26.9.1 (02aed4f)",
+   "version": "26.9.1 (779374b)",
    "registration": {
     "open": false,
     "vanilla": false,
