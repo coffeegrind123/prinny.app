@@ -1,6 +1,6 @@
 {
  "version": 1,
- "generated_at": "2026-11-10T09:49:38.694Z",
+ "generated_at": "2026-11-10T12:42:45.774Z",
  "refresh_interval_hours": 24,
  "counts": {
   "total": 1089,
@@ -33,7 +33,7 @@
    "count": 35,
    "error": "Error: both routes failed — direct: TypeError: fetch failed <- ConnectTimeoutError UND_ERR_CONNECT_TIMEOUT: Connect Timeout Error (attempted address: www.privacydev.net:443, timeout: 10000ms); proxy: Error: curl exit 56: curl: (56) CONNECT tunnel failed, response 403",
    "cached_at": "2026-11-02T12:29:43.296Z",
-   "cache_age_days": 7
+   "cache_age_days": 8
   }
  ],
  "servers": [
