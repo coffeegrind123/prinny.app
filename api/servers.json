@@ -1,6 +1,6 @@
 {
  "version": 1,
- "generated_at": "2026-11-11T11:54:59.541Z",
+ "generated_at": "2026-11-12T12:47:57.639Z",
  "refresh_interval_hours": 24,
  "counts": {
   "total": 1089,
@@ -14,9 +14,9 @@
    "ok": false,
    "stale": true,
    "count": 1037,
-   "error": "Error: both routes failed — direct: Error: HTTP 502; proxy: Error: curl exit 56: curl: (56) CONNECT tunnel failed, response 403",
+   "error": "Error: both routes failed — direct: Error: HTTP 502; proxy: Error: curl exit 7: curl: (7) CONNECT tunnel failed, response 403",
    "cached_at": "2026-10-21T09:23:33.398Z",
-   "cache_age_days": 21
+   "cache_age_days": 22
   },
   {
    "id": "joinmatrix",
@@ -31,9 +31,9 @@
    "ok": false,
    "stale": true,
    "count": 35,
-   "error": "Error: both routes failed — direct: TypeError: fetch failed <- ConnectTimeoutError UND_ERR_CONNECT_TIMEOUT: Connect Timeout Error (attempted address: www.privacydev.net:443, timeout: 10000ms); proxy: Error: curl exit 56: curl: (56) CONNECT tunnel failed, response 403",
+   "error": "Error: both routes failed — direct: TypeError: fetch failed <- ConnectTimeoutError UND_ERR_CONNECT_TIMEOUT: Connect Timeout Error (attempted address: www.privacydev.net:443, timeout: 10000ms); proxy: Error: curl exit 7: curl: (7) CONNECT tunnel failed, response 403",
    "cached_at": "2026-11-02T12:29:43.296Z",
-   "cache_age_days": 8
+   "cache_age_days": 10
   }
  ],
  "servers": [
@@ -1933,7 +1933,7 @@
   },
   {
    "name": "ckconflux.com",
-   "client_domain": "ckconflux.com",
+   "client_domain": "synapse.ckconflux.com",
    "software": "Synapse",
    "version": "1.163.2",
    "registration": {
@@ -1951,9 +1951,9 @@
     "jurisdiction": "United States",
     "longstanding": false
    },
-   "ipv6": true,
+   "ipv6": false,
    "sliding_sync": true,
-   "online_status": 0,
+   "online_status": 2,
    "ver_status": 2,
    "room_directory": -1,
    "sources": [
@@ -11790,7 +11790,7 @@
    "name": "proxymana.net",
    "client_domain": "matrix.proxymana.net",
    "software": "Synapse",
-   "version": "1.164.2",
+   "version": "1.165.0",
    "registration": {
     "open": false,
     "vanilla": false,
@@ -12963,7 +12963,7 @@
    "ipv6": false,
    "online_status": 2,
    "ver_status": 2,
-   "room_directory": 22,
+   "room_directory": 23,
    "sources": [
     "joinmatrix"
    ]
