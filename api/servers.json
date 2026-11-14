@@ -1,6 +1,6 @@
 {
  "version": 1,
- "generated_at": "2026-11-13T12:16:49.348Z",
+ "generated_at": "2026-11-14T11:32:11.163Z",
  "refresh_interval_hours": 24,
  "counts": {
   "total": 1089,
@@ -16,7 +16,7 @@
    "count": 1037,
    "error": "Error: both routes failed — direct: Error: HTTP 502; proxy: Error: curl exit 7: curl: (7) CONNECT tunnel failed, response 403",
    "cached_at": "2026-10-21T09:23:33.398Z",
-   "cache_age_days": 23
+   "cache_age_days": 24
   },
   {
    "id": "joinmatrix",
@@ -28,12 +28,9 @@
   {
    "id": "privacydev",
    "url": "https://www.privacydev.net/matrix_instances.csv",
-   "ok": false,
-   "stale": true,
-   "count": 35,
-   "error": "Error: both routes failed — direct: TypeError: fetch failed <- ConnectTimeoutError UND_ERR_CONNECT_TIMEOUT: Connect Timeout Error (attempted address: www.privacydev.net:443, timeout: 10000ms); proxy: Error: curl exit 7: curl: (7) CONNECT tunnel failed, response 403",
-   "cached_at": "2026-11-02T12:29:43.296Z",
-   "cache_age_days": 10
+   "ok": true,
+   "stale": false,
+   "count": 35
   }
  ],
  "servers": [
@@ -3272,7 +3269,7 @@
    "name": "fachschaften.org",
    "client_domain": "matrix.fachschaften.org",
    "software": "Synapse",
-   "version": "1.164.2",
+   "version": "1.165.0",
    "registration": {
     "open": false,
     "vanilla": false,
@@ -4374,7 +4371,7 @@
    "ipv6": true,
    "sliding_sync": true,
    "online_status": 2,
-   "ver_status": 2,
+   "ver_status": 1,
    "room_directory": -1,
    "sources": [
     "joinmatrix"
@@ -10945,7 +10942,7 @@
    "name": "norge.chat",
    "client_domain": "matrix.norge.chat",
    "software": "Synapse",
-   "version": "1.164.2",
+   "version": "1.165.0",
    "registration": {
     "open": false,
     "vanilla": false,
