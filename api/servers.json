@@ -1,6 +1,6 @@
 {
  "version": 1,
- "generated_at": "2026-11-15T11:59:16.803Z",
+ "generated_at": "2026-11-16T12:49:27.707Z",
  "refresh_interval_hours": 24,
  "counts": {
   "total": 1089,
@@ -16,7 +16,7 @@
    "count": 1037,
    "error": "Error: both routes failed — direct: Error: HTTP 502; proxy: Error: curl exit 7: curl: (7) CONNECT tunnel failed, response 403",
    "cached_at": "2026-10-21T09:23:33.398Z",
-   "cache_age_days": 25
+   "cache_age_days": 26
   },
   {
    "id": "joinmatrix",
@@ -33,7 +33,7 @@
    "count": 35,
    "error": "Error: both routes failed — direct: TypeError: fetch failed <- ConnectTimeoutError UND_ERR_CONNECT_TIMEOUT: Connect Timeout Error (attempted address: www.privacydev.net:443, timeout: 10000ms); proxy: Error: curl exit 7: curl: (7) CONNECT tunnel failed, response 403",
    "cached_at": "2026-11-14T11:31:31.588Z",
-   "cache_age_days": 1
+   "cache_age_days": 2
   }
  ],
  "servers": [
@@ -760,7 +760,7 @@
    "name": "bark.lgbt",
    "client_domain": "synapse.bark.lgbt",
    "software": "Synapse",
-   "version": "1.164.2",
+   "version": "1.165.0",
    "registration": {
     "open": false,
     "vanilla": false,
@@ -1834,32 +1834,6 @@
    ]
   },
   {
-   "name": "chatwave.org",
-   "client_domain": "matrix.chatwave.org",
-   "registration": {
-    "open": true,
-    "captcha": false,
-    "recaptcha": false,
-    "hcaptcha": false,
-    "email_required": true
-   },
-   "privacy": {
-    "tor_friendly": true,
-    "cloudflare": false
-   },
-   "sources": [
-    "privacydev"
-   ],
-   "aliases": [
-    "matrix.chatwave.org"
-   ],
-   "link_evidence": {
-    "linked_to": "chatwave.org",
-    "method": "well-known",
-    "detail": "https://chatwave.org/.well-known/matrix/client → matrix.chatwave.org"
-   }
-  },
-  {
    "name": "chatwire.net",
    "client_domain": "chatwire.net",
    "last_check": "2026-10-17T13:24:28.000Z",
@@ -2824,7 +2798,7 @@
    "name": "doginahat.net.nz",
    "client_domain": "matrix.doginahat.net.nz",
    "software": "continuwuity",
-   "version": "26.9.1 (046074b)",
+   "version": "26.9.4 (dda4bdc)",
    "registration": {
     "open": false,
     "vanilla": false,
@@ -3342,7 +3316,7 @@
    "name": "federated.nexus",
    "client_domain": "matrix.federated.nexus",
    "software": "continuwuity",
-   "version": "26.11.0-alpha.1 (806fa95)",
+   "version": "26.11.0-alpha.2 (037a829)",
    "registration": {
     "open": false,
     "vanilla": false,
@@ -4908,7 +4882,7 @@
    },
    "ipv6": true,
    "sliding_sync": true,
-   "online_status": 2,
+   "online_status": 0,
    "ver_status": 2,
    "room_directory": -1,
    "sources": [
@@ -6759,6 +6733,24 @@
    },
    "sources": [
     "asra"
+   ]
+  },
+  {
+   "name": "matrix.chatwave.org",
+   "client_domain": "matrix.chatwave.org",
+   "registration": {
+    "open": true,
+    "captcha": false,
+    "recaptcha": false,
+    "hcaptcha": false,
+    "email_required": true
+   },
+   "privacy": {
+    "tor_friendly": true,
+    "cloudflare": false
+   },
+   "sources": [
+    "privacydev"
    ]
   },
   {
@@ -10908,7 +10900,7 @@
    "name": "nope.chat",
    "client_domain": "nope.chat",
    "software": "Synapse",
-   "version": "1.164.2",
+   "version": "1.165.0",
    "registration": {
     "open": true,
     "vanilla": false,
@@ -13601,7 +13593,7 @@
    "sliding_sync": false,
    "online_status": 2,
    "ver_status": 2,
-   "room_directory": 1586,
+   "room_directory": 1580,
    "sources": [
     "joinmatrix",
     "privacydev"
@@ -13797,7 +13789,7 @@
    "name": "thursdaycouncil.org",
    "client_domain": "continuwuity.thursdaycouncil.org",
    "software": "continuwuity",
-   "version": "26.9.1 (779374b)",
+   "version": "26.11.0-alpha.2 (24e962a)",
    "registration": {
     "open": false,
     "vanilla": false,
