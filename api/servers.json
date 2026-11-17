@@ -1,6 +1,6 @@
 {
  "version": 1,
- "generated_at": "2026-11-16T12:49:27.707Z",
+ "generated_at": "2026-11-17T13:30:41.618Z",
  "refresh_interval_hours": 24,
  "counts": {
   "total": 1089,
@@ -16,7 +16,7 @@
    "count": 1037,
    "error": "Error: both routes failed — direct: Error: HTTP 502; proxy: Error: curl exit 7: curl: (7) CONNECT tunnel failed, response 403",
    "cached_at": "2026-10-21T09:23:33.398Z",
-   "cache_age_days": 26
+   "cache_age_days": 27
   },
   {
    "id": "joinmatrix",
@@ -33,7 +33,7 @@
    "count": 35,
    "error": "Error: both routes failed — direct: TypeError: fetch failed <- ConnectTimeoutError UND_ERR_CONNECT_TIMEOUT: Connect Timeout Error (attempted address: www.privacydev.net:443, timeout: 10000ms); proxy: Error: curl exit 7: curl: (7) CONNECT tunnel failed, response 403",
    "cached_at": "2026-11-14T11:31:31.588Z",
-   "cache_age_days": 2
+   "cache_age_days": 3
   }
  ],
  "servers": [
@@ -1832,6 +1832,32 @@
    "sources": [
     "asra"
    ]
+  },
+  {
+   "name": "chatwave.org",
+   "client_domain": "matrix.chatwave.org",
+   "registration": {
+    "open": true,
+    "captcha": false,
+    "recaptcha": false,
+    "hcaptcha": false,
+    "email_required": true
+   },
+   "privacy": {
+    "tor_friendly": true,
+    "cloudflare": false
+   },
+   "sources": [
+    "privacydev"
+   ],
+   "aliases": [
+    "matrix.chatwave.org"
+   ],
+   "link_evidence": {
+    "linked_to": "chatwave.org",
+    "method": "well-known",
+    "detail": "https://chatwave.org/.well-known/matrix/client → matrix.chatwave.org"
+   }
   },
   {
    "name": "chatwire.net",
@@ -4882,7 +4908,7 @@
    },
    "ipv6": true,
    "sliding_sync": true,
-   "online_status": 0,
+   "online_status": 2,
    "ver_status": 2,
    "room_directory": -1,
    "sources": [
@@ -6733,24 +6759,6 @@
    },
    "sources": [
     "asra"
-   ]
-  },
-  {
-   "name": "matrix.chatwave.org",
-   "client_domain": "matrix.chatwave.org",
-   "registration": {
-    "open": true,
-    "captcha": false,
-    "recaptcha": false,
-    "hcaptcha": false,
-    "email_required": true
-   },
-   "privacy": {
-    "tor_friendly": true,
-    "cloudflare": false
-   },
-   "sources": [
-    "privacydev"
    ]
   },
   {
@@ -13789,7 +13797,7 @@
    "name": "thursdaycouncil.org",
    "client_domain": "continuwuity.thursdaycouncil.org",
    "software": "continuwuity",
-   "version": "26.11.0-alpha.2 (24e962a)",
+   "version": "26.11.0-alpha.2 (055c430)",
    "registration": {
     "open": false,
     "vanilla": false,
