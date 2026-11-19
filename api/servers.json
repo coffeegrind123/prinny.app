@@ -1,6 +1,6 @@
 {
  "version": 1,
- "generated_at": "2026-11-18T13:07:39.798Z",
+ "generated_at": "2026-11-19T13:16:41.866Z",
  "refresh_interval_hours": 24,
  "counts": {
   "total": 1089,
@@ -16,7 +16,7 @@
    "count": 1037,
    "error": "Error: both routes failed — direct: Error: HTTP 502; proxy: Error: curl exit 7: curl: (7) CONNECT tunnel failed, response 403",
    "cached_at": "2026-10-21T09:23:33.398Z",
-   "cache_age_days": 28
+   "cache_age_days": 29
   },
   {
    "id": "joinmatrix",
@@ -31,9 +31,9 @@
    "ok": false,
    "stale": true,
    "count": 35,
-   "error": "Error: both routes failed — direct: TypeError: fetch failed <- ConnectTimeoutError UND_ERR_CONNECT_TIMEOUT: Connect Timeout Error (attempted address: www.privacydev.net:443, timeout: 10000ms); proxy: Error: curl exit 7: curl: (7) CONNECT tunnel failed, response 403",
+   "error": "Error: both routes failed — direct: TypeError: fetch failed <- Error ECONNREFUSED: connect ECONNREFUSED 144.225.93.71:443; proxy: Error: curl exit 7: curl: (7) CONNECT tunnel failed, response 403",
    "cached_at": "2026-11-14T11:31:31.588Z",
-   "cache_age_days": 4
+   "cache_age_days": 5
   }
  ],
  "servers": [
@@ -9321,6 +9321,25 @@
    ]
   },
   {
+   "name": "matrix.sibnsk.net",
+   "client_domain": "matrix.sibnsk.net",
+   "registration": {
+    "open": true,
+    "captcha": true,
+    "recaptcha": true,
+    "hcaptcha": false,
+    "email_required": false
+   },
+   "privacy": {
+    "tor_friendly": true,
+    "cloudflare": false,
+    "similarweb_rank": 8911689
+   },
+   "sources": [
+    "privacydev"
+   ]
+  },
+  {
    "name": "matrix.sigmatech.de",
    "client_domain": "matrix.sigmatech.de",
    "software": "Synapse",
@@ -12835,33 +12854,6 @@
    ]
   },
   {
-   "name": "sibnsk.net",
-   "client_domain": "matrix.sibnsk.net",
-   "registration": {
-    "open": true,
-    "captcha": true,
-    "recaptcha": true,
-    "hcaptcha": false,
-    "email_required": false
-   },
-   "privacy": {
-    "tor_friendly": true,
-    "cloudflare": false,
-    "similarweb_rank": 8911689
-   },
-   "sources": [
-    "privacydev"
-   ],
-   "aliases": [
-    "matrix.sibnsk.net"
-   ],
-   "link_evidence": {
-    "linked_to": "sibnsk.net",
-    "method": "well-known",
-    "detail": "https://sibnsk.net/.well-known/matrix/client → matrix.sibnsk.net"
-   }
-  },
-  {
    "name": "sigterm.uk",
    "client_domain": "sigterm.uk",
    "last_check": "2026-10-21T00:09:55.000Z",
@@ -13601,7 +13593,7 @@
    "sliding_sync": false,
    "online_status": 2,
    "ver_status": 2,
-   "room_directory": 1580,
+   "room_directory": 1579,
    "sources": [
     "joinmatrix",
     "privacydev"
@@ -13797,7 +13789,7 @@
    "name": "thursdaycouncil.org",
    "client_domain": "continuwuity.thursdaycouncil.org",
    "software": "continuwuity",
-   "version": "26.11.0-alpha.2 (a3d23c3)",
+   "version": "26.11.0-alpha.2 (467e335)",
    "registration": {
     "open": false,
     "vanilla": false,
