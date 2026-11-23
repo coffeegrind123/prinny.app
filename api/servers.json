@@ -1,6 +1,6 @@
 {
  "version": 1,
- "generated_at": "2026-11-22T12:38:47.569Z",
+ "generated_at": "2026-11-23T14:44:55.099Z",
  "refresh_interval_hours": 24,
  "counts": {
   "total": 1089,
@@ -16,7 +16,7 @@
    "count": 1037,
    "error": "Error: both routes failed — direct: Error: HTTP 502; proxy: Error: curl exit 7: curl: (7) CONNECT tunnel failed, response 403",
    "cached_at": "2026-10-21T09:23:33.398Z",
-   "cache_age_days": 32
+   "cache_age_days": 33
   },
   {
    "id": "joinmatrix",
@@ -33,7 +33,7 @@
    "count": 35,
    "error": "Error: both routes failed — direct: TypeError: fetch failed <- ConnectTimeoutError UND_ERR_CONNECT_TIMEOUT: Connect Timeout Error (attempted address: www.privacydev.net:443, timeout: 10000ms); proxy: Error: curl exit 7: curl: (7) CONNECT tunnel failed, response 403",
    "cached_at": "2026-11-14T11:31:31.588Z",
-   "cache_age_days": 8
+   "cache_age_days": 9
   }
  ],
  "servers": [
@@ -784,7 +784,7 @@
    "ipv6": true,
    "sliding_sync": true,
    "online_status": 2,
-   "ver_status": 1,
+   "ver_status": 2,
    "room_directory": 43,
    "sources": [
     "joinmatrix"
@@ -1954,7 +1954,7 @@
    "ipv6": false,
    "sliding_sync": true,
    "online_status": 2,
-   "ver_status": 1,
+   "ver_status": 2,
    "room_directory": -1,
    "sources": [
     "joinmatrix"
@@ -2151,7 +2151,7 @@
    "ipv6": true,
    "sliding_sync": true,
    "online_status": 2,
-   "ver_status": 1,
+   "ver_status": 2,
    "room_directory": -1,
    "sources": [
     "joinmatrix"
@@ -2674,7 +2674,7 @@
    "ipv6": false,
    "sliding_sync": true,
    "online_status": 2,
-   "ver_status": 1,
+   "ver_status": 2,
    "room_directory": -1,
    "sources": [
     "asra",
@@ -3224,7 +3224,7 @@
    "ipv6": false,
    "sliding_sync": true,
    "online_status": 2,
-   "ver_status": 1,
+   "ver_status": 2,
    "room_directory": -1,
    "sources": [
     "asra",
@@ -3299,7 +3299,7 @@
    "ipv6": true,
    "sliding_sync": true,
    "online_status": 2,
-   "ver_status": 1,
+   "ver_status": 2,
    "room_directory": -1,
    "sources": [
     "joinmatrix"
@@ -3560,7 +3560,7 @@
    "ipv6": false,
    "sliding_sync": true,
    "online_status": 2,
-   "ver_status": 1,
+   "ver_status": 2,
    "room_directory": -1,
    "sources": [
     "joinmatrix",
@@ -3607,7 +3607,7 @@
    "ipv6": false,
    "sliding_sync": true,
    "online_status": 2,
-   "ver_status": 1,
+   "ver_status": 2,
    "room_directory": -1,
    "sources": [
     "joinmatrix",
@@ -3861,7 +3861,7 @@
    "ipv6": false,
    "sliding_sync": true,
    "online_status": 2,
-   "ver_status": 1,
+   "ver_status": 2,
    "room_directory": 20,
    "sources": [
     "asra",
@@ -4374,7 +4374,7 @@
    "ipv6": true,
    "sliding_sync": true,
    "online_status": 2,
-   "ver_status": 1,
+   "ver_status": 2,
    "room_directory": -1,
    "sources": [
     "joinmatrix"
@@ -4665,7 +4665,7 @@
    "ipv6": true,
    "sliding_sync": true,
    "online_status": 2,
-   "ver_status": 1,
+   "ver_status": 2,
    "room_directory": -1,
    "sources": [
     "asra",
@@ -4909,7 +4909,7 @@
    "ipv6": true,
    "sliding_sync": true,
    "online_status": 2,
-   "ver_status": 1,
+   "ver_status": 2,
    "room_directory": -1,
    "sources": [
     "asra",
@@ -5239,7 +5239,7 @@
    "ipv6": true,
    "sliding_sync": true,
    "online_status": 2,
-   "ver_status": 1,
+   "ver_status": 2,
    "room_directory": -1,
    "sources": [
     "joinmatrix"
@@ -5966,7 +5966,7 @@
    "ipv6": true,
    "sliding_sync": true,
    "online_status": 2,
-   "ver_status": 1,
+   "ver_status": 2,
    "room_directory": -1,
    "sources": [
     "joinmatrix"
@@ -10525,7 +10525,7 @@
    },
    "ipv6": true,
    "online_status": 2,
-   "ver_status": 1,
+   "ver_status": 2,
    "room_directory": -1,
    "sources": [
     "joinmatrix"
@@ -10802,7 +10802,7 @@
    },
    "ipv6": true,
    "online_status": 2,
-   "ver_status": 1,
+   "ver_status": 2,
    "room_directory": 3,
    "sources": [
     "joinmatrix"
@@ -10935,7 +10935,7 @@
    "ipv6": true,
    "sliding_sync": true,
    "online_status": 2,
-   "ver_status": 1,
+   "ver_status": 2,
    "room_directory": 60,
    "sources": [
     "joinmatrix"
@@ -10967,7 +10967,7 @@
    "ipv6": true,
    "sliding_sync": true,
    "online_status": 2,
-   "ver_status": 1,
+   "ver_status": 2,
    "room_directory": -1,
    "sources": [
     "joinmatrix"
@@ -11113,7 +11113,7 @@
    "ipv6": false,
    "sliding_sync": true,
    "online_status": 2,
-   "ver_status": 1,
+   "ver_status": 2,
    "room_directory": -1,
    "sources": [
     "joinmatrix",
@@ -11445,7 +11445,7 @@
    "ipv6": true,
    "sliding_sync": true,
    "online_status": 2,
-   "ver_status": 1,
+   "ver_status": 2,
    "room_directory": -1,
    "sources": [
     "joinmatrix"
@@ -11717,7 +11717,7 @@
    "ipv6": true,
    "sliding_sync": true,
    "online_status": 2,
-   "ver_status": 1,
+   "ver_status": 2,
    "room_directory": -1,
    "sources": [
     "joinmatrix"
@@ -11811,7 +11811,7 @@
    "ipv6": false,
    "sliding_sync": true,
    "online_status": 2,
-   "ver_status": 1,
+   "ver_status": 2,
    "room_directory": -1,
    "sources": [
     "joinmatrix"
@@ -11860,7 +11860,7 @@
    "ipv6": true,
    "sliding_sync": true,
    "online_status": 2,
-   "ver_status": 1,
+   "ver_status": 2,
    "room_directory": -1,
    "sources": [
     "joinmatrix"
@@ -11939,7 +11939,7 @@
    },
    "ipv6": false,
    "online_status": 2,
-   "ver_status": 1,
+   "ver_status": 2,
    "room_directory": 6,
    "sources": [
     "joinmatrix"
@@ -12217,7 +12217,7 @@
    "ipv6": true,
    "sliding_sync": true,
    "online_status": 2,
-   "ver_status": 1,
+   "ver_status": 2,
    "room_directory": 8,
    "sources": [
     "joinmatrix"
@@ -12962,7 +12962,7 @@
    },
    "ipv6": false,
    "online_status": 2,
-   "ver_status": 1,
+   "ver_status": 2,
    "room_directory": 23,
    "sources": [
     "joinmatrix"
@@ -13600,8 +13600,8 @@
    "ipv6": true,
    "sliding_sync": false,
    "online_status": 2,
-   "ver_status": 1,
-   "room_directory": 1579,
+   "ver_status": 2,
+   "room_directory": 1580,
    "sources": [
     "joinmatrix",
     "privacydev"
@@ -13797,7 +13797,7 @@
    "name": "thursdaycouncil.org",
    "client_domain": "continuwuity.thursdaycouncil.org",
    "software": "continuwuity",
-   "version": "26.11.0-alpha.2 (49207a4)",
+   "version": "26.11.0-alpha.2 (919fea9)",
    "registration": {
     "open": false,
     "vanilla": false,
@@ -14150,7 +14150,7 @@
    "ipv6": false,
    "sliding_sync": true,
    "online_status": 2,
-   "ver_status": 1,
+   "ver_status": 2,
    "room_directory": -1,
    "sources": [
     "asra",
