@@ -1,6 +1,6 @@
 {
  "version": 1,
- "generated_at": "2026-11-24T14:55:30.504Z",
+ "generated_at": "2026-11-25T14:28:38.193Z",
  "refresh_interval_hours": 24,
  "counts": {
   "total": 1089,
@@ -16,7 +16,7 @@
    "count": 1037,
    "error": "Error: both routes failed — direct: Error: HTTP 502; proxy: Error: curl exit 7: curl: (7) CONNECT tunnel failed, response 403",
    "cached_at": "2026-10-21T09:23:33.398Z",
-   "cache_age_days": 34
+   "cache_age_days": 35
   },
   {
    "id": "joinmatrix",
@@ -33,7 +33,7 @@
    "count": 35,
    "error": "Error: both routes failed — direct: TypeError: fetch failed <- ConnectTimeoutError UND_ERR_CONNECT_TIMEOUT: Connect Timeout Error (attempted address: www.privacydev.net:443, timeout: 10000ms); proxy: Error: curl exit 7: curl: (7) CONNECT tunnel failed, response 403",
    "cached_at": "2026-11-14T11:31:31.588Z",
-   "cache_age_days": 10
+   "cache_age_days": 11
   }
  ],
  "servers": [
@@ -4013,7 +4013,7 @@
    "sliding_sync": true,
    "online_status": 2,
    "ver_status": 2,
-   "room_directory": 2,
+   "room_directory": -1,
    "sources": [
     "asra",
     "joinmatrix"
@@ -10786,7 +10786,7 @@
    "name": "nhjkl.com",
    "client_domain": "nhjkl.com",
    "software": "Synapse",
-   "version": "1.166.0rc1",
+   "version": "1.166.0",
    "registration": {
     "open": false,
     "vanilla": false,
@@ -11080,7 +11080,7 @@
    "name": "oblak.be",
    "client_domain": "matrix.oblak.be",
    "software": "Synapse",
-   "version": "1.164.2",
+   "version": "1.165.0",
    "registration": {
     "open": true,
     "vanilla": false,
@@ -13797,7 +13797,7 @@
    "name": "thursdaycouncil.org",
    "client_domain": "continuwuity.thursdaycouncil.org",
    "software": "continuwuity",
-   "version": "26.11.0-alpha.2 (c82aba6)",
+   "version": "26.11.0-alpha.2 (ff8bf9b)",
    "registration": {
     "open": false,
     "vanilla": false,
