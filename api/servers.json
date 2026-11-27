@@ -1,6 +1,6 @@
 {
  "version": 1,
- "generated_at": "2026-11-26T13:57:17.562Z",
+ "generated_at": "2026-11-27T13:55:49.958Z",
  "refresh_interval_hours": 24,
  "counts": {
   "total": 1089,
@@ -16,7 +16,7 @@
    "count": 1037,
    "error": "Error: both routes failed — direct: Error: HTTP 502; proxy: Error: curl exit 7: curl: (7) CONNECT tunnel failed, response 403",
    "cached_at": "2026-10-21T09:23:33.398Z",
-   "cache_age_days": 36
+   "cache_age_days": 37
   },
   {
    "id": "joinmatrix",
@@ -33,7 +33,7 @@
    "count": 35,
    "error": "Error: both routes failed — direct: TypeError: fetch failed <- ConnectTimeoutError UND_ERR_CONNECT_TIMEOUT: Connect Timeout Error (attempted address: www.privacydev.net:443, timeout: 10000ms); proxy: Error: curl exit 7: curl: (7) CONNECT tunnel failed, response 403",
    "cached_at": "2026-11-14T11:31:31.588Z",
-   "cache_age_days": 12
+   "cache_age_days": 13
   }
  ],
  "servers": [
@@ -1209,7 +1209,7 @@
    "name": "catgirl.cloud",
    "client_domain": "matrix.catgirl.cloud",
    "software": "Synapse",
-   "version": "1.163.0",
+   "version": "1.165.0",
    "registration": {
     "open": true,
     "vanilla": false,
@@ -1241,7 +1241,7 @@
    "ipv6": true,
    "sliding_sync": true,
    "online_status": 2,
-   "ver_status": 1,
+   "ver_status": 2,
    "room_directory": -1,
    "sources": [
     "joinmatrix",
@@ -1954,7 +1954,7 @@
    "ipv6": false,
    "sliding_sync": true,
    "online_status": 2,
-   "ver_status": 2,
+   "ver_status": 1,
    "room_directory": -1,
    "sources": [
     "joinmatrix"
@@ -3527,7 +3527,7 @@
    "name": "frei.chat",
    "client_domain": "matrix.frei.chat",
    "software": "Synapse",
-   "version": "1.165.0",
+   "version": "1.166.0",
    "registration": {
     "open": false,
     "vanilla": false,
@@ -10501,7 +10501,7 @@
    "name": "mtux.nl",
    "client_domain": "mtux.nl",
    "software": "Synapse",
-   "version": "1.165.0",
+   "version": "1.166.0",
    "registration": {
     "open": false,
     "vanilla": false,
@@ -10908,7 +10908,7 @@
    "name": "nope.chat",
    "client_domain": "nope.chat",
    "software": "Synapse",
-   "version": "1.165.0",
+   "version": "1.166.0",
    "registration": {
     "open": true,
     "vanilla": false,
@@ -11445,7 +11445,7 @@
    "ipv6": true,
    "sliding_sync": true,
    "online_status": 2,
-   "ver_status": 2,
+   "ver_status": 1,
    "room_directory": -1,
    "sources": [
     "joinmatrix"
@@ -13565,7 +13565,7 @@
    "name": "tchncs.de",
    "client_domain": "matrix.tchncs.de",
    "software": "Synapse",
-   "version": "1.165.0",
+   "version": "1.166.0",
    "registration": {
     "open": true,
     "vanilla": false,
@@ -13797,7 +13797,7 @@
    "name": "thursdaycouncil.org",
    "client_domain": "continuwuity.thursdaycouncil.org",
    "software": "continuwuity",
-   "version": "26.11.0-alpha.2 (ff8bf9b)",
+   "version": "26.11.0-alpha.2 (18c1ce4)",
    "registration": {
     "open": false,
     "vanilla": false,
